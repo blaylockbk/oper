@@ -1,0 +1,30 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+SOBRANES	CA-BEU-003422	Human	10-Aug-16	22-Jul-16	1	California	68698	60.0	31-Aug-16	36.461	-121.901	Monterey
+CLARK	CA-INF-001415	Not Reported	10-Aug-16	Not Reported	c	Not Reported	2819	Not Reported	Not Reported	37.799	-118.923	Not Reported
+PILOT	CA-BDF-010205	Undetermined	10-Aug-16	07-Aug-16	2	California	7861	96.0	14-Aug-16	34.288	-117.251	San Bernardino
+MINERAL	CA-FKU-011358	Undetermined	10-Aug-16	09-Aug-16	1	California	5000	70.0	16-Aug-16	36.089	-120.522	Fresno
+HORSESHOE	CA-INF-001457	Undetermined	10-Aug-16	09-Aug-16	2	California	400	91.0	14-Aug-16	36.463	-118.136	Inyo
+PIONEER	ID-BOF-000539	Undetermined	10-Aug-16	18-Jul-16	1	Idaho	64786	40.0	30-Sep-16	43.950	-115.762	Boise
+BROAD MOUTH	UT-BRS-000576	Not Reported	10-Aug-16	Not Reported	c	Not Reported	20616	Not Reported	Not Reported	41.911	-112.310	Not Reported
+DRY CREEK	ID-STF-000195	Undetermined	10-Aug-16	06-Aug-16		Idaho	788	100.0	12-Aug-16	44.275	-115.039	Custer
+STRAWBERRY	NV-GBP-040129	Natural	10-Aug-16	08-Aug-16	2	Nevada	4700	59.0	19-Aug-16	39.048	-114.306	White Pine
+OVERLAND	NV-ELD-040130	Undetermined	10-Aug-16	08-Aug-16		Nevada	8900	91.0	14-Aug-16	39.966	-115.626	White Pine
+POWER LINE	ID-FHA-003148	Undetermined	10-Aug-16	10-Aug-16	c	Idaho	788	100.0	12-Aug-16	42.710	-112.734	Power
+HUNTER PEAK	WY-SHF-000428	Natural	09-Aug-16	10-Aug-16	1	Wyoming	1400	0.0	01-Oct-16	44.877	-109.718	Park
+TWIN LAKES	WY-WBD-000421	Natural	09-Aug-16	09-Aug-16	2	Wyoming	200	5.0	20-Aug-16	43.894	-108.981	Hot Springs
+BEAVER CREEK	CO-RTF-000088	Human	10-Aug-16	19-Jun-16	N	Colorado	35543	41.0	19-Aug-16	40.958	-106.634	Jackson
+WHIT	WY-WBD-000393	Not Reported	10-Aug-16	Not Reported	1	Not Reported	12387	Not Reported	Not Reported	44.439	-109.427	Not Reported
+WASHAKIE PARK	WY-WRA-000442	Natural	11-Aug-16	11-Aug-16		Wyoming	550	60.0	14-Aug-16	42.994	-108.997	Fremont
+LAVA MOUNTAIN	WY-SHF-000267	Natural	10-Aug-16	12-Jul-16		Wyoming	14644	95.0	01-Sep-16	43.642	-109.968	Fremont
+RAIL	OR-WWF-000582	Undetermined	10-Aug-16	31-Jul-16	2	Oregon	111503	12.0	31-Aug-16	44.408	-118.383	Baker
+JUNTURA COMPLEX	OR-VAD-000145	Undetermined	10-Aug-16	08-Aug-16	2	Oregon	24301	85.0	15-Aug-16	43.836	-117.908	Malheur
+KEWA	WA-COA-000082	Undetermined	10-Aug-16	02-Aug-16	2	Washington	1889	100.0	14-Aug-16	48.157	-118.265	Ferry
+OREJANA FLAT	OR-BUD-006064	Natural	10-Aug-16	07-Aug-16		Oregon	897	100.0	15-Aug-16	43.006	-118.376	Harney
+GIBBON	OR-973S-000663	Not Reported	10-Aug-16	Not Reported		Not Reported	266	Not Reported	Not Reported	45.624	-118.349	Not Reported
+COPPER KING	MT-LNF-005092	Undetermined	10-Aug-16	31-Jul-16	2	Montana	1465	20.0	31-Oct-16	47.600	-115.185	Sanders
+RACE HORSE GULCH	MT-FHA-000120	Natural	10-Aug-16	06-Aug-16		Montana	4580	47.0	17-Aug-16	47.356	-114.474	Sanders
+COLD	CA-LNU-007135	Not Reported	10-Aug-16	Not Reported	c	Not Reported	5731	Not Reported	Not Reported	38.524	-122.068	Not Reported
+WOLF RANCH 2	TX-TXS-002013	Natural	12-Aug-16	12-Aug-16		Texas	300	100.0	13-Aug-16	31.367	-99.290	McCulloch
+HOGNOSE	LA-SBR-000006	Natural	10-Aug-16	05-Aug-16	c	Louisiana	502	100.0	12-Aug-16	29.942	-93.589	Cameron
+POVERTY ISLAND	MI-MIA-002306	Natural	01-Jul-16	30-Jun-16		Michigan	127	85.0	31-Dec-16	45.518	-86.651	Delta
+COCO	AZ-KNF-000661	Not Reported	22-Jul-16	Not Reported		Not Reported	2400	Not Reported	Not Reported	35.552	-112.214	Not Reported

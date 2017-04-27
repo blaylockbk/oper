@@ -1,0 +1,41 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+PARTY ROCK	NC-NCS-160031	Undetermined	15-Nov-16	05-Nov-16	2	North Carolina	5714	32.0	01-Dec-16	35.446	-82.212	Rutherford
+TELLICO	NC-NCF-160280	Human	15-Nov-16	03-Nov-16	1	North Carolina	13847	81.0	20-Nov-16	35.274	-83.560	Macon
+BOTELER	NC-NCF-160247	Not Reported	15-Nov-16	Not Reported	1	Not Reported	8967	Not Reported	Not Reported	35.068	-83.655	Not Reported
+DICK'S CREEK	NC-NCF-160242	Human	15-Nov-16	23-Oct-16	1	North Carolina	728	98.0	14-Nov-16	35.399	-83.260	Jackson
+MUSKRAT	NC-NCS-160336	Undetermined	15-Nov-16	11-Nov-16	1	North Carolina	103	98.0	21-Nov-16	35.136	-83.511	Macon
+ROCK MOUNTAIN	GA-CHF-160079	Human	15-Nov-16	09-Nov-16	1	Georgia	7999	30.0	15-Dec-16	34.942	-83.549	Rabun
+MAPLE SPRINGS	NC-NCF-160295	Human	15-Nov-16	05-Nov-16	2	North Carolina	7705	51.0	05-Dec-16	35.398	-83.908	Graham
+TATUM GULF	GA-GAS-100917	Undetermined	15-Nov-16	11-Nov-16		Georgia	2235	39.0	30-Nov-16	34.722	-85.494	Dade
+CHESTNUT KNOB	NC-NCS-160043	Undetermined	15-Nov-16	06-Nov-16	2	North Carolina	5500	29.0	26-Nov-16	35.608	-81.636	Burke
+PINNACLE MOUNTAIN	SC-SCS-N110916-2	Not Reported	15-Nov-16	Not Reported		Not Reported	3283	Not Reported	Not Reported	35.027	-82.743	Not Reported
+EASTERN CHEROKEE COMPLEX	NC-ECA-000034	Human	15-Nov-16	02-Nov-16		North Carolina	756	80.0	18-Nov-16	35.447	-83.238	Jackson
+ROUGH RIDGE	GA-CHF-160052	Natural	15-Nov-16	16-Oct-16	2	Georgia	24765	40.0	30-Nov-16	34.897	-84.564	Fannin
+NEDDY MOUNTAIN ROAD	TN-TNS-ED0044	Not Reported	15-Nov-16	Not Reported		Not Reported	1007	Not Reported	Not Reported	35.957	-83.077	Not Reported
+RAVEN ROCK	VA-VAF-000255	Undetermined	15-Nov-16	02-Nov-16		Virginia	2402	95.0	18-Nov-16	37.182	-82.593	Wise
+CLOVERLICK	KY-KYS-163044	Human	15-Nov-16	04-Nov-16		Kentucky	2765	70.0	14-Nov-16	37.116	-82.841	Letcher
+ABNER BR	KY-KYS-16-3058	Not Reported	15-Nov-16	Not Reported		Not Reported	1000	Not Reported	Not Reported	36.957	-83.239	Not Reported
+CHARLES BRANCH LANE	TN-TNS-ED0039	Not Reported	11-Nov-16	Not Reported		Not Reported	932	Not Reported	Not Reported	36.117	-84.354	Not Reported
+TIMBER RIDGE	GA-CHF-160080	Undetermined	15-Nov-16	12-Nov-16		Georgia	888	50.0	25-Nov-16	34.820	-83.370	Rabun
+CLINCH VALLEY	VA-VAS-16WR1114-1	Not Reported	15-Nov-16	Not Reported		Not Reported	882	Not Reported	Not Reported	36.781	-82.163	Not Reported
+HALF WAY	AL-ALF-160627	Human	15-Nov-16	13-Nov-16		Alabama	850	75.0	18-Nov-16	33.171	-86.117	Clay
+MOWBRAY	TN-TNS-CD0022	Not Reported	15-Nov-16	Not Reported		Not Reported	830	Not Reported	Not Reported	35.275	-85.215	Not Reported
+HWY 190	KY-KYS-003034	Human	15-Nov-16	02-Nov-16		Kentucky	800	80.0	15-Nov-16	36.738	-83.719	Bell
+CLIFF TOPPS	TN-TNS-CD0023	Not Reported	15-Nov-16	Not Reported		Not Reported	735	Not Reported	Not Reported	35.222	-85.841	Not Reported
+POE ROAD	TN-TNS-CD0024	Not Reported	15-Nov-16	Not Reported		Not Reported	707	Not Reported	Not Reported	35.275	-85.244	Not Reported
+BULL CREEK 2	KY-KYS-16-3062	Not Reported	15-Nov-16	Not Reported		Not Reported	600	Not Reported	Not Reported	37.033	-83.846	Not Reported
+WALTERS RD	KY-KYS-16-3071	Not Reported	16-Nov-16	Not Reported		Not Reported	374	Not Reported	Not Reported	37.488	-82.488	Not Reported
+STILES	TN-TNS-ED0046	Not Reported	15-Nov-16	Not Reported		Not Reported	220	Not Reported	Not Reported	35.478	-84.275	Not Reported
+PIGEONROOST	KY-KYS-16-3065	Not Reported	15-Nov-16	Not Reported		Not Reported	200	Not Reported	Not Reported	37.386	-82.680	Not Reported
+HARLESS CREEK	KY-KYS-16-3066	Not Reported	15-Nov-16	Not Reported		Not Reported	144	Not Reported	Not Reported	37.372	-82.403	Not Reported
+GRASSY KNOB	KY-KYS-16-3067	Not Reported	15-Nov-16	Not Reported		Not Reported	140	Not Reported	Not Reported	36.659	-82.403	Not Reported
+SLOPE HOLLOW 2	KY-KYS-16-3068	Not Reported	15-Nov-16	Not Reported		Not Reported	130	Not Reported	Not Reported	36.954	-83.018	Not Reported
+HOLLINS FORK	KY-KYS-16-3069	Not Reported	15-Nov-16	Not Reported		Not Reported	125	Not Reported	Not Reported	37.198	-83.467	Not Reported
+COUCH	KY-DBF-016174	Not Reported	15-Nov-16	Not Reported		Not Reported	128	Not Reported	Not Reported	37.191	-83.465	Not Reported
+WEST CHAPPARAL	VA-VAF-000282	Undetermined	15-Nov-16	11-Nov-16		Virginia	125	95.0	18-Nov-16	36.896	-82.568	Wise
+SCUDDY 3	KY-KYS-16-3070	Not Reported	16-Nov-16	Not Reported		Not Reported	100	Not Reported	Not Reported	37.191	-83.078	Not Reported
+OLD ROUGHY	NC-NCF-160319	Not Reported	15-Nov-16	Not Reported	2	Not Reported	657	Not Reported	Not Reported	35.371	-83.859	Not Reported
+SHERWOOD	NY-NYS-000954	Not Reported	15-Nov-16	Not Reported		Not Reported	641	Not Reported	Not Reported	41.170	-74.100	Not Reported
+TOM JONES MOUNTAIN	NY-NYS-000955	Not Reported	13-Nov-16	Not Reported		Not Reported	552	Not Reported	Not Reported	41.228	-74.141	Not Reported
+COVERED BRIDGE	NH-WMF-000942	Undetermined	15-Nov-16	12-Nov-16		New Hampshire	329	100.0	16-Nov-16	44.005	-71.239	Carroll
+EXPLOSION	SD-PRA-000262	Human	15-Nov-16	13-Nov-16		South Dakota	3070	100.0	16-Nov-16	43.331	-102.138	Shannon

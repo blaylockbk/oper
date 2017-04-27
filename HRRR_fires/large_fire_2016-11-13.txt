@@ -1,0 +1,35 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+BOTELER	NC-NCF-160247	Undetermined	09-Nov-16	25-Oct-16	1	North Carolina	6895	23.0	15-Dec-16	35.068	-83.655	Clay
+TELLICO	NC-NCF-160280	Human	12-Nov-16	03-Nov-16	1	North Carolina	8509	33.0	20-Nov-16	35.274	-83.560	Macon
+FEREBEE MEMORIAL	NC-NCF-160299	Undetermined	12-Nov-16	05-Nov-16	1	North Carolina	2456	34.0	30-Nov-16	35.303	-83.653	Swain
+DICK'S CREEK	NC-NCF-160242	Human	12-Nov-16	23-Oct-16	1	North Carolina	728	92.0	14-Nov-16	35.399	-83.260	Jackson
+KNOB	NC-NCF-160275	Human	12-Nov-16	02-Nov-16	1	North Carolina	1130	92.0	10-Nov-16	35.110	-83.542	Macon
+CLIFFSIDE	NC-NCF-160278	Human	12-Nov-16	03-Nov-16	1	North Carolina	101	98.0	10-Nov-16	35.078	-83.242	Macon
+PARTY ROCK	NC-NCS-160031	Undetermined	12-Nov-16	05-Nov-16	2	North Carolina	1914	13.0	01-Dec-16	35.446	-82.212	Rutherford
+OLD ROUGHY	NC-NCF-160319	Human	12-Nov-16	09-Nov-16	2	North Carolina	532	8.0	05-Dec-16	35.371	-83.859	Graham
+MAPLE SPRINGS	NC-NCF-160295	Human	12-Nov-16	05-Nov-16	2	North Carolina	6065	13.0	05-Dec-16	35.398	-83.908	Graham
+FLIPPERS BEND	TN-TNS-CD0016	Not Reported	09-Nov-16	Not Reported		Not Reported	800	Not Reported	Not Reported	35.235	-85.264	Not Reported
+RAVEN ROCK	VA-VAF-000255	Undetermined	12-Nov-16	02-Nov-16		Virginia	2402	60.0	18-Nov-16	37.182	-82.593	Wise
+ROUGH RIDGE	GA-CHF-160052	Natural	12-Nov-16	16-Oct-16	2	Georgia	13318	20.0	30-Nov-16	34.897	-84.564	Fannin
+ELLEN LANE FIRE	KY-KYS-16-3052	Not Reported	02-Nov-16	Not Reported		Not Reported	300	Not Reported	Not Reported	36.936	-83.936	Not Reported
+MOUNTAIN CREEK	AR-OZF-000517	Natural	12-Nov-16	05-Nov-16		Arkansas	441	50.0	30-Nov-16	35.735	-93.757	Franklin
+STEEL TRAP	KY-DBF-016151	Undetermined	12-Nov-16	07-Nov-16		Kentucky	358	100.0	12-Nov-16	36.995	-83.935	Knox
+KENTUCKY RIDGE	KY-KYS-000016	Human	12-Nov-16	07-Nov-16		Kentucky	300	80.0	14-Nov-16	36.680	-83.851	Bell
+SR116 GILMORE TRAIL		Not Reported	12-Nov-16	Not Reported	d	Not Reported	150	Not Reported	Not Reported	36.117	-84.393	Not Reported
+CEMETERY	KY-DBF-016129	Not Reported	12-Nov-16	Not Reported		Not Reported	100	Not Reported	Not Reported	37.039	-83.687	Not Reported
+ROCK MOUNTAIN	GA-CHF-160079	Human	12-Nov-16	09-Nov-16		Georgia	300	10.0	05-Dec-16	34.942	-83.549	Rabun
+EASTERN CHEROKEE COMPLEX	NC-ECA-000034	Human	12-Nov-16	02-Nov-16	1	North Carolina	733	75.0	13-Nov-16	35.447	-83.238	Jackson
+GATLIFF	KY-KYS-16-3056	Not Reported	12-Nov-16	Not Reported		Not Reported	1223	Not Reported	Not Reported	36.640	-84.047	Not Reported
+LOOKOUT MOUNTAIN	GA-GAS-011707	Undetermined	12-Nov-16	09-Nov-16		Georgia	450	40.0	30-Nov-16	34.664	-85.541	Dade
+CHESTNUT KNOB	NC-NCS-160043	Undetermined	12-Nov-16	08-Nov-16		North Carolina	1450	15.0	26-Nov-16	35.608	-81.636	Burke
+LAUREL RUN PARK ROAD	TN-TNS-ED0041	Not Reported	12-Nov-16	Not Reported		Not Reported	200	Not Reported	Not Reported	36.489	-82.684	Not Reported
+GARRETT	KY-KYS-16-3057	Not Reported	12-Nov-16	Not Reported		Not Reported	122	Not Reported	Not Reported	37.493	-82.830	Not Reported
+PINNACLE MOUNTAIN	SC-SCS-N110916-2	Not Reported	12-Nov-16	Not Reported		Not Reported	715	Not Reported	Not Reported	35.027	-82.743	Not Reported
+TREAT MOUNTAIN	GA-GAS-100817	Undetermined	10-Nov-16	10-Nov-16		Georgia	553	98.0	18-Nov-16	33.887	-85.353	Haralson
+WOODLAND	KY-DBF-016147	Undetermined	11-Nov-16	07-Nov-16		Kentucky	180	100.0	14-Nov-16	37.806	-83.679	Powell
+TATUM GULF	GA-GAS-100917	Undetermined	11-Nov-16	11-Nov-16		Georgia	100	5.0	30-Nov-16	34.722	-85.494	Dade
+FLAT BRANCH	GA-CHF-160078	Not Reported	11-Nov-16	Not Reported		Not Reported	600	Not Reported	Not Reported	34.942	-83.543	Not Reported
+BUCKEYE MOUNTAIN FIRE	VA-VAS-16WR1110-1	Not Reported	11-Nov-16	Not Reported		Not Reported	102	Not Reported	Not Reported	37.263	-80.609	Not Reported
+BEAR CROSSING	VA-VAS-16WR1108-1	Not Reported	11-Nov-16	Not Reported		Not Reported	250	Not Reported	Not Reported	37.321	-82.008	Not Reported
+VALLEY HEAD	AL-ALS-201611094	Not Reported	11-Nov-16	Not Reported		Not Reported	500	Not Reported	Not Reported	34.662	-85.553	Not Reported
+CHARLES BRANCH LANE		Not Reported	09-Nov-16	Not Reported		Not Reported	100	Not Reported	Not Reported	36.117	-84.354	Not Reported

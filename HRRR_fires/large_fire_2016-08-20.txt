@@ -1,0 +1,22 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+BLUECUT	CA-BDF-010468	Undetermined	16-Aug-16	16-Aug-16	1	California	15000	40.0	31-Aug-16	34.259	-117.461	San Bernardino
+SOBRANES	CA-BEU-003422	Human	10-Aug-16	22-Jul-16	1	California	68698	60.0	30-Sep-16	36.461	-121.901	Monterey
+CHIMNEY	CA-SLU-008948	Undetermined	14-Aug-16	13-Aug-16	1	California	4000	35.0	29-Aug-16	35.670	-121.004	San Luis Obispo
+CEDAR	CA-SQF-002595	Undetermined	17-Aug-16	16-Aug-16	1	California	4000	5.0	15-Sep-16	35.745	-118.584	Kern
+MINERAL	CA-FKU-011358	Not Reported	10-Aug-16	Not Reported	1	Not Reported	5000	Not Reported	Not Reported	36.089	-120.522	Not Reported
+HORSESHOE	CA-INF-001457	Not Reported	10-Aug-16	Not Reported	2	Not Reported	400	Not Reported	Not Reported	36.463	-118.136	Not Reported
+LAKES	CA-YNP-000041	Natural	17-Aug-16	26-Jun-16		California	145	0.0	29-Sep-16	37.594	-119.560	Mariposa
+REY	CA-LPF-002809	Undetermined	18-Aug-16	18-Aug-16		California	500	20.0	23-Aug-16	34.546	-119.805	Santa Barbara
+PIONEER	ID-BOF-000539	Undetermined	10-Aug-16	18-Jul-16	1	Idaho	64786	50.0	30-Sep-16	43.950	-115.762	Boise
+STEIN	ID-SCF-016269	Natural	16-Aug-16	17-Aug-16	2	Idaho	103	0.0	15-Sep-16	45.454	-113.861	Lemhi
+IZZENHOOD	NV-EKD-010186	Natural	18-Aug-16	19-Aug-16		Nevada	600	80.0	23-Aug-16	40.928	-116.846	Lander
+MONROE	NV-WID-020168	Natural	16-Aug-16	17-Aug-16		Nevada	11240	100.0	19-Aug-16	40.693	-117.899	Pershing
+STRAWBERRY	NV-GBP-040129	Natural	10-Aug-16	08-Aug-16	2	Nevada	4700	98.0	22-Aug-16	39.048	-114.306	White Pine
+LAIDLAW	ID-TFD-000224	Natural	17-Aug-16	17-Aug-16		Idaho	4500	100.0	19-Aug-16	43.212	-113.558	Blaine
+TOPONCE CREEK	ID-EIS-003157	Natural	15-Aug-16	15-Aug-16		Idaho	214	50.0	21-Aug-16	42.897	-112.129	Caribou
+HUNTER PEAK	WY-SHF-000428	Natural	09-Aug-16	10-Aug-16	1	Wyoming	1400	50.0	01-Oct-16	44.877	-109.718	Park
+TWIN LAKES	WY-WBD-000421	Natural	09-Aug-16	09-Aug-16	2	Wyoming	200	80.0	22-Aug-16	43.894	-108.981	Hot Springs
+BEAVER CREEK	CO-RTF-000088	Human	10-Aug-16	19-Jun-16	N	Colorado	35543	53.0	21-Oct-16	40.958	-106.634	Jackson
+SPRING CREEK 2	CO-GFX-000490	Undetermined	13-Aug-16	12-Aug-16	c	Colorado	700	100.0	19-Aug-16	39.378	-108.069	Garfield
+WHIT	WY-WBD-000393	Not Reported	10-Aug-16	Not Reported	1	Not Reported	12387	Not Reported	Not Reported	44.439	-109.427	Not Reported
+WALKER CREEK	WY-COX-016428	Not Reported	18-Aug-16	Not Reported		Not Reported	691.54	Not Reported	Not Reported	42.825	-105.158	Not Reported

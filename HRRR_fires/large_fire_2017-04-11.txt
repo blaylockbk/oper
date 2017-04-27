@@ -1,0 +1,18 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+RED FOX	FL-FNF-001240	Human	18-Mar-17	18-Mar-17		Florida	3008	75.0	20-Apr-17	30.339	-82.537	Columbia
+GARFIELD ROAD	FL-FLS-070202	Not Reported	22-Mar-17	Not Reported		Not Reported	705	Not Reported	Not Reported	30.428	-82.023	Not Reported
+CONNER	FL-FNF-001255	Not Reported	27-Mar-17	Not Reported		Not Reported	615	Not Reported	Not Reported	29.249	-81.924	Not Reported
+COWBELL	FL-BCP-017033	Not Reported	02-Apr-17	30-Mar-17		Florida	449	5.0	30-Apr-17	26.221	-80.978	Collier
+HOLIEST LAND	FL-FLS-180138	Not Reported	02-Apr-17	Not Reported		Not Reported	3285	Not Reported	Not Reported	26.334	-80.668	Not Reported
+NE 212TH ST	FL-FLS-080183	Not Reported	02-Apr-17	Not Reported		Not Reported	700	Not Reported	Not Reported	29.459	-81.956	Not Reported
+CROW MOUNTAIN	GA-CHF-170034	Not Reported	02-Apr-17	02-Apr-17		Georgia	350	100.0	04-Apr-17	34.685	-83.935	Lumpkin
+SOUTH WATERS	FL-FLS-11-0214	Not Reported	02-Apr-17	Not Reported		Not Reported	350	Not Reported	Not Reported	28.366	-81.880	Not Reported
+MADISON MAINLINE	FL-FLS-050119	Not Reported	02-Apr-17	Not Reported		Not Reported	482	Not Reported	Not Reported	30.327	-83.503	Not Reported
+DUCK POND	OK-ECU-170226	Not Reported	02-Apr-17	Not Reported		Not Reported	417	Not Reported	Not Reported	34.935	-94.908	Not Reported
+XERIC	FL-FLS-120250	Not Reported	03-Apr-17	Not Reported		Not Reported	300	Not Reported	Not Reported	28.484	-81.136	Not Reported
+TURN TABLE FIRE	SC-FMF-000144	Not Reported	03-Apr-17	Not Reported		Not Reported	1360	Not Reported	Not Reported	33.316	-79.870	Not Reported
+BAFFIN 2	TX-TXS-005008	Not Reported	03-Apr-17	Not Reported		Not Reported	1500	Not Reported	Not Reported	27.121	-97.539	Not Reported
+ROUGH ROAD	AL-ALS-201703307	Not Reported	03-Apr-17	Not Reported		Not Reported	180	Not Reported	Not Reported	30.929	-85.405	Not Reported
+FISHER	AZ-ASF-000101	Undetermined	03-Apr-17	03-Apr-17		Arizona	100	100.0	11-Apr-17	34.471	-110.832	Coconino
+WEST	CA-NOD-001810	Not Reported	02-Apr-17	Not Reported		Not Reported	401	Not Reported	Not Reported	41.303	-120.446	Not Reported
+HOLIDAY	FL-FLS-180144	Not Reported	05-Apr-17	05-Apr-17		Florida	650	100.0	10-Apr-17	26.011	-80.439	Broward

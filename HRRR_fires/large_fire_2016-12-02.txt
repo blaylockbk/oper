@@ -1,0 +1,19 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+CHIMNEY TOPS 2	TN-GSP-016062	Human	30-Nov-16	23-Nov-16	1	Tennessee	17108	0.0	20-Dec-16	35.631	-83.478	Sevier
+ROCK MOUNTAIN	GA-CHF-160079	Human	30-Nov-16	09-Nov-16	2	Georgia	24725	70.0	15-Dec-16	34.942	-83.549	Rabun
+LAKE CHINNABEE	AL-ALF-160631	Human	30-Nov-16	28-Nov-16		Alabama	1386	49.0	04-Dec-16	33.465	-85.868	Clay
+PINNACLE MOUNTAIN	SC-SCS-N110916-2	Not Reported	30-Nov-16	Not Reported		Not Reported	10560	Not Reported	Not Reported	35.027	-82.743	Not Reported
+CAMP BRANCH	NC-NCF-160378	Undetermined	30-Nov-16	23-Nov-16	1	North Carolina	3422	75.0	15-Dec-16	35.165	-83.541	Macon
+TELLICO	NC-NCF-160280	Human	30-Nov-16	03-Nov-16	1	North Carolina	13874	95.0	15-Dec-16	35.274	-83.560	Macon
+BOTELER	NC-NCF-160247	Undetermined	30-Nov-16	25-Oct-16	1	North Carolina	9036	85.0	15-Dec-16	35.068	-83.655	Clay
+MAPLE SPRINGS	NC-NCF-160295	Human	30-Nov-16	04-Nov-16	1	North Carolina	7788	78.0	05-Dec-16	35.398	-83.908	Graham
+HORTON	NC-NCS-160059	Undetermined	30-Nov-16	22-Nov-16		North Carolina	1450	95.0	03-Dec-16	36.149	-81.574	Watauga
+CLEAR CREEK	NC-NCS-160054	Undetermined	30-Nov-16	20-Nov-16	2	North Carolina	3163	100.0	01-Dec-16	35.705	-82.101	McDowell
+MOUNT PLEASANT	VA-VAF-160311	Undetermined	30-Nov-16	19-Nov-16		Virginia	11229	98.0	12-Dec-16	37.752	-79.184	Amherst
+CHESTNUT KNOB	NC-NCS-160043	Undetermined	30-Nov-16	06-Nov-16	2	North Carolina	6435	90.0	03-Dec-16	35.608	-81.636	Burke
+TATUM GULF	GA-GAS-100917	Not Reported	30-Nov-16	Not Reported		Not Reported	2336	Not Reported	Not Reported	34.722	-85.494	Not Reported
+BARRON ROAD	GA-GAS-040317	Not Reported	30-Nov-16	Not Reported		Not Reported	117	Not Reported	Not Reported	33.216	-84.854	Not Reported
+CECIL	AR-ARS-0264D6	Not Reported	30-Nov-16	Not Reported		Not Reported	1001	Not Reported	Not Reported	35.436	-94.053	Not Reported
+HWY 151	NC-NCF-160382	Not Reported	30-Nov-16	Not Reported		Not Reported	245	Not Reported	Not Reported	35.452	-82.731	Not Reported
+ALLOCK	KY-KYS-16-3099	Not Reported	30-Nov-16	Not Reported		Not Reported	160	Not Reported	Not Reported	37.223	-83.062	Not Reported
+BAILEYS FORK	KY-KYS-16-3097	Not Reported	30-Nov-16	Not Reported		Not Reported	150	Not Reported	Not Reported	36.878	-83.187	Not Reported

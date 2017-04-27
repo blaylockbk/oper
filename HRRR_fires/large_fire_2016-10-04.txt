@@ -1,0 +1,13 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+PIONEER	ID-BOF-000539	Not Reported	29-Sep-16	Not Reported	2	Not Reported	188404	Not Reported	Not Reported	43.950	-115.762	Not Reported
+SAWMILL	CA-LNU-009129	Not Reported	29-Sep-16	Not Reported		Not Reported	1547	Not Reported	Not Reported	38.805	-122.810	Not Reported
+TOBIN	CA-PNF-001155	Undetermined	29-Sep-16	26-Sep-16	2	California	248	99.0	04-Oct-16	39.933	-121.322	Plumas
+LOMA	CA-SCU-006912	Human	29-Sep-16	26-Sep-16	1	California	4147	85.0	08-Oct-16	37.109	-121.848	Santa Clara
+SOBERANES	CA-BEU-003422	Human	29-Sep-16	22-Jul-16	2	California	129395	94.0	15-Oct-16	36.461	-121.901	Monterey
+MARSHES	CA-TCU-010403	Undetermined	29-Sep-16	26-Sep-16		California	1080	95.0	03-Oct-16	37.809	-120.301	Tuolumne
+JEFFERSON RD	GA-GAS-010117	Not Reported	29-Sep-16	Not Reported		Not Reported	400	Not Reported	Not Reported	34.143	-85.419	Not Reported
+HAPPY VALLEY RIDGE	TN-GSP-016043	Not Reported	29-Sep-16	Not Reported		Not Reported	130	Not Reported	Not Reported	35.624	-83.930	Not Reported
+OLD 50	FL-SJR-2016029	Natural	29-Sep-16	27-Sep-16		Florida	855	100.0	01-Oct-16	28.565	-80.908	Brevard
+FULTON	AZ-TNF-001361	Not Reported	29-Sep-16	Not Reported		Not Reported	3238	Not Reported	Not Reported	34.300	-110.910	Not Reported
+SOUP COMPLEX	CA-MDF-000910	Not Reported	29-Sep-16	Not Reported		Not Reported	2647	Not Reported	Not Reported	41.281	-120.315	Not Reported
+0624 RS  EAST MAURY	OR-OCF-000624	Human	29-Sep-16	29-Sep-16		Oregon	250	50.0	07-Oct-16	44.078	-120.308	Crook

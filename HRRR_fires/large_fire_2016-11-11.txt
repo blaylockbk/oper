@@ -1,0 +1,40 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+BOTELER	NC-NCF-160247	Undetermined	09-Nov-16	25-Oct-16	1	North Carolina	3504	12.0	20-Nov-16	35.068	-83.655	Clay
+TELLICO	NC-NCF-160280	Human	08-Nov-16	03-Nov-16	1	North Carolina	5160	18.0	20-Nov-16	35.274	-83.560	Macon
+FEREBEE MEMORIAL	NC-NCF-160299	Undetermined	08-Nov-16	05-Nov-16	1	North Carolina	1605	28.0	30-Nov-16	35.303	-83.653	Swain
+DICK'S CREEK	NC-NCF-160242	Human	08-Nov-16	23-Oct-16	1	North Carolina	728	85.0	14-Nov-16	35.399	-83.260	Jackson
+KNOB	NC-NCF-160275	Human	08-Nov-16	02-Nov-16	1	North Carolina	1130	80.0	10-Nov-16	35.110	-83.542	Macon
+CLIFFSIDE	NC-NCF-160278	Human	08-Nov-16	03-Nov-16	1	North Carolina	101	98.0	10-Nov-16	35.078	-83.242	Macon
+PARTY ROCK	NC-NCS-160031	Undetermined	09-Nov-16	05-Nov-16		North Carolina	435	15.0	01-Dec-16	35.446	-82.212	Rutherford
+OLD ROUGHY	NC-NCF-160319	Human	09-Nov-16	09-Nov-16	2	North Carolina	300	1.0	05-Dec-16	35.371	-83.859	Graham
+AVEY BRANCH	NC-NCF-160293	Undetermined	09-Nov-16	04-Nov-16	2	North Carolina	1200	17.0	25-Nov-16	35.373	-83.897	Graham
+MAPLE SPRINGS	NC-NCF-160295	Undetermined	08-Nov-16	05-Nov-16	2	North Carolina	3914	10.0	05-Dec-16	35.398	-83.908	Graham
+DOBSON 3	NC-ECA-000031	Human	09-Nov-16	08-Nov-16	1	North Carolina	150	15.0	18-Nov-16	35.497	-83.245	Jackson
+WASHINGTON'S CREEK	NC-ECA-000029	Human	09-Nov-16	08-Nov-16		North Carolina	180	70.0	11-Nov-16	35.446	-83.235	Jackson
+FLIPPERS BEND	TN-TNS-CD0016	Not Reported	09-Nov-16	Not Reported		Not Reported	800	Not Reported	Not Reported	35.235	-85.264	Not Reported
+RAVEN ROCK	VA-VAF-000255	Undetermined	09-Nov-16	02-Nov-16		Virginia	2402	35.0	18-Nov-16	37.182	-82.593	Wise
+ROUGH RIDGE	GA-CHF-160052	Natural	08-Nov-16	16-Oct-16	2	Georgia	7207	20.0	30-Nov-16	34.897	-84.564	Fannin
+ELLEN LANE FIRE	KY-KYS-16-3052	Not Reported	09-Nov-16	Not Reported		Not Reported	300	Not Reported	Not Reported	36.936	-83.936	Not Reported
+MOUNTAIN CREEK	AR-OZF-000517	Natural	08-Nov-16	05-Nov-16		Arkansas	441	50.0	30-Nov-16	35.735	-93.757	Franklin
+STEEL TRAP	KY-DBF-016151	Undetermined	09-Nov-16	07-Nov-16		Kentucky	358	75.0	12-Nov-16	36.995	-83.935	Knox
+SMITH MOUNTAIN	TN-TNS-CD0020	Not Reported	09-Nov-16	Not Reported		Not Reported	250	Not Reported	Not Reported	35.455	-85.369	Not Reported
+KENTUCKY RIDGE	KY-KYS-000016	Human	09-Nov-16	07-Nov-16		Kentucky	300	60.0	14-Nov-16	36.680	-83.851	Bell
+DUTY	VA-VAS-160011071	Undetermined	09-Nov-16	07-Nov-16		Virginia	190	100.0	11-Nov-16	37.079	-82.166	Dickenson
+SHOULDERBLADE 2	KY-KYS-16-3034	Not Reported	08-Nov-16	Not Reported		Not Reported	164	Not Reported	Not Reported	37.529	-83.534	Not Reported
+COPPINGER COVE	TN-TNS-CD0021	Not Reported	09-Nov-16	Not Reported		Not Reported	735	Not Reported	Not Reported	35.170	-85.601	Not Reported
+BIG ROCK #3	TN-TNS-CD0019	Not Reported	08-Nov-16	Not Reported		Not Reported	470	Not Reported	Not Reported	35.913	-84.857	Not Reported
+MAY BRANCH	NC-NCF-160282	Not Reported	08-Nov-16	Not Reported	1	Not Reported	175	Not Reported	Not Reported	35.177	-83.700	Not Reported
+SR116 GILMORE TRAIL		Not Reported	09-Nov-16	Not Reported	d	Not Reported	150	Not Reported	Not Reported	36.117	-84.393	Not Reported
+JONES GAP	NC-NCF-160257	Not Reported	08-Nov-16	Not Reported		Not Reported	115	Not Reported	Not Reported	35.071	-83.288	Not Reported
+BIG FOUR ROAD	TN-TNS-ED0029	Not Reported	08-Nov-16	Not Reported		Not Reported	115	Not Reported	Not Reported	36.526	-84.203	Not Reported
+MOSES CREEK	NC-NCF-160253	Not Reported	08-Nov-16	Not Reported		Not Reported	103	Not Reported	Not Reported	35.325	-83.107	Not Reported
+CHARLES BRANCH LANE		Not Reported	09-Nov-16	Not Reported		Not Reported	100	Not Reported	Not Reported	36.117	-84.354	Not Reported
+CEMETERY	KY-DBF-016129	Not Reported	08-Nov-16	Not Reported		Not Reported	100	Not Reported	Not Reported	37.039	-83.687	Not Reported
+JETTS CREEK	KY-KYS-00016-	Not Reported	08-Nov-16	Not Reported		Not Reported	3500	Not Reported	Not Reported	37.495	-83.552	Not Reported
+WOODS	MS-MSS-003291	Not Reported	09-Nov-16	Not Reported		Not Reported	338	Not Reported	Not Reported	33.122	-89.399	Not Reported
+FLATWOODS	AL-ALS-2016110610	Not Reported	09-Nov-16	Not Reported		Not Reported	300	Not Reported	Not Reported	32.108	-87.485	Not Reported
+GREGORY BR	KY-KYS-16-3055	Not Reported	09-Nov-16	Not Reported		Not Reported	250	Not Reported	Not Reported	36.823	-83.820	Not Reported
+BARWICK FIRE	KY-KYS-16-3054	Not Reported	09-Nov-16	Not Reported		Not Reported	196	Not Reported	Not Reported	37.354	-83.404	Not Reported
+LIMBO HOLLOW	KY-KYS-16-3040	Not Reported	09-Nov-16	Not Reported		Not Reported	150	Not Reported	Not Reported	37.074	-82.751	Not Reported
+COLBERT HOLLOW RD	GA-GAS-100617	Not Reported	09-Nov-16	Not Reported		Not Reported	118	Not Reported	Not Reported	34.784	-85.167	Not Reported
+BANDY	VA-VAS-16001108-1	Not Reported	09-Nov-16	Not Reported		Not Reported	100	Not Reported	Not Reported	37.183	-81.743	Not Reported

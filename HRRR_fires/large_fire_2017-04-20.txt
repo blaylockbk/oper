@@ -1,0 +1,44 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+RED FOX	FL-FNF-001240	Human	18-Mar-17	18-Mar-17		Florida	3008	95.0	25-Apr-17	30.339	-82.537	Columbia
+COWBELL	FL-BCP-017033	Not Reported	02-Apr-17	30-Mar-17		Florida	16958	55.0	30-Apr-17	26.221	-80.978	Collier
+FISHER	AZ-ASF-000101	Undetermined	03-Apr-17	03-Apr-17		Arizona	100	100.0	11-Apr-17	34.471	-110.832	Coconino
+HOLIDAY	FL-FLS-180144	Not Reported	05-Apr-17	Not Reported		Not Reported	6800	Not Reported	Not Reported	26.011	-80.439	Not Reported
+HARE ROAD	AL-ALS-201704065	Not Reported	07-Apr-17	Not Reported		Not Reported	150	Not Reported	Not Reported	31.292	-88.813	Not Reported
+MCCARTY RANCH	FL-FLS-160311	Not Reported	07-Apr-17	Not Reported		Not Reported	275	Not Reported	Not Reported	27.266	-80.501	Not Reported
+FERGUSON	FL-FLS-160322	Not Reported	08-Apr-17	Not Reported		Not Reported	465	Not Reported	Not Reported	26.908	-81.466	Not Reported
+CARTER PARKWAY	FL-FLS-120275	Not Reported	09-Apr-17	Not Reported		Not Reported	475	Not Reported	Not Reported	28.377	-81.481	Not Reported
+TRINLADY PARK	TX-TXS-007106	Not Reported	09-Apr-17	Not Reported		Not Reported	240	Not Reported	Not Reported	31.068	-95.406	Not Reported
+ROCK CREEK	VA-VAS-2017WR0408	Not Reported	09-Apr-17	Not Reported		Not Reported	163	Not Reported	Not Reported	36.932	-80.732	Not Reported
+POWERLINE	FL-FLS-110225	Not Reported	08-Apr-17	Not Reported		Not Reported	320	Not Reported	Not Reported	28.418	-81.951	Not Reported
+WATER TOWER	FL-FLS-110237	Not Reported	09-Apr-17	Not Reported		Not Reported	1110	Not Reported	Not Reported	28.497	-82.638	Not Reported
+TYNER DUMP	OK-NEU-170241	Not Reported	09-Apr-17	Not Reported		Not Reported	185	Not Reported	Not Reported	35.981	-94.741	Not Reported
+STEPS	KY-DBF-170075	Not Reported	10-Apr-17	Not Reported		Not Reported	892	Not Reported	Not Reported	36.808	-84.326	Not Reported
+LICK BRANCH	KY-DBF-170078	Not Reported	10-Apr-17	Not Reported		Not Reported	243	Not Reported	Not Reported	37.049	-84.294	Not Reported
+EMANUEL LOOP	KY-KYS-17-3013	Not Reported	08-Apr-17	Not Reported		Not Reported	246	Not Reported	Not Reported	36.918	-83.963	Not Reported
+STATE ROUTE 437	KY-KYS-17-4004	Not Reported	09-Apr-17	Not Reported		Not Reported	173	Not Reported	Not Reported	37.913	-83.069	Not Reported
+BEECH GROVE	VA-VAS-2017WR0409	Not Reported	09-Apr-17	Not Reported		Not Reported	230	Not Reported	Not Reported	36.633	-82.989	Not Reported
+SUMBAX RD	MS-MSS-004536	Not Reported	10-Apr-17	Not Reported		Not Reported	170	Not Reported	Not Reported	30.285	-89.930	Not Reported
+WEST MIMS	GA-OKR-017006	Natural	09-Apr-17	06-Apr-17		Florida	8987	3.0	01-Nov-17	30.574	-82.323	Baker
+BUCKHORN	OH-OHS-170001	Not Reported	12-Apr-17	Not Reported		Not Reported	390	Not Reported	Not Reported	38.662	-83.256	Not Reported
+LOST CREEK	KY-KYS-17-4006	Not Reported	09-Apr-17	Not Reported		Not Reported	180	Not Reported	Not Reported	37.902	-82.705	Not Reported
+GATLIFF	KY-KYS-17-3015	Not Reported	09-Apr-17	Not Reported		Not Reported	700	Not Reported	Not Reported	36.697	-83.971	Not Reported
+MIDWAY 1	FL-FLS-120279	Not Reported	09-Apr-17	Not Reported		Not Reported	325	Not Reported	Not Reported	28.548	-80.955	Not Reported
+DOE KNOB	NC-NCF-170124	Not Reported	10-Apr-17	Not Reported		Not Reported	530	Not Reported	Not Reported	35.074	-83.604	Not Reported
+MUSKRAT 2	NC-NCF-170123	Not Reported	10-Apr-17	Not Reported		Not Reported	466	Not Reported	Not Reported	35.135	-83.604	Not Reported
+CURRY 11	FL-FLS-160332	Not Reported	10-Apr-17	Not Reported		Not Reported	720	Not Reported	Not Reported	26.936	-81.116	Not Reported
+DOBSON KNOB	NC-NCS-170029	Not Reported	10-Apr-17	Not Reported		Not Reported	1467	Not Reported	Not Reported	35.798	-81.993	Not Reported
+GOSHEN PASS	VA-VAS-2017WR0411	Not Reported	11-Apr-17	10-Apr-17		Virginia	900	100.0	19-Apr-17	37.935	-79.459	Rockbridge
+2264 GENESIS ROAD	TN-TNS-100002	Not Reported	09-Apr-17	Not Reported		Not Reported	300	Not Reported	Not Reported	36.100	-84.843	Not Reported
+ROCKHOUSE #3	KY-KYS-17-4005	Not Reported	09-Apr-17	Not Reported		Not Reported	150	Not Reported	Not Reported	37.865	-82.587	Not Reported
+NEWMANS LANE	TN-TNS-200002	Not Reported	10-Apr-17	Not Reported		Not Reported	250	Not Reported	Not Reported	35.517	-85.052	Not Reported
+OAKDALE HWY	TN-TNS-100001	Not Reported	02-Apr-17	Not Reported		Not Reported	120	Not Reported	Not Reported	36.942	-84.561	Not Reported
+JENKINS CREEK	OK-NEU-170251	Not Reported	12-Apr-17	Not Reported		Not Reported	125	Not Reported	Not Reported	35.700	-94.644	Not Reported
+POWERLINE	PA-PAS-11171019	Not Reported	11-Apr-17	Not Reported		Not Reported	150	Not Reported	Not Reported	41.481	-75.644	Not Reported
+SUGAR RUN	PA-PAS-06171003	Not Reported	11-Apr-17	Not Reported		Not Reported	200	Not Reported	Not Reported	40.482	-78.513	Not Reported
+BAKERS CREEK	KY-KYS-17-3017	Not Reported	10-Apr-17	Not Reported		Not Reported	406	Not Reported	Not Reported	37.180	-83.934	Not Reported
+BEECH CREEK	KY-KYS-17-3018	Not Reported	11-Apr-17	Not Reported		Not Reported	200	Not Reported	Not Reported	37.469	-82.171	Not Reported
+BRUNER	OK-OMA-017063	Not Reported	12-Apr-17	Not Reported		Not Reported	130	Not Reported	Not Reported	35.152	-96.114	Not Reported
+RANGE	AZ-FHQ-000188	Not Reported	12-Apr-17	Not Reported		Not Reported	799	Not Reported	Not Reported	31.668	-110.236	Not Reported
+WARREN ROAD	KS-WBX-000447	Not Reported	07-Apr-17	Not Reported		Not Reported	1800	Not Reported	Not Reported	39.089	-96.058	Not Reported
+BIG BRANCH	KY-KYS-17-3016	Not Reported	09-Apr-17	Not Reported		Not Reported	500	Not Reported	Not Reported	37.178	-83.061	Not Reported
+PUNCHEON CREEK #2	KY-KYS-17-4007	Not Reported	12-Apr-17	Not Reported		Not Reported	123	Not Reported	Not Reported	37.695	-83.171	Not Reported

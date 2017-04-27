@@ -1,0 +1,39 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+SOBRANES	CA-BEU-003422	Human	10-Aug-16	22-Jul-16	1	California	94180	60.0	30-Sep-16	36.461	-121.901	Monterey
+CHIMNEY	CA-SLU-008948	Undetermined	14-Aug-16	13-Aug-16	1	California	46344	97.0	06-Sep-16	35.670	-121.004	San Luis Obispo
+CEDAR	CA-SQF-002595	Undetermined	17-Aug-16	16-Aug-16	1	California	29322	95.0	10-Sep-16	35.745	-118.584	Kern
+REY	CA-LPF-002809	Undetermined	18-Aug-16	18-Aug-16		California	32606	96.0	05-Sep-16	34.546	-119.805	Santa Barbara
+BOGART	CA-RRU-105125	Human	30-Aug-16	30-Aug-16		California	1470	100.0	02-Sep-16	33.983	-116.954	Riverside
+PIONEER	ID-BOF-000539	Undetermined	26-Aug-16	18-Jul-16	1	Idaho	164895	55.0	15-Oct-16	43.950	-115.762	Boise
+MAGGIE	NV-NNS-010210	Undetermined	01-Sep-16	01-Sep-16		Nevada	6500	50.0	04-Sep-16	40.954	-116.192	Eureka
+BERRY	WY-GTP-001621	Natural	26-Aug-16	25-Jul-16	2	Wyoming	14136	68.0	01-Oct-16	44.021	-110.786	Teton
+TIE	ID-CTF-003181	Undetermined	26-Aug-16	23-Aug-16	2	Idaho	1031	86.0	15-Sep-16	43.556	-111.248	Bonneville
+PETERSON HOLLOW	UT-UWF-000694	Undetermined	26-Aug-16	21-Aug-16		Utah	1242	65.0	08-Sep-16	41.994	-111.573	Cache
+ECHO ROAD SHED	UT-NES-000737	Undetermined	30-Aug-16	28-Aug-16		Utah	317	100.0	05-Sep-16	40.986	-111.416	Summit
+HARLAN CREEK	ID-PAF-000159	Not Reported	25-Aug-16	Not Reported		Not Reported	600	Not Reported	Not Reported	45.511	-115.243	Not Reported
+MOOSE	ID-NCF-000369	Natural	28-Aug-16	15-Aug-16		Idaho	7963	0.0	01-Dec-16	46.225	-114.700	Idaho
+PADDELFORD	ID-TFD-000265	Not Reported	31-Aug-16	Not Reported		Not Reported	3000	Not Reported	Not Reported	43.275	-113.787	Not Reported
+HENRYS CREEK	ID-8BN-003174	Not Reported	26-Aug-16	Not Reported		Not Reported	52972	Not Reported	Not Reported	43.374	-111.947	Not Reported
+COPPER KING	MT-LNF-005092	Undetermined	26-Aug-16	31-Jul-16	1	Montana	27088	60.0	31-Oct-16	47.600	-115.185	Sanders
+MAPLE	WY-YNP-001611	Natural	26-Aug-16	09-Aug-16	2	Wyoming	38004	27.0	15-Oct-16	44.743	-110.978	Park
+NEZ PERCE	MT-BDF-002801	Natural	01-Sep-16	13-Aug-16		Montana	687	0.0	28-Oct-16	46.107	-112.363	Jefferson
+JOHN DOE	ID-SJS-000482	Undetermined	27-Aug-16	27-Aug-16	2	Idaho	440	100.0	03-Sep-16	47.178	-116.666	Benewah
+CLEAR CREEK	MT-FHA-000144	Human	27-Aug-16	27-Aug-16		Montana	1267	60.0	06-Sep-16	47.385	-114.609	Sanders
+MOOSE	ID-NCF-000369	Natural	28-Aug-16	15-Aug-16		Idaho	7963	0.0	01-Dec-16	46.225	-114.700	Idaho
+CEDAR	ID-NCF-000216	Not Reported	25-Aug-16	Not Reported		Not Reported	4404	Not Reported	Not Reported	46.348	-114.693	Not Reported
+B-ARROW	MT-FBA-000049	Natural	31-Aug-16	01-Sep-16		Montana	1130	100.0	08-Sep-16	48.271	-108.692	Blaine
+GRANITE	ID-IPF-000398	Natural	31-Aug-16	16-Aug-16		Idaho	1030	0.0	31-Oct-16	47.013	-115.451	Shoshone
+ATTENTION	ID-IPF-000404	Natural	31-Aug-16	16-Aug-16		Idaho	930	0.0	31-Oct-16	47.111	-115.439	Shoshone
+MAGPIE	MT-FBA-000050	Natural	31-Aug-16	01-Sep-16		Montana	413	100.0	06-Sep-16	48.341	-108.672	Blaine
+GLEASON	ID-IPF-000426	Natural	25-Aug-16	19-Aug-16		Washington	111	0.0	31-Oct-16	48.554	-117.100	Pend Oreille
+FREEMAN	ID-NCF-000334	Natural	25-Aug-16	10-Aug-16		Idaho	132	0.0	01-Dec-16	46.189	-114.781	Idaho
+GAP	CA-KNF-007501	Undetermined	28-Aug-16	28-Aug-16	2	California	17509	12.0	30-Sep-16	41.851	-123.118	Siskiyou
+TULLEY	CA-HUU-006956	Human	23-Aug-16	22-Aug-16		California	599	95.0	09-Sep-16	41.200	-123.751	Humboldt
+RAIL	OR-WWF-000582	Undetermined	26-Aug-16	31-Jul-16	2	Oregon	41607	80.0	15-Sep-16	44.408	-118.383	Baker
+CAYUSE MTN.	WA-SPA-000024	Human	27-Aug-16	22-Aug-16		Washington	18116	95.0	31-Aug-16	47.858	-118.046	Stevens
+BUCK CREEK	WA-OWF-000295	Not Reported	30-Aug-16	Not Reported		Not Reported	3400	Not Reported	Not Reported	48.112	-120.894	Not Reported
+HAYES TWO	WA-OLP-000153	Not Reported	25-Aug-16	Not Reported		Not Reported	2400	Not Reported	Not Reported	47.824	-123.424	Not Reported
+BEAVER CREEK	CO-RTF-000088	Human	10-Aug-16	19-Jun-16	N	Colorado	37627	60.0	21-Oct-16	40.958	-106.634	Jackson
+BROADWAY	WY-MBF-016400	Natural	21-Aug-16	15-Aug-16	N	Wyoming	615	0.0	21-Oct-16	41.042	-106.762	Carbon
+HICKOK	AZ-COF-001535	Natural	25-Aug-16	05-Aug-16		Arizona	1000	4.0	20-Sep-16	35.299	-111.867	Coconino
+CUERNO	NM-SNF-000490	Natural	26-Aug-16	01-Aug-16		New Mexico	140	0.0	30-Sep-16	36.130	-106.446	Rio Arriba

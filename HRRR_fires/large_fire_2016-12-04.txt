@@ -1,0 +1,15 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+CHIMNEY TOPS 2	TN-GSP-016062	Human	02-Dec-16	23-Nov-16	1	Tennessee	17859	38.0	20-Dec-16	35.631	-83.478	Sevier
+COBBLY KNOB	TN-TNS-110060	Human	02-Dec-16	28-Nov-16	1	Tennessee	750	41.0	20-Dec-16	35.770	-83.343	Sevier
+ROCK MOUNTAIN	GA-CHF-160079	Human	02-Dec-16	09-Nov-16	2	Georgia	24725	93.0	15-Dec-16	34.942	-83.549	Rabun
+LAKE CHINNABEE	AL-ALF-160631	Human	02-Dec-16	28-Nov-16		Alabama	1386	100.0	03-Dec-16	33.465	-85.868	Clay
+CAMP BRANCH	NC-NCF-160378	Undetermined	02-Dec-16	23-Nov-16	1	North Carolina	3422	100.0	03-Dec-16	35.165	-83.541	Macon
+PINNACLE MOUNTAIN	SC-SCS-N110916-2	Not Reported	02-Dec-16	Not Reported		Not Reported	10560	Not Reported	Not Reported	35.027	-82.743	Not Reported
+CHESTNUT KNOB	NC-NCS-160043	Undetermined	02-Dec-16	06-Nov-16		North Carolina	6435	95.0	04-Dec-16	35.608	-81.636	Burke
+TATUM GULF	GA-GAS-100917	Undetermined	02-Dec-16	11-Nov-16		Georgia	2336	99.0	10-Dec-16	34.722	-85.494	Dade
+TELLICO	NC-NCF-160280	Not Reported	02-Dec-16	Not Reported		Not Reported	13874	Not Reported	Not Reported	35.274	-83.560	Not Reported
+BOTELER	NC-NCF-160247	Not Reported	02-Dec-16	Not Reported		Not Reported	9036	Not Reported	Not Reported	35.068	-83.655	Not Reported
+MAPLE SPRINGS	NC-NCF-160295	Not Reported	02-Dec-16	Not Reported		Not Reported	7788	Not Reported	Not Reported	35.398	-83.908	Not Reported
+HORTON	NC-NCS-160059	Not Reported	02-Dec-16	Not Reported		Not Reported	1450	Not Reported	Not Reported	36.149	-81.574	Not Reported
+MOUNT PLEASANT	VA-VAF-160311	Not Reported	02-Dec-16	Not Reported		Not Reported	11229	Not Reported	Not Reported	37.752	-79.184	Not Reported
+BARRON ROAD	GA-GAS-040317	Not Reported	02-Dec-16	Not Reported		Not Reported	117	Not Reported	Not Reported	33.216	-84.854	Not Reported

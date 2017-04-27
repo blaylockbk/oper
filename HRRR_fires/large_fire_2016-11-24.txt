@@ -1,0 +1,38 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+CLEAR CREEK	NC-NCS-160054	Undetermined	21-Nov-16	20-Nov-16	2	North Carolina	1187	15.0	10-Dec-16	35.705	-82.101	McDowell
+ROCK MOUNTAIN	GA-CHF-160079	Human	22-Nov-16	09-Nov-16	1	Georgia	14757	35.0	15-Dec-16	34.942	-83.549	Rabun
+MOUNT PLEASANT	VA-VAF-160311	Undetermined	22-Nov-16	19-Nov-16		Virginia	4400	10.0	12-Dec-16	37.752	-79.184	Amherst
+PINNACLE MOUNTAIN	SC-SCS-N110916-2	Not Reported	22-Nov-16	Not Reported		Not Reported	6022	Not Reported	Not Reported	35.027	-82.743	Not Reported
+EADES HOLLOW	VA-VAS-16CR1121-1	Not Reported	22-Nov-16	Not Reported		Not Reported	922	Not Reported	Not Reported	37.783	-78.861	Not Reported
+PARTY ROCK	NC-NCS-160031	Undetermined	22-Nov-16	05-Nov-16	1	North Carolina	7171	60.0	01-Dec-16	35.446	-82.212	Rutherford
+TATUM GULF	GA-GAS-100917	Undetermined	22-Nov-16	11-Nov-16		Georgia	2336	80.0	30-Nov-16	34.722	-85.494	Dade
+TELLICO	NC-NCF-160280	Human	22-Nov-16	03-Nov-16	1	North Carolina	13874	91.0	20-Nov-16	35.274	-83.560	Macon
+BOTELER	NC-NCF-160247	Undetermined	22-Nov-16	25-Oct-16	1	North Carolina	9031	77.0	15-Dec-16	35.068	-83.655	Clay
+DICK'S CREEK	NC-NCF-160242	Human	22-Nov-16	23-Oct-16	1	North Carolina	729	99.0	14-Nov-16	35.399	-83.260	Jackson
+MUSKRAT	NC-NCS-160336	Undetermined	22-Nov-16	11-Nov-16	1	North Carolina	104	99.0	21-Nov-16	35.136	-83.511	Macon
+CATHY GAP	NC-NCF-160354	Undetermined	22-Nov-16	17-Nov-16	1	North Carolina	123	90.0	25-Nov-16	35.260	-82.951	Jackson
+MAPLE SPRINGS	NC-NCF-160295	Human	22-Nov-16	05-Nov-16	1	North Carolina	7788	71.0	05-Dec-16	35.398	-83.908	Graham
+CHESTNUT KNOB	NC-NCS-160043	Undetermined	22-Nov-16	06-Nov-16	2	North Carolina	6435	70.0	29-Nov-16	35.608	-81.636	Burke
+CHIMNEY ROCK	TN-BSP-016185	Undetermined	22-Nov-16	18-Nov-16		Tennessee	135	40.0	24-Nov-16	36.557	-84.659	Scott
+ROUGH RIDGE	GA-CHF-160052	Natural	22-Nov-16	16-Oct-16	2	Georgia	27870	71.0	30-Nov-16	34.897	-84.564	Fannin
+EASTERN CHEROKEE COMPLEX	NC-ECA-000034	Human	22-Nov-16	02-Nov-16		North Carolina	756	95.0	25-Nov-16	35.447	-83.238	Jackson
+EAST MILLER COVE	TN-TNS-100048	Not Reported	22-Nov-16	Not Reported		Not Reported	1492	Not Reported	Not Reported	35.732	-83.809	Not Reported
+RAVEN ROCK	VA-VAF-000255	Undetermined	22-Nov-16	02-Nov-16		Virginia	2402	95.0	30-Nov-16	37.182	-82.593	Wise
+KENTUCKY RIDGE	KY-KYS-000016	Human	22-Nov-16	07-Nov-16		Kentucky	1600	95.0	28-Nov-16	36.680	-83.851	Bell
+BELLS ROAD	GA-GAS-040117	Undetermined	22-Nov-16	20-Nov-16		Georgia	1546	100.0	30-Nov-16	33.891	-85.352	Haralson
+QUARRY CREEK	TN-CNF-000325	Not Reported	22-Nov-16	Not Reported		Not Reported	690	Not Reported	Not Reported	35.357	-84.271	Not Reported
+LITTLE PATTERSON	KY-KYS-16-3084	Not Reported	21-Nov-16	Not Reported		Not Reported	685	Not Reported	Not Reported	36.668	-84.065	Not Reported
+BOWLINGS CREEK	KY-KYS-16-3081	Not Reported	22-Nov-16	Not Reported		Not Reported	500	Not Reported	Not Reported	37.383	-83.459	Not Reported
+LOST FORK	KY-DBF-016191	Human	21-Nov-16	21-Nov-16		Kentucky	175	50.0	03-Dec-16	37.100	-83.637	Clay
+BIG POPLAR	TN-CNF-000336	Not Reported	22-Nov-16	Not Reported		Not Reported	157	Not Reported	Not Reported	35.128	-84.370	Not Reported
+SUNNY RD	KY-KYS-16-3083	Not Reported	22-Nov-16	Not Reported		Not Reported	154	Not Reported	Not Reported	37.593	-82.849	Not Reported
+WALLSEND	KY-KYS-16-3080	Not Reported	22-Nov-16	Not Reported		Not Reported	150	Not Reported	Not Reported	36.771	-83.706	Not Reported
+HURRICANE CREEK	KY-KYS-16-3072	Not Reported	22-Nov-16	Not Reported		Not Reported	145	Not Reported	Not Reported	37.499	-82.112	Not Reported
+2 MILE	NC-NCS-160056	Human	22-Nov-16	20-Nov-16		North Carolina	140	70.0	24-Nov-16	36.342	-81.503	Ashe
+ELLIS ROAD	GA-GAS-040217	Undetermined	21-Nov-16	21-Nov-16		Georgia	120	100.0	23-Nov-16	33.269	-84.405	Spalding
+FISH TRAP	KY-KYS-16-3076	Not Reported	22-Nov-16	Not Reported		Not Reported	356	Not Reported	Not Reported	37.461	-82.575	Not Reported
+CLARK RD	KY-KYS-16-3078	Not Reported	22-Nov-16	Not Reported		Not Reported	300	Not Reported	Not Reported	37.502	-82.688	Not Reported
+DEFEATED CREEK	KY-KYS-16-3079	Not Reported	22-Nov-16	Not Reported		Not Reported	200	Not Reported	Not Reported	37.033	-83.025	Not Reported
+EARL GRUBB HOLLOW	KY-KYS-16-3077	Not Reported	22-Nov-16	Not Reported		Not Reported	110	Not Reported	Not Reported	37.199	-83.813	Not Reported
+LIND PERMIT	MN-MNS-121-0081	Not Reported	22-Nov-16	Not Reported		Not Reported	320	Not Reported	Not Reported	48.566	-96.335	Not Reported
+MILLWOOD	PA-PAS-04162004	Not Reported	22-Nov-16	Not Reported		Not Reported	173	Not Reported	Not Reported	40.343	-79.256	Not Reported

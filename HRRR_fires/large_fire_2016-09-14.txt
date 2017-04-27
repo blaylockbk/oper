@@ -1,0 +1,19 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+PIONEER	ID-BOF-000539	Undetermined	11-Sep-16	18-Jul-16	1	Idaho	185895	56.0	15-Oct-16	43.950	-115.762	Boise
+BERRY	WY-GTP-001621	Natural	11-Sep-16	25-Jul-16		Wyoming	20801	69.0	01-Oct-16	44.021	-110.786	Teton
+ALCORN	UT-SLD-000833	Not Reported	11-Sep-16	Not Reported		Not Reported	735	Not Reported	Not Reported	39.901	-111.919	Not Reported
+GORGE	WY-BTF-001646	Not Reported	11-Sep-16	Not Reported		Not Reported	175	Not Reported	Not Reported	43.035	-109.708	Not Reported
+COPPER KING	MT-LNF-005092	Undetermined	11-Sep-16	31-Jul-16	2	Montana	28553	80.0	31-Oct-16	47.600	-115.185	Sanders
+MAPLE	WY-YNP-001611	Not Reported	11-Sep-16	Not Reported	2	Not Reported	45377	Not Reported	Not Reported	44.743	-110.978	Not Reported
+ROCK CREEK	WA-OWF-000495	Undetermined	11-Sep-16	10-Sep-16	2	Washington	616	20.0	25-Sep-16	46.911	-120.950	Kittitas
+ELMER CITY	WA-COA-000129	Human	11-Sep-16	11-Sep-16		Washington	2000	77.0	16-Sep-16	48.009	-118.946	Okanogan
+OLD LADY CREEK	WA-SPD-000497	Human	12-Sep-16	11-Sep-16		Washington	2500	80.0	15-Sep-16	45.773	-120.314	Klickitat
+HOWARD	CA-LMU-004700	Undetermined	12-Sep-16	11-Sep-16		California	418	90.0	14-Sep-16	41.439	-120.878	Modoc
+GAP	CA-KNF-007501	Undetermined	12-Sep-16	28-Aug-16	2	California	33867	95.0	30-Sep-16	41.853	-123.115	Siskiyou
+WILLARD	CA-LMU-004695	Undetermined	12-Sep-16	11-Sep-16	1	California	2522	50.0	19-Sep-16	40.414	-120.737	Lassen
+SOBERANES	CA-BEU-003422	Human	12-Sep-16	22-Jul-16	1	California	105705	52.0	30-Sep-16	36.461	-121.901	Monterey
+CEDAR	CA-SQF-002595	Not Reported	12-Sep-16	Not Reported		Not Reported	29322	Not Reported	Not Reported	35.745	-118.584	Not Reported
+SNAKE	WY-MBF-016498	Undetermined	11-Sep-16	10-Sep-16		Wyoming	2600	5.0	01-Oct-16	41.040	-107.097	Carbon
+BEAVER CREEK	CO-RTF-000088	Human	12-Sep-16	19-Jun-16	N	Colorado	38264	72.0	21-Oct-16	40.945	-106.614	Jackson
+BROADWAY	WY-MBF-016400	Natural	12-Sep-16	15-Aug-16	N	Wyoming	2107	7.0	21-Oct-16	41.042	-106.762	Carbon
+PRIDY	TX-TXS-001526	Human	12-Sep-16	12-Sep-16		Texas	400	100.0	13-Sep-16	31.684	-99.716	Coleman

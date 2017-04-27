@@ -1,0 +1,38 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+NW OKLAHOMA COMPLEX	OK-OKS-000529	Undetermined	10-Mar-17	07-Mar-17	1	Oklahoma	782333	92.0	22-Mar-17	36.708	-99.802	Beaver
+LEE WILLIAMS RD	FL-FLS-170088	Not Reported	09-Mar-17	Not Reported	2	Not Reported	7230	Not Reported	Not Reported	26.130	-81.581	Not Reported
+MISLAP	OK-OSA-017026	Not Reported	09-Mar-17	Not Reported		Not Reported	9636	Not Reported	Not Reported	36.328	-96.296	Not Reported
+IRATE	OK-OMA-017041	Not Reported	09-Mar-17	Not Reported		Not Reported	3000	Not Reported	Not Reported	35.095	-96.159	Not Reported
+LOST CREEK	OK-OMA-017037	Not Reported	09-Mar-17	Not Reported		Not Reported	2135	Not Reported	Not Reported	35.390	-96.139	Not Reported
+HOWELL	OK-OSA-017032	Not Reported	10-Mar-17	Not Reported		Not Reported	1900	Not Reported	Not Reported	36.655	-96.139	Not Reported
+TRAIL	FL-FLS-180096	Not Reported	09-Mar-17	Not Reported		Not Reported	1065	Not Reported	Not Reported	25.766	-80.417	Not Reported
+TUCKER	OK-WEA-017036	Not Reported	08-Mar-17	Not Reported		Not Reported	1030	Not Reported	Not Reported	35.050	-96.608	Not Reported
+BUNCH MT	OK-NEU-170161	Not Reported	09-Mar-17	Not Reported		Not Reported	1100	Not Reported	Not Reported	35.725	-94.818	Not Reported
+NUCLEAR	FL-FLS-180105	Not Reported	11-Mar-17	Not Reported		Not Reported	400	Not Reported	Not Reported	25.436	-80.380	Not Reported
+WATSIMOIE	OK-OSA-017029	Not Reported	08-Mar-17	Not Reported		Not Reported	314	Not Reported	Not Reported	36.351	-96.368	Not Reported
+PERRYTON	TX-TXS-001012	Not Reported	09-Mar-17	Not Reported		Not Reported	318156	Not Reported	Not Reported	36.086	-100.531	Not Reported
+SPOCOGEE	OK-OMA-017035	Not Reported	09-Mar-17	Not Reported		Not Reported	6478	Not Reported	Not Reported	36.048	-96.319	Not Reported
+STAPLES ROAD	OK-SEU-170170	Not Reported	08-Mar-17	Not Reported		Not Reported	940	Not Reported	Not Reported	34.660	-95.892	Not Reported
+SPRING CREEK FARM	OK-WEA-017034	Not Reported	09-Mar-17	Not Reported		Not Reported	687	Not Reported	Not Reported	35.076	-96.619	Not Reported
+SPITLINE	FL-FLS-120190	Human	13-Mar-17	11-Mar-17		Florida	616	100.0	13-Mar-17	28.100	-81.173	Osceola
+DELHI	OK-OKS-170027	Not Reported	16-Mar-17	Not Reported		Not Reported	600	Not Reported	Not Reported	35.205	-99.635	Not Reported
+ROLLS	FL-FLS-160224	Human	12-Mar-17	10-Mar-17		Florida	572	100.0	10-Mar-17	27.741	-80.835	Indian River
+BOONE BCT	AR-ARS-0154D6	Not Reported	16-Mar-17	Not Reported		Not Reported	512	Not Reported	Not Reported	36.214	-93.280	Not Reported
+TERRITORY	OK-OKS-170024	Not Reported	09-Mar-17	Not Reported		Not Reported	500	Not Reported	Not Reported	34.521	-98.050	Not Reported
+CONWAY RANCH	OK-ECU-170169	Not Reported	08-Mar-17	Not Reported		Not Reported	497	Not Reported	Not Reported	34.952	-95.449	Not Reported
+BADCOCK  GRUB RD	FL-FLS-150125	Not Reported	09-Mar-17	Not Reported		Not Reported	400	Not Reported	Not Reported	26.825	-81.664	Not Reported
+KEIFER	TX-TXS-001508	Not Reported	12-Mar-17	Not Reported		Not Reported	360	Not Reported	Not Reported	32.352	-99.075	Not Reported
+BLUE BLUFF	AR-BUP-000561	Not Reported	16-Mar-17	Not Reported		Not Reported	285	Not Reported	Not Reported	35.977	-92.819	Not Reported
+WALKER GAMBLE RD	c	Not Reported	16-Mar-17	Not Reported	d	Not Reported	250	Not Reported	Not Reported	33.818	-80.057	Not Reported
+MIDNIGHT	GA-GAS-020617	Not Reported	16-Mar-17	Not Reported		Not Reported	106	Not Reported	Not Reported	32.515	-84.169	Not Reported
+ANNIVERSARY	SC-FMF-000092	Not Reported	14-Mar-17	Not Reported		Not Reported	102	Not Reported	Not Reported	33.970	-82.410	Not Reported
+RENO COUNTY	KS-RNX-000266	Not Reported	09-Mar-17	Not Reported		Not Reported	6000	Not Reported	Not Reported	38.101	-97.851	Not Reported
+Q AND 140TH	KS-KMX-000271	Not Reported	16-Mar-17	Not Reported		Not Reported	1100	Not Reported	Not Reported	39.821	-98.757	Not Reported
+HODGEMAN COUNTY	KS-HGX-000312	Not Reported	16-Mar-17	Not Reported	d	Not Reported	18000	Not Reported	Not Reported	38.197	-99.918	Not Reported
+HIGHLANDS	KS-RNX-000252	Not Reported	08-Mar-17	Not Reported	2	Not Reported	5441	Not Reported	Not Reported	38.117	-97.877	Not Reported
+RACEWAY PARK	KS-FOX-000305	Not Reported	16-Mar-17	Not Reported	d	Not Reported	2326	Not Reported	Not Reported	37.816	-100.023	Not Reported
+YONKERS	KS-CNX-000307	Not Reported	16-Mar-17	Not Reported	d	Not Reported	1100	Not Reported	Not Reported	39.778	-101.102	Not Reported
+PIKE	KS-BAX-000283	Not Reported	16-Mar-17	Not Reported		Not Reported	420	Not Reported	Not Reported	37.321	-98.610	Not Reported
+RANCH	AZ-A3S-001727	Not Reported	12-Mar-17	Not Reported		Not Reported	2466	Not Reported	Not Reported	31.643	-110.454	Not Reported
+NORTH CANE	FL-FLS-120196	Human	15-Mar-17	15-Mar-17		Florida	7000	100.0	18-Mar-17	28.566	-80.960	Orange
+SPRING MOUNTAIN	OK-ECU-170188	Not Reported	16-Mar-17	Not Reported		Not Reported	200	Not Reported	Not Reported	34.825	-98.149	Not Reported
