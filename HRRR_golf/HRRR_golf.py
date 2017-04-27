@@ -6,7 +6,7 @@ Dallin Naulu inspired me to make a golf weather prduct using the raw HRRR
 weather data. Something that displays the temperature, humidity, wind, and 
 precipitation forecast with a pannel showing the simulated radar for the
 surrounding area. This product can be used for any location, not just a golf
-course. Added Utah Lake, Lagoon, and some MesoWest locations.
+course. Added Utah Lake, Lagoon, and some MesoWest locations of interest.
 
 To do list:
 [X] Need an efficient pollywog funciton, that gets pollywog for several points 
