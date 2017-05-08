@@ -21,7 +21,8 @@ To do list:
 [ ] Do I want to smooth out the Radar Reflectivity??? Nah!
 [ ] Text labels over scatter points that show values.
 [ ] What causes the Segmentation Fault (core dumped)??
-[ ] Include Subhourly files files
+[ ] Include Subhourly files files (would increase download time signifiantly??)
+[ ] Add email alerts for certain criteria (gusts greater than 80 mph, temps > 100, temps < 32)
 """
 import matplotlib as mpl
 mpl.use('Agg')#required for the CRON job. Says "do not open plot in a window"??
