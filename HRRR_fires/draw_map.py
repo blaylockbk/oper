@@ -22,9 +22,6 @@ from BB_MesoWest.MesoWest_stations_radius import get_mesowest_radius_stations, g
 ## Get 10-m winds and reflectivity from the HRRR for 
 
 
-
-
-
 plt.figure(1, figsize=[12,12])
 
 bot_left_lat = 30

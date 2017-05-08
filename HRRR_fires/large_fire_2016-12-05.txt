@@ -1,9 +1,0 @@
-INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
-CHIMNEY TOPS 2	TN-GSP-016062	Human	03-Dec-16	23-Nov-16	1	Tennessee	17006	42.0	20-Dec-16	35.631	-83.478	Sevier
-ROCK MOUNTAIN	GA-CHF-160079	Human	02-Dec-16	09-Nov-16	2	Georgia	24725	95.0	15-Dec-16	34.942	-83.549	Rabun
-LAKE CHINNABEE	AL-ALF-160631	Human	03-Dec-16	28-Nov-16		Alabama	2152	100.0	03-Dec-16	33.465	-85.868	Clay
-PINNACLE MOUNTAIN	SC-SCS-N110916-2	Not Reported	02-Dec-16	Not Reported		Not Reported	10645	Not Reported	Not Reported	35.027	-82.743	Not Reported
-CHESTNUT KNOB	NC-NCS-160043	Undetermined	03-Dec-16	06-Nov-16		North Carolina	6435	100.0	04-Dec-16	35.608	-81.636	Burke
-TATUM GULF	GA-GAS-100917	Not Reported	03-Dec-16	Not Reported		Not Reported	2336	Not Reported	Not Reported	34.722	-85.494	Not Reported
-COBBLY NOB	TN-TNS-110060	Human	03-Dec-16	28-Nov-16	1	Tennessee	803	53.0	20-Dec-16	35.770	-83.343	Sevier
-CAMP BRANCH	NC-NCF-160378	Not Reported	02-Dec-16	Not Reported		Not Reported	3422	Not Reported	Not Reported	35.165	-83.541	Not Reported
