@@ -254,13 +254,14 @@ for fxx in range(0, 19):
             b = get_mesowest_radius(MW_date, 15,
                                     extra='&radius=%s,%s,20' % (l['latitude'], l['longitude']),
                                     variables='wind_speed,wind_direction')
-            MW_u, MW_v = wind_spddir_to_uv(b['wind_speed'], b['wind_direction'])
-            MW_u = mps_to_MPH(MW_u)
-            MW_v = mps_to_MPH(MW_v)
-            MWx, MWy = maps[loc](b['LON'], b['LAT'])
-            ax1.barbs(MWx, MWy, MW_u, MW_v,
-                      color='r',
-                      barb_increments=dict(half=5, full=10, flag=50))
+            if len(b['NAME']) > 0:
+                MW_u, MW_v = wind_spddir_to_uv(b['wind_speed'], b['wind_direction'])
+                MW_u = mps_to_MPH(MW_u)
+                MW_v = mps_to_MPH(MW_v)
+                MWx, MWy = maps[loc](b['LON'], b['LAT'])
+                ax1.barbs(MWx, MWy, MW_u, MW_v,
+                        color='r',
+                        barb_increments=dict(half=5, full=10, flag=50))
 
         # Overlay Utah Roads
         BASE = '/uufs/chpc.utah.edu/common/home/u0553130/'
@@ -282,15 +283,16 @@ for fxx in range(0, 19):
         if l['is MesoWest'] is True:
             a = get_mesowest_ts(loc, DATE, datetime.utcnow(),
                                 variables='air_temp,wind_speed,dew_point_temperature')
-            ax2.plot(a['DATETIME'], CtoF(a['air_temp']), c='k', ls='--')
-            ax2.plot(a['DATETIME'], CtoF(a['dew_point_temperature']), c='k', ls='--')
+            if a != 'ERROR':
+                ax2.plot(a['DATETIME'], CtoF(a['air_temp']), c='k', ls='--')
+                ax2.plot(a['DATETIME'], CtoF(a['dew_point_temperature']), c='k', ls='--')
 
         leg2 = ax2.legend()
         leg2.get_frame().set_linewidth(0)
         ax2.grid()
         ax2.set_ylabel('Degrees (F)')
         ax2.set_xlim([P_temp['DATETIME'][0], P_temp['DATETIME'][-1]])
-        if l['is MesoWest'] is True:
+        if l['is MesoWest'] is True and a != 'ERROR':
             maxT = np.nanmax([np.nanmax(tempF), np.nanmax(CtoF(a['air_temp']))])
             minT = np.nanmin([np.nanmin(dwptF), np.nanmin(CtoF(a['dew_point_temperature']))])
         else:
@@ -311,7 +313,8 @@ for fxx in range(0, 19):
         ax3.scatter(P_wind['DATETIME'][fxx], P_wind[loc][fxx], c='darkorange', s=60)
         if l['is MesoWest'] is True:
             # we alreaded loaded mesowest data into a
-            ax3.plot(a['DATETIME'], mps_to_MPH(a['wind_speed']), c='k', ls='--')
+            if a != 'ERROR':
+                ax3.plot(a['DATETIME'], mps_to_MPH(a['wind_speed']), c='k', ls='--')
 
         # plt.barbs can not take a datetime object, so find the date indexes:
         idx = mpl.dates.date2num(P_u['DATETIME'])
@@ -324,8 +327,8 @@ for fxx in range(0, 19):
         ax3.grid()
         #ax3.set_ylabel(r'Wind Speed (ms$\mathregular{^{-1}}$)')
         ax3.set_ylabel('Wind Speed (mph)')
-        ax3.set_ylim([0, P_gust[loc].max()+3])
-        ax3.set_yticks([0, P_gust[loc].max()+3], 2.5)
+        ax3.set_ylim([0, np.nanmax(P_gust[loc])+3])
+        ax3.set_yticks([0, np.nanmax(P_gust[loc])+3], 2.5)
         ax3.set_xlim([P_gust['DATETIME'][0], P_gust['DATETIME'][-1]])
         ax3.xaxis.set_major_locator(mdates.HourLocator(range(0, 24, 3)))
         ax3.xaxis.set_minor_locator(mdates.HourLocator(range(0, 24, 1)))
@@ -339,7 +342,7 @@ for fxx in range(0, 19):
         ax4.plot(local, accumP, color='limegreen', label='Accumulated Precipitation')
         ax4.scatter(local[fxx], accumP[fxx], color='limegreen', s=60)
         ax4.set_xlim([local[0], local[-1]])
-        ax4.set_ylim([0, accumP.max()+.1])
+        ax4.set_ylim([0, np.nanmax(accumP)+.1])
         ax4.xaxis.set_major_locator(mdates.HourLocator(range(0, 24, 3)))
         ax4.xaxis.set_minor_locator(mdates.HourLocator(range(0, 24, 1)))
         ax4.xaxis.set_major_formatter(mdates.DateFormatter('%b-%d\n%H:%M'))

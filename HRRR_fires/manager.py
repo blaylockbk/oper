@@ -10,12 +10,22 @@ import numpy as np
 import os
 import shutil
 
-# Fires file for current day
-get_today = datetime.strftime(date.today(), "%Y-%m-%d")
-fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire_'+get_today+'.txt' # Operational file: local version copied from the gl1 crontab
-fires = np.genfromtxt(fires_file, names=True, dtype=None,delimiter='\t')
+def remove_old_fires(fires):
+    """
+    fires is a dictionary. Each key is a fire name.
+    We want to remove the directories that are no longer active
+    """
+    path = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/'
+    dirs = os.listdir(path)
+    for D in dirs:
+        if D.replace('_', ' ') not in fires.keys():
+            # Looks like the fire isn't active anymore
+            shutil.rmtree(path+D)
 
-def write_HRRR_fires_HTML():
+def write_HRRR_fires_HTML(fires):
+    """
+    fires is a dictionary. Each key is a fire name.
+    """
 
     html_text = """
 <html>
@@ -35,10 +45,10 @@ def write_HRRR_fires_HTML():
 <center>
 <div id="container" style="max-width:450px">
   
-<h3>Active Large Fires</h3>"""
+<h3>Active Large Fires >1000 Acres</h3>"""
 
-    for F in fires:
-      html_text += """<a href="http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/%s/photo_viewer_fire.php" class="btn btn-primary btn-lg btn-block">%s, size: %s, start: %s</a>""" % (F[0].replace(' ', '_'), F[0], F[7], F[4])
+    for F in sorted(fires, key=fires.get(0)):
+        html_text += """<a href="http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/%s/photo_viewer_fire.php" class="btn btn-primary btn-lg btn-block">%s, size: %s, start: %s</a>""" % (fires[F]['name'].replace(' ', '_'), fires[F]['name'], fires[F]['area'], fires[F]['start date'])
     html_text += """
 </div>
 </center>
@@ -51,13 +61,3 @@ def write_HRRR_fires_HTML():
     html = open(save_here, "w")
     html.write(html_text)
     html.close()
-
-def remove_old_fires():
-    path = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/'
-    dirs = os.listdir(path)
-    for D in dirs:
-        if D.replace('_', ' ') not in fires['INAME']:
-            shutil.rmtree(path+D)
-
-write_HRRR_fires_HTML()
-remove_old_fires()

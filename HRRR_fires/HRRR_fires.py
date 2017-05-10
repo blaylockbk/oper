@@ -63,19 +63,19 @@ fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fir
 
 fires = np.genfromtxt(fires_file, names=True, dtype=None,delimiter='\t')
 #column names:
-    #0  INAME - Incident Name
-    #1  INUM
-    #2  CAUSE
-    #3  REP_DATE - reported date
-    #4  START_DATE
-    #5  IMT_TYPE
-    #6  STATE
-    #7  AREA
-    #8  P_CNT - Percent Contained
-    #9  EXP_CTN - Expected Containment
-    #10 LAT
-    #11 LONG
-    #12 COUNTY
+    # 0  INAME - Incident Name
+    # 1  INUM
+    # 2  CAUSE
+    # 3  REP_DATE - reported date
+    # 4  START_DATE
+    # 5  IMT_TYPE
+    # 6  STATE
+    # 7  AREA
+    # 8  P_CNT - Percent Contained
+    # 9  EXP_CTN - Expected Containment
+    # 10 LAT
+    # 11 LONG
+    # 12 COUNTY
 print "there are", len(fires), "large fires"
 
 # 1) Locations (dictionary)
@@ -83,15 +83,18 @@ location = {}
 for F in range(0,len(fires)):
     FIRE = fires[F]
     # 1) Get Latitude and Longitude for the indexed large fire [fire]
-    # No HRRR data for Alaska or Hawaii, so don't do it
-    if FIRE[6] == 'Alaska' or FIRE[6] == 'Hawaii':
+    # No HRRR data for Alaska or Hawaii, so don't do it.
+    # Also, don't bother running fires less than 1000 acres
+    if FIRE[7] < 1000 or FIRE[6] == 'Alaska' or FIRE[6] == 'Hawaii':
         continue
     location[FIRE[0]] = {'latitude': FIRE[10],
                          'longitude': FIRE[11],
                          'name': FIRE[0],
                          'state': FIRE[6],
-                         'is MesoWest': False,
-                         'timezone': 7-daylight}
+                         'area': FIRE[7],
+                         'start date': FIRE[4],
+                         'is MesoWest': False
+                        }
 
 # 2) Get the HRRR data from NOMADS
 DATE = datetime.utcnow() - timedelta(hours=1)
@@ -128,8 +131,8 @@ maps = {}
 for loc in location.keys():
     l = location[loc]
     m = Basemap(resolution='i', projection='cyl',\
-                llcrnrlon=l['longitude']-.2, llcrnrlat=l['latitude']-.2,\
-                urcrnrlon=l['longitude']+.2, urcrnrlat=l['latitude']+.2,)
+                llcrnrlon=l['longitude']-.5, llcrnrlat=l['latitude']-.5,\
+                urcrnrlon=l['longitude']+.5, urcrnrlat=l['latitude']+.5,)
     maps[loc] = m
 
 for fxx in range(0, 19):
@@ -321,5 +324,5 @@ for fxx in range(0, 19):
 # Do some webpage managment: Edits HTML to include current fires and removes old fires
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/')
 from manager import *
-write_HRRR_fires_HTML()
-remove_old_fires()
+remove_old_fires(location)
+write_HRRR_fires_HTML(location)
