@@ -30,7 +30,7 @@ To do list:
 [ ] Add email alerts for certain criteria (gusts greater than 80 mph, temps > 100, temps < 32)
 """
 import matplotlib as mpl
-#mpl.use('Agg')#required for the CRON job. Says "do not open plot in a window"??
+mpl.use('Agg')#required for the CRON job. Says "do not open plot in a window"??
 import numpy as np
 from datetime import datetime, timedelta
 import time
@@ -182,11 +182,12 @@ for loc in location.keys():
 
 
 # Create a figure for each location. Add permenant elements to each.
+print 'making permenant figure elements...'
 figs = {}
 axes = {}
 locs = location.keys()
 locs_idx = range(len(locs))
-#locs_idx = [0, 1, 2]
+locs_idx = [0, 1, 2]
 for n in locs_idx:
     l = location[locs[n]]
     tz = l['timezone']
@@ -215,7 +216,7 @@ for n in locs_idx:
     figs[locs[n]][2].grid()
     figs[locs[n]][2].set_ylabel('Degrees (F)')
     figs[locs[n]][2].set_xlim([P_temp['DATETIME'][0], P_temp['DATETIME'][-1]])
-    figs[locs[n]][2].set_ylim([np.min(P_dwpt[locs[n]])-3, np.max(P_temp[locs[n]])+3])
+    figs[locs[n]][2].set_ylim([np.nanmin(P_dwpt[locs[n]])-3, np.nanmax(P_temp[locs[n]])+3])
     figs[locs[n]][2].xaxis.set_major_locator(mdates.HourLocator(range(0, 24, 3)))
     figs[locs[n]][2].xaxis.set_minor_locator(mdates.HourLocator(range(0, 24, 1)))
     figs[locs[n]][2].xaxis.set_major_formatter(mdates.DateFormatter(''))
@@ -256,6 +257,15 @@ for n in locs_idx:
     leg4.get_frame().set_linewidth(0)
     figs[locs[n]][4].grid()
     figs[locs[n]][4].set_ylabel('Precipitation (in)')
+    #
+    # Finally, add MesoWest data if it is available
+    if l['is MesoWest'] is True:
+        a = get_mesowest_ts(locs[n], DATE, datetime.utcnow(),
+                            variables='air_temp,wind_speed,dew_point_temperature')
+        if a != 'ERROR':
+            figs[locs[n]][2].plot(a['DATETIME'], CtoF(a['air_temp']), c='k', ls='--')
+            figs[locs[n]][2].plot(a['DATETIME'], CtoF(a['dew_point_temperature']), c='k', ls='--')
+            figs[locs[n]][3].plot(a['DATETIME'], mps_to_MPH(a['wind_speed']), c='k', ls='--')
 
 # Now add the element that changes, save the figure, and remove elements from plot.
 # Only download the HRRR grid once per forecast hour.
@@ -279,7 +289,7 @@ for fxx in range(0, 19):
         locName = locs[n]
         l = location[locName]
         tz = l['timezone']
-        print "\n--> Working on:", locName
+        print "\n--> Working on:", locName, fxx
         #
         SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/' % locName
         if not os.path.exists(SAVE):
@@ -320,6 +330,21 @@ for fxx in range(0, 19):
             cb = figs[locName][0].colorbar(radar, cax=cax, orientation='horizontal')
             cb.set_label('Simulated Radar Reflectivity (dBZ)\n\nBarbs: Half=5 mph, Full=10 mph, Flag=50 mph')
         #
+        # Add nearby MesoWest 
+        if fxx in [0, 1]:
+            MW_date = P_temp['DATETIME'][fxx]
+            b = get_mesowest_radius(MW_date, 15,
+                                    extra='&radius=%s,%s,20' % (l['latitude'], l['longitude']),
+                                    variables='wind_speed,wind_direction')
+            if len(b['NAME']) > 0:
+                MW_u, MW_v = wind_spddir_to_uv(b['wind_speed'], b['wind_direction'])
+                MW_u = mps_to_MPH(MW_u)
+                MW_v = mps_to_MPH(MW_v)
+                MWx, MWy = maps[loc](b['LON'], b['LAT'])
+                MW_barbs = figs[locName][1].barbs(MWx, MWy, MW_u, MW_v,
+                                                  color='r',
+                                                  barb_increments=dict(half=5, full=10, flag=50))
+        #
         # Wind Barbs
         # Overlay wind barbs (need to trim this array before we plot it)
         # First need to trim the array
@@ -349,3 +374,9 @@ for fxx in range(0, 19):
         pntPrec.remove()
         barbs.remove()
         radar.remove()
+        try:
+            MW_barbs.remove()
+        except:
+            # No barbs were plotted
+            pass
+        
