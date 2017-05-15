@@ -15,14 +15,17 @@ def wind_warning(location, P_wind, warn_stn):
     warn_stn is the station ID you want the warning for
     """
     # Check for extreame values and send email alert
-    warn_wind = 30
+    warn_wind = 25
     if np.nanmax(P_wind[warn_stn]) >= warn_wind:
         """
         send an email with details from pollywog
         """
         # Send the Email
         sender = 'brian.blaylock@utah.edu'
-        receivers = ['blaylockbk@gmail.com']
+        if warn_stn == 'UKBKB':
+            receivers = ['blaylockbk@gmail.com', 'blaylock@sfcn.org']
+        else:
+            receivers = ['blaylockbk@gmail.com']
         subject = 'HRRR Weather Alert: High Winds for ' + warn_stn
         msg_header = "From: " + sender + "\n" + \
                     "To: " + ','.join(receivers) + "\n" + \
@@ -59,7 +62,10 @@ def temp_warning(location, P_temp, warn_stn):
         """
         # Send the Email
         sender = 'brian.blaylock@utah.edu'
-        receivers = ['blaylockbk@gmail.com']
+        if warn_stn == 'UKBKB':
+            receivers = ['blaylockbk@gmail.com', 'blaylock@sfcn.org']
+        else:
+            receivers = ['blaylockbk@gmail.com']
         subject = 'HRRR Weather Alert: Extreme Temperature for ' + warn_stn
         msg_header = "From: " + sender + "\n" + \
                     "To: " + ','.join(receivers) + "\n" + \
