@@ -1,5 +1,7 @@
 ## HRRR Forecast Display - Project Golf
 
+Point forecasts from HRRR model: http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_golf.html
+
 My neighborhood friend Dallin Naulu, now the superintendant over grounds at Spanish Oaks Golf Course, inspired me to make a golf weather product using the raw HRRR weather data. Ryan Thurston, another friend and avid wakeboarder, also inspired this project from a earlier project I called "HRRR Wake Finder." These plots displays the point forecast for temperature, humidity, wind, and precipitation from the HRRR model with a pannel showing the simulated radar reflectivity and 10 m wind field for the surrounding area. This product can be used for any location, not just a golf course. I added Utah Lake, Lagoon,and some MesoWest locations of interest.
 
 You can run this code yourself. You'll need some functions from 
