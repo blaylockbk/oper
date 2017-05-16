@@ -136,11 +136,11 @@ location = {'Oaks': {'latitude':40.084,
                      'name':'Antelope Island',
                      'timezone': 7-daylight,
                      'is MesoWest': True},
-            'KHIF':{'latitude':41.11112,
-                    'longitude':-111.96229,
-                    'name':'Hill Air Force Base',
-                    'timezone': 7-daylight,
-                    'is MesoWest': True},
+            'C8635':{'latitude':41.11112,
+                     'longitude':-111.96229,
+                     'name':'Hill Air Force Base (CW8635)',
+                     'timezone': 7-daylight,
+                     'is MesoWest': True},
             'FPS':{'latitude':40.45689,
                    'longitude':-111.90483,
                    'name':'Flight Park South',
@@ -177,6 +177,7 @@ P_gust = get_hrrr_pollywog_multi(DATE, 'GUST:surface', location, verbose=False);
 P_u = get_hrrr_pollywog_multi(DATE, 'UGRD:10 m', location, verbose=False); print "got U10"
 P_v = get_hrrr_pollywog_multi(DATE, 'VGRD:10 m', location, verbose=False); print "got V10"
 P_prec = get_hrrr_pollywog_multi(DATE, 'APCP:surface', location, verbose=False); print "got Precip"
+P_accum = {} # Accumulated precip
 
 # Convert the units of each Pollywog and each location
 for loc in location.keys():
@@ -188,6 +189,7 @@ for loc in location.keys():
     P_u[loc] = mps_to_MPH(P_u[loc])
     P_v[loc] = mps_to_MPH(P_v[loc])
     P_prec[loc] = mm_to_inches(P_prec[loc])
+    P_accum[loc] = np.add.accumulate(P_prec[loc]) # Accumulated Precip
 
 # Check for extreame values and send email alert
 from HRRR_warning import *
@@ -268,11 +270,10 @@ for n in locs_idx:
     # Plot: Accumulated precip
     figs[locName][4] = figs[locName][0].add_subplot(326)
     local = np.array(P_prec['DATETIME']) - timedelta(hours=tz)
-    accumP = np.add.accumulate(P_prec[locName])
     figs[locName][4].bar(local, P_prec[locName], width=.04, color='dodgerblue', label='1 hour Precipitation')
-    figs[locName][4].plot(local, accumP, color='limegreen', label='Accumulated Precipitation')
+    figs[locName][4].plot(local, P_accum[locName], color='limegreen', label='Accumulated Precipitation')
     figs[locName][4].set_xlim([local[0], local[-1]])
-    figs[locName][4].set_ylim([0, np.nanmax(accumP)+.1])
+    figs[locName][4].set_ylim([0, np.nanmax(P_accum[locName])+.1])
     figs[locName][4].xaxis.set_major_locator(mdates.HourLocator(range(0, 24, 3)))
     figs[locName][4].xaxis.set_minor_locator(mdates.HourLocator(range(0, 24, 1)))
     figs[locName][4].xaxis.set_major_formatter(mdates.DateFormatter('%b-%d\n%H:%M'))
@@ -387,7 +388,7 @@ for fxx in range(0, 19):
         pntWind = figs[locName][3].scatter(P_wind['DATETIME'][fxx], P_wind[locName][fxx], c='darkorange', s=60)
         #
         # 3.4) Accumulated Precipitation
-        pntPrec = figs[locName][4].scatter(local[fxx], accumP[fxx], edgecolor="k", color='limegreen', s=60)
+        pntPrec = figs[locName][4].scatter(local[fxx], P_accum[locName][fxx], edgecolor="k", color='limegreen', s=60)
         #
         # 4) Save figure
         figs[locName][0].savefig(SAVE+'f%02d.png' % (fxx))

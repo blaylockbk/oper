@@ -114,6 +114,7 @@ P_gust = get_hrrr_pollywog_multi(DATE, 'GUST:surface', location, verbose=False);
 P_u = get_hrrr_pollywog_multi(DATE, 'UGRD:10 m', location, verbose=False); print 'got u vectors'
 P_v = get_hrrr_pollywog_multi(DATE, 'VGRD:10 m', location, verbose=False); print 'got v vectors'
 P_prec = get_hrrr_pollywog_multi(DATE, 'APCP:surface', location, verbose=False); print 'got prec'
+P_accum = {}
 
 # Convert the units of each Pollywog and each location
 for loc in location.keys():
@@ -125,6 +126,7 @@ for loc in location.keys():
     P_u[loc] = mps_to_MPH(P_u[loc])
     P_v[loc] = mps_to_MPH(P_v[loc])
     P_prec[loc] = mm_to_inches(P_prec[loc])
+    P_accum[loc] = np.add.accumulate(P_prec[loc])
 
 # Make a dictionary of map object for each location.
 # (This speeds up plotting by creating each map once.)
@@ -202,11 +204,10 @@ for n in locs_idx:
     #
     # Plot: Accumulated precip
     figs[locName][4] = figs[locName][0].add_subplot(326)
-    accumP = np.add.accumulate(P_prec[locName])
     figs[locName][4].bar(P_prec['DATETIME'], P_prec[locName], width=.04, color='dodgerblue', label='1 hour Precipitation')
-    figs[locName][4].plot(P_prec['DATETIME'], accumP, color='limegreen', label='Accumulated Precipitation')
+    figs[locName][4].plot(P_prec['DATETIME'], P_accum[locName], color='limegreen', label='Accumulated Precipitation')
     figs[locName][4].set_xlim([P_prec['DATETIME'][0], P_prec['DATETIME'][-1]])
-    figs[locName][4].set_ylim([0, np.nanmax(accumP)+.1])
+    figs[locName][4].set_ylim([0, np.nanmax(P_accum[locName])+.1])
     figs[locName][4].xaxis.set_major_locator(mdates.HourLocator(range(0, 24, 3)))
     figs[locName][4].xaxis.set_minor_locator(mdates.HourLocator(range(0, 24, 1)))
     figs[locName][4].xaxis.set_major_formatter(mdates.DateFormatter('%b-%d\n%H:%M'))
@@ -317,7 +318,7 @@ for fxx in range(0, 19):
         pntWind = figs[locName][3].scatter(P_wind['DATETIME'][fxx], P_wind[locName][fxx], c='darkorange', s=60)
         #
         # 3.4) Accumulated Precipitation
-        pntPrec = figs[locName][4].scatter(P_prec['DATETIME'][fxx], accumP[fxx], edgecolor="k", color='limegreen', s=60)
+        pntPrec = figs[locName][4].scatter(P_prec['DATETIME'][fxx], P_accum[locName][fxx], edgecolor="k", color='limegreen', s=60)
         #
         # 4) Save figure
         figs[locName][0].savefig(SAVE+'f%02d.png' % (fxx))
