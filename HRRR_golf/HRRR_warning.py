@@ -35,9 +35,9 @@ def wind_warning(location, P_wind, warn_stn):
         msg += '--------------------------------------------\n'
         for i in range(len(P_wind[warn_stn])):
             if P_wind[warn_stn][i] > warn_wind:
-                msg += 'f%02d: %s     %.1f MPH <---\n' % (i, (P_wind['DATETIME'][i]-timedelta(hours=location[warn_stn]['timezone'])).strftime('%d %b %H:%I %p'), P_wind[warn_stn][i])
+                msg += 'f%02d: %s     %.1f MPH <---\n' % (i, (P_wind['DATETIME'][i]-timedelta(hours=location[warn_stn]['timezone'])).strftime('%d %b %I:%M %p'), P_wind[warn_stn][i])
             else:
-                msg += 'f%02d: %s     %.1f MPH\n' % (i, (P_wind['DATETIME'][i]-timedelta(hours=location[warn_stn]['timezone'])).strftime('%d %b %H:%I %p'), P_wind[warn_stn][i])
+                msg += 'f%02d: %s     %.1f MPH\n' % (i, (P_wind['DATETIME'][i]-timedelta(hours=location[warn_stn]['timezone'])).strftime('%d %b %I:%M %p'), P_wind[warn_stn][i])
         message =  msg_header + msg
         try:
             smtpObj = smtplib.SMTP('localhost')
@@ -75,9 +75,9 @@ def temp_warning(location, P_temp, warn_stn):
         msg += '-------------------------------------------\n'
         for i in range(len(P_temp[warn_stn])):
             if P_temp[warn_stn][i] <= warn_freez or P_temp[warn_stn][i] >= warn_heat:
-                msg += 'f%02d: %s     %.1f F <---\n' % (i, (P_temp['DATETIME'][i]-timedelta(hours=location[warn_stn]['timezone'])).strftime('%d %b %H:%I %p'), P_temp[warn_stn][i])
+                msg += 'f%02d: %s     %.1f F <---\n' % (i, (P_temp['DATETIME'][i]-timedelta(hours=location[warn_stn]['timezone'])).strftime('%d %b %I:%M %p'), P_temp[warn_stn][i])
             else:
-                msg += 'f%02d: %s     %.1f F\n' % (i, (P_temp['DATETIME'][i]-timedelta(hours=location[warn_stn]['timezone'])).strftime('%d %b %H:%I %p'), P_temp[warn_stn][i])
+                msg += 'f%02d: %s     %.1f F\n' % (i, (P_temp['DATETIME'][i]-timedelta(hours=location[warn_stn]['timezone'])).strftime('%d %b %I:%M %p'), P_temp[warn_stn][i])
         message =  msg_header + msg
         try:
             smtpObj = smtplib.SMTP('localhost')

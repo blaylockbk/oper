@@ -1,0 +1,14 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+COWBELL	FL-BCP-017033	Not Reported	11-May-17	Not Reported		Not Reported	21866	Not Reported	Not Reported	26.221	-80.978	Not Reported
+WEST MIMS	GA-OKR-017006	Natural	11-May-17	06-Apr-17	1	Florida	144073	23.0	01-Nov-17	30.574	-82.323	Baker
+MM 87 ON 75	FL-FPR-170001	Not Reported	11-May-17	Not Reported		Not Reported	516	Not Reported	Not Reported	26.153	-81.359	Not Reported
+30TH AVE	FL-FLS-170178	Not Reported	11-May-17	20-Apr-17		Florida	7068	85.0	03-May-17	26.188	-81.544	Collier
+TRIPLE RANCH	FL-FLS-120319	Not Reported	11-May-17	Not Reported		Not Reported	1354	Not Reported	Not Reported	28.022	-80.973	Not Reported
+KERR	NM-GNF-000093	Natural	11-May-17	01-May-17		New Mexico	2637	28.0	28-May-17	33.811	-108.476	Catron
+INTERNATIONAL	FL-MIR-2017020	Not Reported	11-May-17	Not Reported		Not Reported	1600	Not Reported	Not Reported	28.805	-80.836	Not Reported
+SOUTHERN TIER FLOOD 2017	MO-MTF-170313	Not Reported	07-May-17	Not Reported	2	Not Reported	1900000	Not Reported	Not Reported	37.158	-91.131	Not Reported
+ANCLOTE BRANCH	FL-FLS-110326	Not Reported	11-May-17	Not Reported		Not Reported	2275	Not Reported	Not Reported	28.259	-82.621	Not Reported
+DALLUS CREEK	FL-FLS-050165	Not Reported	11-May-17	06-May-17		Florida	400	90.0	12-May-17	29.736	-83.451	Taylor
+MULBERRY	AZ-A3S-003361	Not Reported	11-May-17	Not Reported		Not Reported	1755	Not Reported	Not Reported	31.897	-110.621	Not Reported
+FAGAN FARM ROAD	TX-TXS-008069	Not Reported	11-May-17	Not Reported		Not Reported	140	Not Reported	Not Reported	30.835	-94.907	Not Reported
+FL-FLS-060640	FL-FLS-060640	Not Reported	11-May-17	07-May-17		Florida	325	75.0	10-May-17	29.925	-82.059	Bradford
