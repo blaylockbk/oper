@@ -31,7 +31,7 @@ To do list:
 [ ] Add email alerts for certain criteria (gusts greater than 80 mph, temps > 100, temps < 32)
 """
 import matplotlib as mpl
-mpl.use('Agg')#required for the CRON job. Says "do not open plot in a window"??
+mpl.use('Agg') #required for the CRON job. Says "do not open plot in a window"??
 import numpy as np
 from datetime import datetime, timedelta
 import time
@@ -197,8 +197,9 @@ for warn in ['UKBKB', 'KSLC']:
     wind_warning(location, P_wind, warn)
     temp_warning(location, P_temp, warn)
 
+# Make a dictionary of map object for each location.
 maps = {}
-for loc in location.keys():
+for loc in location:
     l = location[loc]
     m = Basemap(resolution='i', projection='cyl',\
                 llcrnrlon=l['longitude']-.25, llcrnrlat=l['latitude']-.25,\

@@ -41,7 +41,7 @@ def write_HRRR_fires_HTML(fires):
 <a name="TOP"></a>
 <script src="./js/site/sitemenu.js"></script>	
 
-<h1 align="center"><i class="fa fa-map-marker" aria-hidden="true"></i> HRRR Point Forecasts</h1>
+<h1 align="center"><i class="fa fa-free-code-camp" aria-hidden="true"></i> HRRR Fire Forecasts</h1>
 <center>
 <div id="container" style="max-width:450px">
   
