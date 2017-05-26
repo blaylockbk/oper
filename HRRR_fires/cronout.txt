@@ -1,6 +1,6 @@
-there are 16 large fires
-Local DATE: 2017-05-22 08:55:17.248443
-  UTC DATE: 2017-05-22 13:00:00
+there are 7 large fires
+Local DATE: 2017-05-26 11:55:33.245429
+  UTC DATE: 2017-05-26 16:00:00
 got temps
 got dwpt
 got wind
@@ -9,554 +9,516 @@ got u vectors
 got v vectors
 got prec
 making permenant figure elements...
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:anl:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:anl:
 
-range: 0 747759
-./tempOper_2017052213.grib2
-matched a variable 59:41598837:d=2017052213:UGRD:10 m above ground:anl:
+range: 0 530248
+./tempOper_2017052616.grib2
+matched a variable 59:40779550:d=2017052616:UGRD:10 m above ground:anl:
 
-range: 41598837 42794908
-./tempOper_2017052213.grib2
-matched a variable 60:42794909:d=2017052213:VGRD:10 m above ground:anl:
+range: 40779550 41933427
+./tempOper_2017052616.grib2
+matched a variable 60:41933428:d=2017052616:VGRD:10 m above ground:anl:
 
-range: 42794909 43983114
+range: 41933428 43073311
 
---> Working on: RAINTREE BLVD. 0
+--> Working on: PINAL 0
 
 --> Working on: ECHO SPRINGS 0
 
---> Working on: MOTHER'S DAY 0
-
---> Working on: CRANE ISLAND 0
+--> Working on: KERR 0
 
 --> Working on: WEST MIMS 0
 
---> Working on: ELM 2 0
+--> Working on: CAMPFIRE 0
 
---> Working on: COWBELL 0
+--> Working on: THREE MILE 0
 
---> Working on: 30TH AVE 0
+--> Working on: SNAKE RIDGE 0
 Finished: 0
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:1 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:1 hour fcst:
 
-range: 0 795881
-./tempOper_2017052213.grib2
-matched a variable 59:44157621:d=2017052213:UGRD:10 m above ground:1 hour fcst:
+range: 0 613388
+./tempOper_2017052616.grib2
+matched a variable 59:43359125:d=2017052616:UGRD:10 m above ground:1 hour fcst:
 
-range: 44157621 45360774
-./tempOper_2017052213.grib2
-matched a variable 60:45360775:d=2017052213:VGRD:10 m above ground:1 hour fcst:
+range: 43359125 44600020
+./tempOper_2017052616.grib2
+matched a variable 60:44600021:d=2017052616:VGRD:10 m above ground:1 hour fcst:
 
-range: 45360775 46546514
+range: 44600021 45817348
 
---> Working on: RAINTREE BLVD. 1
+--> Working on: PINAL 1
 
 --> Working on: ECHO SPRINGS 1
 
---> Working on: MOTHER'S DAY 1
-
---> Working on: CRANE ISLAND 1
+--> Working on: KERR 1
 
 --> Working on: WEST MIMS 1
 
---> Working on: ELM 2 1
+--> Working on: CAMPFIRE 1
 
---> Working on: COWBELL 1
+--> Working on: THREE MILE 1
 
---> Working on: 30TH AVE 1
+--> Working on: SNAKE RIDGE 1
 Finished: 1
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:2 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:2 hour fcst:
 
-range: 0 797445
-./tempOper_2017052213.grib2
-matched a variable 59:44073665:d=2017052213:UGRD:10 m above ground:2 hour fcst:
+range: 0 640090
+./tempOper_2017052616.grib2
+matched a variable 59:44183412:d=2017052616:UGRD:10 m above ground:2 hour fcst:
 
-range: 44073665 45274164
-./tempOper_2017052213.grib2
-matched a variable 60:45274165:d=2017052213:VGRD:10 m above ground:2 hour fcst:
+range: 44183412 45474927
+./tempOper_2017052616.grib2
+matched a variable 60:45474928:d=2017052616:VGRD:10 m above ground:2 hour fcst:
 
-range: 45274165 46449816
+range: 45474928 46741840
 
---> Working on: RAINTREE BLVD. 2
+--> Working on: PINAL 2
 
 --> Working on: ECHO SPRINGS 2
 
---> Working on: MOTHER'S DAY 2
-
---> Working on: CRANE ISLAND 2
+--> Working on: KERR 2
 
 --> Working on: WEST MIMS 2
 
---> Working on: ELM 2 2
+--> Working on: CAMPFIRE 2
 
---> Working on: COWBELL 2
+--> Working on: THREE MILE 2
 
---> Working on: 30TH AVE 2
+--> Working on: SNAKE RIDGE 2
 Finished: 2
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:3 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:3 hour fcst:
 
-range: 0 791362
-./tempOper_2017052213.grib2
-matched a variable 59:44448292:d=2017052213:UGRD:10 m above ground:3 hour fcst:
+range: 0 654495
+./tempOper_2017052616.grib2
+matched a variable 59:44921935:d=2017052616:UGRD:10 m above ground:3 hour fcst:
 
-range: 44448292 45673622
-./tempOper_2017052213.grib2
-matched a variable 60:45673623:d=2017052213:VGRD:10 m above ground:3 hour fcst:
+range: 44921935 46246952
+./tempOper_2017052616.grib2
+matched a variable 60:46246953:d=2017052616:VGRD:10 m above ground:3 hour fcst:
 
-range: 45673623 46863376
+range: 46246953 47535304
 
---> Working on: RAINTREE BLVD. 3
+--> Working on: PINAL 3
 
 --> Working on: ECHO SPRINGS 3
 
---> Working on: MOTHER'S DAY 3
-
---> Working on: CRANE ISLAND 3
+--> Working on: KERR 3
 
 --> Working on: WEST MIMS 3
 
---> Working on: ELM 2 3
+--> Working on: CAMPFIRE 3
 
---> Working on: COWBELL 3
+--> Working on: THREE MILE 3
 
---> Working on: 30TH AVE 3
+--> Working on: SNAKE RIDGE 3
 Finished: 3
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:4 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:4 hour fcst:
 
-range: 0 809631
-./tempOper_2017052213.grib2
-matched a variable 59:44984508:d=2017052213:UGRD:10 m above ground:4 hour fcst:
+range: 0 633336
+./tempOper_2017052616.grib2
+matched a variable 59:45248582:d=2017052616:UGRD:10 m above ground:4 hour fcst:
 
-range: 44984508 46243962
-./tempOper_2017052213.grib2
-matched a variable 60:46243963:d=2017052213:VGRD:10 m above ground:4 hour fcst:
+range: 45248582 46584891
+./tempOper_2017052616.grib2
+matched a variable 60:46584892:d=2017052616:VGRD:10 m above ground:4 hour fcst:
 
-range: 46243963 47463215
+range: 46584892 47887267
 
---> Working on: RAINTREE BLVD. 4
+--> Working on: PINAL 4
 
 --> Working on: ECHO SPRINGS 4
 
---> Working on: MOTHER'S DAY 4
-
---> Working on: CRANE ISLAND 4
+--> Working on: KERR 4
 
 --> Working on: WEST MIMS 4
 
---> Working on: ELM 2 4
+--> Working on: CAMPFIRE 4
 
---> Working on: COWBELL 4
+--> Working on: THREE MILE 4
 
---> Working on: 30TH AVE 4
+--> Working on: SNAKE RIDGE 4
 Finished: 4
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:5 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:5 hour fcst:
 
-range: 0 820863
-./tempOper_2017052213.grib2
-matched a variable 59:45735808:d=2017052213:UGRD:10 m above ground:5 hour fcst:
+range: 0 628868
+./tempOper_2017052616.grib2
+matched a variable 59:45187265:d=2017052616:UGRD:10 m above ground:5 hour fcst:
 
-range: 45735808 47031061
-./tempOper_2017052213.grib2
-matched a variable 60:47031062:d=2017052213:VGRD:10 m above ground:5 hour fcst:
+range: 45187265 46520059
+./tempOper_2017052616.grib2
+matched a variable 60:46520060:d=2017052616:VGRD:10 m above ground:5 hour fcst:
 
-range: 47031062 48284254
+range: 46520060 47819411
 
---> Working on: RAINTREE BLVD. 5
+--> Working on: PINAL 5
 
 --> Working on: ECHO SPRINGS 5
 
---> Working on: MOTHER'S DAY 5
-
---> Working on: CRANE ISLAND 5
+--> Working on: KERR 5
 
 --> Working on: WEST MIMS 5
 
---> Working on: ELM 2 5
+--> Working on: CAMPFIRE 5
 
---> Working on: COWBELL 5
+--> Working on: THREE MILE 5
 
---> Working on: 30TH AVE 5
+--> Working on: SNAKE RIDGE 5
 Finished: 5
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:6 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:6 hour fcst:
 
-range: 0 819717
-./tempOper_2017052213.grib2
-matched a variable 59:46328910:d=2017052213:UGRD:10 m above ground:6 hour fcst:
+range: 0 606502
+./tempOper_2017052616.grib2
+matched a variable 59:44988848:d=2017052616:UGRD:10 m above ground:6 hour fcst:
 
-range: 46328910 47649565
-./tempOper_2017052213.grib2
-matched a variable 60:47649566:d=2017052213:VGRD:10 m above ground:6 hour fcst:
+range: 44988848 46305754
+./tempOper_2017052616.grib2
+matched a variable 60:46305755:d=2017052616:VGRD:10 m above ground:6 hour fcst:
 
-range: 47649566 48929263
+range: 46305755 47593672
 
---> Working on: RAINTREE BLVD. 6
+--> Working on: PINAL 6
 
 --> Working on: ECHO SPRINGS 6
 
---> Working on: MOTHER'S DAY 6
-
---> Working on: CRANE ISLAND 6
+--> Working on: KERR 6
 
 --> Working on: WEST MIMS 6
 
---> Working on: ELM 2 6
+--> Working on: CAMPFIRE 6
 
---> Working on: COWBELL 6
+--> Working on: THREE MILE 6
 
---> Working on: 30TH AVE 6
+--> Working on: SNAKE RIDGE 6
 Finished: 6
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:7 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:7 hour fcst:
 
-range: 0 814779
-./tempOper_2017052213.grib2
-matched a variable 59:46842418:d=2017052213:UGRD:10 m above ground:7 hour fcst:
+range: 0 601088
+./tempOper_2017052616.grib2
+matched a variable 59:44886456:d=2017052616:UGRD:10 m above ground:7 hour fcst:
 
-range: 46842418 48176136
-./tempOper_2017052213.grib2
-matched a variable 60:48176137:d=2017052213:VGRD:10 m above ground:7 hour fcst:
+range: 44886456 46179830
+./tempOper_2017052616.grib2
+matched a variable 60:46179831:d=2017052616:VGRD:10 m above ground:7 hour fcst:
 
-range: 48176137 49470245
+range: 46179831 47445918
 
---> Working on: RAINTREE BLVD. 7
+--> Working on: PINAL 7
 
 --> Working on: ECHO SPRINGS 7
 
---> Working on: MOTHER'S DAY 7
-
---> Working on: CRANE ISLAND 7
+--> Working on: KERR 7
 
 --> Working on: WEST MIMS 7
 
---> Working on: ELM 2 7
+--> Working on: CAMPFIRE 7
 
---> Working on: COWBELL 7
+--> Working on: THREE MILE 7
 
---> Working on: 30TH AVE 7
+--> Working on: SNAKE RIDGE 7
 Finished: 7
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:8 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:8 hour fcst:
 
-range: 0 844134
-./tempOper_2017052213.grib2
-matched a variable 59:47076925:d=2017052213:UGRD:10 m above ground:8 hour fcst:
+range: 0 594042
+./tempOper_2017052616.grib2
+matched a variable 59:44420470:d=2017052616:UGRD:10 m above ground:8 hour fcst:
 
-range: 47076925 48410302
-./tempOper_2017052213.grib2
-matched a variable 60:48410303:d=2017052213:VGRD:10 m above ground:8 hour fcst:
+range: 44420470 45683082
+./tempOper_2017052616.grib2
+matched a variable 60:45683083:d=2017052616:VGRD:10 m above ground:8 hour fcst:
 
-range: 48410303 49706651
+range: 45683083 46926541
 
---> Working on: RAINTREE BLVD. 8
+--> Working on: PINAL 8
 
 --> Working on: ECHO SPRINGS 8
 
---> Working on: MOTHER'S DAY 8
-
---> Working on: CRANE ISLAND 8
+--> Working on: KERR 8
 
 --> Working on: WEST MIMS 8
 
---> Working on: ELM 2 8
+--> Working on: CAMPFIRE 8
 
---> Working on: COWBELL 8
+--> Working on: THREE MILE 8
 
---> Working on: 30TH AVE 8
+--> Working on: SNAKE RIDGE 8
 Finished: 8
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:9 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:9 hour fcst:
 
-range: 0 850088
-./tempOper_2017052213.grib2
-matched a variable 59:47107762:d=2017052213:UGRD:10 m above ground:9 hour fcst:
+range: 0 597118
+./tempOper_2017052616.grib2
+matched a variable 59:43907482:d=2017052616:UGRD:10 m above ground:9 hour fcst:
 
-range: 47107762 48426537
-./tempOper_2017052213.grib2
-matched a variable 60:48426538:d=2017052213:VGRD:10 m above ground:9 hour fcst:
+range: 43907482 45144550
+./tempOper_2017052616.grib2
+matched a variable 60:45144551:d=2017052616:VGRD:10 m above ground:9 hour fcst:
 
-range: 48426538 49712078
+range: 45144551 46370616
 
---> Working on: RAINTREE BLVD. 9
+--> Working on: PINAL 9
 
 --> Working on: ECHO SPRINGS 9
 
---> Working on: MOTHER'S DAY 9
-
---> Working on: CRANE ISLAND 9
+--> Working on: KERR 9
 
 --> Working on: WEST MIMS 9
 
---> Working on: ELM 2 9
+--> Working on: CAMPFIRE 9
 
---> Working on: COWBELL 9
+--> Working on: THREE MILE 9
 
---> Working on: 30TH AVE 9
+--> Working on: SNAKE RIDGE 9
 Finished: 9
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:10 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:10 hour fcst:
 
-range: 0 855374
-./tempOper_2017052213.grib2
-matched a variable 59:46700013:d=2017052213:UGRD:10 m above ground:10 hour fcst:
+range: 0 592357
+./tempOper_2017052616.grib2
+matched a variable 59:43604160:d=2017052616:UGRD:10 m above ground:10 hour fcst:
 
-range: 46700013 47993868
-./tempOper_2017052213.grib2
-matched a variable 60:47993869:d=2017052213:VGRD:10 m above ground:10 hour fcst:
+range: 43604160 44828992
+./tempOper_2017052616.grib2
+matched a variable 60:44828993:d=2017052616:VGRD:10 m above ground:10 hour fcst:
 
-range: 47993869 49261496
+range: 44828993 46043552
 
---> Working on: RAINTREE BLVD. 10
+--> Working on: PINAL 10
 
 --> Working on: ECHO SPRINGS 10
 
---> Working on: MOTHER'S DAY 10
-
---> Working on: CRANE ISLAND 10
+--> Working on: KERR 10
 
 --> Working on: WEST MIMS 10
 
---> Working on: ELM 2 10
+--> Working on: CAMPFIRE 10
 
---> Working on: COWBELL 10
+--> Working on: THREE MILE 10
 
---> Working on: 30TH AVE 10
+--> Working on: SNAKE RIDGE 10
 Finished: 10
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:11 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:11 hour fcst:
 
-range: 0 858447
-./tempOper_2017052213.grib2
-matched a variable 59:46460192:d=2017052213:UGRD:10 m above ground:11 hour fcst:
+range: 0 580846
+./tempOper_2017052616.grib2
+matched a variable 59:43299937:d=2017052616:UGRD:10 m above ground:11 hour fcst:
 
-range: 46460192 47728271
-./tempOper_2017052213.grib2
-matched a variable 60:47728272:d=2017052213:VGRD:10 m above ground:11 hour fcst:
+range: 43299937 44548836
+./tempOper_2017052616.grib2
+matched a variable 60:44548837:d=2017052616:VGRD:10 m above ground:11 hour fcst:
 
-range: 47728272 48974051
+range: 44548837 45790832
 
---> Working on: RAINTREE BLVD. 11
+--> Working on: PINAL 11
 
 --> Working on: ECHO SPRINGS 11
 
---> Working on: MOTHER'S DAY 11
-
---> Working on: CRANE ISLAND 11
+--> Working on: KERR 11
 
 --> Working on: WEST MIMS 11
 
---> Working on: ELM 2 11
+--> Working on: CAMPFIRE 11
 
---> Working on: COWBELL 11
+--> Working on: THREE MILE 11
 
---> Working on: 30TH AVE 11
+--> Working on: SNAKE RIDGE 11
 Finished: 11
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:12 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:12 hour fcst:
 
-range: 0 851280
-./tempOper_2017052213.grib2
-matched a variable 59:45995793:d=2017052213:UGRD:10 m above ground:12 hour fcst:
+range: 0 574239
+./tempOper_2017052616.grib2
+matched a variable 59:43140071:d=2017052616:UGRD:10 m above ground:12 hour fcst:
 
-range: 45995793 47238080
-./tempOper_2017052213.grib2
-matched a variable 60:47238081:d=2017052213:VGRD:10 m above ground:12 hour fcst:
+range: 43140071 44426985
+./tempOper_2017052616.grib2
+matched a variable 60:44426986:d=2017052616:VGRD:10 m above ground:12 hour fcst:
 
-range: 47238081 48469584
+range: 44426986 45707910
 
---> Working on: RAINTREE BLVD. 12
+--> Working on: PINAL 12
 
 --> Working on: ECHO SPRINGS 12
 
---> Working on: MOTHER'S DAY 12
-
---> Working on: CRANE ISLAND 12
+--> Working on: KERR 12
 
 --> Working on: WEST MIMS 12
 
---> Working on: ELM 2 12
+--> Working on: CAMPFIRE 12
 
---> Working on: COWBELL 12
+--> Working on: THREE MILE 12
 
---> Working on: 30TH AVE 12
+--> Working on: SNAKE RIDGE 12
 Finished: 12
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:13 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:13 hour fcst:
 
-range: 0 838265
-./tempOper_2017052213.grib2
-matched a variable 59:45564798:d=2017052213:UGRD:10 m above ground:13 hour fcst:
+range: 0 573992
+./tempOper_2017052616.grib2
+matched a variable 59:43165490:d=2017052616:UGRD:10 m above ground:13 hour fcst:
 
-range: 45564798 46789445
-./tempOper_2017052213.grib2
-matched a variable 60:46789446:d=2017052213:VGRD:10 m above ground:13 hour fcst:
+range: 43165490 44475145
+./tempOper_2017052616.grib2
+matched a variable 60:44475146:d=2017052616:VGRD:10 m above ground:13 hour fcst:
 
-range: 46789446 48016519
+range: 44475146 45778452
 
---> Working on: RAINTREE BLVD. 13
+--> Working on: PINAL 13
 
 --> Working on: ECHO SPRINGS 13
 
---> Working on: MOTHER'S DAY 13
-
---> Working on: CRANE ISLAND 13
+--> Working on: KERR 13
 
 --> Working on: WEST MIMS 13
 
---> Working on: ELM 2 13
+--> Working on: CAMPFIRE 13
 
---> Working on: COWBELL 13
+--> Working on: THREE MILE 13
 
---> Working on: 30TH AVE 13
+--> Working on: SNAKE RIDGE 13
 Finished: 13
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:14 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:14 hour fcst:
 
-range: 0 837128
-./tempOper_2017052213.grib2
-matched a variable 59:45334221:d=2017052213:UGRD:10 m above ground:14 hour fcst:
+range: 0 570160
+./tempOper_2017052616.grib2
+matched a variable 59:43286314:d=2017052616:UGRD:10 m above ground:14 hour fcst:
 
-range: 45334221 46580164
-./tempOper_2017052213.grib2
-matched a variable 60:46580165:d=2017052213:VGRD:10 m above ground:14 hour fcst:
+range: 43286314 44609023
+./tempOper_2017052616.grib2
+matched a variable 60:44609024:d=2017052616:VGRD:10 m above ground:14 hour fcst:
 
-range: 46580165 47839577
+range: 44609024 45926178
 
---> Working on: RAINTREE BLVD. 14
+--> Working on: PINAL 14
 
 --> Working on: ECHO SPRINGS 14
 
---> Working on: MOTHER'S DAY 14
-
---> Working on: CRANE ISLAND 14
+--> Working on: KERR 14
 
 --> Working on: WEST MIMS 14
 
---> Working on: ELM 2 14
+--> Working on: CAMPFIRE 14
 
---> Working on: COWBELL 14
+--> Working on: THREE MILE 14
 
---> Working on: 30TH AVE 14
+--> Working on: SNAKE RIDGE 14
 Finished: 14
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:15 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:15 hour fcst:
 
-range: 0 847935
-./tempOper_2017052213.grib2
-matched a variable 59:45462490:d=2017052213:UGRD:10 m above ground:15 hour fcst:
+range: 0 575078
+./tempOper_2017052616.grib2
+matched a variable 59:43251844:d=2017052616:UGRD:10 m above ground:15 hour fcst:
 
-range: 45462490 46745039
-./tempOper_2017052213.grib2
-matched a variable 60:46745040:d=2017052213:VGRD:10 m above ground:15 hour fcst:
+range: 43251844 44583245
+./tempOper_2017052616.grib2
+matched a variable 60:44583246:d=2017052616:VGRD:10 m above ground:15 hour fcst:
 
-range: 46745040 48025894
+range: 44583246 45908354
 
---> Working on: RAINTREE BLVD. 15
+--> Working on: PINAL 15
 
 --> Working on: ECHO SPRINGS 15
 
---> Working on: MOTHER'S DAY 15
-
---> Working on: CRANE ISLAND 15
+--> Working on: KERR 15
 
 --> Working on: WEST MIMS 15
 
---> Working on: ELM 2 15
+--> Working on: CAMPFIRE 15
 
---> Working on: COWBELL 15
+--> Working on: THREE MILE 15
 
---> Working on: 30TH AVE 15
+--> Working on: SNAKE RIDGE 15
 Finished: 15
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:16 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:16 hour fcst:
 
-range: 0 855383
-./tempOper_2017052213.grib2
-matched a variable 59:45567578:d=2017052213:UGRD:10 m above ground:16 hour fcst:
+range: 0 591721
+./tempOper_2017052616.grib2
+matched a variable 59:43261103:d=2017052616:UGRD:10 m above ground:16 hour fcst:
 
-range: 45567578 46867894
-./tempOper_2017052213.grib2
-matched a variable 60:46867895:d=2017052213:VGRD:10 m above ground:16 hour fcst:
+range: 43261103 44599145
+./tempOper_2017052616.grib2
+matched a variable 60:44599146:d=2017052616:VGRD:10 m above ground:16 hour fcst:
 
-range: 46867895 48166427
+range: 44599146 45929994
 
---> Working on: RAINTREE BLVD. 16
+--> Working on: PINAL 16
 
 --> Working on: ECHO SPRINGS 16
 
---> Working on: MOTHER'S DAY 16
-
---> Working on: CRANE ISLAND 16
+--> Working on: KERR 16
 
 --> Working on: WEST MIMS 16
 
---> Working on: ELM 2 16
+--> Working on: CAMPFIRE 16
 
---> Working on: COWBELL 16
+--> Working on: THREE MILE 16
 
---> Working on: 30TH AVE 16
+--> Working on: SNAKE RIDGE 16
 Finished: 16
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:17 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:17 hour fcst:
 
-range: 0 879949
-./tempOper_2017052213.grib2
-matched a variable 59:45587511:d=2017052213:UGRD:10 m above ground:17 hour fcst:
+range: 0 609693
+./tempOper_2017052616.grib2
+matched a variable 59:43277673:d=2017052616:UGRD:10 m above ground:17 hour fcst:
 
-range: 45587511 46898302
-./tempOper_2017052213.grib2
-matched a variable 60:46898303:d=2017052213:VGRD:10 m above ground:17 hour fcst:
+range: 43277673 44621492
+./tempOper_2017052616.grib2
+matched a variable 60:44621493:d=2017052616:VGRD:10 m above ground:17 hour fcst:
 
-range: 46898303 48207999
+range: 44621493 45956871
 
---> Working on: RAINTREE BLVD. 17
+--> Working on: PINAL 17
 
 --> Working on: ECHO SPRINGS 17
 
---> Working on: MOTHER'S DAY 17
-
---> Working on: CRANE ISLAND 17
+--> Working on: KERR 17
 
 --> Working on: WEST MIMS 17
 
---> Working on: ELM 2 17
+--> Working on: CAMPFIRE 17
 
---> Working on: COWBELL 17
+--> Working on: THREE MILE 17
 
---> Working on: 30TH AVE 17
+--> Working on: SNAKE RIDGE 17
 Finished: 17
-./tempOper_2017052213.grib2
-matched a variable 1:0:d=2017052213:REFC:entire atmosphere:18 hour fcst:
+./tempOper_2017052616.grib2
+matched a variable 1:0:d=2017052616:REFC:entire atmosphere:18 hour fcst:
 
-range: 0 864092
-./tempOper_2017052213.grib2
-matched a variable 59:45456714:d=2017052213:UGRD:10 m above ground:18 hour fcst:
+range: 0 620650
+./tempOper_2017052616.grib2
+matched a variable 59:43210612:d=2017052616:UGRD:10 m above ground:18 hour fcst:
 
-range: 45456714 46772685
-./tempOper_2017052213.grib2
-matched a variable 60:46772686:d=2017052213:VGRD:10 m above ground:18 hour fcst:
+range: 43210612 44556668
+./tempOper_2017052616.grib2
+matched a variable 60:44556669:d=2017052616:VGRD:10 m above ground:18 hour fcst:
 
-range: 46772686 48089758
+range: 44556669 45893721
 
---> Working on: RAINTREE BLVD. 18
+--> Working on: PINAL 18
 
 --> Working on: ECHO SPRINGS 18
 
---> Working on: MOTHER'S DAY 18
-
---> Working on: CRANE ISLAND 18
+--> Working on: KERR 18
 
 --> Working on: WEST MIMS 18
 
---> Working on: ELM 2 18
+--> Working on: CAMPFIRE 18
 
---> Working on: COWBELL 18
+--> Working on: THREE MILE 18
 
---> Working on: 30TH AVE 18
+--> Working on: SNAKE RIDGE 18
 Finished: 18

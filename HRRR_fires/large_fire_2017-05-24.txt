@@ -1,0 +1,13 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+COWBELL	FL-BCP-017033	Not Reported	22-May-17	Not Reported		Not Reported	21963	Not Reported	Not Reported	26.221	-80.978	Not Reported
+WEST MIMS	GA-OKR-017006	Natural	22-May-17	06-Apr-17	2	Florida	152478	60.0	01-Nov-17	30.574	-82.323	Baker
+RAINTREE BLVD.	FL-FLS-150305	Not Reported	22-May-17	13-May-17		Florida	3128	95.0	26-May-17	27.051	-82.066	Sarasota
+THREE MILE	FL-FLS-180203	Not Reported	22-May-17	19-May-17		Florida	3865	30.0	26-May-17	26.332	-80.842	Broward
+DELUZ	CA-MCP-001494	Not Reported	22-May-17	Not Reported		Not Reported	486	Not Reported	Not Reported	33.371	-117.329	Not Reported
+GATE	CA-MVU-012098	Not Reported	22-May-17	20-May-17		California	2056	100.0	22-May-17	32.652	-116.824	San Diego
+ECHO SPRINGS	FL-MIR-2017023	Not Reported	22-May-17	17-May-17		Florida	8800	95.0	24-May-17	27.606	-81.270	Highlands
+CAMPFIRE	FL-FLS-180204	Not Reported	22-May-17	20-May-17		Florida	4800	35.0	26-May-17	26.319	-80.636	Broward
+HONDITO	NM-CAF-000111	Natural	22-May-17	16-May-17		New Mexico	7200	30.0	07-Jul-17	36.587	-106.022	Rio Arriba
+NIGHTINGALE	NV-WID-020030	Undetermined	22-May-17	21-May-17		Nevada	450	100.0	22-May-17	40.242	-119.253	Pershing
+CAMPFIRE 2	FL-FLS-180207	Not Reported	22-May-17	22-May-17		Florida	844	100.0	26-May-17	26.319	-80.736	Broward
+CRANE ISLAND	FL-FLS-0160456	Not Reported	22-May-17	13-May-17		Florida	4408	100.0	22-May-17	27.128	-81.237	Highlands

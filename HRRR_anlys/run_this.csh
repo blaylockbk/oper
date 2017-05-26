@@ -15,4 +15,8 @@ limit coredumpsize 0
 
 module load python/2.7.3
 python /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_anlys/HRRR_anlys.py
+python /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_anlys/HRRR_anlys.py 6
+python /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_anlys/HRRR_anlys.py 12
+python /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_anlys/HRRR_anlys.py 18
+
 exit

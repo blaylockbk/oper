@@ -1,0 +1,10 @@
+INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
+WEST MIMS	GA-OKR-017006	Natural	23-May-17	06-Apr-17	1	Florida	152478	65.0	01-Nov-17	30.574	-82.323	Baker
+RAINTREE BLVD.	FL-FLS-150305	Not Reported	23-May-17	13-May-17		Florida	3128	95.0	26-May-17	27.051	-82.066	Sarasota
+THREE MILE	FL-FLS-180203	Not Reported	23-May-17	19-May-17		Florida	14600	60.0	26-May-17	26.332	-80.842	Broward
+GATE	CA-MVU-012098	Not Reported	23-May-17	Not Reported		Not Reported	2056	Not Reported	Not Reported	32.652	-116.824	Not Reported
+ECHO SPRINGS	FL-MIR-2017023	Not Reported	23-May-17	Not Reported		Not Reported	8800	Not Reported	Not Reported	27.606	-81.270	Not Reported
+CAMPFIRE	FL-FLS-180204	Not Reported	23-May-17	Not Reported		Not Reported	4800	Not Reported	Not Reported	26.319	-80.636	Not Reported
+NIGHTINGALE	NV-WID-020030	Undetermined	23-May-17	21-May-17		Nevada	450	100.0	22-May-17	40.242	-119.253	Pershing
+PINAL	AZ-TNF-000452	Natural	23-May-17	08-May-17	1	Arizona	3927	21.0	15-Jun-17	33.281	-110.806	Gila
+KERR	NM-GNF-000093	Natural	23-May-17	01-May-17		New Mexico	10500	64.0	28-May-17	33.811	-108.476	Catron

@@ -10,7 +10,7 @@ this display for him. These are useful plots at many locations. This particular
 script makes a plot for the analysis hours.
 """
 import matplotlib as mpl
-#mpl.use('Agg')		#required for the CRON job or cgi script. Says "do not open plot in a window"??
+mpl.use('Agg')		#required for the CRON job or cgi script. Says "do not open plot in a window"??
 import numpy as np
 from datetime import datetime, timedelta
 import time
@@ -51,23 +51,33 @@ from MetPy_BB.plots import ctables
 from BB_data.grid_manager import pluck_point_new
 from BB_wx_calcs.wind import wind_uv_to_spd, wind_spddir_to_uv
 from BB_wx_calcs.units import *
+from roses import * # this should be in the current directory
 
 # === Stuff you may want to change ============================================
 
 # List of MesoWest stations
 MesoWestID = ['UKBKB', 'KSLC', 'WBB', 'FREUT', 'GNI', 'NAA', 'BFLAT', 'UFD09', 'C8635', 'FPS', 'EYSC', 'UCC23']
 
-# Date range
-today = datetime.now()
-yesterday = datetime.now()-timedelta(days=1)
-sDATE = datetime(yesterday.year, yesterday.month, yesterday.day)-timedelta(days=1)
-eDATE = datetime(today.year, today.month, today.day)
+# Forecast (default is set to zero for HRRR analysis). You may choose another
+# forecast hour through the comand line arguments.
+try:
+    fxx = int(sys.argv[1])
+    print 'Getting f%02d, as requested\n' % fxx
+except:
+    fxx = 0
+    print 'Getting f00, becuase you did not specify another fxx\n'
 
-# Forecast (set to zero for HRRR analysis)
-fxx = 0
+# Date range
+# (takes into account fxx so that the date range represents the valid date)
+today = datetime.now()
+sDATE = datetime(today.year, today.month, today.day)-timedelta(days=2)-timedelta(hours=fxx)
+eDATE = datetime(today.year, today.month, today.day)-timedelta(hours=fxx)
 
 # Directory to save figures (subdirectory will be created for each stnID)
-SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_anlys/'
+if fxx == 0:
+    SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_anlys/'
+else:
+    SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_f%02d/' % (fxx)
 
 # =============================================================================
 # =============================================================================
@@ -105,7 +115,7 @@ TS_wind80 = {} # we will derive this in the following loop
 TS_hpbl = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='HPBL:surface', verbose=False, fxx=fxx)
 TS_hcon = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='HGT:level of adiabatic condensation from sfc', verbose=False, fxx=fxx)
 
-# Convert the units of each Pollywog
+# Convert the units of each TimeSeries
 for loc in location.keys():
     # Convert Units for the variables in the Pollywog
     TS_temp[loc] = KtoC(TS_temp[loc])
@@ -213,12 +223,25 @@ for n in locs_idx:
     #
     # Finally, add MesoWest data if it is available
     if l['is MesoWest'] is True:
-        a = get_mesowest_ts(locName, sDATE, eDATE,
-                            variables='air_temp,wind_speed,dew_point_temperature')
+        a = get_mesowest_ts(locName, TS_dates[0], TS_dates[-1],
+                            variables='air_temp,dew_point_temperature,wind_direction,wind_speed')
         if a != 'ERROR':
             figs[locName][2].plot(a['DATETIME'], a['air_temp'], c='k', ls='--')
             figs[locName][2].plot(a['DATETIME'], a['dew_point_temperature'], c='k', ls='--')
             figs[locName][3].plot(a['DATETIME'], a['wind_speed'], c='k', ls='--')
+
+        # Plot wind roses
+        L = {'SAVE':SAVE_dir,
+             'MesoWest':a,
+             'HRRR':{'STID':locName,
+                     'NAME':locName,
+                     'u':TS_u[locName],
+                     'v':TS_v[locName],
+                     'DATETIME':TS_dates}}
+        try:
+            plot_rose(L)
+        except:
+            print 'could not make roses'
 
 
 # Now add the element that changes, save the figure, and remove elements from plot.
@@ -226,9 +249,11 @@ for n in locs_idx:
 for hh in range(len(TS_dates)):
     # Loop through each location to make plots for this time
     # 2.2) Radar Reflectivity and winds for entire CONUS
-    H = get_hrrr_variable(TS_dates[hh], 'REFC:entire atmosphere', fxx=fxx, model='hrrr')
-    H_U = get_hrrr_variable(TS_dates[hh], 'UGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
-    H_V = get_hrrr_variable(TS_dates[hh], 'VGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
+    valid_date = TS_dates[hh]
+    get_date = valid_date - timedelta(hours=fxx)
+    H = get_hrrr_variable(get_date, 'REFC:entire atmosphere', fxx=fxx, model='hrrr')
+    H_U = get_hrrr_variable(get_date, 'UGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
+    H_V = get_hrrr_variable(get_date, 'VGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
     #
     # Mask out empty reflectivity values
     dBZ = H['value']

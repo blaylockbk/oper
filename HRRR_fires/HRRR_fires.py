@@ -55,6 +55,7 @@ from MetPy_BB.plots import ctables
 from BB_data.grid_manager import pluck_point_new
 from BB_wx_calcs.wind import wind_uv_to_spd, wind_spddir_to_uv
 from BB_wx_calcs.units import *
+from BB_basemap.draw_maps import draw_CONUS_cyl_map
 
 get_today = datetime.strftime(date.today(), "%Y-%m-%d")
 daylight = time.daylight # If daylight is on (1) then subtract from timezone.
@@ -342,3 +343,4 @@ sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/')
 from manager import *
 remove_old_fires(location)
 write_HRRR_fires_HTML(location)
+draw_fires_on_map(location)
