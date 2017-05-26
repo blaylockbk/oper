@@ -1,8 +1,8 @@
 INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
 WEST MIMS	GA-OKR-017006	Natural	24-May-17	06-Apr-17	1	Florida	152478	65.0	01-Nov-17	30.574	-82.323	Baker
-THREE MILE	FL-FLS-180203	Not Reported	24-May-17	19-May-17		Florida	19528	100.0	25-May-17	26.332	-80.842	Broward
 ECHO SPRINGS	FL-MIR-2017023	Not Reported	23-May-17	Not Reported		Not Reported	8800	Not Reported	Not Reported	27.606	-81.270	Not Reported
-CAMPFIRE	FL-FLS-180204	Not Reported	24-May-17	20-May-17		Florida	20927	100.0	25-May-17	26.319	-80.636	Broward
 PINAL	AZ-TNF-000452	Natural	24-May-17	08-May-17	1	Arizona	4375	32.0	15-Jun-17	33.281	-110.806	Gila
-KERR	NM-GNF-000093	Natural	24-May-17	01-May-17		New Mexico	11600	69.0	28-May-17	33.811	-108.476	Catron
 SNAKE RIDGE	AZ-COF-000366	Natural	22-May-17	19-May-17		Arizona	1430	0.0	30-Jun-17	34.602	-111.457	Coconino
+SCHAGHTICOKE	CT-CTS-000002	Not Reported	24-May-17	17-May-17		Connecticut	147	0.0	19-May-17	41.697	-73.508	Litchfield
+DOVE	AZ-SCA-000455	Not Reported	18-May-17	Not Reported		Not Reported	4000	Not Reported	Not Reported	33.516	-109.958	Not Reported
+BACA	NM-GNF-000113	Natural	16-May-17	12-May-17		New Mexico	2200	3.0	30-Jun-17	34.181	-108.404	Catron

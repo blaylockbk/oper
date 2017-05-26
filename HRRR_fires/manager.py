@@ -87,6 +87,7 @@ def draw_fires_on_map(fires):
     """
     Draw a map of the United States, and mark the large fires, based on size
     """
+    plt.figure(100)
     m = draw_CONUS_cyl_map()
     m.arcgisimage(service='World_Shaded_Relief', dpi=500)
     m.drawstates(linewidth=.1)
@@ -95,9 +96,9 @@ def draw_fires_on_map(fires):
     for F in fires:
         x, y = m(fires[F]['longitude'], fires[F]['latitude'])
         m.scatter(x, y, s=fires[F]['area']/500, c='orangered',edgecolors='none')
-        plt.text(x+.5, y+.5, fires[F]['name'], fontsize=7)
+        plt.text(x+.5, y+.5, fires[F]['name'], fontsize=10)
 
-    plt.title('Active Fires Larger than 1000 Acres\n%s' % (date.today().strftime('%B %d, %Y')), fontsize=10)
+    plt.title('Active Fires Larger than 1000 Acres\n%s' % (date.today().strftime('%B %d, %Y')), fontsize=15)
 
     plt.savefig('/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/firemap.png', bbox_inches="tight")
 

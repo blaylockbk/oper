@@ -23,6 +23,8 @@ import os
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 import matplotlib.dates as mdates
+from matplotlib.patches import Polygon
+from matplotlib.collections import PatchCollection
 
 ## Reset the defaults (see more here: http://matplotlib.org/users/customizing.html)
 mpl.rcParams['figure.figsize'] = [15, 6]
@@ -61,7 +63,7 @@ get_today = datetime.strftime(date.today(), "%Y-%m-%d")
 daylight = time.daylight # If daylight is on (1) then subtract from timezone.
 
 # 1) Read in large fires file:
-fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire_'+get_today+'.txt' # Operational file: local version copied from the gl1 crontab
+fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
 
 fires = np.genfromtxt(fires_file, names=True, dtype=None,delimiter='\t')
 #column names:
@@ -160,6 +162,18 @@ for n in locs_idx:
     maps[locName].arcgisimage(service='World_Shaded_Relief',
                               xpixels=500,
                               verbose=False)
+    #
+    # Overlay Fire Perimeters
+    per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/perim','perim', drawbounds=False)
+    patches = []
+    print 'finding fire perimeter patches...',
+    for info, shape in zip(maps[locName].perim_info, maps[locName].perim):
+        # Check if the boundary is one of the large active fires
+        if info['FIRENAME'].upper() in location.keys():
+            patches.append(Polygon(np.array(shape), True) )
+    figs[locName][1].add_collection(PatchCollection(patches, facecolor='indianred', alpha=.65, edgecolor='k', linewidths=.1, zorder=1))
+    print 'Done!'
+    #
     # Overlay Utah Roads
     #BASE = '/uufs/chpc.utah.edu/common/home/u0553130/'
     #maps[locName].readshapefile(BASE+'shape_files/tl_2015_UtahRoads_prisecroads/tl_2015_49_prisecroads',
@@ -338,7 +352,10 @@ for fxx in range(0, 19):
             pass
     print "Finished:", fxx
 
-# Do some webpage managment: Edits HTML to include current fires and removes old fires
+# Do some webpage managment:
+#  - Removes old fires from the directory
+#  - Edits HTML to include current fires
+#  - Plots a map of the fires
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/')
 from manager import *
 remove_old_fires(location)

@@ -26,9 +26,9 @@ import urllib2
 from bs4 import BeautifulSoup # I know this is installed on meso3
 # Now import modules of my own invention
 import sys
-sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB')
-from BB_MesoWest import MesoWest_stations_radius as MW
-
+sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
+from BB_MesoWest.MesoWest_radius import get_mesowest_radius
+from BB_wx_calcs.wind import wind_spddir_to_uv
 
 
 
@@ -53,24 +53,22 @@ def download_sounding(request_sounding):
     month= str(request_sounding.month).zfill(2)
     day  = str(request_sounding.day).zfill(2)
     hour = str(request_sounding.hour).zfill(2) # hour in UTC, 00 and 12 z usually available
-    
-    
+
     # Download, process and add to plot the Wyoming Data
     # 1)
     # Wyoming URL to download Sounding from
     url = 'http://weather.uwyo.edu/cgi-bin/sounding?region=naconf&TYPE=TEXT%3ALIST&YEAR='+year+'&MONTH='+month+'&FROM='+day+hour+'&TO='+day+hour+'&STNM='+stn
     content = urllib2.urlopen(url).read()
     print 'sounding url:', url
-        
+
     # 2)
     # Remove the html tags
     soup = BeautifulSoup(content,"html.parser")
     data_text = soup.get_text()
-    
+
     # 3)
     # Split the content by new line.
     splitted = data_text.split("\n",data_text.count("\n"))
-    
     
     #4)
     # Must save the processed data as a .txt file to be read in by the skewt module.
@@ -82,7 +80,6 @@ def download_sounding(request_sounding):
         f.write(line+'\n')
     f.close()
     
-
     return Sounding_dir+Sounding_filename
 
 
@@ -90,17 +87,17 @@ def download_mobile(platform,requested_time,previous_mins):
     """
     Downloads mobile data from online and saves a temporary text file.
     Reads the text file, then deletes the temporary text file when completed.
-    
+
     """
     # platform = 'KSL5', 'TRX01'
-    
+
     year = str(requested_time.year).zfill(4)
     month= str(requested_time.month).zfill(2)
     day = str(requested_time.day).zfill(2)
     hour = str(requested_time.hour).zfill(2)
     minute = str(requested_time.minute).zfill(2)
     previous_mins = str(previous_mins)   
-    
+
     url = 'http://meso2.chpc.utah.edu/gslso3s/cgi-bin/download_mobile_data.cgi?yr='+year+'&mo='+month+'&dy='+day+'&hr='+hour+'&mm='+minute+'&min='+previous_mins+'&stid='+platform
 
     print platform, 'download:', url
@@ -657,15 +654,15 @@ def plot_ozone_map(mobile,other_mobile=False,auto_map_boundaries=True,background
     # Plot MesoWest wind data
     mesowest_time = str(request_time.year).zfill(2)+str(request_time.month).zfill(2)+str(request_time.day).zfill(2)+str(request_time.hour).zfill(2)+'00'
     print 'plotting mesowest observations within 10 minutes of top of the hour',mesowest_time, ' because the request time is:', request_time    
-    a = MW.get_mesowest_radius_winds(mesowest_time,'10')
-    u,v = MW.wind_spddir_to_uv(a['WIND_SPEED'],a['WIND_DIR'])
+    a = get_mesowest_radius(request_time,'10')
+    u,v = wind_spddir_to_uv(a['wind_speed'],a['wind_direction'])
     m.barbs(a['LON'],a['LAT'],u,v,
             length=4.5,                
             linewidth=.5,
             barb_increments=dict(half=1, full=2, flag=10),
             sizes=dict(spacing=0.15, height=0.3, emptybarb=.1))
     # ozone
-    m.scatter(a['LON'],a['LAT'],c=a['OZONE'],vmax=80,vmin=45.,lw =.3,s=20, marker='s',cmap=plt.cm.get_cmap('jet'),zorder=50)
+    m.scatter(a['LON'],a['LAT'],c=a['ozone_concentration'],vmax=80,vmin=45.,lw =.3,s=20, marker='s',cmap=plt.cm.get_cmap('jet'),zorder=50)
     
     ## plot KSL on top of everything becuase it is flying    
     # Plot Mobile Ozone points (KSL)
@@ -710,8 +707,8 @@ def plot_ozone_map(mobile,other_mobile=False,auto_map_boundaries=True,background
     ksl_ozone_text =  'KSL   \n  Max:  %.2f ppb\n  Mean: %.2f ppb\n  Min:  %.2f ppb' % (np.nanmax(mobile['ozone']),  np.mean(mobile['ozone'][mobile['ozone']>0]),np.nanmin(mobile['ozone']))    
    
     mesowest_ozone_text = ''
-    for i in range(0,len(a['OZONE'][a['OZONE']>0])):
-        station_obs = '%s: %.2f\n' % (a['STNID'][a['OZONE']>0][i], a['OZONE'][a['OZONE']>0][i])
+    for i in range(0,len(a['ozone_concentration'][a['ozone_concentration']>0])):
+        station_obs = '%s: %.2f\n' % (a['STID'][a['ozone_concentration']>0][i], a['ozone_concentration'][a['ozone_concentration']>0][i])
         mesowest_ozone_text +=station_obs
     all_text = date_text+'\n\n'+ksl_ozone_text+'\n\n'+trax_ozone_text+'\n\n'+mesowest_ozone_text
     fig.text(.93,.8,all_text,fontname='monospace',va='top',backgroundcolor='white',fontsize=7)
@@ -855,8 +852,8 @@ def plot_pm25_map(mobile,other_mobile=False,auto_map_boundaries=True,background=
     # Plot MesoWest wind data
     mesowest_time = str(request_time.year).zfill(2)+str(request_time.month).zfill(2)+str(request_time.day).zfill(2)+str(request_time.hour).zfill(2)+'00'
     print 'plotting mesowest observations within 10 minutes of top of the hour',mesowest_time, ' because the request time is:', request_time    
-    a = MW.get_mesowest_radius_winds(mesowest_time,'10')
-    u,v = MW.wind_spddir_to_uv(a['WIND_SPEED'],a['WIND_DIR'])
+    a = get_mesowest_radius(request_time,'10')
+    u,v = wind_spddir_to_uv(a['wind_speed'],a['wind_direction'])
     m.barbs(a['LON'],a['LAT'],u,v,
             length=4.5,                
             linewidth=.5,
@@ -909,7 +906,7 @@ def plot_pm25_map(mobile,other_mobile=False,auto_map_boundaries=True,background=
    
     mesowest_ozone_text = ''
     for i in range(0,len(a['pm25'][a['pm25']>0])):
-        station_obs = '%s: %.2f\n' % (a['STNID'][a['pm25']>0][i], a['pm25'][a['pm25']>0][i])
+        station_obs = '%s: %.2f\n' % (a['STID'][a['pm25']>0][i], a['pm25'][a['pm25']>0][i])
         mesowest_ozone_text +=station_obs
     all_text = date_text+'\n\n'+ksl_ozone_text+'\n\n'+trax_ozone_text+'\n\n'+mesowest_ozone_text
     fig.text(.93,.8,all_text,fontname='monospace',va='top',backgroundcolor='white',fontsize=7)
