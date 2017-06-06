@@ -230,19 +230,6 @@ for n in locs_idx:
             figs[locName][2].plot(a['DATETIME'], a['dew_point_temperature'], c='k', ls='--')
             figs[locName][3].plot(a['DATETIME'], a['wind_speed'], c='k', ls='--')
 
-        # Plot wind roses
-        L = {'SAVE':SAVE_dir,
-             'MesoWest':a,
-             'HRRR':{'STID':locName,
-                     'NAME':locName,
-                     'u':TS_u[locName],
-                     'v':TS_v[locName],
-                     'DATETIME':TS_dates}}
-        try:
-            plot_rose(L)
-        except:
-            print 'could not make roses'
-
 
 # Now add the element that changes, save the figure, and remove elements from plot.
 # Only download the HRRR grid once per forecast hour.
@@ -354,3 +341,19 @@ for hh in range(len(TS_dates)):
             # No barbs were plotted
             pass
     print "Finished:", TS_dates[hh]
+
+
+# Plot wind roses
+for n in locs_idx:
+    locName = locs[n]
+    L = {'SAVE':SAVE_dir,
+            'MesoWest':a,
+            'HRRR':{'STID':locName,
+                    'NAME':locName,
+                    'u':TS_u[locName],
+                    'v':TS_v[locName],
+                    'DATETIME':TS_dates}}
+    try:
+        plot_rose(L)
+    except:
+        print 'could not make roses'

@@ -1,0 +1,866 @@
+Local DATE: 2017-06-06 11:30:25.953444
+  UTC DATE: 2017-06-06 16:00:00
+plucking values from HRRR
+got Temp
+got Dwpt
+got Wind
+got Gust
+got U10
+got V10
+got Precip
+making permenant figure elements...
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:anl:
+
+range: 0 527376
+./tempOper_2017060616.grib2
+matched a variable 59:41621282:d=2017060616:UGRD:10 m above ground:anl:
+
+range: 41621282 42820380
+./tempOper_2017060616.grib2
+matched a variable 60:42820381:d=2017060616:VGRD:10 m above ground:anl:
+
+range: 42820381 44009678
+
+--> Working on: UTPKL 0
+
+--> Working on: NAA 0
+
+--> Working on: C8635 0
+
+--> Working on: FPS 0
+
+--> Working on: KSLC 0
+
+--> Working on: UFD09 0
+
+--> Working on: EYSC 0
+
+--> Working on: UCC23 0
+
+--> Working on: UKBKB 0
+
+--> Working on: Orderville 0
+
+--> Working on: UtahLake 0
+
+--> Working on: WBB 0
+
+--> Working on: Oaks 0
+
+--> Working on: GNI 0
+
+--> Working on: BFLAT 0
+
+--> Working on: FREUT 0
+Finished: 0
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:1 hour fcst:
+
+range: 0 622949
+./tempOper_2017060616.grib2
+matched a variable 59:45329467:d=2017060616:UGRD:10 m above ground:1 hour fcst:
+
+range: 45329467 46645138
+./tempOper_2017060616.grib2
+matched a variable 60:46645139:d=2017060616:VGRD:10 m above ground:1 hour fcst:
+
+range: 46645139 47934446
+
+--> Working on: UTPKL 1
+
+--> Working on: NAA 1
+
+--> Working on: C8635 1
+
+--> Working on: FPS 1
+
+--> Working on: KSLC 1
+
+--> Working on: UFD09 1
+
+--> Working on: EYSC 1
+
+--> Working on: UCC23 1
+
+--> Working on: UKBKB 1
+
+--> Working on: Orderville 1
+
+--> Working on: UtahLake 1
+
+--> Working on: WBB 1
+
+--> Working on: Oaks 1
+
+--> Working on: GNI 1
+
+--> Working on: BFLAT 1
+
+--> Working on: FREUT 1
+Finished: 1
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:2 hour fcst:
+
+range: 0 656045
+./tempOper_2017060616.grib2
+matched a variable 59:46208803:d=2017060616:UGRD:10 m above ground:2 hour fcst:
+
+range: 46208803 47581486
+./tempOper_2017060616.grib2
+matched a variable 60:47581487:d=2017060616:VGRD:10 m above ground:2 hour fcst:
+
+range: 47581487 48920355
+
+--> Working on: UTPKL 2
+
+--> Working on: NAA 2
+
+--> Working on: C8635 2
+
+--> Working on: FPS 2
+
+--> Working on: KSLC 2
+
+--> Working on: UFD09 2
+
+--> Working on: EYSC 2
+
+--> Working on: UCC23 2
+
+--> Working on: UKBKB 2
+
+--> Working on: Orderville 2
+
+--> Working on: UtahLake 2
+
+--> Working on: WBB 2
+
+--> Working on: Oaks 2
+
+--> Working on: GNI 2
+
+--> Working on: BFLAT 2
+
+--> Working on: FREUT 2
+Finished: 2
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:3 hour fcst:
+
+range: 0 686640
+./tempOper_2017060616.grib2
+matched a variable 59:46910788:d=2017060616:UGRD:10 m above ground:3 hour fcst:
+
+range: 46910788 48315171
+./tempOper_2017060616.grib2
+matched a variable 60:48315172:d=2017060616:VGRD:10 m above ground:3 hour fcst:
+
+range: 48315172 49682668
+
+--> Working on: UTPKL 3
+
+--> Working on: NAA 3
+
+--> Working on: C8635 3
+
+--> Working on: FPS 3
+
+--> Working on: KSLC 3
+
+--> Working on: UFD09 3
+
+--> Working on: EYSC 3
+
+--> Working on: UCC23 3
+
+--> Working on: UKBKB 3
+
+--> Working on: Orderville 3
+
+--> Working on: UtahLake 3
+
+--> Working on: WBB 3
+
+--> Working on: Oaks 3
+
+--> Working on: GNI 3
+
+--> Working on: BFLAT 3
+
+--> Working on: FREUT 3
+Finished: 3
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:4 hour fcst:
+
+range: 0 718772
+./tempOper_2017060616.grib2
+matched a variable 59:47664336:d=2017060616:UGRD:10 m above ground:4 hour fcst:
+
+range: 47664336 49079358
+./tempOper_2017060616.grib2
+matched a variable 60:49079359:d=2017060616:VGRD:10 m above ground:4 hour fcst:
+
+range: 49079359 50458317
+
+--> Working on: UTPKL 4
+
+--> Working on: NAA 4
+
+--> Working on: C8635 4
+
+--> Working on: FPS 4
+
+--> Working on: KSLC 4
+
+--> Working on: UFD09 4
+
+--> Working on: EYSC 4
+
+--> Working on: UCC23 4
+
+--> Working on: UKBKB 4
+
+--> Working on: Orderville 4
+
+--> Working on: UtahLake 4
+
+--> Working on: WBB 4
+
+--> Working on: Oaks 4
+
+--> Working on: GNI 4
+
+--> Working on: BFLAT 4
+
+--> Working on: FREUT 4
+Finished: 4
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:5 hour fcst:
+
+range: 0 709167
+./tempOper_2017060616.grib2
+matched a variable 59:47573048:d=2017060616:UGRD:10 m above ground:5 hour fcst:
+
+range: 47573048 48992553
+./tempOper_2017060616.grib2
+matched a variable 60:48992554:d=2017060616:VGRD:10 m above ground:5 hour fcst:
+
+range: 48992554 50366594
+
+--> Working on: UTPKL 5
+
+--> Working on: NAA 5
+
+--> Working on: C8635 5
+
+--> Working on: FPS 5
+
+--> Working on: KSLC 5
+
+--> Working on: UFD09 5
+
+--> Working on: EYSC 5
+
+--> Working on: UCC23 5
+
+--> Working on: UKBKB 5
+
+--> Working on: Orderville 5
+
+--> Working on: UtahLake 5
+
+--> Working on: WBB 5
+
+--> Working on: Oaks 5
+
+--> Working on: GNI 5
+
+--> Working on: BFLAT 5
+
+--> Working on: FREUT 5
+Finished: 5
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:6 hour fcst:
+
+range: 0 716463
+./tempOper_2017060616.grib2
+matched a variable 59:47480761:d=2017060616:UGRD:10 m above ground:6 hour fcst:
+
+range: 47480761 48862365
+./tempOper_2017060616.grib2
+matched a variable 60:48862366:d=2017060616:VGRD:10 m above ground:6 hour fcst:
+
+range: 48862366 50220787
+
+--> Working on: UTPKL 6
+
+--> Working on: NAA 6
+
+--> Working on: C8635 6
+
+--> Working on: FPS 6
+
+--> Working on: KSLC 6
+
+--> Working on: UFD09 6
+
+--> Working on: EYSC 6
+
+--> Working on: UCC23 6
+
+--> Working on: UKBKB 6
+
+--> Working on: Orderville 6
+
+--> Working on: UtahLake 6
+
+--> Working on: WBB 6
+
+--> Working on: Oaks 6
+
+--> Working on: GNI 6
+
+--> Working on: BFLAT 6
+
+--> Working on: FREUT 6
+Finished: 6
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:7 hour fcst:
+
+range: 0 706363
+./tempOper_2017060616.grib2
+matched a variable 59:47203846:d=2017060616:UGRD:10 m above ground:7 hour fcst:
+
+range: 47203846 48549564
+./tempOper_2017060616.grib2
+matched a variable 60:48549565:d=2017060616:VGRD:10 m above ground:7 hour fcst:
+
+range: 48549565 49884101
+
+--> Working on: UTPKL 7
+
+--> Working on: NAA 7
+
+--> Working on: C8635 7
+
+--> Working on: FPS 7
+
+--> Working on: KSLC 7
+
+--> Working on: UFD09 7
+
+--> Working on: EYSC 7
+
+--> Working on: UCC23 7
+
+--> Working on: UKBKB 7
+
+--> Working on: Orderville 7
+
+--> Working on: UtahLake 7
+
+--> Working on: WBB 7
+
+--> Working on: Oaks 7
+
+--> Working on: GNI 7
+
+--> Working on: BFLAT 7
+
+--> Working on: FREUT 7
+Finished: 7
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:8 hour fcst:
+
+range: 0 718012
+./tempOper_2017060616.grib2
+matched a variable 59:46887286:d=2017060616:UGRD:10 m above ground:8 hour fcst:
+
+range: 46887286 48192924
+./tempOper_2017060616.grib2
+matched a variable 60:48192925:d=2017060616:VGRD:10 m above ground:8 hour fcst:
+
+range: 48192925 49503566
+
+--> Working on: UTPKL 8
+
+--> Working on: NAA 8
+
+--> Working on: C8635 8
+
+--> Working on: FPS 8
+
+--> Working on: KSLC 8
+
+--> Working on: UFD09 8
+
+--> Working on: EYSC 8
+
+--> Working on: UCC23 8
+
+--> Working on: UKBKB 8
+
+--> Working on: Orderville 8
+
+--> Working on: UtahLake 8
+
+--> Working on: WBB 8
+
+--> Working on: Oaks 8
+
+--> Working on: GNI 8
+
+--> Working on: BFLAT 8
+
+--> Working on: FREUT 8
+Finished: 8
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:9 hour fcst:
+
+range: 0 700491
+./tempOper_2017060616.grib2
+matched a variable 59:46172848:d=2017060616:UGRD:10 m above ground:9 hour fcst:
+
+range: 46172848 47443282
+./tempOper_2017060616.grib2
+matched a variable 60:47443283:d=2017060616:VGRD:10 m above ground:9 hour fcst:
+
+range: 47443283 48727296
+
+--> Working on: UTPKL 9
+
+--> Working on: NAA 9
+
+--> Working on: C8635 9
+
+--> Working on: FPS 9
+
+--> Working on: KSLC 9
+
+--> Working on: UFD09 9
+
+--> Working on: EYSC 9
+
+--> Working on: UCC23 9
+
+--> Working on: UKBKB 9
+
+--> Working on: Orderville 9
+
+--> Working on: UtahLake 9
+
+--> Working on: WBB 9
+
+--> Working on: Oaks 9
+
+--> Working on: GNI 9
+
+--> Working on: BFLAT 9
+
+--> Working on: FREUT 9
+Finished: 9
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:10 hour fcst:
+
+range: 0 697154
+./tempOper_2017060616.grib2
+matched a variable 59:45692279:d=2017060616:UGRD:10 m above ground:10 hour fcst:
+
+range: 45692279 46950115
+./tempOper_2017060616.grib2
+matched a variable 60:46950116:d=2017060616:VGRD:10 m above ground:10 hour fcst:
+
+range: 46950116 48221291
+
+--> Working on: UTPKL 10
+
+--> Working on: NAA 10
+
+--> Working on: C8635 10
+
+--> Working on: FPS 10
+
+--> Working on: KSLC 10
+
+--> Working on: UFD09 10
+
+--> Working on: EYSC 10
+
+--> Working on: UCC23 10
+
+--> Working on: UKBKB 10
+
+--> Working on: Orderville 10
+
+--> Working on: UtahLake 10
+
+--> Working on: WBB 10
+
+--> Working on: Oaks 10
+
+--> Working on: GNI 10
+
+--> Working on: BFLAT 10
+
+--> Working on: FREUT 10
+Finished: 10
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:11 hour fcst:
+
+range: 0 687852
+./tempOper_2017060616.grib2
+matched a variable 59:45368413:d=2017060616:UGRD:10 m above ground:11 hour fcst:
+
+range: 45368413 46654223
+./tempOper_2017060616.grib2
+matched a variable 60:46654224:d=2017060616:VGRD:10 m above ground:11 hour fcst:
+
+range: 46654224 47945317
+
+--> Working on: UTPKL 11
+
+--> Working on: NAA 11
+
+--> Working on: C8635 11
+
+--> Working on: FPS 11
+
+--> Working on: KSLC 11
+
+--> Working on: UFD09 11
+
+--> Working on: EYSC 11
+
+--> Working on: UCC23 11
+
+--> Working on: UKBKB 11
+
+--> Working on: Orderville 11
+
+--> Working on: UtahLake 11
+
+--> Working on: WBB 11
+
+--> Working on: Oaks 11
+
+--> Working on: GNI 11
+
+--> Working on: BFLAT 11
+
+--> Working on: FREUT 11
+Finished: 11
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:12 hour fcst:
+
+range: 0 693006
+./tempOper_2017060616.grib2
+matched a variable 59:45118365:d=2017060616:UGRD:10 m above ground:12 hour fcst:
+
+range: 45118365 46446955
+./tempOper_2017060616.grib2
+matched a variable 60:46446956:d=2017060616:VGRD:10 m above ground:12 hour fcst:
+
+range: 46446956 47777633
+
+--> Working on: UTPKL 12
+
+--> Working on: NAA 12
+
+--> Working on: C8635 12
+
+--> Working on: FPS 12
+
+--> Working on: KSLC 12
+
+--> Working on: UFD09 12
+
+--> Working on: EYSC 12
+
+--> Working on: UCC23 12
+
+--> Working on: UKBKB 12
+
+--> Working on: Orderville 12
+
+--> Working on: UtahLake 12
+
+--> Working on: WBB 12
+
+--> Working on: Oaks 12
+
+--> Working on: GNI 12
+
+--> Working on: BFLAT 12
+
+--> Working on: FREUT 12
+Finished: 12
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:13 hour fcst:
+
+range: 0 702786
+./tempOper_2017060616.grib2
+matched a variable 59:45150000:d=2017060616:UGRD:10 m above ground:13 hour fcst:
+
+range: 45150000 46499373
+./tempOper_2017060616.grib2
+matched a variable 60:46499374:d=2017060616:VGRD:10 m above ground:13 hour fcst:
+
+range: 46499374 47851169
+
+--> Working on: UTPKL 13
+
+--> Working on: NAA 13
+
+--> Working on: C8635 13
+
+--> Working on: FPS 13
+
+--> Working on: KSLC 13
+
+--> Working on: UFD09 13
+
+--> Working on: EYSC 13
+
+--> Working on: UCC23 13
+
+--> Working on: UKBKB 13
+
+--> Working on: Orderville 13
+
+--> Working on: UtahLake 13
+
+--> Working on: WBB 13
+
+--> Working on: Oaks 13
+
+--> Working on: GNI 13
+
+--> Working on: BFLAT 13
+
+--> Working on: FREUT 13
+Finished: 13
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:14 hour fcst:
+
+range: 0 713206
+./tempOper_2017060616.grib2
+matched a variable 59:45141444:d=2017060616:UGRD:10 m above ground:14 hour fcst:
+
+range: 45141444 46501740
+./tempOper_2017060616.grib2
+matched a variable 60:46501741:d=2017060616:VGRD:10 m above ground:14 hour fcst:
+
+range: 46501741 47866350
+
+--> Working on: UTPKL 14
+
+--> Working on: NAA 14
+
+--> Working on: C8635 14
+
+--> Working on: FPS 14
+
+--> Working on: KSLC 14
+
+--> Working on: UFD09 14
+
+--> Working on: EYSC 14
+
+--> Working on: UCC23 14
+
+--> Working on: UKBKB 14
+
+--> Working on: Orderville 14
+
+--> Working on: UtahLake 14
+
+--> Working on: WBB 14
+
+--> Working on: Oaks 14
+
+--> Working on: GNI 14
+
+--> Working on: BFLAT 14
+
+--> Working on: FREUT 14
+Finished: 14
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:15 hour fcst:
+
+range: 0 727438
+./tempOper_2017060616.grib2
+matched a variable 59:45236584:d=2017060616:UGRD:10 m above ground:15 hour fcst:
+
+range: 45236584 46603978
+./tempOper_2017060616.grib2
+matched a variable 60:46603979:d=2017060616:VGRD:10 m above ground:15 hour fcst:
+
+range: 46603979 47978631
+
+--> Working on: UTPKL 15
+
+--> Working on: NAA 15
+
+--> Working on: C8635 15
+
+--> Working on: FPS 15
+
+--> Working on: KSLC 15
+
+--> Working on: UFD09 15
+
+--> Working on: EYSC 15
+
+--> Working on: UCC23 15
+
+--> Working on: UKBKB 15
+
+--> Working on: Orderville 15
+
+--> Working on: UtahLake 15
+
+--> Working on: WBB 15
+
+--> Working on: Oaks 15
+
+--> Working on: GNI 15
+
+--> Working on: BFLAT 15
+
+--> Working on: FREUT 15
+Finished: 15
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:16 hour fcst:
+
+range: 0 735526
+./tempOper_2017060616.grib2
+matched a variable 59:45054102:d=2017060616:UGRD:10 m above ground:16 hour fcst:
+
+range: 45054102 46425534
+./tempOper_2017060616.grib2
+matched a variable 60:46425535:d=2017060616:VGRD:10 m above ground:16 hour fcst:
+
+range: 46425535 47808157
+
+--> Working on: UTPKL 16
+
+--> Working on: NAA 16
+
+--> Working on: C8635 16
+
+--> Working on: FPS 16
+
+--> Working on: KSLC 16
+
+--> Working on: UFD09 16
+
+--> Working on: EYSC 16
+
+--> Working on: UCC23 16
+
+--> Working on: UKBKB 16
+
+--> Working on: Orderville 16
+
+--> Working on: UtahLake 16
+
+--> Working on: WBB 16
+
+--> Working on: Oaks 16
+
+--> Working on: GNI 16
+
+--> Working on: BFLAT 16
+
+--> Working on: FREUT 16
+Finished: 16
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:17 hour fcst:
+
+range: 0 743718
+./tempOper_2017060616.grib2
+matched a variable 59:45150695:d=2017060616:UGRD:10 m above ground:17 hour fcst:
+
+range: 45150695 46524308
+./tempOper_2017060616.grib2
+matched a variable 60:46524309:d=2017060616:VGRD:10 m above ground:17 hour fcst:
+
+range: 46524309 47912510
+
+--> Working on: UTPKL 17
+
+--> Working on: NAA 17
+
+--> Working on: C8635 17
+
+--> Working on: FPS 17
+
+--> Working on: KSLC 17
+
+--> Working on: UFD09 17
+
+--> Working on: EYSC 17
+
+--> Working on: UCC23 17
+
+--> Working on: UKBKB 17
+
+--> Working on: Orderville 17
+
+--> Working on: UtahLake 17
+
+--> Working on: WBB 17
+
+--> Working on: Oaks 17
+
+--> Working on: GNI 17
+
+--> Working on: BFLAT 17
+
+--> Working on: FREUT 17
+Finished: 17
+./tempOper_2017060616.grib2
+matched a variable 1:0:d=2017060616:REFC:entire atmosphere:18 hour fcst:
+
+range: 0 727350
+./tempOper_2017060616.grib2
+matched a variable 59:45094176:d=2017060616:UGRD:10 m above ground:18 hour fcst:
+
+range: 45094176 46468030
+./tempOper_2017060616.grib2
+matched a variable 60:46468031:d=2017060616:VGRD:10 m above ground:18 hour fcst:
+
+range: 46468031 47859706
+
+--> Working on: UTPKL 18
+
+--> Working on: NAA 18
+
+--> Working on: C8635 18
+
+--> Working on: FPS 18
+
+--> Working on: KSLC 18
+
+--> Working on: UFD09 18
+
+--> Working on: EYSC 18
+
+--> Working on: UCC23 18
+
+--> Working on: UKBKB 18
+
+--> Working on: Orderville 18
+
+--> Working on: UtahLake 18
+
+--> Working on: WBB 18
+
+--> Working on: Oaks 18
+
+--> Working on: GNI 18
+
+--> Working on: BFLAT 18
+
+--> Working on: FREUT 18
+Finished: 18
