@@ -68,7 +68,9 @@ def write_HRRR_fires_HTML(fires):
 <center>
 <img src='http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/firemap.png' style="max-width:600px">
 <p><a href="https://fsapps.nwcg.gov/afm/">Active Fire Mapping Program</a>
-<p><a href="https://inciweb.nwcg.gov/">Incident Information System</a></center>
+<p><a href="https://inciweb.nwcg.gov/">Incident Information System</a>
+<p><a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_fires_alert.html" class='btn btn-warning'>Periods of Interest</a>
+</center>
 
 </div>
 </center>

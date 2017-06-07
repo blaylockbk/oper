@@ -118,6 +118,7 @@ P_u = get_hrrr_pollywog_multi(DATE, 'UGRD:10 m', location, verbose=False); print
 P_v = get_hrrr_pollywog_multi(DATE, 'VGRD:10 m', location, verbose=False); print 'got v vectors'
 P_prec = get_hrrr_pollywog_multi(DATE, 'APCP:surface', location, verbose=False); print 'got prec'
 P_accum = {}
+P_ref = get_hrrr_pollywog_multi(DATE, 'REFC:entire atmosphere', location, verbose=False); print 'got composite reflectivity'
 
 # Convert the units of each Pollywog and each location
 for loc in location.keys():
@@ -130,6 +131,11 @@ for loc in location.keys():
     P_v[loc] = mps_to_MPH(P_v[loc])
     P_prec[loc] = mm_to_inches(P_prec[loc])
     P_accum[loc] = np.add.accumulate(P_prec[loc])
+
+# Check for high winds and append to alerts list and webpage
+from HRRR_fires_alerts import *
+alert_wind(location, P_wind, P_gust, P_ref)
+write_alerts_html()
 
 # Make a dictionary of map object for each location.
 # (This speeds up plotting by creating each map once.)

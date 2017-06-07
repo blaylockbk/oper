@@ -1,0 +1,415 @@
+there are 10 large fires
+Local DATE: 2017-06-07 12:55:20.351572
+  UTC DATE: 2017-06-07 17:00:00
+got temps
+got dwpt
+got wind
+got gust
+got u vectors
+got v vectors
+got prec
+got composite reflectivity
+making permenant figure elements...
+finding fire perimeter patches... Done!
+finding fire perimeter patches... Done!
+finding fire perimeter patches... Done!
+finding fire perimeter patches... Done!
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:anl:
+
+range: 0 395438
+./tempOper_2017060717.grib2
+matched a variable 59:41338619:d=2017060717:UGRD:10 m above ground:anl:
+
+range: 41338619 42583656
+./tempOper_2017060717.grib2
+matched a variable 60:42583657:d=2017060717:VGRD:10 m above ground:anl:
+
+range: 42583657 43798703
+
+--> Working on: WEST MIMS 0
+
+--> Working on: SLIM 0
+
+--> Working on: KINYON SPRINGS 0
+
+--> Working on: BACA 0
+Finished: 0
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:1 hour fcst:
+
+range: 0 511108
+./tempOper_2017060717.grib2
+matched a variable 59:45219146:d=2017060717:UGRD:10 m above ground:1 hour fcst:
+
+range: 45219146 46577449
+./tempOper_2017060717.grib2
+matched a variable 60:46577450:d=2017060717:VGRD:10 m above ground:1 hour fcst:
+
+range: 46577450 47895211
+
+--> Working on: WEST MIMS 1
+
+--> Working on: SLIM 1
+
+--> Working on: KINYON SPRINGS 1
+
+--> Working on: BACA 1
+Finished: 1
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:2 hour fcst:
+
+range: 0 575242
+./tempOper_2017060717.grib2
+matched a variable 59:46187886:d=2017060717:UGRD:10 m above ground:2 hour fcst:
+
+range: 46187886 47590000
+./tempOper_2017060717.grib2
+matched a variable 60:47590001:d=2017060717:VGRD:10 m above ground:2 hour fcst:
+
+range: 47590001 48948259
+
+--> Working on: WEST MIMS 2
+
+--> Working on: SLIM 2
+
+--> Working on: KINYON SPRINGS 2
+
+--> Working on: BACA 2
+Finished: 2
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:3 hour fcst:
+
+range: 0 623107
+./tempOper_2017060717.grib2
+matched a variable 59:46731491:d=2017060717:UGRD:10 m above ground:3 hour fcst:
+
+range: 46731491 48146840
+./tempOper_2017060717.grib2
+matched a variable 60:48146841:d=2017060717:VGRD:10 m above ground:3 hour fcst:
+
+range: 48146841 49531990
+
+--> Working on: WEST MIMS 3
+
+--> Working on: SLIM 3
+
+--> Working on: KINYON SPRINGS 3
+
+--> Working on: BACA 3
+Finished: 3
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:4 hour fcst:
+
+range: 0 646476
+./tempOper_2017060717.grib2
+matched a variable 59:47119775:d=2017060717:UGRD:10 m above ground:4 hour fcst:
+
+range: 47119775 48525445
+./tempOper_2017060717.grib2
+matched a variable 60:48525446:d=2017060717:VGRD:10 m above ground:4 hour fcst:
+
+range: 48525446 49889407
+
+--> Working on: WEST MIMS 4
+
+--> Working on: SLIM 4
+
+--> Working on: KINYON SPRINGS 4
+
+--> Working on: BACA 4
+Finished: 4
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:5 hour fcst:
+
+range: 0 650563
+./tempOper_2017060717.grib2
+matched a variable 59:47323373:d=2017060717:UGRD:10 m above ground:5 hour fcst:
+
+range: 47323373 48709561
+./tempOper_2017060717.grib2
+matched a variable 60:48709562:d=2017060717:VGRD:10 m above ground:5 hour fcst:
+
+range: 48709562 50059122
+
+--> Working on: WEST MIMS 5
+
+--> Working on: SLIM 5
+
+--> Working on: KINYON SPRINGS 5
+
+--> Working on: BACA 5
+Finished: 5
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:6 hour fcst:
+
+range: 0 655787
+./tempOper_2017060717.grib2
+matched a variable 59:47262245:d=2017060717:UGRD:10 m above ground:6 hour fcst:
+
+range: 47262245 48616966
+./tempOper_2017060717.grib2
+matched a variable 60:48616967:d=2017060717:VGRD:10 m above ground:6 hour fcst:
+
+range: 48616967 49940967
+
+--> Working on: WEST MIMS 6
+
+--> Working on: SLIM 6
+
+--> Working on: KINYON SPRINGS 6
+
+--> Working on: BACA 6
+Finished: 6
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:7 hour fcst:
+
+range: 0 666202
+./tempOper_2017060717.grib2
+matched a variable 59:46952967:d=2017060717:UGRD:10 m above ground:7 hour fcst:
+
+range: 46952967 48267348
+./tempOper_2017060717.grib2
+matched a variable 60:48267349:d=2017060717:VGRD:10 m above ground:7 hour fcst:
+
+range: 48267349 49564145
+
+--> Working on: WEST MIMS 7
+
+--> Working on: SLIM 7
+
+--> Working on: KINYON SPRINGS 7
+
+--> Working on: BACA 7
+Finished: 7
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:8 hour fcst:
+
+range: 0 680721
+./tempOper_2017060717.grib2
+matched a variable 59:46788829:d=2017060717:UGRD:10 m above ground:8 hour fcst:
+
+range: 46788829 48072493
+./tempOper_2017060717.grib2
+matched a variable 60:48072494:d=2017060717:VGRD:10 m above ground:8 hour fcst:
+
+range: 48072494 49343741
+
+--> Working on: WEST MIMS 8
+
+--> Working on: SLIM 8
+
+--> Working on: KINYON SPRINGS 8
+
+--> Working on: BACA 8
+Finished: 8
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:9 hour fcst:
+
+range: 0 699581
+./tempOper_2017060717.grib2
+matched a variable 59:46411644:d=2017060717:UGRD:10 m above ground:9 hour fcst:
+
+range: 46411644 47690738
+./tempOper_2017060717.grib2
+matched a variable 60:47690739:d=2017060717:VGRD:10 m above ground:9 hour fcst:
+
+range: 47690739 48952236
+
+--> Working on: WEST MIMS 9
+
+--> Working on: SLIM 9
+
+--> Working on: KINYON SPRINGS 9
+
+--> Working on: BACA 9
+Finished: 9
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:10 hour fcst:
+
+range: 0 695155
+./tempOper_2017060717.grib2
+matched a variable 59:46156024:d=2017060717:UGRD:10 m above ground:10 hour fcst:
+
+range: 46156024 47471625
+./tempOper_2017060717.grib2
+matched a variable 60:47471626:d=2017060717:VGRD:10 m above ground:10 hour fcst:
+
+range: 47471626 48760421
+
+--> Working on: WEST MIMS 10
+
+--> Working on: SLIM 10
+
+--> Working on: KINYON SPRINGS 10
+
+--> Working on: BACA 10
+Finished: 10
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:11 hour fcst:
+
+range: 0 693474
+./tempOper_2017060717.grib2
+matched a variable 59:46097960:d=2017060717:UGRD:10 m above ground:11 hour fcst:
+
+range: 46097960 47457135
+./tempOper_2017060717.grib2
+matched a variable 60:47457136:d=2017060717:VGRD:10 m above ground:11 hour fcst:
+
+range: 47457136 48786818
+
+--> Working on: WEST MIMS 11
+
+--> Working on: SLIM 11
+
+--> Working on: KINYON SPRINGS 11
+
+--> Working on: BACA 11
+Finished: 11
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:12 hour fcst:
+
+range: 0 693493
+./tempOper_2017060717.grib2
+matched a variable 59:46077305:d=2017060717:UGRD:10 m above ground:12 hour fcst:
+
+range: 46077305 47459420
+./tempOper_2017060717.grib2
+matched a variable 60:47459421:d=2017060717:VGRD:10 m above ground:12 hour fcst:
+
+range: 47459421 48813157
+
+--> Working on: WEST MIMS 12
+
+--> Working on: SLIM 12
+
+--> Working on: KINYON SPRINGS 12
+
+--> Working on: BACA 12
+Finished: 12
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:13 hour fcst:
+
+range: 0 696198
+./tempOper_2017060717.grib2
+matched a variable 59:45949206:d=2017060717:UGRD:10 m above ground:13 hour fcst:
+
+range: 45949206 47343730
+./tempOper_2017060717.grib2
+matched a variable 60:47343731:d=2017060717:VGRD:10 m above ground:13 hour fcst:
+
+range: 47343731 48713530
+
+--> Working on: WEST MIMS 13
+
+--> Working on: SLIM 13
+
+--> Working on: KINYON SPRINGS 13
+
+--> Working on: BACA 13
+Finished: 13
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:14 hour fcst:
+
+range: 0 685796
+./tempOper_2017060717.grib2
+matched a variable 59:45812094:d=2017060717:UGRD:10 m above ground:14 hour fcst:
+
+range: 45812094 47212381
+./tempOper_2017060717.grib2
+matched a variable 60:47212382:d=2017060717:VGRD:10 m above ground:14 hour fcst:
+
+range: 47212382 48590775
+
+--> Working on: WEST MIMS 14
+
+--> Working on: SLIM 14
+
+--> Working on: KINYON SPRINGS 14
+
+--> Working on: BACA 14
+Finished: 14
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:15 hour fcst:
+
+range: 0 684171
+./tempOper_2017060717.grib2
+matched a variable 59:45782328:d=2017060717:UGRD:10 m above ground:15 hour fcst:
+
+range: 45782328 47185598
+./tempOper_2017060717.grib2
+matched a variable 60:47185599:d=2017060717:VGRD:10 m above ground:15 hour fcst:
+
+range: 47185599 48572702
+
+--> Working on: WEST MIMS 15
+
+--> Working on: SLIM 15
+
+--> Working on: KINYON SPRINGS 15
+
+--> Working on: BACA 15
+Finished: 15
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:16 hour fcst:
+
+range: 0 673170
+./tempOper_2017060717.grib2
+matched a variable 59:45703353:d=2017060717:UGRD:10 m above ground:16 hour fcst:
+
+range: 45703353 47107752
+./tempOper_2017060717.grib2
+matched a variable 60:47107753:d=2017060717:VGRD:10 m above ground:16 hour fcst:
+
+range: 47107753 48498694
+
+--> Working on: WEST MIMS 16
+
+--> Working on: SLIM 16
+
+--> Working on: KINYON SPRINGS 16
+
+--> Working on: BACA 16
+Finished: 16
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:17 hour fcst:
+
+range: 0 663760
+./tempOper_2017060717.grib2
+matched a variable 59:45455430:d=2017060717:UGRD:10 m above ground:17 hour fcst:
+
+range: 45455430 46858087
+./tempOper_2017060717.grib2
+matched a variable 60:46858088:d=2017060717:VGRD:10 m above ground:17 hour fcst:
+
+range: 46858088 48250591
+
+--> Working on: WEST MIMS 17
+
+--> Working on: SLIM 17
+
+--> Working on: KINYON SPRINGS 17
+
+--> Working on: BACA 17
+Finished: 17
+./tempOper_2017060717.grib2
+matched a variable 1:0:d=2017060717:REFC:entire atmosphere:18 hour fcst:
+
+range: 0 670813
+./tempOper_2017060717.grib2
+matched a variable 59:45485343:d=2017060717:UGRD:10 m above ground:18 hour fcst:
+
+range: 45485343 46879882
+./tempOper_2017060717.grib2
+matched a variable 60:46879883:d=2017060717:VGRD:10 m above ground:18 hour fcst:
+
+range: 46879883 48266333
+
+--> Working on: WEST MIMS 18
+
+--> Working on: SLIM 18
+
+--> Working on: KINYON SPRINGS 18
+
+--> Working on: BACA 18
+Finished: 18
