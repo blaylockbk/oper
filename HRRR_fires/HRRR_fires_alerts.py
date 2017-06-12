@@ -32,13 +32,13 @@ def alert_wind(location, P_wind, P_gust, P_ref):
     # If it meets the criteria, then append the file with some data.
     for loc in location.keys():
         for i in range(len(P_wind[loc])):
-            if P_wind[loc][i] > ms_to_MPH(15):
+            if P_wind[loc][i] > ms_to_MPH(10): # wind speed threshold
                 write_this = P_wind['DATETIME'][i].strftime('%Y-%m-%d_%H%M')+','
                 write_this += loc +','
                 write_this += location[loc]['state'] +','
                 write_this += '%s,' % location[loc]['area']
-                write_this += '%.2f,' % P_wind[loc][i]
-                write_this += '%.2f,' % P_gust[loc][i]
+                write_this += '%.2f,' % MPH_to_ms(P_wind[loc][i])
+                write_this += '%.2f,' % MPH_to_ms(P_gust[loc][i])
                 write_this += '%.2f,' % P_ref[loc][i]
                 anlys_date = P_wind['DATETIME'][0]
                 write_this += "%04d%02d%02d/hrrr.t%02dz.wrfsfcf%02d.grib2," % (anlys_date.year, anlys_date.month, anlys_date.day, anlys_date.hour, i)
@@ -63,24 +63,30 @@ def write_alerts_html():
     <h1 align="center"><i class="fa fa-free-code-camp" aria-hidden="true"></i> HRRR Fires Alert</h1>
     <center>
     <div id="container" style="max-width:900px">
-    <h3>HRRR 10m wind >15 m/s</h3>
+    
+    <div class="well well-sm">
+    <p>Criteria: Maximum HRRR 10m wind for 90x90 km<sup>2</sup> box at fire initalization point is greater than 15 ms<sup>-1</sup>
+    <p>The maximum wind gust for the same 90x90 km<sup>2</sup> box and the maximum composite reflectivity for a 150x150 km<sup>2</sup> box is also given.
+    </div>
+
     <table class="table sortable">
-    <tr><th>Valid DateTime</th> <th>Forecast Hour</th> <th>Fire</th> <th>State</th> <th>Size (acres)</th> <th>10m Wind (ms-1)</th> <th>Surface Gust (ms-1)</th> <th>Composite Reflectivity (dBZ)</th> <th>Download Grib2 CONUS File*</th><th>View Area Snapshot</th></tr>"""
+    <tr><th>Valid DateTime (UTC)</th> <th>Forecast Hour</th> <th>Fire</th> <th>State</th> <th>Size (acres)</th> <th>10m Wind (ms-1)</th> <th>Surface Gust (ms-1)</th> <th>Composite Reflectivity (dBZ)</th> <th>View Area Snapshot</th><th>Download Grib2 CONUS*</th></tr>"""
     for a in alerts:
         html += "<tr><td>%s</td>" % a[0]
         html += "<td>%s</td>" % a[7][25:28]
         html += "<td>%s</td>" % a[1]
         html += "<td>%s</td>" % a[2]
         html += "<td>%s</td>" % '{:,}'.format(a[3])
-        html += "<td>%.1f</td>" % MPH_to_ms(a[4])
-        html += "<td>%.1f</td>" % MPH_to_ms(a[5])
+        html += "<td>%.1f</td>" % a[4]
+        html += "<td>%.1f</td>" % a[5]
         html += "<td>%.1f</td>" % a[6]
-        html += "<td><a class='btn btn-default' role='button' href='http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrr_sample_fire.cgi?model=hrrr&validdate=%s&name=%s&fxx=%s&lat=%s&lon=%s' target='_blank'><i class='fa fa-picture-o' aria-hidden='true'></i> Sample</a></td>" % (a[0], a[1], a[7][26:28], a[8], a[9])
+        html += "<td><a class='btn btn-default' role='button' href='http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrr_custom.cgi?model=hrrr&valid=%s&fxx=%s&location=%s,%s&plotcode=Barbs10mWind,Shade10mWind,ContdBZ&dsize=medium&background=arcgis' target='_blank'><i class='fa fa-picture-o' aria-hidden='true'></i> Sample</a></td>" % (a[0], a[7][26:28], a[8], a[9])
         html += "<td><a class='btn btn-default' role='button' href='https://pando-rgw01.chpc.utah.edu/HRRR/oper/sfc/%s' target='_blank'><i class='fa fa-download' aria-hidden='true'></i> GRIB2</a></td></tr>" % a[7]
     html += """
     </table>
     <center>
     <p>*Note: Grib2 files are available for download on Pando archive one day after HRRR run time.
+    <p>*Note: Map sample script can be found on <a href="https://github.com/blaylockbk/Web-Homepage/blob/master/cgi-bin/hrrr_sample_fire.cgi"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
     </div>
     </center>
     <script src="./js/site/siteclose.js"></script>
@@ -91,3 +97,5 @@ def write_alerts_html():
     page.write(html)
     page.close()
 
+if __name__ == "__main__":
+    write_alerts_html()

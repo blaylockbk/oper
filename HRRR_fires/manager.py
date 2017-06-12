@@ -13,8 +13,7 @@ import shutil
 import matplotlib.pyplot as plt
 
 import sys
-sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB')  #for running on CHPC boxes
-sys.path.append('B:\pyBKB')  # local path for testing on my machine
+sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')  #for running on CHPC boxes
 
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
 
@@ -31,10 +30,30 @@ def remove_old_fires(fires):
                 # Looks like the fire isn't active anymore
                 shutil.rmtree(path+D)
 
-def write_HRRR_fires_HTML(fires):
+def write_HRRR_fires_HTML():
     """
     fires is a dictionary. Each key is a fire name.
     """
+    fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
+
+    fires = np.genfromtxt(fires_file, names=True, dtype=None, delimiter='\t')
+    # 1) Locations (dictionary)
+    location = {}
+    for F in range(0, len(fires)):
+        FIRE = fires[F]
+        # 1) Get Latitude and Longitude for the indexed large fire [fire]
+        # No HRRR data for Alaska or Hawaii, so don't do it.
+        # Also, don't bother running fires less than 1000 acres
+        if FIRE[7] < 1000 or FIRE[6] == 'Alaska' or FIRE[6] == 'Hawaii':
+            continue
+        location[FIRE[0]] = {'latitude': FIRE[10],
+                             'longitude': FIRE[11],
+                             'name': FIRE[0],
+                             'state': FIRE[6],
+                             'area': FIRE[7],
+                             'start date': FIRE[4],
+                             'is MesoWest': False
+                            }
 
     html_text = """
 <html>
@@ -54,22 +73,21 @@ def write_HRRR_fires_HTML(fires):
 <center>
 <div id="container" style="max-width:500px">
   
-<h3>Active Fires >1000 Acres</h3>
+<h3>Active Fires >1000 Acres <a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_fires_alert.html" class='btn btn-primary'>Past Wind Events</a></h3>
 
 <table class="table sortable">
 <tr><th>Name</th> <th>State</th> <th>Size (acres)</th> <th>Start Date</th></tr>
 """
-    for F in sorted(fires, key=fires.get(0)):
-        html_text += """<tr><td><a href="http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/%s/photo_viewer_fire.php" class="btn btn-warning btn-block">%s</a></td>""" % (fires[F]['name'].replace(' ', '_'), fires[F]['name'])
-        html_text += """<td>%s</td> <td>%s</td><td>%s</td></tr>""" % (fires[F]['state'], '{:,}'.format(fires[F]['area']), fires[F]['start date'])
+    for F in sorted(location, key=location.get(0)):
+        html_text += """<tr><td><a href="http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/%s/photo_viewer_fire.php" class="btn btn-warning btn-block">%s</a></td>""" % (location[F]['name'].replace(' ', '_'), location[F]['name'])
+        html_text += """<td>%s</td> <td>%s</td><td>%s</td></tr>""" % (location[F]['state'], '{:,}'.format(location[F]['area']), location[F]['start date'])
     html_text += """
 </table>
 
 <center>
-<img src='http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/firemap.png' style="max-width:600px">
 <p><a href="https://fsapps.nwcg.gov/afm/">Active Fire Mapping Program</a>
 <p><a href="https://inciweb.nwcg.gov/">Incident Information System</a>
-<p><a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_fires_alert.html" class='btn btn-warning'>Periods of Interest</a>
+<img src='http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/firemap.png' style="width=100%;max-width:600px">
 </center>
 
 </div>
@@ -104,3 +122,5 @@ def draw_fires_on_map(fires):
 
     plt.savefig('/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/firemap.png', bbox_inches="tight")
 
+if __name__ == '__main__':
+    write_HRRR_fires_HTML()

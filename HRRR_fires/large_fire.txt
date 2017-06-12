@@ -1,11 +1,18 @@
 INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
-WEST MIMS	GA-OKR-017006	Natural	01-Jun-17	06-Apr-17	1	Florida	152515	65.0	01-Nov-17	30.574	-82.323	Baker
-PRADA DRIVE	FL-FLS-150338	Not Reported	01-Jun-17	Not Reported		Not Reported	326	Not Reported	Not Reported	26.788	-82.023	Not Reported
-CARRINGTON ISLAND	UT-SLD-000174	Human	01-Jun-17	31-May-17		Utah	700	80.0	09-Jun-17	41.006	-112.569	Tooele
-SLIM	AZ-ASF-000319	Natural	02-Jun-17	01-Jun-17		Arizona	2500	30.0	30-Jun-17	34.423	-110.842	Coconino
-MM119 I84	ID-BOD-000173	Natural	04-Jun-17	05-Jun-17		Idaho	642	100.0	04-Jun-17	42.962	-115.311	Elmore
-NELAKA	FL-APQ-017046	Not Reported	03-Jun-17	Not Reported		Not Reported	900	Not Reported	Not Reported	27.741	-81.311	Not Reported
-BEAR	AZ-COF-000555	Natural	04-Jun-17	01-Jun-17		Arizona	300	15.0	12-Jun-17	34.446	-111.230	Coconino
-SAILOR	ID-TFD-000063	Not Reported	05-Jun-17	Not Reported		Not Reported	363	Not Reported	Not Reported	42.545	-115.495	Not Reported
-KINYON SPRINGS	ID-TFD-000065	Not Reported	04-Jun-17	Not Reported		Not Reported	1466	Not Reported	Not Reported	42.714	-115.237	Not Reported
-BACA	NM-GNF-000113	Natural	05-Jun-17	12-May-17		New Mexico	9033	15.0	30-Jun-17	34.181	-108.404	Catron
+CARRINGTON ISLAND	UT-SLD-000174	Human	01-Jun-17	31-May-17		Utah	700	82.0	09-Jun-17	41.006	-112.569	Tooele
+SLIM	AZ-ASF-000319	Natural	02-Jun-17	01-Jun-17		Arizona	3241	80.0	20-Jun-17	34.423	-110.842	Coconino
+DINELY	CA-TUU-000286	Not Reported	07-Jun-17	Not Reported		Not Reported	339	Not Reported	Not Reported	36.465	-118.880	Not Reported
+GAP	ID-IFD-000017	Human	08-Jun-17	08-Jun-17		Idaho	486	100.0	09-Jun-17	42.804	-112.352	Bannock
+TOLICHA PEAK	NV-SND-170118	Not Reported	07-Jun-17	Not Reported		Not Reported	2160	Not Reported	Not Reported	37.269	-116.808	Not Reported
+LIZARD	AZ-CNF-000464	Not Reported	07-Jun-17	Not Reported	1	Not Reported	10513	Not Reported	Not Reported	32.009	-110.007	Not Reported
+BOWIE	AZ-A3S-004464	Undetermined	07-Jun-17	07-Jun-17	2	Arizona	3036	95.0	30-Jun-17	32.155	-109.428	Cochise
+FREEZE 2	AZ-SCA-000676	Natural	07-Jun-17	01-Jun-17	2	Arizona	1431	25.0	19-Jun-17	33.567	-109.618	Graham
+BOUNDARY	AZ-COF-000565	Natural	07-Jun-17	01-Jun-17	2	Arizona	4420	5.0	15-Jul-17	35.432	-111.831	Coconino
+PAIGE CREEK	AZ-CNF-000472	Undetermined	08-Jun-17	08-Jun-17		Arizona	1064	90.0	20-Jun-17	32.142	-110.460	Pima
+MAESER HIGHWAY	UT-NES-100065	Human	09-Jun-17	09-Jun-17		Utah	885	80.0	12-Jun-17	40.451	-109.625	Uintah
+NORTH	UT-DIF-000181	Human	09-Jun-17	10-Jun-17		Utah	492	63.0	12-Jun-17	37.491	-113.490	Washington
+HUNTER	CO-WRD-000085	Undetermined	10-Jun-17	10-Jun-17		Colorado	500	15.0	15-Jun-17	39.779	-108.309	Rio Blanco
+SANER	AZ-CNF-000471	Natural	10-Jun-17	08-Jun-17		Arizona	354	100.0	13-Jun-17	31.641	-109.337	Cochise
+RUCKER	AZ-CNF-000456	Natural	10-Jun-17	07-Jun-17		Arizona	380	10.0	20-Jun-17	31.770	-109.323	Cochise
+HIGHLINE	AZ-TNF-000780	Undetermined	10-Jun-17	10-Jun-17	1	Arizona	100	0.0	15-Jul-17	34.397	-111.219	Gila
+FRYE	AZ-CNF-000467	Undetermined	10-Jun-17	07-Jun-17		Arizona	304	0.0	30-Jul-17	32.735	-109.872	Graham

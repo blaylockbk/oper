@@ -132,10 +132,12 @@ for loc in location.keys():
     P_prec[loc] = mm_to_inches(P_prec[loc])
     P_accum[loc] = np.add.accumulate(P_prec[loc])
 
+###################################################################################################################
 # Check for high winds and append to alerts list and webpage
-from HRRR_fires_alerts import *
-alert_wind(location, P_wind, P_gust, P_ref)
-write_alerts_html()
+#from HRRR_fires_alerts import *
+#alert_wind(location, P_wind, P_gust, P_ref)
+#write_alerts_html()
+###################################################################################################################
 
 # Make a dictionary of map object for each location.
 # (This speeds up plotting by creating each map once.)
@@ -172,7 +174,7 @@ for n in locs_idx:
     # Overlay Fire Perimeters
     per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/perim','perim', drawbounds=False)
     patches = []
-    print 'finding fire perimeter patches...',
+    print 'finding fire perimeter patches for '+locName+' fire...',
     for info, shape in zip(maps[locName].perim_info, maps[locName].perim):
         # Check if the boundary is one of the large active fires
         if info['FIRENAME'].upper() in location.keys():
@@ -254,10 +256,14 @@ for fxx in range(0, 19):
     H = get_hrrr_variable(DATE, 'REFC:entire atmosphere', fxx=fxx, model='hrrr')
     H_U = get_hrrr_variable(DATE, 'UGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
     H_V = get_hrrr_variable(DATE, 'VGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
+    H_spd = get_hrrr_variable(DATE, 'WIND:10 m', fxx=fxx, model='hrrr', value_only=True)
+    H_gst = get_hrrr_variable(DATE, 'GUST:surface', fxx=fxx, model='hrrr', value_only=True)
     #
     # Convert Units (meters per second -> miles per hour)
     H_U['value'] = mps_to_MPH(H_U['value'])
     H_V['value'] = mps_to_MPH(H_V['value'])
+    # !! Keep H_spd in m/s for alert purposes
+    # !! Keep H_gst in m/s for alert purposes
     #
     # Mask out empty reflectivity values
     dBZ = H['value']
@@ -294,6 +300,27 @@ for fxx in range(0, 19):
         trim_dBZ = dBZ[cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
         trim_H_U = H_U['value'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
         trim_H_V = H_V['value'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
+        #
+        ##########################################################################################################
+        # Check for High winds in the vicinity of the fire
+        alert_box_bfr1 = 15 # a 90x90 km box
+        alert_box_bfr2 = 25 # a 150x150 km box
+        alert_box_wind = H_spd['value'][cut_v-alert_box_bfr1:cut_v+alert_box_bfr1, cut_h-alert_box_bfr1:cut_h+alert_box_bfr1]
+        alert_box_gust = H_gst['value'][cut_v-alert_box_bfr1:cut_v+alert_box_bfr1, cut_h-alert_box_bfr1:cut_h+alert_box_bfr1]
+        alert_box_ref = H['value'][cut_v-alert_box_bfr2:cut_v+alert_box_bfr2, cut_h-alert_box_bfr2:cut_h+alert_box_bfr2]
+        #
+        max_alert_box_wind = np.nanmax(alert_box_wind)
+        if max_alert_box_wind > 15: # 15 m/s
+            myfile = open("/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/HRRR_fires_alerts.csv", "a")
+            max_alert_box_gust = np.nanmax(alert_box_gust)
+            max_alert_box_ref = np.nanmax(alert_box_ref)
+            validDate = (DATE + timedelta(hours=fxx)).strftime('%Y-%m-%d_%H%M')
+            fileDate = '%04d%02d%02d/hrrr.t%02dz.wrfsfcf%02d.grib2' % (DATE.year, DATE.month, DATE.day, DATE.hour, fxx)
+            write_this = ','.join([validDate, locName, l['state'], str(l['area']), str(max_alert_box_wind), str(max_alert_box_gust), str(max_alert_box_ref), fileDate, str(l['latitude']), str(l['longitude'])])
+            myfile.write(write_this+'\n')
+            myfile.close()
+
+        ##########################################################################################################
         #
         # Overlay Simulated Radar Reflectivity
         ctable = 'NWSReflectivity'
@@ -365,5 +392,8 @@ for fxx in range(0, 19):
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/')
 from manager import *
 remove_old_fires(location)
-write_HRRR_fires_HTML(location)
+write_HRRR_fires_HTML()
 draw_fires_on_map(location)
+
+from HRRR_fires_alerts import *
+write_alerts_html()
