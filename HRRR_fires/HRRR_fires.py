@@ -100,6 +100,11 @@ for F in range(0,len(fires)):
                          'is MesoWest': False
                         }
 
+# Assign some known MesoWest Station ID's to a fire
+for l in location:
+    if l == 'BRIANHEAD':
+        location[l]['is MesoWest'] = 'TT047'
+
 # 2) Get the HRRR data from NOMADS
 DATE = datetime.utcnow() - timedelta(hours=1)
 DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
@@ -131,13 +136,6 @@ for loc in location.keys():
     P_v[loc] = mps_to_MPH(P_v[loc])
     P_prec[loc] = mm_to_inches(P_prec[loc])
     P_accum[loc] = np.add.accumulate(P_prec[loc])
-
-###################################################################################################################
-# Check for high winds and append to alerts list and webpage
-#from HRRR_fires_alerts import *
-#alert_wind(location, P_wind, P_gust, P_ref)
-#write_alerts_html()
-###################################################################################################################
 
 # Make a dictionary of map object for each location.
 # (This speeds up plotting by creating each map once.)
@@ -240,8 +238,8 @@ for n in locs_idx:
     figs[locName][4].set_ylabel('Precipitation (in)')
     #
     # Finally, add MesoWest data if it is available
-    if l['is MesoWest'] is True:
-        a = get_mesowest_ts(locName, DATE, datetime.utcnow(),
+    if l['is MesoWest'] != False:
+        a = get_mesowest_ts(l['is MesoWest'], DATE, datetime.utcnow(),
                             variables='air_temp,wind_speed,dew_point_temperature')
         if a != 'ERROR':
             figs[locName][2].plot(a['DATETIME'], CtoF(a['air_temp']), c='k', ls='--')
@@ -301,8 +299,9 @@ for fxx in range(0, 19):
         trim_H_U = H_U['value'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
         trim_H_V = H_V['value'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
         #
-        ##########################################################################################################
-        # Check for High winds in the vicinity of the fire
+        #####################################################################################
+        #### Alerts #########################################################################
+        # Alerts: Check for high winds in the vicinity of the fire
         alert_box_bfr1 = 15 # a 90x90 km box
         alert_box_bfr2 = 25 # a 150x150 km box
         alert_box_wind = H_spd['value'][cut_v-alert_box_bfr1:cut_v+alert_box_bfr1, cut_h-alert_box_bfr1:cut_h+alert_box_bfr1]
@@ -311,6 +310,7 @@ for fxx in range(0, 19):
         #
         max_alert_box_wind = np.nanmax(alert_box_wind)
         if max_alert_box_wind > 15: # 15 m/s
+            print "!! Alert--Wind speed greater than 15 m/s:", locName
             myfile = open("/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/HRRR_fires_alerts.csv", "a")
             max_alert_box_gust = np.nanmax(alert_box_gust)
             max_alert_box_ref = np.nanmax(alert_box_ref)
@@ -319,13 +319,16 @@ for fxx in range(0, 19):
             write_this = ','.join([validDate, locName, l['state'], str(l['area']), str(max_alert_box_wind), str(max_alert_box_gust), str(max_alert_box_ref), fileDate, str(l['latitude']), str(l['longitude'])])
             myfile.write(write_this+'\n')
             myfile.close()
-
-        ##########################################################################################################
+        #####################################################################################
+        #####################################################################################
         #
         # Overlay Simulated Radar Reflectivity
         ctable = 'NWSReflectivity'
         norm, cmap = ctables.registry.get_with_steps(ctable, -0, 5)
-        radar = figs[locName][1].pcolormesh(trim_X, trim_Y, trim_dBZ, norm=norm, cmap=cmap, alpha=.5)
+        radar = figs[locName][1].pcolormesh(trim_X, trim_Y, trim_dBZ,
+                                            norm=norm,
+                                            cmap=cmap,
+                                            alpha=.5)
         if fxx == 0:
             # Solution for adding colorbar from stackoverflow
             # http://stackoverflow.com/questions/32462881/add-colorbar-to-existing-axis
@@ -335,7 +338,7 @@ for fxx in range(0, 19):
             cb = figs[locName][0].colorbar(radar, cax=cax, orientation='horizontal')
             cb.set_label('Simulated Radar Reflectivity (dBZ)\n\nBarbs: Half=5 mph, Full=10 mph, Flag=50 mph')
         #
-        # Add nearby MesoWest 
+        # Add nearby MesoWest
         if fxx in [0, 1]:
             MW_date = P_temp['DATETIME'][fxx]
             b = get_mesowest_radius(MW_date, 15,
@@ -349,6 +352,8 @@ for fxx in range(0, 19):
                 MW_barbs = figs[locName][1].barbs(MWx, MWy, MW_u, MW_v,
                                                   color='r',
                                                   barb_increments=dict(half=5, full=10, flag=50))
+            stn_point = figs[locName][1].scatter(a['LON'], a['LAT'], color='r', s=15)
+            stn_text = figs[locName][1].text(a['LON'], a['LAT'], a['STID'], color='r', fontsize=9)
         #
         # Wind Barbs
         # Overlay wind barbs (need to trim this array before we plot it)
@@ -380,6 +385,8 @@ for fxx in range(0, 19):
         radar.remove()
         try:
             MW_barbs.remove()
+            stn_point.remove()
+            stn_text.remove()
         except:
             # No barbs were plotted
             pass
@@ -393,7 +400,4 @@ sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/')
 from manager import *
 remove_old_fires(location)
 write_HRRR_fires_HTML()
-draw_fires_on_map(location)
-
-from HRRR_fires_alerts import *
-write_alerts_html()
+draw_fires_on_map()

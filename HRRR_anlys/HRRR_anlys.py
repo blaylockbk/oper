@@ -9,6 +9,10 @@ Golf Course. He wanted to view weather forecasts for his golf course, so I made
 this display for him. These are useful plots at many locations. This particular
 script makes a plot for the analysis hours.
 """
+print "\n--------------------------------------------------------"
+print "  Working on the HRRR time series plots (HRRR_anlys.py)"
+print "--------------------------------------------------------\n"
+
 import matplotlib as mpl
 mpl.use('Agg')		#required for the CRON job or cgi script. Says "do not open plot in a window"??
 import numpy as np

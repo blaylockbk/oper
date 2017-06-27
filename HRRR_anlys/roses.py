@@ -109,7 +109,7 @@ def plot_rose(l):
     axHR.set_rmax(np.max(np.sum(axHR._info['table'], axis=0)))
 
     plt.savefig(l['SAVE']+'/'+MW['STID']+'/rose_HR.png')
-    print "Saved a windrose - HRRR", HR['STID']
+    print "Saved a windrose - HRRR", HR['STID'], l['SAVE']
 
     plt.clf()
     plt.cla()
