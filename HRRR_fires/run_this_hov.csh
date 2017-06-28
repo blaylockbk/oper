@@ -1,8 +1,8 @@
 #!/bin/csh
 #
 #--------------------------------------------------------------------------------------
-# Run the Python Script for plotting HRRR Hovmoller forecasts
-# CRON job on wx4, hourly
+# Run the Python Script for plotting HRRR point forecasts
+# CRON job on wx4, every hour
 #--------------------------------------------------------------------------------------
 
 limit coredumpsize 0

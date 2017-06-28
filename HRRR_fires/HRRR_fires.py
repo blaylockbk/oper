@@ -352,8 +352,9 @@ for fxx in range(0, 19):
                 MW_barbs = figs[locName][1].barbs(MWx, MWy, MW_u, MW_v,
                                                   color='r',
                                                   barb_increments=dict(half=5, full=10, flag=50))
-            stn_point = figs[locName][1].scatter(a['LON'], a['LAT'], color='r', s=15)
-            stn_text = figs[locName][1].text(a['LON'], a['LAT'], a['STID'], color='r', fontsize=9)
+            if l['is MesoWest'] != False:
+                stn_point = figs[locName][1].scatter(a['LON'], a['LAT'], color='r', s=15)
+                stn_text = figs[locName][1].text(a['LON'], a['LAT'], a['STID'], color='r', fontsize=9)
         #
         # Wind Barbs
         # Overlay wind barbs (need to trim this array before we plot it)

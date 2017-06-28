@@ -67,7 +67,7 @@ spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
                                   'units': 'dBZ',
                                   'cmap':'gist_ncar',
                                   'save':'REF',
-                                  'contour':range(20, 100, 20)}
+                                  'contour':range(20, 100, 20)}}
 
 # For Hovmoller statistics, define the half box.
 # The demisions of the box will be (halfbox*2)*3km**2. 
@@ -150,8 +150,12 @@ for s in spex:
         hovBoxMax[np.isnan(hovBoxMax)] = np.ma.masked
         #
         #
-        hmin = np.nanmin(hovCenter)
-        hmax = np.nanmax(hovCenter)
+        if s == 'Simulated Reflectivity':
+            hmin = 0
+            hmax = 80
+        else:
+            hmin = np.nanmin(hovCenter)
+            hmax = np.nanmax(hovCenter)
         #
         # Plot the Hovmoller diagram
         plt.clf()
@@ -194,4 +198,4 @@ for s in spex:
         ax1.set_xlabel(r'Contour shows difference between maximum value in %s km$\mathregular{^{2}}$ box centered at %s %s and the value at the center point.' \
                     % (half_box*6, locations[stn]['latitude'], locations[stn]['longitude']), fontsize=8)
         #
-        plt.savefig(SAVE+S['save']'.png')
+        plt.savefig(SAVE+S['save']+'.png')

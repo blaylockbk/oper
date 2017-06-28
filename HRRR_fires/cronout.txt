@@ -1,7 +1,7 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
-there are 23 large fires
-Local DATE: 2017-06-27 10:40:56.019143
-  UTC DATE: 2017-06-27 15:00:00
+there are 39 large fires
+Local DATE: 2017-06-28 07:40:40.713251
+  UTC DATE: 2017-06-28 12:00:00
 got temps
 got dwpt
 got wind
@@ -11,997 +11,1395 @@ got v vectors
 got prec
 got composite reflectivity
 making permenant figure elements...
-finding fire perimeter patches for CAJETE fire... Done!
-finding fire perimeter patches for BONITA fire... Done!
-finding fire perimeter patches for LOCK fire... Done!
+finding fire perimeter patches for MANZANITA fire... Done!
+finding fire perimeter patches for MAYNARD fire... Done!
+finding fire perimeter patches for STREAM fire... Done!
 finding fire perimeter patches for FRYE fire... Done!
-finding fire perimeter patches for HOLCOMB fire... Done!
-finding fire perimeter patches for CORRAL fire... Done!
-finding fire perimeter patches for BRIANHEAD fire... Done!
+finding fire perimeter patches for SUTHERLAND CANYON fire... Done!
+finding fire perimeter patches for TUCKER fire... Done!
 finding fire perimeter patches for HORSE CROSS fire... Done!
+finding fire perimeter patches for GOODWIN fire... Done!
+finding fire perimeter patches for BONITA fire... Done!
+finding fire perimeter patches for I84 MM271 fire... Done!
 finding fire perimeter patches for HILL fire... Done!
 finding fire perimeter patches for YETI fire... Done!
-finding fire perimeter patches for GOODWIN fire... Done!
+finding fire perimeter patches for MINK fire... Done!
+finding fire perimeter patches for DITTO fire... Done!
+finding fire perimeter patches for LOCK fire... Done!
+finding fire perimeter patches for HOLCOMB fire... Done!
+finding fire perimeter patches for BRIANHEAD fire... Done!
+finding fire perimeter patches for COLE CREEK fire... Done!
+finding fire perimeter patches for STRAIGHT HOLLOW fire... Done!
+finding fire perimeter patches for CAJETE fire... Done!
+finding fire perimeter patches for SPARTAN fire... Done!
+finding fire perimeter patches for BREEZE fire... Done!
 finding fire perimeter patches for BOUNDARY fire... Done!
 finding fire perimeter patches for BEET DUMP fire... Done!
-finding fire perimeter patches for GRIFFITH fire... Done!
-finding fire perimeter patches for COLE CREEK fire... Done!
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:anl:
+finding fire perimeter patches for FRAGUITA fire... Done!
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:anl:
 
-range: 0 433049
-./tempOper_2017062715.grib2
-matched a variable 59:40381160:d=2017062715:UGRD:10 m above ground:anl:
+range: 0 483305
+./tempOper_2017062812.grib2
+matched a variable 59:40762558:d=2017062812:UGRD:10 m above ground:anl:
 
-range: 40381160 41536882
-./tempOper_2017062715.grib2
-matched a variable 60:41536883:d=2017062715:VGRD:10 m above ground:anl:
+range: 40762558 41997538
+./tempOper_2017062812.grib2
+matched a variable 60:41997539:d=2017062812:VGRD:10 m above ground:anl:
 
-range: 41536883 42671991
-./tempOper_2017062715.grib2
-matched a variable 61:42671992:d=2017062715:WIND:10 m above ground:0-0 day max fcst:
+range: 41997539 43244069
+./tempOper_2017062812.grib2
+matched a variable 61:43244070:d=2017062812:WIND:10 m above ground:0-0 day max fcst:
 
-range: 42671992 43821964
-./tempOper_2017062715.grib2
-matched a variable 8:2810937:d=2017062715:GUST:surface:anl:
+range: 43244070 44491158
+./tempOper_2017062812.grib2
+matched a variable 8:2990352:d=2017062812:GUST:surface:anl:
 
-range: 2810937 4035303
+range: 2990352 4359235
 
---> Working on: CAJETE 0
+--> Working on: MANZANITA 0
+!! Alert--Wind speed greater than 15 m/s: MANZANITA
 
---> Working on: BONITA 0
+--> Working on: MAYNARD 0
 
---> Working on: LOCK 0
+--> Working on: STREAM 0
 
 --> Working on: FRYE 0
 
---> Working on: HOLCOMB 0
+--> Working on: SUTHERLAND CANYON 0
 
---> Working on: CORRAL 0
-
---> Working on: BRIANHEAD 0
+--> Working on: TUCKER 0
 
 --> Working on: HORSE CROSS 0
+
+--> Working on: GOODWIN 0
+
+--> Working on: BONITA 0
+
+--> Working on: I84 MM271 0
 
 --> Working on: HILL 0
 
 --> Working on: YETI 0
 
---> Working on: GOODWIN 0
+--> Working on: MINK 0
+
+--> Working on: DITTO 0
+
+--> Working on: LOCK 0
+
+--> Working on: HOLCOMB 0
+!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+
+--> Working on: BRIANHEAD 0
+
+--> Working on: COLE CREEK 0
+
+--> Working on: STRAIGHT HOLLOW 0
+
+--> Working on: CAJETE 0
+
+--> Working on: SPARTAN 0
+
+--> Working on: BREEZE 0
 
 --> Working on: BOUNDARY 0
 
 --> Working on: BEET DUMP 0
 
---> Working on: GRIFFITH 0
-
---> Working on: COLE CREEK 0
+--> Working on: FRAGUITA 0
 Finished: 0
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:1 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:1 hour fcst:
 
-range: 0 583410
-./tempOper_2017062715.grib2
-matched a variable 59:44152851:d=2017062715:UGRD:10 m above ground:1 hour fcst:
+range: 0 519946
+./tempOper_2017062812.grib2
+matched a variable 59:43140095:d=2017062812:UGRD:10 m above ground:1 hour fcst:
 
-range: 44152851 45400535
-./tempOper_2017062715.grib2
-matched a variable 60:45400536:d=2017062715:VGRD:10 m above ground:1 hour fcst:
+range: 43140095 44363625
+./tempOper_2017062812.grib2
+matched a variable 60:44363626:d=2017062812:VGRD:10 m above ground:1 hour fcst:
 
-range: 45400536 46617031
-./tempOper_2017062715.grib2
-matched a variable 61:46617032:d=2017062715:WIND:10 m above ground:0-1 hour max fcst:
+range: 44363626 45587619
+./tempOper_2017062812.grib2
+matched a variable 61:45587620:d=2017062812:WIND:10 m above ground:0-1 hour max fcst:
 
-range: 46617032 47772142
-./tempOper_2017062715.grib2
-matched a variable 8:3347925:d=2017062715:GUST:surface:1 hour fcst:
+range: 45587620 46790610
+./tempOper_2017062812.grib2
+matched a variable 8:3007054:d=2017062812:GUST:surface:1 hour fcst:
 
-range: 3347925 4639388
+range: 3007054 4374804
 
---> Working on: CAJETE 1
+--> Working on: MANZANITA 1
+!! Alert--Wind speed greater than 15 m/s: MANZANITA
 
---> Working on: BONITA 1
+--> Working on: MAYNARD 1
 
---> Working on: LOCK 1
+--> Working on: STREAM 1
 
 --> Working on: FRYE 1
 
---> Working on: HOLCOMB 1
+--> Working on: SUTHERLAND CANYON 1
 
---> Working on: CORRAL 1
-
---> Working on: BRIANHEAD 1
+--> Working on: TUCKER 1
 
 --> Working on: HORSE CROSS 1
+
+--> Working on: GOODWIN 1
+
+--> Working on: BONITA 1
+
+--> Working on: I84 MM271 1
 
 --> Working on: HILL 1
 
 --> Working on: YETI 1
 
---> Working on: GOODWIN 1
+--> Working on: MINK 1
+
+--> Working on: DITTO 1
+
+--> Working on: LOCK 1
+
+--> Working on: HOLCOMB 1
+!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+
+--> Working on: BRIANHEAD 1
+
+--> Working on: COLE CREEK 1
+
+--> Working on: STRAIGHT HOLLOW 1
+
+--> Working on: CAJETE 1
+
+--> Working on: SPARTAN 1
+
+--> Working on: BREEZE 1
 
 --> Working on: BOUNDARY 1
 
 --> Working on: BEET DUMP 1
 
---> Working on: GRIFFITH 1
-
---> Working on: COLE CREEK 1
+--> Working on: FRAGUITA 1
 Finished: 1
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:2 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:2 hour fcst:
 
-range: 0 615541
-./tempOper_2017062715.grib2
-matched a variable 59:45107262:d=2017062715:UGRD:10 m above ground:2 hour fcst:
+range: 0 528953
+./tempOper_2017062812.grib2
+matched a variable 59:43004026:d=2017062812:UGRD:10 m above ground:2 hour fcst:
 
-range: 45107262 46416885
-./tempOper_2017062715.grib2
-matched a variable 60:46416886:d=2017062715:VGRD:10 m above ground:2 hour fcst:
+range: 43004026 44198980
+./tempOper_2017062812.grib2
+matched a variable 60:44198981:d=2017062812:VGRD:10 m above ground:2 hour fcst:
 
-range: 46416886 47687394
-./tempOper_2017062715.grib2
-matched a variable 61:47687395:d=2017062715:WIND:10 m above ground:1-2 hour max fcst:
+range: 44198981 45386180
+./tempOper_2017062812.grib2
+matched a variable 61:45386181:d=2017062812:WIND:10 m above ground:1-2 hour max fcst:
 
-range: 47687395 48892571
-./tempOper_2017062715.grib2
-matched a variable 8:3538290:d=2017062715:GUST:surface:2 hour fcst:
+range: 45386181 46561885
+./tempOper_2017062812.grib2
+matched a variable 8:2992127:d=2017062812:GUST:surface:2 hour fcst:
 
-range: 3538290 4873206
+range: 2992127 4299708
 
---> Working on: CAJETE 2
+--> Working on: MANZANITA 2
+!! Alert--Wind speed greater than 15 m/s: MANZANITA
 
---> Working on: BONITA 2
+--> Working on: MAYNARD 2
 
---> Working on: LOCK 2
+--> Working on: STREAM 2
 
 --> Working on: FRYE 2
 
---> Working on: HOLCOMB 2
+--> Working on: SUTHERLAND CANYON 2
 
---> Working on: CORRAL 2
-
---> Working on: BRIANHEAD 2
+--> Working on: TUCKER 2
 
 --> Working on: HORSE CROSS 2
+
+--> Working on: GOODWIN 2
+
+--> Working on: BONITA 2
+
+--> Working on: I84 MM271 2
 
 --> Working on: HILL 2
 
 --> Working on: YETI 2
 
---> Working on: GOODWIN 2
+--> Working on: MINK 2
+
+--> Working on: DITTO 2
+
+--> Working on: LOCK 2
+
+--> Working on: HOLCOMB 2
+!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+
+--> Working on: BRIANHEAD 2
+
+--> Working on: COLE CREEK 2
+
+--> Working on: STRAIGHT HOLLOW 2
+
+--> Working on: CAJETE 2
+
+--> Working on: SPARTAN 2
+
+--> Working on: BREEZE 2
 
 --> Working on: BOUNDARY 2
 
 --> Working on: BEET DUMP 2
 
---> Working on: GRIFFITH 2
-
---> Working on: COLE CREEK 2
+--> Working on: FRAGUITA 2
 Finished: 2
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:3 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:3 hour fcst:
 
-range: 0 622955
-./tempOper_2017062715.grib2
-matched a variable 59:45739733:d=2017062715:UGRD:10 m above ground:3 hour fcst:
+range: 0 534130
+./tempOper_2017062812.grib2
+matched a variable 59:43316233:d=2017062812:UGRD:10 m above ground:3 hour fcst:
 
-range: 45739733 47092701
-./tempOper_2017062715.grib2
-matched a variable 60:47092702:d=2017062715:VGRD:10 m above ground:3 hour fcst:
+range: 43316233 44517240
+./tempOper_2017062812.grib2
+matched a variable 60:44517241:d=2017062812:VGRD:10 m above ground:3 hour fcst:
 
-range: 47092702 48405634
-./tempOper_2017062715.grib2
-matched a variable 61:48405635:d=2017062715:WIND:10 m above ground:2-3 hour max fcst:
+range: 44517241 45698095
+./tempOper_2017062812.grib2
+matched a variable 61:45698096:d=2017062812:WIND:10 m above ground:2-3 hour max fcst:
 
-range: 48405635 49645780
-./tempOper_2017062715.grib2
-matched a variable 8:3672153:d=2017062715:GUST:surface:3 hour fcst:
+range: 45698096 46855618
+./tempOper_2017062812.grib2
+matched a variable 8:3039210:d=2017062812:GUST:surface:3 hour fcst:
 
-range: 3672153 5027568
+range: 3039210 4308836
 
---> Working on: CAJETE 3
+--> Working on: MANZANITA 3
 
---> Working on: BONITA 3
+--> Working on: MAYNARD 3
 
---> Working on: LOCK 3
+--> Working on: STREAM 3
 
 --> Working on: FRYE 3
 
---> Working on: HOLCOMB 3
+--> Working on: SUTHERLAND CANYON 3
 
---> Working on: CORRAL 3
-
---> Working on: BRIANHEAD 3
+--> Working on: TUCKER 3
 
 --> Working on: HORSE CROSS 3
+
+--> Working on: GOODWIN 3
+
+--> Working on: BONITA 3
+
+--> Working on: I84 MM271 3
 
 --> Working on: HILL 3
 
 --> Working on: YETI 3
 
---> Working on: GOODWIN 3
+--> Working on: MINK 3
+
+--> Working on: DITTO 3
+
+--> Working on: LOCK 3
+
+--> Working on: HOLCOMB 3
+
+--> Working on: BRIANHEAD 3
+
+--> Working on: COLE CREEK 3
+
+--> Working on: STRAIGHT HOLLOW 3
+
+--> Working on: CAJETE 3
+
+--> Working on: SPARTAN 3
+
+--> Working on: BREEZE 3
 
 --> Working on: BOUNDARY 3
 
 --> Working on: BEET DUMP 3
 
---> Working on: GRIFFITH 3
-
---> Working on: COLE CREEK 3
+--> Working on: FRAGUITA 3
 Finished: 3
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:4 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:4 hour fcst:
 
-range: 0 651207
-./tempOper_2017062715.grib2
-matched a variable 59:46672987:d=2017062715:UGRD:10 m above ground:4 hour fcst:
+range: 0 552685
+./tempOper_2017062812.grib2
+matched a variable 59:43721476:d=2017062812:UGRD:10 m above ground:4 hour fcst:
 
-range: 46672987 48049927
-./tempOper_2017062715.grib2
-matched a variable 60:48049928:d=2017062715:VGRD:10 m above ground:4 hour fcst:
+range: 43721476 44959205
+./tempOper_2017062812.grib2
+matched a variable 60:44959206:d=2017062812:VGRD:10 m above ground:4 hour fcst:
 
-range: 48049928 49388476
-./tempOper_2017062715.grib2
-matched a variable 61:49388477:d=2017062715:WIND:10 m above ground:3-4 hour max fcst:
+range: 44959206 46160411
+./tempOper_2017062812.grib2
+matched a variable 61:46160412:d=2017062812:WIND:10 m above ground:3-4 hour max fcst:
 
-range: 49388477 50652020
-./tempOper_2017062715.grib2
-matched a variable 8:3893678:d=2017062715:GUST:surface:4 hour fcst:
+range: 46160412 47321499
+./tempOper_2017062812.grib2
+matched a variable 8:3125478:d=2017062812:GUST:surface:4 hour fcst:
 
-range: 3893678 5280899
+range: 3125478 4400522
 
---> Working on: CAJETE 4
+--> Working on: MANZANITA 4
 
---> Working on: BONITA 4
+--> Working on: MAYNARD 4
 
---> Working on: LOCK 4
+--> Working on: STREAM 4
 
 --> Working on: FRYE 4
 
---> Working on: HOLCOMB 4
+--> Working on: SUTHERLAND CANYON 4
 
---> Working on: CORRAL 4
-
---> Working on: BRIANHEAD 4
+--> Working on: TUCKER 4
 
 --> Working on: HORSE CROSS 4
+
+--> Working on: GOODWIN 4
+
+--> Working on: BONITA 4
+
+--> Working on: I84 MM271 4
 
 --> Working on: HILL 4
 
 --> Working on: YETI 4
 
---> Working on: GOODWIN 4
+--> Working on: MINK 4
+
+--> Working on: DITTO 4
+
+--> Working on: LOCK 4
+
+--> Working on: HOLCOMB 4
+
+--> Working on: BRIANHEAD 4
+
+--> Working on: COLE CREEK 4
+
+--> Working on: STRAIGHT HOLLOW 4
+
+--> Working on: CAJETE 4
+
+--> Working on: SPARTAN 4
+
+--> Working on: BREEZE 4
 
 --> Working on: BOUNDARY 4
 
 --> Working on: BEET DUMP 4
 
---> Working on: GRIFFITH 4
-
---> Working on: COLE CREEK 4
+--> Working on: FRAGUITA 4
 Finished: 4
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:5 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:5 hour fcst:
 
-range: 0 678371
-./tempOper_2017062715.grib2
-matched a variable 59:47199118:d=2017062715:UGRD:10 m above ground:5 hour fcst:
+range: 0 581321
+./tempOper_2017062812.grib2
+matched a variable 59:44476218:d=2017062812:UGRD:10 m above ground:5 hour fcst:
 
-range: 47199118 48584361
-./tempOper_2017062715.grib2
-matched a variable 60:48584362:d=2017062715:VGRD:10 m above ground:5 hour fcst:
+range: 44476218 45757632
+./tempOper_2017062812.grib2
+matched a variable 60:45757633:d=2017062812:VGRD:10 m above ground:5 hour fcst:
 
-range: 48584362 49933345
-./tempOper_2017062715.grib2
-matched a variable 61:49933346:d=2017062715:WIND:10 m above ground:4-5 hour max fcst:
+range: 45757633 46992206
+./tempOper_2017062812.grib2
+matched a variable 61:46992207:d=2017062812:WIND:10 m above ground:4-5 hour max fcst:
 
-range: 49933346 51208201
-./tempOper_2017062715.grib2
-matched a variable 8:4077932:d=2017062715:GUST:surface:5 hour fcst:
+range: 46992207 48157133
+./tempOper_2017062812.grib2
+matched a variable 8:3243931:d=2017062812:GUST:surface:5 hour fcst:
 
-range: 4077932 5482958
+range: 3243931 4543989
 
---> Working on: CAJETE 5
+--> Working on: MANZANITA 5
 
---> Working on: BONITA 5
+--> Working on: MAYNARD 5
 
---> Working on: LOCK 5
+--> Working on: STREAM 5
 
 --> Working on: FRYE 5
 
---> Working on: HOLCOMB 5
+--> Working on: SUTHERLAND CANYON 5
 
---> Working on: CORRAL 5
-!! Alert--Wind speed greater than 15 m/s: CORRAL
-
---> Working on: BRIANHEAD 5
+--> Working on: TUCKER 5
 
 --> Working on: HORSE CROSS 5
+
+--> Working on: GOODWIN 5
+
+--> Working on: BONITA 5
+
+--> Working on: I84 MM271 5
 
 --> Working on: HILL 5
 
 --> Working on: YETI 5
 
---> Working on: GOODWIN 5
+--> Working on: MINK 5
+
+--> Working on: DITTO 5
+
+--> Working on: LOCK 5
+
+--> Working on: HOLCOMB 5
+
+--> Working on: BRIANHEAD 5
+
+--> Working on: COLE CREEK 5
+
+--> Working on: STRAIGHT HOLLOW 5
+
+--> Working on: CAJETE 5
+
+--> Working on: SPARTAN 5
+
+--> Working on: BREEZE 5
 
 --> Working on: BOUNDARY 5
 
 --> Working on: BEET DUMP 5
 
---> Working on: GRIFFITH 5
-
---> Working on: COLE CREEK 5
+--> Working on: FRAGUITA 5
 Finished: 5
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:6 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:6 hour fcst:
 
-range: 0 701039
-./tempOper_2017062715.grib2
-matched a variable 59:47569211:d=2017062715:UGRD:10 m above ground:6 hour fcst:
+range: 0 581351
+./tempOper_2017062812.grib2
+matched a variable 59:45061477:d=2017062812:UGRD:10 m above ground:6 hour fcst:
 
-range: 47569211 48949321
-./tempOper_2017062715.grib2
-matched a variable 60:48949322:d=2017062715:VGRD:10 m above ground:6 hour fcst:
+range: 45061477 46379905
+./tempOper_2017062812.grib2
+matched a variable 60:46379906:d=2017062812:VGRD:10 m above ground:6 hour fcst:
 
-range: 48949322 50294915
-./tempOper_2017062715.grib2
-matched a variable 61:50294916:d=2017062715:WIND:10 m above ground:5-6 hour max fcst:
+range: 46379906 47650850
+./tempOper_2017062812.grib2
+matched a variable 61:47650851:d=2017062812:WIND:10 m above ground:5-6 hour max fcst:
 
-range: 50294916 51572322
-./tempOper_2017062715.grib2
-matched a variable 8:4185122:d=2017062715:GUST:surface:6 hour fcst:
+range: 47650851 48852285
+./tempOper_2017062812.grib2
+matched a variable 8:3361590:d=2017062812:GUST:surface:6 hour fcst:
 
-range: 4185122 5598505
+range: 3361590 4690471
 
---> Working on: CAJETE 6
+--> Working on: MANZANITA 6
 
---> Working on: BONITA 6
+--> Working on: MAYNARD 6
 
---> Working on: LOCK 6
+--> Working on: STREAM 6
 
 --> Working on: FRYE 6
 
---> Working on: HOLCOMB 6
+--> Working on: SUTHERLAND CANYON 6
 
---> Working on: CORRAL 6
-!! Alert--Wind speed greater than 15 m/s: CORRAL
-
---> Working on: BRIANHEAD 6
+--> Working on: TUCKER 6
 
 --> Working on: HORSE CROSS 6
+
+--> Working on: GOODWIN 6
+
+--> Working on: BONITA 6
+
+--> Working on: I84 MM271 6
 
 --> Working on: HILL 6
 
 --> Working on: YETI 6
 
---> Working on: GOODWIN 6
+--> Working on: MINK 6
+
+--> Working on: DITTO 6
+
+--> Working on: LOCK 6
+
+--> Working on: HOLCOMB 6
+
+--> Working on: BRIANHEAD 6
+
+--> Working on: COLE CREEK 6
+
+--> Working on: STRAIGHT HOLLOW 6
+
+--> Working on: CAJETE 6
+
+--> Working on: SPARTAN 6
+
+--> Working on: BREEZE 6
 
 --> Working on: BOUNDARY 6
 
 --> Working on: BEET DUMP 6
 
---> Working on: GRIFFITH 6
-
---> Working on: COLE CREEK 6
+--> Working on: FRAGUITA 6
 Finished: 6
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:7 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:7 hour fcst:
 
-range: 0 706685
-./tempOper_2017062715.grib2
-matched a variable 59:47539385:d=2017062715:UGRD:10 m above ground:7 hour fcst:
+range: 0 591162
+./tempOper_2017062812.grib2
+matched a variable 59:45620396:d=2017062812:UGRD:10 m above ground:7 hour fcst:
 
-range: 47539385 48903611
-./tempOper_2017062715.grib2
-matched a variable 60:48903612:d=2017062715:VGRD:10 m above ground:7 hour fcst:
+range: 45620396 46961534
+./tempOper_2017062812.grib2
+matched a variable 60:46961535:d=2017062812:VGRD:10 m above ground:7 hour fcst:
 
-range: 48903612 50236171
-./tempOper_2017062715.grib2
-matched a variable 61:50236172:d=2017062715:WIND:10 m above ground:6-7 hour max fcst:
+range: 46961535 48258936
+./tempOper_2017062812.grib2
+matched a variable 61:48258937:d=2017062812:WIND:10 m above ground:6-7 hour max fcst:
 
-range: 50236172 51507765
-./tempOper_2017062715.grib2
-matched a variable 8:4302131:d=2017062715:GUST:surface:7 hour fcst:
+range: 48258937 49479073
+./tempOper_2017062812.grib2
+matched a variable 8:3468257:d=2017062812:GUST:surface:7 hour fcst:
 
-range: 4302131 5732032
+range: 3468257 4825718
 
---> Working on: CAJETE 7
+--> Working on: MANZANITA 7
 
---> Working on: BONITA 7
+--> Working on: MAYNARD 7
 
---> Working on: LOCK 7
+--> Working on: STREAM 7
 
 --> Working on: FRYE 7
 
---> Working on: HOLCOMB 7
+--> Working on: SUTHERLAND CANYON 7
 
---> Working on: CORRAL 7
-
---> Working on: BRIANHEAD 7
+--> Working on: TUCKER 7
 
 --> Working on: HORSE CROSS 7
+
+--> Working on: GOODWIN 7
+
+--> Working on: BONITA 7
+
+--> Working on: I84 MM271 7
 
 --> Working on: HILL 7
 
 --> Working on: YETI 7
 
---> Working on: GOODWIN 7
+--> Working on: MINK 7
+
+--> Working on: DITTO 7
+
+--> Working on: LOCK 7
+
+--> Working on: HOLCOMB 7
+
+--> Working on: BRIANHEAD 7
+
+--> Working on: COLE CREEK 7
+
+--> Working on: STRAIGHT HOLLOW 7
+
+--> Working on: CAJETE 7
+
+--> Working on: SPARTAN 7
+
+--> Working on: BREEZE 7
 
 --> Working on: BOUNDARY 7
 
 --> Working on: BEET DUMP 7
 
---> Working on: GRIFFITH 7
-
---> Working on: COLE CREEK 7
+--> Working on: FRAGUITA 7
 Finished: 7
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:8 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:8 hour fcst:
 
-range: 0 691376
-./tempOper_2017062715.grib2
-matched a variable 59:47134528:d=2017062715:UGRD:10 m above ground:8 hour fcst:
+range: 0 582330
+./tempOper_2017062812.grib2
+matched a variable 59:45926866:d=2017062812:UGRD:10 m above ground:8 hour fcst:
 
-range: 47134528 48468615
-./tempOper_2017062715.grib2
-matched a variable 60:48468616:d=2017062715:VGRD:10 m above ground:8 hour fcst:
+range: 45926866 47275296
+./tempOper_2017062812.grib2
+matched a variable 60:47275297:d=2017062812:VGRD:10 m above ground:8 hour fcst:
 
-range: 48468616 49776618
-./tempOper_2017062715.grib2
-matched a variable 61:49776619:d=2017062715:WIND:10 m above ground:7-8 hour max fcst:
+range: 47275297 48588165
+./tempOper_2017062812.grib2
+matched a variable 61:48588166:d=2017062812:WIND:10 m above ground:7-8 hour max fcst:
 
-range: 49776619 51038777
-./tempOper_2017062715.grib2
-matched a variable 8:4101865:d=2017062715:GUST:surface:8 hour fcst:
+range: 48588166 49805674
+./tempOper_2017062812.grib2
+matched a variable 8:3547988:d=2017062812:GUST:surface:8 hour fcst:
 
-range: 4101865 5536337
+range: 3547988 4926825
 
---> Working on: CAJETE 8
+--> Working on: MANZANITA 8
 
---> Working on: BONITA 8
+--> Working on: MAYNARD 8
 
---> Working on: LOCK 8
+--> Working on: STREAM 8
 
 --> Working on: FRYE 8
 
---> Working on: HOLCOMB 8
+--> Working on: SUTHERLAND CANYON 8
 
---> Working on: CORRAL 8
-
---> Working on: BRIANHEAD 8
+--> Working on: TUCKER 8
 
 --> Working on: HORSE CROSS 8
+
+--> Working on: GOODWIN 8
+
+--> Working on: BONITA 8
+
+--> Working on: I84 MM271 8
 
 --> Working on: HILL 8
 
 --> Working on: YETI 8
 
---> Working on: GOODWIN 8
+--> Working on: MINK 8
+
+--> Working on: DITTO 8
+
+--> Working on: LOCK 8
+
+--> Working on: HOLCOMB 8
+
+--> Working on: BRIANHEAD 8
+
+--> Working on: COLE CREEK 8
+
+--> Working on: STRAIGHT HOLLOW 8
+
+--> Working on: CAJETE 8
+
+--> Working on: SPARTAN 8
+
+--> Working on: BREEZE 8
 
 --> Working on: BOUNDARY 8
 
 --> Working on: BEET DUMP 8
 
---> Working on: GRIFFITH 8
-!! Alert--Wind speed greater than 15 m/s: GRIFFITH
-
---> Working on: COLE CREEK 8
+--> Working on: FRAGUITA 8
 Finished: 8
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:9 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:9 hour fcst:
 
-range: 0 660477
-./tempOper_2017062715.grib2
-matched a variable 59:46594011:d=2017062715:UGRD:10 m above ground:9 hour fcst:
+range: 0 593943
+./tempOper_2017062812.grib2
+matched a variable 59:46175915:d=2017062812:UGRD:10 m above ground:9 hour fcst:
 
-range: 46594011 47890043
-./tempOper_2017062715.grib2
-matched a variable 60:47890044:d=2017062715:VGRD:10 m above ground:9 hour fcst:
+range: 46175915 47520845
+./tempOper_2017062812.grib2
+matched a variable 60:47520846:d=2017062812:VGRD:10 m above ground:9 hour fcst:
 
-range: 47890044 49169495
-./tempOper_2017062715.grib2
-matched a variable 61:49169496:d=2017062715:WIND:10 m above ground:8-9 hour max fcst:
+range: 47520846 48834183
+./tempOper_2017062812.grib2
+matched a variable 61:48834184:d=2017062812:WIND:10 m above ground:8-9 hour max fcst:
 
-range: 49169496 50417220
-./tempOper_2017062715.grib2
-matched a variable 8:3939245:d=2017062715:GUST:surface:9 hour fcst:
+range: 48834184 50069434
+./tempOper_2017062812.grib2
+matched a variable 8:3623231:d=2017062812:GUST:surface:9 hour fcst:
 
-range: 3939245 5395265
+range: 3623231 5014987
 
---> Working on: CAJETE 9
+--> Working on: MANZANITA 9
 
---> Working on: BONITA 9
+--> Working on: MAYNARD 9
 
---> Working on: LOCK 9
+--> Working on: STREAM 9
 
 --> Working on: FRYE 9
 
---> Working on: HOLCOMB 9
+--> Working on: SUTHERLAND CANYON 9
 
---> Working on: CORRAL 9
-
---> Working on: BRIANHEAD 9
+--> Working on: TUCKER 9
 
 --> Working on: HORSE CROSS 9
+
+--> Working on: GOODWIN 9
+
+--> Working on: BONITA 9
+
+--> Working on: I84 MM271 9
 
 --> Working on: HILL 9
 
 --> Working on: YETI 9
 
---> Working on: GOODWIN 9
+--> Working on: MINK 9
+
+--> Working on: DITTO 9
+
+--> Working on: LOCK 9
+
+--> Working on: HOLCOMB 9
+
+--> Working on: BRIANHEAD 9
+
+--> Working on: COLE CREEK 9
+
+--> Working on: STRAIGHT HOLLOW 9
+
+--> Working on: CAJETE 9
+
+--> Working on: SPARTAN 9
+
+--> Working on: BREEZE 9
 
 --> Working on: BOUNDARY 9
 
 --> Working on: BEET DUMP 9
 
---> Working on: GRIFFITH 9
-
---> Working on: COLE CREEK 9
+--> Working on: FRAGUITA 9
 Finished: 9
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:10 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:10 hour fcst:
 
-range: 0 660358
-./tempOper_2017062715.grib2
-matched a variable 59:46058076:d=2017062715:UGRD:10 m above ground:10 hour fcst:
+range: 0 591423
+./tempOper_2017062812.grib2
+matched a variable 59:46164721:d=2017062812:UGRD:10 m above ground:10 hour fcst:
 
-range: 46058076 47316839
-./tempOper_2017062715.grib2
-matched a variable 60:47316840:d=2017062715:VGRD:10 m above ground:10 hour fcst:
+range: 46164721 47493217
+./tempOper_2017062812.grib2
+matched a variable 60:47493218:d=2017062812:VGRD:10 m above ground:10 hour fcst:
 
-range: 47316840 48579924
-./tempOper_2017062715.grib2
-matched a variable 61:48579925:d=2017062715:WIND:10 m above ground:9-10 hour max fcst:
+range: 47493218 48794074
+./tempOper_2017062812.grib2
+matched a variable 61:48794075:d=2017062812:WIND:10 m above ground:9-10 hour max fcst:
 
-range: 48579925 49817596
-./tempOper_2017062715.grib2
-matched a variable 8:3817878:d=2017062715:GUST:surface:10 hour fcst:
+range: 48794075 50026361
+./tempOper_2017062812.grib2
+matched a variable 8:3667978:d=2017062812:GUST:surface:10 hour fcst:
 
-range: 3817878 5245669
+range: 3667978 5063987
 
---> Working on: CAJETE 10
+--> Working on: MANZANITA 10
 
---> Working on: BONITA 10
+--> Working on: MAYNARD 10
 
---> Working on: LOCK 10
+--> Working on: STREAM 10
 
 --> Working on: FRYE 10
 
---> Working on: HOLCOMB 10
+--> Working on: SUTHERLAND CANYON 10
 
---> Working on: CORRAL 10
-
---> Working on: BRIANHEAD 10
+--> Working on: TUCKER 10
 
 --> Working on: HORSE CROSS 10
+
+--> Working on: GOODWIN 10
+
+--> Working on: BONITA 10
+
+--> Working on: I84 MM271 10
 
 --> Working on: HILL 10
 
 --> Working on: YETI 10
 
---> Working on: GOODWIN 10
+--> Working on: MINK 10
+
+--> Working on: DITTO 10
+
+--> Working on: LOCK 10
+
+--> Working on: HOLCOMB 10
+
+--> Working on: BRIANHEAD 10
+
+--> Working on: COLE CREEK 10
+
+--> Working on: STRAIGHT HOLLOW 10
+
+--> Working on: CAJETE 10
+
+--> Working on: SPARTAN 10
+
+--> Working on: BREEZE 10
 
 --> Working on: BOUNDARY 10
 
 --> Working on: BEET DUMP 10
 
---> Working on: GRIFFITH 10
-
---> Working on: COLE CREEK 10
+--> Working on: FRAGUITA 10
 Finished: 10
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:11 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:11 hour fcst:
 
-range: 0 669449
-./tempOper_2017062715.grib2
-matched a variable 59:45516546:d=2017062715:UGRD:10 m above ground:11 hour fcst:
+range: 0 603357
+./tempOper_2017062812.grib2
+matched a variable 59:46066460:d=2017062812:UGRD:10 m above ground:11 hour fcst:
 
-range: 45516546 46771264
-./tempOper_2017062715.grib2
-matched a variable 60:46771265:d=2017062715:VGRD:10 m above ground:11 hour fcst:
+range: 46066460 47365953
+./tempOper_2017062812.grib2
+matched a variable 60:47365954:d=2017062812:VGRD:10 m above ground:11 hour fcst:
 
-range: 46771265 48030837
-./tempOper_2017062715.grib2
-matched a variable 61:48030838:d=2017062715:WIND:10 m above ground:10-11 hour max fcst:
+range: 47365954 48642553
+./tempOper_2017062812.grib2
+matched a variable 61:48642554:d=2017062812:WIND:10 m above ground:10-11 hour max fcst:
 
-range: 48030838 49263883
-./tempOper_2017062715.grib2
-matched a variable 8:3682969:d=2017062715:GUST:surface:11 hour fcst:
+range: 48642554 49864701
+./tempOper_2017062812.grib2
+matched a variable 8:3608938:d=2017062812:GUST:surface:11 hour fcst:
 
-range: 3682969 5096514
+range: 3608938 5026772
 
---> Working on: CAJETE 11
+--> Working on: MANZANITA 11
 
---> Working on: BONITA 11
+--> Working on: MAYNARD 11
 
---> Working on: LOCK 11
+--> Working on: STREAM 11
 
 --> Working on: FRYE 11
 
---> Working on: HOLCOMB 11
+--> Working on: SUTHERLAND CANYON 11
 
---> Working on: CORRAL 11
-
---> Working on: BRIANHEAD 11
+--> Working on: TUCKER 11
 
 --> Working on: HORSE CROSS 11
+
+--> Working on: GOODWIN 11
+
+--> Working on: BONITA 11
+
+--> Working on: I84 MM271 11
 
 --> Working on: HILL 11
 
 --> Working on: YETI 11
 
---> Working on: GOODWIN 11
+--> Working on: MINK 11
+
+--> Working on: DITTO 11
+
+--> Working on: LOCK 11
+
+--> Working on: HOLCOMB 11
+
+--> Working on: BRIANHEAD 11
+
+--> Working on: COLE CREEK 11
+
+--> Working on: STRAIGHT HOLLOW 11
+
+--> Working on: CAJETE 11
+
+--> Working on: SPARTAN 11
+
+--> Working on: BREEZE 11
 
 --> Working on: BOUNDARY 11
 
 --> Working on: BEET DUMP 11
 
---> Working on: GRIFFITH 11
-
---> Working on: COLE CREEK 11
+--> Working on: FRAGUITA 11
 Finished: 11
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:12 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:12 hour fcst:
 
-range: 0 665690
-./tempOper_2017062715.grib2
-matched a variable 59:45226617:d=2017062715:UGRD:10 m above ground:12 hour fcst:
+range: 0 622414
+./tempOper_2017062812.grib2
+matched a variable 59:45546342:d=2017062812:UGRD:10 m above ground:12 hour fcst:
 
-range: 45226617 46505227
-./tempOper_2017062715.grib2
-matched a variable 60:46505228:d=2017062715:VGRD:10 m above ground:12 hour fcst:
+range: 45546342 46808519
+./tempOper_2017062812.grib2
+matched a variable 60:46808520:d=2017062812:VGRD:10 m above ground:12 hour fcst:
 
-range: 46505228 47796551
-./tempOper_2017062715.grib2
-matched a variable 61:47796552:d=2017062715:WIND:10 m above ground:11-12 hour max fcst:
+range: 46808520 48062326
+./tempOper_2017062812.grib2
+matched a variable 61:48062327:d=2017062812:WIND:10 m above ground:11-12 hour max fcst:
 
-range: 47796552 49024536
-./tempOper_2017062715.grib2
-matched a variable 8:3644353:d=2017062715:GUST:surface:12 hour fcst:
+range: 48062327 49273155
+./tempOper_2017062812.grib2
+matched a variable 8:3604444:d=2017062812:GUST:surface:12 hour fcst:
 
-range: 3644353 5044563
+range: 3604444 5011458
 
---> Working on: CAJETE 12
+--> Working on: MANZANITA 12
 
---> Working on: BONITA 12
+--> Working on: MAYNARD 12
 
---> Working on: LOCK 12
+--> Working on: STREAM 12
 
 --> Working on: FRYE 12
 
---> Working on: HOLCOMB 12
-!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+--> Working on: SUTHERLAND CANYON 12
 
---> Working on: CORRAL 12
-
---> Working on: BRIANHEAD 12
+--> Working on: TUCKER 12
 
 --> Working on: HORSE CROSS 12
+
+--> Working on: GOODWIN 12
+
+--> Working on: BONITA 12
+
+--> Working on: I84 MM271 12
 
 --> Working on: HILL 12
 
 --> Working on: YETI 12
 
---> Working on: GOODWIN 12
+--> Working on: MINK 12
+
+--> Working on: DITTO 12
+
+--> Working on: LOCK 12
+
+--> Working on: HOLCOMB 12
+
+--> Working on: BRIANHEAD 12
+
+--> Working on: COLE CREEK 12
+
+--> Working on: STRAIGHT HOLLOW 12
+
+--> Working on: CAJETE 12
+
+--> Working on: SPARTAN 12
+
+--> Working on: BREEZE 12
 
 --> Working on: BOUNDARY 12
 
 --> Working on: BEET DUMP 12
 
---> Working on: GRIFFITH 12
-
---> Working on: COLE CREEK 12
+--> Working on: FRAGUITA 12
 Finished: 12
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:13 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:13 hour fcst:
 
-range: 0 662867
-./tempOper_2017062715.grib2
-matched a variable 59:45169076:d=2017062715:UGRD:10 m above ground:13 hour fcst:
+range: 0 642363
+./tempOper_2017062812.grib2
+matched a variable 59:45166638:d=2017062812:UGRD:10 m above ground:13 hour fcst:
 
-range: 45169076 46483204
-./tempOper_2017062715.grib2
-matched a variable 60:46483205:d=2017062715:VGRD:10 m above ground:13 hour fcst:
+range: 45166638 46405378
+./tempOper_2017062812.grib2
+matched a variable 60:46405379:d=2017062812:VGRD:10 m above ground:13 hour fcst:
 
-range: 46483205 47809933
-./tempOper_2017062715.grib2
-matched a variable 61:47809934:d=2017062715:WIND:10 m above ground:12-13 hour max fcst:
+range: 46405379 47643803
+./tempOper_2017062812.grib2
+matched a variable 61:47643804:d=2017062812:WIND:10 m above ground:12-13 hour max fcst:
 
-range: 47809934 49063742
-./tempOper_2017062715.grib2
-matched a variable 8:3637805:d=2017062715:GUST:surface:13 hour fcst:
+range: 47643804 48849704
+./tempOper_2017062812.grib2
+matched a variable 8:3602349:d=2017062812:GUST:surface:13 hour fcst:
 
-range: 3637805 5053679
+range: 3602349 4992639
 
---> Working on: CAJETE 13
+--> Working on: MANZANITA 13
+!! Alert--Wind speed greater than 15 m/s: MANZANITA
 
---> Working on: BONITA 13
+--> Working on: MAYNARD 13
 
---> Working on: LOCK 13
+--> Working on: STREAM 13
 
 --> Working on: FRYE 13
 
---> Working on: HOLCOMB 13
-!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+--> Working on: SUTHERLAND CANYON 13
 
---> Working on: CORRAL 13
-
---> Working on: BRIANHEAD 13
+--> Working on: TUCKER 13
 
 --> Working on: HORSE CROSS 13
+
+--> Working on: GOODWIN 13
+
+--> Working on: BONITA 13
+
+--> Working on: I84 MM271 13
 
 --> Working on: HILL 13
 
 --> Working on: YETI 13
 
---> Working on: GOODWIN 13
+--> Working on: MINK 13
+
+--> Working on: DITTO 13
+
+--> Working on: LOCK 13
+
+--> Working on: HOLCOMB 13
+!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+
+--> Working on: BRIANHEAD 13
+
+--> Working on: COLE CREEK 13
+
+--> Working on: STRAIGHT HOLLOW 13
+
+--> Working on: CAJETE 13
+
+--> Working on: SPARTAN 13
+
+--> Working on: BREEZE 13
 
 --> Working on: BOUNDARY 13
 
 --> Working on: BEET DUMP 13
 
---> Working on: GRIFFITH 13
-
---> Working on: COLE CREEK 13
+--> Working on: FRAGUITA 13
 Finished: 13
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:14 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:14 hour fcst:
 
-range: 0 652002
-./tempOper_2017062715.grib2
-matched a variable 59:45135130:d=2017062715:UGRD:10 m above ground:14 hour fcst:
+range: 0 647257
+./tempOper_2017062812.grib2
+matched a variable 59:44736666:d=2017062812:UGRD:10 m above ground:14 hour fcst:
 
-range: 45135130 46468765
-./tempOper_2017062715.grib2
-matched a variable 60:46468766:d=2017062715:VGRD:10 m above ground:14 hour fcst:
+range: 44736666 45958419
+./tempOper_2017062812.grib2
+matched a variable 60:45958420:d=2017062812:VGRD:10 m above ground:14 hour fcst:
 
-range: 46468766 47817050
-./tempOper_2017062715.grib2
-matched a variable 61:47817051:d=2017062715:WIND:10 m above ground:13-14 hour max fcst:
+range: 45958420 47183357
+./tempOper_2017062812.grib2
+matched a variable 61:47183358:d=2017062812:WIND:10 m above ground:13-14 hour max fcst:
 
-range: 47817051 49114520
-./tempOper_2017062715.grib2
-matched a variable 8:3575846:d=2017062715:GUST:surface:14 hour fcst:
+range: 47183358 48374368
+./tempOper_2017062812.grib2
+matched a variable 8:3519744:d=2017062812:GUST:surface:14 hour fcst:
 
-range: 3575846 5002665
+range: 3519744 4888226
 
---> Working on: CAJETE 14
+--> Working on: MANZANITA 14
+!! Alert--Wind speed greater than 15 m/s: MANZANITA
 
---> Working on: BONITA 14
+--> Working on: MAYNARD 14
 
---> Working on: LOCK 14
+--> Working on: STREAM 14
 
 --> Working on: FRYE 14
 
---> Working on: HOLCOMB 14
-!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+--> Working on: SUTHERLAND CANYON 14
 
---> Working on: CORRAL 14
-
---> Working on: BRIANHEAD 14
+--> Working on: TUCKER 14
 
 --> Working on: HORSE CROSS 14
+
+--> Working on: GOODWIN 14
+
+--> Working on: BONITA 14
+
+--> Working on: I84 MM271 14
 
 --> Working on: HILL 14
 
 --> Working on: YETI 14
 
---> Working on: GOODWIN 14
+--> Working on: MINK 14
+
+--> Working on: DITTO 14
+
+--> Working on: LOCK 14
+
+--> Working on: HOLCOMB 14
+!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+
+--> Working on: BRIANHEAD 14
+
+--> Working on: COLE CREEK 14
+
+--> Working on: STRAIGHT HOLLOW 14
+
+--> Working on: CAJETE 14
+
+--> Working on: SPARTAN 14
+
+--> Working on: BREEZE 14
 
 --> Working on: BOUNDARY 14
 
 --> Working on: BEET DUMP 14
 
---> Working on: GRIFFITH 14
-
---> Working on: COLE CREEK 14
+--> Working on: FRAGUITA 14
 Finished: 14
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:15 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:15 hour fcst:
 
-range: 0 641372
-./tempOper_2017062715.grib2
-matched a variable 59:45023102:d=2017062715:UGRD:10 m above ground:15 hour fcst:
+range: 0 626645
+./tempOper_2017062812.grib2
+matched a variable 59:44328332:d=2017062812:UGRD:10 m above ground:15 hour fcst:
 
-range: 45023102 46366232
-./tempOper_2017062715.grib2
-matched a variable 60:46366233:d=2017062715:VGRD:10 m above ground:15 hour fcst:
+range: 44328332 45570645
+./tempOper_2017062812.grib2
+matched a variable 60:45570646:d=2017062812:VGRD:10 m above ground:15 hour fcst:
 
-range: 46366233 47725787
-./tempOper_2017062715.grib2
-matched a variable 61:47725788:d=2017062715:WIND:10 m above ground:14-15 hour max fcst:
+range: 45570646 46817651
+./tempOper_2017062812.grib2
+matched a variable 61:46817652:d=2017062812:WIND:10 m above ground:14-15 hour max fcst:
 
-range: 47725788 49036987
-./tempOper_2017062715.grib2
-matched a variable 8:3508835:d=2017062715:GUST:surface:15 hour fcst:
+range: 46817652 48012556
+./tempOper_2017062812.grib2
+matched a variable 8:3356876:d=2017062812:GUST:surface:15 hour fcst:
 
-range: 3508835 4942739
+range: 3356876 4717001
 
---> Working on: CAJETE 15
+--> Working on: MANZANITA 15
+!! Alert--Wind speed greater than 15 m/s: MANZANITA
 
---> Working on: BONITA 15
+--> Working on: MAYNARD 15
 
---> Working on: LOCK 15
+--> Working on: STREAM 15
 
 --> Working on: FRYE 15
 
---> Working on: HOLCOMB 15
-!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+--> Working on: SUTHERLAND CANYON 15
 
---> Working on: CORRAL 15
-
---> Working on: BRIANHEAD 15
+--> Working on: TUCKER 15
 
 --> Working on: HORSE CROSS 15
+
+--> Working on: GOODWIN 15
+
+--> Working on: BONITA 15
+
+--> Working on: I84 MM271 15
 
 --> Working on: HILL 15
 
 --> Working on: YETI 15
 
---> Working on: GOODWIN 15
+--> Working on: MINK 15
+
+--> Working on: DITTO 15
+
+--> Working on: LOCK 15
+
+--> Working on: HOLCOMB 15
+!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+
+--> Working on: BRIANHEAD 15
+
+--> Working on: COLE CREEK 15
+
+--> Working on: STRAIGHT HOLLOW 15
+
+--> Working on: CAJETE 15
+
+--> Working on: SPARTAN 15
+
+--> Working on: BREEZE 15
 
 --> Working on: BOUNDARY 15
 
 --> Working on: BEET DUMP 15
 
---> Working on: GRIFFITH 15
-
---> Working on: COLE CREEK 15
+--> Working on: FRAGUITA 15
 Finished: 15
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:16 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:16 hour fcst:
 
-range: 0 627275
-./tempOper_2017062715.grib2
-matched a variable 59:44941678:d=2017062715:UGRD:10 m above ground:16 hour fcst:
+range: 0 628096
+./tempOper_2017062812.grib2
+matched a variable 59:44357217:d=2017062812:UGRD:10 m above ground:16 hour fcst:
 
-range: 44941678 46289027
-./tempOper_2017062715.grib2
-matched a variable 60:46289028:d=2017062715:VGRD:10 m above ground:16 hour fcst:
+range: 44357217 45631492
+./tempOper_2017062812.grib2
+matched a variable 60:45631493:d=2017062812:VGRD:10 m above ground:16 hour fcst:
 
-range: 46289028 47654383
-./tempOper_2017062715.grib2
-matched a variable 61:47654384:d=2017062715:WIND:10 m above ground:15-16 hour max fcst:
+range: 45631493 46912342
+./tempOper_2017062812.grib2
+matched a variable 61:46912343:d=2017062812:WIND:10 m above ground:15-16 hour max fcst:
 
-range: 47654384 48971323
-./tempOper_2017062715.grib2
-matched a variable 8:3417361:d=2017062715:GUST:surface:16 hour fcst:
+range: 46912343 48149365
+./tempOper_2017062812.grib2
+matched a variable 8:3392563:d=2017062812:GUST:surface:16 hour fcst:
 
-range: 3417361 4851543
+range: 3392563 4750440
 
---> Working on: CAJETE 16
+--> Working on: MANZANITA 16
+!! Alert--Wind speed greater than 15 m/s: MANZANITA
 
---> Working on: BONITA 16
+--> Working on: MAYNARD 16
 
---> Working on: LOCK 16
+--> Working on: STREAM 16
 
 --> Working on: FRYE 16
 
---> Working on: HOLCOMB 16
-!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+--> Working on: SUTHERLAND CANYON 16
 
---> Working on: CORRAL 16
-
---> Working on: BRIANHEAD 16
+--> Working on: TUCKER 16
 
 --> Working on: HORSE CROSS 16
+
+--> Working on: GOODWIN 16
+
+--> Working on: BONITA 16
+
+--> Working on: I84 MM271 16
 
 --> Working on: HILL 16
 
 --> Working on: YETI 16
 
---> Working on: GOODWIN 16
+--> Working on: MINK 16
+
+--> Working on: DITTO 16
+
+--> Working on: LOCK 16
+
+--> Working on: HOLCOMB 16
+!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+
+--> Working on: BRIANHEAD 16
+
+--> Working on: COLE CREEK 16
+
+--> Working on: STRAIGHT HOLLOW 16
+
+--> Working on: CAJETE 16
+
+--> Working on: SPARTAN 16
+
+--> Working on: BREEZE 16
 
 --> Working on: BOUNDARY 16
 
 --> Working on: BEET DUMP 16
 
---> Working on: GRIFFITH 16
-
---> Working on: COLE CREEK 16
+--> Working on: FRAGUITA 16
 Finished: 16
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:17 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:17 hour fcst:
 
-range: 0 624074
-./tempOper_2017062715.grib2
-matched a variable 59:44875361:d=2017062715:UGRD:10 m above ground:17 hour fcst:
+range: 0 616389
+./tempOper_2017062812.grib2
+matched a variable 59:44286088:d=2017062812:UGRD:10 m above ground:17 hour fcst:
 
-range: 44875361 46228242
-./tempOper_2017062715.grib2
-matched a variable 60:46228243:d=2017062715:VGRD:10 m above ground:17 hour fcst:
+range: 44286088 45576762
+./tempOper_2017062812.grib2
+matched a variable 60:45576763:d=2017062812:VGRD:10 m above ground:17 hour fcst:
 
-range: 46228243 47597593
-./tempOper_2017062715.grib2
-matched a variable 61:47597594:d=2017062715:WIND:10 m above ground:16-17 hour max fcst:
+range: 45576763 46879891
+./tempOper_2017062812.grib2
+matched a variable 61:46879892:d=2017062812:WIND:10 m above ground:16-17 hour max fcst:
 
-range: 47597594 48917540
-./tempOper_2017062715.grib2
-matched a variable 8:3366921:d=2017062715:GUST:surface:17 hour fcst:
+range: 46879892 48143361
+./tempOper_2017062812.grib2
+matched a variable 8:3330666:d=2017062812:GUST:surface:17 hour fcst:
 
-range: 3366921 4784491
+range: 3330666 4721830
 
---> Working on: CAJETE 17
+--> Working on: MANZANITA 17
+!! Alert--Wind speed greater than 15 m/s: MANZANITA
 
---> Working on: BONITA 17
+--> Working on: MAYNARD 17
 
---> Working on: LOCK 17
+--> Working on: STREAM 17
 
 --> Working on: FRYE 17
 
---> Working on: HOLCOMB 17
-!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+--> Working on: SUTHERLAND CANYON 17
 
---> Working on: CORRAL 17
-
---> Working on: BRIANHEAD 17
+--> Working on: TUCKER 17
 
 --> Working on: HORSE CROSS 17
+
+--> Working on: GOODWIN 17
+
+--> Working on: BONITA 17
+
+--> Working on: I84 MM271 17
 
 --> Working on: HILL 17
 
 --> Working on: YETI 17
 
---> Working on: GOODWIN 17
+--> Working on: MINK 17
+
+--> Working on: DITTO 17
+
+--> Working on: LOCK 17
+
+--> Working on: HOLCOMB 17
+!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+
+--> Working on: BRIANHEAD 17
+
+--> Working on: COLE CREEK 17
+
+--> Working on: STRAIGHT HOLLOW 17
+
+--> Working on: CAJETE 17
+
+--> Working on: SPARTAN 17
+
+--> Working on: BREEZE 17
 
 --> Working on: BOUNDARY 17
 
 --> Working on: BEET DUMP 17
 
---> Working on: GRIFFITH 17
-
---> Working on: COLE CREEK 17
+--> Working on: FRAGUITA 17
 Finished: 17
-./tempOper_2017062715.grib2
-matched a variable 1:0:d=2017062715:REFC:entire atmosphere:18 hour fcst:
+./tempOper_2017062812.grib2
+matched a variable 1:0:d=2017062812:REFC:entire atmosphere:18 hour fcst:
 
-range: 0 618879
-./tempOper_2017062715.grib2
-matched a variable 59:44811441:d=2017062715:UGRD:10 m above ground:18 hour fcst:
+range: 0 608943
+./tempOper_2017062812.grib2
+matched a variable 59:44032710:d=2017062812:UGRD:10 m above ground:18 hour fcst:
 
-range: 44811441 46165444
-./tempOper_2017062715.grib2
-matched a variable 60:46165445:d=2017062715:VGRD:10 m above ground:18 hour fcst:
+range: 44032710 45331304
+./tempOper_2017062812.grib2
+matched a variable 60:45331305:d=2017062812:VGRD:10 m above ground:18 hour fcst:
 
-range: 46165445 47536676
-./tempOper_2017062715.grib2
-matched a variable 61:47536677:d=2017062715:WIND:10 m above ground:17-18 hour max fcst:
+range: 45331305 46645721
+./tempOper_2017062812.grib2
+matched a variable 61:46645722:d=2017062812:WIND:10 m above ground:17-18 hour max fcst:
 
-range: 47536677 48856001
-./tempOper_2017062715.grib2
-matched a variable 8:3343630:d=2017062715:GUST:surface:18 hour fcst:
+range: 46645722 47923292
+./tempOper_2017062812.grib2
+matched a variable 8:3188183:d=2017062812:GUST:surface:18 hour fcst:
 
-range: 3343630 4773458
+range: 3188183 4586959
 
---> Working on: CAJETE 18
+--> Working on: MANZANITA 18
+!! Alert--Wind speed greater than 15 m/s: MANZANITA
 
---> Working on: BONITA 18
+--> Working on: MAYNARD 18
 
---> Working on: LOCK 18
+--> Working on: STREAM 18
 
 --> Working on: FRYE 18
 
---> Working on: HOLCOMB 18
-!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+--> Working on: SUTHERLAND CANYON 18
 
---> Working on: CORRAL 18
-
---> Working on: BRIANHEAD 18
+--> Working on: TUCKER 18
 
 --> Working on: HORSE CROSS 18
+
+--> Working on: GOODWIN 18
+
+--> Working on: BONITA 18
+
+--> Working on: I84 MM271 18
 
 --> Working on: HILL 18
 
 --> Working on: YETI 18
 
---> Working on: GOODWIN 18
+--> Working on: MINK 18
+
+--> Working on: DITTO 18
+
+--> Working on: LOCK 18
+
+--> Working on: HOLCOMB 18
+!! Alert--Wind speed greater than 15 m/s: HOLCOMB
+
+--> Working on: BRIANHEAD 18
+
+--> Working on: COLE CREEK 18
+
+--> Working on: STRAIGHT HOLLOW 18
+
+--> Working on: CAJETE 18
+
+--> Working on: SPARTAN 18
+
+--> Working on: BREEZE 18
 
 --> Working on: BOUNDARY 18
 
 --> Working on: BEET DUMP 18
 
---> Working on: GRIFFITH 18
-
---> Working on: COLE CREEK 18
+--> Working on: FRAGUITA 18
 Finished: 18
