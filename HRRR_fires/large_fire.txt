@@ -1,40 +1,39 @@
 INAME	INUM	CAUSE	REP_DATE	START_DATE	IMT_TYPE	STATE	AREA	P_CNT	EXP_CTN	LAT	LONG	COUNTY
-BOUNDARY	AZ-COF-000565	Natural	07-Jun-17	01-Jun-17		Arizona	17788	98.0	15-Jul-17	35.432	-111.831	Coconino
-BONITA	NM-CAF-000152	Not Reported	13-Jun-17	Not Reported		Not Reported	7495	Not Reported	Not Reported	36.613	-106.199	Not Reported
-FRYE	AZ-CNF-000467	Undetermined	15-Jun-17	07-Jun-17	1	Arizona	38500	43.0	30-Jul-17	32.735	-109.872	Graham
-CAJETE	NM-SNF-000222	Human	16-Jun-17	15-Jun-17		New Mexico	1412	96.0	15-Jul-17	35.815	-106.570	Sandoval
-BRIANHEAD	UT-SWS-000218	Human	17-Jun-17	17-Jun-17	1	Utah	43626	10.0	15-Jul-17	37.716	-112.844	Iron
-HOLCOMB	CA-BDF-009443	Undetermined	20-Jun-17	19-Jun-17		California	1503	95.0	29-Jun-17	34.273	-116.847	San Bernardino
-CREEK	CA-FKU-008759	Not Reported	24-Jun-17	24-Jun-17		California	357	90.0	28-Jun-17	36.233	-120.566	Fresno
-GOODWIN	AZ-PNF-000904	Undetermined	24-Jun-17	24-Jun-17	1	Arizona	18000	1.0	04-Jul-17	34.358	-112.373	Yavapai
-OAK SPRINGS 0326 RN	OR-PRD-000326	Not Reported	24-Jun-17	Not Reported		Not Reported	375	Not Reported	Not Reported	45.189	-121.084	Not Reported
-PLACERITA IC	CA-LAC-187296	Undetermined	25-Jun-17	25-Jun-17		California	760	100.0	28-Jun-17	34.378	-118.494	Los Angeles
-BREEZE	ID-BOD-000315	Natural	26-Jun-17	26-Jun-17		Idaho	1833	100.0	27-Jun-17	43.291	-115.862	Elmore
-DITTO	ID-BOD-000329	Undetermined	26-Jun-17	27-Jun-17		Idaho	2561	100.0	27-Jun-17	43.329	-115.827	Elmore
-LOCK	ID-BOD-000314	Undetermined	26-Jun-17	26-Jun-17		Idaho	1500	100.0	26-Jun-17	43.208	-115.771	Elmore
-BEET DUMP	ID-BOD-000326	Undetermined	26-Jun-17	27-Jun-17		Idaho	4000	100.0	27-Jun-17	43.026	-115.805	Elmore
-YETI	ID-BOD-000312	Undetermined	26-Jun-17	26-Jun-17		Idaho	3800	80.0	27-Jun-17	43.126	-116.232	Ada
-DOLLY	NV-EKD-010112	Undetermined	26-Jun-17	27-Jun-17		Nevada	296	100.0	27-Jun-17	41.421	-115.591	Elko
-COLE CREEK	NV-EKD-010108	Undetermined	26-Jun-17	26-Jun-17		Nevada	4500	60.0	03-Jul-17	40.586	-116.119	Elko
-HORSE CROSS	OR-VAD-000053	Natural	26-Jun-17	26-Jun-17		Oregon	6665	100.0	27-Jun-17	42.837	-117.932	Malheur
-HILL	CA-SLU-007101	Not Reported	26-Jun-17	26-Jun-17		California	1598	65.0	30-Jun-17	35.397	-120.498	San Luis Obispo
-CABLE	FL-FLS-120462	Not Reported	26-Jun-17	26-Jun-17		Florida	626	100.0	26-Jun-17	28.084	-81.126	Osceola
-I84 MM271	ID-IFD-000144	Undetermined	27-Jun-17	27-Jun-17		Idaho	3000	65.0	28-Jun-17	42.052	-112.886	Oneida
-CRATER	ID-BOD-000337	Undetermined	27-Jun-17	27-Jun-17		Idaho	900	80.0	27-Jun-17	43.199	-115.890	Elmore
-STREAM	UT-SLD-000352	Natural	27-Jun-17	27-Jun-17		Utah	8146	80.0	29-Jun-17	41.809	-112.887	Box Elder
-RATTLE 2	ID-BOD-000327	Undetermined	26-Jun-17	27-Jun-17		Idaho	650	100.0	27-Jun-17	42.953	-115.706	Elmore
-CHALK FLAT	ID-BOD-000324	Undetermined	27-Jun-17	27-Jun-17		Idaho	320	100.0	27-Jun-17	42.971	-115.559	Elmore
-SIM	ID-BOD-000322	Undetermined	27-Jun-17	27-Jun-17		Idaho	400	100.0	27-Jun-17	43.148	-115.951	Elmore
-SUTHERLAND CANYON	WA-SPD-000121	Undetermined	26-Jun-17	26-Jun-17		Washington	3500	10.0	02-Jul-17	47.360	-119.988	Douglas
-STRAIGHT HOLLOW	WA-SPD-000126	Undetermined	26-Jun-17	27-Jun-17		Washington	5000	10.0	02-Jul-17	47.425	-119.984	Douglas
-SPARTAN	WA-SES-000120	Undetermined	27-Jun-17	26-Jun-17		Washington	1500	15.0	30-Jun-17	47.343	-120.166	Chelan
-SOUTH WENAS	WA-WFS-000720	Not Reported	27-Jun-17	27-Jun-17		Washington	600	0.0	30-Jun-17	46.692	-120.600	Yakima
-SCHAEFFER	CA-SQF-001317	Natural	26-Jun-17	24-Jun-17		California	586	0.0	15-Nov-17	36.099	-118.412	Tulare
-MANZANITA	CA-RRU-078840	Human	27-Jun-17	26-Jun-17		California	5800	26.0	01-Jul-17	33.882	-116.990	Riverside
-MART	CA-BDF-009802	Undetermined	27-Jun-17	27-Jun-17		California	350	15.0	03-Jul-17	34.143	-117.192	San Bernardino
-TUCKER	FL-FLS-120461	Not Reported	26-Jun-17	26-Jun-17		Florida	4500	75.0	28-Jun-17	28.330	-80.776	Brevard
-WF MORNING FIRE	TX-MCR-00K22Q	Natural	27-Jun-17	26-Jun-17		Texas	500	0.0	30-Jun-17	29.607	-94.277	Jefferson
-MAYNARD	AZ-A3S-005125	Natural	26-Jun-17	26-Jun-17		Arizona	1200	0.0	30-Jun-17	31.733	-111.287	Pima
-TIFFANY	NM-N3S-000266	Undetermined	27-Jun-17	27-Jun-17		New Mexico	836	25.0	30-Jun-17	33.685	-106.997	Socorro
-FRAGUITA	AZ-CNF-000593	Undetermined	27-Jun-17	26-Jun-17		Arizona	2400	50.0	07-Jul-17	31.507	-111.332	Santa Cruz
-MINK	AZ-CNF-000589	Undetermined	27-Jun-17	26-Jun-17		Arizona	1024	60.0	14-Jul-17	31.538	-111.349	Pima
+BURRO	AZ-CNF-000618	Undetermined	30-Jun-17	30-Jun-17	1	Arizona	21035	0.0	15-Jul-17	32.374	-110.633	Pima
+HILLTOP	AZ-SCA-000928	Natural	29-Jun-17	25-Jun-17	2	Arizona	17639	5.0	25-Jul-17	33.634	-110.375	Gila
+FRYE	AZ-CNF-000467	Undetermined	15-Jun-17	07-Jun-17	1	Arizona	46760	51.0	30-Jul-17	32.735	-109.872	Graham
+TIFFANY	NM-N3S-000266	Natural	27-Jun-17	27-Jun-17		New Mexico	6747	49.0	06-Jul-17	33.685	-106.997	Socorro
+SWISSHELMS	AZ-A3S-005188	Undetermined	27-Jun-17	28-Jun-17		Arizona	11400	60.0	15-Jul-17	31.681	-109.524	Cochise
+GOODWIN	AZ-PNF-000904	Undetermined	24-Jun-17	24-Jun-17	1	Arizona	28516	91.0	13-Jul-17	34.358	-112.373	Yavapai
+SH CREEK	AZ-ASF-000531	Natural	27-Jun-17	27-Jun-17		Arizona	570	0.0	25-Jul-17	33.468	-109.342	Greenlee
+SADDLE	AZ-CNF-000581	Undetermined	29-Jun-17	24-Jun-17		Arizona	5128	90.0	06-Jul-17	31.589	-109.428	Cochise
+GENTRY	AZ-ASF-000536	Not Reported	29-Jun-17	Not Reported		Not Reported	641	Not Reported	Not Reported	34.306	-110.723	Not Reported
+WHITMAN	NM-CAF-000257	Natural	04-Jul-17	28-Jun-17		New Mexico	334	100.0	04-Jul-17	36.792	-105.098	Colfax
+WINNEMUCCA RANCH	NV-TMFX-030329	Undetermined	04-Jul-17	05-Jul-17		Nevada	1500	0.0	08-Jul-17	39.760	-119.686	Washoe
+EARTHSTONE	NV-SPKX-030319	Undetermined	03-Jul-17	03-Jul-17	2	Nevada	25000	15.0	07-Jul-17	39.587	-119.683	Washoe
+LIMERICK	NV-WID-020121	Undetermined	03-Jul-17	04-Jul-17		Nevada	10950	25.0	08-Jul-17	40.335	-118.271	Pershing
+TRUCKEE	NV-TMFX-030314	Undetermined	03-Jul-17	03-Jul-17		Nevada	47000	20.0	09-Jul-17	39.762	-119.253	Washoe
+BRIANHEAD	UT-SWS-000218	Human	03-Jul-17	17-Jun-17	1	Utah	67430	75.0	15-Jul-17	37.718	-112.837	Iron
+TAR CREEK	NV-HTF-020123	Undetermined	04-Jul-17	04-Jul-17		Nevada	300	0.0	09-Jul-17	39.338	-117.043	Lander
+CEDAR HILLS	UT-BRS-000409	Natural	03-Jul-17	04-Jul-17		Utah	2000	0.0	07-Jul-17	41.860	-112.833	Box Elder
+ROSEBUD	UT-BRS-000407	Natural	04-Jul-17	03-Jul-17		Utah	1500	0.0	04-Jul-17	41.542	-113.623	Box Elder
+INDEPENDENCE	ID-TFD-000167	Undetermined	04-Jul-17	04-Jul-17		Idaho	770	100.0	05-Jul-17	43.083	-114.827	Gooding
+CRESTVIEW	ID-TFD-000158	Undetermined	03-Jul-17	03-Jul-17		Idaho	1700	100.0	03-Jul-17	42.714	-113.958	Jerome
+KEYSTONE	WY-MBF-017118	Undetermined	04-Jul-17	03-Jul-17		Wyoming	350	0.0	31-Jul-17	41.174	-106.261	Albany
+GUTZLER	CO-WRF-000215	Undetermined	03-Jul-17	02-Jul-17		Colorado	600	1.0	04-Aug-17	39.879	-106.483	Eagle
+MILL CREEK	CO-RTX-000161	Human	04-Jul-17	01-Jul-17		Colorado	410	5.0	06-Jul-17	40.670	-107.141	Routt
+PEEKABOO	CO-LSD-000152	Natural	03-Jul-17	27-Jun-17		Colorado	900	5.0	10-Jul-17	40.794	-108.834	Moffat
+EAST RIM	CO-SJD-000502	Natural	02-Jul-17	02-Jul-17		Colorado	150	3.0	01-Aug-17	37.871	-108.804	Dolores
+LIGHTNER CREEK	CO-LPX-000459	Undetermined	03-Jul-17	28-Jun-17		Colorado	412	95.0	06-Jul-17	37.288	-107.950	La Plata
+BRADY	SD-SDS-170362	Natural	04-Jul-17	29-Jun-17		South Dakota	172.48	95.0	05-Jul-17	43.265	-103.707	Fall River
+SCHAEFFER	CA-SQF-001317	Natural	03-Jul-17	24-Jun-17	2	California	4966	17.0	31-Jul-17	36.099	-118.412	Tulare
+DERRICK	CA-FKU-009289	Not Reported	04-Jul-17	03-Jul-17		California	1538	85.0	05-Jul-17	36.221	-120.461	Fresno
+SPRING	CA-MMU-013291	Not Reported	04-Jul-17	02-Jul-17		California	225	85.0	06-Jul-17	37.460	-119.933	Mariposa
+MART	CA-BDF-009802	Not Reported	27-Jun-17	Not Reported		Not Reported	670	Not Reported	Not Reported	34.143	-117.192	Not Reported
+JULY	MT-LED-000115	Undetermined	03-Jul-17	03-Jul-17	2	Montana	1000	0.0	11-Jul-17	47.908	-108.548	Phillips
+HOWARD	MT-MCD-000129	Human	04-Jul-17	04-Jul-17		Montana	371	0.0	05-Jul-17	46.171	-106.389	Rosebud
+SILVER  DOLLAR	WA-SPD-000166	Undetermined	03-Jul-17	02-Jul-17		Washington	23350	61.0	07-Jul-17	46.541	-119.885	Yakima
+SHEEP SPRINGS 0341 CS	OR-DEF-000341	Natural	03-Jul-17	26-Jun-17		Oregon	696	65.0	31-Jul-17	44.525	-121.682	Jefferson
+HWY 12 MILEPOST 188	WA-WFS-000161	Not Reported	02-Jul-17	Not Reported		Not Reported	386	Not Reported	Not Reported	46.731	-120.711	Not Reported
+ISLAND	CA-KNF-004540	Undetermined	03-Jul-17	26-Jun-17		California	130	0.0	01-Oct-17	41.435	-123.162	Siskiyou
+DAY OFF	LA-KIF-170021	Not Reported	03-Jul-17	30-Jun-17		Louisiana	150	100.0	07-Jul-17	31.404	-92.913	Natchitoches
