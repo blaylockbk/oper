@@ -18,7 +18,7 @@ from mpl_toolkits.basemap import Basemap
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')  #for running on CHPC boxes
-
+from BB_data.active_fires import get_fires
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
 
 def remove_old_fires(fires):
@@ -41,6 +41,7 @@ def write_HRRR_fires_HTML():
     fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
 
     fires = np.genfromtxt(fires_file, names=True, dtype=None, delimiter='\t')
+    fires = get_fires()
     # 1) Locations (dictionary)
     location = {}
     for F in range(0, len(fires)):
@@ -119,7 +120,7 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
         </button>
         <ul class="dropdown-menu">
         <li>Other Data/Figures:</li>
-        <li><a href="http://home.chpc.utah.edu/~u0553130/PhD/HRRR_fires/"""+location[F]['name'].replace(' ', '_')+"""/photo_viewer.php">"Hovm&oumlller"</a></li>
+        <li><a href="http://home.chpc.utah.edu/~u0553130/PhD/HRRR_fires/"""+location[F]['name'].replace(' ', '_')+"""">More Plots</a></li>
         <li><a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrr_fires_alert.cgi?fire="""+location[F]['name']+"""">Past Wind Events</a></li>
         </ul>
         </div>
@@ -200,7 +201,7 @@ def draw_fires_on_map():
     for F in location:
         x, y = m(location[F]['longitude'], location[F]['latitude'])
         m.scatter(x, y, s=location[F]['area']/300, c='orangered',edgecolors='none')
-        plt.text(x+.1, y+.1, location[F]['name'], fontsize=9)
+        plt.text(x+.1, y+.1, location[F]['name'], fontsize=7)
     plt.xlabel('Updated %s' % datetime.now().strftime('%Y-%B-%d %H:%M MT'), fontsize=7)
     plt.title('Active Fires Larger than 1000 Acres\n%s' % (date.today().strftime('%B %d, %Y')), fontsize=15)
 
