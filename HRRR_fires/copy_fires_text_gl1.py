@@ -18,17 +18,17 @@ from datetime import datetime
 date = datetime.strftime(datetime.now(), '%Y-%m-%d')
 url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % date
 urllib.urlretrieve(url, "/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt")
-print "copied Fires text file to ~/oper/HRRR_fires"
+print "copied Fires text file from FSAPPS to ~/oper/HRRR_fires"
 
-'''
+"""
 # 1. Copy large fire file from gl1 to directory
 fire_file = '/uufs/chpc.utah.edu/host/gl/oper/mesowest/fire/large_fire.txt'
 date = datetime.strftime(datetime.now(),'%Y-%m-%d')
 destination = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt'
 shutil.copyfile(fire_file,destination)
 
-print "copied Fires text file to ~/oper/HRRR_fires"
-'''
+print "copied Fires text file from gl1 to ~/oper/HRRR_fires"
+"""
 
 # 2. Copy shape file of fire perimeter from gl1 to directory
 shutil.copyfile('/uufs/chpc.utah.edu/host/gl/data/mapserver/perim/current/perim.shp',
@@ -38,4 +38,4 @@ shutil.copyfile('/uufs/chpc.utah.edu/host/gl/data/mapserver/perim/current/perim.
 shutil.copyfile('/uufs/chpc.utah.edu/host/gl/data/mapserver/perim/current/perim.dbf',
                 '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/perim.dbf')
 
-print "copied Fires perimeter shapefile to ~/oper/HRRR_fires"
+print "copied Fires perimeter shapefile from gl1 to ~/oper/HRRR_fires"

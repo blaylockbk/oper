@@ -41,7 +41,7 @@ def write_HRRR_fires_HTML():
     fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
 
     fires = np.genfromtxt(fires_file, names=True, dtype=None, delimiter='\t')
-    fires = get_fires()
+    #fires2 = get_fires()
     # 1) Locations (dictionary)
     location = {}
     for F in range(0, len(fires)):

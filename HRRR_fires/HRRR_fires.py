@@ -6,11 +6,6 @@ An extenstion to the HRRR Golf scripts, these create forecasts for large fires
 in the United States.
 
 To do list:
-[ ] Speed up by sending each forecast hour plot through a different thread.
-[ ] Speed up by using multithreading to create pollywogs.
-[ ] Move operations to wx1, but need to create my own radar colorbar (pint doesn't work there)
-[ ] Do I want to smooth out the Radar Reflectivity??? Nah!
-[ ] Text labels over scatter points that show values.
 [ ] What causes the Segmentation Fault (core dumped)??
 [ ] Include Subhourly files files
 """
