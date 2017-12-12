@@ -39,10 +39,16 @@ def write_HRRR_fires_HTML():
     """
     fires is a dictionary. Each key is a fire name.
     """
+<<<<<<< HEAD
     #fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
     url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % datetime.strftime(date.today(), "%Y-%m-%d")
     text = urllib2.urlopen(url)
     fires = np.genfromtxt(text, names=True, dtype=None, delimiter='\t')
+=======
+    fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
+
+    fires = np.genfromtxt(fires_file, names=True, dtype=None, delimiter='\t')
+>>>>>>> 82063767f6a12aea5ce995a5b9fbc04123b6a87b
     #fires2 = get_fires()
     # 1) Locations (dictionary)
     location = {}

@@ -1,5 +1,6 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
 <<<<<<< HEAD
+<<<<<<< HEAD
 There are 8 large fires.
 Downloaded the most recent active fire perimeters.
 Local DATE: 2017-12-12 11:40:56.078167
@@ -1302,3 +1303,5 @@ Finished: 18
 Finished: 18
 33.334 -120.1 36.232 -93.798
 >>>>>>> parent of d2e4dd6... updates
+=======
+>>>>>>> 82063767f6a12aea5ce995a5b9fbc04123b6a87b

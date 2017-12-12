@@ -12210,6 +12210,7 @@ Valid DateTime,Fire,State,Size acres,10m wind ms-1,Wind Gust ms-1,CompRef dBZ,fi
 2017-08-12_0100,DUTCH MOUNTAIN,Utah,1428,19.4279,12.4807,32.75,20170811/hrrr.t15z.wrfsfcf10.grib2,40.253,-113.897
 2017-08-12_0100,POWERLINE,Idaho,57151,16.0529,19.5432,42.625,20170811/hrrr.t15z.wrfsfcf10.grib2,42.706,-112.725
 2017-08-12_0100,DUNCAN,Idaho,2966,16.2404,19.7932,35.25,20170811/hrrr.t15z.wrfsfcf10.grib2,42.424,-116.067
+<<<<<<< HEAD
 2017-08-14_2000,PILOT VALLEY,Nevada,2609,15.191,16.6765,49.0625,20170814/hrrr.t16z.wrfsfcf04.grib2,41.098,-114.09
 2017-08-14_2100,PILOT VALLEY,Nevada,2609,16.3502,16.9335,53.0,20170814/hrrr.t16z.wrfsfcf05.grib2,41.098,-114.09
 2017-08-14_2100,BANJO,Not Reported,3376,18.2252,26.0585,51.9375,20170814/hrrr.t16z.wrfsfcf05.grib2,43.976,-107.918
@@ -20541,3 +20542,5 @@ Valid DateTime,Fire,State,Size acres,10m wind ms-1,Wind Gust ms-1,CompRef dBZ,fi
 2017-12-10_2200,LILAC 5,California,4100,15.3385,21.7747,-2.3125,20171210/hrrr.t20z.wrfsfcf02.grib2,33.349,-117.191
 =======
 >>>>>>> parent of d2e4dd6... updates
+=======
+>>>>>>> 82063767f6a12aea5ce995a5b9fbc04123b6a87b
