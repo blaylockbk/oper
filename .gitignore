@@ -1,4 +1,17 @@
-# Ignored files
+.DS_Store
+Thumbs.db
 
-.geoHRRR.nc
+*.geoHRRR.nc
+*.png
+*.pyc
+*.out
+*.nc
+*.nc4
 *.grib2
+*.h5
+*.npy
+*.shp
+*.shx
+*.prj
+*.dbf
+*.cpg

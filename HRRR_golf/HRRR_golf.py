@@ -155,7 +155,17 @@ location = {'Oaks': {'latitude':40.084,
                      'longitude':-111.8105,
                      'name':'North Logan',
                      'timezone': 7-daylight,
-                     'is MesoWest': True}
+                     'is MesoWest': True},
+            'KIDA':{'latitude':43.52083,
+                    'longitude':-112.06611,
+                    'name':'Idaho Falls',
+                    'timezone': 7-daylight,
+                    'is MesoWest': True},
+            'ALT':{'latitude':40.571,
+                   'longitude':-111.631,
+                   'name':'Alta Top',
+                   'timezone': 7-daylight,
+                   'is MesoWest': True}        
            }
 
 

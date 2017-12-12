@@ -16,7 +16,6 @@ import matplotlib as mpl
 mpl.use('Agg')#required for the CRON job. Says "do not open plot in a window"??
 import numpy as np
 from datetime import datetime, timedelta
-import matplotlib as mpl
 import matplotlib.pyplot as plt
 import os
 

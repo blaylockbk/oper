@@ -54,7 +54,10 @@ def temp_warning(location, P_temp, warn_stn):
     warn_stn is the station ID you want the warning for
     """
     # Check for extreme values and send email alert
-    warn_freez = 32
+    if datetime.now().month in [1, 2, 11, 12]:
+        warn_freez = 10
+    else:
+        warn_freez = 32
     warn_heat = 100
     if np.nanmin(P_temp[warn_stn]) <= warn_freez or np.nanmax(P_temp[warn_stn]) >= warn_heat:
         """

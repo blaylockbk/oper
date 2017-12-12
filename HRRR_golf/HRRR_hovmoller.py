@@ -68,7 +68,14 @@ spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
                                   'units': 'dBZ',
                                   'cmap':'gist_ncar',
                                   'save':'REF',
-                                  'contour':range(20, 100, 20)}}
+                                  'contour':range(20, 100, 20)},
+        #'Solar Radiation':{'HRRR var':'DSWRF:surface',
+        #                   'MW var':'solar_radiation',
+        #                   'units': r'W m$\mathregular{^{-2}}$',
+        #                   'cmap':'magma',
+        #                   'save':'SOL',
+        #                   'contour':range(300, 1000, 100)},
+       }
 
 # For Hovmoller statistics, define the half box.
 # The demisions of the box will be (halfbox*2)*3km**2. 
@@ -159,7 +166,17 @@ locations = {'Oaks': {'latitude':40.084,
                       'longitude':-111.8105,
                       'name':'North Logan',
                       'timezone': 7-daylight,
-                      'is MesoWest': True}
+                      'is MesoWest': True},
+             'KIDA':{'latitude':43.52083,
+                     'longitude':-112.06611,
+                     'name':'Idaho Falls',
+                     'timezone': 7-daylight,
+                     'is MesoWest': True},
+            'ALT':{'latitude':40.571,
+                   'longitude':-111.631,
+                   'name':'Alta Top',
+                   'timezone': 7-daylight,
+                   'is MesoWest': True} 
             }
 
 for s in spex:
