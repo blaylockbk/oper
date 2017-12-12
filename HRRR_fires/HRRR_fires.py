@@ -8,6 +8,7 @@ Runs every hour. Sometimes hangs if the HRRR forecasts aren't on NOMADS quick
 enough.
 
 To do list:
+[X] Updated December 12, 2017 with new active fires shape.
 [ ] What causes the Segmentation Fault (core dumped)??
 [ ] Include Subhourly files files
 [ ] If the forecast isn't in yet, there is not valid time, and the script fails
