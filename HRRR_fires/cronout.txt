@@ -1,15 +1,8 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
-<<<<<<< HEAD
-<<<<<<< HEAD
 There are 8 large fires.
 Downloaded the most recent active fire perimeters.
 Local DATE: 2017-12-12 11:40:56.078167
   UTC DATE: 2017-12-12 17:00:00
-=======
-there are 9 large fires
-Local DATE: 2017-12-07 11:40:42.418407
-  UTC DATE: 2017-12-07 17:00:00
->>>>>>> parent of d2e4dd6... updates
 got temps
 got dwpt
 got wind
@@ -22,7 +15,6 @@ making permenant figure elements...
 finding fire perimeter patches for THOMAS fire... Done!
 finding fire perimeter patches for LEGION LAKE fire... Done!
 finding fire perimeter patches for CREEK fire... Done!
-<<<<<<< HEAD
 finding fire perimeter patches for LILAC 5 fire... Done!
 finding fire perimeter patches for RYE fire... Done!
 finding fire perimeter patches for WINDSPLITTER fire... Done!
@@ -124,98 +116,10 @@ range: 46633507 47826290
 matched a variable 8:2620934:d=2017121217:GUST:surface:2 hour fcst:
 
 range: 2620934 3953132
-=======
-finding fire perimeter patches for GREY fire... Done!
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:anl:
-
-range: 0 638658
-./tempOper_2017120717.grib2
-matched a variable 59:42776361:d=2017120717:UGRD:10 m above ground:anl:
-
-range: 42776361 43951139
-./tempOper_2017120717.grib2
-matched a variable 60:43951140:d=2017120717:VGRD:10 m above ground:anl:
-
-range: 43951140 45094704
-./tempOper_2017120717.grib2
-matched a variable 61:45094705:d=2017120717:WIND:10 m above ground:0-0 day max fcst:
-
-range: 45094705 46296139
-./tempOper_2017120717.grib2
-matched a variable 8:3693687:d=2017120717:GUST:surface:anl:
-
-range: 3693687 4966148
-
---> Working on: THOMAS 0
-!! Alert--Wind speed greater than 15 m/s: THOMAS
-
---> Working on: RYE 0
-!! Alert--Wind speed greater than 15 m/s: RYE
-
---> Working on: CREEK 0
-!! Alert--Wind speed greater than 15 m/s: CREEK
-
---> Working on: GREY 0
-Finished: 0
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:1 hour fcst:
-
-range: 0 587461
-./tempOper_2017120717.grib2
-matched a variable 59:44948612:d=2017120717:UGRD:10 m above ground:1 hour fcst:
-
-range: 44948612 46155824
-./tempOper_2017120717.grib2
-matched a variable 60:46155825:d=2017120717:VGRD:10 m above ground:1 hour fcst:
-
-range: 46155825 47326929
-./tempOper_2017120717.grib2
-matched a variable 61:47326930:d=2017120717:WIND:10 m above ground:0-1 hour max fcst:
-
-range: 47326930 48485999
-./tempOper_2017120717.grib2
-matched a variable 8:3449454:d=2017120717:GUST:surface:1 hour fcst:
-
-range: 3449454 4766500
-
---> Working on: THOMAS 1
-!! Alert--Wind speed greater than 15 m/s: THOMAS
-
---> Working on: RYE 1
-!! Alert--Wind speed greater than 15 m/s: RYE
-
---> Working on: CREEK 1
-!! Alert--Wind speed greater than 15 m/s: CREEK
-
---> Working on: GREY 1
-Finished: 1
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:2 hour fcst:
-
-range: 0 598049
-./tempOper_2017120717.grib2
-matched a variable 59:45498949:d=2017120717:UGRD:10 m above ground:2 hour fcst:
-
-range: 45498949 46721869
-./tempOper_2017120717.grib2
-matched a variable 60:46721870:d=2017120717:VGRD:10 m above ground:2 hour fcst:
-
-range: 46721870 47906321
-./tempOper_2017120717.grib2
-matched a variable 61:47906322:d=2017120717:WIND:10 m above ground:1-2 hour max fcst:
-
-range: 47906322 49080045
-./tempOper_2017120717.grib2
-matched a variable 8:3678043:d=2017120717:GUST:surface:2 hour fcst:
-
-range: 3678043 5013437
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 2
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f02.png
 
-<<<<<<< HEAD
 --> Working on: LEGION LAKE 2
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f02.png
 
@@ -251,41 +155,10 @@ range: 46797704 47995925
 matched a variable 8:2754970:d=2017121217:GUST:surface:3 hour fcst:
 
 range: 2754970 4103871
-=======
---> Working on: RYE 2
-!! Alert--Wind speed greater than 15 m/s: RYE
-
---> Working on: CREEK 2
-!! Alert--Wind speed greater than 15 m/s: CREEK
-
---> Working on: GREY 2
-Finished: 2
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:3 hour fcst:
-
-range: 0 629046
-./tempOper_2017120717.grib2
-matched a variable 59:45518127:d=2017120717:UGRD:10 m above ground:3 hour fcst:
-
-range: 45518127 46756647
-./tempOper_2017120717.grib2
-matched a variable 60:46756648:d=2017120717:VGRD:10 m above ground:3 hour fcst:
-
-range: 46756648 47953443
-./tempOper_2017120717.grib2
-matched a variable 61:47953444:d=2017120717:WIND:10 m above ground:2-3 hour max fcst:
-
-range: 47953444 49136507
-./tempOper_2017120717.grib2
-matched a variable 8:3673615:d=2017120717:GUST:surface:3 hour fcst:
-
-range: 3673615 5029930
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 3
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f03.png
 
-<<<<<<< HEAD
 --> Working on: LEGION LAKE 3
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f03.png
 
@@ -321,41 +194,10 @@ range: 46896578 48103132
 matched a variable 8:2881854:d=2017121217:GUST:surface:4 hour fcst:
 
 range: 2881854 4255661
-=======
---> Working on: RYE 3
-!! Alert--Wind speed greater than 15 m/s: RYE
-
---> Working on: CREEK 3
-!! Alert--Wind speed greater than 15 m/s: CREEK
-
---> Working on: GREY 3
-Finished: 3
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:4 hour fcst:
-
-range: 0 650987
-./tempOper_2017120717.grib2
-matched a variable 59:45711624:d=2017120717:UGRD:10 m above ground:4 hour fcst:
-
-range: 45711624 46966817
-./tempOper_2017120717.grib2
-matched a variable 60:46966818:d=2017120717:VGRD:10 m above ground:4 hour fcst:
-
-range: 46966818 48177061
-./tempOper_2017120717.grib2
-matched a variable 61:48177062:d=2017120717:WIND:10 m above ground:3-4 hour max fcst:
-
-range: 48177062 49371421
-./tempOper_2017120717.grib2
-matched a variable 8:3715272:d=2017120717:GUST:surface:4 hour fcst:
-
-range: 3715272 5103769
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 4
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f04.png
 
-<<<<<<< HEAD
 --> Working on: LEGION LAKE 4
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f04.png
 
@@ -391,41 +233,10 @@ range: 47330497 48545951
 matched a variable 8:2999991:d=2017121217:GUST:surface:5 hour fcst:
 
 range: 2999991 4388995
-=======
---> Working on: RYE 4
-!! Alert--Wind speed greater than 15 m/s: RYE
-
---> Working on: CREEK 4
-!! Alert--Wind speed greater than 15 m/s: CREEK
-
---> Working on: GREY 4
-Finished: 4
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:5 hour fcst:
-
-range: 0 665193
-./tempOper_2017120717.grib2
-matched a variable 59:45777721:d=2017120717:UGRD:10 m above ground:5 hour fcst:
-
-range: 45777721 47049666
-./tempOper_2017120717.grib2
-matched a variable 60:47049667:d=2017120717:VGRD:10 m above ground:5 hour fcst:
-
-range: 47049667 48276652
-./tempOper_2017120717.grib2
-matched a variable 61:48276653:d=2017120717:WIND:10 m above ground:4-5 hour max fcst:
-
-range: 48276653 49484545
-./tempOper_2017120717.grib2
-matched a variable 8:3855040:d=2017120717:GUST:surface:5 hour fcst:
-
-range: 3855040 5258890
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 5
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f05.png
 
-<<<<<<< HEAD
 --> Working on: LEGION LAKE 5
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f05.png
 
@@ -461,36 +272,6 @@ range: 47643517 48874812
 matched a variable 8:3000102:d=2017121217:GUST:surface:6 hour fcst:
 
 range: 3000102 4395993
-=======
---> Working on: RYE 5
-!! Alert--Wind speed greater than 15 m/s: RYE
-
---> Working on: CREEK 5
-!! Alert--Wind speed greater than 15 m/s: CREEK
-
---> Working on: GREY 5
-Finished: 5
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:6 hour fcst:
-
-range: 0 667331
-./tempOper_2017120717.grib2
-matched a variable 59:46039646:d=2017120717:UGRD:10 m above ground:6 hour fcst:
-
-range: 46039646 47324389
-./tempOper_2017120717.grib2
-matched a variable 60:47324390:d=2017120717:VGRD:10 m above ground:6 hour fcst:
-
-range: 47324390 48574011
-./tempOper_2017120717.grib2
-matched a variable 61:48574012:d=2017120717:WIND:10 m above ground:5-6 hour max fcst:
-
-range: 48574012 49801112
-./tempOper_2017120717.grib2
-matched a variable 8:3895432:d=2017120717:GUST:surface:6 hour fcst:
-
-range: 3895432 5321433
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 6
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f06.png
@@ -501,7 +282,6 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGI
 --> Working on: CREEK 6
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CREEK/f06.png
 
-<<<<<<< HEAD
 --> Working on: LILAC 5 6
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILAC_5/f06.png
 
@@ -531,35 +311,10 @@ range: 48089640 49348571
 matched a variable 8:3040613:d=2017121217:GUST:surface:7 hour fcst:
 
 range: 3040613 4465127
-=======
---> Working on: GREY 6
-Finished: 6
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:7 hour fcst:
-
-range: 0 658221
-./tempOper_2017120717.grib2
-matched a variable 59:46167714:d=2017120717:UGRD:10 m above ground:7 hour fcst:
-
-range: 46167714 47464827
-./tempOper_2017120717.grib2
-matched a variable 60:47464828:d=2017120717:VGRD:10 m above ground:7 hour fcst:
-
-range: 47464828 48743993
-./tempOper_2017120717.grib2
-matched a variable 61:48743994:d=2017120717:WIND:10 m above ground:6-7 hour max fcst:
-
-range: 48743994 49997855
-./tempOper_2017120717.grib2
-matched a variable 8:3759931:d=2017120717:GUST:surface:7 hour fcst:
-
-range: 3759931 5208745
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 7
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f07.png
 
-<<<<<<< HEAD
 --> Working on: LEGION LAKE 7
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f07.png
 
@@ -595,41 +350,10 @@ range: 48382255 49673948
 matched a variable 8:3060356:d=2017121217:GUST:surface:8 hour fcst:
 
 range: 3060356 4499436
-=======
---> Working on: RYE 7
-!! Alert--Wind speed greater than 15 m/s: RYE
-
---> Working on: CREEK 7
-!! Alert--Wind speed greater than 15 m/s: CREEK
-
---> Working on: GREY 7
-Finished: 7
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:8 hour fcst:
-
-range: 0 659322
-./tempOper_2017120717.grib2
-matched a variable 59:46438294:d=2017120717:UGRD:10 m above ground:8 hour fcst:
-
-range: 46438294 47757977
-./tempOper_2017120717.grib2
-matched a variable 60:47757978:d=2017120717:VGRD:10 m above ground:8 hour fcst:
-
-range: 47757978 49059546
-./tempOper_2017120717.grib2
-matched a variable 61:49059547:d=2017120717:WIND:10 m above ground:7-8 hour max fcst:
-
-range: 49059547 50337350
-./tempOper_2017120717.grib2
-matched a variable 8:3829790:d=2017120717:GUST:surface:8 hour fcst:
-
-range: 3829790 5279666
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 8
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f08.png
 
-<<<<<<< HEAD
 --> Working on: LEGION LAKE 8
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f08.png
 
@@ -665,41 +389,10 @@ range: 48603040 49935104
 matched a variable 8:3082322:d=2017121217:GUST:surface:9 hour fcst:
 
 range: 3082322 4533778
-=======
---> Working on: RYE 8
-!! Alert--Wind speed greater than 15 m/s: RYE
-
---> Working on: CREEK 8
-!! Alert--Wind speed greater than 15 m/s: CREEK
-
---> Working on: GREY 8
-Finished: 8
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:9 hour fcst:
-
-range: 0 668196
-./tempOper_2017120717.grib2
-matched a variable 59:46664487:d=2017120717:UGRD:10 m above ground:9 hour fcst:
-
-range: 46664487 47996557
-./tempOper_2017120717.grib2
-matched a variable 60:47996558:d=2017120717:VGRD:10 m above ground:9 hour fcst:
-
-range: 47996558 49311663
-./tempOper_2017120717.grib2
-matched a variable 61:49311664:d=2017120717:WIND:10 m above ground:8-9 hour max fcst:
-
-range: 49311664 50606534
-./tempOper_2017120717.grib2
-matched a variable 8:3844391:d=2017120717:GUST:surface:9 hour fcst:
-
-range: 3844391 5299834
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 9
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f09.png
 
-<<<<<<< HEAD
 --> Working on: LEGION LAKE 9
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f09.png
 
@@ -735,36 +428,6 @@ range: 48821111 50151435
 matched a variable 8:3146173:d=2017121217:GUST:surface:10 hour fcst:
 
 range: 3146173 4606474
-=======
---> Working on: RYE 9
-!! Alert--Wind speed greater than 15 m/s: RYE
-
---> Working on: CREEK 9
-!! Alert--Wind speed greater than 15 m/s: CREEK
-
---> Working on: GREY 9
-Finished: 9
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:10 hour fcst:
-
-range: 0 674283
-./tempOper_2017120717.grib2
-matched a variable 59:46615980:d=2017120717:UGRD:10 m above ground:10 hour fcst:
-
-range: 46615980 47954192
-./tempOper_2017120717.grib2
-matched a variable 60:47954193:d=2017120717:VGRD:10 m above ground:10 hour fcst:
-
-range: 47954193 49277365
-./tempOper_2017120717.grib2
-matched a variable 61:49277366:d=2017120717:WIND:10 m above ground:9-10 hour max fcst:
-
-range: 49277366 50581382
-./tempOper_2017120717.grib2
-matched a variable 8:3724622:d=2017120717:GUST:surface:10 hour fcst:
-
-range: 3724622 5183359
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 10
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f10.png
@@ -775,7 +438,6 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGI
 --> Working on: CREEK 10
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CREEK/f10.png
 
-<<<<<<< HEAD
 --> Working on: LILAC 5 10
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILAC_5/f10.png
 
@@ -805,30 +467,6 @@ range: 48948917 50299670
 matched a variable 8:3159609:d=2017121217:GUST:surface:11 hour fcst:
 
 range: 3159609 4625888
-=======
---> Working on: GREY 10
-Finished: 10
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:11 hour fcst:
-
-range: 0 671608
-./tempOper_2017120717.grib2
-matched a variable 59:46747832:d=2017120717:UGRD:10 m above ground:11 hour fcst:
-
-range: 46747832 48088676
-./tempOper_2017120717.grib2
-matched a variable 60:48088677:d=2017120717:VGRD:10 m above ground:11 hour fcst:
-
-range: 48088677 49418217
-./tempOper_2017120717.grib2
-matched a variable 61:49418218:d=2017120717:WIND:10 m above ground:10-11 hour max fcst:
-
-range: 49418218 50728966
-./tempOper_2017120717.grib2
-matched a variable 8:3758704:d=2017120717:GUST:surface:11 hour fcst:
-
-range: 3758704 5223321
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 11
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f11.png
@@ -839,7 +477,6 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGI
 --> Working on: CREEK 11
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CREEK/f11.png
 
-<<<<<<< HEAD
 --> Working on: LILAC 5 11
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILAC_5/f11.png
 
@@ -869,30 +506,6 @@ range: 49173269 50508981
 matched a variable 8:3203661:d=2017121217:GUST:surface:12 hour fcst:
 
 range: 3203661 4671152
-=======
---> Working on: GREY 11
-Finished: 11
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:12 hour fcst:
-
-range: 0 676051
-./tempOper_2017120717.grib2
-matched a variable 59:46775789:d=2017120717:UGRD:10 m above ground:12 hour fcst:
-
-range: 46775789 48120382
-./tempOper_2017120717.grib2
-matched a variable 60:48120383:d=2017120717:VGRD:10 m above ground:12 hour fcst:
-
-range: 48120383 49456247
-./tempOper_2017120717.grib2
-matched a variable 61:49456248:d=2017120717:WIND:10 m above ground:11-12 hour max fcst:
-
-range: 49456248 50771339
-./tempOper_2017120717.grib2
-matched a variable 8:3770689:d=2017120717:GUST:surface:12 hour fcst:
-
-range: 3770689 5241479
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 12
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f12.png
@@ -903,7 +516,6 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGI
 --> Working on: CREEK 12
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CREEK/f12.png
 
-<<<<<<< HEAD
 --> Working on: LILAC 5 12
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILAC_5/f12.png
 
@@ -933,30 +545,6 @@ range: 49172588 50505426
 matched a variable 8:3247108:d=2017121217:GUST:surface:13 hour fcst:
 
 range: 3247108 4711006
-=======
---> Working on: GREY 12
-Finished: 12
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:13 hour fcst:
-
-range: 0 682099
-./tempOper_2017120717.grib2
-matched a variable 59:46992294:d=2017120717:UGRD:10 m above ground:13 hour fcst:
-
-range: 46992294 48340481
-./tempOper_2017120717.grib2
-matched a variable 60:48340482:d=2017120717:VGRD:10 m above ground:13 hour fcst:
-
-range: 48340482 49682089
-./tempOper_2017120717.grib2
-matched a variable 61:49682090:d=2017120717:WIND:10 m above ground:12-13 hour max fcst:
-
-range: 49682090 51001715
-./tempOper_2017120717.grib2
-matched a variable 8:3883215:d=2017120717:GUST:surface:13 hour fcst:
-
-range: 3883215 5359064
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 13
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f13.png
@@ -967,7 +555,6 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGI
 --> Working on: CREEK 13
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CREEK/f13.png
 
-<<<<<<< HEAD
 --> Working on: LILAC 5 13
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILAC_5/f13.png
 
@@ -997,30 +584,6 @@ range: 49072692 50401951
 matched a variable 8:3239073:d=2017121217:GUST:surface:14 hour fcst:
 
 range: 3239073 4700744
-=======
---> Working on: GREY 13
-Finished: 13
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:14 hour fcst:
-
-range: 0 685969
-./tempOper_2017120717.grib2
-matched a variable 59:46988303:d=2017120717:UGRD:10 m above ground:14 hour fcst:
-
-range: 46988303 48342055
-./tempOper_2017120717.grib2
-matched a variable 60:48342056:d=2017120717:VGRD:10 m above ground:14 hour fcst:
-
-range: 48342056 49690487
-./tempOper_2017120717.grib2
-matched a variable 61:49690488:d=2017120717:WIND:10 m above ground:13-14 hour max fcst:
-
-range: 49690488 51014387
-./tempOper_2017120717.grib2
-matched a variable 8:3806219:d=2017120717:GUST:surface:14 hour fcst:
-
-range: 3806219 5287514
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 14
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f14.png
@@ -1031,7 +594,6 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGI
 --> Working on: CREEK 14
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CREEK/f14.png
 
-<<<<<<< HEAD
 --> Working on: LILAC 5 14
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILAC_5/f14.png
 
@@ -1061,30 +623,6 @@ range: 49164905 50506341
 matched a variable 8:3316290:d=2017121217:GUST:surface:15 hour fcst:
 
 range: 3316290 4777223
-=======
---> Working on: GREY 14
-Finished: 14
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:15 hour fcst:
-
-range: 0 686986
-./tempOper_2017120717.grib2
-matched a variable 59:47343457:d=2017120717:UGRD:10 m above ground:15 hour fcst:
-
-range: 47343457 48700522
-./tempOper_2017120717.grib2
-matched a variable 60:48700523:d=2017120717:VGRD:10 m above ground:15 hour fcst:
-
-range: 48700523 50052530
-./tempOper_2017120717.grib2
-matched a variable 61:50052531:d=2017120717:WIND:10 m above ground:14-15 hour max fcst:
-
-range: 50052531 51380073
-./tempOper_2017120717.grib2
-matched a variable 8:3990544:d=2017120717:GUST:surface:15 hour fcst:
-
-range: 3990544 5473225
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 15
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f15.png
@@ -1095,7 +633,6 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGI
 --> Working on: CREEK 15
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CREEK/f15.png
 
-<<<<<<< HEAD
 --> Working on: LILAC 5 15
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILAC_5/f15.png
 
@@ -1125,30 +662,6 @@ range: 49209308 50548709
 matched a variable 8:3323683:d=2017121217:GUST:surface:16 hour fcst:
 
 range: 3323683 4783945
-=======
---> Working on: GREY 15
-Finished: 15
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:16 hour fcst:
-
-range: 0 680087
-./tempOper_2017120717.grib2
-matched a variable 59:47302864:d=2017120717:UGRD:10 m above ground:16 hour fcst:
-
-range: 47302864 48662321
-./tempOper_2017120717.grib2
-matched a variable 60:48662322:d=2017120717:VGRD:10 m above ground:16 hour fcst:
-
-range: 48662322 50017382
-./tempOper_2017120717.grib2
-matched a variable 61:50017383:d=2017120717:WIND:10 m above ground:15-16 hour max fcst:
-
-range: 50017383 51348626
-./tempOper_2017120717.grib2
-matched a variable 8:3879267:d=2017120717:GUST:surface:16 hour fcst:
-
-range: 3879267 5363059
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 16
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f16.png
@@ -1159,7 +672,6 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGI
 --> Working on: CREEK 16
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CREEK/f16.png
 
-<<<<<<< HEAD
 --> Working on: LILAC 5 16
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILAC_5/f16.png
 
@@ -1189,30 +701,6 @@ range: 49188403 50512105
 matched a variable 8:3287600:d=2017121217:GUST:surface:17 hour fcst:
 
 range: 3287600 4747501
-=======
---> Working on: GREY 16
-Finished: 16
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:17 hour fcst:
-
-range: 0 669025
-./tempOper_2017120717.grib2
-matched a variable 59:47381463:d=2017120717:UGRD:10 m above ground:17 hour fcst:
-
-range: 47381463 48741070
-./tempOper_2017120717.grib2
-matched a variable 60:48741071:d=2017120717:VGRD:10 m above ground:17 hour fcst:
-
-range: 48741071 50098063
-./tempOper_2017120717.grib2
-matched a variable 61:50098064:d=2017120717:WIND:10 m above ground:16-17 hour max fcst:
-
-range: 50098064 51431161
-./tempOper_2017120717.grib2
-matched a variable 8:3902292:d=2017120717:GUST:surface:17 hour fcst:
-
-range: 3902292 5386826
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 17
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f17.png
@@ -1223,7 +711,6 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGI
 --> Working on: CREEK 17
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CREEK/f17.png
 
-<<<<<<< HEAD
 --> Working on: LILAC 5 17
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILAC_5/f17.png
 
@@ -1253,30 +740,6 @@ range: 49419190 50758412
 matched a variable 8:3308013:d=2017121217:GUST:surface:18 hour fcst:
 
 range: 3308013 4771196
-=======
---> Working on: GREY 17
-Finished: 17
-./tempOper_2017120717.grib2
-matched a variable 1:0:d=2017120717:REFC:entire atmosphere:18 hour fcst:
-
-range: 0 654374
-./tempOper_2017120717.grib2
-matched a variable 59:47358694:d=2017120717:UGRD:10 m above ground:18 hour fcst:
-
-range: 47358694 48718742
-./tempOper_2017120717.grib2
-matched a variable 60:48718743:d=2017120717:VGRD:10 m above ground:18 hour fcst:
-
-range: 48718743 50077562
-./tempOper_2017120717.grib2
-matched a variable 61:50077563:d=2017120717:WIND:10 m above ground:17-18 hour max fcst:
-
-range: 50077563 51412138
-./tempOper_2017120717.grib2
-matched a variable 8:3789257:d=2017120717:GUST:surface:18 hour fcst:
-
-range: 3789257 5277015
->>>>>>> parent of d2e4dd6... updates
 
 --> Working on: THOMAS 18
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f18.png
@@ -1293,15 +756,7 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LILA
 --> Working on: RYE 18
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RYE/f18.png
 
-<<<<<<< HEAD
 --> Working on: WINDSPLITTER 18
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDSPLITTER/f18.png
 Finished: 18
 32.349 -120.1 44.762 -101.004
-=======
---> Working on: GREY 18
-Finished: 18
-33.334 -120.1 36.232 -93.798
->>>>>>> parent of d2e4dd6... updates
-=======
->>>>>>> 82063767f6a12aea5ce995a5b9fbc04123b6a87b

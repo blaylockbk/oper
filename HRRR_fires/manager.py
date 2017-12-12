@@ -39,16 +39,10 @@ def write_HRRR_fires_HTML():
     """
     fires is a dictionary. Each key is a fire name.
     """
-<<<<<<< HEAD
     #fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
     url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % datetime.strftime(date.today(), "%Y-%m-%d")
     text = urllib2.urlopen(url)
     fires = np.genfromtxt(text, names=True, dtype=None, delimiter='\t')
-=======
-    fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
-
-    fires = np.genfromtxt(fires_file, names=True, dtype=None, delimiter='\t')
->>>>>>> 82063767f6a12aea5ce995a5b9fbc04123b6a87b
     #fires2 = get_fires()
     # 1) Locations (dictionary)
     location = {}
@@ -85,25 +79,25 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
 <a name="TOP"></a>
 <script src="./js/site/sitemenu.js"></script>	
 
-<h1 align="center"><i class="fa fa-free-code-camp" aria-hidden="true"></i> HRRR Fire Forecasts</h1>
+<h1 align="center"><i class="fa fa-fire-extinguisher"></i> HRRR Fire Forecasts</h1>
 <center>
 <div class="row" id="content">
     <div class=" col-md-1">
     </div>
     <div class=" col-md-2">
-<a class='btn btn-danger' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_golf.html" style="width:100%"> <i class="fa fa-map-marker" aria-hidden="true"></i> Point Forecast</a>      
+<a class='btn btn-danger' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_golf.html" style="width:100%"> <i class="fa fa-map-marker-alt"></i> Point Forecast</a>      
     </div>
     <div class="col-md-2">
-<a class='btn btn-danger active' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_fires.html" style="width:100%"><i class="fa fa-free-code-camp" aria-hidden="true"></i> Fires Forecast</a>
+<a class='btn btn-danger active' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_fires.html" style="width:100%"><i class="fa fa-fire-extinguisher"></i> Fires Forecast</a>
     </div>
     <div class="col-md-2">
-<a class='btn btn-danger' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_custom.html" style="width:100%"> <i class="fa fa-map-o" aria-hidden="true"></i> Custom Maps</a>
+<a class='btn btn-danger' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_custom.html" style="width:100%"> <i class="far fa-map"></i> Custom Maps</a>
     </div>
     <div class="col-md-2">
-<a class='btn btn-danger' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrrX-hrrr.cgi" style="width:100%"> <i class="fa fa-map" aria-hidden="true"></i> Compare Maps</a>
+<a class='btn btn-danger' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrrX-hrrr.cgi" style="width:100%"> <i class="fa fa-map"></i> Compare Maps</a>
     </div>
     <div class="col-md-2">
-<a class='btn btn-danger' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_FAQ.html" style="width:100%"> <i class="fa fa-database" aria-hidden="true"></i> HRRR Archive</a>
+<a class='btn btn-danger' role='button' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/hrrr_FAQ.html" style="width:100%"> <i class="fa fa-database"></i> HRRR Archive</a>
     </div>
 </div>
 </center>
@@ -121,9 +115,9 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
     for F in sorted(location, key=location.get(0)):      
         button = """
         <div class="btn-group" role="group" aria-label="..." style="padding-bottom:3px">
-        <a href="http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/"""+location[F]['name'].replace(' ', '_')+"""/photo_viewer_fire.php" type="button" class="btn btn-warning" style="width:175px"><b>"""+location[F]['name']+"""</b></a>  <div class="btn-group" role="group">
+        <a href="http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/"""+location[F]['name'].replace(' ', '_')+"""/photo_viewer_fire.php" type="button" class="btn btn-warning" style="width:175px"><b><i class="fab fa-gripfire"></i> """+location[F]['name']+"""</b></a>  <div class="btn-group" role="group">
         <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <i class="far fa-clock"></i>
         <span class="caret"></span>
         </button>
         <ul class="dropdown-menu">
@@ -144,7 +138,6 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
 <br><br>
 <img src='http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/firemap.png' style="width=100%;max-width:600px">
 <br><hr><br>
-<<<<<<< HEAD
     <div class="col-md-6">
     <p><a class='btn btn-primary' style='width:100%' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrr_fires_alert.cgi" >Past Wind Events <i class="far fa-clock"></i></a>
     <p><a class='btn btn-default' style='width:100%' href="https://fsapps.nwcg.gov/afm/" target="_blank">Active Fire Mapping Program <i class="fa fa-external-link-alt"></i></a>
@@ -157,15 +150,6 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
     <p><a class='btn btn-success' style='width:100%' href="https://rmgsc.cr.usgs.gov/outgoing/GeoMAC/current_year_fire_data/current_year_all_states/" target="_blank">Active Fire Perimeter ShapeFile <i class="fa fa-external-link-alt"></i></a>
     <p><a class='btn btn-success' style='width:100%' href="https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_"""+datetime.strftime(date.today(), "%Y-%m-%d")+""".txt" target="_blank">Active Fire Text <i class="fa fa-external-link-alt"></i></a>
     </div>
-=======
-<p><a class='btn btn-primary' style='width:250px' href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrr_fires_alert.cgi" >Past Wind Events</a>
-<p><a class='btn btn-default' style='width:250px' href="https://fsapps.nwcg.gov/afm/" target="_blank">Active Fire Mapping Program <i class="fa fa-external-link" aria-hidden="true"></i></a>
-<p><a class='btn btn-default' style='width:250px' href="https://inciweb.nwcg.gov/" target="_blank">Incident Information System <i class="fa fa-external-link" aria-hidden="true"></i></a>
-<p><a class='btn btn-default' style='width:250px' href="http://rammb-slider.cira.colostate.edu/?sat=goes-16&sec=conus&x=1638&y=3522&z=3&im=12&ts=1&st=0&et=0&speed=200&motion=loop&map=1&lat=0&p%5B0%5D=16&opacity%5B0%5D=1&hidden%5B0%5D=0&pause=20170626150038&slider=-1&hide_controls=0&mouse_draw=0&s=rammb-slider" target="_blank">GOES-16 Viewer <i class="fa fa-external-link" aria-hidden="true"></i></a>
-<p><a class='btn btn-default' style='width:250px' href="https://rmgsc.cr.usgs.gov/outgoing/GeoMAC/ActiveFirePerimeters.kml" target="_blank">Active Fire KMZ USGS <i class="fa fa-external-link" aria-hidden="true"></i></a>
-<p><a class='btn btn-default' style='width:250px' href="https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data" target="_blank">Active Fire KMZ EarthData <i class="fa fa-external-link" aria-hidden="true"></i></a>
-<p><a class='btn btn-default' style='width:250px' href="https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_"""+datetime.strftime(date.today(), "%Y-%m-%d")+""".txt" target="_blank">Active Fire Text <i class="fa fa-external-link" aria-hidden="true"></i></a>
->>>>>>> parent of d2e4dd6... updates
 </center>
 </div>
 </div>

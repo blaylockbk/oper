@@ -1,7 +1,6 @@
 .DS_Store
 Thumbs.db
 
-*.geoHRRR.nc
 *.png
 *.pyc
 *.out

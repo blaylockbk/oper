@@ -176,7 +176,6 @@ for n in locs_idx:
                               verbose=False)
     #
     # Overlay Fire Perimeters
-<<<<<<< HEAD
     per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/fire_shapefiles/active_perimeters_dd83', 'perim', drawbounds=False)
     patches = []
     print 'finding fire perimeter patches for '+locName+' fire...',
@@ -187,8 +186,6 @@ for n in locs_idx:
     figs[locName][1].add_collection(PatchCollection(patches, facecolor='indianred', alpha=.65, edgecolor='k', linewidths=.1, zorder=1))
     print 'Done!'
     """
-=======
->>>>>>> 82063767f6a12aea5ce995a5b9fbc04123b6a87b
     try:
         per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/perim','perim', drawbounds=False)
         patches = []
@@ -201,11 +198,8 @@ for n in locs_idx:
         print 'Done!'
     except:
         pass
-<<<<<<< HEAD
     """
 
-=======
->>>>>>> 82063767f6a12aea5ce995a5b9fbc04123b6a87b
     #
     # Overlay Utah Roads
     #BASE = '/uufs/chpc.utah.edu/common/home/u0553130/'
