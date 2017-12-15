@@ -50,9 +50,9 @@ def map_HRRR_domain(G, H):
     
     # Plot GOES-16 image
     newmap = mHRRR.pcolormesh(G['LONS'], G['LATS'], G['TrueColor'][:,:,1],
-                            color=G['rgb'],
-                            linewidth=0,
-                            latlon=True)
+                              color=G['rgb'],
+                              linewidth=0,
+                              latlon=True)
     newmap.set_array(None) # must have this line if using pcolormesh and linewidth=0
     
     # Plot HRRR data
