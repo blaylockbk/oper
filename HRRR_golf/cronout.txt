@@ -1,6 +1,6 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf
-Local DATE: 2017-12-15 12:30:25.244593
-  UTC DATE: 2017-12-15 18:00:00
+Local DATE: 2017-12-18 14:30:20.264620
+  UTC DATE: 2017-12-18 20:00:00
 plucking values from HRRR
 got Temp
 got Dwpt
