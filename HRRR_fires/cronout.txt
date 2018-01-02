@@ -1,8 +1,8 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
 There are 2 large fires.
 Downloaded the most recent active fire perimeters.
-Local DATE: 2017-12-18 14:40:16.424593
-  UTC DATE: 2017-12-18 20:00:00
+Local DATE: 2018-01-02 09:40:26.071169
+  UTC DATE: 2018-01-02 15:00:00
 got temps
 got dwpt
 got wind
@@ -13,518 +13,460 @@ got prec
 got composite reflectivity
 making permenant figure elements...
 finding fire perimeter patches for THOMAS fire... Done!
-finding fire perimeter patches for LEGION LAKE fire... Done!
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:anl:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:anl:
 
-range: 0 693393
-./tempOper_2017121820.grib2
-matched a variable 59:41463482:d=2017121820:UGRD:10 m above ground:anl:
+range: 0 537490
+./tempOper_2018010215.grib2
+matched a variable 59:43391993:d=2018010215:UGRD:10 m above ground:anl:
 
-range: 41463482 42632402
-./tempOper_2017121820.grib2
-matched a variable 60:42632403:d=2017121820:VGRD:10 m above ground:anl:
+range: 43391993 44694893
+./tempOper_2018010215.grib2
+matched a variable 60:44694894:d=2018010215:VGRD:10 m above ground:anl:
 
-range: 42632403 43754248
-./tempOper_2017121820.grib2
-matched a variable 61:43754249:d=2017121820:WIND:10 m above ground:0-0 day max fcst:
+range: 44694894 45969160
+./tempOper_2018010215.grib2
+matched a variable 61:45969161:d=2018010215:WIND:10 m above ground:0-0 day max fcst:
 
-range: 43754249 44925073
-./tempOper_2017121820.grib2
-matched a variable 8:3172989:d=2017121820:GUST:surface:anl:
+range: 45969161 47256694
+./tempOper_2018010215.grib2
+matched a variable 8:3093469:d=2018010215:GUST:surface:anl:
 
-range: 3172989 4522310
+range: 3093469 4434752
 
 --> Working on: THOMAS 0
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f00.png
-
---> Working on: LEGION LAKE 0
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f00.png
 Finished: 0
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:1 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:1 hour fcst:
 
-range: 0 717390
-./tempOper_2017121820.grib2
-matched a variable 59:44187200:d=2017121820:UGRD:10 m above ground:1 hour fcst:
+range: 0 583450
+./tempOper_2018010215.grib2
+matched a variable 59:45880756:d=2018010215:UGRD:10 m above ground:1 hour fcst:
 
-range: 44187200 45387704
-./tempOper_2017121820.grib2
-matched a variable 60:45387705:d=2017121820:VGRD:10 m above ground:1 hour fcst:
+range: 45880756 47184118
+./tempOper_2018010215.grib2
+matched a variable 60:47184119:d=2018010215:VGRD:10 m above ground:1 hour fcst:
 
-range: 45387705 46552609
-./tempOper_2017121820.grib2
-matched a variable 61:46552610:d=2017121820:WIND:10 m above ground:0-1 hour max fcst:
+range: 47184119 48451205
+./tempOper_2018010215.grib2
+matched a variable 61:48451206:d=2018010215:WIND:10 m above ground:0-1 hour max fcst:
 
-range: 46552610 47693038
-./tempOper_2017121820.grib2
-matched a variable 8:3249162:d=2017121820:GUST:surface:1 hour fcst:
+range: 48451206 49694799
+./tempOper_2018010215.grib2
+matched a variable 8:3216789:d=2018010215:GUST:surface:1 hour fcst:
 
-range: 3249162 4625590
+range: 3216789 4584351
 
 --> Working on: THOMAS 1
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f01.png
-
---> Working on: LEGION LAKE 1
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f01.png
 Finished: 1
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:2 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:2 hour fcst:
 
-range: 0 729828
-./tempOper_2017121820.grib2
-matched a variable 59:44050647:d=2017121820:UGRD:10 m above ground:2 hour fcst:
+range: 0 635559
+./tempOper_2018010215.grib2
+matched a variable 59:45905033:d=2018010215:UGRD:10 m above ground:2 hour fcst:
 
-range: 44050647 45277108
-./tempOper_2017121820.grib2
-matched a variable 60:45277109:d=2017121820:VGRD:10 m above ground:2 hour fcst:
+range: 45905033 47211587
+./tempOper_2018010215.grib2
+matched a variable 60:47211588:d=2018010215:VGRD:10 m above ground:2 hour fcst:
 
-range: 45277109 46466341
-./tempOper_2017121820.grib2
-matched a variable 61:46466342:d=2017121820:WIND:10 m above ground:1-2 hour max fcst:
+range: 47211588 48479794
+./tempOper_2018010215.grib2
+matched a variable 61:48479795:d=2018010215:WIND:10 m above ground:1-2 hour max fcst:
 
-range: 46466342 47630639
-./tempOper_2017121820.grib2
-matched a variable 8:3210139:d=2017121820:GUST:surface:2 hour fcst:
+range: 48479795 49712108
+./tempOper_2018010215.grib2
+matched a variable 8:3390058:d=2018010215:GUST:surface:2 hour fcst:
 
-range: 3210139 4560278
+range: 3390058 4742607
 
 --> Working on: THOMAS 2
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f02.png
-
---> Working on: LEGION LAKE 2
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f02.png
 Finished: 2
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:3 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:3 hour fcst:
 
-range: 0 729621
-./tempOper_2017121820.grib2
-matched a variable 59:44062940:d=2017121820:UGRD:10 m above ground:3 hour fcst:
+range: 0 680709
+./tempOper_2018010215.grib2
+matched a variable 59:46024007:d=2018010215:UGRD:10 m above ground:3 hour fcst:
 
-range: 44062940 45313981
-./tempOper_2017121820.grib2
-matched a variable 60:45313982:d=2017121820:VGRD:10 m above ground:3 hour fcst:
+range: 46024007 47330373
+./tempOper_2018010215.grib2
+matched a variable 60:47330374:d=2018010215:VGRD:10 m above ground:3 hour fcst:
 
-range: 45313982 46532928
-./tempOper_2017121820.grib2
-matched a variable 61:46532929:d=2017121820:WIND:10 m above ground:2-3 hour max fcst:
+range: 47330374 48582468
+./tempOper_2018010215.grib2
+matched a variable 61:48582469:d=2018010215:WIND:10 m above ground:2-3 hour max fcst:
 
-range: 46532929 47719053
-./tempOper_2017121820.grib2
-matched a variable 8:3209493:d=2017121820:GUST:surface:3 hour fcst:
+range: 48582469 49808855
+./tempOper_2018010215.grib2
+matched a variable 8:3556143:d=2018010215:GUST:surface:3 hour fcst:
 
-range: 3209493 4557765
+range: 3556143 4900028
 
 --> Working on: THOMAS 3
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f03.png
-
---> Working on: LEGION LAKE 3
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f03.png
 Finished: 3
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:4 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:4 hour fcst:
 
-range: 0 727842
-./tempOper_2017121820.grib2
-matched a variable 59:44501532:d=2017121820:UGRD:10 m above ground:4 hour fcst:
+range: 0 714282
+./tempOper_2018010215.grib2
+matched a variable 59:45970066:d=2018010215:UGRD:10 m above ground:4 hour fcst:
 
-range: 44501532 45779984
-./tempOper_2017121820.grib2
-matched a variable 60:45779985:d=2017121820:VGRD:10 m above ground:4 hour fcst:
+range: 45970066 47263447
+./tempOper_2018010215.grib2
+matched a variable 60:47263448:d=2018010215:VGRD:10 m above ground:4 hour fcst:
 
-range: 45779985 47029881
-./tempOper_2017121820.grib2
-matched a variable 61:47029882:d=2017121820:WIND:10 m above ground:3-4 hour max fcst:
+range: 47263448 48518735
+./tempOper_2018010215.grib2
+matched a variable 61:48518736:d=2018010215:WIND:10 m above ground:3-4 hour max fcst:
 
-range: 47029882 48244447
-./tempOper_2017121820.grib2
-matched a variable 8:3321198:d=2017121820:GUST:surface:4 hour fcst:
+range: 48518736 49742602
+./tempOper_2018010215.grib2
+matched a variable 8:3508751:d=2018010215:GUST:surface:4 hour fcst:
 
-range: 3321198 4684576
+range: 3508751 4853836
 
 --> Working on: THOMAS 4
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f04.png
-
---> Working on: LEGION LAKE 4
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f04.png
 Finished: 4
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:5 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:5 hour fcst:
 
-range: 0 731802
-./tempOper_2017121820.grib2
-matched a variable 59:44787173:d=2017121820:UGRD:10 m above ground:5 hour fcst:
+range: 0 735840
+./tempOper_2018010215.grib2
+matched a variable 59:45903500:d=2018010215:UGRD:10 m above ground:5 hour fcst:
 
-range: 44787173 46097977
-./tempOper_2017121820.grib2
-matched a variable 60:46097978:d=2017121820:VGRD:10 m above ground:5 hour fcst:
+range: 45903500 47214131
+./tempOper_2018010215.grib2
+matched a variable 60:47214132:d=2018010215:VGRD:10 m above ground:5 hour fcst:
 
-range: 46097978 47376325
-./tempOper_2017121820.grib2
-matched a variable 61:47376326:d=2017121820:WIND:10 m above ground:4-5 hour max fcst:
+range: 47214132 48468979
+./tempOper_2018010215.grib2
+matched a variable 61:48468980:d=2018010215:WIND:10 m above ground:4-5 hour max fcst:
 
-range: 47376326 48620013
-./tempOper_2017121820.grib2
-matched a variable 8:3344517:d=2017121820:GUST:surface:5 hour fcst:
+range: 48468980 49691904
+./tempOper_2018010215.grib2
+matched a variable 8:3590383:d=2018010215:GUST:surface:5 hour fcst:
 
-range: 3344517 4724766
+range: 3590383 4951481
 
 --> Working on: THOMAS 5
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f05.png
-
---> Working on: LEGION LAKE 5
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f05.png
 Finished: 5
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:6 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:6 hour fcst:
 
-range: 0 733574
-./tempOper_2017121820.grib2
-matched a variable 59:44964589:d=2017121820:UGRD:10 m above ground:6 hour fcst:
+range: 0 747812
+./tempOper_2018010215.grib2
+matched a variable 59:45871119:d=2018010215:UGRD:10 m above ground:6 hour fcst:
 
-range: 44964589 46291950
-./tempOper_2017121820.grib2
-matched a variable 60:46291951:d=2017121820:VGRD:10 m above ground:6 hour fcst:
+range: 45871119 47186282
+./tempOper_2018010215.grib2
+matched a variable 60:47186283:d=2018010215:VGRD:10 m above ground:6 hour fcst:
 
-range: 46291951 47588115
-./tempOper_2017121820.grib2
-matched a variable 61:47588116:d=2017121820:WIND:10 m above ground:5-6 hour max fcst:
+range: 47186283 48445094
+./tempOper_2018010215.grib2
+matched a variable 61:48445095:d=2018010215:WIND:10 m above ground:5-6 hour max fcst:
 
-range: 47588116 48855794
-./tempOper_2017121820.grib2
-matched a variable 8:3311883:d=2017121820:GUST:surface:6 hour fcst:
+range: 48445095 49668628
+./tempOper_2018010215.grib2
+matched a variable 8:3662678:d=2018010215:GUST:surface:6 hour fcst:
 
-range: 3311883 4706564
+range: 3662678 5047835
 
 --> Working on: THOMAS 6
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f06.png
-
---> Working on: LEGION LAKE 6
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f06.png
 Finished: 6
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:7 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:7 hour fcst:
 
-range: 0 727772
-./tempOper_2017121820.grib2
-matched a variable 59:45010814:d=2017121820:UGRD:10 m above ground:7 hour fcst:
+range: 0 757569
+./tempOper_2018010215.grib2
+matched a variable 59:45935382:d=2018010215:UGRD:10 m above ground:7 hour fcst:
 
-range: 45010814 46349203
-./tempOper_2017121820.grib2
-matched a variable 60:46349204:d=2017121820:VGRD:10 m above ground:7 hour fcst:
+range: 45935382 47256973
+./tempOper_2018010215.grib2
+matched a variable 60:47256974:d=2018010215:VGRD:10 m above ground:7 hour fcst:
 
-range: 46349204 47656802
-./tempOper_2017121820.grib2
-matched a variable 61:47656803:d=2017121820:WIND:10 m above ground:6-7 hour max fcst:
+range: 47256974 48524105
+./tempOper_2018010215.grib2
+matched a variable 61:48524106:d=2018010215:WIND:10 m above ground:6-7 hour max fcst:
 
-range: 47656803 48937456
-./tempOper_2017121820.grib2
-matched a variable 8:3329725:d=2017121820:GUST:surface:7 hour fcst:
+range: 48524106 49753348
+./tempOper_2018010215.grib2
+matched a variable 8:3783477:d=2018010215:GUST:surface:7 hour fcst:
 
-range: 3329725 4731607
+range: 3783477 5156431
 
 --> Working on: THOMAS 7
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f07.png
-
---> Working on: LEGION LAKE 7
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f07.png
 Finished: 7
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:8 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:8 hour fcst:
 
-range: 0 728706
-./tempOper_2017121820.grib2
-matched a variable 59:45216811:d=2017121820:UGRD:10 m above ground:8 hour fcst:
+range: 0 756339
+./tempOper_2018010215.grib2
+matched a variable 59:46133384:d=2018010215:UGRD:10 m above ground:8 hour fcst:
 
-range: 45216811 46559769
-./tempOper_2017121820.grib2
-matched a variable 60:46559770:d=2017121820:VGRD:10 m above ground:8 hour fcst:
+range: 46133384 47445728
+./tempOper_2018010215.grib2
+matched a variable 60:47445729:d=2018010215:VGRD:10 m above ground:8 hour fcst:
 
-range: 46559770 47873129
-./tempOper_2017121820.grib2
-matched a variable 61:47873130:d=2017121820:WIND:10 m above ground:7-8 hour max fcst:
+range: 47445729 48730081
+./tempOper_2018010215.grib2
+matched a variable 61:48730082:d=2018010215:WIND:10 m above ground:7-8 hour max fcst:
 
-range: 47873130 49160610
-./tempOper_2017121820.grib2
-matched a variable 8:3302613:d=2017121820:GUST:surface:8 hour fcst:
+range: 48730082 49971434
+./tempOper_2018010215.grib2
+matched a variable 8:3783774:d=2018010215:GUST:surface:8 hour fcst:
 
-range: 3302613 4709015
+range: 3783774 5169733
 
 --> Working on: THOMAS 8
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f08.png
-
---> Working on: LEGION LAKE 8
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f08.png
 Finished: 8
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:9 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:9 hour fcst:
 
-range: 0 725134
-./tempOper_2017121820.grib2
-matched a variable 59:45352507:d=2017121820:UGRD:10 m above ground:9 hour fcst:
+range: 0 746370
+./tempOper_2018010215.grib2
+matched a variable 59:46499596:d=2018010215:UGRD:10 m above ground:9 hour fcst:
 
-range: 45352507 46697423
-./tempOper_2017121820.grib2
-matched a variable 60:46697424:d=2017121820:VGRD:10 m above ground:9 hour fcst:
+range: 46499596 47825587
+./tempOper_2018010215.grib2
+matched a variable 60:47825588:d=2018010215:VGRD:10 m above ground:9 hour fcst:
 
-range: 46697424 48013660
-./tempOper_2017121820.grib2
-matched a variable 61:48013661:d=2017121820:WIND:10 m above ground:8-9 hour max fcst:
+range: 47825588 49135563
+./tempOper_2018010215.grib2
+matched a variable 61:49135564:d=2018010215:WIND:10 m above ground:8-9 hour max fcst:
 
-range: 48013661 49304691
-./tempOper_2017121820.grib2
-matched a variable 8:3387462:d=2017121820:GUST:surface:9 hour fcst:
+range: 49135564 50400301
+./tempOper_2018010215.grib2
+matched a variable 8:3839135:d=2018010215:GUST:surface:9 hour fcst:
 
-range: 3387462 4796635
+range: 3839135 5246531
 
 --> Working on: THOMAS 9
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f09.png
-
---> Working on: LEGION LAKE 9
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f09.png
 Finished: 9
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:10 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:10 hour fcst:
 
-range: 0 723906
-./tempOper_2017121820.grib2
-matched a variable 59:45429670:d=2017121820:UGRD:10 m above ground:10 hour fcst:
+range: 0 740258
+./tempOper_2018010215.grib2
+matched a variable 59:46505224:d=2018010215:UGRD:10 m above ground:10 hour fcst:
 
-range: 45429670 46774751
-./tempOper_2017121820.grib2
-matched a variable 60:46774752:d=2017121820:VGRD:10 m above ground:10 hour fcst:
+range: 46505224 47861112
+./tempOper_2018010215.grib2
+matched a variable 60:47861113:d=2018010215:VGRD:10 m above ground:10 hour fcst:
 
-range: 46774752 48091961
-./tempOper_2017121820.grib2
-matched a variable 61:48091962:d=2017121820:WIND:10 m above ground:9-10 hour max fcst:
+range: 47861113 49202743
+./tempOper_2018010215.grib2
+matched a variable 61:49202744:d=2018010215:WIND:10 m above ground:9-10 hour max fcst:
 
-range: 48091962 49385111
-./tempOper_2017121820.grib2
-matched a variable 8:3421100:d=2017121820:GUST:surface:10 hour fcst:
+range: 49202744 50495520
+./tempOper_2018010215.grib2
+matched a variable 8:3714747:d=2018010215:GUST:surface:10 hour fcst:
 
-range: 3421100 4833504
+range: 3714747 5137075
 
 --> Working on: THOMAS 10
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f10.png
-
---> Working on: LEGION LAKE 10
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f10.png
 Finished: 10
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:11 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:11 hour fcst:
 
-range: 0 710726
-./tempOper_2017121820.grib2
-matched a variable 59:45469754:d=2017121820:UGRD:10 m above ground:11 hour fcst:
+range: 0 733984
+./tempOper_2018010215.grib2
+matched a variable 59:46682246:d=2018010215:UGRD:10 m above ground:11 hour fcst:
 
-range: 45469754 46815335
-./tempOper_2017121820.grib2
-matched a variable 60:46815336:d=2017121820:VGRD:10 m above ground:11 hour fcst:
+range: 46682246 48058550
+./tempOper_2018010215.grib2
+matched a variable 60:48058551:d=2018010215:VGRD:10 m above ground:11 hour fcst:
 
-range: 46815336 48134287
-./tempOper_2017121820.grib2
-matched a variable 61:48134288:d=2017121820:WIND:10 m above ground:10-11 hour max fcst:
+range: 48058551 49421468
+./tempOper_2018010215.grib2
+matched a variable 61:49421469:d=2018010215:WIND:10 m above ground:10-11 hour max fcst:
 
-range: 48134288 49427543
-./tempOper_2017121820.grib2
-matched a variable 8:3486582:d=2017121820:GUST:surface:11 hour fcst:
+range: 49421469 50743767
+./tempOper_2018010215.grib2
+matched a variable 8:3719012:d=2018010215:GUST:surface:11 hour fcst:
 
-range: 3486582 4902369
+range: 3719012 5155704
 
 --> Working on: THOMAS 11
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f11.png
-
---> Working on: LEGION LAKE 11
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f11.png
 Finished: 11
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:12 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:12 hour fcst:
 
-range: 0 697634
-./tempOper_2017121820.grib2
-matched a variable 59:45579734:d=2017121820:UGRD:10 m above ground:12 hour fcst:
+range: 0 728054
+./tempOper_2018010215.grib2
+matched a variable 59:46949276:d=2018010215:UGRD:10 m above ground:12 hour fcst:
 
-range: 45579734 46924072
-./tempOper_2017121820.grib2
-matched a variable 60:46924073:d=2017121820:VGRD:10 m above ground:12 hour fcst:
+range: 46949276 48337438
+./tempOper_2018010215.grib2
+matched a variable 60:48337439:d=2018010215:VGRD:10 m above ground:12 hour fcst:
 
-range: 46924073 48243041
-./tempOper_2017121820.grib2
-matched a variable 61:48243042:d=2017121820:WIND:10 m above ground:11-12 hour max fcst:
+range: 48337439 49714757
+./tempOper_2018010215.grib2
+matched a variable 61:49714758:d=2018010215:WIND:10 m above ground:11-12 hour max fcst:
 
-range: 48243042 49536699
-./tempOper_2017121820.grib2
-matched a variable 8:3487464:d=2017121820:GUST:surface:12 hour fcst:
+range: 49714758 51053231
+./tempOper_2018010215.grib2
+matched a variable 8:3811251:d=2018010215:GUST:surface:12 hour fcst:
 
-range: 3487464 4902730
+range: 3811251 5258945
 
 --> Working on: THOMAS 12
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f12.png
-
---> Working on: LEGION LAKE 12
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f12.png
 Finished: 12
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:13 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:13 hour fcst:
 
-range: 0 695430
-./tempOper_2017121820.grib2
-matched a variable 59:45591764:d=2017121820:UGRD:10 m above ground:13 hour fcst:
+range: 0 726859
+./tempOper_2018010215.grib2
+matched a variable 59:47025332:d=2018010215:UGRD:10 m above ground:13 hour fcst:
 
-range: 45591764 46934291
-./tempOper_2017121820.grib2
-matched a variable 60:46934292:d=2017121820:VGRD:10 m above ground:13 hour fcst:
+range: 47025332 48419466
+./tempOper_2018010215.grib2
+matched a variable 60:48419467:d=2018010215:VGRD:10 m above ground:13 hour fcst:
 
-range: 46934292 48251593
-./tempOper_2017121820.grib2
-matched a variable 61:48251594:d=2017121820:WIND:10 m above ground:12-13 hour max fcst:
+range: 48419467 49805378
+./tempOper_2018010215.grib2
+matched a variable 61:49805379:d=2018010215:WIND:10 m above ground:12-13 hour max fcst:
 
-range: 48251594 49543680
-./tempOper_2017121820.grib2
-matched a variable 8:3544291:d=2017121820:GUST:surface:13 hour fcst:
+range: 49805379 51153622
+./tempOper_2018010215.grib2
+matched a variable 8:3773468:d=2018010215:GUST:surface:13 hour fcst:
 
-range: 3544291 4961155
+range: 3773468 5228488
 
 --> Working on: THOMAS 13
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f13.png
-
---> Working on: LEGION LAKE 13
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f13.png
 Finished: 13
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:14 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:14 hour fcst:
 
-range: 0 692430
-./tempOper_2017121820.grib2
-matched a variable 59:45552379:d=2017121820:UGRD:10 m above ground:14 hour fcst:
+range: 0 730464
+./tempOper_2018010215.grib2
+matched a variable 59:47125227:d=2018010215:UGRD:10 m above ground:14 hour fcst:
 
-range: 45552379 46893501
-./tempOper_2017121820.grib2
-matched a variable 60:46893502:d=2017121820:VGRD:10 m above ground:14 hour fcst:
+range: 47125227 48524286
+./tempOper_2018010215.grib2
+matched a variable 60:48524287:d=2018010215:VGRD:10 m above ground:14 hour fcst:
 
-range: 46893502 48223623
-./tempOper_2017121820.grib2
-matched a variable 61:48223624:d=2017121820:WIND:10 m above ground:13-14 hour max fcst:
+range: 48524287 49915673
+./tempOper_2018010215.grib2
+matched a variable 61:49915674:d=2018010215:WIND:10 m above ground:13-14 hour max fcst:
 
-range: 48223624 49513488
-./tempOper_2017121820.grib2
-matched a variable 8:3490043:d=2017121820:GUST:surface:14 hour fcst:
+range: 49915674 51269240
+./tempOper_2018010215.grib2
+matched a variable 8:3822677:d=2018010215:GUST:surface:14 hour fcst:
 
-range: 3490043 4903736
+range: 3822677 5284228
 
 --> Working on: THOMAS 14
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f14.png
-
---> Working on: LEGION LAKE 14
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f14.png
 Finished: 14
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:15 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:15 hour fcst:
 
-range: 0 705755
-./tempOper_2017121820.grib2
-matched a variable 59:45847852:d=2017121820:UGRD:10 m above ground:15 hour fcst:
+range: 0 731249
+./tempOper_2018010215.grib2
+matched a variable 59:47295040:d=2018010215:UGRD:10 m above ground:15 hour fcst:
 
-range: 45847852 47187235
-./tempOper_2017121820.grib2
-matched a variable 60:47187236:d=2017121820:VGRD:10 m above ground:15 hour fcst:
+range: 47295040 48697621
+./tempOper_2018010215.grib2
+matched a variable 60:48697622:d=2018010215:VGRD:10 m above ground:15 hour fcst:
 
-range: 47187236 48515301
-./tempOper_2017121820.grib2
-matched a variable 61:48515302:d=2017121820:WIND:10 m above ground:14-15 hour max fcst:
+range: 48697622 50092823
+./tempOper_2018010215.grib2
+matched a variable 61:50092824:d=2018010215:WIND:10 m above ground:14-15 hour max fcst:
 
-range: 48515302 49802904
-./tempOper_2017121820.grib2
-matched a variable 8:3491377:d=2017121820:GUST:surface:15 hour fcst:
+range: 50092824 51448375
+./tempOper_2018010215.grib2
+matched a variable 8:3868925:d=2018010215:GUST:surface:15 hour fcst:
 
-range: 3491377 4908126
+range: 3868925 5336657
 
 --> Working on: THOMAS 15
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f15.png
-
---> Working on: LEGION LAKE 15
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f15.png
 Finished: 15
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:16 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:16 hour fcst:
 
-range: 0 726766
-./tempOper_2017121820.grib2
-matched a variable 59:45889531:d=2017121820:UGRD:10 m above ground:16 hour fcst:
+range: 0 724244
+./tempOper_2018010215.grib2
+matched a variable 59:47376391:d=2018010215:UGRD:10 m above ground:16 hour fcst:
 
-range: 45889531 47228255
-./tempOper_2017121820.grib2
-matched a variable 60:47228256:d=2017121820:VGRD:10 m above ground:16 hour fcst:
+range: 47376391 48780167
+./tempOper_2018010215.grib2
+matched a variable 60:48780168:d=2018010215:VGRD:10 m above ground:16 hour fcst:
 
-range: 47228256 48556366
-./tempOper_2017121820.grib2
-matched a variable 61:48556367:d=2017121820:WIND:10 m above ground:15-16 hour max fcst:
+range: 48780168 50176778
+./tempOper_2018010215.grib2
+matched a variable 61:50176779:d=2018010215:WIND:10 m above ground:15-16 hour max fcst:
 
-range: 48556367 49843526
-./tempOper_2017121820.grib2
-matched a variable 8:3699827:d=2017121820:GUST:surface:16 hour fcst:
+range: 50176779 51534202
+./tempOper_2018010215.grib2
+matched a variable 8:3917228:d=2018010215:GUST:surface:16 hour fcst:
 
-range: 3699827 5119018
+range: 3917228 5387237
 
 --> Working on: THOMAS 16
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f16.png
-
---> Working on: LEGION LAKE 16
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f16.png
 Finished: 16
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:17 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:17 hour fcst:
 
-range: 0 751125
-./tempOper_2017121820.grib2
-matched a variable 59:46139017:d=2017121820:UGRD:10 m above ground:17 hour fcst:
+range: 0 712422
+./tempOper_2018010215.grib2
+matched a variable 59:47423119:d=2018010215:UGRD:10 m above ground:17 hour fcst:
 
-range: 46139017 47477804
-./tempOper_2017121820.grib2
-matched a variable 60:47477805:d=2017121820:VGRD:10 m above ground:17 hour fcst:
+range: 47423119 48826544
+./tempOper_2018010215.grib2
+matched a variable 60:48826545:d=2018010215:VGRD:10 m above ground:17 hour fcst:
 
-range: 47477805 48807334
-./tempOper_2017121820.grib2
-matched a variable 61:48807335:d=2017121820:WIND:10 m above ground:16-17 hour max fcst:
+range: 48826545 50224521
+./tempOper_2018010215.grib2
+matched a variable 61:50224522:d=2018010215:WIND:10 m above ground:16-17 hour max fcst:
 
-range: 48807335 50096036
-./tempOper_2017121820.grib2
-matched a variable 8:3721110:d=2017121820:GUST:surface:17 hour fcst:
+range: 50224522 51582499
+./tempOper_2018010215.grib2
+matched a variable 8:3926293:d=2018010215:GUST:surface:17 hour fcst:
 
-range: 3721110 5146056
+range: 3926293 5381432
 
 --> Working on: THOMAS 17
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f17.png
-
---> Working on: LEGION LAKE 17
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f17.png
 Finished: 17
-./tempOper_2017121820.grib2
-matched a variable 1:0:d=2017121820:REFC:entire atmosphere:18 hour fcst:
+./tempOper_2018010215.grib2
+matched a variable 1:0:d=2018010215:REFC:entire atmosphere:18 hour fcst:
 
-range: 0 753090
-./tempOper_2017121820.grib2
-matched a variable 59:45945341:d=2017121820:UGRD:10 m above ground:18 hour fcst:
+range: 0 710154
+./tempOper_2018010215.grib2
+matched a variable 59:47513370:d=2018010215:UGRD:10 m above ground:18 hour fcst:
 
-range: 45945341 47280204
-./tempOper_2017121820.grib2
-matched a variable 60:47280205:d=2017121820:VGRD:10 m above ground:18 hour fcst:
+range: 47513370 48916229
+./tempOper_2018010215.grib2
+matched a variable 60:48916230:d=2018010215:VGRD:10 m above ground:18 hour fcst:
 
-range: 47280205 48605547
-./tempOper_2017121820.grib2
-matched a variable 61:48605548:d=2017121820:WIND:10 m above ground:17-18 hour max fcst:
+range: 48916230 50314790
+./tempOper_2018010215.grib2
+matched a variable 61:50314791:d=2018010215:WIND:10 m above ground:17-18 hour max fcst:
 
-range: 48605548 49894466
-./tempOper_2017121820.grib2
-matched a variable 8:3757405:d=2017121820:GUST:surface:18 hour fcst:
+range: 50314791 51673061
+./tempOper_2018010215.grib2
+matched a variable 8:3945213:d=2018010215:GUST:surface:18 hour fcst:
 
-range: 3757405 5195467
+range: 3945213 5416658
 
 --> Working on: THOMAS 18
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/THOMAS/f18.png
-
---> Working on: LEGION LAKE 18
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/LEGION_LAKE/f18.png
 Finished: 18
-33.429 -120.1 44.762 -101.448
+33.429 -120.1 35.429 -117.1
