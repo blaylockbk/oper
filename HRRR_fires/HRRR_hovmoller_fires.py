@@ -15,7 +15,9 @@ print "--------------------------------------------------------\n"
 import matplotlib as mpl
 mpl.use('Agg')#required for the CRON job. Says "do not open plot in a window"??
 import numpy as np
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
+import time
+import urllib2
 import matplotlib.pyplot as plt
 import os
 
@@ -74,11 +76,15 @@ spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
 # centered at the station latitude/longitude.
 half_box = 9
 
+get_today = datetime.strftime(date.today(), "%Y-%m-%d")
+daylight = time.daylight # If daylight is on (1) then subtract from timezone.
+
 #==============================================================================
 # 1) Read in large fires file:
-fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
-
-fires = np.genfromtxt(fires_file, names=True, dtype=None,delimiter='\t')
+#fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
+url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
+text = urllib2.urlopen(url)
+fires = np.genfromtxt(text, names=True, dtype=None,delimiter='\t')
 #column names:
     # 0  INAME - Incident Name
     # 1  INUM
