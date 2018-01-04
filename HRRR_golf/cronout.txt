@@ -1,6 +1,6 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf
-Local DATE: 2018-01-03 14:30:15.371685
-  UTC DATE: 2018-01-03 20:00:00
+Local DATE: 2018-01-04 10:30:25.258916
+  UTC DATE: 2018-01-04 16:00:00
 plucking values from HRRR
 got Temp
 got Dwpt
@@ -10,19 +10,19 @@ got U10
 got V10
 got Precip
 making permenant figure elements...
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801032000&end=201801032137&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=utc&output=json
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:anl:
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801041600&end=201801041738&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=utc&output=json
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:anl:
 
-range: 0 587371
-./tempOper_2018010320.grib2
-matched a variable 59:42865171:d=2018010320:UGRD:10 m above ground:anl:
+range: 0 604350
+./tempOper_2018010416.grib2
+matched a variable 59:44052913:d=2018010416:UGRD:10 m above ground:anl:
 
-range: 42865171 44036446
-./tempOper_2018010320.grib2
-matched a variable 60:44036447:d=2018010320:VGRD:10 m above ground:anl:
+range: 44052913 45295947
+./tempOper_2018010416.grib2
+matched a variable 60:45295948:d=2018010416:VGRD:10 m above ground:anl:
 
-range: 44036447 45195498
+range: 45295948 46546778
 
 --> Working on: UTPKL 0
 
@@ -60,18 +60,18 @@ range: 44036447 45195498
 
 --> Working on: FREUT 0
 Finished: 0
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:1 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:1 hour fcst:
 
-range: 0 547980
-./tempOper_2018010320.grib2
-matched a variable 59:45059583:d=2018010320:UGRD:10 m above ground:1 hour fcst:
+range: 0 611738
+./tempOper_2018010416.grib2
+matched a variable 59:45834145:d=2018010416:UGRD:10 m above ground:1 hour fcst:
 
-range: 45059583 46278783
-./tempOper_2018010320.grib2
-matched a variable 60:46278784:d=2018010320:VGRD:10 m above ground:1 hour fcst:
+range: 45834145 47096768
+./tempOper_2018010416.grib2
+matched a variable 60:47096769:d=2018010416:VGRD:10 m above ground:1 hour fcst:
 
-range: 46278784 47480291
+range: 47096769 48354232
 
 --> Working on: UTPKL 1
 
@@ -109,18 +109,18 @@ range: 46278784 47480291
 
 --> Working on: FREUT 1
 Finished: 1
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:2 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:2 hour fcst:
 
-range: 0 561979
-./tempOper_2018010320.grib2
-matched a variable 59:45169139:d=2018010320:UGRD:10 m above ground:2 hour fcst:
+range: 0 635312
+./tempOper_2018010416.grib2
+matched a variable 59:45803486:d=2018010416:UGRD:10 m above ground:2 hour fcst:
 
-range: 45169139 46410013
-./tempOper_2018010320.grib2
-matched a variable 60:46410014:d=2018010320:VGRD:10 m above ground:2 hour fcst:
+range: 45803486 47075620
+./tempOper_2018010416.grib2
+matched a variable 60:47075621:d=2018010416:VGRD:10 m above ground:2 hour fcst:
 
-range: 46410014 47634079
+range: 47075621 48337969
 
 --> Working on: UTPKL 2
 
@@ -158,18 +158,18 @@ range: 46410014 47634079
 
 --> Working on: FREUT 2
 Finished: 2
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:3 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:3 hour fcst:
 
-range: 0 603024
-./tempOper_2018010320.grib2
-matched a variable 59:45600835:d=2018010320:UGRD:10 m above ground:3 hour fcst:
+range: 0 634856
+./tempOper_2018010416.grib2
+matched a variable 59:45913634:d=2018010416:UGRD:10 m above ground:3 hour fcst:
 
-range: 45600835 46858731
-./tempOper_2018010320.grib2
-matched a variable 60:46858732:d=2018010320:VGRD:10 m above ground:3 hour fcst:
+range: 45913634 47199636
+./tempOper_2018010416.grib2
+matched a variable 60:47199637:d=2018010416:VGRD:10 m above ground:3 hour fcst:
 
-range: 46858732 48104867
+range: 47199637 48472370
 
 --> Working on: UTPKL 3
 
@@ -207,18 +207,18 @@ range: 46858732 48104867
 
 --> Working on: FREUT 3
 Finished: 3
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:4 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:4 hour fcst:
 
-range: 0 638419
-./tempOper_2018010320.grib2
-matched a variable 59:45995331:d=2018010320:UGRD:10 m above ground:4 hour fcst:
+range: 0 642737
+./tempOper_2018010416.grib2
+matched a variable 59:45622352:d=2018010416:UGRD:10 m above ground:4 hour fcst:
 
-range: 45995331 47292765
-./tempOper_2018010320.grib2
-matched a variable 60:47292766:d=2018010320:VGRD:10 m above ground:4 hour fcst:
+range: 45622352 46920490
+./tempOper_2018010416.grib2
+matched a variable 60:46920491:d=2018010416:VGRD:10 m above ground:4 hour fcst:
 
-range: 47292766 48587477
+range: 46920491 48201167
 
 --> Working on: UTPKL 4
 
@@ -256,18 +256,18 @@ range: 47292766 48587477
 
 --> Working on: FREUT 4
 Finished: 4
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:5 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:5 hour fcst:
 
-range: 0 667655
-./tempOper_2018010320.grib2
-matched a variable 59:46450851:d=2018010320:UGRD:10 m above ground:5 hour fcst:
+range: 0 647933
+./tempOper_2018010416.grib2
+matched a variable 59:45979618:d=2018010416:UGRD:10 m above ground:5 hour fcst:
 
-range: 46450851 47778360
-./tempOper_2018010320.grib2
-matched a variable 60:47778361:d=2018010320:VGRD:10 m above ground:5 hour fcst:
+range: 45979618 47281358
+./tempOper_2018010416.grib2
+matched a variable 60:47281359:d=2018010416:VGRD:10 m above ground:5 hour fcst:
 
-range: 47778361 49104046
+range: 47281359 48565985
 
 --> Working on: UTPKL 5
 
@@ -305,18 +305,18 @@ range: 47778361 49104046
 
 --> Working on: FREUT 5
 Finished: 5
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:6 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:6 hour fcst:
 
-range: 0 691938
-./tempOper_2018010320.grib2
-matched a variable 59:46931443:d=2018010320:UGRD:10 m above ground:6 hour fcst:
+range: 0 665325
+./tempOper_2018010416.grib2
+matched a variable 59:45903510:d=2018010416:UGRD:10 m above ground:6 hour fcst:
 
-range: 46931443 48300133
-./tempOper_2018010320.grib2
-matched a variable 60:48300134:d=2018010320:VGRD:10 m above ground:6 hour fcst:
+range: 45903510 47203812
+./tempOper_2018010416.grib2
+matched a variable 60:47203813:d=2018010416:VGRD:10 m above ground:6 hour fcst:
 
-range: 48300134 49658416
+range: 47203813 48488619
 
 --> Working on: UTPKL 6
 
@@ -354,18 +354,18 @@ range: 48300134 49658416
 
 --> Working on: FREUT 6
 Finished: 6
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:7 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:7 hour fcst:
 
-range: 0 702990
-./tempOper_2018010320.grib2
-matched a variable 59:47164994:d=2018010320:UGRD:10 m above ground:7 hour fcst:
+range: 0 675009
+./tempOper_2018010416.grib2
+matched a variable 59:46110329:d=2018010416:UGRD:10 m above ground:7 hour fcst:
 
-range: 47164994 48547801
-./tempOper_2018010320.grib2
-matched a variable 60:48547802:d=2018010320:VGRD:10 m above ground:7 hour fcst:
+range: 46110329 47410419
+./tempOper_2018010416.grib2
+matched a variable 60:47410420:d=2018010416:VGRD:10 m above ground:7 hour fcst:
 
-range: 48547802 49925188
+range: 47410420 48698537
 
 --> Working on: UTPKL 7
 
@@ -403,18 +403,18 @@ range: 48547802 49925188
 
 --> Working on: FREUT 7
 Finished: 7
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:8 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:8 hour fcst:
 
-range: 0 718295
-./tempOper_2018010320.grib2
-matched a variable 59:47315212:d=2018010320:UGRD:10 m above ground:8 hour fcst:
+range: 0 675238
+./tempOper_2018010416.grib2
+matched a variable 59:46570382:d=2018010416:UGRD:10 m above ground:8 hour fcst:
 
-range: 47315212 48707118
-./tempOper_2018010320.grib2
-matched a variable 60:48707119:d=2018010320:VGRD:10 m above ground:8 hour fcst:
+range: 46570382 47877541
+./tempOper_2018010416.grib2
+matched a variable 60:47877542:d=2018010416:VGRD:10 m above ground:8 hour fcst:
 
-range: 48707119 50098497
+range: 47877542 49181118
 
 --> Working on: UTPKL 8
 
@@ -452,18 +452,18 @@ range: 48707119 50098497
 
 --> Working on: FREUT 8
 Finished: 8
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:9 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:9 hour fcst:
 
-range: 0 708318
-./tempOper_2018010320.grib2
-matched a variable 59:47391394:d=2018010320:UGRD:10 m above ground:9 hour fcst:
+range: 0 676744
+./tempOper_2018010416.grib2
+matched a variable 59:46804588:d=2018010416:UGRD:10 m above ground:9 hour fcst:
 
-range: 47391394 48789032
-./tempOper_2018010320.grib2
-matched a variable 60:48789033:d=2018010320:VGRD:10 m above ground:9 hour fcst:
+range: 46804588 48145990
+./tempOper_2018010416.grib2
+matched a variable 60:48145991:d=2018010416:VGRD:10 m above ground:9 hour fcst:
 
-range: 48789033 50186267
+range: 48145991 49484914
 
 --> Working on: UTPKL 9
 
@@ -501,18 +501,18 @@ range: 48789033 50186267
 
 --> Working on: FREUT 9
 Finished: 9
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:10 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:10 hour fcst:
 
-range: 0 705027
-./tempOper_2018010320.grib2
-matched a variable 59:47530470:d=2018010320:UGRD:10 m above ground:10 hour fcst:
+range: 0 678846
+./tempOper_2018010416.grib2
+matched a variable 59:47233007:d=2018010416:UGRD:10 m above ground:10 hour fcst:
 
-range: 47530470 48930409
-./tempOper_2018010320.grib2
-matched a variable 60:48930410:d=2018010320:VGRD:10 m above ground:10 hour fcst:
+range: 47233007 48596197
+./tempOper_2018010416.grib2
+matched a variable 60:48596198:d=2018010416:VGRD:10 m above ground:10 hour fcst:
 
-range: 48930410 50329730
+range: 48596198 49960852
 
 --> Working on: UTPKL 10
 
@@ -550,18 +550,18 @@ range: 48930410 50329730
 
 --> Working on: FREUT 10
 Finished: 10
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:11 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:11 hour fcst:
 
-range: 0 700049
-./tempOper_2018010320.grib2
-matched a variable 59:47574517:d=2018010320:UGRD:10 m above ground:11 hour fcst:
+range: 0 683528
+./tempOper_2018010416.grib2
+matched a variable 59:47330353:d=2018010416:UGRD:10 m above ground:11 hour fcst:
 
-range: 47574517 48975826
-./tempOper_2018010320.grib2
-matched a variable 60:48975827:d=2018010320:VGRD:10 m above ground:11 hour fcst:
+range: 47330353 48705402
+./tempOper_2018010416.grib2
+matched a variable 60:48705403:d=2018010416:VGRD:10 m above ground:11 hour fcst:
 
-range: 48975827 50375603
+range: 48705403 50099567
 
 --> Working on: UTPKL 11
 
@@ -599,18 +599,18 @@ range: 48975827 50375603
 
 --> Working on: FREUT 11
 Finished: 11
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:12 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:12 hour fcst:
 
-range: 0 705480
-./tempOper_2018010320.grib2
-matched a variable 59:47661246:d=2018010320:UGRD:10 m above ground:12 hour fcst:
+range: 0 682733
+./tempOper_2018010416.grib2
+matched a variable 59:47267945:d=2018010416:UGRD:10 m above ground:12 hour fcst:
 
-range: 47661246 49064285
-./tempOper_2018010320.grib2
-matched a variable 60:49064286:d=2018010320:VGRD:10 m above ground:12 hour fcst:
+range: 47267945 48648751
+./tempOper_2018010416.grib2
+matched a variable 60:48648752:d=2018010416:VGRD:10 m above ground:12 hour fcst:
 
-range: 49064286 50464346
+range: 48648752 50050457
 
 --> Working on: UTPKL 12
 
@@ -648,18 +648,18 @@ range: 49064286 50464346
 
 --> Working on: FREUT 12
 Finished: 12
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:13 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:13 hour fcst:
 
-range: 0 709276
-./tempOper_2018010320.grib2
-matched a variable 59:47709081:d=2018010320:UGRD:10 m above ground:13 hour fcst:
+range: 0 691823
+./tempOper_2018010416.grib2
+matched a variable 59:47460026:d=2018010416:UGRD:10 m above ground:13 hour fcst:
 
-range: 47709081 49097151
-./tempOper_2018010320.grib2
-matched a variable 60:49097152:d=2018010320:VGRD:10 m above ground:13 hour fcst:
+range: 47460026 48845845
+./tempOper_2018010416.grib2
+matched a variable 60:48845846:d=2018010416:VGRD:10 m above ground:13 hour fcst:
 
-range: 49097152 50496717
+range: 48845846 50251930
 
 --> Working on: UTPKL 13
 
@@ -697,18 +697,18 @@ range: 49097152 50496717
 
 --> Working on: FREUT 13
 Finished: 13
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:14 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:14 hour fcst:
 
-range: 0 712621
-./tempOper_2018010320.grib2
-matched a variable 59:47719123:d=2018010320:UGRD:10 m above ground:14 hour fcst:
+range: 0 698689
+./tempOper_2018010416.grib2
+matched a variable 59:47440028:d=2018010416:UGRD:10 m above ground:14 hour fcst:
 
-range: 47719123 49122871
-./tempOper_2018010320.grib2
-matched a variable 60:49122872:d=2018010320:VGRD:10 m above ground:14 hour fcst:
+range: 47440028 48830191
+./tempOper_2018010416.grib2
+matched a variable 60:48830192:d=2018010416:VGRD:10 m above ground:14 hour fcst:
 
-range: 49122872 50521558
+range: 48830192 50240118
 
 --> Working on: UTPKL 14
 
@@ -746,18 +746,18 @@ range: 49122872 50521558
 
 --> Working on: FREUT 14
 Finished: 14
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:15 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:15 hour fcst:
 
-range: 0 714882
-./tempOper_2018010320.grib2
-matched a variable 59:47653081:d=2018010320:UGRD:10 m above ground:15 hour fcst:
+range: 0 702988
+./tempOper_2018010416.grib2
+matched a variable 59:47701425:d=2018010416:UGRD:10 m above ground:15 hour fcst:
 
-range: 47653081 49055508
-./tempOper_2018010320.grib2
-matched a variable 60:49055509:d=2018010320:VGRD:10 m above ground:15 hour fcst:
+range: 47701425 49094343
+./tempOper_2018010416.grib2
+matched a variable 60:49094344:d=2018010416:VGRD:10 m above ground:15 hour fcst:
 
-range: 49055509 50453772
+range: 49094344 50507846
 
 --> Working on: UTPKL 15
 
@@ -795,18 +795,18 @@ range: 49055509 50453772
 
 --> Working on: FREUT 15
 Finished: 15
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:16 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:16 hour fcst:
 
-range: 0 706862
-./tempOper_2018010320.grib2
-matched a variable 59:47676391:d=2018010320:UGRD:10 m above ground:16 hour fcst:
+range: 0 704160
+./tempOper_2018010416.grib2
+matched a variable 59:47918319:d=2018010416:UGRD:10 m above ground:16 hour fcst:
 
-range: 47676391 49080730
-./tempOper_2018010320.grib2
-matched a variable 60:49080731:d=2018010320:VGRD:10 m above ground:16 hour fcst:
+range: 47918319 49313200
+./tempOper_2018010416.grib2
+matched a variable 60:49313201:d=2018010416:VGRD:10 m above ground:16 hour fcst:
 
-range: 49080731 50495500
+range: 49313201 50729251
 
 --> Working on: UTPKL 16
 
@@ -844,18 +844,18 @@ range: 49080731 50495500
 
 --> Working on: FREUT 16
 Finished: 16
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:17 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:17 hour fcst:
 
-range: 0 700084
-./tempOper_2018010320.grib2
-matched a variable 59:47619997:d=2018010320:UGRD:10 m above ground:17 hour fcst:
+range: 0 702163
+./tempOper_2018010416.grib2
+matched a variable 59:47933440:d=2018010416:UGRD:10 m above ground:17 hour fcst:
 
-range: 47619997 49027890
-./tempOper_2018010320.grib2
-matched a variable 60:49027891:d=2018010320:VGRD:10 m above ground:17 hour fcst:
+range: 47933440 49331153
+./tempOper_2018010416.grib2
+matched a variable 60:49331154:d=2018010416:VGRD:10 m above ground:17 hour fcst:
 
-range: 49027891 50445655
+range: 49331154 50750193
 
 --> Working on: UTPKL 17
 
@@ -893,18 +893,18 @@ range: 49027891 50445655
 
 --> Working on: FREUT 17
 Finished: 17
-./tempOper_2018010320.grib2
-matched a variable 1:0:d=2018010320:REFC:entire atmosphere:18 hour fcst:
+./tempOper_2018010416.grib2
+matched a variable 1:0:d=2018010416:REFC:entire atmosphere:18 hour fcst:
 
-range: 0 684495
-./tempOper_2018010320.grib2
-matched a variable 59:47616525:d=2018010320:UGRD:10 m above ground:18 hour fcst:
+range: 0 704742
+./tempOper_2018010416.grib2
+matched a variable 59:47988539:d=2018010416:UGRD:10 m above ground:18 hour fcst:
 
-range: 47616525 49018845
-./tempOper_2018010320.grib2
-matched a variable 60:49018846:d=2018010320:VGRD:10 m above ground:18 hour fcst:
+range: 47988539 49375686
+./tempOper_2018010416.grib2
+matched a variable 60:49375687:d=2018010416:VGRD:10 m above ground:18 hour fcst:
 
-range: 49018846 50432146
+range: 49375687 50780050
 
 --> Working on: UTPKL 18
 

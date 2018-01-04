@@ -71,7 +71,7 @@ spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
                                   'contour':range(20, 100, 20)}}
 
 # For Hovmoller statistics, define the half box.
-# The demisions of the box will be (halfbox*2)*3km**2. 
+# The dimensions of the box will be (halfbox*2)*3km**2. 
 # ex. if halfbox=3, then the variable statistics will be calculeted for a 18km**2 box
 # centered at the station latitude/longitude.
 half_box = 9

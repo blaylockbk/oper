@@ -59,7 +59,7 @@ from BB_data.grid_manager import pluck_point_new
 from BB_wx_calcs.wind import wind_uv_to_spd, wind_spddir_to_uv
 from BB_wx_calcs.units import *
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
-from BB_data.active_fires import download_fire_perimiter_shapefile
+from BB_data.active_fires import download_fire_perimeter_shapefile
 
 get_today = datetime.strftime(date.today(), "%Y-%m-%d")
 daylight = time.daylight # If daylight is on (1) then subtract from timezone.
@@ -86,8 +86,11 @@ fires = np.genfromtxt(text, names=True, dtype=None,delimiter='\t')
 print "There are", len(fires), "large fires."
 
 # 1.1) Download most recent active fire perimeters shapefile
-download_fire_perimiter_shapefile()
-print "Downloaded the most recent active fire perimeters."
+try:
+    download_fire_perimeter_shapefile()
+    print "Downloaded the most recent active fire perimeters."
+except:
+    print "Can not download new fire perimeters. Using old file."
 
 # 1) Locations (dictionary)
 location = {}
