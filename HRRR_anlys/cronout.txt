@@ -6,71 +6,71 @@
 
 
 Working on 1hr Accumulated Precipitation
-finished multiprocessing in 0:00:05.425912 on 32 processers
-finished multiprocessing in 0:00:05.173112 on 32 processers
-finished multiprocessing in 0:00:06.582149 on 32 processers
-finished multiprocessing in 0:00:06.881416 on 32 processers
-finished multiprocessing in 0:00:06.534317 on 32 processers
-finished multiprocessing in 0:00:06.381009 on 32 processers
-finished multiprocessing in 0:00:06.520627 on 32 processers
-finished multiprocessing in 0:00:06.483260 on 32 processers
-finished multiprocessing in 0:00:07.327574 on 32 processers
-finished multiprocessing in 0:00:08.187904 on 32 processers
-finished multiprocessing in 0:00:06.295651 on 32 processers
-finished multiprocessing in 0:00:06.769619 on 32 processers
-finished multiprocessing in 0:00:12.085685 on 32 processers
-finished multiprocessing in 0:00:10.371457 on 32 processers
-finished multiprocessing in 0:00:09.632169 on 32 processers
-finished multiprocessing in 0:00:06.433671 on 32 processers
-finished multiprocessing in 0:00:06.879539 on 32 processers
-finished multiprocessing in 0:00:14.005620 on 32 processers
-finished multiprocessing in 0:00:05.949096 on 32 processers
+finished multiprocessing in 0:00:05.139644 on 32 processers
+finished multiprocessing in 0:00:05.521324 on 32 processers
+finished multiprocessing in 0:00:06.362108 on 32 processers
+finished multiprocessing in 0:00:09.839526 on 32 processers
+finished multiprocessing in 0:00:07.165634 on 32 processers
+finished multiprocessing in 0:00:07.045940 on 32 processers
+finished multiprocessing in 0:00:06.417170 on 32 processers
+finished multiprocessing in 0:00:06.413153 on 32 processers
+finished multiprocessing in 0:00:07.096467 on 32 processers
+finished multiprocessing in 0:00:06.823524 on 32 processers
+finished multiprocessing in 0:00:06.352561 on 32 processers
+finished multiprocessing in 0:00:05.913398 on 32 processers
+finished multiprocessing in 0:00:06.416532 on 32 processers
+finished multiprocessing in 0:00:17.973096 on 32 processers
+finished multiprocessing in 0:00:06.995437 on 32 processers
+finished multiprocessing in 0:00:06.739575 on 32 processers
+finished multiprocessing in 0:00:06.497736 on 32 processers
+finished multiprocessing in 0:00:06.555887 on 32 processers
+finished multiprocessing in 0:00:15.251990 on 32 processers
 
 Working on NAA 1hr Accumulated Precipitation
 
 Working on C8635 1hr Accumulated Precipitation
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201801020000&end=201801040000&vars=precip_accum_five_minute&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201801030000&end=201801050000&vars=precip_accum_five_minute&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201801030000&end=201801050000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201801030000&end=201801050000&vars=precip_accum&obtimezone=utc&output=json
 
 Working on KSLC 1hr Accumulated Precipitation
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201801020000&end=201801040000&vars=precip_accum_five_minute&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201801020000&end=201801040000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201801030000&end=201801050000&vars=precip_accum_five_minute&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201801030000&end=201801050000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201801030000&end=201801050000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201801030000&end=201801050000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on UFD09 1hr Accumulated Precipitation
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201801020000&end=201801040000&vars=precip_accum_five_minute&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201801020000&end=201801040000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201801030000&end=201801050000&vars=precip_accum_five_minute&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201801030000&end=201801050000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201801030000&end=201801050000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201801030000&end=201801050000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on UKBKB 1hr Accumulated Precipitation
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201801020000&end=201801040000&vars=precip_accum_five_minute&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201801030000&end=201801050000&vars=precip_accum_five_minute&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201801030000&end=201801050000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201801030000&end=201801050000&vars=precip_accum&obtimezone=utc&output=json
 
 Working on UCC23 1hr Accumulated Precipitation
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum_five_minute&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801030000&end=201801050000&vars=precip_accum_five_minute&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801030000&end=201801050000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801030000&end=201801050000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801030000&end=201801050000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on WBB 1hr Accumulated Precipitation
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201801020000&end=201801040000&vars=precip_accum_five_minute&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201801020000&end=201801040000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201801030000&end=201801050000&vars=precip_accum_five_minute&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201801030000&end=201801050000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201801030000&end=201801050000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201801030000&end=201801050000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on FPS 1hr Accumulated Precipitation
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201801020000&end=201801040000&vars=precip_accum_five_minute&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201801020000&end=201801040000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201801030000&end=201801050000&vars=precip_accum_five_minute&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201801030000&end=201801050000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201801030000&end=201801050000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201801030000&end=201801050000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on EYSC 1hr Accumulated Precipitation
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201801020000&end=201801040000&vars=precip_accum_five_minute&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201801030000&end=201801050000&vars=precip_accum_five_minute&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201801030000&end=201801050000&vars=precip_accum_one_hour&obtimezone=utc&output=json
 
 Working on GNI 1hr Accumulated Precipitation
 
@@ -79,25 +79,25 @@ Working on BFLAT 1hr Accumulated Precipitation
 Working on FREUT 1hr Accumulated Precipitation
 
 Working on Dew Point Temperature
-finished multiprocessing in 0:00:10.927142 on 32 processers
-finished multiprocessing in 0:00:05.285087 on 32 processers
-finished multiprocessing in 0:00:04.992805 on 32 processers
-finished multiprocessing in 0:00:04.988481 on 32 processers
-finished multiprocessing in 0:00:05.512314 on 32 processers
-finished multiprocessing in 0:00:04.844219 on 32 processers
-finished multiprocessing in 0:00:04.853826 on 32 processers
-finished multiprocessing in 0:00:06.125489 on 32 processers
-finished multiprocessing in 0:00:05.112269 on 32 processers
-finished multiprocessing in 0:00:04.989505 on 32 processers
-finished multiprocessing in 0:00:04.988217 on 32 processers
-finished multiprocessing in 0:00:05.378650 on 32 processers
-finished multiprocessing in 0:00:05.533310 on 32 processers
-finished multiprocessing in 0:00:04.983332 on 32 processers
-finished multiprocessing in 0:00:04.864067 on 32 processers
-finished multiprocessing in 0:00:07.490346 on 32 processers
-finished multiprocessing in 0:00:05.008110 on 32 processers
-finished multiprocessing in 0:00:06.898462 on 32 processers
-finished multiprocessing in 0:00:04.711777 on 32 processers
+finished multiprocessing in 0:00:35.522574 on 32 processers
+finished multiprocessing in 0:00:07.020429 on 32 processers
+finished multiprocessing in 0:00:04.935548 on 32 processers
+finished multiprocessing in 0:00:05.058163 on 32 processers
+finished multiprocessing in 0:00:04.809426 on 32 processers
+finished multiprocessing in 0:00:04.963459 on 32 processers
+finished multiprocessing in 0:00:05.183689 on 32 processers
+finished multiprocessing in 0:00:04.782493 on 32 processers
+finished multiprocessing in 0:00:05.104083 on 32 processers
+finished multiprocessing in 0:00:04.891159 on 32 processers
+finished multiprocessing in 0:00:05.034254 on 32 processers
+finished multiprocessing in 0:00:16.411129 on 32 processers
+finished multiprocessing in 0:00:05.098122 on 32 processers
+finished multiprocessing in 0:00:05.199889 on 32 processers
+finished multiprocessing in 0:00:13.423356 on 32 processers
+finished multiprocessing in 0:00:04.922585 on 32 processers
+finished multiprocessing in 0:00:04.868866 on 32 processers
+finished multiprocessing in 0:00:04.994380 on 32 processers
+finished multiprocessing in 0:00:04.882988 on 32 processers
 
 Working on NAA Dew Point Temperature
 
@@ -110,10 +110,6 @@ Working on UFD09 Dew Point Temperature
 Working on UKBKB Dew Point Temperature
 
 Working on UCC23 Dew Point Temperature
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=dew_point_temperature&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on WBB Dew Point Temperature
 
@@ -128,25 +124,25 @@ Working on BFLAT Dew Point Temperature
 Working on FREUT Dew Point Temperature
 
 Working on Wind Speed
-finished multiprocessing in 0:00:04.910309 on 32 processers
-finished multiprocessing in 0:00:04.947596 on 32 processers
-finished multiprocessing in 0:00:04.793793 on 32 processers
-finished multiprocessing in 0:00:04.837335 on 32 processers
-finished multiprocessing in 0:00:04.909284 on 32 processers
-finished multiprocessing in 0:00:05.063485 on 32 processers
-finished multiprocessing in 0:00:05.255402 on 32 processers
-finished multiprocessing in 0:00:04.829952 on 32 processers
-finished multiprocessing in 0:00:04.853045 on 32 processers
-finished multiprocessing in 0:00:05.007865 on 32 processers
-finished multiprocessing in 0:00:04.804382 on 32 processers
-finished multiprocessing in 0:00:04.635651 on 32 processers
-finished multiprocessing in 0:00:06.924140 on 32 processers
-finished multiprocessing in 0:00:04.988540 on 32 processers
-finished multiprocessing in 0:00:04.706129 on 32 processers
-finished multiprocessing in 0:00:05.862340 on 32 processers
-finished multiprocessing in 0:00:04.974604 on 32 processers
-finished multiprocessing in 0:00:05.051779 on 32 processers
-finished multiprocessing in 0:00:13.754330 on 32 processers
+finished multiprocessing in 0:00:05.239248 on 32 processers
+finished multiprocessing in 0:00:04.954508 on 32 processers
+finished multiprocessing in 0:00:04.801747 on 32 processers
+finished multiprocessing in 0:00:05.392457 on 32 processers
+finished multiprocessing in 0:00:04.695115 on 32 processers
+finished multiprocessing in 0:00:04.715113 on 32 processers
+finished multiprocessing in 0:00:04.897909 on 32 processers
+finished multiprocessing in 0:00:05.022262 on 32 processers
+finished multiprocessing in 0:00:04.997404 on 32 processers
+finished multiprocessing in 0:00:04.898838 on 32 processers
+finished multiprocessing in 0:00:05.291023 on 32 processers
+finished multiprocessing in 0:00:04.735391 on 32 processers
+finished multiprocessing in 0:00:04.893091 on 32 processers
+finished multiprocessing in 0:00:04.821673 on 32 processers
+finished multiprocessing in 0:00:04.941567 on 32 processers
+finished multiprocessing in 0:00:04.974943 on 32 processers
+finished multiprocessing in 0:00:04.745096 on 32 processers
+finished multiprocessing in 0:00:23.575170 on 32 processers
+finished multiprocessing in 0:00:04.938016 on 32 processers
 
 Working on NAA Wind Speed
 
@@ -159,10 +155,6 @@ Working on UFD09 Wind Speed
 Working on UKBKB Wind Speed
 
 Working on UCC23 Wind Speed
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=wind_speed&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on WBB Wind Speed
 
@@ -177,25 +169,25 @@ Working on BFLAT Wind Speed
 Working on FREUT Wind Speed
 
 Working on Air Temperature
-finished multiprocessing in 0:00:05.150981 on 32 processers
-finished multiprocessing in 0:00:05.259553 on 32 processers
-finished multiprocessing in 0:00:05.110691 on 32 processers
-finished multiprocessing in 0:00:05.166700 on 32 processers
-finished multiprocessing in 0:00:07.547065 on 32 processers
-finished multiprocessing in 0:00:05.042319 on 32 processers
-finished multiprocessing in 0:00:05.295932 on 32 processers
-finished multiprocessing in 0:00:05.191564 on 32 processers
-finished multiprocessing in 0:00:09.411306 on 32 processers
-finished multiprocessing in 0:00:05.305178 on 32 processers
-finished multiprocessing in 0:00:05.447344 on 32 processers
-finished multiprocessing in 0:00:05.277867 on 32 processers
-finished multiprocessing in 0:00:05.205717 on 32 processers
-finished multiprocessing in 0:00:05.671882 on 32 processers
-finished multiprocessing in 0:00:05.267229 on 32 processers
-finished multiprocessing in 0:00:05.288444 on 32 processers
-finished multiprocessing in 0:00:05.124495 on 32 processers
-finished multiprocessing in 0:00:05.367945 on 32 processers
-finished multiprocessing in 0:00:06.636160 on 32 processers
+finished multiprocessing in 0:00:05.327993 on 32 processers
+finished multiprocessing in 0:00:05.419556 on 32 processers
+finished multiprocessing in 0:00:05.949524 on 32 processers
+finished multiprocessing in 0:00:05.179530 on 32 processers
+finished multiprocessing in 0:00:05.349321 on 32 processers
+finished multiprocessing in 0:00:05.195917 on 32 processers
+finished multiprocessing in 0:00:05.298930 on 32 processers
+finished multiprocessing in 0:00:07.559681 on 32 processers
+finished multiprocessing in 0:00:05.521094 on 32 processers
+finished multiprocessing in 0:00:09.034784 on 32 processers
+finished multiprocessing in 0:00:05.485767 on 32 processers
+finished multiprocessing in 0:00:19.374802 on 32 processers
+finished multiprocessing in 0:00:06.000627 on 32 processers
+finished multiprocessing in 0:00:05.406728 on 32 processers
+finished multiprocessing in 0:00:15.226758 on 32 processers
+finished multiprocessing in 0:00:05.484414 on 32 processers
+finished multiprocessing in 0:00:05.470241 on 32 processers
+finished multiprocessing in 0:00:05.335943 on 32 processers
+finished multiprocessing in 0:00:05.479881 on 32 processers
 
 Working on NAA Air Temperature
 
@@ -208,10 +200,6 @@ Working on UFD09 Air Temperature
 Working on UKBKB Air Temperature
 
 Working on UCC23 Air Temperature
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=air_temp&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201801020000&end=201801040000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on WBB Air Temperature
 
