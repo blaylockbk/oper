@@ -58,7 +58,7 @@ mpl.rcParams['legend.framealpha'] = .75
 mpl.rcParams['legend.loc'] = 'best'
 mpl.rcParams['savefig.bbox'] = 'tight'
 mpl.rcParams['savefig.dpi'] = 100
-mpl.rcParams['savefig.transparent'] = True
+mpl.rcParams['savefig.transparent'] = False
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
@@ -164,6 +164,11 @@ location = {'Oaks': {'latitude':40.084,
             'ALT':{'latitude':40.571,
                    'longitude':-111.631,
                    'name':'Alta Top',
+                   'timezone': 7-daylight,
+                   'is MesoWest': True},
+            'SND':{'latitude':40.368386 ,
+                   'longitude':-111.593964,
+                   'name':'Sundance Summit',
                    'timezone': 7-daylight,
                    'is MesoWest': True}        
            }

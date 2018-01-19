@@ -176,6 +176,11 @@ locations = {'Oaks': {'latitude':40.084,
                    'longitude':-111.631,
                    'name':'Alta Top',
                    'timezone': 7-daylight,
+                   'is MesoWest': True},
+            'SND':{'latitude':40.368386 ,
+                   'longitude':-111.593964,
+                   'name':'Sundance Summit',
+                   'timezone': 7-daylight,
                    'is MesoWest': True} 
             }
 
