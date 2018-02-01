@@ -1,8 +1,8 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
 There are 19 large fires.
 Downloaded the most recent active fire perimeters.
-Local DATE: 2018-02-01 08:40:43.389560
-  UTC DATE: 2018-02-01 14:00:00
+Local DATE: 2018-02-01 09:40:47.027389
+  UTC DATE: 2018-02-01 15:00:00
 got temps
 got dwpt
 got wind
@@ -17,26 +17,26 @@ Couldn't draw any new shapes
 Couldn't draw any new shapes
 Couldn't draw any new shapes
 Couldn't draw any new shapes
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:anl:
+./tempOper_2018020115.grib2
+matched a variable 1:0:d=2018020115:REFC:entire atmosphere:anl:
 
-range: 0 600527
-./tempOper_2018020114.grib2
-matched a variable 59:43187691:d=2018020114:UGRD:10 m above ground:anl:
+range: 0 589647
+./tempOper_2018020115.grib2
+matched a variable 59:42722639:d=2018020115:UGRD:10 m above ground:anl:
 
-range: 43187691 44430049
-./tempOper_2018020114.grib2
-matched a variable 60:44430050:d=2018020114:VGRD:10 m above ground:anl:
+range: 42722639 43941704
+./tempOper_2018020115.grib2
+matched a variable 60:43941705:d=2018020115:VGRD:10 m above ground:anl:
 
-range: 44430050 45699528
-./tempOper_2018020114.grib2
-matched a variable 61:45699529:d=2018020114:WIND:10 m above ground:0-0 day max fcst:
+range: 43941705 45184739
+./tempOper_2018020115.grib2
+matched a variable 61:45184740:d=2018020115:WIND:10 m above ground:0-0 day max fcst:
 
-range: 45699529 46977570
-./tempOper_2018020114.grib2
-matched a variable 8:3605408:d=2018020114:GUST:surface:anl:
+range: 45184740 46439757
+./tempOper_2018020115.grib2
+matched a variable 8:3472503:d=2018020115:GUST:surface:anl:
 
-range: 3605408 4992431
+range: 3472503 4861008
 
 --> Working on: COYOTE 0
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f00.png
@@ -53,26 +53,26 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARM
 --> Working on: TX-TXS-000083 0
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f00.png
 Finished: 0
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:1 hour fcst:
+./tempOper_2018020115.grib2
+matched a variable 1:0:d=2018020115:REFC:entire atmosphere:1 hour fcst:
 
-range: 0 651025
-./tempOper_2018020114.grib2
-matched a variable 59:45298346:d=2018020114:UGRD:10 m above ground:1 hour fcst:
+range: 0 633344
+./tempOper_2018020115.grib2
+matched a variable 59:45234547:d=2018020115:UGRD:10 m above ground:1 hour fcst:
 
-range: 45298346 46552272
-./tempOper_2018020114.grib2
-matched a variable 60:46552273:d=2018020114:VGRD:10 m above ground:1 hour fcst:
+range: 45234547 46459319
+./tempOper_2018020115.grib2
+matched a variable 60:46459320:d=2018020115:VGRD:10 m above ground:1 hour fcst:
 
-range: 46552273 47826553
-./tempOper_2018020114.grib2
-matched a variable 61:47826554:d=2018020114:WIND:10 m above ground:0-1 hour max fcst:
+range: 46459320 47698305
+./tempOper_2018020115.grib2
+matched a variable 61:47698306:d=2018020115:WIND:10 m above ground:0-1 hour max fcst:
 
-range: 47826554 49068434
-./tempOper_2018020114.grib2
-matched a variable 8:3526087:d=2018020114:GUST:surface:1 hour fcst:
+range: 47698306 48913918
+./tempOper_2018020115.grib2
+matched a variable 8:3508274:d=2018020115:GUST:surface:1 hour fcst:
 
-range: 3526087 4943662
+range: 3508274 4886103
 
 --> Working on: COYOTE 1
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f01.png
@@ -89,616 +89,28 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARM
 --> Working on: TX-TXS-000083 1
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f01.png
 Finished: 1
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:2 hour fcst:
+./tempOper_2018020115.grib2
+matched a variable 1:0:d=2018020115:REFC:entire atmosphere:2 hour fcst:
 
-range: 0 669383
-./tempOper_2018020114.grib2
-matched a variable 59:45319334:d=2018020114:UGRD:10 m above ground:2 hour fcst:
+range: 0 631111
+./tempOper_2018020115.grib2
+matched a variable 59:44963194:d=2018020115:UGRD:10 m above ground:2 hour fcst:
 
-range: 45319334 46559835
-./tempOper_2018020114.grib2
-matched a variable 60:46559836:d=2018020114:VGRD:10 m above ground:2 hour fcst:
+range: 44963194 46181830
+./tempOper_2018020115.grib2
+matched a variable 60:46181831:d=2018020115:VGRD:10 m above ground:2 hour fcst:
 
-range: 46559836 47810915
-./tempOper_2018020114.grib2
-matched a variable 61:47810916:d=2018020114:WIND:10 m above ground:1-2 hour max fcst:
+range: 46181831 47409102
+./tempOper_2018020115.grib2
+matched a variable 61:47409103:d=2018020115:WIND:10 m above ground:1-2 hour max fcst:
 
-range: 47810916 49043472
-./tempOper_2018020114.grib2
-matched a variable 8:3579222:d=2018020114:GUST:surface:2 hour fcst:
+range: 47409103 48617830
+ ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180201/hrrr.t15z.wrfsfcf02.grib2
+ ! Is the variable right? WIND:10 m
+ ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180201/hrrr.t15z.wrfsfcf02.grib2.idx
+./tempOper_2018020115.grib2
+matched a variable 8:3527545:d=2018020115:GUST:surface:2 hour fcst:
 
-range: 3579222 4971271
+range: 3527545 4882084
 
 --> Working on: COYOTE 2
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f02.png
-
---> Working on: JADED THUNDER 2
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f02.png
-
---> Working on: BERRY 2
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f02.png
-
---> Working on: FARMERS ROAD 2
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f02.png
-
---> Working on: TX-TXS-000083 2
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f02.png
-Finished: 2
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:3 hour fcst:
-
-range: 0 653839
-./tempOper_2018020114.grib2
-matched a variable 59:45318036:d=2018020114:UGRD:10 m above ground:3 hour fcst:
-
-range: 45318036 46542609
-./tempOper_2018020114.grib2
-matched a variable 60:46542610:d=2018020114:VGRD:10 m above ground:3 hour fcst:
-
-range: 46542610 47776736
-./tempOper_2018020114.grib2
-matched a variable 61:47776737:d=2018020114:WIND:10 m above ground:2-3 hour max fcst:
-
-range: 47776737 48993091
-./tempOper_2018020114.grib2
-matched a variable 8:3674505:d=2018020114:GUST:surface:3 hour fcst:
-
-range: 3674505 5037493
-
---> Working on: COYOTE 3
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f03.png
-
---> Working on: JADED THUNDER 3
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f03.png
-
---> Working on: BERRY 3
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f03.png
-
---> Working on: FARMERS ROAD 3
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f03.png
-
---> Working on: TX-TXS-000083 3
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f03.png
-Finished: 3
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:4 hour fcst:
-
-range: 0 648001
-./tempOper_2018020114.grib2
-matched a variable 59:45231919:d=2018020114:UGRD:10 m above ground:4 hour fcst:
-
-range: 45231919 46458648
-./tempOper_2018020114.grib2
-matched a variable 60:46458649:d=2018020114:VGRD:10 m above ground:4 hour fcst:
-
-range: 46458649 47686881
-./tempOper_2018020114.grib2
-matched a variable 61:47686882:d=2018020114:WIND:10 m above ground:3-4 hour max fcst:
-
-range: 47686882 48890586
-./tempOper_2018020114.grib2
-matched a variable 8:3689158:d=2018020114:GUST:surface:4 hour fcst:
-
-range: 3689158 5040282
-
---> Working on: COYOTE 4
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f04.png
-
---> Working on: JADED THUNDER 4
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f04.png
-
---> Working on: BERRY 4
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f04.png
-
---> Working on: FARMERS ROAD 4
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f04.png
-
---> Working on: TX-TXS-000083 4
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f04.png
-Finished: 4
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:5 hour fcst:
-
-range: 0 651866
-./tempOper_2018020114.grib2
-matched a variable 59:45248962:d=2018020114:UGRD:10 m above ground:5 hour fcst:
-
-range: 45248962 46483375
-./tempOper_2018020114.grib2
-matched a variable 60:46483376:d=2018020114:VGRD:10 m above ground:5 hour fcst:
-
-range: 46483376 47710751
-./tempOper_2018020114.grib2
-matched a variable 61:47710752:d=2018020114:WIND:10 m above ground:4-5 hour max fcst:
-
-range: 47710752 48909677
-./tempOper_2018020114.grib2
-matched a variable 8:3730074:d=2018020114:GUST:surface:5 hour fcst:
-
-range: 3730074 5079467
-
---> Working on: COYOTE 5
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f05.png
-
---> Working on: JADED THUNDER 5
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f05.png
-
---> Working on: BERRY 5
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f05.png
-
---> Working on: FARMERS ROAD 5
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f05.png
-
---> Working on: TX-TXS-000083 5
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f05.png
-Finished: 5
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:6 hour fcst:
-
-range: 0 652925
-./tempOper_2018020114.grib2
-matched a variable 59:45366398:d=2018020114:UGRD:10 m above ground:6 hour fcst:
-
-range: 45366398 46608917
-./tempOper_2018020114.grib2
-matched a variable 60:46608918:d=2018020114:VGRD:10 m above ground:6 hour fcst:
-
-range: 46608918 47855698
-./tempOper_2018020114.grib2
-matched a variable 61:47855699:d=2018020114:WIND:10 m above ground:5-6 hour max fcst:
-
-range: 47855699 49054559
-./tempOper_2018020114.grib2
-matched a variable 8:3736124:d=2018020114:GUST:surface:6 hour fcst:
-
-range: 3736124 5096856
-
---> Working on: COYOTE 6
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f06.png
-
---> Working on: JADED THUNDER 6
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f06.png
-
---> Working on: BERRY 6
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f06.png
-
---> Working on: FARMERS ROAD 6
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f06.png
-
---> Working on: TX-TXS-000083 6
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f06.png
-Finished: 6
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:7 hour fcst:
-
-range: 0 665723
-./tempOper_2018020114.grib2
-matched a variable 59:45329778:d=2018020114:UGRD:10 m above ground:7 hour fcst:
-
-range: 45329778 46575747
-./tempOper_2018020114.grib2
-matched a variable 60:46575748:d=2018020114:VGRD:10 m above ground:7 hour fcst:
-
-range: 46575748 47807983
-./tempOper_2018020114.grib2
-matched a variable 61:47807984:d=2018020114:WIND:10 m above ground:6-7 hour max fcst:
-
-range: 47807984 49008921
-./tempOper_2018020114.grib2
-matched a variable 8:3690656:d=2018020114:GUST:surface:7 hour fcst:
-
-range: 3690656 5066802
-
---> Working on: COYOTE 7
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f07.png
-
---> Working on: JADED THUNDER 7
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f07.png
-
---> Working on: BERRY 7
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f07.png
-
---> Working on: FARMERS ROAD 7
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f07.png
-
---> Working on: TX-TXS-000083 7
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f07.png
-Finished: 7
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:8 hour fcst:
-
-range: 0 665073
-./tempOper_2018020114.grib2
-matched a variable 59:45270766:d=2018020114:UGRD:10 m above ground:8 hour fcst:
-
-range: 45270766 46514129
-./tempOper_2018020114.grib2
-matched a variable 60:46514130:d=2018020114:VGRD:10 m above ground:8 hour fcst:
-
-range: 46514130 47758603
-./tempOper_2018020114.grib2
-matched a variable 61:47758604:d=2018020114:WIND:10 m above ground:7-8 hour max fcst:
-
-range: 47758604 48957870
-./tempOper_2018020114.grib2
-matched a variable 8:3727620:d=2018020114:GUST:surface:8 hour fcst:
-
-range: 3727620 5107102
-
---> Working on: COYOTE 8
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f08.png
-
---> Working on: JADED THUNDER 8
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f08.png
-
---> Working on: BERRY 8
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f08.png
-
---> Working on: FARMERS ROAD 8
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f08.png
-
---> Working on: TX-TXS-000083 8
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f08.png
-Finished: 8
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:9 hour fcst:
-
-range: 0 668177
-./tempOper_2018020114.grib2
-matched a variable 59:45378237:d=2018020114:UGRD:10 m above ground:9 hour fcst:
-
-range: 45378237 46619565
-./tempOper_2018020114.grib2
-matched a variable 60:46619566:d=2018020114:VGRD:10 m above ground:9 hour fcst:
-
-range: 46619566 47848169
-./tempOper_2018020114.grib2
-matched a variable 61:47848170:d=2018020114:WIND:10 m above ground:8-9 hour max fcst:
-
-range: 47848170 49045370
-./tempOper_2018020114.grib2
-matched a variable 8:3721428:d=2018020114:GUST:surface:9 hour fcst:
-
-range: 3721428 5096224
-
---> Working on: COYOTE 9
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f09.png
-
---> Working on: JADED THUNDER 9
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f09.png
-
---> Working on: BERRY 9
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f09.png
-
---> Working on: FARMERS ROAD 9
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f09.png
-
---> Working on: TX-TXS-000083 9
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f09.png
-Finished: 9
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:10 hour fcst:
-
-range: 0 677164
-./tempOper_2018020114.grib2
-matched a variable 59:45483042:d=2018020114:UGRD:10 m above ground:10 hour fcst:
-
-range: 45483042 46726393
-./tempOper_2018020114.grib2
-matched a variable 60:46726394:d=2018020114:VGRD:10 m above ground:10 hour fcst:
-
-range: 46726394 47968438
-./tempOper_2018020114.grib2
-matched a variable 61:47968439:d=2018020114:WIND:10 m above ground:9-10 hour max fcst:
-
-range: 47968439 49172254
-./tempOper_2018020114.grib2
-matched a variable 8:3656898:d=2018020114:GUST:surface:10 hour fcst:
-
-range: 3656898 5041577
-
---> Working on: COYOTE 10
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f10.png
-
---> Working on: JADED THUNDER 10
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f10.png
-
---> Working on: BERRY 10
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f10.png
-
---> Working on: FARMERS ROAD 10
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f10.png
-
---> Working on: TX-TXS-000083 10
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f10.png
-Finished: 10
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:11 hour fcst:
-
-range: 0 682073
-./tempOper_2018020114.grib2
-matched a variable 59:45619927:d=2018020114:UGRD:10 m above ground:11 hour fcst:
-
-range: 45619927 46880381
-./tempOper_2018020114.grib2
-matched a variable 60:46880382:d=2018020114:VGRD:10 m above ground:11 hour fcst:
-
-range: 46880382 48147189
-./tempOper_2018020114.grib2
-matched a variable 61:48147190:d=2018020114:WIND:10 m above ground:10-11 hour max fcst:
-
-range: 48147190 49375382
-./tempOper_2018020114.grib2
-matched a variable 8:3676859:d=2018020114:GUST:surface:11 hour fcst:
-
-range: 3676859 5064777
-
---> Working on: COYOTE 11
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f11.png
-
---> Working on: JADED THUNDER 11
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f11.png
-
---> Working on: BERRY 11
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f11.png
-
---> Working on: FARMERS ROAD 11
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f11.png
-
---> Working on: TX-TXS-000083 11
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f11.png
-Finished: 11
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:12 hour fcst:
-
-range: 0 693445
-./tempOper_2018020114.grib2
-matched a variable 59:45719798:d=2018020114:UGRD:10 m above ground:12 hour fcst:
-
-range: 45719798 47011594
-./tempOper_2018020114.grib2
-matched a variable 60:47011595:d=2018020114:VGRD:10 m above ground:12 hour fcst:
-
-range: 47011595 48307593
-./tempOper_2018020114.grib2
-matched a variable 61:48307594:d=2018020114:WIND:10 m above ground:11-12 hour max fcst:
-
-range: 48307594 49569353
-./tempOper_2018020114.grib2
-matched a variable 8:3749285:d=2018020114:GUST:surface:12 hour fcst:
-
-range: 3749285 5151904
-
---> Working on: COYOTE 12
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f12.png
-
---> Working on: JADED THUNDER 12
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f12.png
-
---> Working on: BERRY 12
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f12.png
-
---> Working on: FARMERS ROAD 12
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f12.png
-
---> Working on: TX-TXS-000083 12
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f12.png
-Finished: 12
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:13 hour fcst:
-
-range: 0 701830
-./tempOper_2018020114.grib2
-matched a variable 59:46165448:d=2018020114:UGRD:10 m above ground:13 hour fcst:
-
-range: 46165448 47473830
-./tempOper_2018020114.grib2
-matched a variable 60:47473831:d=2018020114:VGRD:10 m above ground:13 hour fcst:
-
-range: 47473831 48803289
-./tempOper_2018020114.grib2
-matched a variable 61:48803290:d=2018020114:WIND:10 m above ground:12-13 hour max fcst:
-
-range: 48803290 50089846
-./tempOper_2018020114.grib2
-matched a variable 8:3899897:d=2018020114:GUST:surface:13 hour fcst:
-
-range: 3899897 5313667
-
---> Working on: COYOTE 13
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f13.png
-
---> Working on: JADED THUNDER 13
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f13.png
-
---> Working on: BERRY 13
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f13.png
-
---> Working on: FARMERS ROAD 13
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f13.png
-
---> Working on: TX-TXS-000083 13
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f13.png
-Finished: 13
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:14 hour fcst:
-
-range: 0 717154
-./tempOper_2018020114.grib2
-matched a variable 59:46243351:d=2018020114:UGRD:10 m above ground:14 hour fcst:
-
-range: 46243351 47561690
-./tempOper_2018020114.grib2
-matched a variable 60:47561691:d=2018020114:VGRD:10 m above ground:14 hour fcst:
-
-range: 47561691 48902870
-./tempOper_2018020114.grib2
-matched a variable 61:48902871:d=2018020114:WIND:10 m above ground:13-14 hour max fcst:
-
-range: 48902871 50202115
-./tempOper_2018020114.grib2
-matched a variable 8:3862549:d=2018020114:GUST:surface:14 hour fcst:
-
-range: 3862549 5285839
-
---> Working on: COYOTE 14
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f14.png
-
---> Working on: JADED THUNDER 14
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f14.png
-
---> Working on: BERRY 14
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f14.png
-
---> Working on: FARMERS ROAD 14
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f14.png
-
---> Working on: TX-TXS-000083 14
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f14.png
-Finished: 14
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:15 hour fcst:
-
-range: 0 721973
-./tempOper_2018020114.grib2
-matched a variable 59:46197942:d=2018020114:UGRD:10 m above ground:15 hour fcst:
-
-range: 46197942 47524296
-./tempOper_2018020114.grib2
-matched a variable 60:47524297:d=2018020114:VGRD:10 m above ground:15 hour fcst:
-
-range: 47524297 48874067
-./tempOper_2018020114.grib2
-matched a variable 61:48874068:d=2018020114:WIND:10 m above ground:14-15 hour max fcst:
-
-range: 48874068 50183012
-./tempOper_2018020114.grib2
-matched a variable 8:3777646:d=2018020114:GUST:surface:15 hour fcst:
-
-range: 3777646 5207792
-
---> Working on: COYOTE 15
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f15.png
-
---> Working on: JADED THUNDER 15
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f15.png
-
---> Working on: BERRY 15
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f15.png
-
---> Working on: FARMERS ROAD 15
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f15.png
-
---> Working on: TX-TXS-000083 15
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f15.png
-Finished: 15
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:16 hour fcst:
-
-range: 0 727452
-./tempOper_2018020114.grib2
-matched a variable 59:46456374:d=2018020114:UGRD:10 m above ground:16 hour fcst:
-
-range: 46456374 47789119
-./tempOper_2018020114.grib2
-matched a variable 60:47789120:d=2018020114:VGRD:10 m above ground:16 hour fcst:
-
-range: 47789120 49143307
-./tempOper_2018020114.grib2
-matched a variable 61:49143308:d=2018020114:WIND:10 m above ground:15-16 hour max fcst:
-
-range: 49143308 50458463
-./tempOper_2018020114.grib2
-matched a variable 8:3880983:d=2018020114:GUST:surface:16 hour fcst:
-
-range: 3880983 5316360
-
---> Working on: COYOTE 16
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f16.png
-
---> Working on: JADED THUNDER 16
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f16.png
-
---> Working on: BERRY 16
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f16.png
-
---> Working on: FARMERS ROAD 16
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f16.png
-
---> Working on: TX-TXS-000083 16
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f16.png
-Finished: 16
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:17 hour fcst:
-
-range: 0 728287
-./tempOper_2018020114.grib2
-matched a variable 59:46607827:d=2018020114:UGRD:10 m above ground:17 hour fcst:
-
-range: 46607827 47947554
-./tempOper_2018020114.grib2
-matched a variable 60:47947555:d=2018020114:VGRD:10 m above ground:17 hour fcst:
-
-range: 47947555 49306708
-./tempOper_2018020114.grib2
-matched a variable 61:49306709:d=2018020114:WIND:10 m above ground:16-17 hour max fcst:
-
-range: 49306709 50625871
-./tempOper_2018020114.grib2
-matched a variable 8:3884115:d=2018020114:GUST:surface:17 hour fcst:
-
-range: 3884115 5323751
-
---> Working on: COYOTE 17
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f17.png
-
---> Working on: JADED THUNDER 17
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f17.png
-
---> Working on: BERRY 17
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f17.png
-
---> Working on: FARMERS ROAD 17
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f17.png
-
---> Working on: TX-TXS-000083 17
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f17.png
-Finished: 17
-./tempOper_2018020114.grib2
-matched a variable 1:0:d=2018020114:REFC:entire atmosphere:18 hour fcst:
-
-range: 0 726326
-./tempOper_2018020114.grib2
-matched a variable 59:46646747:d=2018020114:UGRD:10 m above ground:18 hour fcst:
-
-range: 46646747 47991905
-./tempOper_2018020114.grib2
-matched a variable 60:47991906:d=2018020114:VGRD:10 m above ground:18 hour fcst:
-
-range: 47991906 49352354
-./tempOper_2018020114.grib2
-matched a variable 61:49352355:d=2018020114:WIND:10 m above ground:17-18 hour max fcst:
-
-range: 49352355 50674637
-./tempOper_2018020114.grib2
-matched a variable 8:3846649:d=2018020114:GUST:surface:18 hour fcst:
-
-range: 3846649 5293902
-
---> Working on: COYOTE 18
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COYOTE/f18.png
-
---> Working on: JADED THUNDER 18
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/JADED_THUNDER/f18.png
-
---> Working on: BERRY 18
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BERRY/f18.png
-
---> Working on: FARMERS ROAD 18
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FARMERS_ROAD/f18.png
-
---> Working on: TX-TXS-000083 18
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TX-TXS-000083/f18.png
-Finished: 18
-29.956 -103.681 38.923 -87.059

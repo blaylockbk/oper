@@ -14,6 +14,9 @@ import os
 import shutil
 import urllib2
 
+import matplotlib as mpl
+mpl.use('Agg')      # required for CRON job
+
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 
