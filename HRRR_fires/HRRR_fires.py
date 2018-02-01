@@ -44,7 +44,7 @@ mpl.rcParams['legend.framealpha'] = .75
 mpl.rcParams['legend.loc'] = 'best'
 mpl.rcParams['savefig.bbox'] = 'tight'
 mpl.rcParams['savefig.dpi'] = 100
-mpl.rcParams['savefig.transparent'] = True
+mpl.rcParams['savefig.transparent'] = False
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
@@ -180,15 +180,18 @@ for n in locs_idx:
                               verbose=False)
     #
     # Overlay Fire Perimeters
-    per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/fire_shapefiles/active_perimeters_dd83', 'perim', drawbounds=False)
-    patches = []
-    print 'finding fire perimeter patches for '+locName+' fire...',
-    for info, shape in zip(maps[locName].perim_info, maps[locName].perim):
-        # Check if the boundary is one of the large active fires
-        if info['FIRENAME'].upper() in location.keys():
-            patches.append(Polygon(np.array(shape), True) )
-    figs[locName][1].add_collection(PatchCollection(patches, facecolor='indianred', alpha=.65, edgecolor='k', linewidths=.1, zorder=1))
-    print 'Done!'
+    try:
+        per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/fire_shapefiles/active_perimeters_dd83', 'perim', drawbounds=False)
+        patches = []
+        print 'finding fire perimeter patches for '+locName+' fire...',
+        for info, shape in zip(maps[locName].perim_info, maps[locName].perim):
+            # Check if the boundary is one of the large active fires
+            if info['FIRENAME'].upper() in location.keys():
+                patches.append(Polygon(np.array(shape), True) )
+        figs[locName][1].add_collection(PatchCollection(patches, facecolor='indianred', alpha=.65, edgecolor='k', linewidths=.1, zorder=1))
+        print 'Done!'
+    except:
+        print "Couldn't draw any new shapes"
     """
     try:
         per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/perim','perim', drawbounds=False)
