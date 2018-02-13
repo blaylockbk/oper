@@ -166,11 +166,16 @@ location = {'Oaks': {'latitude':40.084,
                    'name':'Alta Top',
                    'timezone': 7-daylight,
                    'is MesoWest': True},
-            'SND':{'latitude':40.368386 ,
+            'SND':{'latitude':40.368386,
                    'longitude':-111.593964,
                    'name':'Sundance Summit',
                    'timezone': 7-daylight,
-                   'is MesoWest': True}        
+                   'is MesoWest': True},
+            'RACM4':{'latitude':46.358056,
+                     'longitude':-84.803889,
+                     'name':'Raco, Michigan',
+                     'timezone': 5-daylight,
+                     'is MesoWest': True}        
            }
 
 

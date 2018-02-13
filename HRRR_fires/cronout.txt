@@ -1,2 +1,1 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
-26.519 -101.559 37.684 -79.19
