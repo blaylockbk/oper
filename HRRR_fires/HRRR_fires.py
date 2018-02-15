@@ -62,11 +62,11 @@ from BB_basemap.draw_maps import draw_CONUS_cyl_map
 from BB_data.active_fires import download_fire_perimeter_shapefile
 from BB_cmap.landuse_colormap import LU_MODIS21
 
-get_today = datetime.strftime(date.today(), "%Y-%m-%d")
-daylight = time.daylight # If daylight is on (1) then subtract from timezone.
 
-# 1) Read in large fires file:
+
+## 1) Read in large fires file:
 #fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
+get_today = datetime.strftime(date.today(), "%Y-%m-%d")
 url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
 text = urllib2.urlopen(url)
 fires = np.genfromtxt(text, names=True, dtype=None,delimiter='\t')
@@ -86,14 +86,16 @@ fires = np.genfromtxt(text, names=True, dtype=None,delimiter='\t')
     # 12 COUNTY
 print "There are", len(fires), "large fires."
 
-# 1.1) Download most recent active fire perimeters shapefile
+
+## 2) Download most recent active fire perimeters shapefile
 try:
     download_fire_perimeter_shapefile()
     print "Downloaded the most recent active fire perimeters."
 except:
     print "Can not download new fire perimeters. Using old file."
 
-# 1) Locations (dictionary)
+
+## 3) Create Locations Dictionary
 location = {}
 for F in range(0,len(fires)):
     FIRE = fires[F]
@@ -116,14 +118,53 @@ for l in location:
     if l == 'BRIANHEAD':
         location[l]['is MesoWest'] = 'TT047'
 
-# 2) Get the HRRR data from NOMADS
+
+## 4) Create map objects for each fire and store in dictionary.
+#     This speeds up plotting by creating each map once.
+maps = {}
+for loc in location.keys():
+    l = location[loc]
+    m = Basemap(resolution='i', projection='cyl',\
+                llcrnrlon=l['longitude']-.75, llcrnrlat=l['latitude']-.75,\
+                urcrnrlon=l['longitude']+.75, urcrnrlat=l['latitude']+.75,)
+    maps[loc] = m  
+
+
+## 5) Create a landuse map for each the fire and surrounding area
+locs = location.keys() # a list of all the locations
+locs_idx = range(len(locs)) # a number index for each location
+LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
+cm, labels = LU_MODIS21()
+for n in locs_idx:
+    locName = locs[n]
+    l = location[locName]
+    LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/LandUse.png' % locName.replace(' ', '_')
+    if not os.path.exists(LU_SAVE):
+        plt.figure(100)
+        print "need to make", LU_SAVE
+        maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
+                                cmap=cm, vmin=1, vmax=len(labels) + 1,
+                                latlon=True)
+        cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
+        cb.set_ticks(np.arange(0.5, len(labels) + 1))
+        cb.ax.set_yticklabels(labels)
+        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='crimson', s=100, latlon=True)
+        maps[locName].drawstates()
+        maps[locName].drawcounties()
+        plt.title('Landuse near %s' % locName)
+        plt.savefig(LU_SAVE)  
+        print "created landuse maps for", locName
+        plt.close()
+
+
+## 6) Get the HRRR data from NOMADS
 DATE = datetime.utcnow() - timedelta(hours=1)
 DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
 
 print "Local DATE:", datetime.now()
 print "  UTC DATE:", DATE
 
-# 2.1) Pollywogs: Pluck HRRR value at all locations for each variable.
+# Pollywogs: Pluck HRRR value at all locations for each variable.
 #      These are dictionaries:
 #      {'DATETIME':[array of dates], 'station name': [values for each datetime], ...}
 P_temp = get_hrrr_pollywog_multi(DATE, 'TMP:2 m', location, verbose=False); print 'got temps'
@@ -135,7 +176,6 @@ P_v = get_hrrr_pollywog_multi(DATE, 'VGRD:10 m', location, verbose=False); print
 P_prec = get_hrrr_pollywog_multi(DATE, 'APCP:surface', location, verbose=False); print 'got prec'
 P_accum = {}
 P_ref = get_hrrr_pollywog_multi(DATE, 'REFC:entire atmosphere', location, verbose=False); print 'got composite reflectivity'
-
 
 # Convert the units of each Pollywog and each location
 for loc in location.keys():
@@ -150,47 +190,8 @@ for loc in location.keys():
     P_accum[loc] = np.add.accumulate(P_prec[loc])
 
 
-# Make a dictionary of map object for each location.
-# (This speeds up plotting by creating each map once.)
-maps = {}
-for loc in location.keys():
-    l = location[loc]
-    m = Basemap(resolution='i', projection='cyl',\
-                llcrnrlon=l['longitude']-.75, llcrnrlat=l['latitude']-.75,\
-                urcrnrlon=l['longitude']+.75, urcrnrlat=l['latitude']+.75,)
-    maps[loc] = m
 
-
-
-# Create a landuse map for each the fire and surrounding area
-locs = location.keys() # a list of all the locations
-locs_idx = range(len(locs)) # a number index for each location
-LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
-cm, labels = LU_MODIS21()
-for n in locs_idx:
-    locName = locs[n]
-    l = location[locName]
-    LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/LandUse.png' % locName.replace(' ', '_')
-    if not os.path.exists(LU_SAVE):
-        plt.clf()
-        plt.cla()
-        plt.figure(100)
-        print "need to make", LU_SAVE
-        maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
-                                cmap=cm, vmin=1, vmax=len(labels) + 1,
-                                latlon=True)
-        cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
-        cb.set_ticks(np.arange(0.5, len(labels) + 1))
-        cb.ax.set_yticklabels(labels)
-        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='crimson', s=100, latlon=True)
-        maps[locName].drawstates()
-        maps[locName].drawcounties()
-        plt.title('Landuse near %s' % locName)
-        plt.savefig(LU_SAVE)  
-print "created landuse maps"
-
-
-# Create a figure for each location. Add permenant elements to each.
+## 7) Main Figures: Create a figure for each location. Add permenant elements to each.
 print 'making permenant figure elements...'
 figs = {}
 locs = location.keys() # a list of all the locations
@@ -348,14 +349,14 @@ for fxx in range(0, 19):
             photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer_fire.php'
             os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
         # Title over map
-        if H['anlys'] != None:
+        if np.shape(H['value']) > 0:
             figs[locName][1].set_title('UTC: %s' % (DATE+timedelta(hours=fxx)))
             figs[locName][2].set_title('       Run (UTC): %s f%02d\nValid (UTC): %s' % (H['anlys'].strftime('%Y %b %d, %H:%M'), fxx, H['valid'].strftime('%Y %b %d, %H:%M')))
         else:
             figs[locName][1].set_title('UTC: %s' % (DATE+timedelta(hours=fxx)))
             figs[locName][2].set_title('       Run (UTC): %s f%02d\nValid (UTC): %s' % ('NOT AVAILABLE, CHECK NOMADS FOR FILE', fxx, 'NOT AVAILABLE, CHECK NOMADS FOR FILE'))
         #
-        if H['value'] != None:
+        if np.shape(H['value']) > 0:
             # Project on map
             X, Y = maps[locName](H['lon'], H['lat'])            # HRRR grid
             # Trim the data

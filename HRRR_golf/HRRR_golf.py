@@ -99,8 +99,6 @@ for n in locs_idx:
     l = location[locName]
     LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/LandUse.png' % locName.replace(' ', '_')
     if os.path.exists(LU_SAVE):
-        plt.clf()
-        plt.cla()
         plt.figure(100)
         print "need to make", LU_SAVE
         maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
@@ -115,6 +113,7 @@ for n in locs_idx:
         plt.title('Landuse near %s' % locName)
         plt.savefig(LU_SAVE)  
         print "created landuse maps for ", locName
+        plt.close()
 
 
 ## 4) Get the HRRR data from NOMADS
