@@ -170,8 +170,8 @@ cm, labels = LU_MODIS21()
 for n in locs_idx:
     locName = locs[n]
     l = location[locName]
-    LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/LandUse.png' % locName.replace(' ', '_')
-    if os.path.exists(LU_SAVE):
+    LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/LandUse.png' % locName.replace(' ', '_')
+    if not os.path.exists(LU_SAVE):
         plt.clf()
         plt.cla()
         plt.figure(100)
@@ -179,13 +179,13 @@ for n in locs_idx:
         maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
                                 cmap=cm, vmin=1, vmax=len(labels) + 1,
                                 latlon=True)
-        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='r', s=100, latlon=True)
-        maps[locName].drawstates()
-        maps[locName].drawcounties()
         cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
         cb.set_ticks(np.arange(0.5, len(labels) + 1))
         cb.ax.set_yticklabels(labels)
-        plt.title('%s fire land use' % locName)
+        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='crimson', s=100, latlon=True)
+        maps[locName].drawstates()
+        maps[locName].drawcounties()
+        plt.title('Landuse near %s' % locName)
         plt.savefig(LU_SAVE)  
 print "created landuse maps"
 

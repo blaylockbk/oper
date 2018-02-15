@@ -1,207 +1,27 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf
-Local DATE: 2018-02-15 10:30:24.544496
-  UTC DATE: 2018-02-15 16:00:00
+Local DATE: 2018-02-15 11:30:49.869552
+  UTC DATE: 2018-02-15 17:00:00
 plucking values from HRRR
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf09.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf09.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf10.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf10.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2
- ! Is the variable right? TMP:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2.idx
 got Temp
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf09.grib2
- ! Is the variable right? DPT:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf09.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2
- ! Is the variable right? DPT:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2
- ! Is the variable right? DPT:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2
- ! Is the variable right? DPT:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2
- ! Is the variable right? DPT:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2
- ! Is the variable right? DPT:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2
- ! Is the variable right? DPT:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2
- ! Is the variable right? DPT:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2
- ! Is the variable right? DPT:2 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2.idx
 got Dwpt
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2
- ! Is the variable right? WIND:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2
- ! Is the variable right? WIND:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2
- ! Is the variable right? WIND:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2
- ! Is the variable right? WIND:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2
- ! Is the variable right? WIND:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2
- ! Is the variable right? WIND:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2
- ! Is the variable right? WIND:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2
- ! Is the variable right? WIND:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2.idx
 got Wind
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2
- ! Is the variable right? GUST:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2
- ! Is the variable right? GUST:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2
- ! Is the variable right? GUST:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2
- ! Is the variable right? GUST:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2
- ! Is the variable right? GUST:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2
- ! Is the variable right? GUST:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2
- ! Is the variable right? GUST:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2
- ! Is the variable right? GUST:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2.idx
 got Gust
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf02.grib2
- ! Is the variable right? UGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf02.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2
- ! Is the variable right? UGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2
- ! Is the variable right? UGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2
- ! Is the variable right? UGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2
- ! Is the variable right? UGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2
- ! Is the variable right? UGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2
- ! Is the variable right? UGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2
- ! Is the variable right? UGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2
- ! Is the variable right? UGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2.idx
 got U10
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf08.grib2
- ! Is the variable right? VGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf08.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2
- ! Is the variable right? VGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2
- ! Is the variable right? VGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf12.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2
- ! Is the variable right? VGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2
- ! Is the variable right? VGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2
- ! Is the variable right? VGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2
- ! Is the variable right? VGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2
- ! Is the variable right? VGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2
- ! Is the variable right? VGRD:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2.idx
 got V10
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2
- ! Is the variable right? APCP:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf11.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2
- ! Is the variable right? APCP:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf13.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2
- ! Is the variable right? APCP:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf14.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2
- ! Is the variable right? APCP:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf15.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2
- ! Is the variable right? APCP:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf16.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2
- ! Is the variable right? APCP:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf17.grib2.idx
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2
- ! Is the variable right? APCP:surface
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf18.grib2.idx
 got Precip
 making permenant figure elements...
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:anl:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:anl:
 
-range: 0 819309
-./tempOper_2018021516.grib2
-matched a variable 59:43481363:d=2018021516:UGRD:10 m above ground:anl:
+range: 0 796139
+./tempOper_2018021517.grib2
+matched a variable 59:43195822:d=2018021517:UGRD:10 m above ground:anl:
 
-range: 43481363 44660871
-./tempOper_2018021516.grib2
-matched a variable 60:44660872:d=2018021516:VGRD:10 m above ground:anl:
+range: 43195822 44354748
+./tempOper_2018021517.grib2
+matched a variable 60:44354749:d=2018021517:VGRD:10 m above ground:anl:
 
-range: 44660872 45881340
+range: 44354749 45548200
 
 --> Working on: UTPKL 0
 
@@ -243,18 +63,18 @@ range: 44660872 45881340
 
 --> Working on: FREUT 0
 Finished: 0
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:1 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:1 hour fcst:
 
-range: 0 785071
-./tempOper_2018021516.grib2
-matched a variable 59:45502766:d=2018021516:UGRD:10 m above ground:1 hour fcst:
+range: 0 762845
+./tempOper_2018021517.grib2
+matched a variable 59:45137526:d=2018021517:UGRD:10 m above ground:1 hour fcst:
 
-range: 45502766 46698738
-./tempOper_2018021516.grib2
-matched a variable 60:46698739:d=2018021516:VGRD:10 m above ground:1 hour fcst:
+range: 45137526 46326767
+./tempOper_2018021517.grib2
+matched a variable 60:46326768:d=2018021517:VGRD:10 m above ground:1 hour fcst:
 
-range: 46698739 47925257
+range: 46326768 47540092
 
 --> Working on: UTPKL 1
 
@@ -296,18 +116,18 @@ range: 46698739 47925257
 
 --> Working on: FREUT 1
 Finished: 1
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:2 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:2 hour fcst:
 
-range: 0 790711
-./tempOper_2018021516.grib2
-matched a variable 59:45418380:d=2018021516:UGRD:10 m above ground:2 hour fcst:
+range: 0 763074
+./tempOper_2018021517.grib2
+matched a variable 59:45321456:d=2018021517:UGRD:10 m above ground:2 hour fcst:
 
-range: 45418380 46627833
-./tempOper_2018021516.grib2
-matched a variable 60:46627834:d=2018021516:VGRD:10 m above ground:2 hour fcst:
+range: 45321456 46530999
+./tempOper_2018021517.grib2
+matched a variable 60:46531000:d=2018021517:VGRD:10 m above ground:2 hour fcst:
 
-range: 46627834 47856311
+range: 46531000 47754891
 
 --> Working on: UTPKL 2
 
@@ -349,18 +169,18 @@ range: 46627834 47856311
 
 --> Working on: FREUT 2
 Finished: 2
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:3 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:3 hour fcst:
 
-range: 0 791930
-./tempOper_2018021516.grib2
-matched a variable 59:45569830:d=2018021516:UGRD:10 m above ground:3 hour fcst:
+range: 0 772667
+./tempOper_2018021517.grib2
+matched a variable 59:45292365:d=2018021517:UGRD:10 m above ground:3 hour fcst:
 
-range: 45569830 46792549
-./tempOper_2018021516.grib2
-matched a variable 60:46792550:d=2018021516:VGRD:10 m above ground:3 hour fcst:
+range: 45292365 46515729
+./tempOper_2018021517.grib2
+matched a variable 60:46515730:d=2018021517:VGRD:10 m above ground:3 hour fcst:
 
-range: 46792550 48026483
+range: 46515730 47747515
 
 --> Working on: UTPKL 3
 
@@ -402,18 +222,18 @@ range: 46792550 48026483
 
 --> Working on: FREUT 3
 Finished: 3
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:4 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:4 hour fcst:
 
-range: 0 805445
-./tempOper_2018021516.grib2
-matched a variable 59:45611961:d=2018021516:UGRD:10 m above ground:4 hour fcst:
+range: 0 765919
+./tempOper_2018021517.grib2
+matched a variable 59:45452814:d=2018021517:UGRD:10 m above ground:4 hour fcst:
 
-range: 45611961 46843533
-./tempOper_2018021516.grib2
-matched a variable 60:46843534:d=2018021516:VGRD:10 m above ground:4 hour fcst:
+range: 45452814 46683281
+./tempOper_2018021517.grib2
+matched a variable 60:46683282:d=2018021517:VGRD:10 m above ground:4 hour fcst:
 
-range: 46843534 48081201
+range: 46683282 47920116
 
 --> Working on: UTPKL 4
 
@@ -455,18 +275,18 @@ range: 46843534 48081201
 
 --> Working on: FREUT 4
 Finished: 4
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:5 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:5 hour fcst:
 
-range: 0 772924
-./tempOper_2018021516.grib2
-matched a variable 59:45426907:d=2018021516:UGRD:10 m above ground:5 hour fcst:
+range: 0 736518
+./tempOper_2018021517.grib2
+matched a variable 59:45243141:d=2018021517:UGRD:10 m above ground:5 hour fcst:
 
-range: 45426907 46662250
-./tempOper_2018021516.grib2
-matched a variable 60:46662251:d=2018021516:VGRD:10 m above ground:5 hour fcst:
+range: 45243141 46472321
+./tempOper_2018021517.grib2
+matched a variable 60:46472322:d=2018021517:VGRD:10 m above ground:5 hour fcst:
 
-range: 46662251 47902330
+range: 46472322 47705620
 
 --> Working on: UTPKL 5
 
@@ -508,18 +328,18 @@ range: 46662251 47902330
 
 --> Working on: FREUT 5
 Finished: 5
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:6 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:6 hour fcst:
 
-range: 0 742717
-./tempOper_2018021516.grib2
-matched a variable 59:45221278:d=2018021516:UGRD:10 m above ground:6 hour fcst:
+range: 0 701753
+./tempOper_2018021517.grib2
+matched a variable 59:44972092:d=2018021517:UGRD:10 m above ground:6 hour fcst:
 
-range: 45221278 46452886
-./tempOper_2018021516.grib2
-matched a variable 60:46452887:d=2018021516:VGRD:10 m above ground:6 hour fcst:
+range: 44972092 46196622
+./tempOper_2018021517.grib2
+matched a variable 60:46196623:d=2018021517:VGRD:10 m above ground:6 hour fcst:
 
-range: 46452887 47689664
+range: 46196623 47428646
 
 --> Working on: UTPKL 6
 
@@ -561,18 +381,18 @@ range: 46452887 47689664
 
 --> Working on: FREUT 6
 Finished: 6
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:7 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:7 hour fcst:
 
-range: 0 719102
-./tempOper_2018021516.grib2
-matched a variable 59:45183605:d=2018021516:UGRD:10 m above ground:7 hour fcst:
+range: 0 682848
+./tempOper_2018021517.grib2
+matched a variable 59:44737754:d=2018021517:UGRD:10 m above ground:7 hour fcst:
 
-range: 45183605 46409772
-./tempOper_2018021516.grib2
-matched a variable 60:46409773:d=2018021516:VGRD:10 m above ground:7 hour fcst:
+range: 44737754 45962421
+./tempOper_2018021517.grib2
+matched a variable 60:45962422:d=2018021517:VGRD:10 m above ground:7 hour fcst:
 
-range: 46409773 47643181
+range: 45962422 47198575
 
 --> Working on: UTPKL 7
 
@@ -614,18 +434,18 @@ range: 46409773 47643181
 
 --> Working on: FREUT 7
 Finished: 7
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:8 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:8 hour fcst:
 
-range: 0 707950
-./tempOper_2018021516.grib2
-matched a variable 59:45063753:d=2018021516:UGRD:10 m above ground:8 hour fcst:
+range: 0 670052
+./tempOper_2018021517.grib2
+matched a variable 59:45101396:d=2018021517:UGRD:10 m above ground:8 hour fcst:
 
-range: 45063753 46289869
-./tempOper_2018021516.grib2
-matched a variable 60:46289870:d=2018021516:VGRD:10 m above ground:8 hour fcst:
+range: 45101396 46337285
+./tempOper_2018021517.grib2
+matched a variable 60:46337286:d=2018021517:VGRD:10 m above ground:8 hour fcst:
 
-range: 46289870 47527152
+range: 46337286 47593074
 
 --> Working on: UTPKL 8
 
@@ -667,18 +487,18 @@ range: 46289870 47527152
 
 --> Working on: FREUT 8
 Finished: 8
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:9 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:9 hour fcst:
 
-range: 0 703072
-./tempOper_2018021516.grib2
-matched a variable 59:45223859:d=2018021516:UGRD:10 m above ground:9 hour fcst:
+range: 0 672935
+./tempOper_2018021517.grib2
+matched a variable 59:45227305:d=2018021517:UGRD:10 m above ground:9 hour fcst:
 
-range: 45223859 46461739
-./tempOper_2018021516.grib2
-matched a variable 60:46461740:d=2018021516:VGRD:10 m above ground:9 hour fcst:
+range: 45227305 46491434
+./tempOper_2018021517.grib2
+matched a variable 60:46491435:d=2018021517:VGRD:10 m above ground:9 hour fcst:
 
-range: 46461740 47717882
+range: 46491435 47775692
 
 --> Working on: UTPKL 9
 
@@ -720,18 +540,18 @@ range: 46461740 47717882
 
 --> Working on: FREUT 9
 Finished: 9
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:10 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:10 hour fcst:
 
-range: 0 699019
-./tempOper_2018021516.grib2
-matched a variable 59:45399782:d=2018021516:UGRD:10 m above ground:10 hour fcst:
+range: 0 667096
+./tempOper_2018021517.grib2
+matched a variable 59:45489713:d=2018021517:UGRD:10 m above ground:10 hour fcst:
 
-range: 45399782 46663673
-./tempOper_2018021516.grib2
-matched a variable 60:46663674:d=2018021516:VGRD:10 m above ground:10 hour fcst:
+range: 45489713 46774463
+./tempOper_2018021517.grib2
+matched a variable 60:46774464:d=2018021517:VGRD:10 m above ground:10 hour fcst:
 
-range: 46663674 47947423
+range: 46774464 48079020
 
 --> Working on: UTPKL 10
 
@@ -773,18 +593,18 @@ range: 46663674 47947423
 
 --> Working on: FREUT 10
 Finished: 10
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:11 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:11 hour fcst:
 
-range: 0 691609
-./tempOper_2018021516.grib2
-matched a variable 59:45616198:d=2018021516:UGRD:10 m above ground:11 hour fcst:
+range: 0 660377
+./tempOper_2018021517.grib2
+matched a variable 59:45631134:d=2018021517:UGRD:10 m above ground:11 hour fcst:
 
-range: 45616198 46900431
-./tempOper_2018021516.grib2
-matched a variable 60:46900432:d=2018021516:VGRD:10 m above ground:11 hour fcst:
+range: 45631134 46927734
+./tempOper_2018021517.grib2
+matched a variable 60:46927735:d=2018021517:VGRD:10 m above ground:11 hour fcst:
 
-range: 46900432 48204623
+range: 46927735 48229365
 
 --> Working on: UTPKL 11
 
@@ -826,18 +646,18 @@ range: 46900432 48204623
 
 --> Working on: FREUT 11
 Finished: 11
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:12 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:12 hour fcst:
 
-range: 0 680694
-./tempOper_2018021516.grib2
-matched a variable 59:45704049:d=2018021516:UGRD:10 m above ground:12 hour fcst:
+range: 0 668779
+./tempOper_2018021517.grib2
+matched a variable 59:45715000:d=2018021517:UGRD:10 m above ground:12 hour fcst:
 
-range: 45704049 47013832
-./tempOper_2018021516.grib2
-matched a variable 60:47013833:d=2018021516:VGRD:10 m above ground:12 hour fcst:
+range: 45715000 47033761
+./tempOper_2018021517.grib2
+matched a variable 60:47033762:d=2018021517:VGRD:10 m above ground:12 hour fcst:
 
-range: 47013833 48314015
+range: 47033762 48343060
 
 --> Working on: UTPKL 12
 
@@ -879,18 +699,18 @@ range: 47013833 48314015
 
 --> Working on: FREUT 12
 Finished: 12
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:13 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:13 hour fcst:
 
-range: 0 681641
-./tempOper_2018021516.grib2
-matched a variable 59:45786657:d=2018021516:UGRD:10 m above ground:13 hour fcst:
+range: 0 677869
+./tempOper_2018021517.grib2
+matched a variable 59:45923789:d=2018021517:UGRD:10 m above ground:13 hour fcst:
 
-range: 45786657 47089074
-./tempOper_2018021516.grib2
-matched a variable 60:47089075:d=2018021516:VGRD:10 m above ground:13 hour fcst:
+range: 45923789 47232857
+./tempOper_2018021517.grib2
+matched a variable 60:47232858:d=2018021517:VGRD:10 m above ground:13 hour fcst:
 
-range: 47089075 48397346
+range: 47232858 48547603
 
 --> Working on: UTPKL 13
 
@@ -932,18 +752,18 @@ range: 47089075 48397346
 
 --> Working on: FREUT 13
 Finished: 13
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:14 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:14 hour fcst:
 
-range: 0 684973
-./tempOper_2018021516.grib2
-matched a variable 59:45913466:d=2018021516:UGRD:10 m above ground:14 hour fcst:
+range: 0 691131
+./tempOper_2018021517.grib2
+matched a variable 59:46069597:d=2018021517:UGRD:10 m above ground:14 hour fcst:
 
-range: 45913466 47221707
-./tempOper_2018021516.grib2
-matched a variable 60:47221708:d=2018021516:VGRD:10 m above ground:14 hour fcst:
+range: 46069597 47382685
+./tempOper_2018021517.grib2
+matched a variable 60:47382686:d=2018021517:VGRD:10 m above ground:14 hour fcst:
 
-range: 47221708 48535606
+range: 47382686 48699862
 
 --> Working on: UTPKL 14
 
@@ -985,18 +805,18 @@ range: 47221708 48535606
 
 --> Working on: FREUT 14
 Finished: 14
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:15 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:15 hour fcst:
 
-range: 0 700015
-./tempOper_2018021516.grib2
-matched a variable 59:46210613:d=2018021516:UGRD:10 m above ground:15 hour fcst:
+range: 0 708799
+./tempOper_2018021517.grib2
+matched a variable 59:46403937:d=2018021517:UGRD:10 m above ground:15 hour fcst:
 
-range: 46210613 47523869
-./tempOper_2018021516.grib2
-matched a variable 60:47523870:d=2018021516:VGRD:10 m above ground:15 hour fcst:
+range: 46403937 47721034
+./tempOper_2018021517.grib2
+matched a variable 60:47721035:d=2018021517:VGRD:10 m above ground:15 hour fcst:
 
-range: 47523870 48840292
+range: 47721035 49040451
 
 --> Working on: UTPKL 15
 
@@ -1038,18 +858,18 @@ range: 47523870 48840292
 
 --> Working on: FREUT 15
 Finished: 15
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:16 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:16 hour fcst:
 
-range: 0 710479
-./tempOper_2018021516.grib2
-matched a variable 59:46400342:d=2018021516:UGRD:10 m above ground:16 hour fcst:
+range: 0 731361
+./tempOper_2018021517.grib2
+matched a variable 59:46747227:d=2018021517:UGRD:10 m above ground:16 hour fcst:
 
-range: 46400342 47718361
-./tempOper_2018021516.grib2
-matched a variable 60:47718362:d=2018021516:VGRD:10 m above ground:16 hour fcst:
+range: 46747227 48069740
+./tempOper_2018021517.grib2
+matched a variable 60:48069741:d=2018021517:VGRD:10 m above ground:16 hour fcst:
 
-range: 47718362 49037260
+range: 48069741 49391426
 
 --> Working on: UTPKL 16
 
@@ -1091,18 +911,18 @@ range: 47718362 49037260
 
 --> Working on: FREUT 16
 Finished: 16
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:17 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:17 hour fcst:
 
-range: 0 721896
-./tempOper_2018021516.grib2
-matched a variable 59:46596733:d=2018021516:UGRD:10 m above ground:17 hour fcst:
+range: 0 739737
+./tempOper_2018021517.grib2
+matched a variable 59:46922189:d=2018021517:UGRD:10 m above ground:17 hour fcst:
 
-range: 46596733 47920344
-./tempOper_2018021516.grib2
-matched a variable 60:47920345:d=2018021516:VGRD:10 m above ground:17 hour fcst:
+range: 46922189 48252467
+./tempOper_2018021517.grib2
+matched a variable 60:48252468:d=2018021517:VGRD:10 m above ground:17 hour fcst:
 
-range: 47920345 49241041
+range: 48252468 49593465
 
 --> Working on: UTPKL 17
 
@@ -1144,18 +964,18 @@ range: 47920345 49241041
 
 --> Working on: FREUT 17
 Finished: 17
-./tempOper_2018021516.grib2
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:18 hour fcst:
+./tempOper_2018021517.grib2
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:18 hour fcst:
 
-range: 0 739825
-./tempOper_2018021516.grib2
-matched a variable 59:46842045:d=2018021516:UGRD:10 m above ground:18 hour fcst:
+range: 0 732234
+./tempOper_2018021517.grib2
+matched a variable 59:47117137:d=2018021517:UGRD:10 m above ground:18 hour fcst:
 
-range: 46842045 48172224
-./tempOper_2018021516.grib2
-matched a variable 60:48172225:d=2018021516:VGRD:10 m above ground:18 hour fcst:
+range: 47117137 48452204
+./tempOper_2018021517.grib2
+matched a variable 60:48452205:d=2018021517:VGRD:10 m above ground:18 hour fcst:
 
-range: 48172225 49496113
+range: 48452205 49797081
 
 --> Working on: UTPKL 18
 

@@ -27,6 +27,7 @@ from BB_downloads.HRRR_S3 import point_hrrr_time_series_multi, get_hrrr_hovmolle
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_STNinfo import get_station_info
 from matplotlib.dates import DateFormatter, HourLocator
+import location_dic
 
 ## Reset the defaults (see more here: http://matplotlib.org/users/customizing.html)
 mpl.rcParams['figure.figsize'] = [15, 6]
@@ -84,105 +85,8 @@ spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
 half_box = 9
 
 #==============================================================================
-daylight = time.daylight # If daylight is on (1) then subtract from timezone.
-
-# 1) Locations (dictionary)
-locations = {'Oaks': {'latitude':40.084,
-                      'longitude':-111.598,
-                      'name':'Spanish Oaks Golf Course',
-                      'timezone': 7-daylight,        # Timezone offset from UTC
-                      'is MesoWest': False},         # Is the Key a MesoWest ID?
-             'UKBKB': {'latitude':40.09867,
-                       'longitude':-111.62767,
-                       'name':'Spanish Fork Bench',
-                       'timezone': 7-daylight,
-                       'is MesoWest': True},
-             'KSLC':{'latitude':40.77069,
-                     'longitude':-111.96503,
-                     'name':'Salt Lake International Airport',
-                     'timezone': 7-daylight,
-                     'is MesoWest': True},
-             'WBB':{'latitude':40.76623,
-                    'longitude':-111.84755,
-                    'name':'William Browning Building',
-                    'timezone': 7-daylight,
-                    'is MesoWest': True},
-             'FREUT':{'latitude':41.15461,
-                      'longitude':-112.32998,
-                      'name':'Fremont Island - Miller Hill',
-                      'timezone': 7-daylight,
-                      'is MesoWest': True},
-             'GNI':{'latitude':41.33216,
-                    'longitude':-112.85432,
-                    'name':'Gunnison Island',
-                    'timezone': 7-daylight,
-                    'is MesoWest': True},
-             'NAA':{'latitude':40.71152,
-                    'longitude':-112.01448,
-                    'name':'Neil Armstrong Academy',
-                    'timezone': 7-daylight,
-                    'is MesoWest': True},
-             'UtahLake':{'latitude':40.159,
-                         'longitude':-111.778,
-                         'name':'Utah Lake',
-                         'timezone': 7-daylight,
-                         'is MesoWest': False},
-             'UTPKL':{'latitude':40.98985,
-                      'longitude':-111.90130,
-                      'name':'Lagoon (UTPKL)',
-                      'timezone': 7-daylight,
-                      'is MesoWest': True},
-             'Orderville':{'latitude':37.276,
-                           'longitude':-112.638,
-                           'name':'Orderville',
-                           'timezone': 7-daylight,
-                           'is MesoWest': False},
-             'BFLAT':{'latitude':40.784,
-                      'longitude':-113.829,
-                      'name':'Bonneville Salt Flats',
-                      'timezone': 7-daylight,
-                      'is MesoWest': True},
-             'UFD09':{'latitude':40.925,
-                      'longitude':-112.159,
-                      'name':'Antelope Island',
-                      'timezone': 7-daylight,
-                      'is MesoWest': True},
-             'C8635':{'latitude':41.11112,
-                      'longitude':-111.96229,
-                      'name':'Hill Air Force Base (CW8635)',
-                      'timezone': 7-daylight,
-                      'is MesoWest': True},
-             'FPS':{'latitude':40.45689,
-                    'longitude':-111.90483,
-                    'name':'Flight Park South',
-                    'timezone': 7-daylight,
-                    'is MesoWest': True},
-             'EYSC':{'latitude':40.24715,
-                     'longitude':-111.65001,
-                     'name':'Brigham Young University',
-                     'timezone': 7-daylight,
-                     'is MesoWest': True},
-             'UCC23':{'latitude':41.7665,
-                      'longitude':-111.8105,
-                      'name':'North Logan',
-                      'timezone': 7-daylight,
-                      'is MesoWest': True},
-             'KIDA':{'latitude':43.52083,
-                     'longitude':-112.06611,
-                     'name':'Idaho Falls',
-                     'timezone': 7-daylight,
-                     'is MesoWest': True},
-            'ALT':{'latitude':40.571,
-                   'longitude':-111.631,
-                   'name':'Alta Top',
-                   'timezone': 7-daylight,
-                   'is MesoWest': True},
-            'SND':{'latitude':40.368386 ,
-                   'longitude':-111.593964,
-                   'name':'Sundance Summit',
-                   'timezone': 7-daylight,
-                   'is MesoWest': True} 
-            }
+# 1) Get Locations Dictionary
+location = location_dic.get_all()
 
 for s in spex:
     S = spex[s]

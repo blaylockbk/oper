@@ -2,8 +2,8 @@
 26.519 -101.559 37.684 -79.19
 There are 19 large fires.
 Downloaded the most recent active fire perimeters.
-Local DATE: 2018-02-15 10:40:59.984304
-  UTC DATE: 2018-02-15 16:00:00
+Local DATE: 2018-02-15 11:40:50.469270
+  UTC DATE: 2018-02-15 17:00:00
 got temps
 got dwpt
 got wind
@@ -26,56 +26,56 @@ Couldn't draw any new shapes
 Couldn't draw any new shapes
 Couldn't draw any new shapes
 Couldn't draw any new shapes
-./temp_2018021516_f00_REF.grib2
+./temp_2018021517_f00_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:anl:
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:anl:
 
-range: 0 819309
-./temp_2018021516_f00_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:43481363:d=2018021516:UGRD:10 m above ground:anl:
-
-range: 43481363 44660871
-./temp_2018021516_f00_VGR.grib2
+range: 0 796139
+./temp_2018021517_f00_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:44660872:d=2018021516:VGRD:10 m above ground:anl:
+matched a variable 59:43195822:d=2018021517:UGRD:10 m above ground:anl:
 
-range: 44660872 45881340
-./temp_2018021516_f00_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:45881341:d=2018021516:WIND:10 m above ground:0-0 day max fcst:
-
-range: 45881341 47111284
-./temp_2018021516_f00_GUS.grib2
+range: 43195822 44354748
+./temp_2018021517_f00_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3872164:d=2018021516:GUST:surface:anl:
+matched a variable 60:44354749:d=2018021517:VGRD:10 m above ground:anl:
 
-range: 3872164 5237076
+range: 44354749 45548200
+./temp_2018021517_f00_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:45548201:d=2018021517:WIND:10 m above ground:0-0 day max fcst:
+
+range: 45548201 46755965
+./temp_2018021517_f00_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3777164:d=2018021517:GUST:surface:anl:
+
+range: 3777164 5099758
 
 --> Working on: WINDMILL 0
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f00.png
@@ -98,56 +98,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST
 --> Working on: CHIP (47) 0
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f00.png
 Finished: 0
-./temp_2018021516_f01_REF.grib2
+./temp_2018021517_f01_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:1 hour fcst:
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:1 hour fcst:
 
-range: 0 785071
-./temp_2018021516_f01_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45502766:d=2018021516:UGRD:10 m above ground:1 hour fcst:
-
-range: 45502766 46698738
-./temp_2018021516_f01_VGR.grib2
+range: 0 762845
+./temp_2018021517_f01_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46698739:d=2018021516:VGRD:10 m above ground:1 hour fcst:
+matched a variable 59:45137526:d=2018021517:UGRD:10 m above ground:1 hour fcst:
 
-range: 46698739 47925257
-./temp_2018021516_f01_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:47925258:d=2018021516:WIND:10 m above ground:0-1 hour max fcst:
-
-range: 47925258 49118654
-./temp_2018021516_f01_GUS.grib2
+range: 45137526 46326767
+./temp_2018021517_f01_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3511633:d=2018021516:GUST:surface:1 hour fcst:
+matched a variable 60:46326768:d=2018021517:VGRD:10 m above ground:1 hour fcst:
 
-range: 3511633 4873464
+range: 46326768 47540092
+./temp_2018021517_f01_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47540093:d=2018021517:WIND:10 m above ground:0-1 hour max fcst:
+
+range: 47540093 48713649
+./temp_2018021517_f01_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3360552:d=2018021517:GUST:surface:1 hour fcst:
+
+range: 3360552 4697629
 
 --> Working on: WINDMILL 1
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f01.png
@@ -170,55 +170,1232 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST
 --> Working on: CHIP (47) 1
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f01.png
 Finished: 1
-./temp_2018021516_f02_REF.grib2
+./temp_2018021517_f02_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018021516:REFC:entire atmosphere:2 hour fcst:
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:2 hour fcst:
 
-range: 0 790711
-./temp_2018021516_f02_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45418380:d=2018021516:UGRD:10 m above ground:2 hour fcst:
-
-range: 45418380 46627833
-./temp_2018021516_f02_VGR.grib2
+range: 0 763074
+./temp_2018021517_f02_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46627834:d=2018021516:VGRD:10 m above ground:2 hour fcst:
+matched a variable 59:45321456:d=2018021517:UGRD:10 m above ground:2 hour fcst:
 
-range: 46627834 47856311
-./temp_2018021516_f02_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
- ! Could not get the file: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf02.grib2
- ! Is the variable right? WIND:10 m
- ! Does the file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180215/hrrr.t16z.wrfsfcf02.grib2.idx
-./temp_2018021516_f02_GUS.grib2
+range: 45321456 46530999
+./temp_2018021517_f02_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3537856:d=2018021516:GUST:surface:2 hour fcst:
+matched a variable 60:46531000:d=2018021517:VGRD:10 m above ground:2 hour fcst:
 
-range: 3537856 4893639
+range: 46531000 47754891
+./temp_2018021517_f02_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47754892:d=2018021517:WIND:10 m above ground:1-2 hour max fcst:
+
+range: 47754892 48940691
+./temp_2018021517_f02_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3575173:d=2018021517:GUST:surface:2 hour fcst:
+
+range: 3575173 4919956
 
 --> Working on: WINDMILL 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f02.png
+
+--> Working on: SPLIT TROUGH 2 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f02.png
+
+--> Working on: MIDNIGHT 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f02.png
+
+--> Working on: WEST BUFORD 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f02.png
+
+--> Working on: 62 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f02.png
+
+--> Working on: EAST BUFORD 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f02.png
+
+--> Working on: CHIP (47) 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f02.png
+Finished: 2
+./temp_2018021517_f03_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:3 hour fcst:
+
+range: 0 772667
+./temp_2018021517_f03_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45292365:d=2018021517:UGRD:10 m above ground:3 hour fcst:
+
+range: 45292365 46515729
+./temp_2018021517_f03_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46515730:d=2018021517:VGRD:10 m above ground:3 hour fcst:
+
+range: 46515730 47747515
+./temp_2018021517_f03_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47747516:d=2018021517:WIND:10 m above ground:2-3 hour max fcst:
+
+range: 47747516 48940759
+./temp_2018021517_f03_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3467605:d=2018021517:GUST:surface:3 hour fcst:
+
+range: 3467605 4822095
+
+--> Working on: WINDMILL 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f03.png
+
+--> Working on: SPLIT TROUGH 2 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f03.png
+
+--> Working on: MIDNIGHT 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f03.png
+
+--> Working on: WEST BUFORD 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f03.png
+
+--> Working on: 62 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f03.png
+
+--> Working on: EAST BUFORD 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f03.png
+
+--> Working on: CHIP (47) 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f03.png
+Finished: 3
+./temp_2018021517_f04_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:4 hour fcst:
+
+range: 0 765919
+./temp_2018021517_f04_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45452814:d=2018021517:UGRD:10 m above ground:4 hour fcst:
+
+range: 45452814 46683281
+./temp_2018021517_f04_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46683282:d=2018021517:VGRD:10 m above ground:4 hour fcst:
+
+range: 46683282 47920116
+./temp_2018021517_f04_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47920117:d=2018021517:WIND:10 m above ground:3-4 hour max fcst:
+
+range: 47920117 49117738
+./temp_2018021517_f04_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3551934:d=2018021517:GUST:surface:4 hour fcst:
+
+range: 3551934 4910518
+
+--> Working on: WINDMILL 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f04.png
+
+--> Working on: SPLIT TROUGH 2 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f04.png
+
+--> Working on: MIDNIGHT 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f04.png
+
+--> Working on: WEST BUFORD 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f04.png
+
+--> Working on: 62 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f04.png
+
+--> Working on: EAST BUFORD 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f04.png
+
+--> Working on: CHIP (47) 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f04.png
+Finished: 4
+./temp_2018021517_f05_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:5 hour fcst:
+
+range: 0 736518
+./temp_2018021517_f05_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45243141:d=2018021517:UGRD:10 m above ground:5 hour fcst:
+
+range: 45243141 46472321
+./temp_2018021517_f05_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46472322:d=2018021517:VGRD:10 m above ground:5 hour fcst:
+
+range: 46472322 47705620
+./temp_2018021517_f05_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47705621:d=2018021517:WIND:10 m above ground:4-5 hour max fcst:
+
+range: 47705621 48888328
+./temp_2018021517_f05_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3498985:d=2018021517:GUST:surface:5 hour fcst:
+
+range: 3498985 4856052
+
+--> Working on: WINDMILL 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f05.png
+
+--> Working on: SPLIT TROUGH 2 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f05.png
+
+--> Working on: MIDNIGHT 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f05.png
+
+--> Working on: WEST BUFORD 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f05.png
+
+--> Working on: 62 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f05.png
+
+--> Working on: EAST BUFORD 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f05.png
+
+--> Working on: CHIP (47) 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f05.png
+Finished: 5
+./temp_2018021517_f06_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:6 hour fcst:
+
+range: 0 701753
+./temp_2018021517_f06_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:44972092:d=2018021517:UGRD:10 m above ground:6 hour fcst:
+
+range: 44972092 46196622
+./temp_2018021517_f06_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46196623:d=2018021517:VGRD:10 m above ground:6 hour fcst:
+
+range: 46196623 47428646
+./temp_2018021517_f06_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47428647:d=2018021517:WIND:10 m above ground:5-6 hour max fcst:
+
+range: 47428647 48624288
+./temp_2018021517_f06_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3330831:d=2018021517:GUST:surface:6 hour fcst:
+
+range: 3330831 4695085
+
+--> Working on: WINDMILL 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f06.png
+
+--> Working on: SPLIT TROUGH 2 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f06.png
+
+--> Working on: MIDNIGHT 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f06.png
+
+--> Working on: WEST BUFORD 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f06.png
+
+--> Working on: 62 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f06.png
+
+--> Working on: EAST BUFORD 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f06.png
+
+--> Working on: CHIP (47) 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f06.png
+Finished: 6
+./temp_2018021517_f07_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:7 hour fcst:
+
+range: 0 682848
+./temp_2018021517_f07_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:44737754:d=2018021517:UGRD:10 m above ground:7 hour fcst:
+
+range: 44737754 45962421
+./temp_2018021517_f07_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:45962422:d=2018021517:VGRD:10 m above ground:7 hour fcst:
+
+range: 45962422 47198575
+./temp_2018021517_f07_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47198576:d=2018021517:WIND:10 m above ground:6-7 hour max fcst:
+
+range: 47198576 48396538
+./temp_2018021517_f07_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3233114:d=2018021517:GUST:surface:7 hour fcst:
+
+range: 3233114 4594665
+
+--> Working on: WINDMILL 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f07.png
+
+--> Working on: SPLIT TROUGH 2 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f07.png
+
+--> Working on: MIDNIGHT 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f07.png
+
+--> Working on: WEST BUFORD 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f07.png
+
+--> Working on: 62 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f07.png
+
+--> Working on: EAST BUFORD 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f07.png
+
+--> Working on: CHIP (47) 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f07.png
+Finished: 7
+./temp_2018021517_f08_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:8 hour fcst:
+
+range: 0 670052
+./temp_2018021517_f08_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45101396:d=2018021517:UGRD:10 m above ground:8 hour fcst:
+
+range: 45101396 46337285
+./temp_2018021517_f08_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46337286:d=2018021517:VGRD:10 m above ground:8 hour fcst:
+
+range: 46337286 47593074
+./temp_2018021517_f08_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47593075:d=2018021517:WIND:10 m above ground:7-8 hour max fcst:
+
+range: 47593075 48804387
+./temp_2018021517_f08_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3335208:d=2018021517:GUST:surface:8 hour fcst:
+
+range: 3335208 4705638
+
+--> Working on: WINDMILL 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f08.png
+
+--> Working on: SPLIT TROUGH 2 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f08.png
+
+--> Working on: MIDNIGHT 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f08.png
+
+--> Working on: WEST BUFORD 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f08.png
+
+--> Working on: 62 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f08.png
+
+--> Working on: EAST BUFORD 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f08.png
+
+--> Working on: CHIP (47) 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f08.png
+Finished: 8
+./temp_2018021517_f09_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:9 hour fcst:
+
+range: 0 672935
+./temp_2018021517_f09_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45227305:d=2018021517:UGRD:10 m above ground:9 hour fcst:
+
+range: 45227305 46491434
+./temp_2018021517_f09_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46491435:d=2018021517:VGRD:10 m above ground:9 hour fcst:
+
+range: 46491435 47775692
+./temp_2018021517_f09_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47775693:d=2018021517:WIND:10 m above ground:8-9 hour max fcst:
+
+range: 47775693 49013842
+./temp_2018021517_f09_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3249198:d=2018021517:GUST:surface:9 hour fcst:
+
+range: 3249198 4630302
+
+--> Working on: WINDMILL 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f09.png
+
+--> Working on: SPLIT TROUGH 2 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f09.png
+
+--> Working on: MIDNIGHT 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f09.png
+
+--> Working on: WEST BUFORD 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f09.png
+
+--> Working on: 62 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f09.png
+
+--> Working on: EAST BUFORD 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f09.png
+
+--> Working on: CHIP (47) 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f09.png
+Finished: 9
+./temp_2018021517_f10_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:10 hour fcst:
+
+range: 0 667096
+./temp_2018021517_f10_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45489713:d=2018021517:UGRD:10 m above ground:10 hour fcst:
+
+range: 45489713 46774463
+./temp_2018021517_f10_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46774464:d=2018021517:VGRD:10 m above ground:10 hour fcst:
+
+range: 46774464 48079020
+./temp_2018021517_f10_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48079021:d=2018021517:WIND:10 m above ground:9-10 hour max fcst:
+
+range: 48079021 49342390
+./temp_2018021517_f10_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3324083:d=2018021517:GUST:surface:10 hour fcst:
+
+range: 3324083 4718426
+
+--> Working on: WINDMILL 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f10.png
+
+--> Working on: SPLIT TROUGH 2 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f10.png
+
+--> Working on: MIDNIGHT 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f10.png
+
+--> Working on: WEST BUFORD 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f10.png
+
+--> Working on: 62 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f10.png
+
+--> Working on: EAST BUFORD 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f10.png
+
+--> Working on: CHIP (47) 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f10.png
+Finished: 10
+./temp_2018021517_f11_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:11 hour fcst:
+
+range: 0 660377
+./temp_2018021517_f11_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45631134:d=2018021517:UGRD:10 m above ground:11 hour fcst:
+
+range: 45631134 46927734
+./temp_2018021517_f11_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46927735:d=2018021517:VGRD:10 m above ground:11 hour fcst:
+
+range: 46927735 48229365
+./temp_2018021517_f11_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48229366:d=2018021517:WIND:10 m above ground:10-11 hour max fcst:
+
+range: 48229366 49506775
+./temp_2018021517_f11_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3306529:d=2018021517:GUST:surface:11 hour fcst:
+
+range: 3306529 4710649
+
+--> Working on: WINDMILL 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f11.png
+
+--> Working on: SPLIT TROUGH 2 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f11.png
+
+--> Working on: MIDNIGHT 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f11.png
+
+--> Working on: WEST BUFORD 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f11.png
+
+--> Working on: 62 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f11.png
+
+--> Working on: EAST BUFORD 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f11.png
+
+--> Working on: CHIP (47) 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f11.png
+Finished: 11
+./temp_2018021517_f12_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:12 hour fcst:
+
+range: 0 668779
+./temp_2018021517_f12_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45715000:d=2018021517:UGRD:10 m above ground:12 hour fcst:
+
+range: 45715000 47033761
+./temp_2018021517_f12_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47033762:d=2018021517:VGRD:10 m above ground:12 hour fcst:
+
+range: 47033762 48343060
+./temp_2018021517_f12_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48343061:d=2018021517:WIND:10 m above ground:11-12 hour max fcst:
+
+range: 48343061 49629374
+./temp_2018021517_f12_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3275444:d=2018021517:GUST:surface:12 hour fcst:
+
+range: 3275444 4683689
+
+--> Working on: WINDMILL 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f12.png
+
+--> Working on: SPLIT TROUGH 2 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f12.png
+
+--> Working on: MIDNIGHT 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f12.png
+
+--> Working on: WEST BUFORD 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f12.png
+
+--> Working on: 62 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f12.png
+
+--> Working on: EAST BUFORD 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f12.png
+
+--> Working on: CHIP (47) 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f12.png
+Finished: 12
+./temp_2018021517_f13_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:13 hour fcst:
+
+range: 0 677869
+./temp_2018021517_f13_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45923789:d=2018021517:UGRD:10 m above ground:13 hour fcst:
+
+range: 45923789 47232857
+./temp_2018021517_f13_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47232858:d=2018021517:VGRD:10 m above ground:13 hour fcst:
+
+range: 47232858 48547603
+./temp_2018021517_f13_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48547604:d=2018021517:WIND:10 m above ground:12-13 hour max fcst:
+
+range: 48547604 49838938
+./temp_2018021517_f13_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3342523:d=2018021517:GUST:surface:13 hour fcst:
+
+range: 3342523 4753593
+
+--> Working on: WINDMILL 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f13.png
+
+--> Working on: SPLIT TROUGH 2 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f13.png
+
+--> Working on: MIDNIGHT 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f13.png
+
+--> Working on: WEST BUFORD 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f13.png
+
+--> Working on: 62 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f13.png
+
+--> Working on: EAST BUFORD 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f13.png
+
+--> Working on: CHIP (47) 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f13.png
+Finished: 13
+./temp_2018021517_f14_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:14 hour fcst:
+
+range: 0 691131
+./temp_2018021517_f14_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46069597:d=2018021517:UGRD:10 m above ground:14 hour fcst:
+
+range: 46069597 47382685
+./temp_2018021517_f14_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47382686:d=2018021517:VGRD:10 m above ground:14 hour fcst:
+
+range: 47382686 48699862
+./temp_2018021517_f14_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48699863:d=2018021517:WIND:10 m above ground:13-14 hour max fcst:
+
+range: 48699863 49993967
+./temp_2018021517_f14_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3440722:d=2018021517:GUST:surface:14 hour fcst:
+
+range: 3440722 4852660
+
+--> Working on: WINDMILL 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f14.png
+
+--> Working on: SPLIT TROUGH 2 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f14.png
+
+--> Working on: MIDNIGHT 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f14.png
+
+--> Working on: WEST BUFORD 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f14.png
+
+--> Working on: 62 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f14.png
+
+--> Working on: EAST BUFORD 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f14.png
+
+--> Working on: CHIP (47) 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f14.png
+Finished: 14
+./temp_2018021517_f15_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:15 hour fcst:
+
+range: 0 708799
+./temp_2018021517_f15_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46403937:d=2018021517:UGRD:10 m above ground:15 hour fcst:
+
+range: 46403937 47721034
+./temp_2018021517_f15_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47721035:d=2018021517:VGRD:10 m above ground:15 hour fcst:
+
+range: 47721035 49040451
+./temp_2018021517_f15_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:49040452:d=2018021517:WIND:10 m above ground:14-15 hour max fcst:
+
+range: 49040452 50335549
+./temp_2018021517_f15_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3616989:d=2018021517:GUST:surface:15 hour fcst:
+
+range: 3616989 5033679
+
+--> Working on: WINDMILL 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f15.png
+
+--> Working on: SPLIT TROUGH 2 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f15.png
+
+--> Working on: MIDNIGHT 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f15.png
+
+--> Working on: WEST BUFORD 15
+!! Alert--Wind speed greater than 15 m/s: WEST BUFORD
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f15.png
+
+--> Working on: 62 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f15.png
+
+--> Working on: EAST BUFORD 15
+!! Alert--Wind speed greater than 15 m/s: EAST BUFORD
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f15.png
+
+--> Working on: CHIP (47) 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f15.png
+Finished: 15
+./temp_2018021517_f16_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:16 hour fcst:
+
+range: 0 731361
+./temp_2018021517_f16_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46747227:d=2018021517:UGRD:10 m above ground:16 hour fcst:
+
+range: 46747227 48069740
+./temp_2018021517_f16_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48069741:d=2018021517:VGRD:10 m above ground:16 hour fcst:
+
+range: 48069741 49391426
+./temp_2018021517_f16_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:49391427:d=2018021517:WIND:10 m above ground:15-16 hour max fcst:
+
+range: 49391427 50689110
+./temp_2018021517_f16_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3856801:d=2018021517:GUST:surface:16 hour fcst:
+
+range: 3856801 5278450
+
+--> Working on: WINDMILL 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f16.png
+
+--> Working on: SPLIT TROUGH 2 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f16.png
+
+--> Working on: MIDNIGHT 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f16.png
+
+--> Working on: WEST BUFORD 16
+!! Alert--Wind speed greater than 15 m/s: WEST BUFORD
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f16.png
+
+--> Working on: 62 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f16.png
+
+--> Working on: EAST BUFORD 16
+!! Alert--Wind speed greater than 15 m/s: EAST BUFORD
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f16.png
+
+--> Working on: CHIP (47) 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f16.png
+Finished: 16
+./temp_2018021517_f17_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:17 hour fcst:
+
+range: 0 739737
+./temp_2018021517_f17_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46922189:d=2018021517:UGRD:10 m above ground:17 hour fcst:
+
+range: 46922189 48252467
+./temp_2018021517_f17_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48252468:d=2018021517:VGRD:10 m above ground:17 hour fcst:
+
+range: 48252468 49593465
+./temp_2018021517_f17_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:49593466:d=2018021517:WIND:10 m above ground:16-17 hour max fcst:
+
+range: 49593466 50893938
+./temp_2018021517_f17_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3889935:d=2018021517:GUST:surface:17 hour fcst:
+
+range: 3889935 5316836
+
+--> Working on: WINDMILL 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f17.png
+
+--> Working on: SPLIT TROUGH 2 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f17.png
+
+--> Working on: MIDNIGHT 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f17.png
+
+--> Working on: WEST BUFORD 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f17.png
+
+--> Working on: 62 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f17.png
+
+--> Working on: EAST BUFORD 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f17.png
+
+--> Working on: CHIP (47) 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f17.png
+Finished: 17
+./temp_2018021517_f18_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018021517:REFC:entire atmosphere:18 hour fcst:
+
+range: 0 732234
+./temp_2018021517_f18_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:47117137:d=2018021517:UGRD:10 m above ground:18 hour fcst:
+
+range: 47117137 48452204
+./temp_2018021517_f18_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48452205:d=2018021517:VGRD:10 m above ground:18 hour fcst:
+
+range: 48452205 49797081
+./temp_2018021517_f18_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:49797082:d=2018021517:WIND:10 m above ground:17-18 hour max fcst:
+
+range: 49797082 51102363
+./temp_2018021517_f18_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3928113:d=2018021517:GUST:surface:18 hour fcst:
+
+range: 3928113 5357097
+
+--> Working on: WINDMILL 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WINDMILL/f18.png
+
+--> Working on: SPLIT TROUGH 2 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/SPLIT_TROUGH_2/f18.png
+
+--> Working on: MIDNIGHT 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MIDNIGHT/f18.png
+
+--> Working on: WEST BUFORD 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_BUFORD/f18.png
+
+--> Working on: 62 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/62/f18.png
+
+--> Working on: EAST BUFORD 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_BUFORD/f18.png
+
+--> Working on: CHIP (47) 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIP_(47)/f18.png
+Finished: 18
+26.519 -101.559 37.684 -79.19

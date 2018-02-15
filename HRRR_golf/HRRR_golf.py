@@ -65,130 +65,68 @@ sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
 sys.path.append('/uufs/chpc.utah.edu/sys/pkg/python/2.7.3_rhel6/lib/python2.7/site-packages/')
 sys.path.append('B:\pyBKB_v2')
 
-from BB_downloads.HRRR_oper import *
+from BB_downloads.HRRR_S3 import *
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_radius import get_mesowest_radius
 from MetPy_BB.plots import ctables
 from BB_data.grid_manager import pluck_point_new
 from BB_wx_calcs.wind import wind_uv_to_spd, wind_spddir_to_uv
 from BB_wx_calcs.units import *
+from BB_cmap.landuse_colormap import LU_MODIS21
+import location_dic
 
-daylight = time.daylight # If daylight is on (1) then subtract from timezone.
-
-# 1) Locations (dictionary)
-location = {'Oaks': {'latitude':40.084,
-                     'longitude':-111.598,
-                     'name':'Spanish Oaks Golf Course',
-                     'timezone': 7-daylight,        # Timezone offset from UTC
-                     'is MesoWest': False},         # Is the Key a MesoWest ID?
-            'UKBKB': {'latitude':40.09867,
-                      'longitude':-111.62767,
-                      'name':'Spanish Fork Bench',
-                      'timezone': 7-daylight,
-                      'is MesoWest': True},
-            'KSLC':{'latitude':40.77069,
-                    'longitude':-111.96503,
-                    'name':'Salt Lake International Airport',
-                    'timezone': 7-daylight,
-                    'is MesoWest': True},
-            'WBB':{'latitude':40.76623,
-                   'longitude':-111.84755,
-                   'name':'William Browning Building',
-                   'timezone': 7-daylight,
-                   'is MesoWest': True},
-            'FREUT':{'latitude':41.15461,
-                     'longitude':-112.32998,
-                     'name':'Fremont Island - Miller Hill',
-                     'timezone': 7-daylight,
-                     'is MesoWest': True},
-            'GNI':{'latitude':41.33216,
-                   'longitude':-112.85432,
-                   'name':'Gunnison Island',
-                   'timezone': 7-daylight,
-                   'is MesoWest': True},
-            'NAA':{'latitude':40.71152,
-                   'longitude':-112.01448,
-                   'name':'Neil Armstrong Academy',
-                   'timezone': 7-daylight,
-                   'is MesoWest': True},
-            'UtahLake':{'latitude':40.159,
-                        'longitude':-111.778,
-                        'name':'Utah Lake',
-                        'timezone': 7-daylight,
-                        'is MesoWest': False},
-            'UTPKL':{'latitude':40.98985,
-                     'longitude':-111.90130,
-                     'name':'Lagoon (UTPKL)',
-                     'timezone': 7-daylight,
-                     'is MesoWest': True},
-            'Orderville':{'latitude':37.276,
-                          'longitude':-112.638,
-                          'name':'Orderville',
-                          'timezone': 7-daylight,
-                          'is MesoWest': False},
-            'BFLAT':{'latitude':40.784,
-                     'longitude':-113.829,
-                     'name':'Bonneville Salt Flats',
-                     'timezone': 7-daylight,
-                     'is MesoWest': True},
-            'UFD09':{'latitude':40.925,
-                     'longitude':-112.159,
-                     'name':'Antelope Island',
-                     'timezone': 7-daylight,
-                     'is MesoWest': True},
-            'C8635':{'latitude':41.11112,
-                     'longitude':-111.96229,
-                     'name':'Hill Air Force Base (CW8635)',
-                     'timezone': 7-daylight,
-                     'is MesoWest': True},
-            'FPS':{'latitude':40.45689,
-                   'longitude':-111.90483,
-                   'name':'Flight Park South',
-                   'timezone': 7-daylight,
-                   'is MesoWest': True},
-            'EYSC':{'latitude':40.24715,
-                    'longitude':-111.65001,
-                    'name':'Brigham Young University',
-                    'timezone': 7-daylight,
-                    'is MesoWest': True},
-            'UCC23':{'latitude':41.7665,
-                     'longitude':-111.8105,
-                     'name':'North Logan',
-                     'timezone': 7-daylight,
-                     'is MesoWest': True},
-            'KIDA':{'latitude':43.52083,
-                    'longitude':-112.06611,
-                    'name':'Idaho Falls',
-                    'timezone': 7-daylight,
-                    'is MesoWest': True},
-            'ALT':{'latitude':40.571,
-                   'longitude':-111.631,
-                   'name':'Alta Top',
-                   'timezone': 7-daylight,
-                   'is MesoWest': True},
-            'SND':{'latitude':40.368386,
-                   'longitude':-111.593964,
-                   'name':'Sundance Summit',
-                   'timezone': 7-daylight,
-                   'is MesoWest': True},
-            'RACM4':{'latitude':46.358056,
-                     'longitude':-84.803889,
-                     'name':'Raco, Michigan',
-                     'timezone': 5-daylight,
-                     'is MesoWest': True}        
-           }
+## 1) Get Locations Dictionary
+location = location_dic.get_all()
 
 
-# 2) Get the HRRR data from NOMADS
-DATE = datetime.utcnow() - timedelta(hours=1)
+## 2) Make map object for each location and store in a dictionary
+maps = {}
+for loc in location:
+    l = location[loc]
+    m = Basemap(resolution='i', projection='cyl',\
+                llcrnrlon=l['longitude']-.3, llcrnrlat=l['latitude']-.3,\
+                urcrnrlon=l['longitude']+.3, urcrnrlat=l['latitude']+.3,)
+    maps[loc] = m
+
+
+## 3) Create a landuse image for each the locations
+locs = location.keys() # a list of all the locations
+locs_idx = range(len(locs)) # a number index for each location
+LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
+cm, labels = LU_MODIS21()
+for n in locs_idx:
+    locName = locs[n]
+    l = location[locName]
+    LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/LandUse.png' % locName.replace(' ', '_')
+    if os.path.exists(LU_SAVE):
+        plt.clf()
+        plt.cla()
+        plt.figure(100)
+        print "need to make", LU_SAVE
+        maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
+                                cmap=cm, vmin=1, vmax=len(labels) + 1,
+                                latlon=True)
+        cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
+        cb.set_ticks(np.arange(0.5, len(labels) + 1))
+        cb.ax.set_yticklabels(labels)
+        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='r', s=100, latlon=True)
+        maps[locName].drawstates()
+        maps[locName].drawcounties()
+        plt.title('Landuse near %s' % locName)
+        plt.savefig(LU_SAVE)  
+        print "created landuse maps for ", locName
+
+
+## 4) Get the HRRR data from NOMADS
+DATE = datetime.utcnow() - timedelta(hours=1) # hour delay in forecasts available
 DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
 
 print "Local DATE:", datetime.now()
 print "  UTC DATE:", DATE
 
-# 2.1) Pollywogs: Pluck HRRR value at all locations for each variable.
-#      These are dictionaries:
-#      {'DATETIME':[array of dates], 'station name': [values for each datetime], ...}
+# Pollywogs: Pluck HRRR value at all locations for each variable.
+# These are dictionaries:
+# {'DATETIME':[array of dates], 'station name': [values for each datetime], ...}
 print "plucking values from HRRR"
 P_temp = get_hrrr_pollywog_multi(DATE, 'TMP:2 m', location, verbose=False); print "got Temp"
 P_dwpt = get_hrrr_pollywog_multi(DATE, 'DPT:2 m', location, verbose=False); print "got Dwpt"
@@ -197,7 +135,7 @@ P_gust = get_hrrr_pollywog_multi(DATE, 'GUST:surface', location, verbose=False);
 P_u = get_hrrr_pollywog_multi(DATE, 'UGRD:10 m', location, verbose=False); print "got U10"
 P_v = get_hrrr_pollywog_multi(DATE, 'VGRD:10 m', location, verbose=False); print "got V10"
 P_prec = get_hrrr_pollywog_multi(DATE, 'APCP:surface', location, verbose=False); print "got Precip"
-P_accum = {} # Accumulated precip
+P_accum = {} # Accumulated precipitation
 
 # Convert the units of each Pollywog and each location
 for loc in location.keys():
@@ -209,22 +147,14 @@ for loc in location.keys():
     P_u[loc] = mps_to_MPH(P_u[loc])
     P_v[loc] = mps_to_MPH(P_v[loc])
     P_prec[loc] = mm_to_inches(P_prec[loc])
-    P_accum[loc] = np.add.accumulate(P_prec[loc]) # Accumulated Precip
+    P_accum[loc] = np.add.accumulate(P_prec[loc]) # Accumulated Precipitation
 
-# Check for extreame values and send email alert
+
+## 5) Check for extreme values and send email alert
 from HRRR_warning import *
 for warn in ['UKBKB', 'KSLC']:
     wind_warning(location, P_wind, warn)
     temp_warning(location, P_temp, warn)
-
-# Make a dictionary of map object for each location.
-maps = {}
-for loc in location:
-    l = location[loc]
-    m = Basemap(resolution='i', projection='cyl',\
-                llcrnrlon=l['longitude']-.25, llcrnrlat=l['latitude']-.25,\
-                urcrnrlon=l['longitude']+.25, urcrnrlat=l['latitude']+.25,)
-    maps[loc] = m
 
 
 # Create a figure for each location. Add permenant elements to each.
