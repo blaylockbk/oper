@@ -51,7 +51,7 @@ sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
 sys.path.append('/uufs/chpc.utah.edu/sys/pkg/python/2.7.3_rhel6/lib/python2.7/site-packages/')
 sys.path.append('B:\pyBKB_v2')
 
-from BB_downloads.HRRR_oper import *
+from BB_downloads.HRRR_S3 import *
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_radius import get_mesowest_radius
 from MetPy_BB.plots import ctables
@@ -60,6 +60,7 @@ from BB_wx_calcs.wind import wind_uv_to_spd, wind_spddir_to_uv
 from BB_wx_calcs.units import *
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
 from BB_data.active_fires import download_fire_perimeter_shapefile
+from BB_cmap.landuse_colormap import LU_MODIS21
 
 get_today = datetime.strftime(date.today(), "%Y-%m-%d")
 daylight = time.daylight # If daylight is on (1) then subtract from timezone.
@@ -135,6 +136,7 @@ P_prec = get_hrrr_pollywog_multi(DATE, 'APCP:surface', location, verbose=False);
 P_accum = {}
 P_ref = get_hrrr_pollywog_multi(DATE, 'REFC:entire atmosphere', location, verbose=False); print 'got composite reflectivity'
 
+
 # Convert the units of each Pollywog and each location
 for loc in location.keys():
     # Convert Units for the variables in the Pollywog
@@ -147,6 +149,7 @@ for loc in location.keys():
     P_prec[loc] = mm_to_inches(P_prec[loc])
     P_accum[loc] = np.add.accumulate(P_prec[loc])
 
+
 # Make a dictionary of map object for each location.
 # (This speeds up plotting by creating each map once.)
 maps = {}
@@ -156,6 +159,36 @@ for loc in location.keys():
                 llcrnrlon=l['longitude']-.75, llcrnrlat=l['latitude']-.75,\
                 urcrnrlon=l['longitude']+.75, urcrnrlat=l['latitude']+.75,)
     maps[loc] = m
+
+
+
+# Create a landuse map for each the fire and surrounding area
+locs = location.keys() # a list of all the locations
+locs_idx = range(len(locs)) # a number index for each location
+LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
+cm, labels = LU_MODIS21()
+for n in locs_idx:
+    locName = locs[n]
+    l = location[locName]
+    LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/LandUse.png' % locName.replace(' ', '_')
+    if os.path.exists(LU_SAVE):
+        plt.clf()
+        plt.cla()
+        plt.figure(100)
+        print "need to make", LU_SAVE
+        maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
+                                cmap=cm, vmin=1, vmax=len(labels) + 1,
+                                latlon=True)
+        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='r', s=100, latlon=True)
+        maps[locName].drawstates()
+        maps[locName].drawcounties()
+        cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
+        cb.set_ticks(np.arange(0.5, len(labels) + 1))
+        cb.ax.set_yticklabels(labels)
+        plt.title('%s fire land use' % locName)
+        plt.savefig(LU_SAVE)  
+print "created landuse maps"
+
 
 # Create a figure for each location. Add permenant elements to each.
 print 'making permenant figure elements...'
