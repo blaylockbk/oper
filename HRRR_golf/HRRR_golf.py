@@ -98,7 +98,7 @@ for n in locs_idx:
     locName = locs[n]
     l = location[locName]
     LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/LandUse.png' % locName.replace(' ', '_')
-    if os.path.exists(LU_SAVE):
+    if not os.path.exists(LU_SAVE):
         plt.figure(100)
         print "need to make", LU_SAVE
         maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
@@ -120,8 +120,8 @@ for n in locs_idx:
 DATE = datetime.utcnow() - timedelta(hours=1) # hour delay in forecasts available
 DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
 
-print "Local DATE:", datetime.now()
-print "  UTC DATE:", DATE
+print " My DATE:", datetime.now()
+print "UTC DATE:", DATE
 
 # Pollywogs: Pluck HRRR value at all locations for each variable.
 # These are dictionaries:
@@ -219,10 +219,9 @@ for n in locs_idx:
     #
     # Plot: Accumulated precip
     figs[locName][4] = figs[locName][0].add_subplot(326)
-    local = np.array(P_prec['DATETIME']) - timedelta(hours=tz)
-    figs[locName][4].bar(local, P_prec[locName], width=.04, color='dodgerblue', label='1 hour Precipitation')
-    figs[locName][4].plot(local, P_accum[locName], color='limegreen', label='Accumulated Precipitation')
-    figs[locName][4].set_xlim([local[0], local[-1]])
+    figs[locName][4].bar(P_prec['DATETIME'], P_prec[locName], width=.04, color='dodgerblue', label='1 hour Precipitation')
+    figs[locName][4].plot(P_prec['DATETIME'], P_accum[locName], color='limegreen', label='Accumulated Precipitation')
+    figs[locName][4].set_xlim([P_prec['DATETIME'][0], P_prec['DATETIME'][-1]])
     figs[locName][4].set_ylim([0, np.nanmax(P_accum[locName])+.1])
     figs[locName][4].xaxis.set_major_locator(mdates.HourLocator(range(0, 24, 3)))
     figs[locName][4].xaxis.set_minor_locator(mdates.HourLocator(range(0, 24, 1)))
@@ -338,7 +337,7 @@ for fxx in range(0, 19):
         pntWind = figs[locName][3].scatter(P_wind['DATETIME'][fxx], P_wind[locName][fxx], c='darkorange', s=60)
         #
         # 3.4) Accumulated Precipitation
-        pntPrec = figs[locName][4].scatter(local[fxx], P_accum[locName][fxx], edgecolor="k", color='limegreen', s=60)
+        pntPrec = figs[locName][4].scatter(P_prec['DATETIME'][fxx], P_accum[locName][fxx], edgecolor="k", color='limegreen', s=60)
         #
         # 4) Save figure
         figs[locName][0].savefig(SAVE+'f%02d.png' % (fxx))
