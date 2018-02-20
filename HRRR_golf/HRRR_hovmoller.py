@@ -86,7 +86,7 @@ half_box = 9
 
 #==============================================================================
 # 1) Get Locations Dictionary
-location = location_dic.get_all()
+locations = location_dic.get_all()
 
 for s in spex:
     S = spex[s]

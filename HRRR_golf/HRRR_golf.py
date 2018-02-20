@@ -107,7 +107,7 @@ for n in locs_idx:
         cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
         cb.set_ticks(np.arange(0.5, len(labels) + 1))
         cb.ax.set_yticklabels(labels)
-        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='r', s=100, latlon=True)
+        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='maroon', s=100, latlon=True)
         maps[locName].drawstates()
         maps[locName].drawcounties()
         plt.title('Landuse near %s' % locName)
