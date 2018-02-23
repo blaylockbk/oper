@@ -1,2 +1,1226 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
-25.163 -112.841 39.449 -79.449
+30.92 -119.511 38.411 -90.846
+There are 11 large fires.
+Downloaded the most recent active fire perimeters.
+./temp_2018010100_f00_VGT.grib2
+Oh, good, you requested a date that should be on Pando.
+matched a variable 78:49446640:d=2018010100:VGTYP:surface:anl
+
+range: 49446640 50309774
+Local DATE: 2018-02-23 14:40:58.967209
+  UTC DATE: 2018-02-23 20:00:00
+got temps
+got dwpt
+got wind
+got gust
+got u vectors
+got v vectors
+got prec
+got composite reflectivity
+making permenant figure elements...
+finding fire perimeter patches for ROZELL fire... Done!
+finding fire perimeter patches for PLEASANT fire... Done!
+finding fire perimeter patches for RED HORSE fire... Done!
+finding fire perimeter patches for KNOB HILL fire... Done!
+./temp_2018022320_f00_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:anl:
+
+range: 0 680562
+./temp_2018022320_f00_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:43254407:d=2018022320:UGRD:10 m above ground:anl:
+
+range: 43254407 44421364
+./temp_2018022320_f00_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:44421365:d=2018022320:VGRD:10 m above ground:anl:
+
+range: 44421365 45553784
+./temp_2018022320_f00_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:45553785:d=2018022320:WIND:10 m above ground:0-0 day max fcst:
+
+range: 45553785 46730104
+./temp_2018022320_f00_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3761823:d=2018022320:GUST:surface:anl:
+
+range: 3761823 5041773
+
+--> Working on: ROZELL 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f00.png
+
+--> Working on: PLEASANT 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f00.png
+
+--> Working on: RED HORSE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f00.png
+
+--> Working on: KNOB HILL 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f00.png
+Finished: 0
+./temp_2018022320_f01_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:1 hour fcst:
+
+range: 0 797314
+./temp_2018022320_f01_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46389806:d=2018022320:UGRD:10 m above ground:1 hour fcst:
+
+range: 46389806 47618059
+./temp_2018022320_f01_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47618060:d=2018022320:VGRD:10 m above ground:1 hour fcst:
+
+range: 47618060 48802516
+./temp_2018022320_f01_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48802517:d=2018022320:WIND:10 m above ground:0-1 hour max fcst:
+
+range: 48802517 49956757
+./temp_2018022320_f01_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3912975:d=2018022320:GUST:surface:1 hour fcst:
+
+range: 3912975 5249636
+
+--> Working on: ROZELL 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f01.png
+
+--> Working on: PLEASANT 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f01.png
+
+--> Working on: RED HORSE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f01.png
+
+--> Working on: KNOB HILL 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f01.png
+Finished: 1
+./temp_2018022320_f02_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:2 hour fcst:
+
+range: 0 830677
+./temp_2018022320_f02_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46712717:d=2018022320:UGRD:10 m above ground:2 hour fcst:
+
+range: 46712717 47951497
+./temp_2018022320_f02_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47951498:d=2018022320:VGRD:10 m above ground:2 hour fcst:
+
+range: 47951498 49148436
+./temp_2018022320_f02_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:49148437:d=2018022320:WIND:10 m above ground:1-2 hour max fcst:
+
+range: 49148437 50326408
+./temp_2018022320_f02_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:4121323:d=2018022320:GUST:surface:2 hour fcst:
+
+range: 4121323 5477251
+
+--> Working on: ROZELL 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f02.png
+
+--> Working on: PLEASANT 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f02.png
+
+--> Working on: RED HORSE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f02.png
+
+--> Working on: KNOB HILL 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f02.png
+Finished: 2
+./temp_2018022320_f03_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:3 hour fcst:
+
+range: 0 827053
+./temp_2018022320_f03_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46489665:d=2018022320:UGRD:10 m above ground:3 hour fcst:
+
+range: 46489665 47730829
+./temp_2018022320_f03_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47730830:d=2018022320:VGRD:10 m above ground:3 hour fcst:
+
+range: 47730830 48932066
+./temp_2018022320_f03_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48932067:d=2018022320:WIND:10 m above ground:2-3 hour max fcst:
+
+range: 48932067 50117333
+./temp_2018022320_f03_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3969347:d=2018022320:GUST:surface:3 hour fcst:
+
+range: 3969347 5344721
+
+--> Working on: ROZELL 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f03.png
+
+--> Working on: PLEASANT 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f03.png
+
+--> Working on: RED HORSE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f03.png
+
+--> Working on: KNOB HILL 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f03.png
+Finished: 3
+./temp_2018022320_f04_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:4 hour fcst:
+
+range: 0 828865
+./temp_2018022320_f04_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46370882:d=2018022320:UGRD:10 m above ground:4 hour fcst:
+
+range: 46370882 47624866
+./temp_2018022320_f04_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47624867:d=2018022320:VGRD:10 m above ground:4 hour fcst:
+
+range: 47624867 48841766
+./temp_2018022320_f04_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48841767:d=2018022320:WIND:10 m above ground:3-4 hour max fcst:
+
+range: 48841767 50038752
+./temp_2018022320_f04_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3875719:d=2018022320:GUST:surface:4 hour fcst:
+
+range: 3875719 5245849
+
+--> Working on: ROZELL 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f04.png
+
+--> Working on: PLEASANT 4
+!! Alert--Wind speed greater than 15 m/s: PLEASANT
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f04.png
+
+--> Working on: RED HORSE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f04.png
+
+--> Working on: KNOB HILL 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f04.png
+Finished: 4
+./temp_2018022320_f05_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:5 hour fcst:
+
+range: 0 833133
+./temp_2018022320_f05_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46760680:d=2018022320:UGRD:10 m above ground:5 hour fcst:
+
+range: 46760680 48042078
+./temp_2018022320_f05_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48042079:d=2018022320:VGRD:10 m above ground:5 hour fcst:
+
+range: 48042079 49290183
+./temp_2018022320_f05_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:49290184:d=2018022320:WIND:10 m above ground:4-5 hour max fcst:
+
+range: 49290184 50510124
+./temp_2018022320_f05_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3898029:d=2018022320:GUST:surface:5 hour fcst:
+
+range: 3898029 5293790
+
+--> Working on: ROZELL 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f05.png
+
+--> Working on: PLEASANT 5
+!! Alert--Wind speed greater than 15 m/s: PLEASANT
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f05.png
+
+--> Working on: RED HORSE 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f05.png
+
+--> Working on: KNOB HILL 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f05.png
+Finished: 5
+./temp_2018022320_f06_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:6 hour fcst:
+
+range: 0 844804
+./temp_2018022320_f06_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:47037410:d=2018022320:UGRD:10 m above ground:6 hour fcst:
+
+range: 47037410 48352540
+./temp_2018022320_f06_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48352541:d=2018022320:VGRD:10 m above ground:6 hour fcst:
+
+range: 48352541 49639636
+./temp_2018022320_f06_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:49639637:d=2018022320:WIND:10 m above ground:5-6 hour max fcst:
+
+range: 49639637 50891837
+./temp_2018022320_f06_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3870847:d=2018022320:GUST:surface:6 hour fcst:
+
+range: 3870847 5285305
+
+--> Working on: ROZELL 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f06.png
+
+--> Working on: PLEASANT 6
+!! Alert--Wind speed greater than 15 m/s: PLEASANT
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f06.png
+
+--> Working on: RED HORSE 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f06.png
+
+--> Working on: KNOB HILL 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f06.png
+Finished: 6
+./temp_2018022320_f07_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:7 hour fcst:
+
+range: 0 864873
+./temp_2018022320_f07_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:47517746:d=2018022320:UGRD:10 m above ground:7 hour fcst:
+
+range: 47517746 48857073
+./temp_2018022320_f07_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48857074:d=2018022320:VGRD:10 m above ground:7 hour fcst:
+
+range: 48857074 50172887
+./temp_2018022320_f07_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:50172888:d=2018022320:WIND:10 m above ground:6-7 hour max fcst:
+
+range: 50172888 51457924
+./temp_2018022320_f07_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:4035195:d=2018022320:GUST:surface:7 hour fcst:
+
+range: 4035195 5463318
+
+--> Working on: ROZELL 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f07.png
+
+--> Working on: PLEASANT 7
+!! Alert--Wind speed greater than 15 m/s: PLEASANT
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f07.png
+
+--> Working on: RED HORSE 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f07.png
+
+--> Working on: KNOB HILL 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f07.png
+Finished: 7
+./temp_2018022320_f08_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:8 hour fcst:
+
+range: 0 848820
+./temp_2018022320_f08_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:47818811:d=2018022320:UGRD:10 m above ground:8 hour fcst:
+
+range: 47818811 49171941
+./temp_2018022320_f08_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:49171942:d=2018022320:VGRD:10 m above ground:8 hour fcst:
+
+range: 49171942 50504857
+./temp_2018022320_f08_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:50504858:d=2018022320:WIND:10 m above ground:7-8 hour max fcst:
+
+range: 50504858 51810251
+./temp_2018022320_f08_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:4016188:d=2018022320:GUST:surface:8 hour fcst:
+
+range: 4016188 5455609
+
+--> Working on: ROZELL 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f08.png
+
+--> Working on: PLEASANT 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f08.png
+
+--> Working on: RED HORSE 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f08.png
+
+--> Working on: KNOB HILL 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f08.png
+Finished: 8
+./temp_2018022320_f09_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:9 hour fcst:
+
+range: 0 853566
+./temp_2018022320_f09_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:47732278:d=2018022320:UGRD:10 m above ground:9 hour fcst:
+
+range: 47732278 49094471
+./temp_2018022320_f09_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:49094472:d=2018022320:VGRD:10 m above ground:9 hour fcst:
+
+range: 49094472 50453460
+./temp_2018022320_f09_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:50453461:d=2018022320:WIND:10 m above ground:8-9 hour max fcst:
+
+range: 50453461 51770699
+./temp_2018022320_f09_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3798244:d=2018022320:GUST:surface:9 hour fcst:
+
+range: 3798244 5248290
+
+--> Working on: ROZELL 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f09.png
+
+--> Working on: PLEASANT 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f09.png
+
+--> Working on: RED HORSE 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f09.png
+
+--> Working on: KNOB HILL 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f09.png
+Finished: 9
+./temp_2018022320_f10_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:10 hour fcst:
+
+range: 0 860999
+./temp_2018022320_f10_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:47864867:d=2018022320:UGRD:10 m above ground:10 hour fcst:
+
+range: 47864867 49232732
+./temp_2018022320_f10_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:49232733:d=2018022320:VGRD:10 m above ground:10 hour fcst:
+
+range: 49232733 50598248
+./temp_2018022320_f10_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:50598249:d=2018022320:WIND:10 m above ground:9-10 hour max fcst:
+
+range: 50598249 51921489
+./temp_2018022320_f10_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3768473:d=2018022320:GUST:surface:10 hour fcst:
+
+range: 3768473 5226154
+
+--> Working on: ROZELL 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f10.png
+
+--> Working on: PLEASANT 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f10.png
+
+--> Working on: RED HORSE 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f10.png
+
+--> Working on: KNOB HILL 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f10.png
+Finished: 10
+./temp_2018022320_f11_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:11 hour fcst:
+
+range: 0 871754
+./temp_2018022320_f11_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:48017514:d=2018022320:UGRD:10 m above ground:11 hour fcst:
+
+range: 48017514 49390403
+./temp_2018022320_f11_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:49390404:d=2018022320:VGRD:10 m above ground:11 hour fcst:
+
+range: 49390404 50760391
+./temp_2018022320_f11_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:50760392:d=2018022320:WIND:10 m above ground:10-11 hour max fcst:
+
+range: 50760392 52089213
+./temp_2018022320_f11_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3796129:d=2018022320:GUST:surface:11 hour fcst:
+
+range: 3796129 5259690
+
+--> Working on: ROZELL 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f11.png
+
+--> Working on: PLEASANT 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f11.png
+
+--> Working on: RED HORSE 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f11.png
+
+--> Working on: KNOB HILL 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f11.png
+Finished: 11
+./temp_2018022320_f12_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:12 hour fcst:
+
+range: 0 880001
+./temp_2018022320_f12_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:48232122:d=2018022320:UGRD:10 m above ground:12 hour fcst:
+
+range: 48232122 49611096
+./temp_2018022320_f12_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:49611097:d=2018022320:VGRD:10 m above ground:12 hour fcst:
+
+range: 49611097 50984605
+./temp_2018022320_f12_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:50984606:d=2018022320:WIND:10 m above ground:11-12 hour max fcst:
+
+range: 50984606 52317029
+./temp_2018022320_f12_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3935986:d=2018022320:GUST:surface:12 hour fcst:
+
+range: 3935986 5403813
+
+--> Working on: ROZELL 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f12.png
+
+--> Working on: PLEASANT 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f12.png
+
+--> Working on: RED HORSE 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f12.png
+
+--> Working on: KNOB HILL 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f12.png
+Finished: 12
+./temp_2018022320_f13_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:13 hour fcst:
+
+range: 0 875965
+./temp_2018022320_f13_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:48317936:d=2018022320:UGRD:10 m above ground:13 hour fcst:
+
+range: 48317936 49703097
+./temp_2018022320_f13_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:49703098:d=2018022320:VGRD:10 m above ground:13 hour fcst:
+
+range: 49703098 51078779
+./temp_2018022320_f13_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:51078780:d=2018022320:WIND:10 m above ground:12-13 hour max fcst:
+
+range: 51078780 52414047
+./temp_2018022320_f13_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3877392:d=2018022320:GUST:surface:13 hour fcst:
+
+range: 3877392 5352813
+
+--> Working on: ROZELL 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f13.png
+
+--> Working on: PLEASANT 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f13.png
+
+--> Working on: RED HORSE 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f13.png
+
+--> Working on: KNOB HILL 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f13.png
+Finished: 13
+./temp_2018022320_f14_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:14 hour fcst:
+
+range: 0 863129
+./temp_2018022320_f14_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:48559064:d=2018022320:UGRD:10 m above ground:14 hour fcst:
+
+range: 48559064 49950162
+./temp_2018022320_f14_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:49950163:d=2018022320:VGRD:10 m above ground:14 hour fcst:
+
+range: 49950163 51328790
+./temp_2018022320_f14_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:51328791:d=2018022320:WIND:10 m above ground:13-14 hour max fcst:
+
+range: 51328791 52668942
+./temp_2018022320_f14_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3906193:d=2018022320:GUST:surface:14 hour fcst:
+
+range: 3906193 5387017
+
+--> Working on: ROZELL 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f14.png
+
+--> Working on: PLEASANT 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f14.png
+
+--> Working on: RED HORSE 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f14.png
+
+--> Working on: KNOB HILL 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f14.png
+Finished: 14
+./temp_2018022320_f15_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:15 hour fcst:
+
+range: 0 866434
+./temp_2018022320_f15_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:48725354:d=2018022320:UGRD:10 m above ground:15 hour fcst:
+
+range: 48725354 50121390
+./temp_2018022320_f15_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:50121391:d=2018022320:VGRD:10 m above ground:15 hour fcst:
+
+range: 50121391 51503797
+./temp_2018022320_f15_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:51503798:d=2018022320:WIND:10 m above ground:14-15 hour max fcst:
+
+range: 51503798 52847669
+./temp_2018022320_f15_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3901845:d=2018022320:GUST:surface:15 hour fcst:
+
+range: 3901845 5386068
+
+--> Working on: ROZELL 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f15.png
+
+--> Working on: PLEASANT 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f15.png
+
+--> Working on: RED HORSE 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f15.png
+
+--> Working on: KNOB HILL 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f15.png
+Finished: 15
+./temp_2018022320_f16_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:16 hour fcst:
+
+range: 0 866212
+./temp_2018022320_f16_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:48941456:d=2018022320:UGRD:10 m above ground:16 hour fcst:
+
+range: 48941456 50340228
+./temp_2018022320_f16_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:50340229:d=2018022320:VGRD:10 m above ground:16 hour fcst:
+
+range: 50340229 51723027
+./temp_2018022320_f16_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:51723028:d=2018022320:WIND:10 m above ground:15-16 hour max fcst:
+
+range: 51723028 53070346
+./temp_2018022320_f16_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:4045375:d=2018022320:GUST:surface:16 hour fcst:
+
+range: 4045375 5529924
+
+--> Working on: ROZELL 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f16.png
+
+--> Working on: PLEASANT 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f16.png
+
+--> Working on: RED HORSE 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f16.png
+
+--> Working on: KNOB HILL 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f16.png
+Finished: 16
+./temp_2018022320_f17_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:17 hour fcst:
+
+range: 0 853406
+./temp_2018022320_f17_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:48912172:d=2018022320:UGRD:10 m above ground:17 hour fcst:
+
+range: 48912172 50307533
+./temp_2018022320_f17_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:50307534:d=2018022320:VGRD:10 m above ground:17 hour fcst:
+
+range: 50307534 51671277
+./temp_2018022320_f17_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:51671278:d=2018022320:WIND:10 m above ground:16-17 hour max fcst:
+
+range: 51671278 53019078
+./temp_2018022320_f17_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3969578:d=2018022320:GUST:surface:17 hour fcst:
+
+range: 3969578 5463643
+
+--> Working on: ROZELL 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f17.png
+
+--> Working on: PLEASANT 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f17.png
+
+--> Working on: RED HORSE 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f17.png
+
+--> Working on: KNOB HILL 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f17.png
+Finished: 17
+./temp_2018022320_f18_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018022320:REFC:entire atmosphere:18 hour fcst:
+
+range: 0 843559
+./temp_2018022320_f18_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:48836415:d=2018022320:UGRD:10 m above ground:18 hour fcst:
+
+range: 48836415 50215949
+./temp_2018022320_f18_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:50215950:d=2018022320:VGRD:10 m above ground:18 hour fcst:
+
+range: 50215950 51567767
+./temp_2018022320_f18_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:51567768:d=2018022320:WIND:10 m above ground:17-18 hour max fcst:
+
+range: 51567768 52909313
+./temp_2018022320_f18_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:4010259:d=2018022320:GUST:surface:18 hour fcst:
+
+range: 4010259 5514386
+
+--> Working on: ROZELL 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ROZELL/f18.png
+
+--> Working on: PLEASANT 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/PLEASANT/f18.png
+
+--> Working on: RED HORSE 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RED_HORSE/f18.png
+
+--> Working on: KNOB HILL 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/KNOB_HILL/f18.png
+Finished: 18
+30.92 -119.511 38.411 -90.846

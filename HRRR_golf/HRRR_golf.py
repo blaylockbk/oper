@@ -27,7 +27,7 @@ To do list:
 [ ] Move operations to wx1, but need to create my own radar colorbar (pint doesn't work there)
 [ ] Do I want to smooth out the Radar Reflectivity??? Nah!
 [ ] Text labels over scatter points that show values. (why do I get a segmentation fault?)
-[ ] Include Subhourly files files (would increase download time signifiantly??)
+[ ] Include Subhourly files files (would increase download time significantly??)
 [ ] Add email alerts for certain criteria (gusts greater than 80 mph, temps > 100, temps < 32)
 """
 import matplotlib as mpl
@@ -39,6 +39,7 @@ import os
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 import matplotlib.dates as mdates
+import h5py
 
 
 ## Reset the defaults (see more here: http://matplotlib.org/users/customizing.html)
@@ -78,6 +79,14 @@ import location_dic
 ## 1) Get Locations Dictionary
 location = location_dic.get_all()
 
+"""
+# shorten the dictionary for quick testing:
+L = {}
+for i in location.keys()[0:2]:
+    L[i]=location[i]
+
+location = L
+"""
 
 ## 2) Make map object for each location and store in a dictionary
 maps = {}
@@ -90,15 +99,17 @@ for loc in location:
 
 
 ## 3) Create a landuse image for each the locations
+##    Create new figure every day because landuse ice cover changes on lakes
 locs = location.keys() # a list of all the locations
 locs_idx = range(len(locs)) # a number index for each location
-LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
+LU = get_hrrr_variable(datetime.now(), 'VGTYP:surface')
 cm, labels = LU_MODIS21()
 for n in locs_idx:
     locName = locs[n]
     l = location[locName]
     LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/LandUse.png' % locName.replace(' ', '_')
-    if not os.path.exists(LU_SAVE):
+    #if not os.path.isfile(LU_SAVE):
+    if False:
         plt.figure(100)
         print "need to make", LU_SAVE
         maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
@@ -151,18 +162,22 @@ for loc in location.keys():
 
 ## 5) Check for extreme values and send email alert
 from HRRR_warning import *
-for warn in ['UKBKB', 'KSLC']:
-    wind_warning(location, P_wind, warn)
-    temp_warning(location, P_temp, warn)
+try:
+    for warn in ['UKBKB', 'KSLC']:
+        wind_warning(location, P_wind, warn)
+        temp_warning(location, P_temp, warn)
+except:
+    pass
 
 
-# Create a figure for each location. Add permenant elements to each.
-print 'making permenant figure elements...'
+## 6) Create a figure for each location and add permenant elements
+print 'Making permenant figure elements...'
 figs = {}
 locs = location.keys() # a list of all the locations
 locs_idx = range(len(locs)) # a number index for each location
 for n in locs_idx:
     locName = locs[n]
+    print '   --> %s' % locName
     l = location[locName]
     tz = l['timezone']
     figs[locName] = {0:plt.figure(n)}
@@ -179,13 +194,12 @@ for n in locs_idx:
                                 'roads',
                                 linewidth=.5,
                                 color='dimgrey')
-    x, y = m(l['longitude'], l['latitude']) # Location
-    maps[locName].scatter(x, y, s=100, color='white', edgecolor='k', zorder=100)
+    maps[locName].scatter(l['longitude'], l['latitude'], s=100, color='white', edgecolor='k', zorder=100, latlon=True)
     #
     # Plot: Temperature, dewpoint
     figs[locName][2] = figs[locName][0].add_subplot(322)
-    figs[locName][2].plot(P_temp['DATETIME'], P_temp[locName], c='r', label='Temperature')
-    figs[locName][2].plot(P_dwpt['DATETIME'], P_dwpt[locName], c='g', label='Dew Point')
+    figs[locName][2].plot(P_temp['DATETIME'], P_temp[locName], c='r', label='Temperature', zorder=50)
+    figs[locName][2].plot(P_dwpt['DATETIME'], P_dwpt[locName], c='g', label='Dew Point', zorder=50)
     leg2 = figs[locName][2].legend()
     leg2.get_frame().set_linewidth(0)
     figs[locName][2].grid()
@@ -198,13 +212,13 @@ for n in locs_idx:
     #
     # Plot: Wind speed, gust, barbs
     figs[locName][3] = figs[locName][0].add_subplot(324)
-    figs[locName][3].plot(P_gust['DATETIME'], P_gust[locName], c='chocolate', label='Instantaneous Wind Gust')
-    figs[locName][3].plot(P_wind['DATETIME'], P_wind[locName], c='darkorange', label='Previous Hour Max Wind')
+    figs[locName][3].plot(P_gust['DATETIME'], P_gust[locName], c='chocolate', label='Instantaneous Wind Gust', zorder=50)
+    figs[locName][3].plot(P_wind['DATETIME'], P_wind[locName], c='darkorange', label='Previous Hour Max Wind', zorder=50)
     # plt.barbs can not take a datetime object, so find the date indexes:
     idx = mpl.dates.date2num(P_u['DATETIME'])
     figs[locName][3].barbs(idx, wind_uv_to_spd(P_u[locName], P_v[locName]), P_u[locName], P_v[locName],
                            length=6,
-                           barb_increments=dict(half=5, full=10, flag=50))
+                           barb_increments=dict(half=5, full=10, flag=50), zorder=50)
     leg3 = figs[locName][3].legend()
     leg3.get_frame().set_linewidth(0)
     figs[locName][3].grid()
@@ -219,8 +233,8 @@ for n in locs_idx:
     #
     # Plot: Accumulated precip
     figs[locName][4] = figs[locName][0].add_subplot(326)
-    figs[locName][4].bar(P_prec['DATETIME'], P_prec[locName], width=.04, color='dodgerblue', label='1 hour Precipitation')
-    figs[locName][4].plot(P_prec['DATETIME'], P_accum[locName], color='limegreen', label='Accumulated Precipitation')
+    figs[locName][4].bar(P_prec['DATETIME'], P_prec[locName], width=.04, color='dodgerblue', label='1 hour Precipitation', zorder=50)
+    figs[locName][4].plot(P_prec['DATETIME'], P_accum[locName], color='limegreen', label='Accumulated Precipitation', zorder=50)
     figs[locName][4].set_xlim([P_prec['DATETIME'][0], P_prec['DATETIME'][-1]])
     figs[locName][4].set_ylim([0, np.nanmax(P_accum[locName])+.1])
     figs[locName][4].xaxis.set_major_locator(mdates.HourLocator(range(0, 24, 3)))
@@ -236,9 +250,9 @@ for n in locs_idx:
         a = get_mesowest_ts(locName, DATE, datetime.utcnow(),
                             variables='air_temp,wind_speed,dew_point_temperature')
         if a != 'ERROR':
-            figs[locName][2].plot(a['DATETIME'], CtoF(a['air_temp']), c='k', ls='--')
-            figs[locName][2].plot(a['DATETIME'], CtoF(a['dew_point_temperature']), c='k', ls='--')
-            figs[locName][3].plot(a['DATETIME'], mps_to_MPH(a['wind_speed']), c='k', ls='--')
+            figs[locName][2].plot(a['DATETIME'], CtoF(a['air_temp']), c='k', ls='--', zorder=50)
+            figs[locName][2].plot(a['DATETIME'], CtoF(a['dew_point_temperature']), c='k', ls='--', zorder=50)
+            figs[locName][3].plot(a['DATETIME'], mps_to_MPH(a['wind_speed']), c='k', ls='--', zorder=50)
             maxT = np.nanmax([np.nanmax(P_temp[locName]), np.nanmax(CtoF(a['air_temp']))])
             minT = np.nanmin([np.nanmin(P_dwpt[locName]), np.nanmin(CtoF(a['dew_point_temperature']))])
             figs[locName][2].set_ylim([minT-3, maxT+3])
@@ -275,6 +289,10 @@ for fxx in range(0, 19):
             # then link the photo viewer
             photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer2.php'
             os.link(photo_viewer, SAVE+'photo_viewer2.php')
+        if not os.path.exists(SAVE+'OSG_climo/'):
+            # make the SAVE directory if id doesn't already exist
+            os.makedirs(SAVE+'OSG_climo/')
+            print "created:", SAVE+'OSG_climo/'
         # Title over map
         figs[locName][1].set_title('          UTC: %s\nLocal Time: %s' % (DATE+timedelta(hours=fxx), DATE+timedelta(hours=fxx)-timedelta(hours=tz)))
         figs[locName][2].set_title('       Run (UTC): %s f%02d\nValid (UTC): %s' % (H['anlys'].strftime('%Y %b %d, %H:%M'), fxx, H['valid'].strftime('%Y %b %d, %H:%M')))
@@ -329,18 +347,51 @@ for fxx in range(0, 19):
         # 3.2) Temperature/Dew Point
         tempF = P_temp[locName]
         dwptF = P_dwpt[locName]
-        pntTemp = figs[locName][2].scatter(P_temp['DATETIME'][fxx], tempF[fxx], c='r', s=60)
-        pntDwpt = figs[locName][2].scatter(P_dwpt['DATETIME'][fxx], dwptF[fxx], c='g', s=60)
+        pntTemp = figs[locName][2].scatter(P_temp['DATETIME'][fxx], tempF[fxx], c='r', s=60, zorder=100)
+        pntDwpt = figs[locName][2].scatter(P_dwpt['DATETIME'][fxx], dwptF[fxx], c='g', s=60, zorder=100)
         #
         # 3.3) Wind speed and Barbs
-        pntGust = figs[locName][3].scatter(P_gust['DATETIME'][fxx], P_gust[locName][fxx], c='chocolate', s=60)
-        pntWind = figs[locName][3].scatter(P_wind['DATETIME'][fxx], P_wind[locName][fxx], c='darkorange', s=60)
+        pntGust = figs[locName][3].scatter(P_gust['DATETIME'][fxx], P_gust[locName][fxx], c='chocolate', s=60, zorder=100)
+        pntWind = figs[locName][3].scatter(P_wind['DATETIME'][fxx], P_wind[locName][fxx], c='darkorange', s=60, zorder=100)
         #
         # 3.4) Accumulated Precipitation
-        pntPrec = figs[locName][4].scatter(P_prec['DATETIME'][fxx], P_accum[locName][fxx], edgecolor="k", color='limegreen', s=60)
+        pntPrec = figs[locName][4].scatter(P_prec['DATETIME'][fxx], P_accum[locName][fxx], edgecolor="k", color='limegreen', s=60, zorder=100)
         #
         # 4) Save figure
         figs[locName][0].savefig(SAVE+'f%02d.png' % (fxx))
+
+        # --- Create Climatology graph ----------------------------------------
+        if fxx == 0:
+            var = 'TMP:2 m'
+            variable = var.replace(':', '_').replace(' ', '_')
+            x = cut_v[0]
+            y = cut_h[0]
+            OSG_DIR = '/uufs/chpc.utah.edu/common/home/horel-group2/blaylock/HRRR_OSG/hourly30/%s/' % (variable)
+            p100 = np.array([])
+            p75 = np.array([])
+            p50 = np.array([])
+            p25 = np.array([])
+            p00 = np.array([])
+            for D in P_temp['DATETIME']:
+                FILE = 'OSG_HRRR_%s_m%02d_d%02d_h%02d_f00.h5' % (variable, D.month, D.day, D.hour)
+                with h5py.File(OSG_DIR+FILE, 'r') as f:
+                    p100 = np.append(p100, f['p100'][x][y])
+                    p75 = np.append(p75, f['p75'][x][y])
+                    p50 = np.append(p50, f['p50'][x][y])
+                    p25 = np.append(p25, f['p25'][x][y])
+                    p00 = np.append(p00, f['p00'][x][y])
+            if var == 'TMP:2 m' or var == 'DPT:2 m':
+                p100 = KtoF(p100)
+                p75 = KtoF(p75)
+                p50 = KtoF(p50)
+                p25 = KtoF(p25)
+                p00 = KtoF(p00)
+            OSG1 = figs[locName][2].fill_between(P_temp['DATETIME'], p100, p00, color='lightgrey',zorder=1, alpha=.25)
+            OSG2 = figs[locName][2].fill_between(P_temp['DATETIME'], p25, p75, color='grey',zorder=1, alpha=.25)
+            OSG3 = figs[locName][2].plot(P_temp['DATETIME'], p50, color='lightgrey',zorder=1, alpha=.25)
+        figs[locName][0].savefig(SAVE+'/OSG_climo/'+'f%02d.png' % (fxx))
+        # ---------------------------------------------------------------------
+
         #
         pntTemp.remove()
         pntDwpt.remove()
