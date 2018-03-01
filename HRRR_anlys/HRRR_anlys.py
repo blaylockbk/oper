@@ -55,15 +55,11 @@ from MetPy_BB.plots import ctables
 from BB_data.grid_manager import pluck_point_new
 from BB_wx_calcs.wind import wind_uv_to_spd, wind_spddir_to_uv
 from BB_wx_calcs.units import *
+import location_dic
 #from roses import * # this should be in the current directory
 
 # === Stuff you may want to change ============================================
 
-# List of MesoWest stations
-MesoWestID = ['UKBKB', 'KSLC', 'WBB', 'FREUT', 'GNI', 'NAA', 'BFLAT', 'UFD09', 'C8635', 'FPS', 'EYSC', 'UCC23', 'ATL', 'C8635', 'KIDA']
-
-# Forecast (default is set to zero for HRRR analysis). You may choose another
-# forecast hour through the comand line arguments.
 try:
     fxx = int(sys.argv[1])
     print 'Getting f%02d, as requested\n' % fxx
@@ -86,15 +82,14 @@ else:
 # =============================================================================
 # =============================================================================
 
-c = get_station_info(MesoWestID)
+## 1) Get Locations Dictionary
+locations = location_dic.get_all()
 
-# 1) Locations
 location = {}
-for idx_MW in range(len(c['NAME'])):
-    location[c['STNID'][idx_MW]] = {'latitude': c['LAT'][idx_MW],
-                                    'longitude': c['LON'][idx_MW],
-                                    'name': c['NAME'][idx_MW],
-                                    'is MesoWest': True}
+for l in locations:
+    print l
+    if locations[l]['is MesoWest'] == True:
+        location[l] = locations[l]
 
 # 2) Get the HRRR data from NOMADS and store data nicely
 print "UTC DATE:", sDATE

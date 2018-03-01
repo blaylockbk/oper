@@ -109,7 +109,7 @@ for n in locs_idx:
     l = location[locName]
     LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/LandUse.png' % locName.replace(' ', '_')
     #if not os.path.isfile(LU_SAVE):
-    if False:
+    if True:
         plt.figure(100)
         print "need to make", LU_SAVE
         maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
@@ -361,6 +361,7 @@ for fxx in range(0, 19):
         figs[locName][0].savefig(SAVE+'f%02d.png' % (fxx))
 
         # --- Create Climatology graph ----------------------------------------
+        '''
         if fxx == 0:
             var = 'TMP:2 m'
             variable = var.replace(':', '_').replace(' ', '_')
@@ -390,6 +391,7 @@ for fxx in range(0, 19):
             OSG2 = figs[locName][2].fill_between(P_temp['DATETIME'], p25, p75, color='grey',zorder=1, alpha=.25)
             OSG3 = figs[locName][2].plot(P_temp['DATETIME'], p50, color='lightgrey',zorder=1, alpha=.25)
         figs[locName][0].savefig(SAVE+'/OSG_climo/'+'f%02d.png' % (fxx))
+        '''
         # ---------------------------------------------------------------------
 
         #

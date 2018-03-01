@@ -25,6 +25,7 @@ from BB_downloads.HRRR_S3 import point_hrrr_time_series_multi, get_hrrr_hovmolle
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_STNinfo import get_station_info
 from matplotlib.dates import DateFormatter, HourLocator
+import location_dic
 
 ## Reset the defaults (see more here: http://matplotlib.org/users/customizing.html)
 mpl.rcParams['figure.figsize'] = [16, 8]
@@ -51,8 +52,6 @@ today = datetime.now()
 sDATE = datetime(today.year, today.month, today.day)-timedelta(days=2)
 eDATE = datetime(today.year, today.month, today.day)
 
-# List of MesoWest stations
-MesoWestID = ['UKBKB', 'KSLC', 'WBB', 'FREUT', 'GNI', 'NAA', 'BFLAT', 'UFD09', 'C8635', 'FPS', 'EYSC', 'UCC23']
 
 # Directory to save figures (subdirectory will be created for each stnID)
 SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_hovmoller/'
@@ -78,14 +77,15 @@ spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
 
 #==============================================================================
 
-# Create a dictionary of the locations
-c = get_station_info(MesoWestID)
+## 1) Get Locations Dictionary
+location = location_dic.get_all()
+
 locations = {}
-for idx_MW in range(len(MesoWestID)):
-    locations[c['STNID'][idx_MW]] = {'latitude': c['LAT'][idx_MW],
-                                     'longitude': c['LON'][idx_MW],
-                                     'name': c['NAME'][idx_MW],
-                                     'is MesoWest': True}
+for l in location:
+    print l
+    if location[l]['is MesoWest'] == True:
+        locations[l] = location[l]
+
 
 for s in spex:
     print "\nWorking on", s
