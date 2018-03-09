@@ -118,11 +118,11 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
     for F in sorted(location, key=location.get(0)):      
         button = """
         <div class="btn-group" role="group" aria-label="..." style="padding-bottom:3px">
-        <a href="http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/"""+location[F]['name'].replace(' ', '_')+"""/photo_viewer_fire.php" type="button" class="btn btn-warning" style="width:175px"><b><i class="fab fa-gripfire"></i> """+location[F]['name']+"""</b></a>  <div class="btn-group" role="group">
-        <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/photo_viewer_fire.cgi?FIRE="""+location[F]['name'].replace(' ', '_')+"""" class="btn btn-warning" style="width:175px"><b><i class="fab fa-gripfire"></i> """+location[F]['name']+"""</b></a>  <div class="btn-group" role="group">
+        <a class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="far fa-clock"></i>
         <span class="caret"></span>
-        </button>
+        </a>
         <ul class="dropdown-menu">
         <li>Other Data/Figures:</li>
         <li><a href="http://home.chpc.utah.edu/~u0553130/PhD/HRRR_fires/"""+location[F]['name'].replace(' ', '_')+"""">More Plots</a></li>

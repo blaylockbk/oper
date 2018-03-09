@@ -54,7 +54,7 @@ def temp_warning(location, P_temp, warn_stn):
     warn_stn is the station ID you want the warning for
     """
     # Check for extreme values and send email alert
-    if datetime.now().month in [1, 2, 11, 12]:
+    if datetime.now().month in [1, 2, 3, 11, 12]:
         warn_freez = 10
     else:
         warn_freez = 32

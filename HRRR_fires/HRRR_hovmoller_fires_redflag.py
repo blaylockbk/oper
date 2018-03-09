@@ -1,5 +1,5 @@
 # Brian Blaylock
-# June 13, 2017                      Golden State beats the Cavs. James is sad.
+# July 5, 2017                Back to work after a holiday, we have new carpet.
 
 """
 For a MesoWest Station, create a hovmoller-style diagram to show how the HRRR
@@ -9,7 +9,7 @@ forecasted variables change between each successive forecast.
 2) Hovmoller Max in area
 """
 print "\n--------------------------------------------------------"
-print "  Working on the HRRR hovmollers fires (HRRR_hovmoller_fires.py)"
+print "  Working on the HRRR hovmollers GOLF (HRRR_hovmoller.py)"
 print "--------------------------------------------------------\n"
 
 import matplotlib as mpl
@@ -57,30 +57,18 @@ eDATE = datetime(UTC_now.year, UTC_now.month, UTC_now.day, UTC_now.hour)+timedel
 SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/'
 
 # Create specifications (spex) for each variable we want to plot
-spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
+spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
                       'MW var':'wind_speed',
                       'units': r'ms$\mathregular{^{-1}}$',
                       'cmap':'magma_r',
                       'save':'WIND',
                       'contour':range(2, 50, 2)},
-        'Simulated Reflectivity':{'HRRR var':'REFC:entire atmosphere',
-                                  'MW var':'reflectivity',
-                                  'units': 'dBZ',
-                                  'cmap':'gist_ncar',
-                                  'save':'REF',
-                                  'contour':range(20, 100, 20)},
-        '2 m Temperature':{'HRRR var':'TMP:2 m',
-                           'MW var':'air_temp',
-                           'units': 'C',
-                           'cmap':'Spectral_r',
-                           'save':'TMP',
-                           'contour':range(-20, 50, 5)}, 
-        '2 m Dew Point':{'HRRR var':'DPT:2 m',
-                           'MW var':'dew_point_temperature',
-                           'units': 'C',
-                           'cmap':'BrBg',
-                           'save':'DPT',
-                           'contour':range(-20, 50, 5)},                                  
+        'Relative Humidity':{'HRRR var':'RH:2 m',
+                                  'MW var':'relative_humidity',
+                                  'units': '%',
+                                  'cmap':'BrBG',
+                                  'save':'RH',
+                                  'contour':range(0, 100, 10)},
         #'Solar Radiation':{'HRRR var':'DSWRF:surface',
         #                   'MW var':'solar_radiation',
         #                   'units': r'W m$\mathregular{^{-2}}$',
@@ -95,6 +83,8 @@ spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
 # centered at the station latitude/longitude.
 half_box = 9
 
+#==============================================================================
+# 1) Get Locations Dictionary
 get_today = datetime.strftime(date.today(), "%Y-%m-%d")
 daylight = time.daylight # If daylight is on (1) then subtract from timezone.
 
@@ -139,87 +129,86 @@ for F in range(0, len(fires)):
                           'is MesoWest': False
                          }
 
-for s in spex:
-    S = spex[s]
+#
+# Retrieve a "Hovmoller" array, all forecasts for a period of time, for
+# each station in the location dictionary.
+wind_hovmoller = get_hrrr_hovmoller(sDATE, eDATE, locations,
+                                variable='WIND:10 m',
+                                area_stats=half_box)
+rh_hovmoller = get_hrrr_hovmoller(sDATE, eDATE, locations,
+                                variable='RH:2 m',
+                                area_stats=half_box)
+#
+for stn in locations.keys():
+    print "\nWorking on %s" % (stn)
+    SAVE = SAVE_dir + '%s/' % stn.replace(' ','_')
+    if not os.path.exists(SAVE):
+        # make the SAVE directory if it doesn't already exist
+        os.makedirs(SAVE)
+        print "created:", SAVE
+        # then link the photo viewer
+        photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer_fire.php'
+        os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
     #
-    # Retrieve a "Hovmoller" array, all forecasts for a period of time, for
-    # each station in the location dictionary.
-    hovmoller = get_hrrr_hovmoller(sDATE, eDATE, locations,
-                                   variable=S['HRRR var'],
-                                   area_stats=half_box)
+    wind_hovCenter = wind_hovmoller[stn]['box center']
+    wind_hovCenter = np.ma.array(wind_hovCenter)
+    wind_hovCenter[np.isnan(wind_hovCenter)] = np.ma.masked
     #
-    first_mw_attempt = S['MW var']
-    for stn in locations.keys():
-        print "\nWorking on %s %s" % (stn, s)
-        SAVE = SAVE_dir + '%s/' % stn.replace(' ','_')
-        if not os.path.exists(SAVE):
-            # make the SAVE directory if it doesn't already exist
-            os.makedirs(SAVE)
-            print "created:", SAVE
-            # then link the photo viewer
-            photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer_fire.php'
-            os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
-        #
-        # Apply offset to data if necessary
-        if s == '2 m Temperature' or s == '2 m Dew Point':
-            hovmoller[stn]['max'] = hovmoller[stn]['max']-273.15
-            hovmoller[stn]['box center'] = hovmoller[stn]['box center']-273.15
-        #
-        hovCenter = hovmoller[stn]['box center']
-        hovCenter = np.ma.array(hovCenter)
-        hovCenter[np.isnan(hovCenter)] = np.ma.masked
-        #
-        hovBoxMax = hovmoller[stn]['max']
-        hovBoxMax = np.ma.array(hovBoxMax)
-        hovBoxMax[np.isnan(hovBoxMax)] = np.ma.masked
-        #
-        #
-        if s == 'Simulated Reflectivity':
-            hmin = 0
-            hmax = 80
-        else:
-            hmin = np.nanmin(hovCenter)
-            hmax = np.nanmax(hovCenter)
-        #
-        # Plot the Hovmoller diagram
-        plt.clf()
-        plt.cla()
-        fig = plt.figure(1)
-        ax1 = plt.subplot(111)
-        #
-        plt.suptitle('%s %s\n%s - %s' % \
-                    (stn, s, sDATE.strftime('%Y-%m-%d %H:%M'),\
-                        eDATE.strftime('%Y-%m-%d %H:%M')))
-        #
-        # HRRR Hovmoller
-        hv = ax1.pcolormesh(hovmoller['valid_1d+'], hovmoller['fxx_1d+'], hovCenter,
-                            cmap=S['cmap'],
-                            vmax=hmax,
-                            vmin=hmin)
-        ax1.set_xlim(hovmoller['valid_1d+'][0], hovmoller['valid_1d+'][-1])
-        ax1.set_ylim(0, 19)
-        ax1.set_yticks(range(0, 19, 3))
-        ax1.axes.xaxis.set_ticklabels([])
-        ax1.set_ylabel('HRRR Forecast Hour')
-        #
-        # HRRR hovmoller max (contour)
-        CS = ax1.contour(hovmoller['valid_2d'], hovmoller['fxx_2d'], hovBoxMax-hovCenter,
-                         colors='k',
-                         levels=S['contour'])
-        plt.clabel(CS, inline=1, fontsize=10, fmt='%1.f')
-        #
-        ax1.grid()
-        #
-        fig.subplots_adjust(hspace=0, right=0.8)
-        cbar_ax = fig.add_axes([0.82, 0.15, 0.02, 0.7])
-        cb = fig.colorbar(hv, cax=cbar_ax)
-        cb.ax.set_ylabel('%s (%s)' % (s, S['units']))
-        #
-        ax1.xaxis.set_major_locator(HourLocator(byhour=range(0,24,3)))
-        dateFmt = DateFormatter('%b %d\n%H:%M')
-        ax1.xaxis.set_major_formatter(dateFmt)
-        #
-        ax1.set_xlabel(r'Contour shows difference between maximum value in %s km$\mathregular{^{2}}$ box centered at %s %s and the value at the center point.' \
-                    % (half_box*6, locations[stn]['latitude'], locations[stn]['longitude']), fontsize=8)
-        #
-        plt.savefig(SAVE+S['save']+'.png')
+    rh_hovCenter = rh_hovmoller[stn]['box center']
+    rh_hovCenter = np.ma.array(rh_hovCenter)
+    rh_hovCenter[np.isnan(rh_hovCenter)] = np.ma.masked
+    #
+    wind_hovBoxMax = wind_hovmoller[stn]['max']
+    wind_hovBoxMax = np.ma.array(wind_hovBoxMax)
+    wind_hovBoxMax[np.isnan(wind_hovBoxMax)] = np.ma.masked
+    #
+    rh_hovBoxMax = rh_hovmoller[stn]['max']
+    rh_hovBoxMax = np.ma.array(rh_hovBoxMax)
+    rh_hovBoxMax[np.isnan(rh_hovBoxMax)] = np.ma.masked
+    #
+    #
+    ### RED FLAG HOVMOLLER
+    RF_hovCenter = np.logical_and(wind_hovCenter>6.7, rh_hovCenter<20)
+    RF_hovBoxMax = np.logical_and(wind_hovBoxMax>6.7, rh_hovBoxMax<20)
+    #
+    #
+    #
+    # Plot the Hovmoller diagram
+    plt.clf()
+    plt.cla()
+    fig = plt.figure(1)
+    ax1 = plt.subplot(111)
+    #
+    plt.suptitle('%s Red Flag Conditions (wind > 6.7 m/s and RH < 20%%)\n%s - %s' % \
+                (stn, sDATE.strftime('%Y-%m-%d %H:%M'),\
+                    eDATE.strftime('%Y-%m-%d %H:%M')))
+    #
+    # HRRR Hovmoller
+    hv = ax1.pcolormesh(wind_hovmoller['valid_1d+'], wind_hovmoller['fxx_1d+'], RF_hovCenter,
+                        cmap='Reds', vmax=1, vmin=0)
+    ax1.set_xlim(wind_hovmoller['valid_1d+'][0], wind_hovmoller['valid_1d+'][-1])
+    ax1.set_ylim(0, 19)
+    ax1.set_yticks(range(0, 19, 3))
+    ax1.axes.xaxis.set_ticklabels([])
+    ax1.set_ylabel('HRRR Forecast Hour')
+    #
+    # HRRR hovmoller max (contour)
+    CS = ax1.contour(wind_hovmoller['valid_2d'], wind_hovmoller['fxx_2d'], RF_hovBoxMax-RF_hovCenter,
+                        colors='k', levels=[1])
+    plt.clabel(CS, inline=1, fontsize=10, fmt='%1.f')
+    #
+    ax1.grid()
+    #
+    fig.subplots_adjust(hspace=0, right=0.8)
+    cbar_ax = fig.add_axes([0.82, 0.15, 0.02, 0.7])
+    cb = fig.colorbar(hv, cax=cbar_ax)
+    cb.ax.set_ylabel('Red Flag')
+    #
+    ax1.xaxis.set_major_locator(HourLocator(byhour=range(0,24,3)))
+    dateFmt = DateFormatter('%b %d\n%H:%M')
+    ax1.xaxis.set_major_formatter(dateFmt)
+    #
+    ax1.set_xlabel(r'Contour shows difference between maximum value in %s km$\mathregular{^{2}}$ box centered at %s %s and the value at the center point.' \
+                % (half_box*6, locations[stn]['latitude'], locations[stn]['longitude']), fontsize=8)
+    #
+    plt.savefig(SAVE+'RedFlag.png')

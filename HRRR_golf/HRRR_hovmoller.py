@@ -58,7 +58,7 @@ eDATE = datetime(UTC_now.year, UTC_now.month, UTC_now.day, UTC_now.hour)+timedel
 SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/'
 
 # Create specifications (spex) for each variable we want to plot
-spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
+spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
                       'MW var':'wind_speed',
                       'units': r'ms$\mathregular{^{-1}}$',
                       'cmap':'magma_r',
@@ -70,6 +70,12 @@ spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
                                   'cmap':'gist_ncar',
                                   'save':'REF',
                                   'contour':range(20, 100, 20)},
+        '2 m Temperature':{'HRRR var':'TMP:2 m',
+                           'MW var':'air_temp',
+                           'units': 'C',
+                           'cmap':'Spectral_r',
+                           'save':'TMP',
+                           'contour':range(-20, 50, 5)},                                  
         #'Solar Radiation':{'HRRR var':'DSWRF:surface',
         #                   'MW var':'solar_radiation',
         #                   'units': r'W m$\mathregular{^{-2}}$',
@@ -110,7 +116,7 @@ for s in spex:
             os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
         #
         # Apply offset to data if necessary
-        if s == 'Air Temperature' or s == 'Dew Point Temperature':
+        if s == '2 m Temperature' or s == '2 m Dew Point':
             hovmoller[stn]['max'] = hovmoller[stn]['max']-273.15
             hovmoller[stn]['box center'] = hovmoller[stn]['box center']-273.15
         #

@@ -11,5 +11,6 @@ cd /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf/
 
 module load python/2.7.11
 python /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf/HRRR_hovmoller.py
+python /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf/HRRR_hovmoller_redflag.py
 
 exit
