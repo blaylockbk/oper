@@ -7,8 +7,8 @@ Oh, good, you requested a date that should be on Pando.
 matched a variable 78:49446640:d=2018010100:VGTYP:surface:anl
 
 range: 49446640 50309774
-Local DATE: 2018-03-09 11:41:00.162839
-  UTC DATE: 2018-03-09 17:00:00
+Local DATE: 2018-03-09 13:41:25.901123
+  UTC DATE: 2018-03-09 19:00:00
 got temps
 got dwpt
 got wind
@@ -27,56 +27,56 @@ Couldn't draw any new shapes
 Couldn't draw any new shapes
 Couldn't draw any new shapes
 Couldn't draw any new shapes
-./temp_2018030917_f00_REF.grib2
+./temp_2018030919_f00_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:anl:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:anl:
 
-range: 0 556607
-./temp_2018030917_f00_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:41929740:d=2018030917:UGRD:10 m above ground:anl:
-
-range: 41929740 43099997
-./temp_2018030917_f00_VGR.grib2
+range: 0 535903
+./temp_2018030919_f00_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:43099998:d=2018030917:VGRD:10 m above ground:anl:
+matched a variable 59:42085419:d=2018030919:UGRD:10 m above ground:anl:
 
-range: 43099998 44220862
-./temp_2018030917_f00_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:44220863:d=2018030917:WIND:10 m above ground:0-0 day max fcst:
-
-range: 44220863 45395025
-./temp_2018030917_f00_GUS.grib2
+range: 42085419 43262683
+./temp_2018030919_f00_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3253534:d=2018030917:GUST:surface:anl:
+matched a variable 60:43262684:d=2018030919:VGRD:10 m above ground:anl:
 
-range: 3253534 4509515
+range: 43262684 44390304
+./temp_2018030919_f00_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:44390305:d=2018030919:WIND:10 m above ground:0-0 day max fcst:
+
+range: 44390305 45564635
+./temp_2018030919_f00_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3348517:d=2018030919:GUST:surface:anl:
+
+range: 3348517 4604282
 
 --> Working on: CPI 7 0
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f00.png
@@ -105,56 +105,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 0
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f00.png
 Finished: 0
-./temp_2018030917_f01_REF.grib2
+./temp_2018030919_f01_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:1 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:1 hour fcst:
 
-range: 0 500572
-./temp_2018030917_f01_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:44475997:d=2018030917:UGRD:10 m above ground:1 hour fcst:
-
-range: 44475997 45699693
-./temp_2018030917_f01_VGR.grib2
+range: 0 465542
+./temp_2018030919_f01_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:45699694:d=2018030917:VGRD:10 m above ground:1 hour fcst:
+matched a variable 59:44345742:d=2018030919:UGRD:10 m above ground:1 hour fcst:
 
-range: 45699694 46868454
-./temp_2018030917_f01_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:46868455:d=2018030917:WIND:10 m above ground:0-1 hour max fcst:
-
-range: 46868455 48004742
-./temp_2018030917_f01_GUS.grib2
+range: 44345742 45588296
+./temp_2018030919_f01_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3057732:d=2018030917:GUST:surface:1 hour fcst:
+matched a variable 60:45588297:d=2018030919:VGRD:10 m above ground:1 hour fcst:
 
-range: 3057732 4341597
+range: 45588297 46780640
+./temp_2018030919_f01_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:46780641:d=2018030919:WIND:10 m above ground:0-1 hour max fcst:
+
+range: 46780641 47919230
+./temp_2018030919_f01_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:2902762:d=2018030919:GUST:surface:1 hour fcst:
+
+range: 2902762 4215464
 
 --> Working on: CPI 7 1
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f01.png
@@ -183,56 +183,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 1
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f01.png
 Finished: 1
-./temp_2018030917_f02_REF.grib2
+./temp_2018030919_f02_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:2 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:2 hour fcst:
 
-range: 0 529623
-./temp_2018030917_f02_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:44814816:d=2018030917:UGRD:10 m above ground:2 hour fcst:
-
-range: 44814816 46070071
-./temp_2018030917_f02_VGR.grib2
+range: 0 499401
+./temp_2018030919_f02_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46070072:d=2018030917:VGRD:10 m above ground:2 hour fcst:
+matched a variable 59:44647663:d=2018030919:UGRD:10 m above ground:2 hour fcst:
 
-range: 46070072 47271100
-./temp_2018030917_f02_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:47271101:d=2018030917:WIND:10 m above ground:1-2 hour max fcst:
-
-range: 47271101 48432589
-./temp_2018030917_f02_GUS.grib2
+range: 44647663 45912211
+./temp_2018030919_f02_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3205328:d=2018030917:GUST:surface:2 hour fcst:
+matched a variable 60:45912212:d=2018030919:VGRD:10 m above ground:2 hour fcst:
 
-range: 3205328 4520181
+range: 45912212 47128444
+./temp_2018030919_f02_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47128445:d=2018030919:WIND:10 m above ground:1-2 hour max fcst:
+
+range: 47128445 48296028
+./temp_2018030919_f02_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3071705:d=2018030919:GUST:surface:2 hour fcst:
+
+range: 3071705 4419773
 
 --> Working on: CPI 7 2
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f02.png
@@ -261,56 +261,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 2
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f02.png
 Finished: 2
-./temp_2018030917_f03_REF.grib2
+./temp_2018030919_f03_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:3 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:3 hour fcst:
 
-range: 0 545884
-./temp_2018030917_f03_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45035590:d=2018030917:UGRD:10 m above ground:3 hour fcst:
-
-range: 45035590 46311853
-./temp_2018030917_f03_VGR.grib2
+range: 0 541091
+./temp_2018030919_f03_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46311854:d=2018030917:VGRD:10 m above ground:3 hour fcst:
+matched a variable 59:44877842:d=2018030919:UGRD:10 m above ground:3 hour fcst:
 
-range: 46311854 47535418
-./temp_2018030917_f03_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:47535419:d=2018030917:WIND:10 m above ground:2-3 hour max fcst:
-
-range: 47535419 48695966
-./temp_2018030917_f03_GUS.grib2
+range: 44877842 46143220
+./temp_2018030919_f03_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3295654:d=2018030917:GUST:surface:3 hour fcst:
+matched a variable 60:46143221:d=2018030919:VGRD:10 m above ground:3 hour fcst:
 
-range: 3295654 4631448
+range: 46143221 47361827
+./temp_2018030919_f03_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47361828:d=2018030919:WIND:10 m above ground:2-3 hour max fcst:
+
+range: 47361828 48537960
+./temp_2018030919_f03_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3197134:d=2018030919:GUST:surface:3 hour fcst:
+
+range: 3197134 4571729
 
 --> Working on: CPI 7 3
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f03.png
@@ -339,56 +339,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 3
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f03.png
 Finished: 3
-./temp_2018030917_f04_REF.grib2
+./temp_2018030919_f04_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:4 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:4 hour fcst:
 
-range: 0 550763
-./temp_2018030917_f04_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45082805:d=2018030917:UGRD:10 m above ground:4 hour fcst:
-
-range: 45082805 46365305
-./temp_2018030917_f04_VGR.grib2
+range: 0 548791
+./temp_2018030919_f04_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46365306:d=2018030917:VGRD:10 m above ground:4 hour fcst:
+matched a variable 59:45063465:d=2018030919:UGRD:10 m above ground:4 hour fcst:
 
-range: 46365306 47596085
-./temp_2018030917_f04_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:47596086:d=2018030917:WIND:10 m above ground:3-4 hour max fcst:
-
-range: 47596086 48763414
-./temp_2018030917_f04_GUS.grib2
+range: 45063465 46315726
+./temp_2018030919_f04_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3267659:d=2018030917:GUST:surface:4 hour fcst:
+matched a variable 60:46315727:d=2018030919:VGRD:10 m above ground:4 hour fcst:
 
-range: 3267659 4622409
+range: 46315727 47525967
+./temp_2018030919_f04_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47525968:d=2018030919:WIND:10 m above ground:3-4 hour max fcst:
+
+range: 47525968 48700982
+./temp_2018030919_f04_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3340572:d=2018030919:GUST:surface:4 hour fcst:
+
+range: 3340572 4744382
 
 --> Working on: CPI 7 4
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f04.png
@@ -417,56 +417,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 4
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f04.png
 Finished: 4
-./temp_2018030917_f05_REF.grib2
+./temp_2018030919_f05_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:5 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:5 hour fcst:
 
-range: 0 555571
-./temp_2018030917_f05_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45130414:d=2018030917:UGRD:10 m above ground:5 hour fcst:
-
-range: 45130414 46404381
-./temp_2018030917_f05_VGR.grib2
+range: 0 550015
+./temp_2018030919_f05_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46404382:d=2018030917:VGRD:10 m above ground:5 hour fcst:
+matched a variable 59:44932033:d=2018030919:UGRD:10 m above ground:5 hour fcst:
 
-range: 46404382 47629273
-./temp_2018030917_f05_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:47629274:d=2018030917:WIND:10 m above ground:4-5 hour max fcst:
-
-range: 47629274 48812783
-./temp_2018030917_f05_GUS.grib2
+range: 44932033 46172740
+./temp_2018030919_f05_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3337610:d=2018030917:GUST:surface:5 hour fcst:
+matched a variable 60:46172741:d=2018030919:VGRD:10 m above ground:5 hour fcst:
 
-range: 3337610 4713347
+range: 46172741 47378523
+./temp_2018030919_f05_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47378524:d=2018030919:WIND:10 m above ground:4-5 hour max fcst:
+
+range: 47378524 48550996
+./temp_2018030919_f05_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3236172:d=2018030919:GUST:surface:5 hour fcst:
+
+range: 3236172 4620658
 
 --> Working on: CPI 7 5
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f05.png
@@ -495,56 +495,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 5
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f05.png
 Finished: 5
-./temp_2018030917_f06_REF.grib2
+./temp_2018030919_f06_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:6 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:6 hour fcst:
 
-range: 0 561687
-./temp_2018030917_f06_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45139534:d=2018030917:UGRD:10 m above ground:6 hour fcst:
-
-range: 45139534 46396738
-./temp_2018030917_f06_VGR.grib2
+range: 0 552765
+./temp_2018030919_f06_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46396739:d=2018030917:VGRD:10 m above ground:6 hour fcst:
+matched a variable 59:44937426:d=2018030919:UGRD:10 m above ground:6 hour fcst:
 
-range: 46396739 47606608
-./temp_2018030917_f06_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:47606609:d=2018030917:WIND:10 m above ground:5-6 hour max fcst:
-
-range: 47606609 48783250
-./temp_2018030917_f06_GUS.grib2
+range: 44937426 46186867
+./temp_2018030919_f06_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3350255:d=2018030917:GUST:surface:6 hour fcst:
+matched a variable 60:46186868:d=2018030919:VGRD:10 m above ground:6 hour fcst:
 
-range: 3350255 4748767
+range: 46186868 47401016
+./temp_2018030919_f06_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47401017:d=2018030919:WIND:10 m above ground:5-6 hour max fcst:
+
+range: 47401017 48582689
+./temp_2018030919_f06_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3255387:d=2018030919:GUST:surface:6 hour fcst:
+
+range: 3255387 4629472
 
 --> Working on: CPI 7 6
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f06.png
@@ -573,56 +573,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 6
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f06.png
 Finished: 6
-./temp_2018030917_f07_REF.grib2
+./temp_2018030919_f07_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:7 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:7 hour fcst:
 
-range: 0 576907
-./temp_2018030917_f07_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45020927:d=2018030917:UGRD:10 m above ground:7 hour fcst:
-
-range: 45020927 46265231
-./temp_2018030917_f07_VGR.grib2
+range: 0 556039
+./temp_2018030919_f07_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46265232:d=2018030917:VGRD:10 m above ground:7 hour fcst:
+matched a variable 59:45163924:d=2018030919:UGRD:10 m above ground:7 hour fcst:
 
-range: 46265232 47470108
-./temp_2018030917_f07_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:47470109:d=2018030917:WIND:10 m above ground:6-7 hour max fcst:
-
-range: 47470109 48642357
-./temp_2018030917_f07_GUS.grib2
+range: 45163924 46455103
+./temp_2018030919_f07_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3393503:d=2018030917:GUST:surface:7 hour fcst:
+matched a variable 60:46455104:d=2018030919:VGRD:10 m above ground:7 hour fcst:
 
-range: 3393503 4777821
+range: 46455104 47713362
+./temp_2018030919_f07_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47713363:d=2018030919:WIND:10 m above ground:6-7 hour max fcst:
+
+range: 47713363 48922912
+./temp_2018030919_f07_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3320615:d=2018030919:GUST:surface:7 hour fcst:
+
+range: 3320615 4698172
 
 --> Working on: CPI 7 7
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f07.png
@@ -651,56 +651,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 7
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f07.png
 Finished: 7
-./temp_2018030917_f08_REF.grib2
+./temp_2018030919_f08_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:8 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:8 hour fcst:
 
-range: 0 580769
-./temp_2018030917_f08_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45107652:d=2018030917:UGRD:10 m above ground:8 hour fcst:
-
-range: 45107652 46358649
-./temp_2018030917_f08_VGR.grib2
+range: 0 553910
+./temp_2018030919_f08_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46358650:d=2018030917:VGRD:10 m above ground:8 hour fcst:
+matched a variable 59:45187681:d=2018030919:UGRD:10 m above ground:8 hour fcst:
 
-range: 46358650 47569843
-./temp_2018030917_f08_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:47569844:d=2018030917:WIND:10 m above ground:7-8 hour max fcst:
-
-range: 47569844 48751908
-./temp_2018030917_f08_GUS.grib2
+range: 45187681 46508143
+./temp_2018030919_f08_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3340894:d=2018030917:GUST:surface:8 hour fcst:
+matched a variable 60:46508144:d=2018030919:VGRD:10 m above ground:8 hour fcst:
 
-range: 3340894 4713387
+range: 46508144 47797779
+./temp_2018030919_f08_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47797780:d=2018030919:WIND:10 m above ground:7-8 hour max fcst:
+
+range: 47797780 49045334
+./temp_2018030919_f08_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3236942:d=2018030919:GUST:surface:8 hour fcst:
+
+range: 3236942 4632410
 
 --> Working on: CPI 7 8
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f08.png
@@ -729,56 +729,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 8
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f08.png
 Finished: 8
-./temp_2018030917_f09_REF.grib2
+./temp_2018030919_f09_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:9 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:9 hour fcst:
 
-range: 0 578023
-./temp_2018030917_f09_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45235078:d=2018030917:UGRD:10 m above ground:9 hour fcst:
-
-range: 45235078 46525500
-./temp_2018030917_f09_VGR.grib2
+range: 0 552437
+./temp_2018030919_f09_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46525501:d=2018030917:VGRD:10 m above ground:9 hour fcst:
+matched a variable 59:45407162:d=2018030919:UGRD:10 m above ground:9 hour fcst:
 
-range: 46525501 47780251
-./temp_2018030917_f09_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:47780252:d=2018030917:WIND:10 m above ground:8-9 hour max fcst:
-
-range: 47780252 48985803
-./temp_2018030917_f09_GUS.grib2
+range: 45407162 46744306
+./temp_2018030919_f09_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3343703:d=2018030917:GUST:surface:9 hour fcst:
+matched a variable 60:46744307:d=2018030919:VGRD:10 m above ground:9 hour fcst:
 
-range: 3343703 4721019
+range: 46744307 48052875
+./temp_2018030919_f09_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48052876:d=2018030919:WIND:10 m above ground:8-9 hour max fcst:
+
+range: 48052876 49322821
+./temp_2018030919_f09_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3265823:d=2018030919:GUST:surface:9 hour fcst:
+
+range: 3265823 4676172
 
 --> Working on: CPI 7 9
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f09.png
@@ -807,56 +807,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 9
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f09.png
 Finished: 9
-./temp_2018030917_f10_REF.grib2
+./temp_2018030919_f10_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:10 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:10 hour fcst:
 
-range: 0 570687
-./temp_2018030917_f10_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45401108:d=2018030917:UGRD:10 m above ground:10 hour fcst:
-
-range: 45401108 46722653
-./temp_2018030917_f10_VGR.grib2
+range: 0 546848
+./temp_2018030919_f10_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46722654:d=2018030917:VGRD:10 m above ground:10 hour fcst:
+matched a variable 59:45742699:d=2018030919:UGRD:10 m above ground:10 hour fcst:
 
-range: 46722654 48010691
-./temp_2018030917_f10_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:48010692:d=2018030917:WIND:10 m above ground:9-10 hour max fcst:
-
-range: 48010692 49254862
-./temp_2018030917_f10_GUS.grib2
+range: 45742699 47089043
+./temp_2018030919_f10_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3343225:d=2018030917:GUST:surface:10 hour fcst:
+matched a variable 60:47089044:d=2018030919:VGRD:10 m above ground:10 hour fcst:
 
-range: 3343225 4738333
+range: 47089044 48408365
+./temp_2018030919_f10_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48408366:d=2018030919:WIND:10 m above ground:9-10 hour max fcst:
+
+range: 48408366 49690589
+./temp_2018030919_f10_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3233327:d=2018030919:GUST:surface:10 hour fcst:
+
+range: 3233327 4652513
 
 --> Working on: CPI 7 10
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f10.png
@@ -885,56 +885,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 10
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f10.png
 Finished: 10
-./temp_2018030917_f11_REF.grib2
+./temp_2018030919_f11_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:11 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:11 hour fcst:
 
-range: 0 563424
-./temp_2018030917_f11_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45404133:d=2018030917:UGRD:10 m above ground:11 hour fcst:
-
-range: 45404133 46743402
-./temp_2018030917_f11_VGR.grib2
+range: 0 555378
+./temp_2018030919_f11_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:46743403:d=2018030917:VGRD:10 m above ground:11 hour fcst:
+matched a variable 59:45892593:d=2018030919:UGRD:10 m above ground:11 hour fcst:
 
-range: 46743403 48052421
-./temp_2018030917_f11_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:48052422:d=2018030917:WIND:10 m above ground:10-11 hour max fcst:
-
-range: 48052422 49320507
-./temp_2018030917_f11_GUS.grib2
+range: 45892593 47245796
+./temp_2018030919_f11_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3218783:d=2018030917:GUST:surface:11 hour fcst:
+matched a variable 60:47245797:d=2018030919:VGRD:10 m above ground:11 hour fcst:
 
-range: 3218783 4628401
+range: 47245797 48575291
+./temp_2018030919_f11_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48575292:d=2018030919:WIND:10 m above ground:10-11 hour max fcst:
+
+range: 48575292 49863697
+./temp_2018030919_f11_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3267778:d=2018030919:GUST:surface:11 hour fcst:
+
+range: 3267778 4694285
 
 --> Working on: CPI 7 11
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f11.png
@@ -963,56 +963,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 11
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f11.png
 Finished: 11
-./temp_2018030917_f12_REF.grib2
+./temp_2018030919_f12_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:12 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:12 hour fcst:
 
-range: 0 560940
-./temp_2018030917_f12_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45702733:d=2018030917:UGRD:10 m above ground:12 hour fcst:
-
-range: 45702733 47051106
-./temp_2018030917_f12_VGR.grib2
+range: 0 566651
+./temp_2018030919_f12_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:47051107:d=2018030917:VGRD:10 m above ground:12 hour fcst:
+matched a variable 59:45632196:d=2018030919:UGRD:10 m above ground:12 hour fcst:
 
-range: 47051107 48373371
-./temp_2018030917_f12_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:48373372:d=2018030917:WIND:10 m above ground:11-12 hour max fcst:
-
-range: 48373372 49655236
-./temp_2018030917_f12_GUS.grib2
+range: 45632196 46987596
+./temp_2018030919_f12_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3362488:d=2018030917:GUST:surface:12 hour fcst:
+matched a variable 60:46987597:d=2018030919:VGRD:10 m above ground:12 hour fcst:
 
-range: 3362488 4784386
+range: 46987597 48322640
+./temp_2018030919_f12_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48322641:d=2018030919:WIND:10 m above ground:11-12 hour max fcst:
+
+range: 48322641 49615539
+./temp_2018030919_f12_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3139845:d=2018030919:GUST:surface:12 hour fcst:
+
+range: 3139845 4569192
 
 --> Working on: CPI 7 12
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f12.png
@@ -1041,56 +1041,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 12
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f12.png
 Finished: 12
-./temp_2018030917_f13_REF.grib2
+./temp_2018030919_f13_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:13 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:13 hour fcst:
 
-range: 0 567315
-./temp_2018030917_f13_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45915077:d=2018030917:UGRD:10 m above ground:13 hour fcst:
-
-range: 45915077 47268138
-./temp_2018030917_f13_VGR.grib2
+range: 0 588337
+./temp_2018030919_f13_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:47268139:d=2018030917:VGRD:10 m above ground:13 hour fcst:
+matched a variable 59:45748339:d=2018030919:UGRD:10 m above ground:13 hour fcst:
 
-range: 47268139 48598821
-./temp_2018030917_f13_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:48598822:d=2018030917:WIND:10 m above ground:12-13 hour max fcst:
-
-range: 48598822 49887160
-./temp_2018030917_f13_GUS.grib2
+range: 45748339 47089915
+./temp_2018030919_f13_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3221120:d=2018030917:GUST:surface:13 hour fcst:
+matched a variable 60:47089916:d=2018030919:VGRD:10 m above ground:13 hour fcst:
 
-range: 3221120 4647184
+range: 47089916 48426695
+./temp_2018030919_f13_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48426696:d=2018030919:WIND:10 m above ground:12-13 hour max fcst:
+
+range: 48426696 49722552
+./temp_2018030919_f13_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3212723:d=2018030919:GUST:surface:13 hour fcst:
+
+range: 3212723 4644771
 
 --> Working on: CPI 7 13
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f13.png
@@ -1119,56 +1119,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 13
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f13.png
 Finished: 13
-./temp_2018030917_f14_REF.grib2
+./temp_2018030919_f14_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:14 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:14 hour fcst:
 
-range: 0 586347
-./temp_2018030917_f14_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:46097122:d=2018030917:UGRD:10 m above ground:14 hour fcst:
-
-range: 46097122 47453688
-./temp_2018030917_f14_VGR.grib2
+range: 0 607246
+./temp_2018030919_f14_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:47453689:d=2018030917:VGRD:10 m above ground:14 hour fcst:
+matched a variable 59:45613214:d=2018030919:UGRD:10 m above ground:14 hour fcst:
 
-range: 47453689 48789213
-./temp_2018030917_f14_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:48789214:d=2018030917:WIND:10 m above ground:13-14 hour max fcst:
-
-range: 48789214 50081374
-./temp_2018030917_f14_GUS.grib2
+range: 45613214 46955864
+./temp_2018030919_f14_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3363920:d=2018030917:GUST:surface:14 hour fcst:
+matched a variable 60:46955865:d=2018030919:VGRD:10 m above ground:14 hour fcst:
 
-range: 3363920 4793181
+range: 46955865 48292680
+./temp_2018030919_f14_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48292681:d=2018030919:WIND:10 m above ground:13-14 hour max fcst:
+
+range: 48292681 49587979
+./temp_2018030919_f14_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3124398:d=2018030919:GUST:surface:14 hour fcst:
+
+range: 3124398 4558497
 
 --> Working on: CPI 7 14
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f14.png
@@ -1197,56 +1197,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 14
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f14.png
 Finished: 14
-./temp_2018030917_f15_REF.grib2
+./temp_2018030919_f15_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:15 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:15 hour fcst:
 
-range: 0 601275
-./temp_2018030917_f15_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:46003285:d=2018030917:UGRD:10 m above ground:15 hour fcst:
-
-range: 46003285 47362544
-./temp_2018030917_f15_VGR.grib2
+range: 0 613412
+./temp_2018030919_f15_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:47362545:d=2018030917:VGRD:10 m above ground:15 hour fcst:
+matched a variable 59:45625446:d=2018030919:UGRD:10 m above ground:15 hour fcst:
 
-range: 47362545 48701399
-./temp_2018030917_f15_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:48701400:d=2018030917:WIND:10 m above ground:14-15 hour max fcst:
-
-range: 48701400 49996477
-./temp_2018030917_f15_GUS.grib2
+range: 45625446 46967655
+./temp_2018030919_f15_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3412664:d=2018030917:GUST:surface:15 hour fcst:
+matched a variable 60:46967656:d=2018030919:VGRD:10 m above ground:15 hour fcst:
 
-range: 3412664 4844357
+range: 46967656 48303829
+./temp_2018030919_f15_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48303830:d=2018030919:WIND:10 m above ground:14-15 hour max fcst:
+
+range: 48303830 49598549
+./temp_2018030919_f15_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3142108:d=2018030919:GUST:surface:15 hour fcst:
+
+range: 3142108 4576446
 
 --> Working on: CPI 7 15
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f15.png
@@ -1275,56 +1275,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 15
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f15.png
 Finished: 15
-./temp_2018030917_f16_REF.grib2
+./temp_2018030919_f16_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:16 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:16 hour fcst:
 
-range: 0 618524
-./temp_2018030917_f16_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45842876:d=2018030917:UGRD:10 m above ground:16 hour fcst:
-
-range: 45842876 47188362
-./temp_2018030917_f16_VGR.grib2
+range: 0 614252
+./temp_2018030919_f16_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:47188363:d=2018030917:VGRD:10 m above ground:16 hour fcst:
+matched a variable 59:45796042:d=2018030919:UGRD:10 m above ground:16 hour fcst:
 
-range: 47188363 48527588
-./temp_2018030917_f16_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:48527589:d=2018030917:WIND:10 m above ground:15-16 hour max fcst:
-
-range: 48527589 49822604
-./temp_2018030917_f16_GUS.grib2
+range: 45796042 47139125
+./temp_2018030919_f16_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3229264:d=2018030917:GUST:surface:16 hour fcst:
+matched a variable 60:47139126:d=2018030919:VGRD:10 m above ground:16 hour fcst:
 
-range: 3229264 4664294
+range: 47139126 48473551
+./temp_2018030919_f16_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48473552:d=2018030919:WIND:10 m above ground:15-16 hour max fcst:
+
+range: 48473552 49767525
+./temp_2018030919_f16_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3239014:d=2018030919:GUST:surface:16 hour fcst:
+
+range: 3239014 4672859
 
 --> Working on: CPI 7 16
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f16.png
@@ -1353,56 +1353,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 16
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f16.png
 Finished: 16
-./temp_2018030917_f17_REF.grib2
+./temp_2018030919_f17_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:17 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:17 hour fcst:
 
-range: 0 622281
-./temp_2018030917_f17_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45777511:d=2018030917:UGRD:10 m above ground:17 hour fcst:
-
-range: 45777511 47122178
-./temp_2018030917_f17_VGR.grib2
+range: 0 610938
+./temp_2018030919_f17_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:47122179:d=2018030917:VGRD:10 m above ground:17 hour fcst:
+matched a variable 59:45929370:d=2018030919:UGRD:10 m above ground:17 hour fcst:
 
-range: 47122179 48459381
-./temp_2018030917_f17_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:48459382:d=2018030917:WIND:10 m above ground:16-17 hour max fcst:
-
-range: 48459382 49738687
-./temp_2018030917_f17_GUS.grib2
+range: 45929370 47272822
+./temp_2018030919_f17_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3179761:d=2018030917:GUST:surface:17 hour fcst:
+matched a variable 60:47272823:d=2018030919:VGRD:10 m above ground:17 hour fcst:
 
-range: 3179761 4615746
+range: 47272823 48605908
+./temp_2018030919_f17_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48605909:d=2018030919:WIND:10 m above ground:16-17 hour max fcst:
+
+range: 48605909 49898262
+./temp_2018030919_f17_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3266757:d=2018030919:GUST:surface:17 hour fcst:
+
+range: 3266757 4701763
 
 --> Working on: CPI 7 17
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f17.png
@@ -1431,56 +1431,56 @@ Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GALE
 --> Working on: WEST 60 17
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f17.png
 Finished: 17
-./temp_2018030917_f18_REF.grib2
+./temp_2018030919_f18_REF.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 1:0:d=2018030917:REFC:entire atmosphere:18 hour fcst:
+matched a variable 1:0:d=2018030919:REFC:entire atmosphere:18 hour fcst:
 
-range: 0 624073
-./temp_2018030917_f18_UGR.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 59:45901524:d=2018030917:UGRD:10 m above ground:18 hour fcst:
-
-range: 45901524 47245140
-./temp_2018030917_f18_VGR.grib2
+range: 0 611664
+./temp_2018030919_f18_UGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 60:47245141:d=2018030917:VGRD:10 m above ground:18 hour fcst:
+matched a variable 59:45771543:d=2018030919:UGRD:10 m above ground:18 hour fcst:
 
-range: 47245141 48581322
-./temp_2018030917_f18_WIN.grib2
-
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
-
-matched a variable 61:48581323:d=2018030917:WIND:10 m above ground:17-18 hour max fcst:
-
-range: 48581323 49873006
-./temp_2018030917_f18_GUS.grib2
+range: 45771543 47107940
+./temp_2018030919_f18_VGR.grib2
 
 -----------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)            !!
 -----------------------------------------------------------------------
 
-matched a variable 8:3201795:d=2018030917:GUST:surface:18 hour fcst:
+matched a variable 60:47107941:d=2018030919:VGRD:10 m above ground:18 hour fcst:
 
-range: 3201795 4636485
+range: 47107941 48432331
+./temp_2018030919_f18_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48432332:d=2018030919:WIND:10 m above ground:17-18 hour max fcst:
+
+range: 48432332 49722204
+./temp_2018030919_f18_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3229028:d=2018030919:GUST:surface:18 hour fcst:
+
+range: 3229028 4663433
 
 --> Working on: CPI 7 18
 Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CPI_7/f18.png

@@ -432,7 +432,9 @@ for fxx in range(0, 19):
             # Wind Barbs
             # Overlay wind barbs (need to trim this array before we plot it)
             # First need to trim the array
-            barbs = figs[locName][1].barbs(trim_X[::3,::3], trim_Y[::3,::3], trim_H_U[::3,::3], trim_H_V[::3,::3], zorder=200, length=5)
+            barbs = figs[locName][1].barbs(trim_X[::3,::3], trim_Y[::3,::3],
+                                           trim_H_U[::3,::3], trim_H_V[::3,::3],
+                                           zorder=200, length=5)
             #
             # 3.2) Temperature/Dew Point
             tempF = P_temp[locName]
