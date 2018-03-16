@@ -1,1 +1,1467 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf
+./temp_2018031611_f00_VGT.grib2
+Oh, good, you requested a date that should be on Pando.
+matched a variable 78:53607665:d=2018031611:VGTYP:surface:anl:
+
+range: 53607665 54472475
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UTPKL/LandUse.png
+created landuse maps for  UTPKL
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/SND/LandUse.png
+created landuse maps for  SND
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/NAA/LandUse.png
+created landuse maps for  NAA
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/C8635/LandUse.png
+created landuse maps for  C8635
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FPS/LandUse.png
+created landuse maps for  FPS
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KSLC/LandUse.png
+created landuse maps for  KSLC
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UFD09/LandUse.png
+created landuse maps for  UFD09
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/RACM4/LandUse.png
+created landuse maps for  RACM4
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EPMU1/LandUse.png
+created landuse maps for  EPMU1
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EYSC/LandUse.png
+created landuse maps for  EYSC
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KIDA/LandUse.png
+created landuse maps for  KIDA
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UCC23/LandUse.png
+created landuse maps for  UCC23
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UKBKB/LandUse.png
+created landuse maps for  UKBKB
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Orderville/LandUse.png
+created landuse maps for  Orderville
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UtahLake/LandUse.png
+created landuse maps for  UtahLake
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/WBB/LandUse.png
+created landuse maps for  WBB
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Oaks/LandUse.png
+created landuse maps for  Oaks
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/GNI/LandUse.png
+created landuse maps for  GNI
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/ALT/LandUse.png
+created landuse maps for  ALT
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/BFLAT/LandUse.png
+created landuse maps for  BFLAT
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FREUT/LandUse.png
+created landuse maps for  FREUT
+ My DATE: 2018-03-16 11:35:15.802469
+UTC DATE: 2018-03-16 16:00:00
+plucking values from HRRR
+got Temp
+got Dwpt
+got Wind
+got Gust
+got U10
+got V10
+got Precip
+Making permenant figure elements...
+   --> UTPKL
+   --> SND
+   --> NAA
+   --> C8635
+   --> FPS
+   --> KSLC
+   --> UFD09
+   --> RACM4
+   --> EPMU1
+   --> EYSC
+   --> KIDA
+   --> UCC23
+   --> UKBKB
+   --> Orderville
+   --> UtahLake
+   --> WBB
+   --> Oaks
+   --> GNI
+   --> ALT
+   --> BFLAT
+   --> FREUT
+./temp_2018031616_f00_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:anl:
+
+range: 0 556450
+./temp_2018031616_f00_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:43199659:d=2018031616:UGRD:10 m above ground:anl:
+
+range: 43199659 44382861
+./temp_2018031616_f00_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:44382862:d=2018031616:VGRD:10 m above ground:anl:
+
+range: 44382862 45532030
+
+--> Working on: UTPKL 0
+
+--> Working on: SND 0
+
+--> Working on: NAA 0
+
+--> Working on: C8635 0
+
+--> Working on: FPS 0
+
+--> Working on: KSLC 0
+
+--> Working on: UFD09 0
+
+--> Working on: RACM4 0
+
+--> Working on: EPMU1 0
+
+--> Working on: EYSC 0
+
+--> Working on: KIDA 0
+
+--> Working on: UCC23 0
+
+--> Working on: UKBKB 0
+
+--> Working on: Orderville 0
+
+--> Working on: UtahLake 0
+
+--> Working on: WBB 0
+
+--> Working on: Oaks 0
+
+--> Working on: GNI 0
+
+--> Working on: ALT 0
+
+--> Working on: BFLAT 0
+
+--> Working on: FREUT 0
+Finished: 0
+./temp_2018031616_f01_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:1 hour fcst:
+
+range: 0 553059
+./temp_2018031616_f01_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45517118:d=2018031616:UGRD:10 m above ground:1 hour fcst:
+
+range: 45517118 46744131
+./temp_2018031616_f01_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46744132:d=2018031616:VGRD:10 m above ground:1 hour fcst:
+
+range: 46744132 47928012
+
+--> Working on: UTPKL 1
+
+--> Working on: SND 1
+
+--> Working on: NAA 1
+
+--> Working on: C8635 1
+
+--> Working on: FPS 1
+
+--> Working on: KSLC 1
+
+--> Working on: UFD09 1
+
+--> Working on: RACM4 1
+
+--> Working on: EPMU1 1
+
+--> Working on: EYSC 1
+
+--> Working on: KIDA 1
+
+--> Working on: UCC23 1
+
+--> Working on: UKBKB 1
+
+--> Working on: Orderville 1
+
+--> Working on: UtahLake 1
+
+--> Working on: WBB 1
+
+--> Working on: Oaks 1
+
+--> Working on: GNI 1
+
+--> Working on: ALT 1
+
+--> Working on: BFLAT 1
+
+--> Working on: FREUT 1
+Finished: 1
+./temp_2018031616_f02_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:2 hour fcst:
+
+range: 0 581281
+./temp_2018031616_f02_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45889309:d=2018031616:UGRD:10 m above ground:2 hour fcst:
+
+range: 45889309 47142474
+./temp_2018031616_f02_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47142475:d=2018031616:VGRD:10 m above ground:2 hour fcst:
+
+range: 47142475 48349293
+
+--> Working on: UTPKL 2
+
+--> Working on: SND 2
+
+--> Working on: NAA 2
+
+--> Working on: C8635 2
+
+--> Working on: FPS 2
+
+--> Working on: KSLC 2
+
+--> Working on: UFD09 2
+
+--> Working on: RACM4 2
+
+--> Working on: EPMU1 2
+
+--> Working on: EYSC 2
+
+--> Working on: KIDA 2
+
+--> Working on: UCC23 2
+
+--> Working on: UKBKB 2
+
+--> Working on: Orderville 2
+
+--> Working on: UtahLake 2
+
+--> Working on: WBB 2
+
+--> Working on: Oaks 2
+
+--> Working on: GNI 2
+
+--> Working on: ALT 2
+
+--> Working on: BFLAT 2
+
+--> Working on: FREUT 2
+Finished: 2
+./temp_2018031616_f03_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:3 hour fcst:
+
+range: 0 595254
+./temp_2018031616_f03_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46055286:d=2018031616:UGRD:10 m above ground:3 hour fcst:
+
+range: 46055286 47328352
+./temp_2018031616_f03_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47328353:d=2018031616:VGRD:10 m above ground:3 hour fcst:
+
+range: 47328353 48554835
+
+--> Working on: UTPKL 3
+
+--> Working on: SND 3
+
+--> Working on: NAA 3
+
+--> Working on: C8635 3
+
+--> Working on: FPS 3
+
+--> Working on: KSLC 3
+
+--> Working on: UFD09 3
+
+--> Working on: RACM4 3
+
+--> Working on: EPMU1 3
+
+--> Working on: EYSC 3
+
+--> Working on: KIDA 3
+
+--> Working on: UCC23 3
+
+--> Working on: UKBKB 3
+
+--> Working on: Orderville 3
+
+--> Working on: UtahLake 3
+
+--> Working on: WBB 3
+
+--> Working on: Oaks 3
+
+--> Working on: GNI 3
+
+--> Working on: ALT 3
+
+--> Working on: BFLAT 3
+
+--> Working on: FREUT 3
+Finished: 3
+./temp_2018031616_f04_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:4 hour fcst:
+
+range: 0 610205
+./temp_2018031616_f04_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46325334:d=2018031616:UGRD:10 m above ground:4 hour fcst:
+
+range: 46325334 47606667
+./temp_2018031616_f04_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47606668:d=2018031616:VGRD:10 m above ground:4 hour fcst:
+
+range: 47606668 48828011
+
+--> Working on: UTPKL 4
+
+--> Working on: SND 4
+
+--> Working on: NAA 4
+
+--> Working on: C8635 4
+
+--> Working on: FPS 4
+
+--> Working on: KSLC 4
+
+--> Working on: UFD09 4
+
+--> Working on: RACM4 4
+
+--> Working on: EPMU1 4
+
+--> Working on: EYSC 4
+
+--> Working on: KIDA 4
+
+--> Working on: UCC23 4
+
+--> Working on: UKBKB 4
+
+--> Working on: Orderville 4
+
+--> Working on: UtahLake 4
+
+--> Working on: WBB 4
+
+--> Working on: Oaks 4
+
+--> Working on: GNI 4
+
+--> Working on: ALT 4
+
+--> Working on: BFLAT 4
+
+--> Working on: FREUT 4
+Finished: 4
+./temp_2018031616_f05_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:5 hour fcst:
+
+range: 0 622632
+./temp_2018031616_f05_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46448290:d=2018031616:UGRD:10 m above ground:5 hour fcst:
+
+range: 46448290 47728768
+./temp_2018031616_f05_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47728769:d=2018031616:VGRD:10 m above ground:5 hour fcst:
+
+range: 47728769 48951672
+
+--> Working on: UTPKL 5
+
+--> Working on: SND 5
+
+--> Working on: NAA 5
+
+--> Working on: C8635 5
+
+--> Working on: FPS 5
+
+--> Working on: KSLC 5
+
+--> Working on: UFD09 5
+
+--> Working on: RACM4 5
+
+--> Working on: EPMU1 5
+
+--> Working on: EYSC 5
+
+--> Working on: KIDA 5
+
+--> Working on: UCC23 5
+
+--> Working on: UKBKB 5
+
+--> Working on: Orderville 5
+
+--> Working on: UtahLake 5
+
+--> Working on: WBB 5
+
+--> Working on: Oaks 5
+
+--> Working on: GNI 5
+
+--> Working on: ALT 5
+
+--> Working on: BFLAT 5
+
+--> Working on: FREUT 5
+Finished: 5
+./temp_2018031616_f06_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:6 hour fcst:
+
+range: 0 635771
+./temp_2018031616_f06_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46415136:d=2018031616:UGRD:10 m above ground:6 hour fcst:
+
+range: 46415136 47686083
+./temp_2018031616_f06_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47686084:d=2018031616:VGRD:10 m above ground:6 hour fcst:
+
+range: 47686084 48901132
+
+--> Working on: UTPKL 6
+
+--> Working on: SND 6
+
+--> Working on: NAA 6
+
+--> Working on: C8635 6
+
+--> Working on: FPS 6
+
+--> Working on: KSLC 6
+
+--> Working on: UFD09 6
+
+--> Working on: RACM4 6
+
+--> Working on: EPMU1 6
+
+--> Working on: EYSC 6
+
+--> Working on: KIDA 6
+
+--> Working on: UCC23 6
+
+--> Working on: UKBKB 6
+
+--> Working on: Orderville 6
+
+--> Working on: UtahLake 6
+
+--> Working on: WBB 6
+
+--> Working on: Oaks 6
+
+--> Working on: GNI 6
+
+--> Working on: ALT 6
+
+--> Working on: BFLAT 6
+
+--> Working on: FREUT 6
+Finished: 6
+./temp_2018031616_f07_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:7 hour fcst:
+
+range: 0 647872
+./temp_2018031616_f07_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46399901:d=2018031616:UGRD:10 m above ground:7 hour fcst:
+
+range: 46399901 47660340
+./temp_2018031616_f07_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47660341:d=2018031616:VGRD:10 m above ground:7 hour fcst:
+
+range: 47660341 48866380
+
+--> Working on: UTPKL 7
+
+--> Working on: SND 7
+
+--> Working on: NAA 7
+
+--> Working on: C8635 7
+
+--> Working on: FPS 7
+
+--> Working on: KSLC 7
+
+--> Working on: UFD09 7
+
+--> Working on: RACM4 7
+
+--> Working on: EPMU1 7
+
+--> Working on: EYSC 7
+
+--> Working on: KIDA 7
+
+--> Working on: UCC23 7
+
+--> Working on: UKBKB 7
+
+--> Working on: Orderville 7
+
+--> Working on: UtahLake 7
+
+--> Working on: WBB 7
+
+--> Working on: Oaks 7
+
+--> Working on: GNI 7
+
+--> Working on: ALT 7
+
+--> Working on: BFLAT 7
+
+--> Working on: FREUT 7
+Finished: 7
+./temp_2018031616_f08_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:8 hour fcst:
+
+range: 0 656433
+./temp_2018031616_f08_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46273996:d=2018031616:UGRD:10 m above ground:8 hour fcst:
+
+range: 46273996 47523798
+./temp_2018031616_f08_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47523799:d=2018031616:VGRD:10 m above ground:8 hour fcst:
+
+range: 47523799 48725808
+
+--> Working on: UTPKL 8
+
+--> Working on: SND 8
+
+--> Working on: NAA 8
+
+--> Working on: C8635 8
+
+--> Working on: FPS 8
+
+--> Working on: KSLC 8
+
+--> Working on: UFD09 8
+
+--> Working on: RACM4 8
+
+--> Working on: EPMU1 8
+
+--> Working on: EYSC 8
+
+--> Working on: KIDA 8
+
+--> Working on: UCC23 8
+
+--> Working on: UKBKB 8
+
+--> Working on: Orderville 8
+
+--> Working on: UtahLake 8
+
+--> Working on: WBB 8
+
+--> Working on: Oaks 8
+
+--> Working on: GNI 8
+
+--> Working on: ALT 8
+
+--> Working on: BFLAT 8
+
+--> Working on: FREUT 8
+Finished: 8
+./temp_2018031616_f09_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:9 hour fcst:
+
+range: 0 649449
+./temp_2018031616_f09_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46297243:d=2018031616:UGRD:10 m above ground:9 hour fcst:
+
+range: 46297243 47552778
+./temp_2018031616_f09_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47552779:d=2018031616:VGRD:10 m above ground:9 hour fcst:
+
+range: 47552779 48767305
+
+--> Working on: UTPKL 9
+
+--> Working on: SND 9
+
+--> Working on: NAA 9
+
+--> Working on: C8635 9
+
+--> Working on: FPS 9
+
+--> Working on: KSLC 9
+
+--> Working on: UFD09 9
+
+--> Working on: RACM4 9
+
+--> Working on: EPMU1 9
+
+--> Working on: EYSC 9
+
+--> Working on: KIDA 9
+
+--> Working on: UCC23 9
+
+--> Working on: UKBKB 9
+
+--> Working on: Orderville 9
+
+--> Working on: UtahLake 9
+
+--> Working on: WBB 9
+
+--> Working on: Oaks 9
+
+--> Working on: GNI 9
+
+--> Working on: ALT 9
+
+--> Working on: BFLAT 9
+
+--> Working on: FREUT 9
+Finished: 9
+./temp_2018031616_f10_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:10 hour fcst:
+
+range: 0 639760
+./temp_2018031616_f10_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46237848:d=2018031616:UGRD:10 m above ground:10 hour fcst:
+
+range: 46237848 47529016
+./temp_2018031616_f10_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47529017:d=2018031616:VGRD:10 m above ground:10 hour fcst:
+
+range: 47529017 48780046
+
+--> Working on: UTPKL 10
+
+--> Working on: SND 10
+
+--> Working on: NAA 10
+
+--> Working on: C8635 10
+
+--> Working on: FPS 10
+
+--> Working on: KSLC 10
+
+--> Working on: UFD09 10
+
+--> Working on: RACM4 10
+
+--> Working on: EPMU1 10
+
+--> Working on: EYSC 10
+
+--> Working on: KIDA 10
+
+--> Working on: UCC23 10
+
+--> Working on: UKBKB 10
+
+--> Working on: Orderville 10
+
+--> Working on: UtahLake 10
+
+--> Working on: WBB 10
+
+--> Working on: Oaks 10
+
+--> Working on: GNI 10
+
+--> Working on: ALT 10
+
+--> Working on: BFLAT 10
+
+--> Working on: FREUT 10
+Finished: 10
+./temp_2018031616_f11_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:11 hour fcst:
+
+range: 0 630279
+./temp_2018031616_f11_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46344028:d=2018031616:UGRD:10 m above ground:11 hour fcst:
+
+range: 46344028 47662385
+./temp_2018031616_f11_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47662386:d=2018031616:VGRD:10 m above ground:11 hour fcst:
+
+range: 47662386 48945956
+
+--> Working on: UTPKL 11
+
+--> Working on: SND 11
+
+--> Working on: NAA 11
+
+--> Working on: C8635 11
+
+--> Working on: FPS 11
+
+--> Working on: KSLC 11
+
+--> Working on: UFD09 11
+
+--> Working on: RACM4 11
+
+--> Working on: EPMU1 11
+
+--> Working on: EYSC 11
+
+--> Working on: KIDA 11
+
+--> Working on: UCC23 11
+
+--> Working on: UKBKB 11
+
+--> Working on: Orderville 11
+
+--> Working on: UtahLake 11
+
+--> Working on: WBB 11
+
+--> Working on: Oaks 11
+
+--> Working on: GNI 11
+
+--> Working on: ALT 11
+
+--> Working on: BFLAT 11
+
+--> Working on: FREUT 11
+Finished: 11
+./temp_2018031616_f12_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:12 hour fcst:
+
+range: 0 632138
+./temp_2018031616_f12_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46502880:d=2018031616:UGRD:10 m above ground:12 hour fcst:
+
+range: 46502880 47837381
+./temp_2018031616_f12_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47837382:d=2018031616:VGRD:10 m above ground:12 hour fcst:
+
+range: 47837382 49141390
+
+--> Working on: UTPKL 12
+
+--> Working on: SND 12
+
+--> Working on: NAA 12
+
+--> Working on: C8635 12
+
+--> Working on: FPS 12
+
+--> Working on: KSLC 12
+
+--> Working on: UFD09 12
+
+--> Working on: RACM4 12
+
+--> Working on: EPMU1 12
+
+--> Working on: EYSC 12
+
+--> Working on: KIDA 12
+
+--> Working on: UCC23 12
+
+--> Working on: UKBKB 12
+
+--> Working on: Orderville 12
+
+--> Working on: UtahLake 12
+
+--> Working on: WBB 12
+
+--> Working on: Oaks 12
+
+--> Working on: GNI 12
+
+--> Working on: ALT 12
+
+--> Working on: BFLAT 12
+
+--> Working on: FREUT 12
+Finished: 12
+./temp_2018031616_f13_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:13 hour fcst:
+
+range: 0 641932
+./temp_2018031616_f13_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46577729:d=2018031616:UGRD:10 m above ground:13 hour fcst:
+
+range: 46577729 47919796
+./temp_2018031616_f13_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47919797:d=2018031616:VGRD:10 m above ground:13 hour fcst:
+
+range: 47919797 49235635
+
+--> Working on: UTPKL 13
+
+--> Working on: SND 13
+
+--> Working on: NAA 13
+
+--> Working on: C8635 13
+
+--> Working on: FPS 13
+
+--> Working on: KSLC 13
+
+--> Working on: UFD09 13
+
+--> Working on: RACM4 13
+
+--> Working on: EPMU1 13
+
+--> Working on: EYSC 13
+
+--> Working on: KIDA 13
+
+--> Working on: UCC23 13
+
+--> Working on: UKBKB 13
+
+--> Working on: Orderville 13
+
+--> Working on: UtahLake 13
+
+--> Working on: WBB 13
+
+--> Working on: Oaks 13
+
+--> Working on: GNI 13
+
+--> Working on: ALT 13
+
+--> Working on: BFLAT 13
+
+--> Working on: FREUT 13
+Finished: 13
+./temp_2018031616_f14_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:14 hour fcst:
+
+range: 0 647368
+./temp_2018031616_f14_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46684706:d=2018031616:UGRD:10 m above ground:14 hour fcst:
+
+range: 46684706 48029813
+./temp_2018031616_f14_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48029814:d=2018031616:VGRD:10 m above ground:14 hour fcst:
+
+range: 48029814 49350674
+
+--> Working on: UTPKL 14
+
+--> Working on: SND 14
+
+--> Working on: NAA 14
+
+--> Working on: C8635 14
+
+--> Working on: FPS 14
+
+--> Working on: KSLC 14
+
+--> Working on: UFD09 14
+
+--> Working on: RACM4 14
+
+--> Working on: EPMU1 14
+
+--> Working on: EYSC 14
+
+--> Working on: KIDA 14
+
+--> Working on: UCC23 14
+
+--> Working on: UKBKB 14
+
+--> Working on: Orderville 14
+
+--> Working on: UtahLake 14
+
+--> Working on: WBB 14
+
+--> Working on: Oaks 14
+
+--> Working on: GNI 14
+
+--> Working on: ALT 14
+
+--> Working on: BFLAT 14
+
+--> Working on: FREUT 14
+Finished: 14
+./temp_2018031616_f15_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:15 hour fcst:
+
+range: 0 659173
+./temp_2018031616_f15_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46667844:d=2018031616:UGRD:10 m above ground:15 hour fcst:
+
+range: 46667844 48012684
+./temp_2018031616_f15_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48012685:d=2018031616:VGRD:10 m above ground:15 hour fcst:
+
+range: 48012685 49333899
+
+--> Working on: UTPKL 15
+
+--> Working on: SND 15
+
+--> Working on: NAA 15
+
+--> Working on: C8635 15
+
+--> Working on: FPS 15
+
+--> Working on: KSLC 15
+
+--> Working on: UFD09 15
+
+--> Working on: RACM4 15
+
+--> Working on: EPMU1 15
+
+--> Working on: EYSC 15
+
+--> Working on: KIDA 15
+
+--> Working on: UCC23 15
+
+--> Working on: UKBKB 15
+
+--> Working on: Orderville 15
+
+--> Working on: UtahLake 15
+
+--> Working on: WBB 15
+
+--> Working on: Oaks 15
+
+--> Working on: GNI 15
+
+--> Working on: ALT 15
+
+--> Working on: BFLAT 15
+
+--> Working on: FREUT 15
+Finished: 15
+./temp_2018031616_f16_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:16 hour fcst:
+
+range: 0 670262
+./temp_2018031616_f16_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46761974:d=2018031616:UGRD:10 m above ground:16 hour fcst:
+
+range: 46761974 48107809
+./temp_2018031616_f16_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48107810:d=2018031616:VGRD:10 m above ground:16 hour fcst:
+
+range: 48107810 49428089
+
+--> Working on: UTPKL 16
+
+--> Working on: SND 16
+
+--> Working on: NAA 16
+
+--> Working on: C8635 16
+
+--> Working on: FPS 16
+
+--> Working on: KSLC 16
+
+--> Working on: UFD09 16
+
+--> Working on: RACM4 16
+
+--> Working on: EPMU1 16
+
+--> Working on: EYSC 16
+
+--> Working on: KIDA 16
+
+--> Working on: UCC23 16
+
+--> Working on: UKBKB 16
+
+--> Working on: Orderville 16
+
+--> Working on: UtahLake 16
+
+--> Working on: WBB 16
+
+--> Working on: Oaks 16
+
+--> Working on: GNI 16
+
+--> Working on: ALT 16
+
+--> Working on: BFLAT 16
+
+--> Working on: FREUT 16
+Finished: 16
+./temp_2018031616_f17_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:17 hour fcst:
+
+range: 0 681455
+./temp_2018031616_f17_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46819188:d=2018031616:UGRD:10 m above ground:17 hour fcst:
+
+range: 46819188 48164730
+./temp_2018031616_f17_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48164731:d=2018031616:VGRD:10 m above ground:17 hour fcst:
+
+range: 48164731 49484372
+
+--> Working on: UTPKL 17
+
+--> Working on: SND 17
+
+--> Working on: NAA 17
+
+--> Working on: C8635 17
+
+--> Working on: FPS 17
+
+--> Working on: KSLC 17
+
+--> Working on: UFD09 17
+
+--> Working on: RACM4 17
+
+--> Working on: EPMU1 17
+
+--> Working on: EYSC 17
+
+--> Working on: KIDA 17
+
+--> Working on: UCC23 17
+
+--> Working on: UKBKB 17
+
+--> Working on: Orderville 17
+
+--> Working on: UtahLake 17
+
+--> Working on: WBB 17
+
+--> Working on: Oaks 17
+
+--> Working on: GNI 17
+
+--> Working on: ALT 17
+
+--> Working on: BFLAT 17
+
+--> Working on: FREUT 17
+Finished: 17
+./temp_2018031616_f18_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031616:REFC:entire atmosphere:18 hour fcst:
+
+range: 0 678732
+./temp_2018031616_f18_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:46890945:d=2018031616:UGRD:10 m above ground:18 hour fcst:
+
+range: 46890945 48252362
+./temp_2018031616_f18_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:48252363:d=2018031616:VGRD:10 m above ground:18 hour fcst:
+
+range: 48252363 49573348
+
+--> Working on: UTPKL 18
+
+--> Working on: SND 18
+
+--> Working on: NAA 18
+
+--> Working on: C8635 18
+
+--> Working on: FPS 18
+
+--> Working on: KSLC 18
+
+--> Working on: UFD09 18
+
+--> Working on: RACM4 18
+
+--> Working on: EPMU1 18
+
+--> Working on: EYSC 18
+
+--> Working on: KIDA 18
+
+--> Working on: UCC23 18
+
+--> Working on: UKBKB 18
+
+--> Working on: Orderville 18
+
+--> Working on: UtahLake 18
+
+--> Working on: WBB 18
+
+--> Working on: Oaks 18
+
+--> Working on: GNI 18
+
+--> Working on: ALT 18
+
+--> Working on: BFLAT 18
+
+--> Working on: FREUT 18
+Finished: 18
