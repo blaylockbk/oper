@@ -45,6 +45,7 @@ mpl.rcParams['legend.loc'] = 'best'
 mpl.rcParams['savefig.bbox'] = 'tight'
 mpl.rcParams['savefig.dpi'] = 100
 mpl.rcParams['savefig.transparent'] = False
+mpl.rcParams['figure.max_open_warning'] = 30
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
@@ -64,30 +65,7 @@ from BB_cmap.landuse_colormap import LU_MODIS21
 
 
 
-## 1) Read in large fires file:
-#fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
-get_today = datetime.strftime(date.today(), "%Y-%m-%d")
-url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
-text = urllib2.urlopen(url)
-fires = np.genfromtxt(text, names=True, dtype=None,delimiter='\t')
-#column names:
-    # 0  INAME - Incident Name
-    # 1  INUM
-    # 2  CAUSE
-    # 3  REP_DATE - reported date
-    # 4  START_DATE
-    # 5  IMT_TYPE
-    # 6  STATE
-    # 7  AREA
-    # 8  P_CNT - Percent Contained
-    # 9  EXP_CTN - Expected Containment
-    # 10 LAT
-    # 11 LONG
-    # 12 COUNTY
-print "There are", len(fires), "large fires."
-
-
-## 2) Download most recent active fire perimeters shapefile
+## 1) Download most recent active fire perimeters shapefile
 try:
     download_fire_perimeter_shapefile()
     print "Downloaded the most recent active fire perimeters."
@@ -95,23 +73,40 @@ except:
     print "Can not download new fire perimeters. Using old file."
 
 
-## 3) Create Locations Dictionary
+## 2) Create Locations Dictionary
+get_today = datetime.strftime(date.today(), "%Y-%m-%d")
+url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
+text = urllib2.urlopen(url)
+
+# 0  INAME - Incident Name
+# 1  INUM
+# 2  CAUSE
+# 3  REP_DATE - reported date
+# 4  START_DATE
+# 5  IMT_TYPE
+# 6  STATE
+# 7  AREA
+# 8  P_CNT - Percent Contained
+# 9  EXP_CTN - Expected Containment
+# 10 LAT
+# 11 LONG
+# 12 COUNTY
+
 location = {}
-for F in range(0,len(fires)):
-    FIRE = fires[F]
-    # 1) Get Latitude and Longitude for the indexed large fire [fire]
-    # No HRRR data for Alaska or Hawaii, so don't do it.
-    # Also, don't bother running fires less than 1000 acres or greater than 3 million acres
-    if FIRE[7] < 1000 or FIRE[7] > 3000000 or FIRE[6] == 'Alaska' or FIRE[6] == 'Hawaii':
+
+for i, f in enumerate(text):
+    line = f.split('\t')
+    if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
         continue
-    location[FIRE[0]] = {'latitude': FIRE[10],
-                         'longitude': FIRE[11],
-                         'name': FIRE[0],
-                         'state': FIRE[6],
-                         'area': FIRE[7],
-                         'start date': FIRE[4],
+    location[line[0]] = {'latitude': float(line[10]),
+                         'longitude': float(line[11]),
+                         'name': line[0],
+                         'state': line[6],
+                         'area': int(line[7]),
+                         'start date': line[4],
                          'is MesoWest': False
-                        }
+                         }
+print "There are", len(location.keys()), "large fires."
 
 # Assign some known MesoWest Station ID's to a fire
 for l in location:
@@ -119,7 +114,7 @@ for l in location:
         location[l]['is MesoWest'] = 'TT047'
 
 
-## 4) Create map objects for each fire and store in dictionary.
+## 3) Create map objects for each fire and store in dictionary.
 #     This speeds up plotting by creating each map once.
 maps = {}
 for loc in location.keys():
@@ -129,8 +124,15 @@ for loc in location.keys():
                 urcrnrlon=l['longitude']+.75, urcrnrlat=l['latitude']+.75,)
     maps[loc] = m  
 
+# Create directories that don't exist
+for S in location.keys():
+    SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/' % S.replace(' ', '_')
+    if not os.path.exists(SAVE):
+        # make the SAVE directory if fire doesn't already exist
+        os.makedirs(SAVE)
+        print "created dir for", S 
 
-## 5) Create a landuse map for each the fire and surrounding area
+## 4) Create a landuse map for each the fire and surrounding area
 locs = location.keys() # a list of all the locations
 locs_idx = range(len(locs)) # a number index for each location
 LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
@@ -157,7 +159,7 @@ for n in locs_idx:
         plt.close()
 
 
-## 6) Get the HRRR data from NOMADS
+## 5) Get the HRRR data from NOMADS
 DATE = datetime.utcnow() - timedelta(hours=1)
 DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
 
@@ -191,7 +193,7 @@ for loc in location.keys():
 
 
 
-## 7) Main Figures: Create a figure for each location. Add permenant elements to each.
+## 6) Main Figures: Create a figure for each location. Add permenant elements to each.
 print 'making permenant figure elements...'
 figs = {}
 locs = location.keys() # a list of all the locations

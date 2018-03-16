@@ -42,27 +42,37 @@ def write_HRRR_fires_HTML():
     """
     fires is a dictionary. Each key is a fire name.
     """
-    #fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
-    url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % datetime.strftime(date.today(), "%Y-%m-%d")
+    get_today = datetime.strftime(date.today(), "%Y-%m-%d")
+    url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
     text = urllib2.urlopen(url)
-    fires = np.genfromtxt(text, names=True, dtype=None, delimiter='\t')
-    #fires2 = get_fires()
-    # 1) Locations (dictionary)
+
+    # 0  INAME - Incident Name
+    # 1  INUM
+    # 2  CAUSE
+    # 3  REP_DATE - reported date
+    # 4  START_DATE
+    # 5  IMT_TYPE
+    # 6  STATE
+    # 7  AREA
+    # 8  P_CNT - Percent Contained
+    # 9  EXP_CTN - Expected Containment
+    # 10 LAT
+    # 11 LONG
+    # 12 COUNTY
+
     location = {}
-    for F in range(0, len(fires)):
-        FIRE = fires[F]
-        # 1) Get Latitude and Longitude for the indexed large fire [fire]
-        # No HRRR data for Alaska or Hawaii, so don't do it.
-        # Also, don't bother running fires less than 1000 acres or greater than 3 million acres
-        if FIRE[7] < 1000 or FIRE[7] > 3000000 or FIRE[6] == 'Alaska' or FIRE[6] == 'Hawaii':
+
+    for i, f in enumerate(text):
+        line = f.split('\t')
+        if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
             continue
-        location[FIRE[0]] = {'latitude': FIRE[10],
-                             'longitude': FIRE[11],
-                             'name': FIRE[0],
-                             'state': FIRE[6],
-                             'area': FIRE[7],
-                             'start date': FIRE[4],
-                             'is MesoWest': False
+        location[line[0]] = {'latitude': float(line[10]),
+                            'longitude': float(line[11]),
+                            'name': line[0],
+                            'state': line[6],
+                            'area': int(line[7]),
+                            'start date': line[4],
+                            'is MesoWest': False
                             }
 
     html_text = """
@@ -173,35 +183,43 @@ def draw_fires_on_map():
     """
     Draw a map of the United States, and mark the large fires, based on size
     """
-    #fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
-    url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % datetime.strftime(date.today(), "%Y-%m-%d")
+    get_today = datetime.strftime(date.today(), "%Y-%m-%d")
+    url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
     text = urllib2.urlopen(url)
-    fires = np.genfromtxt(text, names=True, dtype=None, delimiter='\t')
-    # 1) Locations (dictionary)
+
+    # 0  INAME - Incident Name
+    # 1  INUM
+    # 2  CAUSE
+    # 3  REP_DATE - reported date
+    # 4  START_DATE
+    # 5  IMT_TYPE
+    # 6  STATE
+    # 7  AREA
+    # 8  P_CNT - Percent Contained
+    # 9  EXP_CTN - Expected Containment
+    # 10 LAT
+    # 11 LONG
+    # 12 COUNTY
+
     location = {}
-    bot_left_lat  = fires['LAT'][0]
-    bot_left_lon  = fires['LONG'][0]
-    top_right_lat = fires['LAT'][0]
-    top_right_lon = fires['LONG'][0]
-    for F in range(0, len(fires)):
-        FIRE = fires[F]
-        # 1) Get Latitude and Longitude for the indexed large fire [fire]
-        # No HRRR data for Alaska or Hawaii, so don't do it.
-        # Also, don't bother running fires less than 1000 acres or greater than 3 million acres
-        if FIRE[7] < 1000 or FIRE[7] > 3000000 or FIRE[6] == 'Alaska' or FIRE[6] == 'Hawaii':
+    
+    for i, f in enumerate(text):
+        line = f.split('\t')
+        if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
             continue
-        location[FIRE[0]] = {'latitude': FIRE[10],
-                             'longitude': FIRE[11],
-                             'name': FIRE[0],
-                             'state': FIRE[6],
-                             'area': FIRE[7],
-                             'start date': FIRE[4],
-                             'is MesoWest': False
+        location[line[0]] = {'latitude': float(line[10]),
+                            'longitude': float(line[11]),
+                            'name': line[0],
+                            'state': line[6],
+                            'area': int(line[7]),
+                            'start date': line[4],
+                            'is MesoWest': False
                             }
-        bot_left_lat  = np.minimum(bot_left_lat, FIRE[10])
-        bot_left_lon  = np.minimum(bot_left_lon, FIRE[11])
-        top_right_lat = np.maximum(top_right_lat, FIRE[10])
-        top_right_lon = np.maximum(top_right_lon, FIRE[11])
+
+    bot_left_lat  = np.min([location[i]['latitude'] for i in location.keys()])
+    bot_left_lon  = np.min([location[i]['longitude'] for i in location.keys()])
+    top_right_lat  = np.max([location[i]['latitude'] for i in location.keys()])
+    top_right_lon  = np.max([location[i]['longitude'] for i in location.keys()])
 
     plt.figure(100)
     #m = draw_CONUS_cyl_map()

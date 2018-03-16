@@ -100,43 +100,37 @@ daylight = time.daylight # If daylight is on (1) then subtract from timezone.
 
 #==============================================================================
 # 1) Read in large fires file:
-#fires_file = '/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/large_fire.txt' # Operational file: local version copied from the gl1 crontab
+get_today = datetime.strftime(date.today(), "%Y-%m-%d")
 url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
 text = urllib2.urlopen(url)
-fires = np.genfromtxt(text, names=True, dtype=None,delimiter='\t')
-#column names:
-    # 0  INAME - Incident Name
-    # 1  INUM
-    # 2  CAUSE
-    # 3  REP_DATE - reported date
-    # 4  START_DATE
-    # 5  IMT_TYPE
-    # 6  STATE
-    # 7  AREA
-    # 8  P_CNT - Percent Contained
-    # 9  EXP_CTN - Expected Containment
-    # 10 LAT
-    # 11 LONG
-    # 12 COUNTY
-print "there are", len(fires), "large fires"
 
-# 1) Locations (dictionary)
-locations = {}
-for F in range(0, len(fires)):
-    FIRE = fires[F]
-    # 1) Get Latitude and Longitude for the indexed large fire [fire]
-    # No HRRR data for Alaska or Hawaii, so don't do it.
-    # Also, don't bother running fires less than 1000 acres
-    if FIRE[7] < 1000 or FIRE[6] == 'Alaska' or FIRE[6] == 'Hawaii':
+# 0  INAME - Incident Name
+# 1  INUM
+# 2  CAUSE
+# 3  REP_DATE - reported date
+# 4  START_DATE
+# 5  IMT_TYPE
+# 6  STATE
+# 7  AREA
+# 8  P_CNT - Percent Contained
+# 9  EXP_CTN - Expected Containment
+# 10 LAT
+# 11 LONG
+# 12 COUNTY
+
+location = {}
+
+for i, f in enumerate(text):
+    line = f.split('\t')
+    if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
         continue
-    locations[FIRE[0]] = {'latitude': FIRE[10],
-                          'longitude': FIRE[11],
-                          'name': FIRE[0],
-                          'start':FIRE[4],
-                          'state': FIRE[6],
-                          'area': FIRE[7],
-                          'start date': FIRE[4],
-                          'is MesoWest': False
+    location[line[0]] = {'latitude': float(line[10]),
+                         'longitude': float(line[11]),
+                         'name': line[0],
+                         'state': line[6],
+                         'area': int(line[7]),
+                         'start date': line[4],
+                         'is MesoWest': False
                          }
 
 for s in spex:
@@ -144,12 +138,12 @@ for s in spex:
     #
     # Retrieve a "Hovmoller" array, all forecasts for a period of time, for
     # each station in the location dictionary.
-    hovmoller = get_hrrr_hovmoller(sDATE, eDATE, locations,
+    hovmoller = get_hrrr_hovmoller(sDATE, eDATE, location,
                                    variable=S['HRRR var'],
                                    area_stats=half_box)
     #
     first_mw_attempt = S['MW var']
-    for stn in locations.keys():
+    for stn in location.keys():
         print "\nWorking on %s %s" % (stn, s)
         SAVE = SAVE_dir + '%s/' % stn.replace(' ','_')
         if not os.path.exists(SAVE):
@@ -220,6 +214,6 @@ for s in spex:
         ax1.xaxis.set_major_formatter(dateFmt)
         #
         ax1.set_xlabel(r'Contour shows difference between maximum value in %s km$\mathregular{^{2}}$ box centered at %s %s and the value at the center point.' \
-                    % (half_box*6, locations[stn]['latitude'], locations[stn]['longitude']), fontsize=8)
+                    % (half_box*6, location[stn]['latitude'], location[stn]['longitude']), fontsize=8)
         #
         plt.savefig(SAVE+S['save']+'.png')

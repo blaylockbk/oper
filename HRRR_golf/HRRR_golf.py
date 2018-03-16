@@ -60,6 +60,7 @@ mpl.rcParams['legend.loc'] = 'best'
 mpl.rcParams['savefig.bbox'] = 'tight'
 mpl.rcParams['savefig.dpi'] = 100
 mpl.rcParams['savefig.transparent'] = False
+mpl.rcParams['figure.max_open_warning'] = 30
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
