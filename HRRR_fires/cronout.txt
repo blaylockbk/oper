@@ -1,2 +1,2498 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
 25.022 -118.482 42.498 -77.685
+Downloaded the most recent active fire perimeters.
+There are 26 large fires.
+./temp_2018010100_f00_VGT.grib2
+Oh, good, you requested a date that should be on Pando.
+matched a variable 78:49446640:d=2018010100:VGTYP:surface:anl
+
+range: 49446640 50309774
+Local DATE: 2018-03-19 14:41:10.029537
+  UTC DATE: 2018-03-19 19:00:00
+got temps
+got dwpt
+got wind
+got gust
+got u vectors
+got v vectors
+got prec
+got composite reflectivity
+making permenant figure elements...
+finding fire perimeter patches for ONION PRAIRIE fire... Done!
+finding fire perimeter patches for ECHO CLIFF fire... Done!
+finding fire perimeter patches for CUMBEE FIRE fire... Done!
+finding fire perimeter patches for STATELINE fire... Done!
+finding fire perimeter patches for CLARK COUNTY fire... Done!
+finding fire perimeter patches for DUNCAN FIRE fire... Done!
+finding fire perimeter patches for FLYING G fire... Done!
+finding fire perimeter patches for RABBIT 22 fire... Done!
+finding fire perimeter patches for CHIMNEY fire... Done!
+finding fire perimeter patches for CIRCLE K fire... Done!
+finding fire perimeter patches for EAST CUPCO fire... Done!
+finding fire perimeter patches for ANHINGA fire... Done!
+finding fire perimeter patches for ORCHARD fire... Done!
+finding fire perimeter patches for FAKA-UNION (11) fire... Done!
+finding fire perimeter patches for COUNTY LINE fire... Done!
+finding fire perimeter patches for BLUE CREEK #2 fire... Done!
+finding fire perimeter patches for QUERECHO fire... Done!
+finding fire perimeter patches for FT GREEN ROAD (53) fire... Done!
+finding fire perimeter patches for RICE COUNTY fire... Done!
+finding fire perimeter patches for CLEAR LAKE fire... Done!
+finding fire perimeter patches for NORA fire... Done!
+finding fire perimeter patches for MAPLE fire... Done!
+finding fire perimeter patches for TRUST fire... Done!
+finding fire perimeter patches for GRAVEL PIT fire... Done!
+finding fire perimeter patches for BEGS fire... Done!
+finding fire perimeter patches for WEST 60 fire... Done!
+./temp_2018031919_f00_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:anl:
+
+range: 0 467625
+./temp_2018031919_f00_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:41848083:d=2018031919:UGRD:10 m above ground:anl:
+
+range: 41848083 43028766
+./temp_2018031919_f00_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:43028767:d=2018031919:VGRD:10 m above ground:anl:
+
+range: 43028767 44160676
+./temp_2018031919_f00_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:44160677:d=2018031919:WIND:10 m above ground:0-0 day max fcst:
+
+range: 44160677 45321077
+./temp_2018031919_f00_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:2837798:d=2018031919:GUST:surface:anl:
+
+range: 2837798 4054410
+
+--> Working on: ONION PRAIRIE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f00.png
+
+--> Working on: ECHO CLIFF 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f00.png
+
+--> Working on: CUMBEE FIRE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f00.png
+
+--> Working on: STATELINE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f00.png
+
+--> Working on: CLARK COUNTY 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f00.png
+
+--> Working on: DUNCAN FIRE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f00.png
+
+--> Working on: FLYING G 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f00.png
+
+--> Working on: RABBIT 22 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f00.png
+
+--> Working on: CHIMNEY 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f00.png
+
+--> Working on: CIRCLE K 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f00.png
+
+--> Working on: EAST CUPCO 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f00.png
+
+--> Working on: ANHINGA 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f00.png
+
+--> Working on: ORCHARD 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f00.png
+
+--> Working on: FAKA-UNION (11) 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f00.png
+
+--> Working on: COUNTY LINE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f00.png
+
+--> Working on: BLUE CREEK #2 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f00.png
+
+--> Working on: QUERECHO 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f00.png
+
+--> Working on: FT GREEN ROAD (53) 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f00.png
+
+--> Working on: RICE COUNTY 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f00.png
+
+--> Working on: CLEAR LAKE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f00.png
+
+--> Working on: NORA 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f00.png
+
+--> Working on: MAPLE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f00.png
+
+--> Working on: TRUST 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f00.png
+
+--> Working on: GRAVEL PIT 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f00.png
+
+--> Working on: BEGS 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f00.png
+
+--> Working on: WEST 60 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f00.png
+Finished: 0
+./temp_2018031919_f01_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:1 hour fcst:
+
+range: 0 479362
+./temp_2018031919_f01_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:44490097:d=2018031919:UGRD:10 m above ground:1 hour fcst:
+
+range: 44490097 45730697
+./temp_2018031919_f01_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:45730698:d=2018031919:VGRD:10 m above ground:1 hour fcst:
+
+range: 45730698 46918389
+./temp_2018031919_f01_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:46918390:d=2018031919:WIND:10 m above ground:0-1 hour max fcst:
+
+range: 46918390 48052080
+./temp_2018031919_f01_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:2769567:d=2018031919:GUST:surface:1 hour fcst:
+
+range: 2769567 4044420
+
+--> Working on: ONION PRAIRIE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f01.png
+
+--> Working on: ECHO CLIFF 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f01.png
+
+--> Working on: CUMBEE FIRE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f01.png
+
+--> Working on: STATELINE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f01.png
+
+--> Working on: CLARK COUNTY 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f01.png
+
+--> Working on: DUNCAN FIRE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f01.png
+
+--> Working on: FLYING G 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f01.png
+
+--> Working on: RABBIT 22 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f01.png
+
+--> Working on: CHIMNEY 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f01.png
+
+--> Working on: CIRCLE K 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f01.png
+
+--> Working on: EAST CUPCO 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f01.png
+
+--> Working on: ANHINGA 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f01.png
+
+--> Working on: ORCHARD 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f01.png
+
+--> Working on: FAKA-UNION (11) 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f01.png
+
+--> Working on: COUNTY LINE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f01.png
+
+--> Working on: BLUE CREEK #2 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f01.png
+
+--> Working on: QUERECHO 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f01.png
+
+--> Working on: FT GREEN ROAD (53) 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f01.png
+
+--> Working on: RICE COUNTY 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f01.png
+
+--> Working on: CLEAR LAKE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f01.png
+
+--> Working on: NORA 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f01.png
+
+--> Working on: MAPLE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f01.png
+
+--> Working on: TRUST 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f01.png
+
+--> Working on: GRAVEL PIT 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f01.png
+
+--> Working on: BEGS 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f01.png
+
+--> Working on: WEST 60 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f01.png
+Finished: 1
+./temp_2018031919_f02_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:2 hour fcst:
+
+range: 0 502508
+./temp_2018031919_f02_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:44710828:d=2018031919:UGRD:10 m above ground:2 hour fcst:
+
+range: 44710828 45968591
+./temp_2018031919_f02_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:45968592:d=2018031919:VGRD:10 m above ground:2 hour fcst:
+
+range: 45968592 47174029
+./temp_2018031919_f02_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47174030:d=2018031919:WIND:10 m above ground:1-2 hour max fcst:
+
+range: 47174030 48335193
+./temp_2018031919_f02_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:2924354:d=2018031919:GUST:surface:2 hour fcst:
+
+range: 2924354 4225619
+
+--> Working on: ONION PRAIRIE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f02.png
+
+--> Working on: ECHO CLIFF 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f02.png
+
+--> Working on: CUMBEE FIRE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f02.png
+
+--> Working on: STATELINE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f02.png
+
+--> Working on: CLARK COUNTY 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f02.png
+
+--> Working on: DUNCAN FIRE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f02.png
+
+--> Working on: FLYING G 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f02.png
+
+--> Working on: RABBIT 22 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f02.png
+
+--> Working on: CHIMNEY 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f02.png
+
+--> Working on: CIRCLE K 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f02.png
+
+--> Working on: EAST CUPCO 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f02.png
+
+--> Working on: ANHINGA 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f02.png
+
+--> Working on: ORCHARD 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f02.png
+
+--> Working on: FAKA-UNION (11) 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f02.png
+
+--> Working on: COUNTY LINE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f02.png
+
+--> Working on: BLUE CREEK #2 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f02.png
+
+--> Working on: QUERECHO 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f02.png
+
+--> Working on: FT GREEN ROAD (53) 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f02.png
+
+--> Working on: RICE COUNTY 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f02.png
+
+--> Working on: CLEAR LAKE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f02.png
+
+--> Working on: NORA 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f02.png
+
+--> Working on: MAPLE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f02.png
+
+--> Working on: TRUST 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f02.png
+
+--> Working on: GRAVEL PIT 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f02.png
+
+--> Working on: BEGS 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f02.png
+
+--> Working on: WEST 60 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f02.png
+Finished: 2
+./temp_2018031919_f03_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:3 hour fcst:
+
+range: 0 519704
+./temp_2018031919_f03_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:44674926:d=2018031919:UGRD:10 m above ground:3 hour fcst:
+
+range: 44674926 45934695
+./temp_2018031919_f03_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:45934696:d=2018031919:VGRD:10 m above ground:3 hour fcst:
+
+range: 45934696 47143172
+./temp_2018031919_f03_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47143173:d=2018031919:WIND:10 m above ground:2-3 hour max fcst:
+
+range: 47143173 48312985
+./temp_2018031919_f03_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:2915768:d=2018031919:GUST:surface:3 hour fcst:
+
+range: 2915768 4251702
+
+--> Working on: ONION PRAIRIE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f03.png
+
+--> Working on: ECHO CLIFF 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f03.png
+
+--> Working on: CUMBEE FIRE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f03.png
+
+--> Working on: STATELINE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f03.png
+
+--> Working on: CLARK COUNTY 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f03.png
+
+--> Working on: DUNCAN FIRE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f03.png
+
+--> Working on: FLYING G 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f03.png
+
+--> Working on: RABBIT 22 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f03.png
+
+--> Working on: CHIMNEY 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f03.png
+
+--> Working on: CIRCLE K 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f03.png
+
+--> Working on: EAST CUPCO 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f03.png
+
+--> Working on: ANHINGA 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f03.png
+
+--> Working on: ORCHARD 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f03.png
+
+--> Working on: FAKA-UNION (11) 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f03.png
+
+--> Working on: COUNTY LINE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f03.png
+
+--> Working on: BLUE CREEK #2 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f03.png
+
+--> Working on: QUERECHO 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f03.png
+
+--> Working on: FT GREEN ROAD (53) 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f03.png
+
+--> Working on: RICE COUNTY 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f03.png
+
+--> Working on: CLEAR LAKE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f03.png
+
+--> Working on: NORA 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f03.png
+
+--> Working on: MAPLE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f03.png
+
+--> Working on: TRUST 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f03.png
+
+--> Working on: GRAVEL PIT 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f03.png
+
+--> Working on: BEGS 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f03.png
+
+--> Working on: WEST 60 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f03.png
+Finished: 3
+./temp_2018031919_f04_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:4 hour fcst:
+
+range: 0 531533
+./temp_2018031919_f04_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:44607170:d=2018031919:UGRD:10 m above ground:4 hour fcst:
+
+range: 44607170 45858324
+./temp_2018031919_f04_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:45858325:d=2018031919:VGRD:10 m above ground:4 hour fcst:
+
+range: 45858325 47064021
+./temp_2018031919_f04_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47064022:d=2018031919:WIND:10 m above ground:3-4 hour max fcst:
+
+range: 47064022 48235295
+./temp_2018031919_f04_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:2991471:d=2018031919:GUST:surface:4 hour fcst:
+
+range: 2991471 4348558
+
+--> Working on: ONION PRAIRIE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f04.png
+
+--> Working on: ECHO CLIFF 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f04.png
+
+--> Working on: CUMBEE FIRE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f04.png
+
+--> Working on: STATELINE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f04.png
+
+--> Working on: CLARK COUNTY 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f04.png
+
+--> Working on: DUNCAN FIRE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f04.png
+
+--> Working on: FLYING G 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f04.png
+
+--> Working on: RABBIT 22 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f04.png
+
+--> Working on: CHIMNEY 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f04.png
+
+--> Working on: CIRCLE K 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f04.png
+
+--> Working on: EAST CUPCO 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f04.png
+
+--> Working on: ANHINGA 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f04.png
+
+--> Working on: ORCHARD 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f04.png
+
+--> Working on: FAKA-UNION (11) 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f04.png
+
+--> Working on: COUNTY LINE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f04.png
+
+--> Working on: BLUE CREEK #2 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f04.png
+
+--> Working on: QUERECHO 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f04.png
+
+--> Working on: FT GREEN ROAD (53) 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f04.png
+
+--> Working on: RICE COUNTY 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f04.png
+
+--> Working on: CLEAR LAKE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f04.png
+
+--> Working on: NORA 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f04.png
+
+--> Working on: MAPLE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f04.png
+
+--> Working on: TRUST 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f04.png
+
+--> Working on: GRAVEL PIT 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f04.png
+
+--> Working on: BEGS 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f04.png
+
+--> Working on: WEST 60 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f04.png
+Finished: 4
+./temp_2018031919_f05_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:5 hour fcst:
+
+range: 0 539760
+./temp_2018031919_f05_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:44525770:d=2018031919:UGRD:10 m above ground:5 hour fcst:
+
+range: 44525770 45768296
+./temp_2018031919_f05_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:45768297:d=2018031919:VGRD:10 m above ground:5 hour fcst:
+
+range: 45768297 46970285
+./temp_2018031919_f05_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:46970286:d=2018031919:WIND:10 m above ground:4-5 hour max fcst:
+
+range: 46970286 48142832
+./temp_2018031919_f05_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3028093:d=2018031919:GUST:surface:5 hour fcst:
+
+range: 3028093 4384129
+
+--> Working on: ONION PRAIRIE 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f05.png
+
+--> Working on: ECHO CLIFF 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f05.png
+
+--> Working on: CUMBEE FIRE 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f05.png
+
+--> Working on: STATELINE 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f05.png
+
+--> Working on: CLARK COUNTY 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f05.png
+
+--> Working on: DUNCAN FIRE 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f05.png
+
+--> Working on: FLYING G 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f05.png
+
+--> Working on: RABBIT 22 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f05.png
+
+--> Working on: CHIMNEY 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f05.png
+
+--> Working on: CIRCLE K 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f05.png
+
+--> Working on: EAST CUPCO 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f05.png
+
+--> Working on: ANHINGA 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f05.png
+
+--> Working on: ORCHARD 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f05.png
+
+--> Working on: FAKA-UNION (11) 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f05.png
+
+--> Working on: COUNTY LINE 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f05.png
+
+--> Working on: BLUE CREEK #2 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f05.png
+
+--> Working on: QUERECHO 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f05.png
+
+--> Working on: FT GREEN ROAD (53) 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f05.png
+
+--> Working on: RICE COUNTY 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f05.png
+
+--> Working on: CLEAR LAKE 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f05.png
+
+--> Working on: NORA 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f05.png
+
+--> Working on: MAPLE 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f05.png
+
+--> Working on: TRUST 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f05.png
+
+--> Working on: GRAVEL PIT 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f05.png
+
+--> Working on: BEGS 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f05.png
+
+--> Working on: WEST 60 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f05.png
+Finished: 5
+./temp_2018031919_f06_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:6 hour fcst:
+
+range: 0 546575
+./temp_2018031919_f06_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:44583976:d=2018031919:UGRD:10 m above ground:6 hour fcst:
+
+range: 44583976 45819464
+./temp_2018031919_f06_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:45819465:d=2018031919:VGRD:10 m above ground:6 hour fcst:
+
+range: 45819465 47021838
+./temp_2018031919_f06_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47021839:d=2018031919:WIND:10 m above ground:5-6 hour max fcst:
+
+range: 47021839 48202569
+./temp_2018031919_f06_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3114159:d=2018031919:GUST:surface:6 hour fcst:
+
+range: 3114159 4457760
+
+--> Working on: ONION PRAIRIE 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f06.png
+
+--> Working on: ECHO CLIFF 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f06.png
+
+--> Working on: CUMBEE FIRE 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f06.png
+
+--> Working on: STATELINE 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f06.png
+
+--> Working on: CLARK COUNTY 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f06.png
+
+--> Working on: DUNCAN FIRE 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f06.png
+
+--> Working on: FLYING G 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f06.png
+
+--> Working on: RABBIT 22 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f06.png
+
+--> Working on: CHIMNEY 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f06.png
+
+--> Working on: CIRCLE K 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f06.png
+
+--> Working on: EAST CUPCO 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f06.png
+
+--> Working on: ANHINGA 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f06.png
+
+--> Working on: ORCHARD 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f06.png
+
+--> Working on: FAKA-UNION (11) 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f06.png
+
+--> Working on: COUNTY LINE 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f06.png
+
+--> Working on: BLUE CREEK #2 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f06.png
+
+--> Working on: QUERECHO 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f06.png
+
+--> Working on: FT GREEN ROAD (53) 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f06.png
+
+--> Working on: RICE COUNTY 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f06.png
+
+--> Working on: CLEAR LAKE 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f06.png
+
+--> Working on: NORA 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f06.png
+
+--> Working on: MAPLE 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f06.png
+
+--> Working on: TRUST 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f06.png
+
+--> Working on: GRAVEL PIT 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f06.png
+
+--> Working on: BEGS 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f06.png
+
+--> Working on: WEST 60 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f06.png
+Finished: 6
+./temp_2018031919_f07_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:7 hour fcst:
+
+range: 0 557011
+./temp_2018031919_f07_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:44762205:d=2018031919:UGRD:10 m above ground:7 hour fcst:
+
+range: 44762205 46014296
+./temp_2018031919_f07_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46014297:d=2018031919:VGRD:10 m above ground:7 hour fcst:
+
+range: 46014297 47243480
+./temp_2018031919_f07_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47243481:d=2018031919:WIND:10 m above ground:6-7 hour max fcst:
+
+range: 47243481 48438188
+./temp_2018031919_f07_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3170112:d=2018031919:GUST:surface:7 hour fcst:
+
+range: 3170112 4533580
+
+--> Working on: ONION PRAIRIE 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f07.png
+
+--> Working on: ECHO CLIFF 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f07.png
+
+--> Working on: CUMBEE FIRE 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f07.png
+
+--> Working on: STATELINE 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f07.png
+
+--> Working on: CLARK COUNTY 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f07.png
+
+--> Working on: DUNCAN FIRE 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f07.png
+
+--> Working on: FLYING G 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f07.png
+
+--> Working on: RABBIT 22 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f07.png
+
+--> Working on: CHIMNEY 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f07.png
+
+--> Working on: CIRCLE K 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f07.png
+
+--> Working on: EAST CUPCO 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f07.png
+
+--> Working on: ANHINGA 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f07.png
+
+--> Working on: ORCHARD 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f07.png
+
+--> Working on: FAKA-UNION (11) 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f07.png
+
+--> Working on: COUNTY LINE 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f07.png
+
+--> Working on: BLUE CREEK #2 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f07.png
+
+--> Working on: QUERECHO 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f07.png
+
+--> Working on: FT GREEN ROAD (53) 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f07.png
+
+--> Working on: RICE COUNTY 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f07.png
+
+--> Working on: CLEAR LAKE 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f07.png
+
+--> Working on: NORA 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f07.png
+
+--> Working on: MAPLE 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f07.png
+
+--> Working on: TRUST 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f07.png
+
+--> Working on: GRAVEL PIT 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f07.png
+
+--> Working on: BEGS 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f07.png
+
+--> Working on: WEST 60 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f07.png
+Finished: 7
+./temp_2018031919_f08_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:8 hour fcst:
+
+range: 0 575482
+./temp_2018031919_f08_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45021384:d=2018031919:UGRD:10 m above ground:8 hour fcst:
+
+range: 45021384 46301350
+./temp_2018031919_f08_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46301351:d=2018031919:VGRD:10 m above ground:8 hour fcst:
+
+range: 46301351 47560876
+./temp_2018031919_f08_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47560877:d=2018031919:WIND:10 m above ground:7-8 hour max fcst:
+
+range: 47560877 48784188
+./temp_2018031919_f08_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3256638:d=2018031919:GUST:surface:8 hour fcst:
+
+range: 3256638 4631041
+
+--> Working on: ONION PRAIRIE 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f08.png
+
+--> Working on: ECHO CLIFF 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f08.png
+
+--> Working on: CUMBEE FIRE 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f08.png
+
+--> Working on: STATELINE 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f08.png
+
+--> Working on: CLARK COUNTY 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f08.png
+
+--> Working on: DUNCAN FIRE 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f08.png
+
+--> Working on: FLYING G 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f08.png
+
+--> Working on: RABBIT 22 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f08.png
+
+--> Working on: CHIMNEY 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f08.png
+
+--> Working on: CIRCLE K 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f08.png
+
+--> Working on: EAST CUPCO 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f08.png
+
+--> Working on: ANHINGA 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f08.png
+
+--> Working on: ORCHARD 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f08.png
+
+--> Working on: FAKA-UNION (11) 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f08.png
+
+--> Working on: COUNTY LINE 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f08.png
+
+--> Working on: BLUE CREEK #2 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f08.png
+
+--> Working on: QUERECHO 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f08.png
+
+--> Working on: FT GREEN ROAD (53) 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f08.png
+
+--> Working on: RICE COUNTY 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f08.png
+
+--> Working on: CLEAR LAKE 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f08.png
+
+--> Working on: NORA 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f08.png
+
+--> Working on: MAPLE 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f08.png
+
+--> Working on: TRUST 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f08.png
+
+--> Working on: GRAVEL PIT 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f08.png
+
+--> Working on: BEGS 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f08.png
+
+--> Working on: WEST 60 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f08.png
+Finished: 8
+./temp_2018031919_f09_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:9 hour fcst:
+
+range: 0 591417
+./temp_2018031919_f09_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45158553:d=2018031919:UGRD:10 m above ground:9 hour fcst:
+
+range: 45158553 46453845
+./temp_2018031919_f09_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46453846:d=2018031919:VGRD:10 m above ground:9 hour fcst:
+
+range: 46453846 47730944
+./temp_2018031919_f09_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47730945:d=2018031919:WIND:10 m above ground:8-9 hour max fcst:
+
+range: 47730945 48975181
+./temp_2018031919_f09_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3320191:d=2018031919:GUST:surface:9 hour fcst:
+
+range: 3320191 4708917
+
+--> Working on: ONION PRAIRIE 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f09.png
+
+--> Working on: ECHO CLIFF 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f09.png
+
+--> Working on: CUMBEE FIRE 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f09.png
+
+--> Working on: STATELINE 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f09.png
+
+--> Working on: CLARK COUNTY 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f09.png
+
+--> Working on: DUNCAN FIRE 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f09.png
+
+--> Working on: FLYING G 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f09.png
+
+--> Working on: RABBIT 22 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f09.png
+
+--> Working on: CHIMNEY 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f09.png
+
+--> Working on: CIRCLE K 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f09.png
+
+--> Working on: EAST CUPCO 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f09.png
+
+--> Working on: ANHINGA 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f09.png
+
+--> Working on: ORCHARD 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f09.png
+
+--> Working on: FAKA-UNION (11) 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f09.png
+
+--> Working on: COUNTY LINE 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f09.png
+
+--> Working on: BLUE CREEK #2 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f09.png
+
+--> Working on: QUERECHO 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f09.png
+
+--> Working on: FT GREEN ROAD (53) 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f09.png
+
+--> Working on: RICE COUNTY 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f09.png
+
+--> Working on: CLEAR LAKE 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f09.png
+
+--> Working on: NORA 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f09.png
+
+--> Working on: MAPLE 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f09.png
+
+--> Working on: TRUST 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f09.png
+
+--> Working on: GRAVEL PIT 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f09.png
+
+--> Working on: BEGS 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f09.png
+
+--> Working on: WEST 60 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f09.png
+Finished: 9
+./temp_2018031919_f10_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:10 hour fcst:
+
+range: 0 604399
+./temp_2018031919_f10_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45293175:d=2018031919:UGRD:10 m above ground:10 hour fcst:
+
+range: 45293175 46597840
+./temp_2018031919_f10_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46597841:d=2018031919:VGRD:10 m above ground:10 hour fcst:
+
+range: 46597841 47885000
+./temp_2018031919_f10_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47885001:d=2018031919:WIND:10 m above ground:9-10 hour max fcst:
+
+range: 47885001 49141686
+./temp_2018031919_f10_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3349680:d=2018031919:GUST:surface:10 hour fcst:
+
+range: 3349680 4746350
+
+--> Working on: ONION PRAIRIE 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f10.png
+
+--> Working on: ECHO CLIFF 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f10.png
+
+--> Working on: CUMBEE FIRE 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f10.png
+
+--> Working on: STATELINE 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f10.png
+
+--> Working on: CLARK COUNTY 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f10.png
+
+--> Working on: DUNCAN FIRE 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f10.png
+
+--> Working on: FLYING G 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f10.png
+
+--> Working on: RABBIT 22 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f10.png
+
+--> Working on: CHIMNEY 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f10.png
+
+--> Working on: CIRCLE K 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f10.png
+
+--> Working on: EAST CUPCO 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f10.png
+
+--> Working on: ANHINGA 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f10.png
+
+--> Working on: ORCHARD 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f10.png
+
+--> Working on: FAKA-UNION (11) 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f10.png
+
+--> Working on: COUNTY LINE 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f10.png
+
+--> Working on: BLUE CREEK #2 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f10.png
+
+--> Working on: QUERECHO 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f10.png
+
+--> Working on: FT GREEN ROAD (53) 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f10.png
+
+--> Working on: RICE COUNTY 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f10.png
+
+--> Working on: CLEAR LAKE 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f10.png
+
+--> Working on: NORA 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f10.png
+
+--> Working on: MAPLE 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f10.png
+
+--> Working on: TRUST 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f10.png
+
+--> Working on: GRAVEL PIT 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f10.png
+
+--> Working on: BEGS 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f10.png
+
+--> Working on: WEST 60 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f10.png
+Finished: 10
+./temp_2018031919_f11_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:11 hour fcst:
+
+range: 0 609435
+./temp_2018031919_f11_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45340007:d=2018031919:UGRD:10 m above ground:11 hour fcst:
+
+range: 45340007 46649442
+./temp_2018031919_f11_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46649443:d=2018031919:VGRD:10 m above ground:11 hour fcst:
+
+range: 46649443 47942945
+./temp_2018031919_f11_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47942946:d=2018031919:WIND:10 m above ground:10-11 hour max fcst:
+
+range: 47942946 49207114
+./temp_2018031919_f11_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3348671:d=2018031919:GUST:surface:11 hour fcst:
+
+range: 3348671 4752912
+
+--> Working on: ONION PRAIRIE 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f11.png
+
+--> Working on: ECHO CLIFF 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f11.png
+
+--> Working on: CUMBEE FIRE 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f11.png
+
+--> Working on: STATELINE 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f11.png
+
+--> Working on: CLARK COUNTY 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f11.png
+
+--> Working on: DUNCAN FIRE 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f11.png
+
+--> Working on: FLYING G 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f11.png
+
+--> Working on: RABBIT 22 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f11.png
+
+--> Working on: CHIMNEY 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f11.png
+
+--> Working on: CIRCLE K 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f11.png
+
+--> Working on: EAST CUPCO 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f11.png
+
+--> Working on: ANHINGA 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f11.png
+
+--> Working on: ORCHARD 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f11.png
+
+--> Working on: FAKA-UNION (11) 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f11.png
+
+--> Working on: COUNTY LINE 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f11.png
+
+--> Working on: BLUE CREEK #2 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f11.png
+
+--> Working on: QUERECHO 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f11.png
+
+--> Working on: FT GREEN ROAD (53) 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f11.png
+
+--> Working on: RICE COUNTY 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f11.png
+
+--> Working on: CLEAR LAKE 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f11.png
+
+--> Working on: NORA 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f11.png
+
+--> Working on: MAPLE 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f11.png
+
+--> Working on: TRUST 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f11.png
+
+--> Working on: GRAVEL PIT 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f11.png
+
+--> Working on: BEGS 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f11.png
+
+--> Working on: WEST 60 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f11.png
+Finished: 11
+./temp_2018031919_f12_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:12 hour fcst:
+
+range: 0 621564
+./temp_2018031919_f12_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45376703:d=2018031919:UGRD:10 m above ground:12 hour fcst:
+
+range: 45376703 46691167
+./temp_2018031919_f12_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46691168:d=2018031919:VGRD:10 m above ground:12 hour fcst:
+
+range: 46691168 47989101
+./temp_2018031919_f12_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:47989102:d=2018031919:WIND:10 m above ground:11-12 hour max fcst:
+
+range: 47989102 49257836
+./temp_2018031919_f12_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3352918:d=2018031919:GUST:surface:12 hour fcst:
+
+range: 3352918 4765559
+
+--> Working on: ONION PRAIRIE 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f12.png
+
+--> Working on: ECHO CLIFF 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f12.png
+
+--> Working on: CUMBEE FIRE 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f12.png
+
+--> Working on: STATELINE 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f12.png
+
+--> Working on: CLARK COUNTY 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f12.png
+
+--> Working on: DUNCAN FIRE 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f12.png
+
+--> Working on: FLYING G 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f12.png
+
+--> Working on: RABBIT 22 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f12.png
+
+--> Working on: CHIMNEY 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f12.png
+
+--> Working on: CIRCLE K 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f12.png
+
+--> Working on: EAST CUPCO 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f12.png
+
+--> Working on: ANHINGA 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f12.png
+
+--> Working on: ORCHARD 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f12.png
+
+--> Working on: FAKA-UNION (11) 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f12.png
+
+--> Working on: COUNTY LINE 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f12.png
+
+--> Working on: BLUE CREEK #2 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f12.png
+
+--> Working on: QUERECHO 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f12.png
+
+--> Working on: FT GREEN ROAD (53) 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f12.png
+
+--> Working on: RICE COUNTY 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f12.png
+
+--> Working on: CLEAR LAKE 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f12.png
+
+--> Working on: NORA 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f12.png
+
+--> Working on: MAPLE 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f12.png
+
+--> Working on: TRUST 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f12.png
+
+--> Working on: GRAVEL PIT 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f12.png
+
+--> Working on: BEGS 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f12.png
+
+--> Working on: WEST 60 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f12.png
+Finished: 12
+./temp_2018031919_f13_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:13 hour fcst:
+
+range: 0 630864
+./temp_2018031919_f13_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45430484:d=2018031919:UGRD:10 m above ground:13 hour fcst:
+
+range: 45430484 46747308
+./temp_2018031919_f13_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46747309:d=2018031919:VGRD:10 m above ground:13 hour fcst:
+
+range: 46747309 48047573
+./temp_2018031919_f13_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48047574:d=2018031919:WIND:10 m above ground:12-13 hour max fcst:
+
+range: 48047574 49320531
+./temp_2018031919_f13_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3362061:d=2018031919:GUST:surface:13 hour fcst:
+
+range: 3362061 4777382
+
+--> Working on: ONION PRAIRIE 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f13.png
+
+--> Working on: ECHO CLIFF 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f13.png
+
+--> Working on: CUMBEE FIRE 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f13.png
+
+--> Working on: STATELINE 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f13.png
+
+--> Working on: CLARK COUNTY 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f13.png
+
+--> Working on: DUNCAN FIRE 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f13.png
+
+--> Working on: FLYING G 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f13.png
+
+--> Working on: RABBIT 22 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f13.png
+
+--> Working on: CHIMNEY 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f13.png
+
+--> Working on: CIRCLE K 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f13.png
+
+--> Working on: EAST CUPCO 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f13.png
+
+--> Working on: ANHINGA 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f13.png
+
+--> Working on: ORCHARD 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f13.png
+
+--> Working on: FAKA-UNION (11) 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f13.png
+
+--> Working on: COUNTY LINE 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f13.png
+
+--> Working on: BLUE CREEK #2 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f13.png
+
+--> Working on: QUERECHO 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f13.png
+
+--> Working on: FT GREEN ROAD (53) 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f13.png
+
+--> Working on: RICE COUNTY 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f13.png
+
+--> Working on: CLEAR LAKE 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f13.png
+
+--> Working on: NORA 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f13.png
+
+--> Working on: MAPLE 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f13.png
+
+--> Working on: TRUST 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f13.png
+
+--> Working on: GRAVEL PIT 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f13.png
+
+--> Working on: BEGS 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f13.png
+
+--> Working on: WEST 60 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f13.png
+Finished: 13
+./temp_2018031919_f14_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:14 hour fcst:
+
+range: 0 637263
+./temp_2018031919_f14_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45575541:d=2018031919:UGRD:10 m above ground:14 hour fcst:
+
+range: 45575541 46895255
+./temp_2018031919_f14_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:46895256:d=2018031919:VGRD:10 m above ground:14 hour fcst:
+
+range: 46895256 48199383
+./temp_2018031919_f14_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48199384:d=2018031919:WIND:10 m above ground:13-14 hour max fcst:
+
+range: 48199384 49474685
+./temp_2018031919_f14_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3391969:d=2018031919:GUST:surface:14 hour fcst:
+
+range: 3391969 4810895
+
+--> Working on: ONION PRAIRIE 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f14.png
+
+--> Working on: ECHO CLIFF 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f14.png
+
+--> Working on: CUMBEE FIRE 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f14.png
+
+--> Working on: STATELINE 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f14.png
+
+--> Working on: CLARK COUNTY 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f14.png
+
+--> Working on: DUNCAN FIRE 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f14.png
+
+--> Working on: FLYING G 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f14.png
+
+--> Working on: RABBIT 22 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f14.png
+
+--> Working on: CHIMNEY 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f14.png
+
+--> Working on: CIRCLE K 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f14.png
+
+--> Working on: EAST CUPCO 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f14.png
+
+--> Working on: ANHINGA 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f14.png
+
+--> Working on: ORCHARD 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f14.png
+
+--> Working on: FAKA-UNION (11) 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f14.png
+
+--> Working on: COUNTY LINE 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f14.png
+
+--> Working on: BLUE CREEK #2 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f14.png
+
+--> Working on: QUERECHO 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f14.png
+
+--> Working on: FT GREEN ROAD (53) 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f14.png
+
+--> Working on: RICE COUNTY 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f14.png
+
+--> Working on: CLEAR LAKE 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f14.png
+
+--> Working on: NORA 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f14.png
+
+--> Working on: MAPLE 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f14.png
+
+--> Working on: TRUST 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f14.png
+
+--> Working on: GRAVEL PIT 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f14.png
+
+--> Working on: BEGS 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f14.png
+
+--> Working on: WEST 60 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f14.png
+Finished: 14
+./temp_2018031919_f15_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:15 hour fcst:
+
+range: 0 643159
+./temp_2018031919_f15_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45798394:d=2018031919:UGRD:10 m above ground:15 hour fcst:
+
+range: 45798394 47122213
+./temp_2018031919_f15_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47122214:d=2018031919:VGRD:10 m above ground:15 hour fcst:
+
+range: 47122214 48429192
+./temp_2018031919_f15_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48429193:d=2018031919:WIND:10 m above ground:14-15 hour max fcst:
+
+range: 48429193 49709100
+./temp_2018031919_f15_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3496736:d=2018031919:GUST:surface:15 hour fcst:
+
+range: 3496736 4920161
+
+--> Working on: ONION PRAIRIE 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f15.png
+
+--> Working on: ECHO CLIFF 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f15.png
+
+--> Working on: CUMBEE FIRE 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f15.png
+
+--> Working on: STATELINE 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f15.png
+
+--> Working on: CLARK COUNTY 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f15.png
+
+--> Working on: DUNCAN FIRE 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f15.png
+
+--> Working on: FLYING G 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f15.png
+
+--> Working on: RABBIT 22 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f15.png
+
+--> Working on: CHIMNEY 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f15.png
+
+--> Working on: CIRCLE K 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f15.png
+
+--> Working on: EAST CUPCO 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f15.png
+
+--> Working on: ANHINGA 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f15.png
+
+--> Working on: ORCHARD 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f15.png
+
+--> Working on: FAKA-UNION (11) 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f15.png
+
+--> Working on: COUNTY LINE 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f15.png
+
+--> Working on: BLUE CREEK #2 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f15.png
+
+--> Working on: QUERECHO 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f15.png
+
+--> Working on: FT GREEN ROAD (53) 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f15.png
+
+--> Working on: RICE COUNTY 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f15.png
+
+--> Working on: CLEAR LAKE 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f15.png
+
+--> Working on: NORA 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f15.png
+
+--> Working on: MAPLE 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f15.png
+
+--> Working on: TRUST 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f15.png
+
+--> Working on: GRAVEL PIT 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f15.png
+
+--> Working on: BEGS 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f15.png
+
+--> Working on: WEST 60 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f15.png
+Finished: 15
+./temp_2018031919_f16_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:16 hour fcst:
+
+range: 0 656265
+./temp_2018031919_f16_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45803412:d=2018031919:UGRD:10 m above ground:16 hour fcst:
+
+range: 45803412 47129359
+./temp_2018031919_f16_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47129360:d=2018031919:VGRD:10 m above ground:16 hour fcst:
+
+range: 47129360 48436771
+./temp_2018031919_f16_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48436772:d=2018031919:WIND:10 m above ground:15-16 hour max fcst:
+
+range: 48436772 49719734
+./temp_2018031919_f16_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3455027:d=2018031919:GUST:surface:16 hour fcst:
+
+range: 3455027 4861754
+
+--> Working on: ONION PRAIRIE 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f16.png
+
+--> Working on: ECHO CLIFF 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f16.png
+
+--> Working on: CUMBEE FIRE 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f16.png
+
+--> Working on: STATELINE 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f16.png
+
+--> Working on: CLARK COUNTY 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f16.png
+
+--> Working on: DUNCAN FIRE 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f16.png
+
+--> Working on: FLYING G 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f16.png
+
+--> Working on: RABBIT 22 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f16.png
+
+--> Working on: CHIMNEY 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f16.png
+
+--> Working on: CIRCLE K 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f16.png
+
+--> Working on: EAST CUPCO 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f16.png
+
+--> Working on: ANHINGA 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f16.png
+
+--> Working on: ORCHARD 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f16.png
+
+--> Working on: FAKA-UNION (11) 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f16.png
+
+--> Working on: COUNTY LINE 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f16.png
+
+--> Working on: BLUE CREEK #2 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f16.png
+
+--> Working on: QUERECHO 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f16.png
+
+--> Working on: FT GREEN ROAD (53) 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f16.png
+
+--> Working on: RICE COUNTY 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f16.png
+
+--> Working on: CLEAR LAKE 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f16.png
+
+--> Working on: NORA 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f16.png
+
+--> Working on: MAPLE 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f16.png
+
+--> Working on: TRUST 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f16.png
+
+--> Working on: GRAVEL PIT 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f16.png
+
+--> Working on: BEGS 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f16.png
+
+--> Working on: WEST 60 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f16.png
+Finished: 16
+./temp_2018031919_f17_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:17 hour fcst:
+
+range: 0 662670
+./temp_2018031919_f17_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45931882:d=2018031919:UGRD:10 m above ground:17 hour fcst:
+
+range: 45931882 47260700
+./temp_2018031919_f17_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47260701:d=2018031919:VGRD:10 m above ground:17 hour fcst:
+
+range: 47260701 48569912
+./temp_2018031919_f17_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48569913:d=2018031919:WIND:10 m above ground:16-17 hour max fcst:
+
+range: 48569913 49855788
+./temp_2018031919_f17_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3519965:d=2018031919:GUST:surface:17 hour fcst:
+
+range: 3519965 4946743
+
+--> Working on: ONION PRAIRIE 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f17.png
+
+--> Working on: ECHO CLIFF 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f17.png
+
+--> Working on: CUMBEE FIRE 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f17.png
+
+--> Working on: STATELINE 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f17.png
+
+--> Working on: CLARK COUNTY 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f17.png
+
+--> Working on: DUNCAN FIRE 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f17.png
+
+--> Working on: FLYING G 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f17.png
+
+--> Working on: RABBIT 22 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f17.png
+
+--> Working on: CHIMNEY 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f17.png
+
+--> Working on: CIRCLE K 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f17.png
+
+--> Working on: EAST CUPCO 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f17.png
+
+--> Working on: ANHINGA 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f17.png
+
+--> Working on: ORCHARD 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f17.png
+
+--> Working on: FAKA-UNION (11) 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f17.png
+
+--> Working on: COUNTY LINE 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f17.png
+
+--> Working on: BLUE CREEK #2 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f17.png
+
+--> Working on: QUERECHO 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f17.png
+
+--> Working on: FT GREEN ROAD (53) 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f17.png
+
+--> Working on: RICE COUNTY 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f17.png
+
+--> Working on: CLEAR LAKE 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f17.png
+
+--> Working on: NORA 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f17.png
+
+--> Working on: MAPLE 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f17.png
+
+--> Working on: TRUST 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f17.png
+
+--> Working on: GRAVEL PIT 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f17.png
+
+--> Working on: BEGS 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f17.png
+
+--> Working on: WEST 60 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f17.png
+Finished: 17
+./temp_2018031919_f18_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018031919:REFC:entire atmosphere:18 hour fcst:
+
+range: 0 667219
+./temp_2018031919_f18_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:45976830:d=2018031919:UGRD:10 m above ground:18 hour fcst:
+
+range: 45976830 47299814
+./temp_2018031919_f18_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:47299815:d=2018031919:VGRD:10 m above ground:18 hour fcst:
+
+range: 47299815 48602963
+./temp_2018031919_f18_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:48602964:d=2018031919:WIND:10 m above ground:17-18 hour max fcst:
+
+range: 48602964 49885838
+./temp_2018031919_f18_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3533666:d=2018031919:GUST:surface:18 hour fcst:
+
+range: 3533666 4963134
+
+--> Working on: ONION PRAIRIE 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ONION_PRAIRIE/f18.png
+
+--> Working on: ECHO CLIFF 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ECHO_CLIFF/f18.png
+
+--> Working on: CUMBEE FIRE 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CUMBEE_FIRE/f18.png
+
+--> Working on: STATELINE 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/STATELINE/f18.png
+
+--> Working on: CLARK COUNTY 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLARK_COUNTY/f18.png
+
+--> Working on: DUNCAN FIRE 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/DUNCAN_FIRE/f18.png
+
+--> Working on: FLYING G 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FLYING_G/f18.png
+
+--> Working on: RABBIT 22 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RABBIT_22/f18.png
+
+--> Working on: CHIMNEY 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CHIMNEY/f18.png
+
+--> Working on: CIRCLE K 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CIRCLE_K/f18.png
+
+--> Working on: EAST CUPCO 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/EAST_CUPCO/f18.png
+
+--> Working on: ANHINGA 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ANHINGA/f18.png
+
+--> Working on: ORCHARD 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ORCHARD/f18.png
+
+--> Working on: FAKA-UNION (11) 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FAKA-UNION_(11)/f18.png
+
+--> Working on: COUNTY LINE 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/COUNTY_LINE/f18.png
+
+--> Working on: BLUE CREEK #2 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BLUE_CREEK_#2/f18.png
+
+--> Working on: QUERECHO 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/QUERECHO/f18.png
+
+--> Working on: FT GREEN ROAD (53) 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/FT_GREEN_ROAD_(53)/f18.png
+
+--> Working on: RICE COUNTY 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RICE_COUNTY/f18.png
+
+--> Working on: CLEAR LAKE 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CLEAR_LAKE/f18.png
+
+--> Working on: NORA 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/NORA/f18.png
+
+--> Working on: MAPLE 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/MAPLE/f18.png
+
+--> Working on: TRUST 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TRUST/f18.png
+
+--> Working on: GRAVEL PIT 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/GRAVEL_PIT/f18.png
+
+--> Working on: BEGS 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BEGS/f18.png
+
+--> Working on: WEST 60 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/WEST_60/f18.png
+Finished: 18
+25.022 -118.482 42.498 -77.685

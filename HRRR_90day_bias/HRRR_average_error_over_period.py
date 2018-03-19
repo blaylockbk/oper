@@ -152,81 +152,82 @@ options = {1:{'var'        : 'TMP:2 m',
           }
 
 # Choose your option
-option = 5
+for option in options:
+    #option = 5
 
-o = options[option]
-var = o['var']
-var_str = var.replace(':', '_').replace(' ', '_')
-SAVEDIR = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/PhD/HRRR/RMSE_mean/%s/' % o['save prefix']
+    o = options[option]
+    var = o['var']
+    var_str = var.replace(':', '_').replace(' ', '_')
+    SAVEDIR = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/PhD/HRRR/RMSE_mean/%s/' % o['save prefix']
 
-if o['WIND'] is True:
-    level = o['var'].split(':')[1]
+    if o['WIND'] is True:
+        level = o['var'].split(':')[1]
 
-D = datetime.now()
-D90 = D-timedelta(days=90)
+    D = datetime.now()
+    D90 = D-timedelta(days=90)
 
-# Calculate Mean Error and Root Mean Square Error
-for f in range(1, 19):
-    for h in range(0, 24):
+    # Calculate Mean Error and Root Mean Square Error
+    for f in range(1, 19):
+        for h in range(0, 24):
 
-        ## 1) Create Date Range
-        hour = h
-        sDATE = datetime(D90.year, D90.month, D90.day, hour)
-        eDATE = datetime(D.year, D.month, D.day, hour)
-        days = (eDATE-sDATE).days
-        date_list = np.array([sDATE + timedelta(days=x) for x in range(0, days)])
+            ## 1) Create Date Range
+            hour = h
+            sDATE = datetime(D90.year, D90.month, D90.day, hour)
+            eDATE = datetime(D.year, D.month, D.day, hour)
+            days = (eDATE-sDATE).days
+            date_list = np.array([sDATE + timedelta(days=x) for x in range(0, days)])
 
-        ## 2) Multiprocessing :) will return the difference (fxx-anlys) for each sample
-        fxx = f
-        num_proc = multiprocessing.cpu_count() # use all processors
-        p = multiprocessing.Pool(num_proc)
-        if o['WIND'] is True:
-            result = p.map(HRRR_error_wind_speed, date_list)
-        else:
-            result = p.map(HRRR_error, date_list)
-        p.close()
+            ## 2) Multiprocessing :) will return the difference (fxx-anlys) for each sample
+            fxx = f
+            num_proc = multiprocessing.cpu_count() # use all processors
+            p = multiprocessing.Pool(num_proc)
+            if o['WIND'] is True:
+                result = p.map(HRRR_error_wind_speed, date_list)
+            else:
+                result = p.map(HRRR_error, date_list)
+            p.close()
 
-        ## 3) Remove any nan arrays
-        samples_requested = len(result)
-        result = np.array([i for i in result if not np.isnan(np.sum(i))])
-        samples = len(result)
+            ## 3) Remove any nan arrays
+            samples_requested = len(result)
+            result = np.array([i for i in result if not np.isnan(np.sum(i))])
+            samples = len(result)
 
-        ## 4) Calculate error statistics
-        RMSE = np.sqrt(np.nanmean(result**2, axis=0))
-        mean_error = np.nanmean(result, axis=0)
+            ## 4) Calculate error statistics
+            RMSE = np.sqrt(np.nanmean(result**2, axis=0))
+            mean_error = np.nanmean(result, axis=0)
 
-        ## 5) Create Figure
-        plt.sca(ax1)
-        plot_error = m.pcolormesh(H['lon'], H['lat'], mean_error, 
-                                  latlon=True, cmap=o['mean cmap'],
-                                  vmax=o['mean maxmin'][0], vmin=o['mean maxmin'][1])
-        if f == 1 and h == 0:
-            # Add colorbar
-            ax1.set_title('Mean Error')
-            cb = plt.colorbar(orientation='horizontal', pad=0.01, shrink=0.95)
-            cb.set_label(o['mean label'])
-
-
-        plt.sca(ax2)
-        plot_rmse = m.pcolormesh(H['lon'], H['lat'], RMSE, 
-                                 latlon=True, cmap='BuPu',
-                                 vmax=o['rmse max'], vmin=0)
-        if f == 1 and h == 0:
-            # Add colorbar
-            ax2.set_title('RMSE')
-            cb = plt.colorbar(orientation='horizontal', pad=0.01, shrink=0.95)
-            cb.set_label(o['rmse label'])
+            ## 5) Create Figure
+            plt.sca(ax1)
+            plot_error = m.pcolormesh(H['lon'], H['lat'], mean_error, 
+                                    latlon=True, cmap=o['mean cmap'],
+                                    vmax=o['mean maxmin'][0], vmin=o['mean maxmin'][1])
+            if f == 1 and h == 0:
+                # Add colorbar
+                ax1.set_title('Mean Error')
+                cb = plt.colorbar(orientation='horizontal', pad=0.01, shrink=0.95)
+                cb.set_label(o['mean label'])
 
 
-        plt.suptitle( \
+            plt.sca(ax2)
+            plot_rmse = m.pcolormesh(H['lon'], H['lat'], RMSE, 
+                                    latlon=True, cmap='BuPu',
+                                    vmax=o['rmse max'], vmin=0)
+            if f == 1 and h == 0:
+                # Add colorbar
+                ax2.set_title('RMSE')
+                cb = plt.colorbar(orientation='horizontal', pad=0.01, shrink=0.95)
+                cb.set_label(o['rmse label'])
+
+
+            plt.suptitle( \
 'HRRR %s f%02d\n\
 %s - %s %02d:00 UTC\n\
 (%s/%s Samples Requested)' % (o['name'], fxx, sDATE.strftime('%Y %b %d'), eDATE.strftime('%Y %b %d'), hour, samples, samples_requested ), fontsize=20)
 
-        plt.tight_layout()
+            plt.tight_layout()
 
-        plt.savefig(SAVEDIR+'%s_h%02d_f%02d' %(o['save prefix'], hour, fxx))
-        print "Saved %s, h%02d, f%02d" % (o['save prefix'], hour, fxx)
+            plt.savefig(SAVEDIR+'%s_h%02d_f%02d' %(o['save prefix'], hour, fxx))
+            print "Saved %s, h%02d, f%02d" % (o['save prefix'], hour, fxx)
 
-        plot_error.remove()
-        plot_rmse.remove()
+            plot_error.remove()
+            plot_rmse.remove()
