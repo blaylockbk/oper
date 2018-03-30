@@ -18,3 +18,7 @@ Thumbs.db
 *.cpg
 *.txt
 *.zip
+*.CPG
+*.sbn
+*.xml
+*.sbx
