@@ -168,6 +168,8 @@ for option in options:
 
     # Calculate Mean Error and Root Mean Square Error
     for f in range(1, 19):
+        plt.cla()
+        plt.clf()
         for h in range(0, 24):
 
             ## 1) Create Date Range
