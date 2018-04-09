@@ -80,17 +80,6 @@ m = draw_CONUS_HRRR_map()
 # need a set of lat/lon grid variables, so just grab with this...
 H = get_hrrr_variable(datetime(2017, 10, 1), 'TMP:2 m')
 
-# Make Figure
-fig, [ax1, ax2] = plt.subplots(nrows=1, ncols=2)
-plt.sca(ax1)
-m.drawcoastlines()
-m.drawcountries()
-m.drawstates()
-plt.sca(ax2)
-m.drawcoastlines()
-m.drawcountries()
-m.drawstates()
-
 options = {1:{'var'        : 'TMP:2 m',
               'name'       : '2 m Temperature',
               'mean label' : r'$\Delta$ Temperature (C)',
@@ -153,7 +142,18 @@ options = {1:{'var'        : 'TMP:2 m',
 
 # Choose your option
 for option in options:
-    #option = 5
+    plt.cla()
+    plt.clf()
+    # Make Figure
+    fig, [ax1, ax2] = plt.subplots(nrows=1, ncols=2)
+    plt.sca(ax1)
+    m.drawcoastlines()
+    m.drawcountries()
+    m.drawstates()
+    plt.sca(ax2)
+    m.drawcoastlines()
+    m.drawcountries()
+    m.drawstates()
 
     o = options[option]
     var = o['var']
@@ -168,8 +168,6 @@ for option in options:
 
     # Calculate Mean Error and Root Mean Square Error
     for f in range(1, 19):
-        plt.cla()
-        plt.clf()
         for h in range(0, 24):
 
             ## 1) Create Date Range
