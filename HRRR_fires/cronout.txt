@@ -1,2 +1,89 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
+24.491 -119.109 37.686 -78.577
 Downloaded the most recent active fire perimeters.
+There are 8 large fires.
+./temp_2018010100_f00_VGT.grib2
+Oh, good, you requested a date that should be on Pando.
+matched a variable 78:49446640:d=2018010100:VGTYP:surface:anl
+
+range: 49446640 50309774
+Local DATE: 2018-04-24 09:40:59.085174
+  UTC DATE: 2018-04-24 14:00:00
+got temps
+got dwpt
+got wind
+got gust
+got u vectors
+got v vectors
+got prec
+got composite reflectivity
+making permenant figure elements...
+finding fire perimeter patches for DIENER CANYON fire... Done!
+finding fire perimeter patches for BLUE WATER fire... Done!
+finding fire perimeter patches for BUZZARD fire... Done!
+finding fire perimeter patches for RATTLESNAKE fire... Done!
+finding fire perimeter patches for CONTEXT fire... Done!
+finding fire perimeter patches for 34 COMPLEX fire... Done!
+finding fire perimeter patches for RHEA fire... Done!
+finding fire perimeter patches for MOFFAT fire... Done!
+./temp_2018042414_f00_REF.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 1:0:d=2018042414:REFC:entire atmosphere:anl:
+
+range: 0 507884
+./temp_2018042414_f00_UGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 59:41785901:d=2018042414:UGRD:10 m above ground:anl:
+
+range: 41785901 42985149
+./temp_2018042414_f00_VGR.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 60:42985150:d=2018042414:VGRD:10 m above ground:anl:
+
+range: 42985150 44175679
+./temp_2018042414_f00_WIN.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 61:44175680:d=2018042414:WIND:10 m above ground:0-0 day max fcst:
+
+range: 44175680 45386956
+ _______________________________________________________________
+ !!   Run Date Requested : 2018-04-24 14:00:00 F00
+ !! Valid Date Requested : 2018-04-24 14:00:00
+ !!     Current UTC time : 2018-04-24 15:48:21.377276
+ !! ------------------------------------------------------------
+ !! ERROR downloading from: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180424/hrrr.t14z.wrfsfcf00.grib2
+ !! Is the variable right? WIND:10 m
+ !! Does the .idx file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180424/hrrr.t14z.wrfsfcf00.grib2.idx
+ ---------------------------------------------------------------
+./temp_2018042414_f00_GUS.grib2
+
+-----------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)            !!
+-----------------------------------------------------------------------
+
+matched a variable 8:3163386:d=2018042414:GUST:surface:anl:
+
+range: 3163386 4500688
+
+--> Working on: DIENER CANYON 0
