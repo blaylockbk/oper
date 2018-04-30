@@ -1,89 +1,1148 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
-24.491 -119.109 37.686 -78.577
+24.491 -112.162 37.456 -78.577
 Downloaded the most recent active fire perimeters.
-There are 8 large fires.
-./temp_2018010100_f00_VGT.grib2
-Oh, good, you requested a date that should be on Pando.
-matched a variable 78:49446640:d=2018010100:VGTYP:surface:anl
-
-range: 49446640 50309774
-Local DATE: 2018-04-24 09:40:59.085174
-  UTC DATE: 2018-04-24 14:00:00
+There are 7 large fires.
+Local DATE: 2018-04-30 10:41:01.148138
+  UTC DATE: 2018-04-30 15:00:00
+LocDic Pollywog: Finished multiprocessing in 0:00:12.474404 on 30 processors
 got temps
+LocDic Pollywog: Finished multiprocessing in 0:00:12.941698 on 30 processors
 got dwpt
+LocDic Pollywog: Finished multiprocessing in 0:00:18.742095 on 30 processors
 got wind
+LocDic Pollywog: Finished multiprocessing in 0:00:10.026622 on 30 processors
 got gust
-got u vectors
-got v vectors
+1:0:d=2018043015:UGRD:10 m above ground:1 hour fcst:
+2:1209826:d=2018043015:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:9 hour fcst:
+2:1303904:d=2018043015:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:11 hour fcst:
+2:1292116:d=2018043015:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:14 hour fcst:
+2:1350977:d=2018043015:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:10 hour fcst:
+2:1285890:d=2018043015:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:15 hour fcst:
+2:1360405:d=2018043015:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:18 hour fcst:
+2:1375486:d=2018043015:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:2 hour fcst:
+2:1259131:d=2018043015:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:16 hour fcst:
+2:1365249:d=2018043015:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:13 hour fcst:
+2:1333476:d=2018043015:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:7 hour fcst:
+2:1358945:d=2018043015:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:4 hour fcst:
+2:1349435:d=2018043015:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:anl:
+2:1146001:d=2018043015:VGRD:10 m above ground:anl:
+1:0:d=2018043015:UGRD:10 m above ground:5 hour fcst:
+2:1367988:d=2018043015:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:12 hour fcst:
+2:1310677:d=2018043015:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:17 hour fcst:
+2:1371089:d=2018043015:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:6 hour fcst:
+2:1371196:d=2018043015:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:8 hour fcst:
+2:1336660:d=2018043015:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:3 hour fcst:
+2:1310206:d=2018043015:VGRD:10 m above ground:3 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:17.951459 on 30 processors
+got U and V wind vectors
+1:0:d=2018043015:UGRD:10 m above ground:anl:
+2:1146001:d=2018043015:VGRD:10 m above ground:anl:
+1:0:d=2018043015:UGRD:10 m above ground:1 hour fcst:
+2:1209826:d=2018043015:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:2 hour fcst:
+2:1259131:d=2018043015:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:3 hour fcst:
+2:1310206:d=2018043015:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:4 hour fcst:
+2:1349435:d=2018043015:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:5 hour fcst:
+2:1367988:d=2018043015:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:6 hour fcst:
+2:1371196:d=2018043015:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:7 hour fcst:
+2:1358945:d=2018043015:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:8 hour fcst:
+2:1336660:d=2018043015:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:9 hour fcst:
+2:1303904:d=2018043015:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:10 hour fcst:
+2:1285890:d=2018043015:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:11 hour fcst:
+2:1292116:d=2018043015:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:12 hour fcst:
+2:1310677:d=2018043015:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:13 hour fcst:
+2:1333476:d=2018043015:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018043015:UGRD:10 m above ground:14 hour fcst:
+2:1350977:d=2018043015:VGRD:10 m above ground:14 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:04.428206 on 30 processors
 got prec
-got composite reflectivity
 making permenant figure elements...
-finding fire perimeter patches for DIENER CANYON fire... Done!
-finding fire perimeter patches for BLUE WATER fire... Done!
-finding fire perimeter patches for BUZZARD fire... Done!
+finding fire perimeter patches for OK BAR fire... Done!
 finding fire perimeter patches for RATTLESNAKE fire... Done!
+finding fire perimeter patches for BUZZARD fire... Done!
+finding fire perimeter patches for TINDER fire... Done!
 finding fire perimeter patches for CONTEXT fire... Done!
-finding fire perimeter patches for 34 COMPLEX fire... Done!
-finding fire perimeter patches for RHEA fire... Done!
-finding fire perimeter patches for MOFFAT fire... Done!
-./temp_2018042414_f00_REF.grib2
+finding fire perimeter patches for ESCONDIDO TANKS fire... Done!
+finding fire perimeter patches for CEDAR RUN fire... Done!
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f00_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
 
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2.idx
 
-matched a variable 1:0:d=2018042414:REFC:entire atmosphere:anl:
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:anl:
 
-range: 0 507884
-./temp_2018042414_f00_UGR.grib2
+ >> Byte Range: 0 584017
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f00_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
 
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2.idx
 
-matched a variable 59:41785901:d=2018042414:UGRD:10 m above ground:anl:
+ >> Matched a variable:  59:41728320:d=2018043015:UGRD:10 m above ground:anl:
 
-range: 41785901 42985149
-./temp_2018042414_f00_VGR.grib2
+ >> Byte Range: 41728320 44019664
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f00_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
 
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2.idx
 
-matched a variable 60:42985150:d=2018042414:VGRD:10 m above ground:anl:
+ >> Matched a variable:  61:44019665:d=2018043015:WIND:10 m above ground:0-0 day max fcst:
 
-range: 42985150 44175679
-./temp_2018042414_f00_WIN.grib2
+ >> Byte Range: 44019665 45191465
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f00_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
 
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2.idx
 
-matched a variable 61:44175680:d=2018042414:WIND:10 m above ground:0-0 day max fcst:
+ >> Matched a variable:  8:3149851:d=2018043015:GUST:surface:anl:
 
-range: 44175680 45386956
+ >> Byte Range: 3149851 4396084
+
+--> Working on: OK BAR 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f00.png
+
+--> Working on: RATTLESNAKE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f00.png
+
+--> Working on: BUZZARD 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f00.png
+
+--> Working on: TINDER 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f00.png
+
+--> Working on: CONTEXT 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f00.png
+
+--> Working on: ESCONDIDO TANKS 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f00.png
+
+--> Working on: CEDAR RUN 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f00.png
+Finished: 0
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f01_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:1 hour fcst:
+
+ >> Byte Range: 0 653018
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f01_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  59:44230244:d=2018043015:UGRD:10 m above ground:1 hour fcst:
+
+ >> Byte Range: 44230244 46636807
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f01_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  61:46636808:d=2018043015:WIND:10 m above ground:0-1 hour max fcst:
+
+ >> Byte Range: 46636808 47792593
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f01_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  8:3280748:d=2018043015:GUST:surface:1 hour fcst:
+
+ >> Byte Range: 3280748 4554890
+
+--> Working on: OK BAR 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f01.png
+
+--> Working on: RATTLESNAKE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f01.png
+
+--> Working on: BUZZARD 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f01.png
+
+--> Working on: TINDER 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f01.png
+
+--> Working on: CONTEXT 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f01.png
+
+--> Working on: ESCONDIDO TANKS 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f01.png
+
+--> Working on: CEDAR RUN 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f01.png
+Finished: 1
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f02_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:2 hour fcst:
+
+ >> Byte Range: 0 685829
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f02_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  59:44912043:d=2018043015:UGRD:10 m above ground:2 hour fcst:
+
+ >> Byte Range: 44912043 47410292
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f02_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  61:47410293:d=2018043015:WIND:10 m above ground:1-2 hour max fcst:
+
+ >> Byte Range: 47410293 48587196
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f02_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  8:3439972:d=2018043015:GUST:surface:2 hour fcst:
+
+ >> Byte Range: 3439972 4741591
+
+--> Working on: OK BAR 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f02.png
+
+--> Working on: RATTLESNAKE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f02.png
+
+--> Working on: BUZZARD 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f02.png
+
+--> Working on: TINDER 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f02.png
+
+--> Working on: CONTEXT 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f02.png
+
+--> Working on: ESCONDIDO TANKS 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f02.png
+
+--> Working on: CEDAR RUN 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f02.png
+Finished: 2
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f03_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:3 hour fcst:
+
+ >> Byte Range: 0 710365
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f03_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  59:45587148:d=2018043015:UGRD:10 m above ground:3 hour fcst:
+
+ >> Byte Range: 45587148 48180307
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f03_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  61:48180308:d=2018043015:WIND:10 m above ground:2-3 hour max fcst:
+
+ >> Byte Range: 48180308 49406503
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f03_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  8:3480558:d=2018043015:GUST:surface:3 hour fcst:
+
+ >> Byte Range: 3480558 4822489
+
+--> Working on: OK BAR 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f03.png
+
+--> Working on: RATTLESNAKE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f03.png
+
+--> Working on: BUZZARD 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f03.png
+
+--> Working on: TINDER 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f03.png
+
+--> Working on: CONTEXT 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f03.png
+
+--> Working on: ESCONDIDO TANKS 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f03.png
+
+--> Working on: CEDAR RUN 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f03.png
+Finished: 3
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f04_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:4 hour fcst:
+
+ >> Byte Range: 0 698540
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f04_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  59:45900513:d=2018043015:UGRD:10 m above ground:4 hour fcst:
+
+ >> Byte Range: 45900513 48566729
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f04_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  61:48566730:d=2018043015:WIND:10 m above ground:3-4 hour max fcst:
+
+ >> Byte Range: 48566730 49806911
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f04_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  8:3427750:d=2018043015:GUST:surface:4 hour fcst:
+
+ >> Byte Range: 3427750 4798125
+
+--> Working on: OK BAR 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f04.png
+
+--> Working on: RATTLESNAKE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f04.png
+
+--> Working on: BUZZARD 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f04.png
+
+--> Working on: TINDER 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f04.png
+
+--> Working on: CONTEXT 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f04.png
+
+--> Working on: ESCONDIDO TANKS 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f04.png
+
+--> Working on: CEDAR RUN 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f04.png
+Finished: 4
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f05_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:5 hour fcst:
+
+ >> Byte Range: 0 672243
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f05_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  59:46011894:d=2018043015:UGRD:10 m above ground:5 hour fcst:
+
+ >> Byte Range: 46011894 48713989
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f05_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  61:48713990:d=2018043015:WIND:10 m above ground:4-5 hour max fcst:
+
+ >> Byte Range: 48713990 49987021
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f05_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  8:3303721:d=2018043015:GUST:surface:5 hour fcst:
+
+ >> Byte Range: 3303721 4691952
+
+--> Working on: OK BAR 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f05.png
+
+--> Working on: RATTLESNAKE 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f05.png
+
+--> Working on: BUZZARD 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f05.png
+
+--> Working on: TINDER 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f05.png
+
+--> Working on: CONTEXT 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f05.png
+
+--> Working on: ESCONDIDO TANKS 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f05.png
+
+--> Working on: CEDAR RUN 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f05.png
+Finished: 5
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f06_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:6 hour fcst:
+
+ >> Byte Range: 0 658131
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f06_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2.idx
+
+ >> Matched a variable:  59:46175078:d=2018043015:UGRD:10 m above ground:6 hour fcst:
+
+ >> Byte Range: 46175078 48886541
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f06_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2.idx
+
+ >> Matched a variable:  61:48886542:d=2018043015:WIND:10 m above ground:5-6 hour max fcst:
+
+ >> Byte Range: 48886542 50152800
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f06_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2.idx
+
+ >> Matched a variable:  8:3392348:d=2018043015:GUST:surface:6 hour fcst:
+
+ >> Byte Range: 3392348 4792838
+
+--> Working on: OK BAR 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f06.png
+
+--> Working on: RATTLESNAKE 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f06.png
+
+--> Working on: BUZZARD 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f06.png
+
+--> Working on: TINDER 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f06.png
+
+--> Working on: CONTEXT 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f06.png
+
+--> Working on: ESCONDIDO TANKS 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f06.png
+
+--> Working on: CEDAR RUN 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f06.png
+Finished: 6
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f07_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:7 hour fcst:
+
+ >> Byte Range: 0 655553
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f07_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2.idx
+
+ >> Matched a variable:  59:46282533:d=2018043015:UGRD:10 m above ground:7 hour fcst:
+
+ >> Byte Range: 46282533 48974766
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f07_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2.idx
+
+ >> Matched a variable:  61:48974767:d=2018043015:WIND:10 m above ground:6-7 hour max fcst:
+
+ >> Byte Range: 48974767 50253582
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f07_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2.idx
+
+ >> Matched a variable:  8:3382098:d=2018043015:GUST:surface:7 hour fcst:
+
+ >> Byte Range: 3382098 4796836
+
+--> Working on: OK BAR 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f07.png
+
+--> Working on: RATTLESNAKE 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f07.png
+
+--> Working on: BUZZARD 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f07.png
+
+--> Working on: TINDER 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f07.png
+
+--> Working on: CONTEXT 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f07.png
+
+--> Working on: ESCONDIDO TANKS 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f07.png
+
+--> Working on: CEDAR RUN 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f07.png
+Finished: 7
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f08_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:8 hour fcst:
+
+ >> Byte Range: 0 668751
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f08_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2.idx
+
+ >> Matched a variable:  59:46131900:d=2018043015:UGRD:10 m above ground:8 hour fcst:
+
+ >> Byte Range: 46131900 48789177
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f08_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2.idx
+
+ >> Matched a variable:  61:48789178:d=2018043015:WIND:10 m above ground:7-8 hour max fcst:
+
+ >> Byte Range: 48789178 50048519
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f08_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2.idx
+
+ >> Matched a variable:  8:3412807:d=2018043015:GUST:surface:8 hour fcst:
+
+ >> Byte Range: 3412807 4852459
+
+--> Working on: OK BAR 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f08.png
+
+--> Working on: RATTLESNAKE 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f08.png
+
+--> Working on: BUZZARD 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f08.png
+
+--> Working on: TINDER 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f08.png
+
+--> Working on: CONTEXT 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f08.png
+
+--> Working on: ESCONDIDO TANKS 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f08.png
+
+--> Working on: CEDAR RUN 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f08.png
+Finished: 8
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f09_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:9 hour fcst:
+
+ >> Byte Range: 0 690646
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f09_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2.idx
+
+ >> Matched a variable:  59:46012062:d=2018043015:UGRD:10 m above ground:9 hour fcst:
+
+ >> Byte Range: 46012062 48623271
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f09_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2.idx
+
+ >> Matched a variable:  61:48623272:d=2018043015:WIND:10 m above ground:8-9 hour max fcst:
+
+ >> Byte Range: 48623272 49893229
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f09_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2.idx
+
+ >> Matched a variable:  8:3469284:d=2018043015:GUST:surface:9 hour fcst:
+
+ >> Byte Range: 3469284 4899707
+
+--> Working on: OK BAR 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f09.png
+
+--> Working on: RATTLESNAKE 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f09.png
+
+--> Working on: BUZZARD 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f09.png
+
+--> Working on: TINDER 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f09.png
+
+--> Working on: CONTEXT 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f09.png
+
+--> Working on: ESCONDIDO TANKS 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f09.png
+
+--> Working on: CEDAR RUN 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f09.png
+Finished: 9
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f10_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:10 hour fcst:
+
+ >> Byte Range: 0 704279
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f10_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2.idx
+
+ >> Matched a variable:  59:45687706:d=2018043015:UGRD:10 m above ground:10 hour fcst:
+
+ >> Byte Range: 45687706 48270385
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f10_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2.idx
+
+ >> Matched a variable:  61:48270386:d=2018043015:WIND:10 m above ground:9-10 hour max fcst:
+
+ >> Byte Range: 48270386 49537791
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f10_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2.idx
+
+ >> Matched a variable:  8:3489726:d=2018043015:GUST:surface:10 hour fcst:
+
+ >> Byte Range: 3489726 4910123
+
+--> Working on: OK BAR 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f10.png
+
+--> Working on: RATTLESNAKE 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f10.png
+
+--> Working on: BUZZARD 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f10.png
+
+--> Working on: TINDER 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f10.png
+
+--> Working on: CONTEXT 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f10.png
+
+--> Working on: ESCONDIDO TANKS 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f10.png
+
+--> Working on: CEDAR RUN 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f10.png
+Finished: 10
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f11_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:11 hour fcst:
+
+ >> Byte Range: 0 709835
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f11_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2.idx
+
+ >> Matched a variable:  59:45627930:d=2018043015:UGRD:10 m above ground:11 hour fcst:
+
+ >> Byte Range: 45627930 48219544
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f11_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2.idx
+
+ >> Matched a variable:  61:48219545:d=2018043015:WIND:10 m above ground:10-11 hour max fcst:
+
+ >> Byte Range: 48219545 49482798
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f11_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2.idx
+
+ >> Matched a variable:  8:3477382:d=2018043015:GUST:surface:11 hour fcst:
+
+ >> Byte Range: 3477382 4906173
+
+--> Working on: OK BAR 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f11.png
+
+--> Working on: RATTLESNAKE 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f11.png
+
+--> Working on: BUZZARD 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f11.png
+
+--> Working on: TINDER 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f11.png
+
+--> Working on: CONTEXT 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f11.png
+
+--> Working on: ESCONDIDO TANKS 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f11.png
+
+--> Working on: CEDAR RUN 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f11.png
+Finished: 11
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f12_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:12 hour fcst:
+
+ >> Byte Range: 0 709624
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f12_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2.idx
+
+ >> Matched a variable:  59:45598991:d=2018043015:UGRD:10 m above ground:12 hour fcst:
+
+ >> Byte Range: 45598991 48229391
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f12_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2.idx
+
+ >> Matched a variable:  61:48229392:d=2018043015:WIND:10 m above ground:11-12 hour max fcst:
+
+ >> Byte Range: 48229392 49505230
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f12_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2.idx
+
+ >> Matched a variable:  8:3406048:d=2018043015:GUST:surface:12 hour fcst:
+
+ >> Byte Range: 3406048 4844275
+
+--> Working on: OK BAR 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f12.png
+
+--> Working on: RATTLESNAKE 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f12.png
+
+--> Working on: BUZZARD 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f12.png
+
+--> Working on: TINDER 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f12.png
+
+--> Working on: CONTEXT 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f12.png
+
+--> Working on: ESCONDIDO TANKS 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f12.png
+
+--> Working on: CEDAR RUN 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f12.png
+Finished: 12
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f13_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:13 hour fcst:
+
+ >> Byte Range: 0 704273
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f13_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2.idx
+
+ >> Matched a variable:  59:45678645:d=2018043015:UGRD:10 m above ground:13 hour fcst:
+
+ >> Byte Range: 45678645 48354947
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f13_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2.idx
+
+ >> Matched a variable:  61:48354948:d=2018043015:WIND:10 m above ground:12-13 hour max fcst:
+
+ >> Byte Range: 48354948 49653946
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f13_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2.idx
+
+ >> Matched a variable:  8:3377507:d=2018043015:GUST:surface:13 hour fcst:
+
+ >> Byte Range: 3377507 4828396
+
+--> Working on: OK BAR 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/OK_BAR/f13.png
+
+--> Working on: RATTLESNAKE 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/RATTLESNAKE/f13.png
+
+--> Working on: BUZZARD 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/BUZZARD/f13.png
+
+--> Working on: TINDER 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/TINDER/f13.png
+
+--> Working on: CONTEXT 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CONTEXT/f13.png
+
+--> Working on: ESCONDIDO TANKS 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/ESCONDIDO_TANKS/f13.png
+
+--> Working on: CEDAR RUN 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/CEDAR_RUN/f13.png
+Finished: 13
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f14_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:14 hour fcst:
+
+ >> Byte Range: 0 712360
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f14_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2.idx
+
+ >> Matched a variable:  59:45651361:d=2018043015:UGRD:10 m above ground:14 hour fcst:
+
+ >> Byte Range: 45651361 48361504
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f14_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2.idx
+
+ >> Matched a variable:  61:48361505:d=2018043015:WIND:10 m above ground:13-14 hour max fcst:
+
+ >> Byte Range: 48361505 49679385
  _______________________________________________________________
- !!   Run Date Requested : 2018-04-24 14:00:00 F00
- !! Valid Date Requested : 2018-04-24 14:00:00
- !!     Current UTC time : 2018-04-24 15:48:21.377276
+ !!   Run Date Requested : 2018-04-30 15:00:00 F14
+ !! Valid Date Requested : 2018-05-01 05:00:00
+ !!     Current UTC time : 2018-04-30 16:51:15.883502
  !! ------------------------------------------------------------
- !! ERROR downloading from: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180424/hrrr.t14z.wrfsfcf00.grib2
+ !! ERROR downloading GRIB2: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2
  !! Is the variable right? WIND:10 m
- !! Does the .idx file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180424/hrrr.t14z.wrfsfcf00.grib2.idx
+ !! Does the .idx file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2.idx
  ---------------------------------------------------------------
-./temp_2018042414_f00_GUS.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018043015_f14_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
 
------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)            !!
------------------------------------------------------------------------
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2.idx
 
-matched a variable 8:3163386:d=2018042414:GUST:surface:anl:
+ >> Matched a variable:  8:3351829:d=2018043015:GUST:surface:14 hour fcst:
 
-range: 3163386 4500688
+ >> Byte Range: 3351829 4815468
 
---> Working on: DIENER CANYON 0
+--> Working on: OK BAR 14

@@ -100,32 +100,33 @@ for loc in location:
 
 
 ## 3) Create a landuse image for each the locations
-##    Create new figure every day because landuse ice cover changes on lakes
-locs = location.keys() # a list of all the locations
-locs_idx = range(len(locs)) # a number index for each location
-LU = get_hrrr_variable(datetime.now(), 'VGTYP:surface')
-cm, labels = LU_MODIS21()
-for n in locs_idx:
-    locName = locs[n]
-    l = location[locName]
-    LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/LandUse.png' % locName.replace(' ', '_')
-    #if not os.path.isfile(LU_SAVE):
-    if True:
-        plt.figure(100)
-        print "need to make", LU_SAVE
-        maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
-                                cmap=cm, vmin=1, vmax=len(labels) + 1,
-                                latlon=True)
-        cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
-        cb.set_ticks(np.arange(0.5, len(labels) + 1))
-        cb.ax.set_yticklabels(labels)
-        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='maroon', s=100, latlon=True)
-        maps[locName].drawstates()
-        maps[locName].drawcounties()
-        plt.title('Landuse near %s' % locName)
-        plt.savefig(LU_SAVE)  
-        print "created landuse maps for ", locName
-        plt.close()
+##    Create new figure once a day because landuse ice cover changes on lakes
+if datetime.utcnow().hour == 0:
+    locs = location.keys() # a list of all the locations
+    locs_idx = range(len(locs)) # a number index for each location
+    LU = get_hrrr_variable(datetime.now(), 'VGTYP:surface')
+    cm, labels = LU_MODIS21()
+    for n in locs_idx:
+        locName = locs[n]
+        l = location[locName]
+        LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/%s/LandUse.png' % locName.replace(' ', '_')
+        #if not os.path.isfile(LU_SAVE):
+        if True:
+            plt.figure(100)
+            print "need to make", LU_SAVE
+            maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
+                                    cmap=cm, vmin=1, vmax=len(labels) + 1,
+                                    latlon=True)
+            cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
+            cb.set_ticks(np.arange(0.5, len(labels) + 1))
+            cb.ax.set_yticklabels(labels)
+            maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='maroon', s=100, latlon=True)
+            maps[locName].drawstates()
+            maps[locName].drawcounties()
+            plt.title('Landuse near %s' % locName)
+            plt.savefig(LU_SAVE)  
+            print "created landuse maps for ", locName
+            plt.close()
 
 
 ## 4) Get the HRRR data from NOMADS
@@ -139,13 +140,12 @@ print "UTC DATE:", DATE
 # These are dictionaries:
 # {'DATETIME':[array of dates], 'station name': [values for each datetime], ...}
 print "plucking values from HRRR"
-P_temp = get_hrrr_pollywog_multi(DATE, 'TMP:2 m', location, verbose=False); print "got Temp"
-P_dwpt = get_hrrr_pollywog_multi(DATE, 'DPT:2 m', location, verbose=False); print "got Dwpt"
-P_wind = get_hrrr_pollywog_multi(DATE, 'WIND:10 m', location, verbose=False); print "got Wind"
-P_gust = get_hrrr_pollywog_multi(DATE, 'GUST:surface', location, verbose=False); print "got Gust"
-P_u = get_hrrr_pollywog_multi(DATE, 'UGRD:10 m', location, verbose=False); print "got U10"
-P_v = get_hrrr_pollywog_multi(DATE, 'VGRD:10 m', location, verbose=False); print "got V10"
-P_prec = get_hrrr_pollywog_multi(DATE, 'APCP:surface', location, verbose=False); print "got Precip"
+P_temp = LocDic_hrrr_pollywog(DATE, 'TMP:2 m', location, verbose=False); print "got Temp"
+P_dwpt = LocDic_hrrr_pollywog(DATE, 'DPT:2 m', location, verbose=False); print "got Dwpt"
+P_wind = LocDic_hrrr_pollywog(DATE, 'WIND:10 m', location, verbose=False); print "got Wind"
+P_gust = LocDic_hrrr_pollywog(DATE, 'GUST:surface', location, verbose=False); print "got Gust"
+P_UV = LocDic_hrrr_pollywog(DATE, 'UVGRD:10 m', location, verbose=False); print "got UGRD and VGRD"
+P_prec = LocDic_hrrr_pollywog(DATE, 'APCP:surface', location, verbose=False); print "got Precip"
 P_accum = {} # Accumulated precipitation
 
 # Convert the units of each Pollywog and each location
@@ -155,11 +155,9 @@ for loc in location.keys():
     P_dwpt[loc] = KtoF(P_dwpt[loc])
     P_wind[loc] = mps_to_MPH(P_wind[loc])
     P_gust[loc] = mps_to_MPH(P_gust[loc])
-    P_u[loc] = mps_to_MPH(P_u[loc])
-    P_v[loc] = mps_to_MPH(P_v[loc])
+    P_UV[loc] = mps_to_MPH(P_UV[loc])
     P_prec[loc] = mm_to_inches(P_prec[loc])
     P_accum[loc] = np.add.accumulate(P_prec[loc]) # Accumulated Precipitation
-
 
 ## 5) Check for extreme values and send email alert
 from HRRR_warning import *
@@ -216,8 +214,8 @@ for n in locs_idx:
     figs[locName][3].plot(P_gust['DATETIME'], P_gust[locName], c='chocolate', label='Instantaneous Wind Gust', zorder=50)
     figs[locName][3].plot(P_wind['DATETIME'], P_wind[locName], c='darkorange', label='Previous Hour Max Wind', zorder=50)
     # plt.barbs can not take a datetime object, so find the date indexes:
-    idx = mpl.dates.date2num(P_u['DATETIME'])
-    figs[locName][3].barbs(idx, wind_uv_to_spd(P_u[locName], P_v[locName]), P_u[locName], P_v[locName],
+    idx = mpl.dates.date2num(P_UV['DATETIME'])
+    figs[locName][3].barbs(idx, P_UV[locName][:,2], P_UV[locName][:,0], P_UV[locName][:,1],
                            length=6,
                            barb_increments=dict(half=5, full=10, flag=50), zorder=50)
     leg3 = figs[locName][3].legend()
@@ -264,12 +262,12 @@ for fxx in range(0, 19):
     # Loop through each location to make plots for this time
     # 2.2) Radar Reflectivity and winds for entire CONUS
     H = get_hrrr_variable(DATE, 'REFC:entire atmosphere', fxx=fxx, model='hrrr')
-    H_U = get_hrrr_variable(DATE, 'UGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
-    H_V = get_hrrr_variable(DATE, 'VGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
+    H_UV = get_hrrr_variable(DATE, 'UVGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
     #
     # Convert Units (meters per second -> miles per hour)
-    H_U['value'] = mps_to_MPH(H_U['value'])
-    H_V['value'] = mps_to_MPH(H_V['value'])
+    H_UV['UGRD'] = mps_to_MPH(H_UV['UGRD'])
+    H_UV['VGRD'] = mps_to_MPH(H_UV['VGRD'])
+    H_UV['SPEED'] = mps_to_MPH(H_UV['SPEED'])
     #
     # Mask out empty reflectivity values
     dBZ = H['value']
@@ -309,8 +307,8 @@ for fxx in range(0, 19):
         trim_X = X[cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
         trim_Y = Y[cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
         trim_dBZ = dBZ[cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
-        trim_H_U = H_U['value'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
-        trim_H_V = H_V['value'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
+        trim_H_U = H_UV['UGRD'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
+        trim_H_V = H_UV['VGRD'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
         #
         # Overlay Simulated Radar Reflectivity
         ctable = 'NWSReflectivity'
@@ -360,40 +358,6 @@ for fxx in range(0, 19):
         #
         # 4) Save figure
         figs[locName][0].savefig(SAVE+'f%02d.png' % (fxx))
-
-        # --- Create Climatology graph ----------------------------------------
-        '''
-        if fxx == 0:
-            var = 'TMP:2 m'
-            variable = var.replace(':', '_').replace(' ', '_')
-            x = cut_v[0]
-            y = cut_h[0]
-            OSG_DIR = '/uufs/chpc.utah.edu/common/home/horel-group2/blaylock/HRRR_OSG/hourly30/%s/' % (variable)
-            p100 = np.array([])
-            p75 = np.array([])
-            p50 = np.array([])
-            p25 = np.array([])
-            p00 = np.array([])
-            for D in P_temp['DATETIME']:
-                FILE = 'OSG_HRRR_%s_m%02d_d%02d_h%02d_f00.h5' % (variable, D.month, D.day, D.hour)
-                with h5py.File(OSG_DIR+FILE, 'r') as f:
-                    p100 = np.append(p100, f['p100'][x][y])
-                    p75 = np.append(p75, f['p75'][x][y])
-                    p50 = np.append(p50, f['p50'][x][y])
-                    p25 = np.append(p25, f['p25'][x][y])
-                    p00 = np.append(p00, f['p00'][x][y])
-            if var == 'TMP:2 m' or var == 'DPT:2 m':
-                p100 = KtoF(p100)
-                p75 = KtoF(p75)
-                p50 = KtoF(p50)
-                p25 = KtoF(p25)
-                p00 = KtoF(p00)
-            OSG1 = figs[locName][2].fill_between(P_temp['DATETIME'], p100, p00, color='lightgrey',zorder=1, alpha=.25)
-            OSG2 = figs[locName][2].fill_between(P_temp['DATETIME'], p25, p75, color='grey',zorder=1, alpha=.25)
-            OSG3 = figs[locName][2].plot(P_temp['DATETIME'], p50, color='lightgrey',zorder=1, alpha=.25)
-        figs[locName][0].savefig(SAVE+'/OSG_climo/'+'f%02d.png' % (fxx))
-        '''
-        # ---------------------------------------------------------------------
 
         #
         pntTemp.remove()

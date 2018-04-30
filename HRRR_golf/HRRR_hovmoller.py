@@ -23,7 +23,7 @@ import os
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
-from BB_downloads.HRRR_S3 import point_hrrr_time_series_multi, get_hrrr_hovmoller
+from BB_downloads.HRRR_S3 import *
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_STNinfo import get_station_info
 from matplotlib.dates import DateFormatter, HourLocator
@@ -94,14 +94,23 @@ half_box = 9
 # 1) Get Locations Dictionary
 locations = location_dic.get_all()
 
+"""
+# shorten the dictionary for quick testing:
+L = {}
+for i in locations.keys()[0:2]:
+    L[i]=locations[i]
+
+locations = L
+"""
+
 for s in spex:
     S = spex[s]
     #
     # Retreive a "Hovmoller" array, all forecasts for a period of time, for
-    # each station in the locaiton dicionary.
-    hovmoller = get_hrrr_hovmoller(sDATE, eDATE, locations,
-                                   variable=S['HRRR var'],
-                                   area_stats=half_box)
+    # each station in the location dictionary.
+    hovmoller = LocDic_hrrr_hovmoller(sDATE, eDATE, locations,
+                                      variable=S['HRRR var'],
+                                      area_stats=half_box)
     #
     first_mw_attempt = S['MW var']
     for stn in locations.keys():
@@ -118,9 +127,9 @@ for s in spex:
         # Apply offset to data if necessary
         if s == '2 m Temperature' or s == '2 m Dew Point':
             hovmoller[stn]['max'] = hovmoller[stn]['max']-273.15
-            hovmoller[stn]['box center'] = hovmoller[stn]['box center']-273.15
+            hovmoller[stn]['box center value'] = hovmoller[stn]['box center value']-273.15
         #
-        hovCenter = hovmoller[stn]['box center']
+        hovCenter = hovmoller[stn]['box center value']
         hovCenter = np.ma.array(hovCenter)
         hovCenter[np.isnan(hovCenter)] = np.ma.masked
         #

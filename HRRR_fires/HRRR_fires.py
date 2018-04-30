@@ -133,30 +133,31 @@ for S in location.keys():
         print "created dir for", S 
 
 ## 4) Create a landuse map for each the fire and surrounding area
-locs = location.keys() # a list of all the locations
-locs_idx = range(len(locs)) # a number index for each location
-LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
-cm, labels = LU_MODIS21()
-for n in locs_idx:
-    locName = locs[n]
-    l = location[locName]
-    LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/LandUse.png' % locName.replace(' ', '_')
-    if not os.path.exists(LU_SAVE):
-        plt.figure(100)
-        print "need to make", LU_SAVE
-        maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
-                                cmap=cm, vmin=1, vmax=len(labels) + 1,
-                                latlon=True)
-        cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
-        cb.set_ticks(np.arange(0.5, len(labels) + 1))
-        cb.ax.set_yticklabels(labels)
-        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='crimson', s=100, latlon=True)
-        maps[locName].drawstates()
-        maps[locName].drawcounties()
-        plt.title('Landuse near %s' % locName)
-        plt.savefig(LU_SAVE)  
-        print "created landuse maps for", locName
-        plt.close()
+if datetime.utcnow().hour == 0:
+    locs = location.keys() # a list of all the locations
+    locs_idx = range(len(locs)) # a number index for each location
+    LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
+    cm, labels = LU_MODIS21()
+    for n in locs_idx:
+        locName = locs[n]
+        l = location[locName]
+        LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/LandUse.png' % locName.replace(' ', '_')
+        if not os.path.exists(LU_SAVE):
+            plt.figure(100)
+            print "need to make", LU_SAVE
+            maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
+                                    cmap=cm, vmin=1, vmax=len(labels) + 1,
+                                    latlon=True)
+            cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
+            cb.set_ticks(np.arange(0.5, len(labels) + 1))
+            cb.ax.set_yticklabels(labels)
+            maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='crimson', s=100, latlon=True)
+            maps[locName].drawstates()
+            maps[locName].drawcounties()
+            plt.title('Landuse near %s' % locName)
+            plt.savefig(LU_SAVE)  
+            print "created landuse maps for", locName
+            plt.close()
 
 
 ## 5) Get the HRRR data from NOMADS
@@ -169,15 +170,13 @@ print "  UTC DATE:", DATE
 # Pollywogs: Pluck HRRR value at all locations for each variable.
 #      These are dictionaries:
 #      {'DATETIME':[array of dates], 'station name': [values for each datetime], ...}
-P_temp = get_hrrr_pollywog_multi(DATE, 'TMP:2 m', location, verbose=False); print 'got temps'
-P_dwpt = get_hrrr_pollywog_multi(DATE, 'DPT:2 m', location, verbose=False); print 'got dwpt'
-P_wind = get_hrrr_pollywog_multi(DATE, 'WIND:10 m', location, verbose=False); print 'got wind'
-P_gust = get_hrrr_pollywog_multi(DATE, 'GUST:surface', location, verbose=False); print 'got gust'
-P_u = get_hrrr_pollywog_multi(DATE, 'UGRD:10 m', location, verbose=False); print 'got u vectors'
-P_v = get_hrrr_pollywog_multi(DATE, 'VGRD:10 m', location, verbose=False); print 'got v vectors'
-P_prec = get_hrrr_pollywog_multi(DATE, 'APCP:surface', location, verbose=False); print 'got prec'
+P_temp = LocDic_hrrr_pollywog(DATE, 'TMP:2 m', location, verbose=False); print 'got temps'
+P_dwpt = LocDic_hrrr_pollywog(DATE, 'DPT:2 m', location, verbose=False); print 'got dwpt'
+P_wind = LocDic_hrrr_pollywog(DATE, 'WIND:10 m', location, verbose=False); print 'got wind'
+P_gust = LocDic_hrrr_pollywog(DATE, 'GUST:surface', location, verbose=False); print 'got gust'
+P_UV = LocDic_hrrr_pollywog(DATE, 'UVGRD:10 m', location, verbose=False); print 'got U and V wind vectors'
+P_prec = LocDic_hrrr_pollywog(DATE, 'APCP:surface', location, verbose=False); print 'got prec'
 P_accum = {}
-P_ref = get_hrrr_pollywog_multi(DATE, 'REFC:entire atmosphere', location, verbose=False); print 'got composite reflectivity'
 
 # Convert the units of each Pollywog and each location
 for loc in location.keys():
@@ -186,8 +185,7 @@ for loc in location.keys():
     P_dwpt[loc] = KtoF(P_dwpt[loc])
     #P_wind[loc] = mps_to_MPH(P_wind[loc])
     #P_gust[loc] = mps_to_MPH(P_gust[loc])
-    #P_u[loc] = mps_to_MPH(P_u[loc])
-    #P_v[loc] = mps_to_MPH(P_v[loc])
+    #P_UV[loc] = mps_to_MPH(P_UV[loc])
     P_prec[loc] = mm_to_inches(P_prec[loc])
     P_accum[loc] = np.add.accumulate(P_prec[loc])
 
@@ -273,8 +271,8 @@ for n in locs_idx:
     figs[locName][3].plot(P_gust['DATETIME'], P_gust[locName], c='chocolate', label='Instantaneous Wind Gust')
     figs[locName][3].plot(P_wind['DATETIME'], P_wind[locName], c='darkorange', label='Previous Hour Max Wind')
     # plt.barbs can not take a datetime object, so find the date indexes:
-    idx = mpl.dates.date2num(P_u['DATETIME'])
-    figs[locName][3].barbs(idx, wind_uv_to_spd(P_u[locName], P_v[locName]), P_u[locName], P_v[locName],
+    idx = mpl.dates.date2num(P_UV['DATETIME'])
+    figs[locName][3].barbs(idx, P_UV[locName][:,2], P_UV[locName][:,0], P_UV[locName][:,1],
                            length=6,
                            barb_increments=dict(half=2.5, full=5, flag=25))
     leg3 = figs[locName][3].legend()
@@ -319,16 +317,10 @@ for fxx in range(0, 19):
     # Loop through each location to make plots for this time
     # 2.2) Radar Reflectivity and winds for entire CONUS
     H = get_hrrr_variable(DATE, 'REFC:entire atmosphere', fxx=fxx, model='hrrr')
-    H_U = get_hrrr_variable(DATE, 'UGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
-    H_V = get_hrrr_variable(DATE, 'VGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
+    H_UV = get_hrrr_variable(DATE, 'UVGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
     H_spd = get_hrrr_variable(DATE, 'WIND:10 m', fxx=fxx, model='hrrr', value_only=True)
     H_gst = get_hrrr_variable(DATE, 'GUST:surface', fxx=fxx, model='hrrr', value_only=True)
     #
-    # Convert Units (meters per second -> miles per hour)
-    #H_U['value'] = mps_to_MPH(H_U['value'])        # this is causing problems with a None value
-    #H_V['value'] = mps_to_MPH(H_V['value'])        # this is causing problems with a None value
-    # !! Keep H_spd in m/s for alert purposes
-    # !! Keep H_gst in m/s for alert purposes
     #
     # Mask out empty reflectivity values
     dBZ = H['value']
@@ -370,8 +362,8 @@ for fxx in range(0, 19):
             trim_X = X[cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
             trim_Y = Y[cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
             trim_dBZ = dBZ[cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
-            trim_H_U = H_U['value'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
-            trim_H_V = H_V['value'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
+            trim_H_U = H_UV['UGRD'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
+            trim_H_V = H_UV['VGRD'][cut_v-bfr:cut_v+bfr, cut_h-bfr:cut_h+bfr]
             #
             #####################################################################################
             #### Alerts #########################################################################

@@ -23,7 +23,7 @@ import os
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
-from BB_downloads.HRRR_S3 import point_hrrr_time_series_multi, get_hrrr_hovmoller
+from BB_downloads.HRRR_S3 import *
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_STNinfo import get_station_info
 from matplotlib.dates import DateFormatter, HourLocator
@@ -126,10 +126,10 @@ for i, f in enumerate(text):
 #
 # Retrieve a "Hovmoller" array, all forecasts for a period of time, for
 # each station in the location dictionary.
-wind_hovmoller = get_hrrr_hovmoller(sDATE, eDATE, location,
+wind_hovmoller = LocDic_hrrr_hovmoller(sDATE, eDATE, location,
                                 variable='WIND:10 m',
                                 area_stats=half_box)
-rh_hovmoller = get_hrrr_hovmoller(sDATE, eDATE, location,
+rh_hovmoller = LocDic_hrrr_hovmoller(sDATE, eDATE, location,
                                 variable='RH:2 m',
                                 area_stats=half_box)
 #
@@ -144,11 +144,11 @@ for stn in location.keys():
         photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer_fire.php'
         os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
     #
-    wind_hovCenter = wind_hovmoller[stn]['box center']
+    wind_hovCenter = wind_hovmoller[stn]['box center value']
     wind_hovCenter = np.ma.array(wind_hovCenter)
     wind_hovCenter[np.isnan(wind_hovCenter)] = np.ma.masked
     #
-    rh_hovCenter = rh_hovmoller[stn]['box center']
+    rh_hovCenter = rh_hovmoller[stn]['box center value']
     rh_hovCenter = np.ma.array(rh_hovCenter)
     rh_hovCenter[np.isnan(rh_hovCenter)] = np.ma.masked
     #
