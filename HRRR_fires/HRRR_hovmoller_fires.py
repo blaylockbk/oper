@@ -26,6 +26,8 @@ sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
 from BB_downloads.HRRR_S3 import *
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_STNinfo import get_station_info
+from BB_cmap.NWS_standard_cmap import *
+
 from matplotlib.dates import DateFormatter, HourLocator
 
 ## Reset the defaults (see more here: http://matplotlib.org/users/customizing.html)
@@ -60,21 +62,28 @@ SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires
 spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
                       'MW var':'wind_speed',
                       'units': r'ms$\mathregular{^{-1}}$',
-                      'cmap':'magma_r',
+                      'cmap':cm_wind(),
                       'save':'WIND',
-                      'contour':range(2, 50, 2)},
+                      'contour':range(2, 50, 2),
+                      'vmax':60,
+                      'vmin':0},
+
         'Simulated Reflectivity':{'HRRR var':'REFC:entire atmosphere',
                                   'MW var':'reflectivity',
                                   'units': 'dBZ',
                                   'cmap':'gist_ncar',
                                   'save':'REF',
-                                  'contour':range(20, 100, 20)},
+                                  'contour':range(20, 100, 20),
+                                  'vmax':80,
+                                  'vmin':0},
         '2 m Temperature':{'HRRR var':'TMP:2 m',
                            'MW var':'air_temp',
                            'units': 'C',
-                           'cmap':'Spectral_r',
+                           'cmap':cm_temp(),
                            'save':'TMP',
-                           'contour':range(-20, 50, 5)}, 
+                           'contour':range(-20, 50, 5),
+                           'vmax':45,
+                           'vmin':-50},
         '2 m Dew Point':{'HRRR var':'DPT:2 m',
                            'MW var':'dew_point_temperature',
                            'units': 'C',
@@ -168,10 +177,10 @@ for s in spex:
         hovBoxMax[np.isnan(hovBoxMax)] = np.ma.masked
         #
         #
-        if s == 'Simulated Reflectivity':
-            hmin = 0
-            hmax = 80
-        else:
+        try:
+            hmin = S['vmin']
+            hmax = S['vmax']
+        except:
             hmin = np.nanmin(hovCenter)
             hmax = np.nanmax(hovCenter)
         #

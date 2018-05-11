@@ -32,7 +32,7 @@ GNI
 ALT
 BFLAT
 FREUT
-UTC DATE: 2018-04-28 00:00:00
+UTC DATE: 2018-05-09 00:00:00
 
 --------------------------------------------------------
   Working on the HRRR time series plots (HRRR_anlys.py)
@@ -61,7 +61,7 @@ GNI
 ALT
 BFLAT
 FREUT
-UTC DATE: 2018-04-27 18:00:00
+UTC DATE: 2018-05-08 18:00:00
 
 --------------------------------------------------------
   Working on the HRRR time series plots (HRRR_anlys.py)
@@ -90,7 +90,7 @@ GNI
 ALT
 BFLAT
 FREUT
-UTC DATE: 2018-04-27 12:00:00
+UTC DATE: 2018-05-08 12:00:00
 
 --------------------------------------------------------
   Working on the HRRR time series plots (HRRR_anlys.py)
@@ -119,4 +119,4 @@ GNI
 ALT
 BFLAT
 FREUT
-UTC DATE: 2018-04-27 06:00:00
+UTC DATE: 2018-05-08 06:00:00

@@ -1,119 +1,100 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf
- My DATE: 2018-04-30 10:31:00.730244
-UTC DATE: 2018-04-30 15:00:00
+ My DATE: 2018-05-11 09:31:05.848839
+UTC DATE: 2018-05-11 14:00:00
 plucking values from HRRR
-LocDic Pollywog: Finished multiprocessing in 0:00:09.216961 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.444632 on 30 processors
 got Temp
- _______________________________________________________________
- !!   Run Date Requested : 2018-04-30 15:00:00 F02
- !! Valid Date Requested : 2018-04-30 17:00:00
- !!     Current UTC time : 2018-04-30 16:31:01.346457
- !! ------------------------------------------------------------
- !! ERROR downloading GRIB2: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2
- !! Is the variable right? TMP:2 m
- !! Does the .idx file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2.idx
- ---------------------------------------------------------------
- _______________________________________________________________
- !!   Run Date Requested : 2018-04-30 15:00:00 F01
- !! Valid Date Requested : 2018-04-30 16:00:00
- !!     Current UTC time : 2018-04-30 16:31:01.356594
- !! ------------------------------------------------------------
- !! ERROR downloading GRIB2: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2
- !! Is the variable right? TMP:2 m
- !! Does the .idx file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2.idx
- ---------------------------------------------------------------
-LocDic Pollywog: Finished multiprocessing in 0:00:07.938659 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:05.354041 on 30 processors
 got Dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:16.411967 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:06.375146 on 30 processors
 got Wind
-LocDic Pollywog: Finished multiprocessing in 0:00:15.294252 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:05.049565 on 30 processors
 got Gust
-1:0:d=2018043015:UGRD:10 m above ground:anl:
-2:1146001:d=2018043015:VGRD:10 m above ground:anl:
-1:0:d=2018043015:UGRD:10 m above ground:3 hour fcst:
-2:1310206:d=2018043015:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:5 hour fcst:
-2:1367988:d=2018043015:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:14 hour fcst:
-2:1350977:d=2018043015:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:17 hour fcst:
-2:1371089:d=2018043015:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:8 hour fcst:
-2:1336660:d=2018043015:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:18 hour fcst:
-2:1375486:d=2018043015:VGRD:10 m above ground:18 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:6 hour fcst:
-2:1371196:d=2018043015:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:16 hour fcst:
-2:1365249:d=2018043015:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:12 hour fcst:
-2:1310677:d=2018043015:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:11 hour fcst:
-2:1292116:d=2018043015:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:2 hour fcst:
-2:1259131:d=2018043015:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:10 hour fcst:
-2:1285890:d=2018043015:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:1 hour fcst:
-2:1209826:d=2018043015:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:9 hour fcst:
-2:1303904:d=2018043015:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:7 hour fcst:
-2:1358945:d=2018043015:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:15 hour fcst:
-2:1360405:d=2018043015:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:4 hour fcst:
-2:1349435:d=2018043015:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:13 hour fcst:
-2:1333476:d=2018043015:VGRD:10 m above ground:13 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:14.820202 on 30 processors
+1:0:d=2018051114:UGRD:10 m above ground:9 hour fcst:
+2:1275524:d=2018051114:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:16 hour fcst:
+2:1298782:d=2018051114:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:5 hour fcst:
+2:1298027:d=2018051114:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:2 hour fcst:
+2:1211918:d=2018051114:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:4 hour fcst:
+2:1275745:d=2018051114:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:14 hour fcst:
+2:1277939:d=2018051114:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:3 hour fcst:
+2:1243496:d=2018051114:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:15 hour fcst:
+2:1289496:d=2018051114:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:13 hour fcst:
+2:1259444:d=2018051114:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:8 hour fcst:
+2:1297351:d=2018051114:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:17 hour fcst:
+2:1320183:d=2018051114:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:7 hour fcst:
+2:1310580:d=2018051114:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:anl:
+2:1153501:d=2018051114:VGRD:10 m above ground:anl:
+1:0:d=2018051114:UGRD:10 m above ground:10 hour fcst:
+2:1246509:d=2018051114:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:18 hour fcst:
+2:1326955:d=2018051114:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:1 hour fcst:
+2:1180922:d=2018051114:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:12 hour fcst:
+2:1237440:d=2018051114:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:6 hour fcst:
+2:1310119:d=2018051114:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:11 hour fcst:
+2:1229278:d=2018051114:VGRD:10 m above ground:11 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:13.474576 on 30 processors
 got UGRD and VGRD
-1:0:d=2018043015:UGRD:10 m above ground:anl:
-2:1146001:d=2018043015:VGRD:10 m above ground:anl:
-1:0:d=2018043015:UGRD:10 m above ground:1 hour fcst:
-2:1209826:d=2018043015:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:2 hour fcst:
-2:1259131:d=2018043015:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:3 hour fcst:
-2:1310206:d=2018043015:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:4 hour fcst:
-2:1349435:d=2018043015:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:5 hour fcst:
-2:1367988:d=2018043015:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:6 hour fcst:
-2:1371196:d=2018043015:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:7 hour fcst:
-2:1358945:d=2018043015:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:8 hour fcst:
-2:1336660:d=2018043015:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:9 hour fcst:
-2:1303904:d=2018043015:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:10 hour fcst:
-2:1285890:d=2018043015:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:11 hour fcst:
-2:1292116:d=2018043015:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:12 hour fcst:
-2:1310677:d=2018043015:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:13 hour fcst:
-2:1333476:d=2018043015:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:14 hour fcst:
-2:1350977:d=2018043015:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:15 hour fcst:
-2:1360405:d=2018043015:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:16 hour fcst:
-2:1365249:d=2018043015:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:17 hour fcst:
-2:1371089:d=2018043015:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2018043015:UGRD:10 m above ground:18 hour fcst:
-2:1375486:d=2018043015:VGRD:10 m above ground:18 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:12.395743 on 30 processors
+1:0:d=2018051114:UGRD:10 m above ground:anl:
+2:1153501:d=2018051114:VGRD:10 m above ground:anl:
+1:0:d=2018051114:UGRD:10 m above ground:1 hour fcst:
+2:1180922:d=2018051114:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:2 hour fcst:
+2:1211918:d=2018051114:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:3 hour fcst:
+2:1243496:d=2018051114:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:4 hour fcst:
+2:1275745:d=2018051114:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:5 hour fcst:
+2:1298027:d=2018051114:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:6 hour fcst:
+2:1310119:d=2018051114:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:7 hour fcst:
+2:1310580:d=2018051114:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:8 hour fcst:
+2:1297351:d=2018051114:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:9 hour fcst:
+2:1275524:d=2018051114:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:10 hour fcst:
+2:1246509:d=2018051114:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:11 hour fcst:
+2:1229278:d=2018051114:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:12 hour fcst:
+2:1237440:d=2018051114:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:13 hour fcst:
+2:1259444:d=2018051114:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:14 hour fcst:
+2:1277939:d=2018051114:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:15 hour fcst:
+2:1289496:d=2018051114:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:16 hour fcst:
+2:1298782:d=2018051114:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:17 hour fcst:
+2:1320183:d=2018051114:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018051114:UGRD:10 m above ground:18 hour fcst:
+2:1326955:d=2018051114:VGRD:10 m above ground:18 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:03.510583 on 30 processors
 got Precip
 Making permenant figure elements...
    --> UTPKL
    --> SND
    --> NAA
    --> C8635
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201804301500&end=201804301632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=utc&output=json
    --> FPS
    --> KSLC
    --> UFD09
@@ -129,33 +110,32 @@ Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b72955
    --> Oaks
    --> GNI
    --> ALT
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201804301500&end=201804301636&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=utc&output=json
    --> BFLAT
    --> FREUT
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f00_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f00_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf00.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:anl:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:anl:
 
- >> Byte Range: 0 584017
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f00_UVG.grib2
+ >> Byte Range: 0 528705
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f00_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf00.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf00.grib2.idx
 
- >> Matched a variable:  59:41728320:d=2018043015:UGRD:10 m above ground:anl:
+ >> Matched a variable:  59:41284048:d=2018051114:UGRD:10 m above ground:anl:
 
- >> Byte Range: 41728320 44019664
+ >> Byte Range: 41284048 43590210
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 0
@@ -200,30 +180,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 0
 Finished: 0
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f01_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f01_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf01.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:1 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:1 hour fcst:
 
- >> Byte Range: 0 653018
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f01_UVG.grib2
+ >> Byte Range: 0 574486
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f01_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf01.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf01.grib2.idx
 
- >> Matched a variable:  59:44230244:d=2018043015:UGRD:10 m above ground:1 hour fcst:
+ >> Matched a variable:  59:43409178:d=2018051114:UGRD:10 m above ground:1 hour fcst:
 
- >> Byte Range: 44230244 46636807
+ >> Byte Range: 43409178 45763662
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 1
@@ -268,30 +248,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 1
 Finished: 1
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f02_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f02_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf02.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:2 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:2 hour fcst:
 
- >> Byte Range: 0 685829
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f02_UVG.grib2
+ >> Byte Range: 0 593987
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f02_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf02.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf02.grib2.idx
 
- >> Matched a variable:  59:44912043:d=2018043015:UGRD:10 m above ground:2 hour fcst:
+ >> Matched a variable:  59:43803830:d=2018051114:UGRD:10 m above ground:2 hour fcst:
 
- >> Byte Range: 44912043 47410292
+ >> Byte Range: 43803830 46212263
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 2
@@ -336,30 +316,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 2
 Finished: 2
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f03_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f03_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf03.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:3 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:3 hour fcst:
 
- >> Byte Range: 0 710365
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f03_UVG.grib2
+ >> Byte Range: 0 601543
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f03_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf03.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf03.grib2.idx
 
- >> Matched a variable:  59:45587148:d=2018043015:UGRD:10 m above ground:3 hour fcst:
+ >> Matched a variable:  59:44293315:d=2018051114:UGRD:10 m above ground:3 hour fcst:
 
- >> Byte Range: 45587148 48180307
+ >> Byte Range: 44293315 46764085
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 3
@@ -404,30 +384,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 3
 Finished: 3
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f04_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f04_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf04.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:4 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:4 hour fcst:
 
- >> Byte Range: 0 698540
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f04_UVG.grib2
+ >> Byte Range: 0 600683
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f04_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf04.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf04.grib2.idx
 
- >> Matched a variable:  59:45900513:d=2018043015:UGRD:10 m above ground:4 hour fcst:
+ >> Matched a variable:  59:44768011:d=2018051114:UGRD:10 m above ground:4 hour fcst:
 
- >> Byte Range: 45900513 48566729
+ >> Byte Range: 44768011 47302558
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 4
@@ -472,30 +452,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 4
 Finished: 4
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f05_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f05_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf05.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:5 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:5 hour fcst:
 
- >> Byte Range: 0 672243
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f05_UVG.grib2
+ >> Byte Range: 0 609047
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f05_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf05.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf05.grib2.idx
 
- >> Matched a variable:  59:46011894:d=2018043015:UGRD:10 m above ground:5 hour fcst:
+ >> Matched a variable:  59:45090044:d=2018051114:UGRD:10 m above ground:5 hour fcst:
 
- >> Byte Range: 46011894 48713989
+ >> Byte Range: 45090044 47669072
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 5
@@ -540,30 +520,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 5
 Finished: 5
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f06_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f06_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf06.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:6 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:6 hour fcst:
 
- >> Byte Range: 0 658131
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f06_UVG.grib2
+ >> Byte Range: 0 599607
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f06_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf06.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf06.grib2.idx
 
- >> Matched a variable:  59:46175078:d=2018043015:UGRD:10 m above ground:6 hour fcst:
+ >> Matched a variable:  59:45206474:d=2018051114:UGRD:10 m above ground:6 hour fcst:
 
- >> Byte Range: 46175078 48886541
+ >> Byte Range: 45206474 47808298
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 6
@@ -608,30 +588,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 6
 Finished: 6
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f07_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f07_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf07.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:7 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:7 hour fcst:
 
- >> Byte Range: 0 655553
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f07_UVG.grib2
+ >> Byte Range: 0 605795
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f07_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf07.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf07.grib2.idx
 
- >> Matched a variable:  59:46282533:d=2018043015:UGRD:10 m above ground:7 hour fcst:
+ >> Matched a variable:  59:45362628:d=2018051114:UGRD:10 m above ground:7 hour fcst:
 
- >> Byte Range: 46282533 48974766
+ >> Byte Range: 45362628 47965109
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 7
@@ -676,30 +656,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 7
 Finished: 7
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f08_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f08_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf08.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:8 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:8 hour fcst:
 
- >> Byte Range: 0 668751
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f08_UVG.grib2
+ >> Byte Range: 0 610040
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f08_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf08.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf08.grib2.idx
 
- >> Matched a variable:  59:46131900:d=2018043015:UGRD:10 m above ground:8 hour fcst:
+ >> Matched a variable:  59:45377367:d=2018051114:UGRD:10 m above ground:8 hour fcst:
 
- >> Byte Range: 46131900 48789177
+ >> Byte Range: 45377367 47957154
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 8
@@ -744,30 +724,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 8
 Finished: 8
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f09_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f09_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf09.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:9 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:9 hour fcst:
 
- >> Byte Range: 0 690646
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f09_UVG.grib2
+ >> Byte Range: 0 632049
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f09_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf09.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf09.grib2.idx
 
- >> Matched a variable:  59:46012062:d=2018043015:UGRD:10 m above ground:9 hour fcst:
+ >> Matched a variable:  59:45345197:d=2018051114:UGRD:10 m above ground:9 hour fcst:
 
- >> Byte Range: 46012062 48623271
+ >> Byte Range: 45345197 47886050
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 9
@@ -812,30 +792,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 9
 Finished: 9
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f10_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f10_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf10.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:10 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:10 hour fcst:
 
- >> Byte Range: 0 704279
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f10_UVG.grib2
+ >> Byte Range: 0 654409
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f10_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf10.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf10.grib2.idx
 
- >> Matched a variable:  59:45687706:d=2018043015:UGRD:10 m above ground:10 hour fcst:
+ >> Matched a variable:  59:45178055:d=2018051114:UGRD:10 m above ground:10 hour fcst:
 
- >> Byte Range: 45687706 48270385
+ >> Byte Range: 45178055 47671717
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 10
@@ -880,30 +860,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 10
 Finished: 10
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f11_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f11_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf11.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:11 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:11 hour fcst:
 
- >> Byte Range: 0 709835
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f11_UVG.grib2
+ >> Byte Range: 0 644238
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f11_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf11.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf11.grib2.idx
 
- >> Matched a variable:  59:45627930:d=2018043015:UGRD:10 m above ground:11 hour fcst:
+ >> Matched a variable:  59:44852145:d=2018051114:UGRD:10 m above ground:11 hour fcst:
 
- >> Byte Range: 45627930 48219544
+ >> Byte Range: 44852145 47319742
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 11
@@ -948,30 +928,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 11
 Finished: 11
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f12_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f12_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf12.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:12 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:12 hour fcst:
 
- >> Byte Range: 0 709624
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f12_UVG.grib2
+ >> Byte Range: 0 643331
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f12_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf12.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf12.grib2.idx
 
- >> Matched a variable:  59:45598991:d=2018043015:UGRD:10 m above ground:12 hour fcst:
+ >> Matched a variable:  59:44798542:d=2018051114:UGRD:10 m above ground:12 hour fcst:
 
- >> Byte Range: 45598991 48229391
+ >> Byte Range: 44798542 47280664
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 12
@@ -1016,30 +996,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 12
 Finished: 12
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f13_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f13_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf13.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:13 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:13 hour fcst:
 
- >> Byte Range: 0 704273
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f13_UVG.grib2
+ >> Byte Range: 0 639622
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f13_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf13.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf13.grib2.idx
 
- >> Matched a variable:  59:45678645:d=2018043015:UGRD:10 m above ground:13 hour fcst:
+ >> Matched a variable:  59:44747854:d=2018051114:UGRD:10 m above ground:13 hour fcst:
 
- >> Byte Range: 45678645 48354947
+ >> Byte Range: 44747854 47263484
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 13
@@ -1084,30 +1064,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 13
 Finished: 13
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f14_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f14_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf14.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:14 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:14 hour fcst:
 
- >> Byte Range: 0 712360
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f14_UVG.grib2
+ >> Byte Range: 0 647972
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f14_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf14.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf14.grib2.idx
 
- >> Matched a variable:  59:45651361:d=2018043015:UGRD:10 m above ground:14 hour fcst:
+ >> Matched a variable:  59:44783420:d=2018051114:UGRD:10 m above ground:14 hour fcst:
 
- >> Byte Range: 45651361 48361504
+ >> Byte Range: 44783420 47338405
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 14
@@ -1152,30 +1132,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 14
 Finished: 14
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f15_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f15_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf15.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf15.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf15.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf15.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:15 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:15 hour fcst:
 
- >> Byte Range: 0 716894
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f15_UVG.grib2
+ >> Byte Range: 0 658729
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f15_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf15.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf15.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf15.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf15.grib2.idx
 
- >> Matched a variable:  59:45791962:d=2018043015:UGRD:10 m above ground:15 hour fcst:
+ >> Matched a variable:  59:44861255:d=2018051114:UGRD:10 m above ground:15 hour fcst:
 
- >> Byte Range: 45791962 48522145
+ >> Byte Range: 44861255 47440537
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 15
@@ -1220,30 +1200,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 15
 Finished: 15
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f16_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f16_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf16.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf16.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf16.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf16.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:16 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:16 hour fcst:
 
- >> Byte Range: 0 744946
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f16_UVG.grib2
+ >> Byte Range: 0 661106
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f16_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf16.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf16.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf16.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf16.grib2.idx
 
- >> Matched a variable:  59:45836725:d=2018043015:UGRD:10 m above ground:16 hour fcst:
+ >> Matched a variable:  59:44806143:d=2018051114:UGRD:10 m above ground:16 hour fcst:
 
- >> Byte Range: 45836725 48577572
+ >> Byte Range: 44806143 47404517
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 16
@@ -1288,30 +1268,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 16
 Finished: 16
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f17_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f17_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf17.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf17.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf17.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf17.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:17 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:17 hour fcst:
 
- >> Byte Range: 0 779548
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f17_UVG.grib2
+ >> Byte Range: 0 663225
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f17_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf17.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf17.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf17.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf17.grib2.idx
 
- >> Matched a variable:  59:46035885:d=2018043015:UGRD:10 m above ground:17 hour fcst:
+ >> Matched a variable:  59:44664529:d=2018051114:UGRD:10 m above ground:17 hour fcst:
 
- >> Byte Range: 46035885 48802307
+ >> Byte Range: 44664529 47293083
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 17
@@ -1356,30 +1336,30 @@ GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.2018043
 
 --> Working on: FREUT 17
 Finished: 17
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f18_REF.grib2
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f18_REF.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf18.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf18.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf18.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf18.grib2.idx
 
- >> Matched a variable:  1:0:d=2018043015:REFC:entire atmosphere:18 hour fcst:
+ >> Matched a variable:  1:0:d=2018051114:REFC:entire atmosphere:18 hour fcst:
 
- >> Byte Range: 0 806471
- >> Dowloading tempfile: ./temp_hrrr_2018043015_f18_UVG.grib2
+ >> Byte Range: 0 672538
+ >> Dowloading tempfile: ./temp_hrrr_2018051114_f18_UVG.grib2
 /n---------------------------------------------------------------------------
 !! Hey! You are requesting a date that is not on the Pando archive yet.  !!
 !! That's ok, I'll redirect you to the NOMADS server. :)                 !!
 ---------------------------------------------------------------------------
 
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf18.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180430/hrrr.t15z.wrfsfcf18.grib2.idx
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf18.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180511/hrrr.t14z.wrfsfcf18.grib2.idx
 
- >> Matched a variable:  59:46149557:d=2018043015:UGRD:10 m above ground:18 hour fcst:
+ >> Matched a variable:  59:44624813:d=2018051114:UGRD:10 m above ground:18 hour fcst:
 
- >> Byte Range: 46149557 48923409
+ >> Byte Range: 44624813 47267841
  >> Converting winds to earth-relative
 
 --> Working on: UTPKL 18
