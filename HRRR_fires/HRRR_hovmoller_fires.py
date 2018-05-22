@@ -56,7 +56,7 @@ sDATE = datetime(UTC_now.year, UTC_now.month, UTC_now.day, UTC_now.hour)-timedel
 eDATE = datetime(UTC_now.year, UTC_now.month, UTC_now.day, UTC_now.hour)+timedelta(hours=18)
 
 # Directory to save figures (subdirectory will be created for each stnID)
-SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/'
+#SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/'
 
 # Create specifications (spex) for each variable we want to plot
 spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
@@ -64,10 +64,9 @@ spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
                       'units': r'ms$\mathregular{^{-1}}$',
                       'cmap':cm_wind(),
                       'save':'WIND',
-                      'contour':range(2, 50, 2),
+                      'contour':range(5, 50, 5),
                       'vmax':60,
                       'vmin':0},
-
         'Simulated Reflectivity':{'HRRR var':'REFC:entire atmosphere',
                                   'MW var':'reflectivity',
                                   'units': 'dBZ',
@@ -82,14 +81,32 @@ spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
                            'cmap':cm_temp(),
                            'save':'TMP',
                            'contour':range(-20, 50, 5),
-                           'vmax':45,
+                           'vmax':50,
                            'vmin':-50},
         '2 m Dew Point':{'HRRR var':'DPT:2 m',
                            'MW var':'dew_point_temperature',
                            'units': 'C',
-                           'cmap':'BrBG',
+                           'cmap':cm_dpt(),
                            'save':'DPT',
-                           'contour':range(-20, 50, 5)},                                  
+                           'contour':range(-20, 50, 5),
+                           'vmax':-18,
+                           'vmin':27},
+        '2 m Relative Humidity':{'HRRR var':'RH:2 m',
+                                 'MW var':'relative_humidity',
+                                 'units': '%',
+                                 'cmap':cm_rh(),
+                                 'save':'RH',
+                                 'contour':range(100,121,10),
+                                 'vmax':5,
+                                 'vmin':90},
+        #'1 h Accumulated Precipitation':{'HRRR var':'APCP:surface',
+        #                                 'MW var':'accumulated_precip',
+        #                                 'units': 'mm',
+        #                                 'cmap':cm_precip(),
+        #                                 'save':'PCP',
+        #                                 'contour':range(50,101,5),
+        #                                 'vmax':762,
+        #                                 'vmin':0},
         #'Solar Radiation':{'HRRR var':'DSWRF:surface',
         #                   'MW var':'solar_radiation',
         #                   'units': r'W m$\mathregular{^{-2}}$',
@@ -143,6 +160,7 @@ for i, f in enumerate(text):
                          }
 
 for s in spex:
+    print s
     S = spex[s]
     #
     # Retrieve a "Hovmoller" array, all forecasts for a period of time, for
@@ -154,14 +172,15 @@ for s in spex:
     first_mw_attempt = S['MW var']
     for stn in location.keys():
         print "\nWorking on %s %s" % (stn, s)
-        SAVE = SAVE_dir + '%s/' % stn.replace(' ','_')
+        #SAVE = SAVE_dir + '%s/' % stn.replace(' ','_')
+        SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/%s/' % ((UTC_now-timedelta(hours=1)).strftime('%Y-%m-%d/%H00'), stn.replace(' ', '_'))
         if not os.path.exists(SAVE):
             # make the SAVE directory if it doesn't already exist
             os.makedirs(SAVE)
             print "created:", SAVE
             # then link the photo viewer
-            photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer_fire.php'
-            os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
+            #photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer_fire.php'
+            #os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
         #
         # Apply offset to data if necessary
         if s == '2 m Temperature' or s == '2 m Dew Point':

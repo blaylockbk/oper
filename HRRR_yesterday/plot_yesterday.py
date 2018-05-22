@@ -46,6 +46,7 @@ from BB_downloads.HRRR_S3 import get_hrrr_variable
 from BB_MesoWest.MesoWest_STNinfo import get_station_info
 from BB_wx_calcs.wind import wind_uv_to_spd
 from BB_data.grid_manager import pluck_point_new
+from BB_cmap.NWS_standard_cmap import *
 
 from matplotlib.patches import Polygon
 from matplotlib.collections import PatchCollection
@@ -262,8 +263,9 @@ def make_plots(inputs):
         if '10mWind_Fill' in plotcode:
             m.pcolormesh(gridlon, gridlat, spd,
                         latlon=True,
-                        cmap='magma_r',
-                        vmin=0, alpha=alpha)
+                        cmap=cm_wind(),
+                        vmin=0, vmax=60,
+                        alpha=alpha)
             cb = plt.colorbar(orientation='horizontal', pad=pad, shrink=shrink)
             cb.set_label(r'10 m Wind Speed (m s$\mathregular{^{-1}}$)')
 
@@ -343,8 +345,9 @@ def make_plots(inputs):
         if '80mWind_Fill' in plotcode:
             m.pcolormesh(gridlon, gridlat, spd,
                         latlon=True,
-                        cmap='magma_r',
-                        vmin=0, alpha=alpha)
+                        cmap=cm_wind(),
+                        vmin=0, vmax=60,
+                        alpha=alpha)
             cb = plt.colorbar(orientation='horizontal', pad=pad, shrink=shrink)
             cb.set_label(r'10 m Wind Speed (m s$\mathregular{^{-1}}$)')
 
@@ -384,8 +387,8 @@ def make_plots(inputs):
         if 'Fill80mWind' in plotcode:
             m.pcolormesh(gridlon, gridlat, spd,
                         latlon=True,
-                        cmap='plasma_r',
-                        vmin=0,
+                        cmap=cm_wind(),
+                        vmin=0, vmax=60,
                         alpha=alpha)
             cb = plt.colorbar(orientation='horizontal', pad=pad, shrink=shrink)
             cb.set_label(r'80 m Wind Speed (m s$\mathregular{^{-1}}$)')
@@ -470,9 +473,9 @@ def make_plots(inputs):
         masked[masked > 0] = np.ma.masked
         
         mesh_depression = m.pcolormesh(gridlon, gridlat, masked,
-                                    vmax=10, vmin=-10,
+                                    vmax=27, vmin=-18,
                                     latlon=True,
-                                    cmap='BrBG')
+                                    cmap=cm_dpt())
         
         ### Plot Dew Point Exceedance
         with h5py.File(DIR+FILE, 'r') as f:
@@ -498,7 +501,8 @@ def make_plots(inputs):
         # Add fill to plot
         if '2mTemp_Fill' in plotcode:
             m.pcolormesh(gridlon, gridlat, TMP,
-                        cmap="Spectral_r",
+                        cmap=cm_temp(),
+                        vmax=50, vmin=-50,
                         alpha=alpha,
                         zorder=3, latlon=True)
             cbT = plt.colorbar(orientation='horizontal', shrink=shrink, pad=pad)
@@ -551,8 +555,8 @@ def make_plots(inputs):
                                     verbose=False, value_only=True)
 
             # Add fill to plot
-            m.pcolormesh(gridlon, gridlat, H_RH['value'], cmap="BrBG",
-                        vmin=0, vmax=100,
+            m.pcolormesh(gridlon, gridlat, H_RH['value'], cmap=cm_rh(),
+                        vmin=5, vmax=90,
                         zorder=3,
                         latlon=True)
             cbT = plt.colorbar(orientation='horizontal', pad=pad, shrink=shrink)
@@ -575,7 +579,8 @@ def make_plots(inputs):
         # Add fill to plot
         if '700Temp_Fill' in plotcode:
             m.pcolormesh(gridlon, gridlat, TMP,
-                        cmap="Spectral_r",
+                        cmap=cm_temp(),
+                        vmax=50,vmin=-50,
                         alpha=alpha,
                         zorder=3, latlon=True)
             cbT = plt.colorbar(orientation='horizontal', shrink=shrink, pad=pad)
@@ -618,7 +623,7 @@ def make_plots(inputs):
             spd = wind_uv_to_spd(H_u['value'], H_v['value'])
 
             m.pcolormesh(gridlon, gridlat, spd,
-                        latlon=True, cmap='BuPu', vmin=0)
+                        latlon=True, cmap=cm_wind(), vmin=0, vmax=60)
             cb = plt.colorbar(orientation='horizontal', pad=pad, shrink=shrink)
             cb.set_label(r'500 mb Wind Speed (m s$\mathregular{^{-1}}$)')
 
@@ -728,24 +733,6 @@ def make_plots(inputs):
 
 
     if 'AccumPrecip_Fill' in plotcode or '1hrPrecip_Fill' in plotcode:
-        #import matplotlib.colors
-        #cmap = matplotlib.colors.LinearSegmentedColormap.from_list("Precip", ["#00db16", "blue", "#d10000", 'black'])
-        cdict3 = {'red':  ((0.0, 0.0, 0.0),
-                    (0.25, 1.0, 1.0),
-                    (0.5, 0.0, 0.0),
-                    (1.0, 1.0, 1.0)),
-                'green': ((0.0, 0.7, 0.7),
-                        (0.25, 1.0, 1.0),
-                        (0.5, 0.0, 0.0),
-                        (1.0, 0.0, 0.0)),
-
-                'blue':  ((0.0, 0.18, 0.18),
-                        (0.25, 1.0, 1.0),
-                        (0.5, 1.0, 1.0),
-                        (1.0, 0.0, 0.0))
-                }
-        plt.register_cmap(name='BlueRed3', data=cdict3)
-        cmap = 'BlueRed3'
         
         if 'AccumPrecip_Fill' in plotcode:
             # Get Data
@@ -759,9 +746,9 @@ def make_plots(inputs):
             prec[prec == 0] = np.ma.masked
 
             m.pcolormesh(gridlon, gridlat, prec,
-                            cmap='BlueRed3',
+                            cmap=cm_precip(),
                             alpha=alpha,
-                            vmin=.25,
+                            vmin=0, vmax=762,
                             zorder=3, latlon=True)
             cbS = plt.colorbar(orientation='horizontal', shrink=shrink, pad=pad)
             cbS.set_label('Accumulated Precipitation since F00 (mm)')
@@ -778,9 +765,9 @@ def make_plots(inputs):
             prec[prec == 0] = np.ma.masked
 
             m.pcolormesh(gridlon, gridlat, prec,
-                            cmap='BlueRed3',
+                            cmap=cm_precip(),
                             alpha=alpha,
-                            vmin=.25, vmax=20,
+                            vmin=0, vmax=762,
                             zorder=3, latlon=True)
             cbS = plt.colorbar(orientation='horizontal', shrink=shrink, pad=pad, extend="max",)
             cbS.set_label('1 hour Accumulated Precipitation (mm)')

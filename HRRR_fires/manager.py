@@ -8,7 +8,7 @@ This manager does a few housekeeping tasks.
 3. Creates a map of the current fires.
 """
 
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 import numpy as np
 import os
 import shutil
@@ -25,18 +25,15 @@ sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')  #for runni
 from BB_data.active_fires import get_fires
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
 
-def remove_old_fires(fires):
+def remove_old_fires():
     """
-    fires is a dictionary. Each key is a fire name.
-    We want to remove the directories that are no longer active
+    Remove the directories and images for three days ago.
     """
     path = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/'
     dirs = os.listdir(path)
-    for D in dirs:
-        if D != 'firemap.png':
-            if D.replace('_', ' ') not in fires.keys():
-                # Looks like the fire isn't active anymore
-                shutil.rmtree(path+D)
+    three_days_ago = (datetime.utcnow()-timedelta(days=3)).strftime('%Y-%m-%d')
+    if three_days_ago in dirs:
+        shutil.rmtree(path+three_days_ago)
 
 def write_HRRR_fires_HTML():
     """
@@ -223,10 +220,10 @@ def draw_fires_on_map():
 
     plt.figure(100)
     #m = draw_CONUS_cyl_map()
-    bot_left_lat  -= 1
-    bot_left_lon  -= 1
-    top_right_lat += 1
-    top_right_lon += 2
+    bot_left_lat  -= 1.5
+    bot_left_lon  -= 1.5
+    top_right_lat += 1.5
+    top_right_lon += 2.5
     print bot_left_lat, bot_left_lon, top_right_lat, top_right_lon
     m = Basemap(resolution='i', projection='cyl', area_thresh=1500,\
         llcrnrlon=bot_left_lon, llcrnrlat=bot_left_lat, \

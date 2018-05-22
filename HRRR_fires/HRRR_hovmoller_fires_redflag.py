@@ -54,7 +54,7 @@ sDATE = datetime(UTC_now.year, UTC_now.month, UTC_now.day, UTC_now.hour)-timedel
 eDATE = datetime(UTC_now.year, UTC_now.month, UTC_now.day, UTC_now.hour)+timedelta(hours=18)
 
 # Directory to save figures (subdirectory will be created for each stnID)
-SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/'
+#SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/'
 
 # Create specifications (spex) for each variable we want to plot
 spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
@@ -135,14 +135,15 @@ rh_hovmoller = LocDic_hrrr_hovmoller(sDATE, eDATE, location,
 #
 for stn in location.keys():
     print "\nWorking on %s" % (stn)
-    SAVE = SAVE_dir + '%s/' % stn.replace(' ','_')
+    #SAVE = SAVE_dir + '%s/' % stn.replace(' ','_')
+    SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/%s/' % ((UTC_now-timedelta(hours=1)).strftime('%Y-%m-%d/%H00'), stn.replace(' ', '_'))
     if not os.path.exists(SAVE):
         # make the SAVE directory if it doesn't already exist
         os.makedirs(SAVE)
         print "created:", SAVE
         # then link the photo viewer
-        photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer_fire.php'
-        os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
+        #photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer_fire.php'
+        #os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
     #
     wind_hovCenter = wind_hovmoller[stn]['box center value']
     wind_hovCenter = np.ma.array(wind_hovCenter)

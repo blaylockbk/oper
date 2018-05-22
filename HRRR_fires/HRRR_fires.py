@@ -124,48 +124,46 @@ for loc in location.keys():
                 urcrnrlon=l['longitude']+.75, urcrnrlat=l['latitude']+.75,)
     maps[loc] = m  
 
-# Create directories that don't exist
-for S in location.keys():
-    SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/' % S.replace(' ', '_')
-    if not os.path.exists(SAVE):
-        # make the SAVE directory if fire doesn't already exist
-        os.makedirs(SAVE)
-        print "created dir for", S 
-
-## 4) Create a landuse map for each the fire and surrounding area
-if datetime.utcnow().hour == 0:
-    locs = location.keys() # a list of all the locations
-    locs_idx = range(len(locs)) # a number index for each location
-    LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
-    cm, labels = LU_MODIS21()
-    for n in locs_idx:
-        locName = locs[n]
-        l = location[locName]
-        LU_SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/LandUse.png' % locName.replace(' ', '_')
-        if not os.path.exists(LU_SAVE):
-            plt.figure(100)
-            print "need to make", LU_SAVE
-            maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
-                                    cmap=cm, vmin=1, vmax=len(labels) + 1,
-                                    latlon=True)
-            cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
-            cb.set_ticks(np.arange(0.5, len(labels) + 1))
-            cb.ax.set_yticklabels(labels)
-            maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='crimson', s=100, latlon=True)
-            maps[locName].drawstates()
-            maps[locName].drawcounties()
-            plt.title('Landuse near %s' % locName)
-            plt.savefig(LU_SAVE)  
-            print "created landuse maps for", locName
-            plt.close()
-
-
 ## 5) Get the HRRR data from NOMADS
 DATE = datetime.utcnow() - timedelta(hours=1)
 DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
 
 print "Local DATE:", datetime.now()
 print "  UTC DATE:", DATE
+
+# Create directories that don't exist
+for S in location.keys():
+    SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/%s/' % (DATE.strftime('%Y-%m-%d/%H00'), S.replace(' ', '_'))
+    if not os.path.exists(SAVE):
+        # make the SAVE directory if fire doesn't already exist
+        os.makedirs(SAVE)
+        print "created dir for", S 
+
+## 4) Create a landuse map for each the fire and surrounding area
+locs = location.keys() # a list of all the locations
+locs_idx = range(len(locs)) # a number index for each location
+LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
+cm, labels = LU_MODIS21()
+for n in locs_idx:
+    locName = locs[n]
+    l = location[locName]
+    SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/%s/' % (DATE.strftime('%Y-%m-%d/%H00'), locName.replace(' ', '_'))
+    if not os.path.exists(SAVE+'Landuse.png'):
+        plt.figure(100)
+        print "need to make", SAVE+'Landuse.png'
+        maps[locName].pcolormesh(LU['lon'], LU['lat'], LU['value'],
+                                cmap=cm, vmin=1, vmax=len(labels) + 1,
+                                latlon=True)
+        cb = plt.colorbar(orientation='vertical', pad=.01, shrink=.95)
+        cb.set_ticks(np.arange(0.5, len(labels) + 1))
+        cb.ax.set_yticklabels(labels)
+        maps[locName].scatter(l['longitude'], l['latitude'], marker='+', c='crimson', s=100, latlon=True)
+        maps[locName].drawstates()
+        maps[locName].drawcounties()
+        plt.title('Landuse near %s' % locName)
+        plt.savefig(SAVE+'Landuse.png')  
+        print "created landuse maps for", locName
+        plt.close()
 
 # Pollywogs: Pluck HRRR value at all locations for each variable.
 #      These are dictionaries:
@@ -334,7 +332,8 @@ for fxx in range(0, 19):
         l = location[locName]
         print "\n--> Working on:", locName, fxx
         #
-        SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/' % locName.replace(' ', '_')
+        #SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/' % locName.replace(' ', '_')
+        SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/%s/' % (DATE.strftime('%Y-%m-%d/%H00'), locName.replace(' ', '_'))
         if not os.path.exists(SAVE):
             # make the SAVE directory if fire doesn't already exist
             os.makedirs(SAVE)
@@ -470,6 +469,6 @@ for fxx in range(0, 19):
 #  - Plots a map of the fires
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/')
 from manager import *
-remove_old_fires(location)
+remove_old_fires()
 write_HRRR_fires_HTML()
 draw_fires_on_map()
