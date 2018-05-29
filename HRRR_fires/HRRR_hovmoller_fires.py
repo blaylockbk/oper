@@ -26,6 +26,7 @@ sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
 from BB_downloads.HRRR_S3 import *
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_STNinfo import get_station_info
+from BB_data.active_fires import get_fires, get_incidents, download_fire_perimeter_shapefile
 from BB_cmap.NWS_standard_cmap import *
 
 from matplotlib.dates import DateFormatter, HourLocator
@@ -121,43 +122,13 @@ spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
 # centered at the station latitude/longitude.
 half_box = 9
 
-get_today = datetime.strftime(date.today(), "%Y-%m-%d")
-daylight = time.daylight # If daylight is on (1) then subtract from timezone.
-
-#==============================================================================
-# 1) Read in large fires file:
-get_today = datetime.strftime(date.today(), "%Y-%m-%d")
-url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
-text = urllib2.urlopen(url)
-
-# 0  INAME - Incident Name
-# 1  INUM
-# 2  CAUSE
-# 3  REP_DATE - reported date
-# 4  START_DATE
-# 5  IMT_TYPE
-# 6  STATE
-# 7  AREA
-# 8  P_CNT - Percent Contained
-# 9  EXP_CTN - Expected Containment
-# 10 LAT
-# 11 LONG
-# 12 COUNTY
-
-location = {}
-
-for i, f in enumerate(text):
-    line = f.split('\t')
-    if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
-        continue
-    location[line[0]] = {'latitude': float(line[10]),
-                         'longitude': float(line[11]),
-                         'name': line[0],
-                         'state': line[6],
-                         'area': int(line[7]),
-                         'start date': line[4],
-                         'is MesoWest': False
-                         }
+# Get a location dictionary of the active fires
+try:  
+    location = get_fires(min_size=1000)['FIRES']
+    print 'Retrieved fires from Active Fire Mapping Program'
+except:  
+    location = get_incidents(limit_num=10)
+    print 'Retrieved fires from InciWeb'
 
 for s in spex:
     print s

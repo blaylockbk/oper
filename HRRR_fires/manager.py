@@ -41,36 +41,41 @@ def write_HRRR_fires_HTML():
     """
     get_today = datetime.strftime(date.today(), "%Y-%m-%d")
     url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
-    text = urllib2.urlopen(url)
+    try:
+        text = urllib2.urlopen(url)
 
-    # 0  INAME - Incident Name
-    # 1  INUM
-    # 2  CAUSE
-    # 3  REP_DATE - reported date
-    # 4  START_DATE
-    # 5  IMT_TYPE
-    # 6  STATE
-    # 7  AREA
-    # 8  P_CNT - Percent Contained
-    # 9  EXP_CTN - Expected Containment
-    # 10 LAT
-    # 11 LONG
-    # 12 COUNTY
+        # 0  INAME - Incident Name
+        # 1  INUM
+        # 2  CAUSE
+        # 3  REP_DATE - reported date
+        # 4  START_DATE
+        # 5  IMT_TYPE
+        # 6  STATE
+        # 7  AREA
+        # 8  P_CNT - Percent Contained
+        # 9  EXP_CTN - Expected Containment
+        # 10 LAT
+        # 11 LONG
+        # 12 COUNTY
 
-    location = {}
+        location = {}
 
-    for i, f in enumerate(text):
-        line = f.split('\t')
-        if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
-            continue
-        location[line[0]] = {'latitude': float(line[10]),
-                            'longitude': float(line[11]),
-                            'name': line[0],
-                            'state': line[6],
-                            'area': int(line[7]),
-                            'start date': line[4],
-                            'is MesoWest': False
-                            }
+        for i, f in enumerate(text):
+            line = f.split('\t')
+            if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
+                continue
+            location[line[0]] = {'latitude': float(line[10]),
+                                'longitude': float(line[11]),
+                                'name': line[0],
+                                'state': line[6],
+                                'area': int(line[7]),
+                                'start date': line[4],
+                                'is MesoWest': False
+                                }
+    except:
+        print 'getting fires from inciweb...'
+        from BB_data.inciweb_incidents_xml import get_incidents
+        location = get_incidents()
 
     html_text = """
 <html>
@@ -139,7 +144,7 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
         </div>"""
         #OLD BUTTON# html_text += """<tr><td><a href="http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/%s/photo_viewer_fire.php" class="btn btn-warning btn-block"><b>%s</b></a></td>""" % (location[F]['name'].replace(' ', '_'), location[F]['name'])
         html_text += """<tr><td>%s</td>""" % (button)
-        html_text += """<td>%s</td> <td>%s</td><td>%s</td></tr>""" % (location[F]['state'], '{:,}'.format(int(location[F]['area'])), location[F]['start date'])
+        html_text += """<td>%s</td> <td>%s</td><td>%s</td></tr>""" % (location[F]['state'], '{:,}'.format(location[F]['area']), location[F]['start date'])
     html_text += """
 </table>
 </div>
@@ -182,36 +187,41 @@ def draw_fires_on_map():
     """
     get_today = datetime.strftime(date.today(), "%Y-%m-%d")
     url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
-    text = urllib2.urlopen(url)
+    try:
+        text = urllib2.urlopen(url)
 
-    # 0  INAME - Incident Name
-    # 1  INUM
-    # 2  CAUSE
-    # 3  REP_DATE - reported date
-    # 4  START_DATE
-    # 5  IMT_TYPE
-    # 6  STATE
-    # 7  AREA
-    # 8  P_CNT - Percent Contained
-    # 9  EXP_CTN - Expected Containment
-    # 10 LAT
-    # 11 LONG
-    # 12 COUNTY
+        # 0  INAME - Incident Name
+        # 1  INUM
+        # 2  CAUSE
+        # 3  REP_DATE - reported date
+        # 4  START_DATE
+        # 5  IMT_TYPE
+        # 6  STATE
+        # 7  AREA
+        # 8  P_CNT - Percent Contained
+        # 9  EXP_CTN - Expected Containment
+        # 10 LAT
+        # 11 LONG
+        # 12 COUNTY
 
-    location = {}
-    
-    for i, f in enumerate(text):
-        line = f.split('\t')
-        if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
-            continue
-        location[line[0]] = {'latitude': float(line[10]),
-                            'longitude': float(line[11]),
-                            'name': line[0],
-                            'state': line[6],
-                            'area': int(line[7]),
-                            'start date': line[4],
-                            'is MesoWest': False
-                            }
+        location = {}
+
+        for i, f in enumerate(text):
+            line = f.split('\t')
+            if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
+                continue
+            location[line[0]] = {'latitude': float(line[10]),
+                                'longitude': float(line[11]),
+                                'name': line[0],
+                                'state': line[6],
+                                'area': int(line[7]),
+                                'start date': line[4],
+                                'is MesoWest': False
+                                }
+    except:
+        print 'getting fires from inciweb...'
+        from BB_data.inciweb_incidents_xml import get_incidents
+        location = get_incidents()
 
     bot_left_lat  = np.min([location[i]['latitude'] for i in location.keys()])
     bot_left_lon  = np.min([location[i]['longitude'] for i in location.keys()])

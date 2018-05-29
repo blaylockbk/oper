@@ -55,14 +55,13 @@ sys.path.append('B:\pyBKB_v2')
 from BB_downloads.HRRR_S3 import *
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_radius import get_mesowest_radius
-from MetPy_BB.plots import ctables
-from BB_data.grid_manager import pluck_point_new
 from BB_wx_calcs.wind import wind_uv_to_spd, wind_spddir_to_uv
 from BB_wx_calcs.units import *
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
-from BB_data.active_fires import download_fire_perimeter_shapefile
+from BB_data.grid_manager import pluck_point_new
+from BB_data.active_fires import get_fires, get_incidents, download_fire_perimeter_shapefile
 from BB_cmap.landuse_colormap import LU_MODIS21
-
+from MetPy_BB.plots import ctables
 
 
 ## 1) Download most recent active fire perimeters shapefile
@@ -74,38 +73,21 @@ except:
 
 
 ## 2) Create Locations Dictionary
-get_today = datetime.strftime(date.today(), "%Y-%m-%d")
-url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
-text = urllib2.urlopen(url)
+## 5) Get the HRRR data from NOMADS
+DATE = datetime.utcnow() - timedelta(hours=1)
+DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
 
-# 0  INAME - Incident Name
-# 1  INUM
-# 2  CAUSE
-# 3  REP_DATE - reported date
-# 4  START_DATE
-# 5  IMT_TYPE
-# 6  STATE
-# 7  AREA
-# 8  P_CNT - Percent Contained
-# 9  EXP_CTN - Expected Containment
-# 10 LAT
-# 11 LONG
-# 12 COUNTY
+print "Local DATE:", datetime.now()
+print "  UTC DATE:", DATE
 
-location = {}
+# Get a location dictionary of the active fires
+try:  
+    location = get_fires(min_size=1000)['FIRES']
+    print 'Retrieved fires from Active Fire Mapping Program'
+except:  
+    location = get_incidents(limit_num=10)
+    print 'Retrieved fires from InciWeb'
 
-for i, f in enumerate(text):
-    line = f.split('\t')
-    if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
-        continue
-    location[line[0]] = {'latitude': float(line[10]),
-                         'longitude': float(line[11]),
-                         'name': line[0],
-                         'state': line[6],
-                         'area': int(line[7]),
-                         'start date': line[4],
-                         'is MesoWest': False
-                         }
 print "There are", len(location.keys()), "large fires."
 
 # Assign some known MesoWest Station ID's to a fire
@@ -124,12 +106,7 @@ for loc in location.keys():
                 urcrnrlon=l['longitude']+.75, urcrnrlat=l['latitude']+.75,)
     maps[loc] = m  
 
-## 5) Get the HRRR data from NOMADS
-DATE = datetime.utcnow() - timedelta(hours=1)
-DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
 
-print "Local DATE:", datetime.now()
-print "  UTC DATE:", DATE
 
 # Create directories that don't exist
 for S in location.keys():
@@ -200,9 +177,9 @@ for n in locs_idx:
     figs[locName] = {0:plt.figure(n)}
     # Super Title
     if l['state'] != 'Not Reported':
-        plt.suptitle('HRRR Forecast: %s, %s' % (l['name'], l['state']), y=1)
+        plt.suptitle('HRRR Forecast: %s, %s' % (locName, l['state']), y=1)
     else:
-        plt.suptitle('HRRR Forecast: %s, (state not reported)' % (l['name']), y=1)
+        plt.suptitle('HRRR Forecast: %s, (state not reported)' % (locName), y=1)
     # Map - background, roads, radar, wind barbs
     figs[locName][1] = figs[locName][0].add_subplot(121)
     maps[locName].drawcounties()

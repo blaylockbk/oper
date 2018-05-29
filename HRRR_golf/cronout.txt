@@ -1,86 +1,78 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf
- My DATE: 2018-05-22 15:31:01.465776
-UTC DATE: 2018-05-22 20:00:00
+ My DATE: 2018-05-29 07:31:20.811257
+UTC DATE: 2018-05-29 12:00:00
 plucking values from HRRR
-LocDic Pollywog: Finished multiprocessing in 0:00:05.965183 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:05.695069 on 30 processors
 got Temp
-LocDic Pollywog: Finished multiprocessing in 0:00:04.768989 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:05.834866 on 30 processors
 got Dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:03.960161 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:05.716395 on 30 processors
 got Wind
-LocDic Pollywog: Finished multiprocessing in 0:00:03.763721 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:05.878488 on 30 processors
 got Gust
-1:0:d=2018052220:UGRD:10 m above ground:6 hour fcst:
-2:1258505:d=2018052220:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:13 hour fcst:
-2:1364836:d=2018052220:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:2 hour fcst:
-2:1353582:d=2018052220:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:12 hour fcst:
-2:1359776:d=2018052220:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:3 hour fcst:
-2:1331778:d=2018052220:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:8 hour fcst:
-2:1318787:d=2018052220:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:10 hour fcst:
-2:1348335:d=2018052220:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:11 hour fcst:
-2:1354837:d=2018052220:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:16 hour fcst:
-2:1342986:d=2018052220:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:15 hour fcst:
-2:1364767:d=2018052220:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:7 hour fcst:
-2:1285812:d=2018052220:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:4 hour fcst:
-2:1302358:d=2018052220:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:14 hour fcst:
-2:1367499:d=2018052220:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:1 hour fcst:
-2:1358063:d=2018052220:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:17 hour fcst:
-2:1305070:d=2018052220:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:9 hour fcst:
-2:1338494:d=2018052220:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:5 hour fcst:
-2:1270794:d=2018052220:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:anl:
-2:1278854:d=2018052220:VGRD:10 m above ground:anl:
-1:0:d=2018052220:UGRD:10 m above ground:18 hour fcst:
-2:1272978:d=2018052220:VGRD:10 m above ground:18 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:09.222006 on 30 processors
+1:0:d=2018052912:UGRD:10 m above ground:11 hour fcst:
+2:1335006:d=2018052912:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:14 hour fcst:
+2:1266487:d=2018052912:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:18 hour fcst:
+2:1348370:d=2018052912:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:12 hour fcst:
+2:1302466:d=2018052912:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:3 hour fcst:
+2:1227577:d=2018052912:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:6 hour fcst:
+2:1368634:d=2018052912:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:anl:
+2:1236734:d=2018052912:VGRD:10 m above ground:anl:
+1:0:d=2018052912:UGRD:10 m above ground:4 hour fcst:
+2:1267706:d=2018052912:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:5 hour fcst:
+2:1313277:d=2018052912:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:9 hour fcst:
+2:1383501:d=2018052912:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:16 hour fcst:
+2:1336626:d=2018052912:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:8 hour fcst:
+2:1390024:d=2018052912:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:15 hour fcst:
+2:1290201:d=2018052912:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:17 hour fcst:
+2:1337577:d=2018052912:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:2 hour fcst:
+2:1214809:d=2018052912:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:1 hour fcst:
+2:1233098:d=2018052912:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:7 hour fcst:
+2:1379926:d=2018052912:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:13 hour fcst:
+2:1277220:d=2018052912:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:10 hour fcst:
+2:1365054:d=2018052912:VGRD:10 m above ground:10 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:09.960901 on 30 processors
 got UGRD and VGRD
-1:0:d=2018052220:UGRD:10 m above ground:anl:
-2:1278854:d=2018052220:VGRD:10 m above ground:anl:
-1:0:d=2018052220:UGRD:10 m above ground:1 hour fcst:
-2:1358063:d=2018052220:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:2 hour fcst:
-2:1353582:d=2018052220:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:3 hour fcst:
-2:1331778:d=2018052220:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:4 hour fcst:
-2:1302358:d=2018052220:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:5 hour fcst:
-2:1270794:d=2018052220:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:6 hour fcst:
-2:1258505:d=2018052220:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:7 hour fcst:
-2:1285812:d=2018052220:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:8 hour fcst:
-2:1318787:d=2018052220:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:9 hour fcst:
-2:1338494:d=2018052220:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:10 hour fcst:
-2:1348335:d=2018052220:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:11 hour fcst:
-2:1354837:d=2018052220:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:12 hour fcst:
-2:1359776:d=2018052220:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:13 hour fcst:
-2:1364836:d=2018052220:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:14 hour fcst:
-2:1367499:d=2018052220:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:15 hour fcst:
-2:1364767:d=2018052220:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2018052220:UGRD:10 m above ground:16 hour fcst:
-2:1342986:d=2018052220:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:anl:
+2:1236734:d=2018052912:VGRD:10 m above ground:anl:
+1:0:d=2018052912:UGRD:10 m above ground:1 hour fcst:
+2:1233098:d=2018052912:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:2 hour fcst:
+2:1214809:d=2018052912:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:3 hour fcst:
+2:1227577:d=2018052912:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:4 hour fcst:
+2:1267706:d=2018052912:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:5 hour fcst:
+2:1313277:d=2018052912:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:6 hour fcst:
+2:1368634:d=2018052912:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:7 hour fcst:
+2:1379926:d=2018052912:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:8 hour fcst:
+2:1390024:d=2018052912:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:9 hour fcst:
+2:1383501:d=2018052912:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:10 hour fcst:
+2:1365054:d=2018052912:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:11 hour fcst:
+2:1335006:d=2018052912:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018052912:UGRD:10 m above ground:12 hour fcst:
+2:1302466:d=2018052912:VGRD:10 m above ground:12 hour fcst:
