@@ -21,9 +21,10 @@ import os
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
-from BB_downloads.HRRR_S3 import point_hrrr_time_series_multi, get_hrrr_hovmoller
+from BB_downloads.HRRR_S3 import *
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_STNinfo import get_station_info
+from BB_cmap.NWS_standard_cmap import *
 from matplotlib.dates import DateFormatter, HourLocator
 import location_dic
 
@@ -57,22 +58,60 @@ eDATE = datetime(today.year, today.month, today.day)
 SAVE_dir = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_hovmoller/'
 
 # Create specifications (spex) for each variable we want to plot
-spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
-                      'MW var':'wind_speed',
-                      'units': r'ms$\mathregular{^{-1}}$',
-                      'cmap':'magma_r'},
-        'Air Temperature':{'HRRR var':'TMP:2 m',
+spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
+                               'MW var':'wind_speed',
+                               'units': r'ms$\mathregular{^{-1}}$',
+                               'cmap':cm_wind(),
+                               'save':'WIND',
+                               'contour':range(5, 50, 5),
+                               'vmax':60,
+                               'vmin':0},
+        'Simulated Reflectivity':{'HRRR var':'REFC:entire atmosphere',
+                                  'MW var':'reflectivity',
+                                  'units': 'dBZ',
+                                  'cmap':'gist_ncar',
+                                  'save':'REF',
+                                  'contour':range(20, 100, 20),
+                                  'vmax':80,
+                                  'vmin':0},
+        '2 m Temperature':{'HRRR var':'TMP:2 m',
                            'MW var':'air_temp',
                            'units': 'C',
-                           'cmap':'Spectral_r'},
-        'Dew Point Temperature':{'HRRR var':'DPT:2 m',
-                                 'MW var':'dew_point_temperature',
-                                 'units': 'C',
-                                 'cmap': 'BrBG'},
-        '1hr Accumulated Precipitation':{'HRRR var':'APCP:surface',
-                                         'MW var':'precip_accum_five_minute',
-                                         'units': 'mm',
-                                         'cmap': 'BuPu'},
+                           'cmap':cm_temp(),
+                           'save':'TMP',
+                           'contour':range(-20, 50, 5),
+                           'vmax':50,
+                           'vmin':-50},
+        '2 m Dew Point':{'HRRR var':'DPT:2 m',
+                           'MW var':'dew_point_temperature',
+                           'units': 'C',
+                           'cmap':cm_dpt(),
+                           'save':'DPT',
+                           'contour':range(-20, 50, 5),
+                           'vmax':27,
+                           'vmin':-18},
+        '2 m Relative Humidity':{'HRRR var':'RH:2 m',
+                                 'MW var':'relative_humidity',
+                                 'units': '%',
+                                 'cmap':cm_rh(),
+                                 'save':'RH',
+                                 'contour':range(100,121,10),
+                                 'vmax':90,
+                                 'vmin':5},
+        #'1 h Accumulated Precipitation':{'HRRR var':'APCP:surface',
+        #                                 'MW var':'accumulated_precip',
+        #                                 'units': 'mm',
+        #                                 'cmap':cm_precip(),
+        #                                 'save':'PCP',
+        #                                 'contour':range(50,101,5),
+        #                                 'vmax':762,
+        #                                 'vmin':0},
+        #'Solar Radiation':{'HRRR var':'DSWRF:surface',
+        #                   'MW var':'solar_radiation',
+        #                   'units': r'W m$\mathregular{^{-2}}$',
+        #                   'cmap':'magma',
+        #                   'save':'SOL',
+        #                   'contour':range(300, 1000, 100)},
        }
 
 #==============================================================================
@@ -91,11 +130,11 @@ for s in spex:
     print "\nWorking on", s
     S = spex[s]
     #
-    # Retreive a "Hovmoller" array, all forecasts for a period of time, for
-    # each station in the locaiton dicionary.
-    hovmoller = get_hrrr_hovmoller(sDATE, eDATE, locations,
-                                   variable=S['HRRR var'],
-                                   reduce_CPUs=0)
+    # Retrieve a "Hovmoller" array, all forecasts for a period of time, for
+    # each station in the location dictionary.
+    hovmoller = LocDic_hrrr_hovmoller(sDATE, eDATE, locations,
+                                      variable=S['HRRR var'],
+                                      area_stats=9)
     #
     first_mw_attempt = S['MW var']
     for stn in locations.keys():
@@ -132,12 +171,20 @@ for s in spex:
                         S['MW var'] = 'no_precip_obs'
         #
         # Apply offset to data if necessary
-        if s == 'Air Temperature' or s == 'Dew Point Temperature':
-            hovmoller[stn] = hovmoller[stn]-273.15
+        if s == '2 m Temperature' or s == '2 m Dew Point':
+            hovmoller[stn]['max'] = hovmoller[stn]['max']-273.15
+            hovmoller[stn]['box center value'] = hovmoller[stn]['box center value']-273.15
         #
+        hovCenter = hovmoller[stn]['box center value']
+        hovCenter = np.ma.array(hovCenter)
+        hovCenter[np.isnan(hovCenter)] = np.ma.masked
         #
-        hmin = np.nanmin([np.nanmin(a[S['MW var']]), np.nanmin(hovmoller[stn])])
-        hmax = np.nanmax([np.nanmax(a[S['MW var']]), np.nanmax(hovmoller[stn])])
+        try:
+            hmin = S['vmin']
+            hmax = S['vmax']
+        except:
+            hmin = np.nanmin([np.nanmin(a[S['MW var']]), np.nanmin(hovmoller[stn])])
+            hmax = np.nanmax([np.nanmax(a[S['MW var']]), np.nanmax(hovmoller[stn])])
         #
         # Plot the Hovmoller diagram
         plt.clf()
@@ -151,7 +198,7 @@ for s in spex:
                         eDATE.strftime('%Y-%m-%d %H:%M')))
         #
         # HRRR Hovmoller (tall subplot on top)
-        hv = ax1.pcolormesh(hovmoller['valid_1d+'], hovmoller['fxx_1d+'], hovmoller[stn],
+        hv = ax1.pcolormesh(hovmoller['valid_1d+'], hovmoller['fxx_1d+'], hovCenter,
                             cmap=S['cmap'],
                             vmax=hmax,
                             vmin=hmin)

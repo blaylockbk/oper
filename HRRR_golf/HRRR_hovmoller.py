@@ -26,6 +26,7 @@ sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
 from BB_downloads.HRRR_S3 import *
 from BB_MesoWest.MesoWest_timeseries import get_mesowest_ts
 from BB_MesoWest.MesoWest_STNinfo import get_station_info
+from BB_cmap.NWS_standard_cmap import *
 from matplotlib.dates import DateFormatter, HourLocator
 import location_dic
 
@@ -88,16 +89,16 @@ spex = {'10 m MAX Wind Speed':{'HRRR var':'WIND:10 m',
                            'cmap':cm_dpt(),
                            'save':'DPT',
                            'contour':range(-20, 50, 5),
-                           'vmax':-18,
-                           'vmin':27},
+                           'vmax':27,
+                           'vmin':-18},
         '2 m Relative Humidity':{'HRRR var':'RH:2 m',
                                  'MW var':'relative_humidity',
                                  'units': '%',
                                  'cmap':cm_rh(),
                                  'save':'RH',
                                  'contour':range(100,121,10),
-                                 'vmax':5,
-                                 'vmin':90},
+                                 'vmax':90,
+                                 'vmin':5},
         #'1 h Accumulated Precipitation':{'HRRR var':'APCP:surface',
         #                                 'MW var':'accumulated_precip',
         #                                 'units': 'mm',
@@ -168,10 +169,10 @@ for s in spex:
         hovBoxMax[np.isnan(hovBoxMax)] = np.ma.masked
         #
         #
-        if s == 'Simulated Reflectivity':
-            hmin = 0
-            hmax = 80
-        else:
+        try:
+            hmin = S['vmin']
+            hmax = S['vmax']
+        except:
             hmin = np.nanmin(hovCenter)
             hmax = np.nanmax(hovCenter)
         #

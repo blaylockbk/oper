@@ -65,7 +65,7 @@ try:
     print 'Getting f%02d, as requested\n' % fxx
 except:
     fxx = 0
-    print 'Getting f00, becuase you did not specify another fxx\n'
+    print 'Getting f00, because you did not specify another fxx\n'
 
 # Date range
 # (takes into account fxx so that the date range represents the valid date)
@@ -98,21 +98,21 @@ print "UTC DATE:", sDATE
 #      These are dictionaries:
 #      {'DATETIME':[array of dates], 'station name': [values for each datetime], ...}
 
-TS_temp = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='TMP:2 m', verbose=False, fxx=fxx)
-TS_dwpt = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='DPT:2 m', verbose=False, fxx=fxx)
+TS_temp = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='TMP:2 m', verbose=False, fxx=fxx)
+TS_dwpt = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='DPT:2 m', verbose=False, fxx=fxx)
 
-TS_wind = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='WIND:10 m', verbose=False, fxx=fxx)
-TS_gust = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='GUST:surface', verbose=False, fxx=fxx)
-TS_u = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='UGRD:10 m', verbose=False, fxx=fxx)
-TS_v = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='VGRD:10 m', verbose=False, fxx=fxx)
-TS_u80 = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='UGRD:80 m', verbose=False, fxx=fxx)
-TS_v80 = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='VGRD:80 m', verbose=False, fxx=fxx)
+TS_wind = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='WIND:10 m', verbose=False, fxx=fxx)
+TS_gust = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='GUST:surface', verbose=False, fxx=fxx)
+TS_u = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='UGRD:10 m', verbose=False, fxx=fxx)
+TS_v = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='VGRD:10 m', verbose=False, fxx=fxx)
+TS_u80 = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='UGRD:80 m', verbose=False, fxx=fxx)
+TS_v80 = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='VGRD:80 m', verbose=False, fxx=fxx)
 TS_wind80 = {} # we will derive this in the following loop
 
-#TS_prec = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='APCP:surface') # Not valuable for an analysis
+#TS_prec = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='APCP:surface') # Not valuable for an analysis
 # TS_accum = {} # Not available for analysis
-TS_hpbl = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='HPBL:surface', verbose=False, fxx=fxx)
-TS_hcon = point_hrrr_time_series_multi(sDATE, eDATE, location, variable='HGT:level of adiabatic condensation from sfc', verbose=False, fxx=fxx)
+TS_hpbl = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='HPBL:surface', verbose=False, fxx=fxx)
+TS_hcon = LocDic_hrrr_time_series(sDATE, eDATE, location, variable='HGT:level of adiabatic condensation from sfc', verbose=False, fxx=fxx)
 
 # Convert the units of each TimeSeries
 for loc in location.keys():
