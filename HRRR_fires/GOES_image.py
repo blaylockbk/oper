@@ -42,16 +42,17 @@ mpl.rcParams['figure.max_open_warning'] = 30
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
-
+sys.path.append('B:\pyBKB_v2')
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
 from BB_data.active_fires import get_fires, get_incidents, download_fire_perimeter_shapefile
 from BB_GOES16.get_GOES16 import get_GOES16_truecolor, get_GOES16_firetemperature
+from BB_GOES16.match_GLM_to_ABI import accumulate_GLM_flashes_for_ABI
 
 ## Create Locations Dictionary
 DATE = datetime.utcnow() - timedelta(hours=1)
 # Get a location dictionary of the active fires
 try:  
-    location = get_fires(DATE=DATE, min_size=1000)['FIRES']
+    location = get_fires(DATE=DATE)['FIRES']
     print 'Retrieved fires from Active Fire Mapping Program'
 except:  
     location = get_incidents(limit_num=10)
@@ -63,9 +64,10 @@ print "There are", len(location.keys()), "large fires."
 maps = {}
 for loc in location.keys():
     l = location[loc]
+    mapsize = 4.25
     m = Basemap(resolution='i', projection='cyl', area_thresh=50000,\
-                llcrnrlon=l['longitude']-2.25, llcrnrlat=l['latitude']-2.25,\
-                urcrnrlon=l['longitude']+2.25, urcrnrlat=l['latitude']+2.25,)
+                llcrnrlon=l['longitude']-mapsize, llcrnrlat=l['latitude']-mapsize,\
+                urcrnrlon=l['longitude']+mapsize, urcrnrlat=l['latitude']+mapsize,)
     maps[loc] = m
 
 # Create directories that don't exist
@@ -99,18 +101,22 @@ for C_file in hour_files:
     file_date = datetime.strptime(C_file.split('_')[3], 's%Y%j%H%M%S%f')
     C = Dataset(DIR+C_file, 'r')
 
-    ## ---- TRUE COLOR ------------------------------------------------------------
-    ## ----------------------------------------------------------------------------
+    ## ---- TRUE COLOR --------------------------------------------------------
+    ## ------------------------------------------------------------------------
     TC = get_GOES16_truecolor(DIR+C_file, only_RGB=False, night_IR=True)
     print 'File date:', TC['DATE']
 
-    ## ---- FIRE TEMPERATURE ------------------------------------------------------
-    ## ----------------------------------------------------------------------------
+    ## ---- FIRE TEMPERATURE --------------------------------------------------
+    ## ------------------------------------------------------------------------
     FT = get_GOES16_firetemperature(DIR+C_file, only_RGB=False)
 
+    ## ---- Geostationary Lightning Mapper ------------------------------------
+    ## ------------------------------------------------------------------------
+    GLM = accumulate_GLM_flashes_for_ABI(C_file)
 
-    ## ---- Make Plots for All fires ----------------------------------------------
-    ## ----------------------------------------------------------------------------
+
+    ## ---- Make Plots for All fires ------------------------------------------
+    ## ------------------------------------------------------------------------
     for loc in location.keys():
         # Now we can plot the GOES data on the HRRR map domain and projection
         fig, (ax1, ax2) = plt.subplots(1, 2)
@@ -119,6 +125,12 @@ for C_file in hour_files:
         # The values of R are ignored becuase we plot the color in colorTuple, but pcolormesh still needs its shape.
         newmap = maps[loc].pcolormesh(lons, lats, TC['TrueColor'][:,:,1], color=TC['rgb_tuple'], latlon=True)
         newmap.set_array(None) # without this line, the linewidth is set to zero, but the RGB colorTuple is ignored. I don't know why.
+
+        # Plot GLM Flashes
+        maps[loc].scatter(GLM['longitude'], GLM['latitude'],
+                          marker='+',
+                          color='yellow',
+                          latlon=True)
 
         maps[loc].drawstates()
         maps[loc].drawcountries()
@@ -134,13 +146,20 @@ for C_file in hour_files:
         plt.title('True Color')
 
         plt.sca(ax2)
+
         # The values of R are ignored becuase we plot the color in colorTuple, but pcolormesh still needs its shape.
         newmap = maps[loc].pcolormesh(lons, lats, FT['TrueColor'][:,:,1], color=FT['rgb_tuple'], latlon=True)
         newmap.set_array(None) # without this line, the linewidth is set to zero, but the RGB colorTuple is ignored. I don't know why.
 
-        maps[loc].drawstates()
-        maps[loc].drawcountries()
-        maps[loc].drawcoastlines()
+        # Plot GLM Flashes
+        maps[loc].scatter(GLM['longitude'], GLM['latitude'],
+                          marker='+',
+                          color='yellow',
+                          latlon=True)
+
+        maps[loc].drawstates(color='w')
+        maps[loc].drawcountries(color='w')
+        maps[loc].drawcoastlines(color='w')
         maps[loc].drawcounties()
         maps[loc].scatter(location[loc]['longitude'], location[loc]['latitude'],
                         edgecolor='magenta',

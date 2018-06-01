@@ -82,7 +82,7 @@ print "  UTC DATE:", DATE
 
 # Get a location dictionary of the active fires
 try:  
-    location = get_fires(min_size=1000)['FIRES']
+    location = get_fires()['FIRES']
     print 'Retrieved fires from Active Fire Mapping Program'
 except:  
     location = get_incidents(limit_num=10)
