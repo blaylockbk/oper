@@ -344,6 +344,7 @@ for fxx in range(0, 19):
             #####################################################################################
             #### Alerts #########################################################################
             # Alerts: Check for high winds in the vicinity of the fire
+            '''
             alert_box_bfr1 = 15 # a 90x90 km box
             alert_box_bfr2 = 25 # a 150x150 km box
             alert_box_wind = H_spd['value'][cut_v-alert_box_bfr1:cut_v+alert_box_bfr1, cut_h-alert_box_bfr1:cut_h+alert_box_bfr1]
@@ -361,6 +362,7 @@ for fxx in range(0, 19):
                 write_this = ','.join([validDate, locName, l['state'], str(l['area']), str(max_alert_box_wind), str(max_alert_box_gust), str(max_alert_box_ref), fileDate, str(l['latitude']), str(l['longitude'])])
                 myfile.write(write_this+'\n')
                 myfile.close()
+            '''
             #####################################################################################
             #####################################################################################
             #

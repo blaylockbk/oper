@@ -313,7 +313,7 @@ def make_plots(inputs):
                 qk.text.set_backgroundcolor('w')
         
         if '10mWind_p95_fill' in plotcode:
-            DIR = '/uufs/chpc.utah.edu/common/home/horel-group2/blaylock/HRRR_OSG/hourly30/UVGRD_10_m/'
+            DIR = '/uufs/chpc.utah.edu/common/home/horel-group8/blaylock/HRRR_OSG/hourly30/UVGRD_10_m/'
             FILE = 'OSG_HRRR_%s_m%02d_d%02d_h%02d_f00.h5' % (('UVGRD_10_m', VALIDDATE.month, VALIDDATE.day, VALIDDATE.hour))
             with h5py.File(DIR+FILE, 'r') as f:
                 spd_p95 = f["p95"][:]
@@ -462,7 +462,7 @@ def make_plots(inputs):
                                 outDIR='/uufs/chpc.utah.edu/common/home/u0553130/temp/',
                                 verbose=False, value_only=True)
 
-        DIR = '/uufs/chpc.utah.edu/common/home/horel-group2/blaylock/HRRR_OSG/hourly30/DPT_2_m/'
+        DIR = '/uufs/chpc.utah.edu/common/home/horel-group8/blaylock/HRRR_OSG/hourly30/DPT_2_m/'
         FILE = 'OSG_HRRR_%s_m%02d_d%02d_h%02d_f00.h5' % (('DPT_2_m', VALIDDATE.month, VALIDDATE.day, VALIDDATE.hour))
 
         ### Plot Dew Point Depression
@@ -473,9 +473,9 @@ def make_plots(inputs):
         masked[masked > 0] = np.ma.masked
         
         mesh_depression = m.pcolormesh(gridlon, gridlat, masked,
-                                    vmax=27, vmin=-18,
-                                    latlon=True,
-                                    cmap=cm_dpt())
+                                       vmax=10, vmin=-10,
+                                       latlon=True,
+                                       cmap='BrBG')
         
         ### Plot Dew Point Exceedance
         with h5py.File(DIR+FILE, 'r') as f:
@@ -488,6 +488,9 @@ def make_plots(inputs):
                                     vmax=10, vmin=-10,
                                     latlon=True,
                                     cmap='BrBG')
+        cb = plt.colorbar(orientation='horizontal', pad=pad, shrink=shrink)
+        cb.set_label(r'5$\mathregular{^{th}}$/95$\mathregular{^{th}}$ percentile 2 m Dew Point Depression/Exceedance (C)')
+
 
     if '2mTemp_Fill' in plotcode or '2mTemp_Freeze' in plotcode or '2mTemp_p95p05_fill' in plotcode:
         # Get Data
@@ -516,7 +519,7 @@ def make_plots(inputs):
                     latlon=True)
         
         if '2mTemp_p95p05_fill' in plotcode:
-            DIR = '/uufs/chpc.utah.edu/common/home/horel-group2/blaylock/HRRR_OSG/hourly30/TMP_2_m/'
+            DIR = '/uufs/chpc.utah.edu/common/home/horel-group8/blaylock/HRRR_OSG/hourly30/TMP_2_m/'
             FILE = 'OSG_HRRR_%s_m%02d_d%02d_h%02d_f00.h5' % (('TMP_2_m', VALIDDATE.month, VALIDDATE.day, VALIDDATE.hour))
 
             ### Plot Temperature Depression

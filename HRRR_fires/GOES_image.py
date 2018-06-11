@@ -2,7 +2,7 @@
 # May 21, 2018
 
 """
-Make GOES-16 True Color and Fire Temperature image for a fire area
+Make GOES-16 True Color and Fire Temperature image blend for a fire area
 """
 
 import matplotlib as mpl
@@ -10,18 +10,14 @@ mpl.use('Agg') #required for the CRON job. Says "do not open plot in a window"?
 import numpy as np
 from netCDF4 import Dataset
 import h5py
-from pyproj import Proj  
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 import os
-import urllib2
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
-from matplotlib.patches import Polygon
-from matplotlib.collections import PatchCollection
 
 ## Reset the defaults (see more here: http://matplotlib.org/users/customizing.html)
 mpl.rcParams['figure.max_open_warning'] = 100
-mpl.rcParams['figure.figsize'] = [15, 6]
+mpl.rcParams['figure.figsize'] = [6, 6]
 mpl.rcParams['figure.titlesize'] = 15
 mpl.rcParams['figure.titleweight'] = 'bold'
 mpl.rcParams['xtick.labelsize'] = 10
@@ -43,8 +39,7 @@ mpl.rcParams['figure.max_open_warning'] = 30
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
 sys.path.append('B:\pyBKB_v2')
-from BB_basemap.draw_maps import draw_CONUS_cyl_map
-from BB_data.active_fires import get_fires, get_incidents, download_fire_perimeter_shapefile
+from BB_data.active_fires import get_fires, get_incidents
 from BB_GOES16.get_GOES16 import get_GOES16_truecolor, get_GOES16_firetemperature
 from BB_GOES16.match_GLM_to_ABI import accumulate_GLM_flashes_for_ABI
 
@@ -84,7 +79,7 @@ h = h5py.File('/uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/goes16_
 lons = h['longitude'][:]
 lats = h['latitude'][:]
 
-# List files in todays directory:
+# List NetCDF files in today's directory:
 DIR = '/uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/%s/' % DATE.strftime('%Y%m%d')
 list_files = filter(lambda x: x[-3:]=='.nc', os.listdir(DIR))
 list_files.sort()
@@ -97,7 +92,7 @@ def goes_start_equals_hour(file_name):
 
 hour_files = filter(lambda x: goes_start_equals_hour(x), list_files)
 
-for C_file in hour_files:
+def make_plots(C_file):
     file_date = datetime.strptime(C_file.split('_')[3], 's%Y%j%H%M%S%f')
     C = Dataset(DIR+C_file, 'r')
 
@@ -114,66 +109,61 @@ for C_file in hour_files:
     ## ------------------------------------------------------------------------
     GLM = accumulate_GLM_flashes_for_ABI(C_file)
 
+    ## ---- BLEND TRUE COLOR/FIRE TEMPERATURE ---------------------------------
+    max_RGB = np.nanmax([FT['rgb_tuple'], TC['rgb_tuple']], axis=0)
+
 
     ## ---- Make Plots for All fires ------------------------------------------
     ## ------------------------------------------------------------------------
     for loc in location.keys():
-        # Now we can plot the GOES data on the HRRR map domain and projection
-        fig, (ax1, ax2) = plt.subplots(1, 2)
-        plt.sca(ax1)
+        plt.cla()
+        plt.clf()
 
-        # The values of R are ignored becuase we plot the color in colorTuple, but pcolormesh still needs its shape.
-        newmap = maps[loc].pcolormesh(lons, lats, TC['TrueColor'][:,:,1], color=TC['rgb_tuple'], latlon=True)
+        timer = datetime.now()
+        print timer
+        # Plot RGB Blend
+        newmap = maps[loc].pcolormesh(lons, lats, TC['TrueColor'][:,:,1], color=max_RGB, latlon=True)
         newmap.set_array(None) # without this line, the linewidth is set to zero, but the RGB colorTuple is ignored. I don't know why.
+        print datetime.now() - timer, 'ABI Blend'
 
         # Plot GLM Flashes
         maps[loc].scatter(GLM['longitude'], GLM['latitude'],
                           marker='+',
                           color='yellow',
                           latlon=True)
+        print datetime.now() - timer, 'GLM'
 
+        # Plot other map elements
         maps[loc].drawstates()
         maps[loc].drawcountries()
         maps[loc].drawcoastlines()
         maps[loc].drawcounties()
         maps[loc].scatter(location[loc]['longitude'], location[loc]['latitude'],
-                        edgecolor='magenta',
+                        edgecolor='powderblue',
                         facecolor='none',
                         marker='o',
                         s=200,
                         zorder=10)
+        print datetime.now() - timer, 'map elements'
 
-        plt.title('True Color')
+        plt.title('True Color and Fire Temperature Blend')        
+        plt.title('%s Fire\nGOES-16 True Color and Fire Temperature Blend' % (loc))
+        plt.xlabel(TC['DATE'].strftime('%B %d, %Y %H:%M UTC'))
+        print datetime.now() - timer, 'labels'
 
-        plt.sca(ax2)
-
-        # The values of R are ignored becuase we plot the color in colorTuple, but pcolormesh still needs its shape.
-        newmap = maps[loc].pcolormesh(lons, lats, FT['TrueColor'][:,:,1], color=FT['rgb_tuple'], latlon=True)
-        newmap.set_array(None) # without this line, the linewidth is set to zero, but the RGB colorTuple is ignored. I don't know why.
-
-        # Plot GLM Flashes
-        maps[loc].scatter(GLM['longitude'], GLM['latitude'],
-                          marker='+',
-                          color='yellow',
-                          latlon=True)
-
-        maps[loc].drawstates(color='w')
-        maps[loc].drawcountries(color='w')
-        maps[loc].drawcoastlines(color='w')
-        maps[loc].drawcounties()
-        maps[loc].scatter(location[loc]['longitude'], location[loc]['latitude'],
-                        edgecolor='magenta',
-                        facecolor='none',
-                        marker='o',
-                        s=200,
-                        zorder=10)
-
-        plt.title('Fire Temperature')
-
-        plt.suptitle('%s Fire\nGOES-16 %s' % (loc, TC['DATE'].strftime('%B %d, %Y %H:%M UTC')))
-        
         SAVE = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/%s/%s/' % (DATE.strftime('%Y-%m-%d/%H00'), loc.replace(' ', '_'))
         plt.savefig(SAVE+'G%02d' % file_date.minute)
+        print datetime.now() - timer, 'saved'
         print "Saved: %s" % SAVE+'G%02d' % file_date.minute
+        
 
     C.close()
+
+
+import multiprocessing #:)
+
+# Multiprocessing :)
+num_proc = 12                          # only 12 files to analyse
+p = multiprocessing.Pool(num_proc)
+p.map(make_plots, hour_files)
+p.close()

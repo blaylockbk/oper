@@ -22,7 +22,7 @@ from mpl_toolkits.basemap import Basemap
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')  #for running on CHPC boxes
-from BB_data.active_fires import get_fires
+from BB_data.active_fires import get_fires, get_incidents, download_fire_perimeter_shapefile
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
 
 def remove_old_fires():
@@ -39,43 +39,13 @@ def write_HRRR_fires_HTML():
     """
     fires is a dictionary. Each key is a fire name.
     """
-    get_today = datetime.strftime(date.today(), "%Y-%m-%d")
-    url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
-    try:
-        text = urllib2.urlopen(url)
-
-        # 0  INAME - Incident Name
-        # 1  INUM
-        # 2  CAUSE
-        # 3  REP_DATE - reported date
-        # 4  START_DATE
-        # 5  IMT_TYPE
-        # 6  STATE
-        # 7  AREA
-        # 8  P_CNT - Percent Contained
-        # 9  EXP_CTN - Expected Containment
-        # 10 LAT
-        # 11 LONG
-        # 12 COUNTY
-
-        location = {}
-
-        for i, f in enumerate(text):
-            line = f.split('\t')
-            if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
-                continue
-            location[line[0]] = {'latitude': float(line[10]),
-                                'longitude': float(line[11]),
-                                'name': line[0],
-                                'state': line[6],
-                                'area': int(line[7]),
-                                'start date': line[4],
-                                'is MesoWest': False
-                                }
-    except:
-        print 'getting fires from inciweb...'
-        from BB_data.inciweb_incidents_xml import get_incidents
-        location = get_incidents()
+    # Get a location dictionary of the active fires
+    try:  
+        location = get_fires()['FIRES']
+        print 'Retrieved fires from Active Fire Mapping Program'
+    except:  
+        location = get_incidents(limit_num=10)
+        print 'Retrieved fires from InciWeb'
 
     html_text = """
 <html>
@@ -130,15 +100,15 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
     for F in sorted(location, key=location.get(0)):      
         button = """
         <div class="btn-group" role="group" aria-label="..." style="padding-bottom:3px">
-        <a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/photo_viewer_fire.cgi?FIRE="""+location[F]['name'].replace(' ', '_')+"""" class="btn btn-warning" style="width:175px"><b><i class="fab fa-gripfire"></i> """+location[F]['name']+"""</b></a>  <div class="btn-group" role="group">
+        <a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/photo_viewer_fire.cgi?FIRE="""+F.replace(' ', '_')+"""" class="btn btn-warning" style="width:175px"><b><i class="fab fa-gripfire"></i> """+F+"""</b></a>  <div class="btn-group" role="group">
         <a class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="far fa-clock"></i>
         <span class="caret"></span>
         </a>
         <ul class="dropdown-menu">
         <li>Other Data/Figures:</li>
-        <li><a href="http://home.chpc.utah.edu/~u0553130/PhD/HRRR_fires/"""+location[F]['name'].replace(' ', '_')+"""">More Plots</a></li>
-        <li><a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrr_fires_alert.cgi?fire="""+location[F]['name']+"""">Past Wind Events</a></li>
+        <li><a href="http://home.chpc.utah.edu/~u0553130/PhD/HRRR_fires/"""+F.replace(' ', '_')+"""">More Plots</a></li>
+        <li><a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrr_fires_alert.cgi?fire="""+F+"""">Past Wind Events</a></li>
         </ul>
         </div>
         </div>"""
@@ -185,43 +155,13 @@ def draw_fires_on_map():
     """
     Draw a map of the United States, and mark the large fires, based on size
     """
-    get_today = datetime.strftime(date.today(), "%Y-%m-%d")
-    url = 'https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_%s.txt' % get_today
-    try:
-        text = urllib2.urlopen(url)
-
-        # 0  INAME - Incident Name
-        # 1  INUM
-        # 2  CAUSE
-        # 3  REP_DATE - reported date
-        # 4  START_DATE
-        # 5  IMT_TYPE
-        # 6  STATE
-        # 7  AREA
-        # 8  P_CNT - Percent Contained
-        # 9  EXP_CTN - Expected Containment
-        # 10 LAT
-        # 11 LONG
-        # 12 COUNTY
-
-        location = {}
-
-        for i, f in enumerate(text):
-            line = f.split('\t')
-            if i==0 or int(line[7]) < 1000 or int(line[7]) > 3000000 or line[6] == 'Alaska' or line[6] == 'Hawaii':
-                continue
-            location[line[0]] = {'latitude': float(line[10]),
-                                'longitude': float(line[11]),
-                                'name': line[0],
-                                'state': line[6],
-                                'area': int(line[7]),
-                                'start date': line[4],
-                                'is MesoWest': False
-                                }
-    except:
-        print 'getting fires from inciweb...'
-        from BB_data.inciweb_incidents_xml import get_incidents
-        location = get_incidents()
+    # Get a location dictionary of the active fires
+    try:  
+        location = get_fires()['FIRES']
+        print 'Retrieved fires from Active Fire Mapping Program'
+    except:  
+        location = get_incidents(limit_num=10)
+        print 'Retrieved fires from InciWeb'
 
     bot_left_lat  = np.min([location[i]['latitude'] for i in location.keys()])
     bot_left_lon  = np.min([location[i]['longitude'] for i in location.keys()])
@@ -246,7 +186,7 @@ def draw_fires_on_map():
     for F in location:
         x, y = m(location[F]['longitude'], location[F]['latitude'])
         m.scatter(x, y, s=location[F]['area']/300, c='orangered',edgecolors='none')
-        plt.text(x+.1, y+.1, location[F]['name'], fontsize=7)
+        plt.text(x+.1, y+.1, F, fontsize=7)
     plt.xlabel('Updated %s' % datetime.now().strftime('%Y-%B-%d %H:%M MT'), fontsize=7)
     plt.title('Active Fires Larger than 1000 Acres\n%s' % (date.today().strftime('%B %d, %Y')), fontsize=15)
 
