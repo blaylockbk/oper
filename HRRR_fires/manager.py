@@ -13,6 +13,7 @@ import numpy as np
 import os
 import shutil
 import urllib2
+import h5py
 
 import matplotlib as mpl
 mpl.use('Agg')      # required for CRON job
@@ -24,6 +25,8 @@ import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')  #for running on CHPC boxes
 from BB_data.active_fires import get_fires, get_incidents, download_fire_perimeter_shapefile
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
+from BB_GOES16.get_GOES16 import get_GOES16_truecolor, get_GOES16_firetemperature, file_nearest
+from BB_GOES16.match_GLM_to_ABI import accumulate_GLM_flashes_for_ABI
 
 def remove_old_fires():
     """
@@ -101,6 +104,7 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
         button = """
         <div class="btn-group" role="group" aria-label="..." style="padding-bottom:3px">
         <a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/photo_viewer_fire.cgi?FIRE="""+F.replace(' ', '_')+"""" class="btn btn-warning" style="width:175px"><b><i class="fab fa-gripfire"></i> """+F+"""</b></a>  <div class="btn-group" role="group">
+        <!--
         <a class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="far fa-clock"></i>
         <span class="caret"></span>
@@ -110,6 +114,7 @@ This page is created dynamically in the scirpt /oper/HRRR_fires/manager.py
         <li><a href="http://home.chpc.utah.edu/~u0553130/PhD/HRRR_fires/"""+F.replace(' ', '_')+"""">More Plots</a></li>
         <li><a href="http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrr_fires_alert.cgi?fire="""+F+"""">Past Wind Events</a></li>
         </ul>
+        -->
         </div>
         </div>"""
         #OLD BUTTON# html_text += """<tr><td><a href="http://home.chpc.utah.edu/~u0553130/oper/HRRR_fires/%s/photo_viewer_fire.php" class="btn btn-warning btn-block"><b>%s</b></a></td>""" % (location[F]['name'].replace(' ', '_'), location[F]['name'])
@@ -163,6 +168,31 @@ def draw_fires_on_map():
         location = get_incidents(limit_num=10)
         print 'Retrieved fires from InciWeb'
 
+    ## ---- Lat/Lons ----------------------------------------------------------
+    ## ------------------------------------------------------------------------
+    h = h5py.File('/uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/goes16_conus_latlon_east.h5', 'r')
+    lons = h['longitude'][:]
+    lats = h['latitude'][:]
+
+    Gfile = file_nearest(datetime.utcnow())
+
+    ## ---- TRUE COLOR --------------------------------------------------------
+    ## ------------------------------------------------------------------------
+    TC = get_GOES16_truecolor(Gfile, only_RGB=False, night_IR=True)
+    print 'File date:', TC['DATE']
+
+    ## ---- FIRE TEMPERATURE --------------------------------------------------
+    ## ------------------------------------------------------------------------
+    FT = get_GOES16_firetemperature(Gfile, only_RGB=False)
+
+    ## ---- Geostationary Lightning Mapper ------------------------------------
+    ## ------------------------------------------------------------------------
+    GLM = accumulate_GLM_flashes_for_ABI(Gfile)
+
+    ## ---- BLEND TRUE COLOR/FIRE TEMPERATURE ---------------------------------
+    max_RGB = np.nanmax([FT['rgb_tuple'], TC['rgb_tuple']], axis=0)
+
+
     bot_left_lat  = np.min([location[i]['latitude'] for i in location.keys()])
     bot_left_lon  = np.min([location[i]['longitude'] for i in location.keys()])
     top_right_lat  = np.max([location[i]['latitude'] for i in location.keys()])
@@ -179,15 +209,23 @@ def draw_fires_on_map():
         llcrnrlon=bot_left_lon, llcrnrlat=bot_left_lat, \
         urcrnrlon=top_right_lon, urcrnrlat=top_right_lat)
 
-    m.arcgisimage(service='World_Shaded_Relief', dpi=1000)
-    m.drawstates(linewidth=.1)
-    m.drawcoastlines(linewidth=.15)
-    m.drawcountries(linewidth=.1)
+    #m.arcgisimage(service='World_Shaded_Relief', dpi=1000)
+    newmap = m.pcolormesh(lons, lats, TC['TrueColor'][:,:,1], color=max_RGB, latlon=True)
+    newmap.set_array(None)
+    m.scatter(GLM['longitude'], GLM['latitude'],
+                      marker='+',
+                      color='yellow',
+                      latlon=True)
+
+    m.drawmapboundary(fill_color='k')
+    m.drawstates(linewidth=.2)
+    m.drawcoastlines(linewidth=.25)
+    m.drawcountries(linewidth=.2)
     for F in location:
         x, y = m(location[F]['longitude'], location[F]['latitude'])
         m.scatter(x, y, s=location[F]['area']/300, c='orangered',edgecolors='none')
         plt.text(x+.1, y+.1, F, fontsize=7)
-    plt.xlabel('Updated %s' % datetime.now().strftime('%Y-%B-%d %H:%M MT'), fontsize=7)
+    plt.xlabel('Updated: %s\nGOES Image: %s' % (datetime.now().strftime('%Y-%B-%d %H:%M MT'), TC['DATE'].strftime('%Y-%B-%d %H:%M UTC')), fontsize=7)
     plt.title('Active Fires Larger than 1000 Acres\n%s' % (date.today().strftime('%B %d, %Y')), fontsize=15)
 
     plt.savefig('/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/firemap.png', bbox_inches="tight")

@@ -1,321 +1,80 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf
- My DATE: 2018-06-11 09:31:01.168861
-UTC DATE: 2018-06-11 14:00:00
+ My DATE: 2018-06-18 12:31:06.614920
+UTC DATE: 2018-06-18 17:00:00
 plucking values from HRRR
-LocDic Pollywog: Finished multiprocessing in 0:00:06.035663 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:05.262051 on 30 processors
 got Temp
-LocDic Pollywog: Finished multiprocessing in 0:00:05.931033 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.595105 on 30 processors
 got Dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:05.934696 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.949740 on 30 processors
 got Wind
-LocDic Pollywog: Finished multiprocessing in 0:00:05.295497 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.003659 on 30 processors
 got Gust
-1:0:d=2018061114:UGRD:10 m above ground:15 hour fcst:
-2:1305684:d=2018061114:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:10 hour fcst:
-2:1278223:d=2018061114:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:3 hour fcst:
-2:1281517:d=2018061114:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:16 hour fcst:
-2:1317452:d=2018061114:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:12 hour fcst:
-2:1235260:d=2018061114:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:7 hour fcst:
-2:1355310:d=2018061114:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:14 hour fcst:
-2:1285133:d=2018061114:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:18 hour fcst:
-2:1333967:d=2018061114:VGRD:10 m above ground:18 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:2 hour fcst:
-2:1233680:d=2018061114:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:9 hour fcst:
-2:1310999:d=2018061114:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:11 hour fcst:
-2:1252479:d=2018061114:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:6 hour fcst:
-2:1357020:d=2018061114:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:5 hour fcst:
-2:1347954:d=2018061114:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:anl:
-2:1147845:d=2018061114:VGRD:10 m above ground:anl:
-1:0:d=2018061114:UGRD:10 m above ground:13 hour fcst:
-2:1252572:d=2018061114:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:1 hour fcst:
-2:1191251:d=2018061114:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:17 hour fcst:
-2:1327200:d=2018061114:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:4 hour fcst:
-2:1320701:d=2018061114:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:8 hour fcst:
-2:1337019:d=2018061114:VGRD:10 m above ground:8 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:11.865842 on 30 processors
+1:0:d=2018061817:UGRD:10 m above ground:13 hour fcst:
+2:1299405:d=2018061817:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:4 hour fcst:
+2:1351447:d=2018061817:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:11 hour fcst:
+2:1267584:d=2018061817:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:14 hour fcst:
+2:1308291:d=2018061817:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:9 hour fcst:
+2:1222768:d=2018061817:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:5 hour fcst:
+2:1332928:d=2018061817:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:2 hour fcst:
+2:1345996:d=2018061817:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:10 hour fcst:
+2:1237477:d=2018061817:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:17 hour fcst:
+2:1322393:d=2018061817:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:3 hour fcst:
+2:1359513:d=2018061817:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:8 hour fcst:
+2:1244386:d=2018061817:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:7 hour fcst:
+2:1278409:d=2018061817:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:12 hour fcst:
+2:1286472:d=2018061817:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:16 hour fcst:
+2:1319117:d=2018061817:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:anl:
+2:1202973:d=2018061817:VGRD:10 m above ground:anl:
+1:0:d=2018061817:UGRD:10 m above ground:18 hour fcst:
+2:1318909:d=2018061817:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:1 hour fcst:
+2:1303481:d=2018061817:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:15 hour fcst:
+2:1314537:d=2018061817:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:6 hour fcst:
+2:1306907:d=2018061817:VGRD:10 m above ground:6 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:10.448371 on 30 processors
 got UGRD and VGRD
-1:0:d=2018061114:UGRD:10 m above ground:anl:
-2:1147845:d=2018061114:VGRD:10 m above ground:anl:
-1:0:d=2018061114:UGRD:10 m above ground:1 hour fcst:
-2:1191251:d=2018061114:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:2 hour fcst:
-2:1233680:d=2018061114:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2018061114:UGRD:10 m above ground:3 hour fcst:
-2:1281517:d=2018061114:VGRD:10 m above ground:3 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:05.619040 on 30 processors
-got Precip
-Making permenant figure elements...
-   --> UTPKL
-   --> SND
-   --> NAA
-   --> C8635
-   --> FPS
-   --> KSLC
-   --> UFD09
-   --> RACM4
-   --> EPMU1
-   --> EYSC
-   --> KIDA
-   --> UCC23
-   --> UKBKB
-   --> Orderville
-   --> UtahLake
-   --> WBB
-   --> Oaks
-   --> GNI
-   --> ALT
-   --> BFLAT
-   --> FREUT
- >> Dowloading tempfile: ./temp_hrrr_2018061114_f00_REF.grib2
-/n---------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
----------------------------------------------------------------------------
-
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf00.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf00.grib2.idx
-
- >> Matched a variable:  1:0:d=2018061114:REFC:entire atmosphere:anl:
-
- >> Byte Range: 0 431159
- >> Dowloading tempfile: ./temp_hrrr_2018061114_f00_UVG.grib2
-/n---------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
----------------------------------------------------------------------------
-
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf00.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf00.grib2.idx
-
- >> Matched a variable:  59:40572558:d=2018061114:UGRD:10 m above ground:anl:
-
- >> Byte Range: 40572558 42866621
- >> Converting winds to earth-relative
-
---> Working on: UTPKL 0
-
---> Working on: SND 0
-
---> Working on: NAA 0
-
---> Working on: C8635 0
-
---> Working on: FPS 0
-
---> Working on: KSLC 0
-
---> Working on: UFD09 0
-
---> Working on: RACM4 0
-
---> Working on: EPMU1 0
-
---> Working on: EYSC 0
-
---> Working on: KIDA 0
-
---> Working on: UCC23 0
-
---> Working on: UKBKB 0
-
---> Working on: Orderville 0
-
---> Working on: UtahLake 0
-
---> Working on: WBB 0
-
---> Working on: Oaks 0
-
---> Working on: GNI 0
-
---> Working on: ALT 0
-
---> Working on: BFLAT 0
-
---> Working on: FREUT 0
-Finished: 0
- >> Dowloading tempfile: ./temp_hrrr_2018061114_f01_REF.grib2
-/n---------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
----------------------------------------------------------------------------
-
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf01.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf01.grib2.idx
-
- >> Matched a variable:  1:0:d=2018061114:REFC:entire atmosphere:1 hour fcst:
-
- >> Byte Range: 0 454144
- >> Dowloading tempfile: ./temp_hrrr_2018061114_f01_UVG.grib2
-/n---------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
----------------------------------------------------------------------------
-
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf01.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf01.grib2.idx
-
- >> Matched a variable:  59:42975887:d=2018061114:UGRD:10 m above ground:1 hour fcst:
-
- >> Byte Range: 42975887 45352462
- >> Converting winds to earth-relative
-
---> Working on: UTPKL 1
-
---> Working on: SND 1
-
---> Working on: NAA 1
-
---> Working on: C8635 1
-
---> Working on: FPS 1
-
---> Working on: KSLC 1
-
---> Working on: UFD09 1
-
---> Working on: RACM4 1
-
---> Working on: EPMU1 1
-
---> Working on: EYSC 1
-
---> Working on: KIDA 1
-
---> Working on: UCC23 1
-
---> Working on: UKBKB 1
-
---> Working on: Orderville 1
-
---> Working on: UtahLake 1
-
---> Working on: WBB 1
-
---> Working on: Oaks 1
-
---> Working on: GNI 1
-
---> Working on: ALT 1
-
---> Working on: BFLAT 1
-
---> Working on: FREUT 1
-Finished: 1
- >> Dowloading tempfile: ./temp_hrrr_2018061114_f02_REF.grib2
-/n---------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
----------------------------------------------------------------------------
-
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf02.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf02.grib2.idx
-
- >> Matched a variable:  1:0:d=2018061114:REFC:entire atmosphere:2 hour fcst:
-
- >> Byte Range: 0 460080
- >> Dowloading tempfile: ./temp_hrrr_2018061114_f02_UVG.grib2
-/n---------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
----------------------------------------------------------------------------
-
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf02.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf02.grib2.idx
-
- >> Matched a variable:  59:43241005:d=2018061114:UGRD:10 m above ground:2 hour fcst:
-
- >> Byte Range: 43241005 45689052
- >> Converting winds to earth-relative
-
---> Working on: UTPKL 2
-
---> Working on: SND 2
-
---> Working on: NAA 2
-
---> Working on: C8635 2
-
---> Working on: FPS 2
-
---> Working on: KSLC 2
-
---> Working on: UFD09 2
-
---> Working on: RACM4 2
-
---> Working on: EPMU1 2
-
---> Working on: EYSC 2
-
---> Working on: KIDA 2
-
---> Working on: UCC23 2
-
---> Working on: UKBKB 2
-
---> Working on: Orderville 2
-
---> Working on: UtahLake 2
-
---> Working on: WBB 2
-
---> Working on: Oaks 2
-
---> Working on: GNI 2
-
---> Working on: ALT 2
-
---> Working on: BFLAT 2
-
---> Working on: FREUT 2
-Finished: 2
- >> Dowloading tempfile: ./temp_hrrr_2018061114_f03_REF.grib2
-/n---------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
----------------------------------------------------------------------------
-
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf03.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf03.grib2.idx
-
- _______________________________________________________________
- !!   Run Date Requested : 2018-06-11 14:00:00 F03
- !! Valid Date Requested : 2018-06-11 17:00:00
- !!     Current UTC time : 2018-06-11 15:39:16.691773
- !! ------------------------------------------------------------
- !! ERROR downloading GRIB2: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf03.grib2
- !! Is the variable right? REFC:entire atmosphere
- !! Does the .idx file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf03.grib2.idx
- ---------------------------------------------------------------
- >> Dowloading tempfile: ./temp_hrrr_2018061114_f03_UVG.grib2
-/n---------------------------------------------------------------------------
-!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
-!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
----------------------------------------------------------------------------
-
-GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf03.grib2
- .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180611/hrrr.t14z.wrfsfcf03.grib2.idx
-
- >> Matched a variable:  59:43863000:d=2018061114:UGRD:10 m above ground:3 hour fcst:
-
- >> Byte Range: 43863000 46397035
- >> Converting winds to earth-relative
-
---> Working on: UTPKL 3
+1:0:d=2018061817:UGRD:10 m above ground:anl:
+2:1202973:d=2018061817:VGRD:10 m above ground:anl:
+1:0:d=2018061817:UGRD:10 m above ground:1 hour fcst:
+2:1303481:d=2018061817:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:2 hour fcst:
+2:1345996:d=2018061817:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:3 hour fcst:
+2:1359513:d=2018061817:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:4 hour fcst:
+2:1351447:d=2018061817:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:5 hour fcst:
+2:1332928:d=2018061817:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:6 hour fcst:
+2:1306907:d=2018061817:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:7 hour fcst:
+2:1278409:d=2018061817:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:8 hour fcst:
+2:1244386:d=2018061817:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:9 hour fcst:
+2:1222768:d=2018061817:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:10 hour fcst:
+2:1237477:d=2018061817:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:11 hour fcst:
+2:1267584:d=2018061817:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:12 hour fcst:
+2:1286472:d=2018061817:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018061817:UGRD:10 m above ground:13 hour fcst:
+2:1299405:d=2018061817:VGRD:10 m above ground:13 hour fcst:

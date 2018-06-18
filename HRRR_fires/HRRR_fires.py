@@ -17,8 +17,7 @@ To do list:
 import matplotlib as mpl
 mpl.use('Agg') #required for the CRON job. Says "do not open plot in a window"?
 import numpy as np
-from datetime import date, datetime, timedelta
-import time
+from datetime import datetime, timedelta
 import os
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
@@ -45,7 +44,6 @@ mpl.rcParams['legend.loc'] = 'best'
 mpl.rcParams['savefig.bbox'] = 'tight'
 mpl.rcParams['savefig.dpi'] = 100
 mpl.rcParams['savefig.transparent'] = False
-mpl.rcParams['figure.max_open_warning'] = 30
 
 import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
