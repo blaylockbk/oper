@@ -1,22 +1,22 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-18.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-19.txt
 Retrieved fires from Active Fire Mapping Program
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-18.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-19.txt
 Retrieved fires from Active Fire Mapping Program
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180618/OR_ABI-L2-MCMIPC-M3_G16_s20181691827240_e20181691830013_c20181691830123.nc
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180619/OR_ABI-L2-MCMIPC-M3_G16_s20181701732246_e20181701735019_c20181701735135.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2018-06-18 18:28:42.721310
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180618/OR_ABI-L2-MCMIPC-M3_G16_s20181691827240_e20181691830013_c20181691830123.nc
-31.671 -121.802 44.111 -100.454
+File date: 2018-06-19 17:33:43.285959
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180619/OR_ABI-L2-MCMIPC-M3_G16_s20181701732246_e20181701735019_c20181701735135.nc
+31.671 -121.802 44.111 -103.269
 Downloaded the most recent active fire perimeters.
-Local DATE: 2018-06-18 12:41:25.897447
-  UTC DATE: 2018-06-18 17:00:00
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-18.txt
+Local DATE: 2018-06-19 11:41:10.149658
+  UTC DATE: 2018-06-19 16:00:00
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-19.txt
 Retrieved fires from Active Fire Mapping Program
-There are 13 large fires.
+There are 11 large fires.
  >> Dowloading tempfile: ./temp_hrrr_2018010100_f00_VGT.grib2
 Oh, good, you requested a date that should be on Pando.
 GRIB2 File: https://pando-rgw01.chpc.utah.edu/hrrr/sfc/20180101/hrrr.t00z.wrfsfcf00.grib2
@@ -25,77 +25,111 @@ GRIB2 File: https://pando-rgw01.chpc.utah.edu/hrrr/sfc/20180101/hrrr.t00z.wrfsfc
  >> Matched a variable:  78:49446640:d=2018010100:VGTYP:surface:anl
 
  >> Byte Range: 49446640 50309774
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/PLANADA/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/PLANADA/Landuse.png
 created landuse maps for PLANADA
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/UPPER_COLONY/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/UPPER_COLONY/Landuse.png
 created landuse maps for UPPER COLONY
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/TRAIL_MOUNTAIN/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/TRAIL_MOUNTAIN/Landuse.png
 created landuse maps for TRAIL MOUNTAIN
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/UTE_PARK/Landuse.png
-created landuse maps for UTE PARK
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/BUZZARD/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/BUZZARD/Landuse.png
 created landuse maps for BUZZARD
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/BADGER_CREEK/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/BADGER_CREEK/Landuse.png
 created landuse maps for BADGER CREEK
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/SOLDIER_CANYON/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/SOLDIER_CANYON/Landuse.png
 created landuse maps for SOLDIER CANYON
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/416/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/416/Landuse.png
 created landuse maps for 416
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/BURRO/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/BURRO/Landuse.png
 created landuse maps for BURRO
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/PORTER/Landuse.png
-created landuse maps for PORTER
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/WILLOW_CREEK/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/WILLOW_CREEK/Landuse.png
 created landuse maps for WILLOW CREEK
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/JACKIES_BUTTE/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/JACKIES_BUTTE/Landuse.png
 created landuse maps for JACKIES BUTTE
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-18/1700/377/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-19/1600/377/Landuse.png
 created landuse maps for 377
-LocDic Pollywog: Finished multiprocessing in 0:00:04.440689 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.256840 on 30 processors
 got temps
-LocDic Pollywog: Finished multiprocessing in 0:00:04.033131 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:03.917608 on 30 processors
 got dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:04.579044 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.474260 on 30 processors
 got wind
-LocDic Pollywog: Finished multiprocessing in 0:00:04.595396 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.416044 on 30 processors
 got gust
-1:0:d=2018061817:UGRD:10 m above ground:1 hour fcst:
-2:1303481:d=2018061817:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:18 hour fcst:
-2:1318909:d=2018061817:VGRD:10 m above ground:18 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:8 hour fcst:
-2:1244386:d=2018061817:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:2 hour fcst:
-2:1345996:d=2018061817:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:5 hour fcst:
-2:1332928:d=2018061817:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:11 hour fcst:
-2:1267584:d=2018061817:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:16 hour fcst:
-2:1319117:d=2018061817:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:9 hour fcst:
-2:1222768:d=2018061817:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:13 hour fcst:
-2:1299405:d=2018061817:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:14 hour fcst:
-2:1308291:d=2018061817:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:17 hour fcst:
-2:1322393:d=2018061817:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:anl:
-2:1202973:d=2018061817:VGRD:10 m above ground:anl:
-1:0:d=2018061817:UGRD:10 m above ground:4 hour fcst:
-2:1351447:d=2018061817:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:6 hour fcst:
-2:1306907:d=2018061817:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:10 hour fcst:
-2:1237477:d=2018061817:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:3 hour fcst:
-2:1359513:d=2018061817:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:7 hour fcst:
-2:1278409:d=2018061817:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:12 hour fcst:
-2:1286472:d=2018061817:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2018061817:UGRD:10 m above ground:15 hour fcst:
-2:1314537:d=2018061817:VGRD:10 m above ground:15 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:09.799729 on 30 processors
+1:0:d=2018061916:UGRD:10 m above ground:1 hour fcst:
+2:1272346:d=2018061916:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:14 hour fcst:
+2:1314003:d=2018061916:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:13 hour fcst:
+2:1303578:d=2018061916:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:6 hour fcst:
+2:1326763:d=2018061916:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:anl:
+2:1170824:d=2018061916:VGRD:10 m above ground:anl:
+1:0:d=2018061916:UGRD:10 m above ground:11 hour fcst:
+2:1249856:d=2018061916:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:5 hour fcst:
+2:1344277:d=2018061916:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:18 hour fcst:
+2:1320234:d=2018061916:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:8 hour fcst:
+2:1270728:d=2018061916:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:17 hour fcst:
+2:1320676:d=2018061916:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:16 hour fcst:
+2:1320302:d=2018061916:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:7 hour fcst:
+2:1301959:d=2018061916:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:15 hour fcst:
+2:1319824:d=2018061916:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:12 hour fcst:
+2:1282664:d=2018061916:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:2 hour fcst:
+2:1320722:d=2018061916:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:4 hour fcst:
+2:1351904:d=2018061916:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:3 hour fcst:
+2:1346401:d=2018061916:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:9 hour fcst:
+2:1245000:d=2018061916:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:10 hour fcst:
+2:1235378:d=2018061916:VGRD:10 m above ground:10 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:09.793247 on 30 processors
 got U and V wind vectors
+1:0:d=2018061916:UGRD:10 m above ground:anl:
+2:1170824:d=2018061916:VGRD:10 m above ground:anl:
+1:0:d=2018061916:UGRD:10 m above ground:1 hour fcst:
+2:1272346:d=2018061916:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:2 hour fcst:
+2:1320722:d=2018061916:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:3 hour fcst:
+2:1346401:d=2018061916:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:4 hour fcst:
+2:1351904:d=2018061916:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:5 hour fcst:
+2:1344277:d=2018061916:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:6 hour fcst:
+2:1326763:d=2018061916:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:7 hour fcst:
+2:1301959:d=2018061916:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:8 hour fcst:
+2:1270728:d=2018061916:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:9 hour fcst:
+2:1245000:d=2018061916:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:10 hour fcst:
+2:1235378:d=2018061916:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:11 hour fcst:
+2:1249856:d=2018061916:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:12 hour fcst:
+2:1282664:d=2018061916:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:13 hour fcst:
+2:1303578:d=2018061916:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:14 hour fcst:
+2:1314003:d=2018061916:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:15 hour fcst:
+2:1319824:d=2018061916:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:16 hour fcst:
+2:1320302:d=2018061916:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:17 hour fcst:
+2:1320676:d=2018061916:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018061916:UGRD:10 m above ground:18 hour fcst:
+2:1320234:d=2018061916:VGRD:10 m above ground:18 hour fcst:

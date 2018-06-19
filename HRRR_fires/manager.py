@@ -25,8 +25,8 @@ import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')  #for running on CHPC boxes
 from BB_data.active_fires import get_fires, get_incidents, download_fire_perimeter_shapefile
 from BB_basemap.draw_maps import draw_CONUS_cyl_map
-from BB_GOES16.get_GOES16 import get_GOES16_truecolor, get_GOES16_firetemperature, file_nearest
-from BB_GOES16.match_GLM_to_ABI import accumulate_GLM_flashes_for_ABI
+from BB_GOES16.get_ABI import get_GOES16_truecolor, get_GOES16_firetemperature, file_nearest
+from BB_GOES16.get_GLM import get_GLM_files_for_ABI, accumulate_GLM
 
 def remove_old_fires():
     """
@@ -174,20 +174,20 @@ def draw_fires_on_map():
     lons = h['longitude'][:]
     lats = h['latitude'][:]
 
-    Gfile = file_nearest(datetime.utcnow())
+    ABI = file_nearest(datetime.utcnow())
 
     ## ---- TRUE COLOR --------------------------------------------------------
     ## ------------------------------------------------------------------------
-    TC = get_GOES16_truecolor(Gfile, only_RGB=False, night_IR=True)
+    TC = get_GOES16_truecolor(ABI, only_RGB=False, night_IR=True)
     print 'File date:', TC['DATE']
 
     ## ---- FIRE TEMPERATURE --------------------------------------------------
     ## ------------------------------------------------------------------------
-    FT = get_GOES16_firetemperature(Gfile, only_RGB=False)
+    FT = get_GOES16_firetemperature(ABI, only_RGB=False)
 
     ## ---- Geostationary Lightning Mapper ------------------------------------
     ## ------------------------------------------------------------------------
-    GLM = accumulate_GLM_flashes_for_ABI(Gfile)
+    GLM = accumulate_GLM(get_GLM_files_for_ABI(ABI))
 
     ## ---- BLEND TRUE COLOR/FIRE TEMPERATURE ---------------------------------
     max_RGB = np.nanmax([FT['rgb_tuple'], TC['rgb_tuple']], axis=0)
@@ -209,22 +209,26 @@ def draw_fires_on_map():
         llcrnrlon=bot_left_lon, llcrnrlat=bot_left_lat, \
         urcrnrlon=top_right_lon, urcrnrlat=top_right_lat)
 
-    #m.arcgisimage(service='World_Shaded_Relief', dpi=1000)
-    newmap = m.pcolormesh(lons, lats, TC['TrueColor'][:,:,1], color=max_RGB, latlon=True)
+    newmap = m.pcolormesh(lons, lats, TC['TrueColor'][:,:,1],
+                          color=max_RGB,
+                          zorder=1,
+                          latlon=True)
     newmap.set_array(None)
     m.scatter(GLM['longitude'], GLM['latitude'],
-                      marker='+',
-                      color='yellow',
-                      latlon=True)
+              marker='+',
+              color='yellow',
+              zorder=10,
+              latlon=True)
 
-    m.drawmapboundary(fill_color='k')
-    m.drawstates(linewidth=.2)
-    m.drawcoastlines(linewidth=.25)
-    m.drawcountries(linewidth=.2)
+    m.drawmapboundary(fill_color='k', zorder=5)
+    m.drawstates(linewidth=.2, zorder=5)
+    m.drawcoastlines(linewidth=.25, zorder=5)
+    m.drawcountries(linewidth=.2, zorder=5)
+    
     for F in location:
         x, y = m(location[F]['longitude'], location[F]['latitude'])
-        m.scatter(x, y, s=location[F]['area']/300, c='orangered',edgecolors='none')
-        plt.text(x+.1, y+.1, F, fontsize=7)
+        m.scatter(x, y, s=location[F]['area']/300, c='orangered',edgecolors='none', zorder=10)
+        plt.text(x+.1, y+.1, F, fontsize=7, zorder=10)
     plt.xlabel('Updated: %s\nGOES Image: %s' % (datetime.now().strftime('%Y-%B-%d %H:%M MT'), TC['DATE'].strftime('%Y-%B-%d %H:%M UTC')), fontsize=7)
     plt.title('Active Fires Larger than 1000 Acres\n%s' % (date.today().strftime('%B %d, %Y')), fontsize=15)
 

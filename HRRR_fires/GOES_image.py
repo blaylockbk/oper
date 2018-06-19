@@ -40,8 +40,8 @@ import sys
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/pyBKB_v2')
 sys.path.append('B:\pyBKB_v2')
 from BB_data.active_fires import get_fires, get_incidents
-from BB_GOES16.get_GOES16 import get_GOES16_truecolor, get_GOES16_firetemperature
-from BB_GOES16.match_GLM_to_ABI import accumulate_GLM_flashes_for_ABI
+from BB_GOES16.get_ABI import get_GOES16_truecolor, get_GOES16_firetemperature, file_nearest
+from BB_GOES16.get_GLM import get_GLM_files_for_ABI, accumulate_GLM
 
 ## Create Locations Dictionary
 DATE = datetime.utcnow() - timedelta(hours=1)
@@ -107,7 +107,7 @@ def make_plots(C_file):
 
     ## ---- Geostationary Lightning Mapper ------------------------------------
     ## ------------------------------------------------------------------------
-    GLM = accumulate_GLM_flashes_for_ABI(C_file)
+    GLM = accumulate_GLM(get_GLM_files_for_ABI(C_file))
 
     ## ---- BLEND TRUE COLOR/FIRE TEMPERATURE ---------------------------------
     max_RGB = np.nanmax([FT['rgb_tuple'], TC['rgb_tuple']], axis=0)
@@ -122,7 +122,10 @@ def make_plots(C_file):
         timer = datetime.now()
         print timer
         # Plot RGB Blend
-        newmap = maps[loc].pcolormesh(lons, lats, TC['TrueColor'][:,:,1], color=max_RGB, latlon=True)
+        newmap = maps[loc].pcolormesh(lons, lats, TC['TrueColor'][:,:,1],
+                                      color=max_RGB,
+                                      zorder=1,
+                                      latlon=True)
         newmap.set_array(None) # without this line, the linewidth is set to zero, but the RGB colorTuple is ignored. I don't know why.
         print datetime.now() - timer, 'ABI Blend'
 
@@ -134,10 +137,10 @@ def make_plots(C_file):
         print datetime.now() - timer, 'GLM'
 
         # Plot other map elements
-        maps[loc].drawstates()
-        maps[loc].drawcountries()
-        maps[loc].drawcoastlines()
-        maps[loc].drawcounties()
+        maps[loc].drawstates(zorder=5)
+        maps[loc].drawcountries(zorder=5)
+        maps[loc].drawcoastlines(zorder=5)
+        maps[loc].drawcounties(zorder=5)
         maps[loc].scatter(location[loc]['longitude'], location[loc]['latitude'],
                         edgecolor='powderblue',
                         facecolor='none',
