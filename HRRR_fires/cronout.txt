@@ -1,13 +1,47 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-20.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-22.txt
 Retrieved fires from Active Fire Mapping Program
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-20.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-22.txt
 Retrieved fires from Active Fire Mapping Program
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180620/OR_ABI-L2-MCMIPC-M3_G16_s20181712027252_e20181712030025_c20181712030134.nc
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180622/OR_ABI-L2-MCMIPC-M3_G16_s20181732127259_e20181732130032_c20181732130143.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2018-06-20 20:28:43.906249
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180620/OR_ABI-L2-MCMIPC-M3_G16_s20181712027252_e20181712030025_c20181712030134.nc
-31.671 -121.802 42.523 -103.269
+File date: 2018-06-22 21:28:44.630677
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180622/OR_ABI-L2-MCMIPC-M3_G16_s20181732127259_e20181732130032_c20181732130143.nc
+32.224 -122.571 48.466 -103.699
+Downloaded the most recent active fire perimeters.
+Local DATE: 2018-06-22 15:41:42.403067
+  UTC DATE: 2018-06-22 20:00:00
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-22.txt
+Retrieved fires from Active Fire Mapping Program
+There are 9 large fires.
+ >> Dowloading tempfile: ./temp_hrrr_2018010100_f00_VGT.grib2
+Oh, good, you requested a date that should be on Pando.
+GRIB2 File: https://pando-rgw01.chpc.utah.edu/hrrr/sfc/20180101/hrrr.t00z.wrfsfcf00.grib2
+ .idx File: https://pando-rgw01.chpc.utah.edu/hrrr/sfc/20180101/hrrr.t00z.wrfsfcf00.grib2.idx
+
+ >> Matched a variable:  78:49446640:d=2018010100:VGTYP:surface:anl
+
+ >> Byte Range: 49446640 50309774
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/MILEPOST_TWENTY_TWO/Landuse.png
+created landuse maps for MILEPOST TWENTY TWO
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/UPPER_COLONY/Landuse.png
+created landuse maps for UPPER COLONY
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/TRAIL_MOUNTAIN/Landuse.png
+created landuse maps for TRAIL MOUNTAIN
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/BUZZARD/Landuse.png
+created landuse maps for BUZZARD
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/BADGER_CREEK/Landuse.png
+created landuse maps for BADGER CREEK
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/416/Landuse.png
+created landuse maps for 416
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/BURRO/Landuse.png
+created landuse maps for BURRO
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/WILLOW_CREEK/Landuse.png
+created landuse maps for WILLOW CREEK
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/BOXCAR_0410_RN/Landuse.png
+created landuse maps for BOXCAR 0410 RN
+LocDic Pollywog: Finished multiprocessing in 0:00:09.925142 on 30 processors
+got temps

@@ -28,15 +28,15 @@ from BB_basemap.draw_maps import draw_CONUS_cyl_map
 from BB_GOES16.get_ABI import get_GOES16_truecolor, get_GOES16_firetemperature, file_nearest
 from BB_GOES16.get_GLM import get_GLM_files_for_ABI, accumulate_GLM
 
-def remove_old_fires():
+def remove_old_fires(keep_days=5):
     """
     Remove the directories and images for three days ago.
     """
     path = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/'
     dirs = os.listdir(path)
-    three_days_ago = (datetime.utcnow()-timedelta(days=3)).strftime('%Y-%m-%d')
-    if three_days_ago in dirs:
-        shutil.rmtree(path+three_days_ago)
+    days_ago = (datetime.utcnow()-timedelta(days=keep_days)).strftime('%Y-%m-%d')
+    if days_ago in dirs:
+        shutil.rmtree(path+days_ago)
 
 def write_HRRR_fires_HTML():
     """

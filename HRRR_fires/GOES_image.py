@@ -145,7 +145,7 @@ def make_plots(C_file):
                         edgecolor='powderblue',
                         facecolor='none',
                         marker='o',
-                        s=200,
+                        s=500,
                         zorder=10)
         print datetime.now() - timer, 'map elements'
 
