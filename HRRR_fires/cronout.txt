@@ -45,3 +45,9 @@ need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fire
 created landuse maps for BOXCAR 0410 RN
 LocDic Pollywog: Finished multiprocessing in 0:00:09.925142 on 30 processors
 got temps
+LocDic Pollywog: Finished multiprocessing in 0:00:11.125813 on 30 processors
+got dwpt
+LocDic Pollywog: Finished multiprocessing in 0:00:09.061879 on 30 processors
+got wind
+LocDic Pollywog: Finished multiprocessing in 0:00:06.818040 on 30 processors
+got gust
