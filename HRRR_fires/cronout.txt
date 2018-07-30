@@ -1,22 +1,25 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-22.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-07-30.txt
 Retrieved fires from Active Fire Mapping Program
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-22.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-07-30.txt
 Retrieved fires from Active Fire Mapping Program
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180622/OR_ABI-L2-MCMIPC-M3_G16_s20181732127259_e20181732130032_c20181732130143.nc
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111927215_e20182111929588_c20182111930093.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2018-06-22 21:28:44.630677
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180622/OR_ABI-L2-MCMIPC-M3_G16_s20181732127259_e20181732130032_c20181732130143.nc
-32.224 -122.571 48.466 -103.699
+File date: 2018-07-30 19:28:40.174968
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111927215_e20182111929588_c20182111930093.nc
+38.361 -125.36 46.176 -108.688
+
+
+ Plot scatter points
 Downloaded the most recent active fire perimeters.
-Local DATE: 2018-06-22 15:41:42.403067
-  UTC DATE: 2018-06-22 20:00:00
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-06-22.txt
+Local DATE: 2018-07-30 13:40:58.134917
+  UTC DATE: 2018-07-30 18:00:00
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-07-30.txt
 Retrieved fires from Active Fire Mapping Program
-There are 9 large fires.
+There are 12 large fires.
  >> Dowloading tempfile: ./temp_hrrr_2018010100_f00_VGT.grib2
 Oh, good, you requested a date that should be on Pando.
 GRIB2 File: https://pando-rgw01.chpc.utah.edu/hrrr/sfc/20180101/hrrr.t00z.wrfsfcf00.grib2
@@ -25,29 +28,1687 @@ GRIB2 File: https://pando-rgw01.chpc.utah.edu/hrrr/sfc/20180101/hrrr.t00z.wrfsfc
  >> Matched a variable:  78:49446640:d=2018010100:VGTYP:surface:anl
 
  >> Byte Range: 49446640 50309774
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/MILEPOST_TWENTY_TWO/Landuse.png
-created landuse maps for MILEPOST TWENTY TWO
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/UPPER_COLONY/Landuse.png
-created landuse maps for UPPER COLONY
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/TRAIL_MOUNTAIN/Landuse.png
-created landuse maps for TRAIL MOUNTAIN
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/BUZZARD/Landuse.png
-created landuse maps for BUZZARD
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/BADGER_CREEK/Landuse.png
-created landuse maps for BADGER CREEK
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/416/Landuse.png
-created landuse maps for 416
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/BURRO/Landuse.png
-created landuse maps for BURRO
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/WILLOW_CREEK/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/Landuse.png
+created landuse maps for KLONDIKE
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/Landuse.png
+created landuse maps for DIXIE
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/Landuse.png
+created landuse maps for GOOSE CREEK
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/Landuse.png
+created landuse maps for CEDAR MOUNTAIN ONE
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/Landuse.png
+created landuse maps for NATCHEZ
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/Landuse.png
+created landuse maps for PERRY
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/Landuse.png
 created landuse maps for WILLOW CREEK
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-06-22/2000/BOXCAR_0410_RN/Landuse.png
-created landuse maps for BOXCAR 0410 RN
-LocDic Pollywog: Finished multiprocessing in 0:00:09.925142 on 30 processors
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/Landuse.png
+created landuse maps for GRASSY RIDGE
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/Landuse.png
+created landuse maps for BIG GRASSY
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/Landuse.png
+created landuse maps for SOUTH UMPQUA COMPLEX
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/Landuse.png
+created landuse maps for MESA
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/Landuse.png
+created landuse maps for BRUNEAU
+LocDic Pollywog: Finished multiprocessing in 0:00:04.252908 on 30 processors
 got temps
-LocDic Pollywog: Finished multiprocessing in 0:00:11.125813 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.229508 on 30 processors
 got dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:09.061879 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:16.544617 on 30 processors
 got wind
-LocDic Pollywog: Finished multiprocessing in 0:00:06.818040 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.193906 on 30 processors
 got gust
+1:0:d=2018073018:UGRD:10 m above ground:7 hour fcst:
+2:1187811:d=2018073018:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:14 hour fcst:
+2:1305303:d=2018073018:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:11 hour fcst:
+2:1273129:d=2018073018:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:4 hour fcst:
+2:1231569:d=2018073018:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:12 hour fcst:
+2:1288006:d=2018073018:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:18 hour fcst:
+2:1306226:d=2018073018:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:8 hour fcst:
+2:1178920:d=2018073018:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:16 hour fcst:
+2:1318065:d=2018073018:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:10 hour fcst:
+2:1250039:d=2018073018:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:1 hour fcst:
+2:1166504:d=2018073018:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:9 hour fcst:
+2:1212829:d=2018073018:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:13 hour fcst:
+2:1297808:d=2018073018:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:anl:
+2:1068605:d=2018073018:VGRD:10 m above ground:anl:
+1:0:d=2018073018:UGRD:10 m above ground:3 hour fcst:
+2:1227632:d=2018073018:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:15 hour fcst:
+2:1311371:d=2018073018:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:17 hour fcst:
+2:1335995:d=2018073018:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:5 hour fcst:
+2:1235965:d=2018073018:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:2 hour fcst:
+2:1204664:d=2018073018:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:6 hour fcst:
+2:1203788:d=2018073018:VGRD:10 m above ground:6 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:09.422571 on 30 processors
+got U and V wind vectors
+1:0:d=2018073018:UGRD:10 m above ground:anl:
+2:1068605:d=2018073018:VGRD:10 m above ground:anl:
+1:0:d=2018073018:UGRD:10 m above ground:1 hour fcst:
+2:1166504:d=2018073018:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:2 hour fcst:
+2:1204664:d=2018073018:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:3 hour fcst:
+2:1227632:d=2018073018:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:4 hour fcst:
+2:1231569:d=2018073018:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018073018:UGRD:10 m above ground:5 hour fcst:
+2:1235965:d=2018073018:VGRD:10 m above ground:5 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:03.422082 on 30 processors
+got prec
+making permenant figure elements...
+finding fire perimeter patches for KLONDIKE fire... Done!
+finding fire perimeter patches for DIXIE fire... Done!
+finding fire perimeter patches for GOOSE CREEK fire... Done!
+finding fire perimeter patches for CEDAR MOUNTAIN ONE fire... Done!
+finding fire perimeter patches for NATCHEZ fire... Done!
+finding fire perimeter patches for PERRY fire... Done!
+finding fire perimeter patches for WILLOW CREEK fire... Done!
+finding fire perimeter patches for GRASSY RIDGE fire... Done!
+finding fire perimeter patches for BIG GRASSY fire... Done!
+finding fire perimeter patches for SOUTH UMPQUA COMPLEX fire... Done!
+finding fire perimeter patches for MESA fire... Done!
+finding fire perimeter patches for BRUNEAU fire... Done!
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f00_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf00.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018073018:REFC:entire atmosphere:anl:
+
+ >> Byte Range: 0 387547
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f00_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf00.grib2.idx
+
+ >> Matched a variable:  71:40565781:d=2018073018:UGRD:10 m above ground:anl:
+
+ >> Byte Range: 40565781 42644613
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f00_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf00.grib2.idx
+
+ >> Matched a variable:  73:42644614:d=2018073018:WIND:10 m above ground:0-0 day max fcst:
+
+ >> Byte Range: 42644614 43698747
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f00_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf00.grib2.idx
+
+ >> Matched a variable:  8:3009848:d=2018073018:GUST:surface:anl:
+
+ >> Byte Range: 3009848 4034556
+
+--> Working on: KLONDIKE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/f00.png
+
+--> Working on: DIXIE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/f00.png
+
+--> Working on: GOOSE CREEK 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/f00.png
+
+--> Working on: CEDAR MOUNTAIN ONE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/f00.png
+
+--> Working on: NATCHEZ 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/f00.png
+
+--> Working on: PERRY 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/f00.png
+
+--> Working on: WILLOW CREEK 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/f00.png
+
+--> Working on: GRASSY RIDGE 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/f00.png
+
+--> Working on: BIG GRASSY 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/f00.png
+
+--> Working on: SOUTH UMPQUA COMPLEX 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/f00.png
+
+--> Working on: MESA 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/f00.png
+
+--> Working on: BRUNEAU 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/f00.png
+Finished: 0
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f01_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018073018:REFC:entire atmosphere:1 hour fcst:
+
+ >> Byte Range: 0 368535
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f01_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  71:49838976:d=2018073018:UGRD:10 m above ground:1 hour fcst:
+
+ >> Byte Range: 49838976 52111001
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f01_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  73:52111002:d=2018073018:WIND:10 m above ground:0-1 hour max fcst:
+
+ >> Byte Range: 52111002 53241770
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f01_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  8:2799389:d=2018073018:GUST:surface:1 hour fcst:
+
+ >> Byte Range: 2799389 3912242
+
+--> Working on: KLONDIKE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/f01.png
+
+--> Working on: DIXIE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/f01.png
+
+--> Working on: GOOSE CREEK 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/f01.png
+
+--> Working on: CEDAR MOUNTAIN ONE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/f01.png
+
+--> Working on: NATCHEZ 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/f01.png
+
+--> Working on: PERRY 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/f01.png
+
+--> Working on: WILLOW CREEK 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/f01.png
+
+--> Working on: GRASSY RIDGE 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/f01.png
+
+--> Working on: BIG GRASSY 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/f01.png
+
+--> Working on: SOUTH UMPQUA COMPLEX 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/f01.png
+
+--> Working on: MESA 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/f01.png
+
+--> Working on: BRUNEAU 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/f01.png
+Finished: 1
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f02_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018073018:REFC:entire atmosphere:2 hour fcst:
+
+ >> Byte Range: 0 492260
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f02_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  71:50686010:d=2018073018:UGRD:10 m above ground:2 hour fcst:
+
+ >> Byte Range: 50686010 53035051
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f02_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  73:53035052:d=2018073018:WIND:10 m above ground:1-2 hour max fcst:
+
+ >> Byte Range: 53035052 54207276
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f02_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  8:3293994:d=2018073018:GUST:surface:2 hour fcst:
+
+ >> Byte Range: 3293994 4469463
+
+--> Working on: KLONDIKE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/f02.png
+
+--> Working on: DIXIE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/f02.png
+
+--> Working on: GOOSE CREEK 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/f02.png
+
+--> Working on: CEDAR MOUNTAIN ONE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/f02.png
+
+--> Working on: NATCHEZ 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/f02.png
+
+--> Working on: PERRY 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/f02.png
+
+--> Working on: WILLOW CREEK 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/f02.png
+
+--> Working on: GRASSY RIDGE 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/f02.png
+
+--> Working on: BIG GRASSY 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/f02.png
+
+--> Working on: SOUTH UMPQUA COMPLEX 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/f02.png
+
+--> Working on: MESA 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/f02.png
+
+--> Working on: BRUNEAU 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/f02.png
+Finished: 2
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f03_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018073018:REFC:entire atmosphere:3 hour fcst:
+
+ >> Byte Range: 0 560705
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f03_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  71:52128893:d=2018073018:UGRD:10 m above ground:3 hour fcst:
+
+ >> Byte Range: 52128893 54522698
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f03_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  73:54522699:d=2018073018:WIND:10 m above ground:2-3 hour max fcst:
+
+ >> Byte Range: 54522699 55722890
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f03_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  8:3542670:d=2018073018:GUST:surface:3 hour fcst:
+
+ >> Byte Range: 3542670 4751852
+
+--> Working on: KLONDIKE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/f03.png
+
+--> Working on: DIXIE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/f03.png
+
+--> Working on: GOOSE CREEK 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/f03.png
+
+--> Working on: CEDAR MOUNTAIN ONE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/f03.png
+
+--> Working on: NATCHEZ 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/f03.png
+
+--> Working on: PERRY 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/f03.png
+
+--> Working on: WILLOW CREEK 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/f03.png
+
+--> Working on: GRASSY RIDGE 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/f03.png
+
+--> Working on: BIG GRASSY 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/f03.png
+
+--> Working on: SOUTH UMPQUA COMPLEX 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/f03.png
+
+--> Working on: MESA 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/f03.png
+
+--> Working on: BRUNEAU 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/f03.png
+Finished: 3
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f04_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018073018:REFC:entire atmosphere:4 hour fcst:
+
+ >> Byte Range: 0 591858
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f04_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  71:53018637:d=2018073018:UGRD:10 m above ground:4 hour fcst:
+
+ >> Byte Range: 53018637 55422375
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f04_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  73:55422376:d=2018073018:WIND:10 m above ground:3-4 hour max fcst:
+
+ >> Byte Range: 55422376 56636760
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f04_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  8:3679811:d=2018073018:GUST:surface:4 hour fcst:
+
+ >> Byte Range: 3679811 4885319
+
+--> Working on: KLONDIKE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/f04.png
+
+--> Working on: DIXIE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/f04.png
+
+--> Working on: GOOSE CREEK 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/f04.png
+
+--> Working on: CEDAR MOUNTAIN ONE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/f04.png
+
+--> Working on: NATCHEZ 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/f04.png
+
+--> Working on: PERRY 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/f04.png
+
+--> Working on: WILLOW CREEK 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/f04.png
+
+--> Working on: GRASSY RIDGE 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/f04.png
+
+--> Working on: BIG GRASSY 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/f04.png
+
+--> Working on: SOUTH UMPQUA COMPLEX 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/f04.png
+
+--> Working on: MESA 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/f04.png
+
+--> Working on: BRUNEAU 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/f04.png
+Finished: 4
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f05_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018073018:REFC:entire atmosphere:5 hour fcst:
+
+ >> Byte Range: 0 601115
+ _______________________________________________________________
+ !!   Run Date Requested : 2018-07-30 18:00:00 F05
+ !! Valid Date Requested : 2018-07-30 23:00:00
+ !!     Current UTC time : 2018-07-30 19:49:16.372895
+ !! ------------------------------------------------------------
+ !! ERROR downloading GRIB2: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2
+ !! Is the variable right? REFC:entire atmosphere
+ !! Does the .idx file exist? http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2.idx
+ ---------------------------------------------------------------
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f05_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  71:53183986:d=2018073018:UGRD:10 m above ground:5 hour fcst:
+
+ >> Byte Range: 53183986 55585286
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f05_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  73:55585287:d=2018073018:WIND:10 m above ground:4-5 hour max fcst:
+
+ >> Byte Range: 55585287 56796922
+ >> Dowloading tempfile: ./temp_hrrr_2018073018_f05_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20180730/conus/hrrr.t18z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  8:3671926:d=2018073018:GUST:surface:5 hour fcst:
+
+ >> Byte Range: 3671926 4891309
+
+--> Working on: KLONDIKE 5
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2018-07-30.txt
+Retrieved fires from Active Fire Mapping Program
+There are 12 large fires.
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111807215_e20182111809588_c20182111810098.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:08:40.165753
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111807215_e20182111809588_c20182111810098.nc
+2018-07-30 13:50:00.819017
+0:00:00.676091 ABI Blend
+0:00:00.697705 GLM
+0:00:06.201222 map elements
+0:00:06.201546 labels
+0:00:40.786686 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G07
+2018-07-30 13:50:41.685953
+0:00:00.487035 ABI Blend
+0:00:00.498577 GLM
+0:00:05.897482 map elements
+0:00:05.897804 labels
+0:00:39.316683 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G07
+2018-07-30 13:51:21.077878
+0:00:00.452959 ABI Blend
+0:00:00.464107 GLM
+0:00:06.000658 map elements
+0:00:06.000953 labels
+0:00:38.981959 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G07
+2018-07-30 13:52:00.134870
+0:00:00.480255 ABI Blend
+0:00:00.491402 GLM
+0:00:06.591227 map elements
+0:00:06.591555 labels
+0:00:39.821370 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G07
+2018-07-30 13:52:40.031813
+0:00:00.476583 ABI Blend
+0:00:00.487685 GLM
+0:00:06.998211 map elements
+0:00:06.998548 labels
+0:00:39.876426 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G07
+2018-07-30 13:53:19.983750
+0:00:00.483745 ABI Blend
+0:00:00.494894 GLM
+0:00:06.935492 map elements
+0:00:06.935808 labels
+0:00:40.049902 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G07
+2018-07-30 13:54:00.109875
+0:00:00.480943 ABI Blend
+0:00:00.492085 GLM
+0:00:08.141720 map elements
+0:00:08.142037 labels
+0:00:41.309030 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G07
+2018-07-30 13:54:41.494790
+0:00:00.476811 ABI Blend
+0:00:00.488099 GLM
+0:00:07.600950 map elements
+0:00:07.601268 labels
+0:00:40.633667 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G07
+2018-07-30 13:55:22.204106
+0:00:00.714157 ABI Blend
+0:00:00.725317 GLM
+0:00:08.644698 map elements
+0:00:08.645005 labels
+0:00:41.845750 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G07
+2018-07-30 13:56:04.126105
+0:00:00.478359 ABI Blend
+0:00:00.489538 GLM
+0:00:08.656105 map elements
+0:00:08.656407 labels
+0:00:41.616157 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G07
+2018-07-30 13:56:45.817993
+0:00:00.477875 ABI Blend
+0:00:00.489002 GLM
+0:00:09.509392 map elements
+0:00:09.509724 labels
+0:00:42.369125 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G07
+2018-07-30 13:57:28.263361
+0:00:00.474670 ABI Blend
+0:00:00.485815 GLM
+0:00:09.010618 map elements
+0:00:09.010919 labels
+0:00:42.190877 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G07
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111847215_e20182111849588_c20182111850100.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:48:40.171304
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111847215_e20182111849588_c20182111850100.nc
+2018-07-30 13:50:03.059654
+0:00:00.447490 ABI Blend
+0:00:00.461717 GLM
+0:00:05.561456 map elements
+0:00:05.561784 labels
+0:00:38.618431 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G47
+2018-07-30 13:50:41.758439
+0:00:00.444015 ABI Blend
+0:00:00.458242 GLM
+0:00:05.804142 map elements
+0:00:05.804465 labels
+0:00:39.016039 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G47
+2018-07-30 13:51:20.851527
+0:00:00.445529 ABI Blend
+0:00:00.459570 GLM
+0:00:06.145640 map elements
+0:00:06.145955 labels
+0:00:38.938388 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G47
+2018-07-30 13:51:59.866235
+0:00:00.452485 ABI Blend
+0:00:00.466906 GLM
+0:00:06.787335 map elements
+0:00:06.787659 labels
+0:00:39.660449 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G47
+2018-07-30 13:52:39.603375
+0:00:00.441443 ABI Blend
+0:00:00.455977 GLM
+0:00:07.181074 map elements
+0:00:07.181392 labels
+0:00:40.190707 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G47
+2018-07-30 13:53:19.870508
+0:00:00.441848 ABI Blend
+0:00:00.456050 GLM
+0:00:07.148437 map elements
+0:00:07.148757 labels
+0:00:40.187488 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G47
+2018-07-30 13:54:00.136251
+0:00:00.452846 ABI Blend
+0:00:00.467109 GLM
+0:00:08.361889 map elements
+0:00:08.362219 labels
+0:00:41.258406 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G47
+2018-07-30 13:54:41.471817
+0:00:00.443465 ABI Blend
+0:00:00.458083 GLM
+0:00:07.913640 map elements
+0:00:07.913967 labels
+0:00:40.658493 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G47
+2018-07-30 13:55:22.207741
+0:00:00.679070 ABI Blend
+0:00:00.693733 GLM
+0:00:08.990128 map elements
+0:00:08.990456 labels
+0:00:41.988824 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G47
+2018-07-30 13:56:04.274418
+0:00:00.451332 ABI Blend
+0:00:00.465255 GLM
+0:00:09.076104 map elements
+0:00:09.076420 labels
+0:00:41.687195 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G47
+2018-07-30 13:56:46.038769
+0:00:00.440957 ABI Blend
+0:00:00.455329 GLM
+0:00:09.933312 map elements
+0:00:09.933621 labels
+0:00:42.573322 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G47
+2018-07-30 13:57:28.689998
+0:00:00.447392 ABI Blend
+0:00:00.462047 GLM
+0:00:09.507185 map elements
+0:00:09.507520 labels
+0:00:42.380133 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G47
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111842215_e20182111844588_c20182111845093.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:43:40.166209
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111842215_e20182111844588_c20182111845093.nc
+2018-07-30 13:50:02.399330
+0:00:00.443402 ABI Blend
+0:00:00.457642 GLM
+0:00:05.609432 map elements
+0:00:05.609764 labels
+0:00:39.076264 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G42
+2018-07-30 13:50:41.551754
+0:00:00.444159 ABI Blend
+0:00:00.457711 GLM
+0:00:05.838043 map elements
+0:00:05.838361 labels
+0:00:38.944074 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G42
+2018-07-30 13:51:20.571252
+0:00:00.439251 ABI Blend
+0:00:00.453381 GLM
+0:00:06.140181 map elements
+0:00:06.140502 labels
+0:00:39.229071 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G42
+2018-07-30 13:51:59.876230
+0:00:00.449635 ABI Blend
+0:00:00.462997 GLM
+0:00:06.789275 map elements
+0:00:06.789602 labels
+0:00:39.881573 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G42
+2018-07-30 13:52:39.838510
+0:00:00.441977 ABI Blend
+0:00:00.455394 GLM
+0:00:07.180833 map elements
+0:00:07.181172 labels
+0:00:40.110560 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G42
+2018-07-30 13:53:20.030772
+0:00:00.447054 ABI Blend
+0:00:00.460438 GLM
+0:00:07.135290 map elements
+0:00:07.135598 labels
+0:00:40.203760 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G42
+2018-07-30 13:54:00.319174
+0:00:00.454154 ABI Blend
+0:00:00.468430 GLM
+0:00:08.314929 map elements
+0:00:08.315236 labels
+0:00:41.379196 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G42
+2018-07-30 13:54:41.777099
+0:00:00.443329 ABI Blend
+0:00:00.456737 GLM
+0:00:07.856583 map elements
+0:00:07.856924 labels
+0:00:40.664889 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G42
+2018-07-30 13:55:22.521544
+0:00:00.689680 ABI Blend
+0:00:00.703949 GLM
+0:00:08.968235 map elements
+0:00:08.968570 labels
+0:00:41.675058 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G42
+2018-07-30 13:56:04.274344
+0:00:00.451410 ABI Blend
+0:00:00.464839 GLM
+0:00:09.055850 map elements
+0:00:09.056157 labels
+0:00:41.833540 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G42
+2018-07-30 13:56:46.191252
+0:00:00.442581 ABI Blend
+0:00:00.456800 GLM
+0:00:09.918373 map elements
+0:00:09.918695 labels
+0:00:42.445217 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G42
+2018-07-30 13:57:28.714022
+0:00:00.446931 ABI Blend
+0:00:00.460309 GLM
+0:00:09.484584 map elements
+0:00:09.484925 labels
+0:00:42.370494 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G42
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111832215_e20182111834588_c20182111835105.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:33:40.166809
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111832215_e20182111834588_c20182111835105.nc
+2018-07-30 13:50:03.795272
+0:00:00.458816 ABI Blend
+0:00:00.472513 GLM
+0:00:05.457120 map elements
+0:00:05.457443 labels
+0:00:38.601696 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G32
+2018-07-30 13:50:42.476664
+0:00:00.439604 ABI Blend
+0:00:00.452856 GLM
+0:00:05.704503 map elements
+0:00:05.704810 labels
+0:00:39.268231 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G32
+2018-07-30 13:51:21.823227
+0:00:00.447668 ABI Blend
+0:00:00.461107 GLM
+0:00:06.071588 map elements
+0:00:06.071903 labels
+0:00:38.947750 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G32
+2018-07-30 13:52:00.847547
+0:00:00.451359 ABI Blend
+0:00:00.465130 GLM
+0:00:06.738386 map elements
+0:00:06.738687 labels
+0:00:39.794458 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G32
+2018-07-30 13:52:40.722933
+0:00:00.448559 ABI Blend
+0:00:00.463332 GLM
+0:00:07.121019 map elements
+0:00:07.121326 labels
+0:00:39.925474 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G32
+2018-07-30 13:53:20.726092
+0:00:00.453468 ABI Blend
+0:00:00.468042 GLM
+0:00:07.120076 map elements
+0:00:07.120394 labels
+0:00:40.172655 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G32
+2018-07-30 13:54:00.982944
+0:00:00.464202 ABI Blend
+0:00:00.478469 GLM
+0:00:08.235050 map elements
+0:00:08.235366 labels
+0:00:41.285675 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G32
+2018-07-30 13:54:42.350153
+0:00:00.451624 ABI Blend
+0:00:00.465711 GLM
+0:00:07.875045 map elements
+0:00:07.875351 labels
+0:00:40.726877 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G32
+2018-07-30 13:55:23.164070
+0:00:00.689989 ABI Blend
+0:00:00.703886 GLM
+0:00:08.923779 map elements
+0:00:08.924100 labels
+0:00:41.749495 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G32
+2018-07-30 13:56:04.992199
+0:00:00.457756 ABI Blend
+0:00:00.472083 GLM
+0:00:09.046827 map elements
+0:00:09.047139 labels
+0:00:41.835582 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G32
+2018-07-30 13:56:46.914112
+0:00:00.454438 ABI Blend
+0:00:00.468354 GLM
+0:00:09.982425 map elements
+0:00:09.982743 labels
+0:00:42.591609 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G32
+2018-07-30 13:57:29.593769
+0:00:00.455968 ABI Blend
+0:00:00.470592 GLM
+0:00:09.486640 map elements
+0:00:09.486948 labels
+0:00:42.276927 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G32
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111817215_e20182111819588_c20182111820100.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:18:40.165642
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111817215_e20182111819588_c20182111820100.nc
+2018-07-30 13:50:04.252533
+0:00:00.476782 ABI Blend
+0:00:00.488926 GLM
+0:00:05.462559 map elements
+0:00:05.462889 labels
+0:00:38.775364 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G17
+2018-07-30 13:50:43.107837
+0:00:00.442510 ABI Blend
+0:00:00.454620 GLM
+0:00:05.733484 map elements
+0:00:05.733799 labels
+0:00:39.029607 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G17
+2018-07-30 13:51:22.224719
+0:00:00.451576 ABI Blend
+0:00:00.462943 GLM
+0:00:06.075457 map elements
+0:00:06.075768 labels
+0:00:39.034331 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G17
+2018-07-30 13:52:01.341894
+0:00:00.454238 ABI Blend
+0:00:00.466243 GLM
+0:00:06.696832 map elements
+0:00:06.697151 labels
+0:00:39.567683 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G17
+2018-07-30 13:52:40.994554
+0:00:00.450565 ABI Blend
+0:00:00.462661 GLM
+0:00:07.120980 map elements
+0:00:07.121289 labels
+0:00:39.916553 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G17
+2018-07-30 13:53:20.994216
+0:00:00.455493 ABI Blend
+0:00:00.467258 GLM
+0:00:07.106501 map elements
+0:00:07.106829 labels
+0:00:40.166740 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G17
+2018-07-30 13:54:01.247216
+0:00:00.470403 ABI Blend
+0:00:00.482744 GLM
+0:00:08.285443 map elements
+0:00:08.285801 labels
+0:00:41.574466 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G17
+2018-07-30 13:54:42.903688
+0:00:00.456002 ABI Blend
+0:00:00.467940 GLM
+0:00:07.949897 map elements
+0:00:07.950228 labels
+0:00:41.003276 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G17
+2018-07-30 13:55:23.994580
+0:00:00.715102 ABI Blend
+0:00:00.727349 GLM
+0:00:08.915132 map elements
+0:00:08.915460 labels
+0:00:41.827808 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G17
+2018-07-30 13:56:05.917862
+0:00:00.471371 ABI Blend
+0:00:00.483463 GLM
+0:00:09.153363 map elements
+0:00:09.153668 labels
+0:00:42.154486 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G17
+2018-07-30 13:56:48.162832
+0:00:00.476875 ABI Blend
+0:00:00.489977 GLM
+0:00:10.098180 map elements
+0:00:10.098462 labels
+0:00:42.964384 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G17
+2018-07-30 13:57:31.217700
+0:00:00.464204 ABI Blend
+0:00:00.476981 GLM
+0:00:09.446943 map elements
+0:00:09.447256 labels
+0:00:42.212684 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G17
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111852215_e20182111854588_c20182111855112.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:53:40.170201
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111852215_e20182111854588_c20182111855112.nc
+2018-07-30 13:50:04.528312
+0:00:00.462046 ABI Blend
+0:00:00.476798 GLM
+0:00:05.429980 map elements
+0:00:05.430299 labels
+0:00:38.856221 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G52
+2018-07-30 13:50:43.465499
+0:00:00.445573 ABI Blend
+0:00:00.460177 GLM
+0:00:05.715767 map elements
+0:00:05.716070 labels
+0:00:38.851487 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G52
+2018-07-30 13:51:22.398014
+0:00:00.460449 ABI Blend
+0:00:00.475570 GLM
+0:00:06.089989 map elements
+0:00:06.090295 labels
+0:00:39.436803 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G52
+2018-07-30 13:52:01.918580
+0:00:00.455480 ABI Blend
+0:00:00.469633 GLM
+0:00:06.667027 map elements
+0:00:06.667346 labels
+0:00:40.034539 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G52
+2018-07-30 13:52:42.040266
+0:00:00.463212 ABI Blend
+0:00:00.477932 GLM
+0:00:07.109389 map elements
+0:00:07.109708 labels
+0:00:40.038399 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G52
+2018-07-30 13:53:22.155603
+0:00:00.465741 ABI Blend
+0:00:00.480899 GLM
+0:00:07.094900 map elements
+0:00:07.095218 labels
+0:00:40.225557 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G52
+2018-07-30 13:54:02.464848
+0:00:00.463285 ABI Blend
+0:00:00.477894 GLM
+0:00:08.213567 map elements
+0:00:08.213864 labels
+0:00:41.225226 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G52
+2018-07-30 13:54:43.775468
+0:00:00.468552 ABI Blend
+0:00:00.483515 GLM
+0:00:07.878365 map elements
+0:00:07.878669 labels
+0:00:40.703642 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G52
+2018-07-30 13:55:24.565999
+0:00:00.730874 ABI Blend
+0:00:00.746413 GLM
+0:00:08.902979 map elements
+0:00:08.903280 labels
+0:00:41.829061 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G52
+2018-07-30 13:56:06.484533
+0:00:00.469616 ABI Blend
+0:00:00.484923 GLM
+0:00:09.027142 map elements
+0:00:09.027458 labels
+0:00:41.662045 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G52
+2018-07-30 13:56:48.235465
+0:00:00.473902 ABI Blend
+0:00:00.489133 GLM
+0:00:10.011983 map elements
+0:00:10.012294 labels
+0:00:43.054293 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G52
+2018-07-30 13:57:31.378826
+0:00:00.468140 ABI Blend
+0:00:00.483291 GLM
+0:00:09.466376 map elements
+0:00:09.466715 labels
+0:00:43.492385 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G52
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111837215_e20182111839588_c20182111840102.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:38:40.168196
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111837215_e20182111839588_c20182111840102.nc
+2018-07-30 13:50:04.905764
+0:00:00.496617 ABI Blend
+0:00:00.511345 GLM
+0:00:05.683643 map elements
+0:00:05.683971 labels
+0:00:40.109087 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G37
+2018-07-30 13:50:45.103323
+0:00:00.585059 ABI Blend
+0:00:00.600147 GLM
+0:00:06.051036 map elements
+0:00:06.051330 labels
+0:00:39.171286 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G37
+2018-07-30 13:51:24.358572
+0:00:00.534808 ABI Blend
+0:00:00.549411 GLM
+0:00:06.137229 map elements
+0:00:06.137530 labels
+0:00:39.116607 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G37
+2018-07-30 13:52:03.564838
+0:00:00.568404 ABI Blend
+0:00:00.583319 GLM
+0:00:06.803237 map elements
+0:00:06.803513 labels
+0:00:39.692274 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G37
+2018-07-30 13:52:43.336979
+0:00:00.552039 ABI Blend
+0:00:00.566384 GLM
+0:00:07.327790 map elements
+0:00:07.328095 labels
+0:00:40.089315 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G37
+2018-07-30 13:53:23.513038
+0:00:00.531900 ABI Blend
+0:00:00.546252 GLM
+0:00:07.252769 map elements
+0:00:07.253060 labels
+0:00:40.361294 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G37
+2018-07-30 13:54:03.964631
+0:00:00.556261 ABI Blend
+0:00:00.571596 GLM
+0:00:08.427930 map elements
+0:00:08.428251 labels
+0:00:41.443022 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G37
+2018-07-30 13:54:45.489519
+0:00:00.530771 ABI Blend
+0:00:00.544802 GLM
+0:00:08.035718 map elements
+0:00:08.036023 labels
+0:00:40.810631 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G37
+2018-07-30 13:55:26.378508
+0:00:00.796231 ABI Blend
+0:00:00.811294 GLM
+0:00:09.186346 map elements
+0:00:09.186640 labels
+0:00:42.224819 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G37
+2018-07-30 13:56:08.692615
+0:00:00.536812 ABI Blend
+0:00:00.550829 GLM
+0:00:09.118960 map elements
+0:00:09.119270 labels
+0:00:41.849850 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G37
+2018-07-30 13:56:50.626061
+0:00:00.524330 ABI Blend
+0:00:00.538501 GLM
+0:00:10.103897 map elements
+0:00:10.104190 labels
+0:00:42.801634 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G37
+2018-07-30 13:57:33.511824
+0:00:00.522188 ABI Blend
+0:00:00.536574 GLM
+0:00:09.634109 map elements
+0:00:09.634407 labels
+0:00:42.447277 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G37
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111812215_e20182111814588_c20182111815092.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:13:40.167346
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111812215_e20182111814588_c20182111815092.nc
+2018-07-30 13:50:03.880814
+0:00:00.592677 ABI Blend
+0:00:00.605946 GLM
+0:00:05.881061 map elements
+0:00:05.881392 labels
+0:00:40.465648 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G12
+2018-07-30 13:50:44.431676
+0:00:00.524563 ABI Blend
+0:00:00.537039 GLM
+0:00:06.072045 map elements
+0:00:06.072353 labels
+0:00:39.234881 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G12
+2018-07-30 13:51:23.746979
+0:00:00.503477 ABI Blend
+0:00:00.515567 GLM
+0:00:06.232010 map elements
+0:00:06.232313 labels
+0:00:39.219035 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G12
+2018-07-30 13:52:03.043746
+0:00:00.479685 ABI Blend
+0:00:00.491936 GLM
+0:00:06.824902 map elements
+0:00:06.825209 labels
+0:00:39.931530 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G12
+2018-07-30 13:52:43.052431
+0:00:00.521913 ABI Blend
+0:00:00.533954 GLM
+0:00:07.306799 map elements
+0:00:07.307111 labels
+0:00:40.210950 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G12
+2018-07-30 13:53:23.340346
+0:00:00.513362 ABI Blend
+0:00:00.525666 GLM
+0:00:07.201044 map elements
+0:00:07.201337 labels
+0:00:40.294627 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G12
+2018-07-30 13:54:03.716897
+0:00:00.523306 ABI Blend
+0:00:00.535696 GLM
+0:00:08.395773 map elements
+0:00:08.396081 labels
+0:00:41.685656 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G12
+2018-07-30 13:54:45.485008
+0:00:00.529271 ABI Blend
+0:00:00.541267 GLM
+0:00:08.017710 map elements
+0:00:08.018020 labels
+0:00:40.928546 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G12
+2018-07-30 13:55:26.502023
+0:00:00.798515 ABI Blend
+0:00:00.810692 GLM
+0:00:09.115745 map elements
+0:00:09.116051 labels
+0:00:41.941737 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G12
+2018-07-30 13:56:08.521278
+0:00:00.518186 ABI Blend
+0:00:00.530753 GLM
+0:00:09.142065 map elements
+0:00:09.142363 labels
+0:00:42.127909 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G12
+2018-07-30 13:56:50.734286
+0:00:00.527622 ABI Blend
+0:00:00.539372 GLM
+0:00:10.093741 map elements
+0:00:10.094043 labels
+0:00:42.820708 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G12
+2018-07-30 13:57:33.640639
+0:00:00.524587 ABI Blend
+0:00:00.535920 GLM
+0:00:09.625687 map elements
+0:00:09.625981 labels
+0:00:42.396365 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G12
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111802215_e20182111804588_c20182111805103.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:03:40.164521
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111802215_e20182111804588_c20182111805103.nc
+2018-07-30 13:50:04.394277
+0:00:00.580553 ABI Blend
+0:00:00.592661 GLM
+0:00:05.803007 map elements
+0:00:05.803338 labels
+0:00:40.324749 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G02
+2018-07-30 13:50:44.806193
+0:00:00.595227 ABI Blend
+0:00:00.607655 GLM
+0:00:06.129669 map elements
+0:00:06.129978 labels
+0:00:39.327699 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G02
+2018-07-30 13:51:24.228351
+0:00:00.473732 ABI Blend
+0:00:00.485585 GLM
+0:00:06.361767 map elements
+0:00:06.362076 labels
+0:00:39.281222 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G02
+2018-07-30 13:52:03.597184
+0:00:00.501000 ABI Blend
+0:00:00.512706 GLM
+0:00:07.021507 map elements
+0:00:07.021808 labels
+0:00:40.211626 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G02
+2018-07-30 13:52:43.891757
+0:00:00.494881 ABI Blend
+0:00:00.506422 GLM
+0:00:07.369012 map elements
+0:00:07.369320 labels
+0:00:40.279613 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G02
+2018-07-30 13:53:24.263816
+0:00:00.507164 ABI Blend
+0:00:00.519577 GLM
+0:00:07.244168 map elements
+0:00:07.244481 labels
+0:00:40.374109 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G02
+2018-07-30 13:54:04.729319
+0:00:00.498096 ABI Blend
+0:00:00.510564 GLM
+0:00:08.430769 map elements
+0:00:08.431070 labels
+0:00:42.080120 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G02
+2018-07-30 13:54:46.900536
+0:00:00.496395 ABI Blend
+0:00:00.508353 GLM
+0:00:07.907616 map elements
+0:00:07.907925 labels
+0:00:41.061890 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G02
+2018-07-30 13:55:28.063595
+0:00:00.798096 ABI Blend
+0:00:00.809765 GLM
+0:00:08.937258 map elements
+0:00:08.937569 labels
+0:00:42.090107 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G02
+2018-07-30 13:56:10.247291
+0:00:00.496869 ABI Blend
+0:00:00.509253 GLM
+0:00:08.888084 map elements
+0:00:08.888400 labels
+0:00:41.851922 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G02
+2018-07-30 13:56:52.206573
+0:00:00.503217 ABI Blend
+0:00:00.515370 GLM
+0:00:09.763297 map elements
+0:00:09.763602 labels
+0:00:42.618909 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G02
+2018-07-30 13:57:34.915256
+0:00:00.503874 ABI Blend
+0:00:00.516566 GLM
+0:00:09.170978 map elements
+0:00:09.171287 labels
+0:00:41.702535 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G02
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111857215_e20182111859588_c20182111900096.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:58:40.168028
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111857215_e20182111859588_c20182111900096.nc
+2018-07-30 13:50:03.935078
+0:00:00.625126 ABI Blend
+0:00:00.635144 GLM
+0:00:05.835136 map elements
+0:00:05.835452 labels
+0:00:40.310604 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G57
+2018-07-30 13:50:44.323694
+0:00:00.495280 ABI Blend
+0:00:00.504952 GLM
+0:00:06.051778 map elements
+0:00:06.052073 labels
+0:00:39.127196 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G57
+2018-07-30 13:51:23.526752
+0:00:00.482109 ABI Blend
+0:00:00.491325 GLM
+0:00:06.166478 map elements
+0:00:06.166775 labels
+0:00:39.834836 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G57
+2018-07-30 13:52:03.442870
+0:00:00.556959 ABI Blend
+0:00:00.566479 GLM
+0:00:06.816648 map elements
+0:00:06.816957 labels
+0:00:39.859705 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G57
+2018-07-30 13:52:43.383845
+0:00:00.542135 ABI Blend
+0:00:00.551548 GLM
+0:00:07.295216 map elements
+0:00:07.295513 labels
+0:00:40.291270 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G57
+2018-07-30 13:53:23.765612
+0:00:00.535687 ABI Blend
+0:00:00.545213 GLM
+0:00:07.161540 map elements
+0:00:07.161842 labels
+0:00:40.432829 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G57
+2018-07-30 13:54:04.292399
+0:00:00.565664 ABI Blend
+0:00:00.575164 GLM
+0:00:08.366407 map elements
+0:00:08.366704 labels
+0:00:41.675999 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G57
+2018-07-30 13:54:46.057364
+0:00:00.547060 ABI Blend
+0:00:00.556781 GLM
+0:00:07.983221 map elements
+0:00:07.983526 labels
+0:00:40.736642 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G57
+2018-07-30 13:55:26.885665
+0:00:00.811661 ABI Blend
+0:00:00.821215 GLM
+0:00:09.044440 map elements
+0:00:09.044738 labels
+0:00:41.959765 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G57
+2018-07-30 13:56:08.932993
+0:00:00.532807 ABI Blend
+0:00:00.542104 GLM
+0:00:09.120253 map elements
+0:00:09.120554 labels
+0:00:42.133820 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G57
+2018-07-30 13:56:51.156858
+0:00:00.525860 ABI Blend
+0:00:00.535189 GLM
+0:00:10.019854 map elements
+0:00:10.020160 labels
+0:00:42.925483 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G57
+2018-07-30 13:57:34.167459
+0:00:00.523149 ABI Blend
+0:00:00.532495 GLM
+0:00:09.625873 map elements
+0:00:09.626170 labels
+0:00:42.487887 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G57
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111822215_e20182111824588_c20182111825101.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:23:40.166504
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111822215_e20182111824588_c20182111825101.nc
+2018-07-30 13:50:04.248744
+0:00:00.607216 ABI Blend
+0:00:00.620392 GLM
+0:00:05.836690 map elements
+0:00:05.837022 labels
+0:00:40.440744 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G22
+2018-07-30 13:50:44.773917
+0:00:00.586976 ABI Blend
+0:00:00.600137 GLM
+0:00:06.101981 map elements
+0:00:06.102283 labels
+0:00:39.342747 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G22
+2018-07-30 13:51:24.198075
+0:00:00.525716 ABI Blend
+0:00:00.538521 GLM
+0:00:06.192783 map elements
+0:00:06.193087 labels
+0:00:39.139966 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G22
+2018-07-30 13:52:03.421676
+0:00:00.563351 ABI Blend
+0:00:00.576584 GLM
+0:00:06.946037 map elements
+0:00:06.946352 labels
+0:00:40.403750 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G22
+2018-07-30 13:52:43.922609
+0:00:00.536764 ABI Blend
+0:00:00.549488 GLM
+0:00:07.275642 map elements
+0:00:07.275945 labels
+0:00:40.503437 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G22
+2018-07-30 13:53:24.515616
+0:00:00.538336 ABI Blend
+0:00:00.551099 GLM
+0:00:07.210027 map elements
+0:00:07.210352 labels
+0:00:40.809723 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G22
+2018-07-30 13:54:05.421990
+0:00:00.532111 ABI Blend
+0:00:00.544876 GLM
+0:00:08.238378 map elements
+0:00:08.238677 labels
+0:00:41.481583 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G22
+2018-07-30 13:54:46.997717
+0:00:00.549952 ABI Blend
+0:00:00.562272 GLM
+0:00:07.891270 map elements
+0:00:07.891575 labels
+0:00:40.749409 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G22
+2018-07-30 13:55:27.837102
+0:00:00.826299 ABI Blend
+0:00:00.838456 GLM
+0:00:08.938878 map elements
+0:00:08.939181 labels
+0:00:41.753704 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G22
+2018-07-30 13:56:09.685529
+0:00:00.554004 ABI Blend
+0:00:00.566948 GLM
+0:00:09.056707 map elements
+0:00:09.057012 labels
+0:00:42.003833 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G22
+2018-07-30 13:56:51.776664
+0:00:00.568512 ABI Blend
+0:00:00.580981 GLM
+0:00:10.015914 map elements
+0:00:10.016209 labels
+0:00:42.790175 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G22
+2018-07-30 13:57:34.666891
+0:00:00.553357 ABI Blend
+0:00:00.566232 GLM
+0:00:09.555095 map elements
+0:00:09.555396 labels
+0:00:42.410161 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G22
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111827215_e20182111829588_c20182111830094.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-07-30 18:28:40.165102
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20180730/OR_ABI-L2-MCMIPC-M3_G16_s20182111827215_e20182111829588_c20182111830094.nc
+2018-07-30 13:50:04.306167
+0:00:00.596393 ABI Blend
+0:00:00.609586 GLM
+0:00:05.829925 map elements
+0:00:05.830257 labels
+0:00:40.756205 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/KLONDIKE/G27
+2018-07-30 13:50:45.147549
+0:00:00.583157 ABI Blend
+0:00:00.596050 GLM
+0:00:06.064838 map elements
+0:00:06.065140 labels
+0:00:39.241406 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/DIXIE/G27
+2018-07-30 13:51:24.476011
+0:00:00.545311 ABI Blend
+0:00:00.557565 GLM
+0:00:06.186904 map elements
+0:00:06.187205 labels
+0:00:39.183178 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GOOSE_CREEK/G27
+2018-07-30 13:52:03.750465
+0:00:00.556638 ABI Blend
+0:00:00.569010 GLM
+0:00:06.844135 map elements
+0:00:06.844448 labels
+0:00:39.912948 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/CEDAR_MOUNTAIN_ONE/G27
+2018-07-30 13:52:43.750765
+0:00:00.538406 ABI Blend
+0:00:00.551427 GLM
+0:00:07.271006 map elements
+0:00:07.271300 labels
+0:00:40.068770 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/NATCHEZ/G27
+2018-07-30 13:53:23.909818
+0:00:00.529447 ABI Blend
+0:00:00.541797 GLM
+0:00:07.201177 map elements
+0:00:07.201483 labels
+0:00:40.343128 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/PERRY/G27
+2018-07-30 13:54:04.340317
+0:00:00.569590 ABI Blend
+0:00:00.582238 GLM
+0:00:08.463457 map elements
+0:00:08.463756 labels
+0:00:41.687845 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/WILLOW_CREEK/G27
+2018-07-30 13:54:46.111287
+0:00:00.548805 ABI Blend
+0:00:00.561237 GLM
+0:00:07.999531 map elements
+0:00:07.999830 labels
+0:00:40.785806 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/GRASSY_RIDGE/G27
+2018-07-30 13:55:26.987860
+0:00:00.814670 ABI Blend
+0:00:00.826931 GLM
+0:00:09.122254 map elements
+0:00:09.122555 labels
+0:00:42.356854 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BIG_GRASSY/G27
+2018-07-30 13:56:09.433749
+0:00:00.554716 ABI Blend
+0:00:00.568239 GLM
+0:00:09.164823 map elements
+0:00:09.165130 labels
+0:00:42.110597 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/SOUTH_UMPQUA_COMPLEX/G27
+2018-07-30 13:56:51.641022
+0:00:00.566226 ABI Blend
+0:00:00.578925 GLM
+0:00:10.150978 map elements
+0:00:10.151290 labels
+0:00:43.198322 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/MESA/G27
+2018-07-30 13:57:34.926977
+0:00:00.555090 ABI Blend
+0:00:00.567043 GLM
+0:00:09.585909 map elements
+0:00:09.586211 labels
+0:00:42.789617 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-07-30/1800/BRUNEAU/G27

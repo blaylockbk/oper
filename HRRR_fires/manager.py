@@ -28,7 +28,7 @@ from BB_basemap.draw_maps import draw_CONUS_cyl_map
 from BB_GOES16.get_ABI import get_GOES16_truecolor, get_GOES16_firetemperature, file_nearest
 from BB_GOES16.get_GLM import get_GLM_files_for_ABI, accumulate_GLM
 
-def remove_old_fires(keep_days=5):
+def remove_old_fires(keep_days=10):
     """
     Remove the directories and images for three days ago.
     """
@@ -225,6 +225,7 @@ def draw_fires_on_map():
     m.drawcoastlines(linewidth=.25, zorder=5)
     m.drawcountries(linewidth=.2, zorder=5)
     
+    print "\n\n Plot scatter points"
     for F in location:
         x, y = m(location[F]['longitude'], location[F]['latitude'])
         m.scatter(x, y, s=location[F]['area']/300, c='orangered',edgecolors='none', zorder=10)

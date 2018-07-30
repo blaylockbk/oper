@@ -9,7 +9,7 @@ forecasted variables change between each successive forecast.
 2) Hovmoller Max in area
 """
 print "\n--------------------------------------------------------"
-print "  Working on the HRRR hovmollers GOLF (HRRR_hovmoller.py)"
+print "  Working on the HRRR hovmollers Red Flag (HRRR_hovmoller_fires_redflag.py)"
 print "--------------------------------------------------------\n"
 
 import matplotlib as mpl
@@ -69,13 +69,7 @@ spex = {'Wind Speed':{'HRRR var':'WIND:10 m',
                                   'units': '%',
                                   'cmap':'BrBG',
                                   'save':'RH',
-                                  'contour':range(0, 100, 10)},
-        #'Solar Radiation':{'HRRR var':'DSWRF:surface',
-        #                   'MW var':'solar_radiation',
-        #                   'units': r'W m$\mathregular{^{-2}}$',
-        #                   'cmap':'magma',
-        #                   'save':'SOL',
-        #                   'contour':range(300, 1000, 100)},
+                                  'contour':range(0, 100, 10)}
        }
 
 # For Hovmoller statistics, define the half box.
@@ -155,11 +149,6 @@ for stn in location.keys():
     ax1.set_yticks(range(0, 19, 3))
     ax1.axes.xaxis.set_ticklabels([])
     ax1.set_ylabel('HRRR Forecast Hour')
-    #
-    # HRRR hovmoller max (contour)
-    CS = ax1.contour(wind_hovmoller['valid_2d'], wind_hovmoller['fxx_2d'], RF_hovBoxMax-RF_hovCenter,
-                        colors='k', levels=[1])
-    plt.clabel(CS, inline=1, fontsize=10, fmt='%1.f')
     #
     ax1.grid()
     #
