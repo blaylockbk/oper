@@ -72,6 +72,7 @@ except:
 
 ## 2) Create Locations Dictionary
 ## 5) Get the HRRR data from NOMADS
+#DATE = datetime(2018, 8, 9, 12)
 DATE = datetime.utcnow() - timedelta(hours=1)
 DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
 
@@ -92,6 +93,8 @@ print "There are", len(location.keys()), "large fires."
 for l in location:
     if l == 'BRIANHEAD':
         location[l]['is MesoWest'] = 'TT047'
+    if l == 'COAL HOLLOW':
+        location[l]['is MesoWest'] = 'RDN'
 
 
 ## 3) Create map objects for each fire and store in dictionary.
@@ -317,14 +320,14 @@ for fxx in range(0, 19):
             photo_viewer = '/uufs/chpc.utah.edu/common/home/u0553130/public_html/Brian_Blaylock/photo_viewer/photo_viewer_fire.php'
             os.link(photo_viewer, SAVE+'photo_viewer_fire.php')
         # Title over map
-        if np.shape(H['value']) > 0:
+        if np.shape(H['value']) != ():
             figs[locName][1].set_title('UTC: %s' % (DATE+timedelta(hours=fxx)))
             figs[locName][2].set_title('       Run (UTC): %s f%02d\nValid (UTC): %s' % (H['anlys'].strftime('%Y %b %d, %H:%M'), fxx, H['valid'].strftime('%Y %b %d, %H:%M')))
         else:
             figs[locName][1].set_title('UTC: %s' % (DATE+timedelta(hours=fxx)))
             figs[locName][2].set_title('       Run (UTC): %s f%02d\nValid (UTC): %s' % ('NOT AVAILABLE, CHECK NOMADS FOR FILE', fxx, 'NOT AVAILABLE, CHECK NOMADS FOR FILE'))
         #
-        if np.shape(H['value']) > 0:
+        if np.shape(H['value']) != ():
             # Project on map
             X, Y = maps[locName](H['lon'], H['lat'])            # HRRR grid
             # Trim the data
