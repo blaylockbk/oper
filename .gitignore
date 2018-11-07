@@ -1,6 +1,9 @@
 .DS_Store
 Thumbs.db
 
+hrrr.status
+goes16.status
+hrrrGOES.status
 cronout.txt
 
 *.png
@@ -23,3 +26,4 @@ cronout.txt
 *.sbn
 *.xml
 *.sbx
+*.nfs*
