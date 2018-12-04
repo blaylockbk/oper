@@ -3,26 +3,23 @@ Got incident data from InciWeb: https://inciweb.nwcg.gov/feeds/rss/incidents/
 Retrieved fires from InciWeb
 Got incident data from InciWeb: https://inciweb.nwcg.gov/feeds/rss/incidents/
 Retrieved fires from InciWeb
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181105/OR_ABI-L2-MCMIPC-M3_G16_s20183091527188_e20183091529561_c20183091531007.nc
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231732155_e20183231734528_c20183231735040.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2018-11-05 15:28:37.456653
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181105/OR_ABI-L2-MCMIPC-M3_G16_s20183091527188_e20183091529561_c20183091531007.nc
-34.7163888889 -125.360277778 46.3563888889 -111.806666667
+File date: 2018-11-19 17:33:34.158080
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231732155_e20183231734528_c20183231735040.nc
+34.7163888889 -122.94 41.32 -116.12
 
 
  Plot scatter points
 Downloaded the most recent active fire perimeters.
-Local DATE: 2018-11-05 08:40:49.458293
-  UTC DATE: 2018-11-05 14:00:00
+Local DATE: 2018-11-19 10:40:49.227064
+  UTC DATE: 2018-11-19 16:00:00
 Got incident data from InciWeb: https://inciweb.nwcg.gov/feeds/rss/incidents/
 Retrieved fires from InciWeb
 There are 3 large fires.
-created dir for ALDER, MOUNTAINEER, AND MOSES FIRES
-created dir for KLONDIKE
-created dir for RABBIT FOOT
  >> Dowloading tempfile: ./temp_hrrr_2018010100_f00_VGT.grib2
 Oh, good, you requested a date that should be on Pando.
 GRIB2 File: https://pando-rgw01.chpc.utah.edu/hrrr/sfc/20180101/hrrr.t00z.wrfsfcf00.grib2
@@ -31,85 +28,1536 @@ GRIB2 File: https://pando-rgw01.chpc.utah.edu/hrrr/sfc/20180101/hrrr.t00z.wrfsfc
  >> Matched a variable:  78:49446640:d=2018010100:VGTYP:surface:anl
 
  >> Byte Range: 49446640 50309774
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-05/1400/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/Landuse.png
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/Landuse.png
 created landuse maps for ALDER, MOUNTAINEER, AND MOSES FIRES
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-05/1400/KLONDIKE/Landuse.png
-created landuse maps for KLONDIKE
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-05/1400/RABBIT_FOOT/Landuse.png
-created landuse maps for RABBIT FOOT
-LocDic Pollywog: Finished multiprocessing in 0:00:04.337231 on 30 processors
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/Landuse.png
+created landuse maps for CAMP
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/Landuse.png
+created landuse maps for EDEN
+LocDic Pollywog: Finished multiprocessing in 0:00:04.416761 on 30 processors
 got temps
-LocDic Pollywog: Finished multiprocessing in 0:00:02.713908 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:02.738918 on 30 processors
 got dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:02.537226 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:02.364374 on 30 processors
 got wind
-LocDic Pollywog: Finished multiprocessing in 0:00:02.601795 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:02.539732 on 30 processors
 got gust
-1:0:d=2018110514:UGRD:10 m above ground:4 hour fcst:
-2:1135866:d=2018110514:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:3 hour fcst:
-2:1155458:d=2018110514:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:7 hour fcst:
-2:1150698:d=2018110514:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:17 hour fcst:
-2:1296035:d=2018110514:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:13 hour fcst:
-2:1279820:d=2018110514:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:1 hour fcst:
-2:1204254:d=2018110514:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:2 hour fcst:
-2:1173807:d=2018110514:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:18 hour fcst:
-2:1299923:d=2018110514:VGRD:10 m above ground:18 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:9 hour fcst:
-2:1171878:d=2018110514:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:10 hour fcst:
-2:1194436:d=2018110514:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:8 hour fcst:
-2:1160225:d=2018110514:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:14 hour fcst:
-2:1284501:d=2018110514:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:15 hour fcst:
-2:1289098:d=2018110514:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:5 hour fcst:
-2:1135671:d=2018110514:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:11 hour fcst:
-2:1232434:d=2018110514:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:6 hour fcst:
-2:1142207:d=2018110514:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:12 hour fcst:
-2:1253844:d=2018110514:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:anl:
-2:1203673:d=2018110514:VGRD:10 m above ground:anl:
-1:0:d=2018110514:UGRD:10 m above ground:16 hour fcst:
-2:1291256:d=2018110514:VGRD:10 m above ground:16 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:08.186493 on 30 processors
+1:0:d=2018111916:UGRD:10 m above ground:3 hour fcst:
+2:1140453:d=2018111916:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:14 hour fcst:
+2:1300019:d=2018111916:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:9 hour fcst:
+2:1244396:d=2018111916:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:6 hour fcst:
+2:1145856:d=2018111916:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:16 hour fcst:
+2:1292829:d=2018111916:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:2 hour fcst:
+2:1141790:d=2018111916:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:17 hour fcst:
+2:1313296:d=2018111916:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:18 hour fcst:
+2:1316766:d=2018111916:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:12 hour fcst:
+2:1287371:d=2018111916:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:7 hour fcst:
+2:1155330:d=2018111916:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:8 hour fcst:
+2:1203508:d=2018111916:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:anl:
+2:1136796:d=2018111916:VGRD:10 m above ground:anl:
+1:0:d=2018111916:UGRD:10 m above ground:10 hour fcst:
+2:1265821:d=2018111916:VGRD:10 m above ground:10 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:06.799885 on 30 processors
 got U and V wind vectors
-1:0:d=2018110514:UGRD:10 m above ground:anl:
-2:1203673:d=2018110514:VGRD:10 m above ground:anl:
-1:0:d=2018110514:UGRD:10 m above ground:1 hour fcst:
-2:1204254:d=2018110514:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:2 hour fcst:
-2:1173807:d=2018110514:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:3 hour fcst:
-2:1155458:d=2018110514:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:4 hour fcst:
-2:1135866:d=2018110514:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:5 hour fcst:
-2:1135671:d=2018110514:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:6 hour fcst:
-2:1142207:d=2018110514:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:7 hour fcst:
-2:1150698:d=2018110514:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:8 hour fcst:
-2:1160225:d=2018110514:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:9 hour fcst:
-2:1171878:d=2018110514:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:10 hour fcst:
-2:1194436:d=2018110514:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:11 hour fcst:
-2:1232434:d=2018110514:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:12 hour fcst:
-2:1253844:d=2018110514:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2018110514:UGRD:10 m above ground:13 hour fcst:
-2:1279820:d=2018110514:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:anl:
+2:1136796:d=2018111916:VGRD:10 m above ground:anl:
+1:0:d=2018111916:UGRD:10 m above ground:1 hour fcst:
+2:1156062:d=2018111916:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:2 hour fcst:
+2:1141790:d=2018111916:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:3 hour fcst:
+2:1140453:d=2018111916:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:4 hour fcst:
+2:1138988:d=2018111916:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:5 hour fcst:
+2:1140199:d=2018111916:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:6 hour fcst:
+2:1145856:d=2018111916:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:7 hour fcst:
+2:1155330:d=2018111916:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:8 hour fcst:
+2:1203508:d=2018111916:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:9 hour fcst:
+2:1244396:d=2018111916:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:10 hour fcst:
+2:1265821:d=2018111916:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:11 hour fcst:
+2:1277525:d=2018111916:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:12 hour fcst:
+2:1287371:d=2018111916:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:13 hour fcst:
+2:1294358:d=2018111916:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:14 hour fcst:
+2:1300019:d=2018111916:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:15 hour fcst:
+2:1305504:d=2018111916:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:16 hour fcst:
+2:1292829:d=2018111916:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:17 hour fcst:
+2:1313296:d=2018111916:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2018111916:UGRD:10 m above ground:18 hour fcst:
+2:1316766:d=2018111916:VGRD:10 m above ground:18 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:01.979556 on 30 processors
+got prec
+making permenant figure elements...
+finding fire perimeter patches for ALDER, MOUNTAINEER, AND MOSES FIRES fire... Done!
+finding fire perimeter patches for CAMP fire... Done!
+finding fire perimeter patches for EDEN fire... Done!
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f00_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf00.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:anl:
+
+ >> Byte Range: 0 425708
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f00_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf00.grib2.idx
+
+ >> Matched a variable:  71:41863390:d=2018111916:UGRD:10 m above ground:anl:
+
+ >> Byte Range: 41863390 44120872
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f00_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf00.grib2.idx
+
+ >> Matched a variable:  73:44120873:d=2018111916:WIND:10 m above ground:0-0 day max fcst:
+
+ >> Byte Range: 44120873 45258262
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f00_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf00.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf00.grib2.idx
+
+ >> Matched a variable:  8:2871794:d=2018111916:GUST:surface:anl:
+
+ >> Byte Range: 2871794 4022045
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f00.png
+
+--> Working on: CAMP 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f00.png
+
+--> Working on: EDEN 0
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f00.png
+Finished: 0
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f01_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:1 hour fcst:
+
+ >> Byte Range: 0 324840
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f01_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  71:49690851:d=2018111916:UGRD:10 m above ground:1 hour fcst:
+
+ >> Byte Range: 49690851 51969986
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f01_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  73:51969987:d=2018111916:WIND:10 m above ground:0-1 hour max fcst:
+
+ >> Byte Range: 51969987 53120109
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f01_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf01.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf01.grib2.idx
+
+ >> Matched a variable:  8:2439399:d=2018111916:GUST:surface:1 hour fcst:
+
+ >> Byte Range: 2439399 3586650
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f01.png
+
+--> Working on: CAMP 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f01.png
+
+--> Working on: EDEN 1
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f01.png
+Finished: 1
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f02_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:2 hour fcst:
+
+ >> Byte Range: 0 397259
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f02_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  71:49072000:d=2018111916:UGRD:10 m above ground:2 hour fcst:
+
+ >> Byte Range: 49072000 51326181
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f02_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  73:51326182:d=2018111916:WIND:10 m above ground:1-2 hour max fcst:
+
+ >> Byte Range: 51326182 52471392
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f02_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf02.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf02.grib2.idx
+
+ >> Matched a variable:  8:2608065:d=2018111916:GUST:surface:2 hour fcst:
+
+ >> Byte Range: 2608065 3746862
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f02.png
+
+--> Working on: CAMP 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f02.png
+
+--> Working on: EDEN 2
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f02.png
+Finished: 2
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f03_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:3 hour fcst:
+
+ >> Byte Range: 0 438354
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f03_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  71:48910650:d=2018111916:UGRD:10 m above ground:3 hour fcst:
+
+ >> Byte Range: 48910650 51155589
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f03_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  73:51155590:d=2018111916:WIND:10 m above ground:2-3 hour max fcst:
+
+ >> Byte Range: 51155590 52294954
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f03_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf03.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf03.grib2.idx
+
+ >> Matched a variable:  8:2738695:d=2018111916:GUST:surface:3 hour fcst:
+
+ >> Byte Range: 2738695 3878847
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f03.png
+
+--> Working on: CAMP 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f03.png
+
+--> Working on: EDEN 3
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f03.png
+Finished: 3
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f04_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:4 hour fcst:
+
+ >> Byte Range: 0 450716
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f04_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  71:49552636:d=2018111916:UGRD:10 m above ground:4 hour fcst:
+
+ >> Byte Range: 49552636 51794563
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f04_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  73:51794564:d=2018111916:WIND:10 m above ground:3-4 hour max fcst:
+
+ >> Byte Range: 51794564 52928588
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f04_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf04.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf04.grib2.idx
+
+ >> Matched a variable:  8:2804451:d=2018111916:GUST:surface:4 hour fcst:
+
+ >> Byte Range: 2804451 3947355
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f04.png
+
+--> Working on: CAMP 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f04.png
+
+--> Working on: EDEN 4
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f04.png
+Finished: 4
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f05_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:5 hour fcst:
+
+ >> Byte Range: 0 459208
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f05_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  71:49211836:d=2018111916:UGRD:10 m above ground:5 hour fcst:
+
+ >> Byte Range: 49211836 51442671
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f05_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  73:51442672:d=2018111916:WIND:10 m above ground:4-5 hour max fcst:
+
+ >> Byte Range: 51442672 52575869
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f05_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf05.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf05.grib2.idx
+
+ >> Matched a variable:  8:2877572:d=2018111916:GUST:surface:5 hour fcst:
+
+ >> Byte Range: 2877572 4024207
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f05.png
+
+--> Working on: CAMP 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f05.png
+
+--> Working on: EDEN 5
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f05.png
+Finished: 5
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f06_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf06.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:6 hour fcst:
+
+ >> Byte Range: 0 474365
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f06_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf06.grib2.idx
+
+ >> Matched a variable:  71:49449790:d=2018111916:UGRD:10 m above ground:6 hour fcst:
+
+ >> Byte Range: 49449790 51712845
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f06_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf06.grib2.idx
+
+ >> Matched a variable:  73:51712846:d=2018111916:WIND:10 m above ground:5-6 hour max fcst:
+
+ >> Byte Range: 51712846 52851935
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f06_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf06.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf06.grib2.idx
+
+ >> Matched a variable:  8:2885329:d=2018111916:GUST:surface:6 hour fcst:
+
+ >> Byte Range: 2885329 4048761
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f06.png
+
+--> Working on: CAMP 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f06.png
+
+--> Working on: EDEN 6
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f06.png
+Finished: 6
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f07_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf07.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:7 hour fcst:
+
+ >> Byte Range: 0 483578
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f07_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf07.grib2.idx
+
+ >> Matched a variable:  71:49767196:d=2018111916:UGRD:10 m above ground:7 hour fcst:
+
+ >> Byte Range: 49767196 52041572
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f07_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf07.grib2.idx
+
+ >> Matched a variable:  73:52041573:d=2018111916:WIND:10 m above ground:6-7 hour max fcst:
+
+ >> Byte Range: 52041573 53187117
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f07_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf07.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf07.grib2.idx
+
+ >> Matched a variable:  8:2970010:d=2018111916:GUST:surface:7 hour fcst:
+
+ >> Byte Range: 2970010 4175836
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f07.png
+
+--> Working on: CAMP 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f07.png
+
+--> Working on: EDEN 7
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f07.png
+Finished: 7
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f08_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf08.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:8 hour fcst:
+
+ >> Byte Range: 0 490509
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f08_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf08.grib2.idx
+
+ >> Matched a variable:  71:50452211:d=2018111916:UGRD:10 m above ground:8 hour fcst:
+
+ >> Byte Range: 50452211 52824979
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f08_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf08.grib2.idx
+
+ >> Matched a variable:  73:52824980:d=2018111916:WIND:10 m above ground:7-8 hour max fcst:
+
+ >> Byte Range: 52824980 53989191
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f08_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf08.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf08.grib2.idx
+
+ >> Matched a variable:  8:2975296:d=2018111916:GUST:surface:8 hour fcst:
+
+ >> Byte Range: 2975296 4205219
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f08.png
+
+--> Working on: CAMP 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f08.png
+
+--> Working on: EDEN 8
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f08.png
+Finished: 8
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f09_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf09.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:9 hour fcst:
+
+ >> Byte Range: 0 496197
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f09_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf09.grib2.idx
+
+ >> Matched a variable:  71:50621687:d=2018111916:UGRD:10 m above ground:9 hour fcst:
+
+ >> Byte Range: 50621687 53077238
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f09_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf09.grib2.idx
+
+ >> Matched a variable:  73:53077239:d=2018111916:WIND:10 m above ground:8-9 hour max fcst:
+
+ >> Byte Range: 53077239 54284314
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f09_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf09.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf09.grib2.idx
+
+ >> Matched a variable:  8:3019318:d=2018111916:GUST:surface:9 hour fcst:
+
+ >> Byte Range: 3019318 4280326
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f09.png
+
+--> Working on: CAMP 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f09.png
+
+--> Working on: EDEN 9
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f09.png
+Finished: 9
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f10_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf10.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:10 hour fcst:
+
+ >> Byte Range: 0 501944
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f10_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf10.grib2.idx
+
+ >> Matched a variable:  71:50881673:d=2018111916:UGRD:10 m above ground:10 hour fcst:
+
+ >> Byte Range: 50881673 53382015
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f10_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf10.grib2.idx
+
+ >> Matched a variable:  73:53382016:d=2018111916:WIND:10 m above ground:9-10 hour max fcst:
+
+ >> Byte Range: 53382016 54622310
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f10_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf10.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf10.grib2.idx
+
+ >> Matched a variable:  8:3093677:d=2018111916:GUST:surface:10 hour fcst:
+
+ >> Byte Range: 3093677 4374051
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f10.png
+
+--> Working on: CAMP 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f10.png
+
+--> Working on: EDEN 10
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f10.png
+Finished: 10
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f11_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf11.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:11 hour fcst:
+
+ >> Byte Range: 0 505406
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f11_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf11.grib2.idx
+
+ >> Matched a variable:  71:50774920:d=2018111916:UGRD:10 m above ground:11 hour fcst:
+
+ >> Byte Range: 50774920 53299874
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f11_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf11.grib2.idx
+
+ >> Matched a variable:  73:53299875:d=2018111916:WIND:10 m above ground:10-11 hour max fcst:
+
+ >> Byte Range: 53299875 54560395
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f11_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf11.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf11.grib2.idx
+
+ >> Matched a variable:  8:3046374:d=2018111916:GUST:surface:11 hour fcst:
+
+ >> Byte Range: 3046374 4340355
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f11.png
+
+--> Working on: CAMP 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f11.png
+
+--> Working on: EDEN 11
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f11.png
+Finished: 11
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f12_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf12.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:12 hour fcst:
+
+ >> Byte Range: 0 509785
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f12_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf12.grib2.idx
+
+ >> Matched a variable:  71:50684928:d=2018111916:UGRD:10 m above ground:12 hour fcst:
+
+ >> Byte Range: 50684928 53229076
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f12_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf12.grib2.idx
+
+ >> Matched a variable:  73:53229077:d=2018111916:WIND:10 m above ground:11-12 hour max fcst:
+
+ >> Byte Range: 53229077 54500110
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f12_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf12.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf12.grib2.idx
+
+ >> Matched a variable:  8:3080815:d=2018111916:GUST:surface:12 hour fcst:
+
+ >> Byte Range: 3080815 4387637
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f12.png
+
+--> Working on: CAMP 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f12.png
+
+--> Working on: EDEN 12
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f12.png
+Finished: 12
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f13_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf13.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:13 hour fcst:
+
+ >> Byte Range: 0 518776
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f13_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf13.grib2.idx
+
+ >> Matched a variable:  71:50608427:d=2018111916:UGRD:10 m above ground:13 hour fcst:
+
+ >> Byte Range: 50608427 53166534
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f13_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf13.grib2.idx
+
+ >> Matched a variable:  73:53166535:d=2018111916:WIND:10 m above ground:12-13 hour max fcst:
+
+ >> Byte Range: 53166535 54444568
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f13_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf13.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf13.grib2.idx
+
+ >> Matched a variable:  8:3113167:d=2018111916:GUST:surface:13 hour fcst:
+
+ >> Byte Range: 3113167 4428062
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f13.png
+
+--> Working on: CAMP 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f13.png
+
+--> Working on: EDEN 13
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f13.png
+Finished: 13
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f14_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf14.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:14 hour fcst:
+
+ >> Byte Range: 0 519563
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f14_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf14.grib2.idx
+
+ >> Matched a variable:  71:51162341:d=2018111916:UGRD:10 m above ground:14 hour fcst:
+
+ >> Byte Range: 51162341 53731679
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f14_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf14.grib2.idx
+
+ >> Matched a variable:  73:53731680:d=2018111916:WIND:10 m above ground:13-14 hour max fcst:
+
+ >> Byte Range: 53731680 55017312
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f14_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf14.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf14.grib2.idx
+
+ >> Matched a variable:  8:3124933:d=2018111916:GUST:surface:14 hour fcst:
+
+ >> Byte Range: 3124933 4446148
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f14.png
+
+--> Working on: CAMP 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f14.png
+
+--> Working on: EDEN 14
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f14.png
+Finished: 14
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f15_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf15.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf15.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:15 hour fcst:
+
+ >> Byte Range: 0 526828
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f15_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf15.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf15.grib2.idx
+
+ >> Matched a variable:  71:51098877:d=2018111916:UGRD:10 m above ground:15 hour fcst:
+
+ >> Byte Range: 51098877 53679220
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f15_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf15.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf15.grib2.idx
+
+ >> Matched a variable:  73:53679221:d=2018111916:WIND:10 m above ground:14-15 hour max fcst:
+
+ >> Byte Range: 53679221 54970236
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f15_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf15.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf15.grib2.idx
+
+ >> Matched a variable:  8:3147058:d=2018111916:GUST:surface:15 hour fcst:
+
+ >> Byte Range: 3147058 4472583
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f15.png
+
+--> Working on: CAMP 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f15.png
+
+--> Working on: EDEN 15
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f15.png
+Finished: 15
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f16_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf16.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf16.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:16 hour fcst:
+
+ >> Byte Range: 0 532090
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f16_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf16.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf16.grib2.idx
+
+ >> Matched a variable:  71:51187068:d=2018111916:UGRD:10 m above ground:16 hour fcst:
+
+ >> Byte Range: 51187068 53757805
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f16_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf16.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf16.grib2.idx
+
+ >> Matched a variable:  73:53757806:d=2018111916:WIND:10 m above ground:15-16 hour max fcst:
+
+ >> Byte Range: 53757806 55053853
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f16_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf16.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf16.grib2.idx
+
+ >> Matched a variable:  8:3200514:d=2018111916:GUST:surface:16 hour fcst:
+
+ >> Byte Range: 3200514 4529018
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f16.png
+
+--> Working on: CAMP 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f16.png
+
+--> Working on: EDEN 16
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f16.png
+Finished: 16
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f17_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf17.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf17.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:17 hour fcst:
+
+ >> Byte Range: 0 530839
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f17_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf17.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf17.grib2.idx
+
+ >> Matched a variable:  71:51517611:d=2018111916:UGRD:10 m above ground:17 hour fcst:
+
+ >> Byte Range: 51517611 54112137
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f17_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf17.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf17.grib2.idx
+
+ >> Matched a variable:  73:54112138:d=2018111916:WIND:10 m above ground:16-17 hour max fcst:
+
+ >> Byte Range: 54112138 55411801
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f17_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf17.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf17.grib2.idx
+
+ >> Matched a variable:  8:3177389:d=2018111916:GUST:surface:17 hour fcst:
+
+ >> Byte Range: 3177389 4492389
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f17.png
+
+--> Working on: CAMP 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f17.png
+
+--> Working on: EDEN 17
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f17.png
+Finished: 17
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f18_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf18.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf18.grib2.idx
+
+ >> Matched a variable:  1:0:d=2018111916:REFC:entire atmosphere:18 hour fcst:
+
+ >> Byte Range: 0 530790
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f18_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf18.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf18.grib2.idx
+
+ >> Matched a variable:  71:51422757:d=2018111916:UGRD:10 m above ground:18 hour fcst:
+
+ >> Byte Range: 51422757 54023936
+ >> Converting winds to earth-relative
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f18_WIN.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf18.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf18.grib2.idx
+
+ >> Matched a variable:  73:54023937:d=2018111916:WIND:10 m above ground:17-18 hour max fcst:
+
+ >> Byte Range: 54023937 55327162
+ >> Dowloading tempfile: ./temp_hrrr_2018111916_f18_GUS.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf18.grib2
+ .idx File: http://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20181119/conus/hrrr.t16z.wrfsfcf18.grib2.idx
+
+ >> Matched a variable:  8:3179206:d=2018111916:GUST:surface:18 hour fcst:
+
+ >> Byte Range: 3179206 4512673
+
+--> Working on: ALDER, MOUNTAINEER, AND MOSES FIRES 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/f18.png
+
+--> Working on: CAMP 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/f18.png
+
+--> Working on: EDEN 18
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/f18.png
+Finished: 18
+Got incident data from InciWeb: https://inciweb.nwcg.gov/feeds/rss/incidents/
+Retrieved fires from InciWeb
+Got incident data from InciWeb: https://inciweb.nwcg.gov/feeds/rss/incidents/
+Retrieved fires from InciWeb
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231732155_e20183231734528_c20183231735040.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 17:33:34.158080
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231732155_e20183231734528_c20183231735040.nc
+34.7163888889 -122.94 41.32 -116.12
+
+
+ Plot scatter points
+Got incident data from InciWeb: https://inciweb.nwcg.gov/feeds/rss/incidents/
+Retrieved fires from InciWeb
+There are 3 large fires.
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231657155_e20183231659528_c20183231700040.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:58:34.161062
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231657155_e20183231659528_c20183231700040.nc
+2018-11-19 10:47:43.769559
+0:00:00.479573 ABI Blend
+0:00:00.484231 GLM
+0:00:05.305161 map elements
+0:00:05.305492 labels
+0:00:39.627842 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G57
+2018-11-19 10:48:23.472938
+0:00:00.468294 ABI Blend
+0:00:00.472471 GLM
+0:00:05.468104 map elements
+0:00:05.468407 labels
+0:00:39.556020 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G57
+2018-11-19 10:49:03.106688
+0:00:00.481039 ABI Blend
+0:00:00.485320 GLM
+0:00:06.238527 map elements
+0:00:06.238901 labels
+0:00:41.752192 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G57
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231617155_e20183231619528_c20183231620036.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:18:34.160433
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231617155_e20183231619528_c20183231620036.nc
+2018-11-19 10:47:46.605324
+0:00:00.462513 ABI Blend
+0:00:00.468130 GLM
+0:00:05.573926 map elements
+0:00:05.574282 labels
+0:00:40.703676 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G17
+2018-11-19 10:48:27.386549
+0:00:00.450451 ABI Blend
+0:00:00.455555 GLM
+0:00:05.833206 map elements
+0:00:05.833521 labels
+0:00:40.470392 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G17
+2018-11-19 10:49:07.932043
+0:00:00.445618 ABI Blend
+0:00:00.450578 GLM
+0:00:06.443619 map elements
+0:00:06.443970 labels
+0:00:40.456644 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G17
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231612155_e20183231614528_c20183231615038.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:13:34.163284
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231612155_e20183231614528_c20183231615038.nc
+2018-11-19 10:47:47.888320
+0:00:00.535971 ABI Blend
+0:00:00.541340 GLM
+0:00:05.398572 map elements
+0:00:05.398886 labels
+0:00:39.910419 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G12
+2018-11-19 10:48:27.873743
+0:00:00.482939 ABI Blend
+0:00:00.487942 GLM
+0:00:05.672961 map elements
+0:00:05.673263 labels
+0:00:39.751456 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G12
+2018-11-19 10:49:07.708164
+0:00:00.495297 ABI Blend
+0:00:00.500415 GLM
+0:00:06.567086 map elements
+0:00:06.567415 labels
+0:00:41.692468 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G12
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231632155_e20183231634528_c20183231635039.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:33:34.160655
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231632155_e20183231634528_c20183231635039.nc
+2018-11-19 10:47:47.913502
+0:00:00.559103 ABI Blend
+0:00:00.565271 GLM
+0:00:05.389947 map elements
+0:00:05.390254 labels
+0:00:39.855902 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G32
+2018-11-19 10:48:27.844582
+0:00:00.486832 ABI Blend
+0:00:00.492542 GLM
+0:00:05.653637 map elements
+0:00:05.653939 labels
+0:00:39.659080 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G32
+2018-11-19 10:49:07.583001
+0:00:00.504811 ABI Blend
+0:00:00.510796 GLM
+0:00:06.598870 map elements
+0:00:06.599191 labels
+0:00:42.092920 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G32
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231637155_e20183231639528_c20183231640043.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:38:34.159160
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231637155_e20183231639528_c20183231640043.nc
+2018-11-19 10:47:48.479177
+0:00:00.535344 ABI Blend
+0:00:00.541477 GLM
+0:00:05.353144 map elements
+0:00:05.353466 labels
+0:00:39.724604 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G37
+2018-11-19 10:48:28.287140
+0:00:00.475156 ABI Blend
+0:00:00.480933 GLM
+0:00:05.610405 map elements
+0:00:05.610703 labels
+0:00:39.777025 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G37
+2018-11-19 10:49:08.149039
+0:00:00.484608 ABI Blend
+0:00:00.490707 GLM
+0:00:06.532154 map elements
+0:00:06.532488 labels
+0:00:41.511711 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G37
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231627155_e20183231629528_c20183231630035.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:28:34.160164
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231627155_e20183231629528_c20183231630035.nc
+2018-11-19 10:47:47.851476
+0:00:00.492611 ABI Blend
+0:00:00.498352 GLM
+0:00:05.487434 map elements
+0:00:05.487781 labels
+0:00:40.794816 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G27
+2018-11-19 10:48:28.732197
+0:00:00.485485 ABI Blend
+0:00:00.491283 GLM
+0:00:05.806862 map elements
+0:00:05.807203 labels
+0:00:40.394829 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G27
+2018-11-19 10:49:09.217966
+0:00:03.308049 ABI Blend
+0:00:03.314224 GLM
+0:00:08.967734 map elements
+0:00:08.968047 labels
+0:00:42.548432 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G27
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231607155_e20183231609528_c20183231610044.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:08:34.161950
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231607155_e20183231609528_c20183231610044.nc
+2018-11-19 10:47:47.227273
+0:00:00.474959 ABI Blend
+0:00:00.480779 GLM
+0:00:05.567515 map elements
+0:00:05.567860 labels
+0:00:40.870067 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G07
+2018-11-19 10:48:28.175988
+0:00:00.469275 ABI Blend
+0:00:00.474635 GLM
+0:00:05.872634 map elements
+0:00:05.872951 labels
+0:00:40.598953 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G07
+2018-11-19 10:49:08.851608
+0:00:03.471512 ABI Blend
+0:00:03.477081 GLM
+0:00:09.212699 map elements
+0:00:09.213015 labels
+0:00:43.038680 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G07
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231647155_e20183231649528_c20183231650038.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:48:34.161180
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231647155_e20183231649528_c20183231650038.nc
+2018-11-19 10:47:47.794140
+0:00:00.489509 ABI Blend
+0:00:00.496308 GLM
+0:00:05.497408 map elements
+0:00:05.497741 labels
+0:00:40.480342 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G47
+2018-11-19 10:48:28.359464
+0:00:00.475079 ABI Blend
+0:00:00.481800 GLM
+0:00:05.786487 map elements
+0:00:05.786808 labels
+0:00:40.430537 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G47
+2018-11-19 10:49:08.866181
+0:00:03.539049 ABI Blend
+0:00:03.545627 GLM
+0:00:09.213830 map elements
+0:00:09.214142 labels
+0:00:43.140375 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G47
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231602155_e20183231604528_c20183231605042.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:03:34.160073
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231602155_e20183231604528_c20183231605042.nc
+2018-11-19 10:47:48.843577
+0:00:00.532386 ABI Blend
+0:00:00.537597 GLM
+0:00:05.389835 map elements
+0:00:05.390151 labels
+0:00:39.797588 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G02
+2018-11-19 10:48:28.723410
+0:00:00.517570 ABI Blend
+0:00:00.522375 GLM
+0:00:05.721136 map elements
+0:00:05.721441 labels
+0:00:40.025267 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G02
+2018-11-19 10:49:08.833277
+0:00:03.597231 ABI Blend
+0:00:03.602913 GLM
+0:00:09.464281 map elements
+0:00:09.464590 labels
+0:00:44.106004 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G02
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231642155_e20183231644528_c20183231645039.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:43:34.160527
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231642155_e20183231644528_c20183231645039.nc
+2018-11-19 10:47:48.373317
+0:00:00.476199 ABI Blend
+0:00:00.483422 GLM
+0:00:05.480119 map elements
+0:00:05.480468 labels
+0:00:40.934159 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G42
+2018-11-19 10:48:29.389751
+0:00:00.479786 ABI Blend
+0:00:00.486436 GLM
+0:00:05.783993 map elements
+0:00:05.784321 labels
+0:00:40.502344 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G42
+2018-11-19 10:49:09.979333
+0:00:02.588020 ABI Blend
+0:00:02.594446 GLM
+0:00:08.256562 map elements
+0:00:08.256879 labels
+0:00:41.884941 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G42
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231622155_e20183231624528_c20183231625038.nc
+
+   Gamma correction: 0.4
+
+   contrast correction: 125
+File date: 2018-11-19 16:23:34.162081
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20181119/OR_ABI-L2-MCMIPC-M3_G16_s20183231622155_e20183231624528_c20183231625038.nc
+2018-11-19 10:47:48.705820
+0:00:00.534106 ABI Blend
+0:00:00.539787 GLM
+0:00:05.398169 map elements
+0:00:05.398485 labels
+0:00:40.409685 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/ALDER,_MOUNTAINEER,_AND_MOSES_FIRES/G22
+2018-11-19 10:48:29.203811
+0:00:00.518259 ABI Blend
+0:00:00.523445 GLM
+0:00:05.674958 map elements
+0:00:05.675259 labels
+0:00:39.804664 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/CAMP/G22
+2018-11-19 10:49:09.100986
+0:00:03.435619 ABI Blend
+0:00:03.441579 GLM
+0:00:09.295545 map elements
+0:00:09.295852 labels
+0:00:43.963280 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2018-11-19/1600/EDEN/G22

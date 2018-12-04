@@ -72,9 +72,18 @@ except:
 
 ## 2) Create Locations Dictionary
 ## 5) Get the HRRR data from NOMADS
-#DATE = datetime(2018, 8, 9, 12)
-DATE = datetime.utcnow() - timedelta(hours=1)
-DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
+#DATE = datetime(2018, 11, 8, 6)
+
+try:
+    # Input in the form python HRRR_fires.py [year] [month] [day] [hour]
+    # $ python HRRR_fires.py 2018 1 15 0
+    inputs = [int(i) for i in sys.argv[-4:]]
+    DATE = datetime(inputs[-4], inputs[-3], inputs[-2], inputs[-1])
+    print DATE
+except:
+    #DATE = datetime(2018, 11, 8, 6)
+    DATE = datetime.utcnow() - timedelta(hours=1)
+    DATE = datetime(DATE.year, DATE.month, DATE.day, DATE.hour)
 
 print "Local DATE:", datetime.now()
 print "  UTC DATE:", DATE
@@ -86,6 +95,26 @@ try:
 except:  
     location = get_incidents(limit_num=10)
     print 'Retrieved fires from InciWeb'
+
+###########################################################
+"""
+Custom location dict
+
+location = {'CAMP': {'incident number': 'CA-BTU-016737',
+                     'cause': 'Unknown',
+                     'report date': datetime(2018, 11, 8),
+                     'start date': datetime(2018, 11, 8),
+                     'IMT Type': np.nan,
+                     'state': 'California',
+                     'area': np.nan,
+                     'percent contained': 'Not Reported',
+                     'expected containment': 'Not Reported',
+                     'latitude': 39.820,
+                     'longitude': -121.440,
+                     'is MesoWest': False}}
+"""
+###########################################################
+
 
 print "There are", len(location.keys()), "large fires."
 
