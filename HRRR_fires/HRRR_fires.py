@@ -97,8 +97,8 @@ except:
     print 'Retrieved fires from InciWeb'
 
 ###########################################################
-"""
-Custom location dict
+
+#Custom location dict
 
 location = {'CAMP': {'incident number': 'CA-BTU-016737',
                      'cause': 'Unknown',
@@ -112,7 +112,7 @@ location = {'CAMP': {'incident number': 'CA-BTU-016737',
                      'latitude': 39.820,
                      'longitude': -121.440,
                      'is MesoWest': False}}
-"""
+
 ###########################################################
 
 
@@ -149,7 +149,7 @@ for S in location.keys():
 ## 4) Create a landuse map for each the fire and surrounding area
 locs = location.keys() # a list of all the locations
 locs_idx = range(len(locs)) # a number index for each location
-LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface')
+LU = get_hrrr_variable(datetime(2018,1,1), 'VGTYP:surface', verbose=False)
 cm, labels = LU_MODIS21()
 for n in locs_idx:
     locName = locs[n]
@@ -231,6 +231,19 @@ for n in locs_idx:
         print 'Done!'
     except:
         print "Couldn't draw any new shapes"
+
+    ## Camp Fire
+    #per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/fire_shapefiles/2018_camp/ca_camp_20181125_1822_dd83', 'perim')
+    per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/fire_shapefiles/2018_camp/ca_camp_20181125_1822_dd83', 'perim', drawbounds=False)
+    patches = []
+    print 'finding fire perimeter patches for '+locName+' fire...',
+    for info, shape in zip(maps[locName].perim_info, maps[locName].perim):
+        # Check if the boundary is one of the large active fires
+        if info['fireName'].upper() in location.keys():
+            patches.append(Polygon(np.array(shape), True) )
+    figs[locName][1].add_collection(PatchCollection(patches, facecolor='indianred', alpha=.65, edgecolor='k', linewidths=.1, zorder=1))
+    print 'Done!'
+        
     """
     try:
         per = maps[locName].readshapefile('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/perim','perim', drawbounds=False)
@@ -321,10 +334,10 @@ for n in locs_idx:
 for fxx in range(0, 19):
     # Loop through each location to make plots for this time
     # 2.2) Radar Reflectivity and winds for entire CONUS
-    H = get_hrrr_variable(DATE, 'REFC:entire atmosphere', fxx=fxx, model='hrrr')
-    H_UV = get_hrrr_variable(DATE, 'UVGRD:10 m', fxx=fxx, model='hrrr', value_only=True)
-    H_spd = get_hrrr_variable(DATE, 'WIND:10 m', fxx=fxx, model='hrrr', value_only=True)
-    H_gst = get_hrrr_variable(DATE, 'GUST:surface', fxx=fxx, model='hrrr', value_only=True)
+    H = get_hrrr_variable(DATE, 'REFC:entire atmosphere', fxx=fxx, model='hrrr', verbose=False)
+    H_UV = get_hrrr_variable(DATE, 'UVGRD:10 m', fxx=fxx, model='hrrr', value_only=True, verbose=False)
+    H_spd = get_hrrr_variable(DATE, 'WIND:10 m', fxx=fxx, model='hrrr', value_only=True, verbose=False)
+    H_gst = get_hrrr_variable(DATE, 'GUST:surface', fxx=fxx, model='hrrr', value_only=True, verbose=False)
     #
     #
     # Mask out empty reflectivity values
@@ -453,7 +466,11 @@ for fxx in range(0, 19):
             #
             # 4) Save figure
             figs[locName][0].savefig(SAVE+'f%02d.png' % (fxx))
+            print ""
+            print "==========================================================="
             print "Saved:", SAVE+'f%02d.png' % (fxx)
+            print "==========================================================="
+            print ""
             #
             # Remove temporary data for next plot
             pntTemp.remove()
@@ -478,6 +495,6 @@ for fxx in range(0, 19):
 #  - Plots a map of the fires
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/')
 from manager import *
-remove_old_fires()
-write_HRRR_fires_HTML()
-draw_fires_on_map()
+#remove_old_fires()
+#write_HRRR_fires_HTML()
+#draw_fires_on_map()
