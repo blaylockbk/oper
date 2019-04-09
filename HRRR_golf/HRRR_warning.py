@@ -10,11 +10,11 @@ from datetime import datetime, timedelta
 
 def wind_warning(location, P_wind, warn_stn):
     """
-    l is the locaitons dictionary (contains timezone info)
+    l is the locations dictionary (contains timezone info)
     pollywog is the pollywog dictionary returned from get_hrrr_pollywog_multi
     warn_stn is the station ID you want the warning for
     """
-    # Check for extreame values and send email alert
+    # Check for extreme values and send email alert
     warn_wind = 25
     if np.nanmax(P_wind[warn_stn]) >= warn_wind:
         """
@@ -43,9 +43,11 @@ def wind_warning(location, P_wind, warn_stn):
             smtpObj = smtplib.SMTP('localhost')
             smtpObj.sendmail(sender, receivers, message)
             smtpObj.quit()
-            print "Successfully sent email"
+            #print("Successfully sent email")
         except SMTPException:
-            print "Error: unable to send email"
+            #print("Error: unable to send email")
+            a = 1
+    return None
 
 def temp_warning(location, P_temp, warn_stn):
     """
@@ -86,6 +88,8 @@ def temp_warning(location, P_temp, warn_stn):
             smtpObj = smtplib.SMTP('localhost')
             smtpObj.sendmail(sender, receivers, message)
             smtpObj.quit()
-            print "Successfully sent email"
+            #print("Successfully sent email")
         except SMTPException:
-            print "Error: unable to send email"
+            #print("Error: unable to send email")
+            a = 1
+    return None

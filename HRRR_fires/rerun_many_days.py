@@ -13,5 +13,7 @@ eDATE = datetime(2018, 11, 10)
 hours = (eDATE-sDATE).days * 24
 DATES = [sDATE + timedelta(hours=h) for h in range(hours)]
 
+script = 'HRRR_hovmoller_fires.py'
+
 for d in DATES:
-    os.system('python HRRR_fires.py %s %s %s %s' % (d.year, d.month, d.day, d.hour))
+    os.system('python %s %s %s %s %s' % (script, d.year, d.month, d.day, d.hour))
