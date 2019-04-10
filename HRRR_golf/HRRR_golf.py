@@ -1,9 +1,9 @@
 # Brian Blaylock
 # April 24, 2017                                    Jazz are going to Game 5!!!
-# Update: April 9, 2019 for python 3
+# April 09, 2019 for python 3                                      It's raining
 
 """
-Dallin Naulu, the superintendant over grounds at Spanish Oaks Golf Course,
+The superintendant at Spanish Oaks Golf Course, Dallin Naulu,
 inspired me to make a golf weather product using the raw HRRR
 weather data. Something that displays the temperature, humidity, wind, and 
 precipitation forecast with a panel showing the simulated radar for the
@@ -293,13 +293,13 @@ for fxx in range(0, 19):
         H_refc_dict = {'lat': Hlat, 'lon': Hlon, 'value':H_refc}
         H_u_dict = {'lat': Hlat, 'lon': Hlon, 'value':H_u}
         H_v_dict = {'lat': Hlat, 'lon': Hlon, 'value':H_v}
-        trim_refc = hrrr_subset(H_refc_dict, half_box=20, 
+        trim_refc = hrrr_subset(H_refc_dict, half_box=15, 
                                 lat=loc['latitude'], lon=loc['longitude'],
                                 thin=1, verbose=False)
-        trim_u = hrrr_subset(H_u_dict, half_box=20,
+        trim_u = hrrr_subset(H_u_dict, half_box=15,
                                 lat=loc['latitude'], lon=loc['longitude'],
                                 thin=1, verbose=False)
-        trim_v = hrrr_subset(H_v_dict, half_box=20,
+        trim_v = hrrr_subset(H_v_dict, half_box=15,
                              lat=loc['latitude'], lon=loc['longitude'],
                              thin=1, verbose=False)
         #
