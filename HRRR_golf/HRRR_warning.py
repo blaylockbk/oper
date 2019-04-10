@@ -43,10 +43,9 @@ def wind_warning(location, P_wind, warn_stn):
             smtpObj = smtplib.SMTP('localhost')
             smtpObj.sendmail(sender, receivers, message)
             smtpObj.quit()
-            #print("Successfully sent email")
+            print("Successfully sent email")
         except SMTPException:
-            #print("Error: unable to send email")
-            a = 1
+            print("Error: unable to send email")
     return None
 
 def temp_warning(location, P_temp, warn_stn):
@@ -88,8 +87,7 @@ def temp_warning(location, P_temp, warn_stn):
             smtpObj = smtplib.SMTP('localhost')
             smtpObj.sendmail(sender, receivers, message)
             smtpObj.quit()
-            #print("Successfully sent email")
+            print("Successfully sent email")
         except SMTPException:
-            #print("Error: unable to send email")
-            a = 1
+            print("Error: unable to send email")
     return None

@@ -1,70 +1,3159 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf
- My DATE: 2019-04-09 10:30:52.832888
-UTC DATE: 2019-04-09 15:00:00
+Make Maps (this takes a while if location_dic has a lot of locations)
+ My DATE: 2019-04-10 12:32:11.256519
+UTC DATE: 2019-04-10 17:00:00
 plucking values from HRRR
-LocDic Pollywog: Finished multiprocessing in 0:00:06.975559 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:09.172918 on 30 processors
 got Temp
-LocDic Pollywog: Finished multiprocessing in 0:00:06.566280 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:08.662447 on 30 processors
 got Dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:06.522651 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:09.020480 on 30 processors
 got Wind
-LocDic Pollywog: Finished multiprocessing in 0:00:06.404187 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:09.189202 on 30 processors
 got Gust
-1:0:d=2019040915:UGRD:10 m above ground:6 hour fcst:
-2:1175608:d=2019040915:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:13 hour fcst:
-2:1264856:d=2019040915:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:7 hour fcst:
-2:1179147:d=2019040915:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:4 hour fcst:
-2:1149600:d=2019040915:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:10 hour fcst:
-2:1169792:d=2019040915:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:11 hour fcst:
-2:1203926:d=2019040915:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:14 hour fcst:
-2:1276814:d=2019040915:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:15 hour fcst:
-2:1285737:d=2019040915:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:8 hour fcst:
-2:1175080:d=2019040915:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:12 hour fcst:
-2:1248792:d=2019040915:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:anl:
-2:1118379:d=2019040915:VGRD:10 m above ground:anl:
-1:0:d=2019040915:UGRD:10 m above ground:1 hour fcst:
-2:1129156:d=2019040915:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:5 hour fcst:
-2:1164096:d=2019040915:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:16 hour fcst:
-2:1289418:d=2019040915:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:17 hour fcst:
-2:1293420:d=2019040915:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:9 hour fcst:
-2:1166969:d=2019040915:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:18 hour fcst:
-2:1293312:d=2019040915:VGRD:10 m above ground:18 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:3 hour fcst:
-2:1139186:d=2019040915:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2019040915:UGRD:10 m above ground:2 hour fcst:
-2:1133055:d=2019040915:VGRD:10 m above ground:2 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:14.385772 on 30 processors
+1:0:d=2019041017:UGRD:10 m above ground:3 hour fcst:
+2:1164037:d=2019041017:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:17 hour fcst:
+2:1270673:d=2019041017:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:11 hour fcst:
+2:1227408:d=2019041017:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:12 hour fcst:
+2:1237542:d=2019041017:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:14 hour fcst:
+2:1263934:d=2019041017:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:4 hour fcst:
+2:1173096:d=2019041017:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:anl:
+2:1083911:d=2019041017:VGRD:10 m above ground:anl:
+1:0:d=2019041017:UGRD:10 m above ground:5 hour fcst:
+2:1173802:d=2019041017:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:8 hour fcst:
+2:1171962:d=2019041017:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:2 hour fcst:
+2:1148259:d=2019041017:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:16 hour fcst:
+2:1267896:d=2019041017:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:9 hour fcst:
+2:1191210:d=2019041017:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:7 hour fcst:
+2:1162125:d=2019041017:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:6 hour fcst:
+2:1168198:d=2019041017:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:10 hour fcst:
+2:1212162:d=2019041017:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:18 hour fcst:
+2:1269879:d=2019041017:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:1 hour fcst:
+2:1127745:d=2019041017:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:13 hour fcst:
+2:1259531:d=2019041017:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:15 hour fcst:
+2:1251611:d=2019041017:VGRD:10 m above ground:15 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:17.634201 on 30 processors
 got UGRD and VGRD
-LocDic Pollywog: Finished multiprocessing in 0:00:07.628333 on 30 processors
+1:0:d=2019041017:UGRD:10 m above ground:anl:
+2:1083911:d=2019041017:VGRD:10 m above ground:anl:
+1:0:d=2019041017:UGRD:10 m above ground:1 hour fcst:
+2:1127745:d=2019041017:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:2 hour fcst:
+2:1148259:d=2019041017:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:3 hour fcst:
+2:1164037:d=2019041017:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:4 hour fcst:
+2:1173096:d=2019041017:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:5 hour fcst:
+2:1173802:d=2019041017:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:6 hour fcst:
+2:1168198:d=2019041017:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2019041017:UGRD:10 m above ground:7 hour fcst:
+2:1162125:d=2019041017:VGRD:10 m above ground:7 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:07.758295 on 30 processors
 got Precip
 Making permenant figure elements...
-   --> UTPKL
-   --> SND
-   --> NAA
-   --> C8635
-   --> FPS
-   --> EPMU1
-   --> KSLC
-   --> UtahLake
-   --> UFD09
-   --> EYSC
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201904091500&end=201904091634&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=utc&output=json
-   --> UCC23
+   --> Oaks
    --> UKBKB
-   --> Orderville
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201904101700&end=201904101833&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> KSLC
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201904101700&end=201904101833&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1
+v is: air_temp
+    Used air_temp_set_1
+   --> WBB
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201904101700&end=201904101833&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> FREUT
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201904101700&end=201904101833&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
    --> HATUT
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201904101700&end=201904101833&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+Hat Island no temp
+   --> GNI
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201904101700&end=201904101833&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> NAA
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201904101700&end=201904101833&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> UtahLake
+   --> UTPKL
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201904101700&end=201904101833&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> Orderville
+   --> BFLAT
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201904101700&end=201904101834&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> UFD09
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201904101700&end=201904101834&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> C8635
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201904101700&end=201904101834&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> FPS
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201904101700&end=201904101834&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> EYSC
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201904101700&end=201904101834&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> UCC23
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201904101700&end=201904101834&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> ALT
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201904101700&end=201904101834&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> SND
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201904101700&end=201904101834&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+   --> EPMU1
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EPMU1&start=201904101700&end=201904101835&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+
+v is: wind_speed
+    Used wind_speed_set_1
+v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
+v is: air_temp
+    Used air_temp_set_1
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f00_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf00.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf00.grib2.idx
+ >> Matched a variable:  1:0:d=2019041017:REFC:entire atmosphere:anl:
+ >> Byte Range: 0 483266
+  Run Date: 2019-04-10 17:00 UTC F00
+Valid Date: 2019-04-10 17:00 UTC
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f00_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf00.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf00.grib2.idx
+ >> Matched a variable:  71:43506012:d=2019041017:UGRD:10 m above ground:anl:
+ >> Byte Range: 43506012 45666615
+ >> Converting winds to earth-relative
+  Run Date: 2019-04-10 17:00 UTC F00
+Valid Date: 2019-04-10 17:00 UTC
+
+--> Working on: Oaks 0
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Oaks/f00.png
+
+--> Working on: UKBKB 0
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UKBKB/f00.png
+
+--> Working on: KSLC 0
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KSLC/f00.png
+
+--> Working on: WBB 0
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/WBB/f00.png
+
+--> Working on: FREUT 0
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FREUT/f00.png
+
+--> Working on: HATUT 0
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/HATUT/f00.png
+
+--> Working on: GNI 0
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/GNI/f00.png
+
+--> Working on: NAA 0
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/NAA/f00.png
+
+--> Working on: UtahLake 0
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UtahLake/f00.png
+
+--> Working on: UTPKL 0
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UTPKL/f00.png
+
+--> Working on: Orderville 0
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Orderville/f00.png
+
+--> Working on: BFLAT 0
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/BFLAT/f00.png
+
+--> Working on: UFD09 0
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UFD09/f00.png
+
+--> Working on: C8635 0
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/C8635/f00.png
+
+--> Working on: FPS 0
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FPS/f00.png
+
+--> Working on: EYSC 0
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EYSC/f00.png
+
+--> Working on: UCC23 0
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UCC23/f00.png
+
+--> Working on: ALT 0
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/ALT/f00.png
+
+--> Working on: SND 0
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/SND/f00.png
+
+--> Working on: EPMU1 0
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101700&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EPMU1/f00.png
+Finished: 0
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f01_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf01.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf01.grib2.idx
+ >> Matched a variable:  1:0:d=2019041017:REFC:entire atmosphere:1 hour fcst:
+ >> Byte Range: 0 475397
+  Run Date: 2019-04-10 17:00 UTC F01
+Valid Date: 2019-04-10 18:00 UTC
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f01_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf01.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf01.grib2.idx
+ >> Matched a variable:  71:51522336:d=2019041017:UGRD:10 m above ground:1 hour fcst:
+ >> Byte Range: 51522336 53763422
+ >> Converting winds to earth-relative
+  Run Date: 2019-04-10 17:00 UTC F01
+Valid Date: 2019-04-10 18:00 UTC
+
+--> Working on: Oaks 1
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Oaks/f01.png
+
+--> Working on: UKBKB 1
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UKBKB/f01.png
+
+--> Working on: KSLC 1
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KSLC/f01.png
+
+--> Working on: WBB 1
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/WBB/f01.png
+
+--> Working on: FREUT 1
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FREUT/f01.png
+
+--> Working on: HATUT 1
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/HATUT/f01.png
+
+--> Working on: GNI 1
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/GNI/f01.png
+
+--> Working on: NAA 1
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/NAA/f01.png
+
+--> Working on: UtahLake 1
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UtahLake/f01.png
+
+--> Working on: UTPKL 1
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UTPKL/f01.png
+
+--> Working on: Orderville 1
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Orderville/f01.png
+
+--> Working on: BFLAT 1
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/BFLAT/f01.png
+
+--> Working on: UFD09 1
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UFD09/f01.png
+
+--> Working on: C8635 1
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/C8635/f01.png
+
+--> Working on: FPS 1
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FPS/f01.png
+
+--> Working on: EYSC 1
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EYSC/f01.png
+
+--> Working on: UCC23 1
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UCC23/f01.png
+
+--> Working on: ALT 1
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/ALT/f01.png
+
+--> Working on: SND 1
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/SND/f01.png
+
+--> Working on: EPMU1 1
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101800&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EPMU1/f01.png
+Finished: 1
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f02_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf02.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf02.grib2.idx
+ >> Matched a variable:  1:0:d=2019041017:REFC:entire atmosphere:2 hour fcst:
+ >> Byte Range: 0 529276
+  Run Date: 2019-04-10 17:00 UTC F02
+Valid Date: 2019-04-10 19:00 UTC
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f02_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf02.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf02.grib2.idx
+ >> Matched a variable:  71:52412310:d=2019041017:UGRD:10 m above ground:2 hour fcst:
+ >> Byte Range: 52412310 54695123
+ >> Converting winds to earth-relative
+  Run Date: 2019-04-10 17:00 UTC F02
+Valid Date: 2019-04-10 19:00 UTC
+
+--> Working on: Oaks 2
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Oaks/f02.png
+
+--> Working on: UKBKB 2
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UKBKB/f02.png
+
+--> Working on: KSLC 2
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KSLC/f02.png
+
+--> Working on: WBB 2
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/WBB/f02.png
+
+--> Working on: FREUT 2
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FREUT/f02.png
+
+--> Working on: HATUT 2
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/HATUT/f02.png
+
+--> Working on: GNI 2
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/GNI/f02.png
+
+--> Working on: NAA 2
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/NAA/f02.png
+
+--> Working on: UtahLake 2
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UtahLake/f02.png
+
+--> Working on: UTPKL 2
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UTPKL/f02.png
+
+--> Working on: Orderville 2
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Orderville/f02.png
+
+--> Working on: BFLAT 2
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/BFLAT/f02.png
+
+--> Working on: UFD09 2
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UFD09/f02.png
+
+--> Working on: C8635 2
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/C8635/f02.png
+
+--> Working on: FPS 2
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FPS/f02.png
+
+--> Working on: EYSC 2
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EYSC/f02.png
+
+--> Working on: UCC23 2
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UCC23/f02.png
+
+--> Working on: ALT 2
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/ALT/f02.png
+
+--> Working on: SND 2
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/SND/f02.png
+
+--> Working on: EPMU1 2
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904101900&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EPMU1/f02.png
+Finished: 2
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f03_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf03.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf03.grib2.idx
+ >> Matched a variable:  1:0:d=2019041017:REFC:entire atmosphere:3 hour fcst:
+ >> Byte Range: 0 558461
+  Run Date: 2019-04-10 17:00 UTC F03
+Valid Date: 2019-04-10 20:00 UTC
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f03_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf03.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf03.grib2.idx
+ >> Matched a variable:  71:52636364:d=2019041017:UGRD:10 m above ground:3 hour fcst:
+ >> Byte Range: 52636364 54951081
+ >> Converting winds to earth-relative
+  Run Date: 2019-04-10 17:00 UTC F03
+Valid Date: 2019-04-10 20:00 UTC
+
+--> Working on: Oaks 3
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Oaks/f03.png
+
+--> Working on: UKBKB 3
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UKBKB/f03.png
+
+--> Working on: KSLC 3
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KSLC/f03.png
+
+--> Working on: WBB 3
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/WBB/f03.png
+
+--> Working on: FREUT 3
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FREUT/f03.png
+
+--> Working on: HATUT 3
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/HATUT/f03.png
+
+--> Working on: GNI 3
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/GNI/f03.png
+
+--> Working on: NAA 3
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/NAA/f03.png
+
+--> Working on: UtahLake 3
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UtahLake/f03.png
+
+--> Working on: UTPKL 3
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UTPKL/f03.png
+
+--> Working on: Orderville 3
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Orderville/f03.png
+
+--> Working on: BFLAT 3
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/BFLAT/f03.png
+
+--> Working on: UFD09 3
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UFD09/f03.png
+
+--> Working on: C8635 3
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/C8635/f03.png
+
+--> Working on: FPS 3
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FPS/f03.png
+
+--> Working on: EYSC 3
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EYSC/f03.png
+
+--> Working on: UCC23 3
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UCC23/f03.png
+
+--> Working on: ALT 3
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/ALT/f03.png
+
+--> Working on: SND 3
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/SND/f03.png
+
+--> Working on: EPMU1 3
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f03
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EPMU1/f03.png
+Finished: 3
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f04_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf04.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf04.grib2.idx
+ >> Matched a variable:  1:0:d=2019041017:REFC:entire atmosphere:4 hour fcst:
+ >> Byte Range: 0 570835
+  Run Date: 2019-04-10 17:00 UTC F04
+Valid Date: 2019-04-10 21:00 UTC
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f04_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf04.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf04.grib2.idx
+ >> Matched a variable:  71:53276028:d=2019041017:UGRD:10 m above ground:4 hour fcst:
+ >> Byte Range: 53276028 55609502
+ >> Converting winds to earth-relative
+  Run Date: 2019-04-10 17:00 UTC F04
+Valid Date: 2019-04-10 21:00 UTC
+
+--> Working on: Oaks 4
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Oaks/f04.png
+
+--> Working on: UKBKB 4
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UKBKB/f04.png
+
+--> Working on: KSLC 4
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KSLC/f04.png
+
+--> Working on: WBB 4
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/WBB/f04.png
+
+--> Working on: FREUT 4
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FREUT/f04.png
+
+--> Working on: HATUT 4
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/HATUT/f04.png
+
+--> Working on: GNI 4
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/GNI/f04.png
+
+--> Working on: NAA 4
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/NAA/f04.png
+
+--> Working on: UtahLake 4
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UtahLake/f04.png
+
+--> Working on: UTPKL 4
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UTPKL/f04.png
+
+--> Working on: Orderville 4
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Orderville/f04.png
+
+--> Working on: BFLAT 4
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/BFLAT/f04.png
+
+--> Working on: UFD09 4
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UFD09/f04.png
+
+--> Working on: C8635 4
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/C8635/f04.png
+
+--> Working on: FPS 4
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FPS/f04.png
+
+--> Working on: EYSC 4
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EYSC/f04.png
+
+--> Working on: UCC23 4
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UCC23/f04.png
+
+--> Working on: ALT 4
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/ALT/f04.png
+
+--> Working on: SND 4
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/SND/f04.png
+
+--> Working on: EPMU1 4
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102100&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f04
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EPMU1/f04.png
+Finished: 4
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f05_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf05.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf05.grib2.idx
+ >> Matched a variable:  1:0:d=2019041017:REFC:entire atmosphere:5 hour fcst:
+ >> Byte Range: 0 581613
+  Run Date: 2019-04-10 17:00 UTC F05
+Valid Date: 2019-04-10 22:00 UTC
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f05_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf05.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf05.grib2.idx
+ >> Matched a variable:  71:54266205:d=2019041017:UGRD:10 m above ground:5 hour fcst:
+ >> Byte Range: 54266205 56604902
+ >> Converting winds to earth-relative
+  Run Date: 2019-04-10 17:00 UTC F05
+Valid Date: 2019-04-10 22:00 UTC
+
+--> Working on: Oaks 5
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Oaks/f05.png
+
+--> Working on: UKBKB 5
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UKBKB/f05.png
+
+--> Working on: KSLC 5
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KSLC/f05.png
+
+--> Working on: WBB 5
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/WBB/f05.png
+
+--> Working on: FREUT 5
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FREUT/f05.png
+
+--> Working on: HATUT 5
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/HATUT/f05.png
+
+--> Working on: GNI 5
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/GNI/f05.png
+
+--> Working on: NAA 5
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/NAA/f05.png
+
+--> Working on: UtahLake 5
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UtahLake/f05.png
+
+--> Working on: UTPKL 5
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UTPKL/f05.png
+
+--> Working on: Orderville 5
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Orderville/f05.png
+
+--> Working on: BFLAT 5
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/BFLAT/f05.png
+
+--> Working on: UFD09 5
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UFD09/f05.png
+
+--> Working on: C8635 5
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/C8635/f05.png
+
+--> Working on: FPS 5
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FPS/f05.png
+
+--> Working on: EYSC 5
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EYSC/f05.png
+
+--> Working on: UCC23 5
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UCC23/f05.png
+
+--> Working on: ALT 5
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/ALT/f05.png
+
+--> Working on: SND 5
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/SND/f05.png
+
+--> Working on: EPMU1 5
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102200&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f05
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EPMU1/f05.png
+Finished: 5
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f06_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf06.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf06.grib2.idx
+ >> Matched a variable:  1:0:d=2019041017:REFC:entire atmosphere:6 hour fcst:
+ >> Byte Range: 0 598573
+  Run Date: 2019-04-10 17:00 UTC F06
+Valid Date: 2019-04-10 23:00 UTC
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f06_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf06.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf06.grib2.idx
+ >> Matched a variable:  71:53914832:d=2019041017:UGRD:10 m above ground:6 hour fcst:
+ >> Byte Range: 53914832 56247091
+ >> Converting winds to earth-relative
+  Run Date: 2019-04-10 17:00 UTC F06
+Valid Date: 2019-04-10 23:00 UTC
+
+--> Working on: Oaks 6
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Oaks/f06.png
+
+--> Working on: UKBKB 6
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UKBKB/f06.png
+
+--> Working on: KSLC 6
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KSLC/f06.png
+
+--> Working on: WBB 6
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/WBB/f06.png
+
+--> Working on: FREUT 6
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FREUT/f06.png
+
+--> Working on: HATUT 6
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/HATUT/f06.png
+
+--> Working on: GNI 6
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/GNI/f06.png
+
+--> Working on: NAA 6
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/NAA/f06.png
+
+--> Working on: UtahLake 6
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UtahLake/f06.png
+
+--> Working on: UTPKL 6
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UTPKL/f06.png
+
+--> Working on: Orderville 6
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Orderville/f06.png
+
+--> Working on: BFLAT 6
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/BFLAT/f06.png
+
+--> Working on: UFD09 6
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UFD09/f06.png
+
+--> Working on: C8635 6
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/C8635/f06.png
+
+--> Working on: FPS 6
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FPS/f06.png
+
+--> Working on: EYSC 6
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EYSC/f06.png
+
+--> Working on: UCC23 6
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UCC23/f06.png
+
+--> Working on: ALT 6
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/ALT/f06.png
+
+--> Working on: SND 6
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/SND/f06.png
+
+--> Working on: EPMU1 6
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904102300&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f06
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EPMU1/f06.png
+Finished: 6
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f07_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf07.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf07.grib2.idx
+ >> Matched a variable:  1:0:d=2019041017:REFC:entire atmosphere:7 hour fcst:
+ >> Byte Range: 0 615307
+  Run Date: 2019-04-10 17:00 UTC F07
+Valid Date: 2019-04-11 00:00 UTC
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f07_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf07.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf07.grib2.idx
+ >> Matched a variable:  71:54646161:d=2019041017:UGRD:10 m above ground:7 hour fcst:
+ >> Byte Range: 54646161 56970754
+ >> Converting winds to earth-relative
+  Run Date: 2019-04-10 17:00 UTC F07
+Valid Date: 2019-04-11 00:00 UTC
+
+--> Working on: Oaks 7
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.084	 lon: -111.598
+ >>     Plucked HRRR lat: 40.07442210228878	 lon: -111.58785361707143
+ >>     Plucked from   x: 618	   y: 501
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Oaks/f07.png
+
+--> Working on: UKBKB 7
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.09867	 lon: -111.62767
+ >>     Plucked HRRR lat: 40.096956595034705	 lon: -111.62807106774099
+ >>     Plucked from   x: 619	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UKBKB/f07.png
+
+--> Working on: KSLC 7
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.77069	 lon: -111.96503
+ >>     Plucked HRRR lat: 40.764506293281684	 lon: -111.98060410960075
+ >>     Plucked from   x: 645	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/KSLC/f07.png
+
+--> Working on: WBB 7
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.76623	 lon: -111.84755
+ >>     Plucked HRRR lat: 40.75468890804213	 lon: -111.83443829829807
+ >>     Plucked from   x: 644	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/WBB/f07.png
+
+--> Working on: FREUT 7
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.15461	 lon: -112.32998
+ >>     Plucked HRRR lat: 41.160407538679955	 lon: -112.31781351731306
+ >>     Plucked from   x: 661	   y: 487
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FREUT/f07.png
+
+--> Working on: HATUT 7
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.07073	 lon: -112.58621
+ >>     Plucked HRRR lat: 41.0723428252752	 lon: -112.58865329241299
+ >>     Plucked from   x: 659	   y: 479
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/HATUT/f07.png
+
+--> Working on: GNI 7
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.33216	 lon: -112.85432
+ >>     Plucked HRRR lat: 41.3380976103114	 lon: -112.86551747074108
+ >>     Plucked from   x: 670	   y: 473
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/GNI/f07.png
+
+--> Working on: NAA 7
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.71152	 lon: -112.01448
+ >>     Plucked HRRR lat: 40.70703015956881	 lon: -112.0045834696445
+ >>     Plucked from   x: 643	   y: 493
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/NAA/f07.png
+
+--> Working on: UtahLake 7
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.159	 lon: -111.778
+ >>     Plucked HRRR lat: 40.160314531843134	 lon: -111.78374216224896
+ >>     Plucked from   x: 622	   y: 496
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UtahLake/f07.png
+
+--> Working on: UTPKL 7
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.98985	 lon: -111.9013
+ >>     Plucked HRRR lat: 40.99433955629871	 lon: -111.88428999989301
+ >>     Plucked from   x: 653	   y: 498
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UTPKL/f07.png
+
+--> Working on: Orderville 7
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 37.276	 lon: -112.638
+ >>     Plucked HRRR lat: 37.267875202674425	 lon: -112.62230507746945
+ >>     Plucked from   x: 520	   y: 455
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/Orderville/f07.png
+
+--> Working on: BFLAT 7
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.784	 lon: -113.829
+ >>     Plucked HRRR lat: 40.77473634495215	 lon: -113.82396117959341
+ >>     Plucked from   x: 654	   y: 443
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/BFLAT/f07.png
+
+--> Working on: UFD09 7
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.925	 lon: -112.159
+ >>     Plucked HRRR lat: 40.93383890727221	 lon: -112.16068789932183
+ >>     Plucked from   x: 652	   y: 490
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UFD09/f07.png
+
+--> Working on: C8635 7
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.11112	 lon: -111.96229
+ >>     Plucked HRRR lat: 41.123243124257364	 lon: -111.9474727195129
+ >>     Plucked from   x: 658	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/C8635/f07.png
+
+--> Working on: FPS 7
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.45689	 lon: -111.90483
+ >>     Plucked HRRR lat: 40.44496065216457	 lon: -111.91398967381407
+ >>     Plucked from   x: 633	   y: 494
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/FPS/f07.png
+
+--> Working on: EYSC 7
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.24715	 lon: -111.65001
+ >>     Plucked HRRR lat: 40.25685190016947	 lon: -111.66048682253975
+ >>     Plucked from   x: 625	   y: 500
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EYSC/f07.png
+
+--> Working on: UCC23 7
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 41.7665	 lon: -111.8105
+ >>     Plucked HRRR lat: 41.764724785400475	 lon: -111.8276434799401
+ >>     Plucked from   x: 681	   y: 504
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/UCC23/f07.png
+
+--> Working on: ALT 7
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.571	 lon: -111.631
+ >>     Plucked HRRR lat: 40.562334974830556	 lon: -111.61510147551371
+ >>     Plucked from   x: 636	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/ALT/f07.png
+
+--> Working on: SND 7
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 40.368386	 lon: -111.593964
+ >>     Plucked HRRR lat: 40.37580606830611	 lon: -111.57725344021695
+ >>     Plucked from   x: 629	   y: 503
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/SND/f07.png
+
+--> Working on: EPMU1 7
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+ >> Requested Center lat: 39.36798	 lon: -111.57803
+ >>     Plucked HRRR lat: 39.36489026251501	 lon: -111.58747342560655
+ >>     Plucked from   x: 592	   y: 497
+ >> Size of subset: 40 x 40 grid points
+
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+
+  !! Errors: http://api.mesowest.net/v2/stations/nearesttime?&token=2562b729557f45f5958516081f06c9eb&attime=201904110000&within=30&radius=EPMU1,30&obtimezone=UTC&vars=wind_speed,wind_direction
+  !! Reason: No stations found for this request.
+
+!!!! Could Not plot MesoWest wind barbs: f07
+===>> SAVED Figure: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_golf/EPMU1/f07.png
+Finished: 7
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f08_REF.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf08.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf08.grib2.idx
+ >> Matched a variable:  1:0:d=2019041017:REFC:entire atmosphere:8 hour fcst:
+ >> Byte Range: 0 592497
+  Run Date: 2019-04-10 17:00 UTC F08
+Valid Date: 2019-04-11 01:00 UTC
+
+ >> Dowloading tempfile: ./temp_hrrr_2019041017_f08_UVG.grib2
+/n---------------------------------------------------------------------------
+!! Hey! You are requesting a date that is not on the Pando archive yet.  !!
+!! That's ok, I'll redirect you to the NOMADS server. :)                 !!
+---------------------------------------------------------------------------
+
+GRIB2 File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf08.grib2
+ .idx File: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf08.grib2.idx
+ >> Matched a variable:  71:54273748:d=2019041017:UGRD:10 m above ground:8 hour fcst:
+ >> Byte Range: 54273748 56602577
+ >> Converting winds to earth-relative
+ _______________________________________________________________
+ !!   Run Date Requested : 2019-04-10 17:00:00 F08
+ !! Valid Date Requested : 2019-04-11 01:00:00
+ !!     Current UTC time : 2019-04-10 18:42:54.641718
+ !! ------------------------------------------------------------
+ !! ERROR downloading GRIB2: https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf08.grib2
+ !! Is the variable right? UVGRD:10 m
+ !! Does the .idx file exist? https://nomads.ncep.noaa.gov/pub/data/nccf/com/hrrr/prod/hrrr.20190410/conus/hrrr.t17z.wrfsfcf08.grib2.idx
+ ---------------------------------------------------------------
