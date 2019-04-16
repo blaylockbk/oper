@@ -117,7 +117,12 @@ location = {'Oaks': {'latitude':40.084,
                      'longitude':-111.57803,
                      'name':'Ephraim',
                      'timezone': 7-daylight,
-                     'is MesoWest': True}        
+                     'is MesoWest': True},
+            'KCNY':{'latitude':38.760,
+                    'longitude':-109.745 ,
+                    'name':'Moab, Canyonlands Field',
+                    'timezone': 7-daylight,
+                    'is MesoWest': True},    
         } 
 
 def get_all():
