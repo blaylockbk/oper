@@ -15,15 +15,15 @@ set dateStart = `date +%Y-%m-%d_%H:%M`
 
 setenv SCRIPTDIR "/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf/"
 
-if (-e ${SCRIPTDIR}/hrrr_golf.status) then
+if (-e ${SCRIPTDIR}hrrr_golf.status) then
 	echo "$dateStart PREVIOUS HRRR GOLF PROCESS ON MESO4 STILL RUNNING" | mail -s "HRRR GOLF ERROR: Attempt to restart" blaylockbk@gmail.com
-	echo "Attempt to kill old processes that fail"
-	pkill -f ${SCRIPTDIR}/HRRR_golf.py
-	rm -f ${SCRIPTDIR}/hrrr_golf.status
+	echo "Attempt to kill old processes that failed"
+	pkill -f ${SCRIPTDIR}HRRR_golf.py
+	rm -f ${SCRIPTDIR}hrrr_golf.status
 	echo "Restart downloads"
 endif
 
-touch ${SCRIPTDIR}/hrrr_golf.status
+touch ${SCRIPTDIR}hrrr_golf.status
 
 limit coredumpsize 0
 

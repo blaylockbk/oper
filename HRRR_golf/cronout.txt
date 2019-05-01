@@ -21,64 +21,64 @@ loaded ALT map from file
 loaded SND map from file
 loaded EPMU1 map from file
 loaded KCNY map from file
-Current Local DATE: 2019-04-26 10:30:07.908178
-  Request UTC DATE: 2019-04-26 15:00:00
+Current Local DATE: 2019-05-01 10:30:07.497226
+  Request UTC DATE: 2019-05-01 15:00:00
 plucking values from HRRR
-LocDic Pollywog: Finished multiprocessing in 0:00:07.944565 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:08.141039 on 30 processors
 got Temp
-LocDic Pollywog: Finished multiprocessing in 0:00:08.081629 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:08.231499 on 30 processors
 got Dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:07.966871 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:07.830956 on 30 processors
 got Wind
-LocDic Pollywog: Finished multiprocessing in 0:00:07.907659 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:07.757350 on 30 processors
 got Gust
-1:0:d=2019042615:UGRD:10 m above ground:10 hour fcst:
-2:1192922:d=2019042615:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:5 hour fcst:
-2:1205043:d=2019042615:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:2 hour fcst:
-2:1126842:d=2019042615:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:15 hour fcst:
-2:1304771:d=2019042615:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:3 hour fcst:
-2:1148182:d=2019042615:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:8 hour fcst:
-2:1221193:d=2019042615:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:anl:
-2:1107315:d=2019042615:VGRD:10 m above ground:anl:
-1:0:d=2019042615:UGRD:10 m above ground:4 hour fcst:
-2:1176983:d=2019042615:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:1 hour fcst:
-2:1115535:d=2019042615:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:7 hour fcst:
-2:1228277:d=2019042615:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:18 hour fcst:
-2:1315621:d=2019042615:VGRD:10 m above ground:18 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:9 hour fcst:
-2:1209284:d=2019042615:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:14 hour fcst:
-2:1293520:d=2019042615:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:13 hour fcst:
-2:1277490:d=2019042615:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:6 hour fcst:
-2:1222528:d=2019042615:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:12 hour fcst:
-2:1252755:d=2019042615:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:16 hour fcst:
-2:1309791:d=2019042615:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:17 hour fcst:
-2:1312699:d=2019042615:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:11 hour fcst:
-2:1219472:d=2019042615:VGRD:10 m above ground:11 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:14.894117 on 30 processors
+1:0:d=2019050115:UGRD:10 m above ground:16 hour fcst:
+2:1276404:d=2019050115:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:10 hour fcst:
+2:1160652:d=2019050115:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:9 hour fcst:
+2:1167433:d=2019050115:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:1 hour fcst:
+2:1103577:d=2019050115:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:12 hour fcst:
+2:1215692:d=2019050115:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:anl:
+2:1065326:d=2019050115:VGRD:10 m above ground:anl:
+1:0:d=2019050115:UGRD:10 m above ground:6 hour fcst:
+2:1183300:d=2019050115:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:13 hour fcst:
+2:1225173:d=2019050115:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:4 hour fcst:
+2:1158373:d=2019050115:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:17 hour fcst:
+2:1282576:d=2019050115:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:3 hour fcst:
+2:1140852:d=2019050115:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:5 hour fcst:
+2:1173815:d=2019050115:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:7 hour fcst:
+2:1183447:d=2019050115:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:15 hour fcst:
+2:1267567:d=2019050115:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:2 hour fcst:
+2:1126508:d=2019050115:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:8 hour fcst:
+2:1174128:d=2019050115:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:11 hour fcst:
+2:1170774:d=2019050115:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:18 hour fcst:
+2:1286553:d=2019050115:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:14 hour fcst:
+2:1255243:d=2019050115:VGRD:10 m above ground:14 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:15.106475 on 30 processors
 got UGRD and VGRD
-LocDic Pollywog: Finished multiprocessing in 0:00:07.542301 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:07.491368 on 30 processors
 got Precip
 Making permenant figure elements...
    Working on --> Oaks
    Working on --> UKBKB
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -89,7 +89,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> KSLC
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -100,7 +100,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> WBB
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -111,7 +111,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> FREUT
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -122,7 +122,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> HATUT
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: date_time
 v is: dew_point_temperature
@@ -132,7 +132,7 @@ v is: air_temp
 Hat Island no MesoWest wind speed
    Working on --> GNI
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -143,7 +143,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> NAA
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -155,7 +155,7 @@ v is: air_temp
    Working on --> UtahLake
    Working on --> UTPKL
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -167,17 +167,18 @@ v is: air_temp
    Working on --> Orderville
    Working on --> BFLAT
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
 v is: date_time
+v is: dew_point_temperature
+    Used dew_point_temperature_set_1d
 v is: air_temp
-    Used air_temp_set_2
-Bonneville Salt Flats no MesoWest dew point
+    Used air_temp_set_1
    Working on --> UFD09
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -188,7 +189,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> C8635
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201904261500&end=201904261631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201905011500&end=201905011631&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -199,7 +200,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> FPS
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201904261500&end=201904261632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201905011500&end=201905011632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -210,18 +211,14 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> EYSC
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201904261500&end=201904261632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201905011500&end=201905011632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
-v is: wind_speed
-    Used wind_speed_set_1
-v is: date_time
-v is: dew_point_temperature
-    Used dew_point_temperature_set_1d
-v is: air_temp
-    Used air_temp_set_1
+  !! Errors: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201905011500&end=201905011632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+  !! Reason: No stations found for this request.
+
    Working on --> UCC23
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201904261500&end=201904261632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905011500&end=201905011632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -232,7 +229,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> ALT
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201904261500&end=201904261632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201905011500&end=201905011632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -243,7 +240,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> SND
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201904261500&end=201904261632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201905011500&end=201905011632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -254,7 +251,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> EPMU1
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EPMU1&start=201904261500&end=201904261632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EPMU1&start=201905011500&end=201905011632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -265,7 +262,7 @@ v is: air_temp
     Used air_temp_set_1
    Working on --> KCNY
 
-Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KCNY&start=201904261500&end=201904261632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
+Retrieving from MesoWest API: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KCNY&start=201905011500&end=201905011632&vars=air_temp,wind_speed,dew_point_temperature&obtimezone=UTC&output=json
 
 v is: wind_speed
     Used wind_speed_set_1
@@ -274,41 +271,41 @@ v is: dew_point_temperature
     Used dew_point_temperature_set_1
 v is: air_temp
     Used air_temp_set_1
-1:0:d=2019042615:UGRD:10 m above ground:12 hour fcst:
-2:1252755:d=2019042615:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:9 hour fcst:
-2:1209284:d=2019042615:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:3 hour fcst:
-2:1148182:d=2019042615:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:7 hour fcst:
-2:1228277:d=2019042615:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:15 hour fcst:
-2:1304771:d=2019042615:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:6 hour fcst:
-2:1222528:d=2019042615:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:2 hour fcst:
-2:1126842:d=2019042615:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:17 hour fcst:
-2:1312699:d=2019042615:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:4 hour fcst:
-2:1176983:d=2019042615:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:10 hour fcst:
-2:1192922:d=2019042615:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:16 hour fcst:
-2:1309791:d=2019042615:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:14 hour fcst:
-2:1293520:d=2019042615:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:5 hour fcst:
-2:1205043:d=2019042615:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:11 hour fcst:
-2:1219472:d=2019042615:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:1 hour fcst:
-2:1115535:d=2019042615:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:anl:
-2:1107315:d=2019042615:VGRD:10 m above ground:anl:
-1:0:d=2019042615:UGRD:10 m above ground:8 hour fcst:
-2:1221193:d=2019042615:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:18 hour fcst:
-2:1315621:d=2019042615:VGRD:10 m above ground:18 hour fcst:
-1:0:d=2019042615:UGRD:10 m above ground:13 hour fcst:
-2:1277490:d=2019042615:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:11 hour fcst:
+2:1170774:d=2019050115:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:6 hour fcst:
+2:1183300:d=2019050115:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:13 hour fcst:
+2:1225173:d=2019050115:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:9 hour fcst:
+2:1167433:d=2019050115:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:3 hour fcst:
+2:1140852:d=2019050115:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:18 hour fcst:
+2:1286553:d=2019050115:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:14 hour fcst:
+2:1255243:d=2019050115:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:5 hour fcst:
+2:1173815:d=2019050115:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:1 hour fcst:
+2:1103577:d=2019050115:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:10 hour fcst:
+2:1160652:d=2019050115:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:15 hour fcst:
+2:1267567:d=2019050115:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:2 hour fcst:
+2:1126508:d=2019050115:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:8 hour fcst:
+2:1174128:d=2019050115:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:anl:
+2:1065326:d=2019050115:VGRD:10 m above ground:anl:
+1:0:d=2019050115:UGRD:10 m above ground:17 hour fcst:
+2:1282576:d=2019050115:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:4 hour fcst:
+2:1158373:d=2019050115:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:16 hour fcst:
+2:1276404:d=2019050115:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:7 hour fcst:
+2:1183447:d=2019050115:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2019050115:UGRD:10 m above ground:12 hour fcst:
+2:1215692:d=2019050115:VGRD:10 m above ground:12 hour fcst:

@@ -99,7 +99,7 @@ except:
 ###########################################################
 
 #Custom location dict
-
+'''
 location = {'CAMP': {'incident number': 'CA-BTU-016737',
                      'cause': 'Unknown',
                      'report date': datetime(2018, 11, 8),
@@ -112,7 +112,7 @@ location = {'CAMP': {'incident number': 'CA-BTU-016737',
                      'latitude': 39.820,
                      'longitude': -121.440,
                      'is MesoWest': False}}
-
+'''
 ###########################################################
 
 
