@@ -1,659 +1,856 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
 error INAME
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-01.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-03.txt
 Retrieved fires from Active Fire Mapping Program
 error INAME
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-01.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-03.txt
 Retrieved fires from Active Fire Mapping Program
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211626229_e20191211629002_c20191211629114.nc
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231626243_e20191231629016_c20191231629124.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 16:27:41.648138
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211626229_e20191211629002_c20191211629114.nc
-32.271 -114.259 39.563 -100.689
+File date: 2019-05-03 16:27:42.971694
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231626243_e20191231629016_c20191231629124.nc
+32.271 -123.284 44.137 -110.229
 
 
  Plot scatter points
 Downloaded the most recent active fire perimeters.
-Local DATE: 2019-05-01 10:41:00.981606
-  UTC DATE: 2019-05-01 15:00:00
+Local DATE: 2019-05-03 10:41:00.161147
+  UTC DATE: 2019-05-03 15:00:00
 error INAME
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-01.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-03.txt
 Retrieved fires from Active Fire Mapping Program
-There are 2 large fires.
-LocDic Pollywog: Finished multiprocessing in 0:00:03.098732 on 30 processors
+There are 3 large fires.
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/Landuse.png
+created landuse maps for BRAY MILL
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/Landuse.png
+created landuse maps for PATTON
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/Landuse.png
+created landuse maps for FOREST
+LocDic Pollywog: Finished multiprocessing in 0:00:02.701135 on 30 processors
 got temps
-LocDic Pollywog: Finished multiprocessing in 0:00:02.648611 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:02.787317 on 30 processors
 got dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:02.451667 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:02.743611 on 30 processors
 got wind
-LocDic Pollywog: Finished multiprocessing in 0:00:02.499532 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:02.543932 on 30 processors
 got gust
-1:0:d=2019050115:UGRD:10 m above ground:anl:
-2:1065326:d=2019050115:VGRD:10 m above ground:anl:
-1:0:d=2019050115:UGRD:10 m above ground:13 hour fcst:
-2:1225173:d=2019050115:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:2 hour fcst:
-2:1126508:d=2019050115:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:6 hour fcst:
-2:1183300:d=2019050115:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:10 hour fcst:
-2:1160652:d=2019050115:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:11 hour fcst:
-2:1170774:d=2019050115:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:1 hour fcst:
-2:1103577:d=2019050115:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:4 hour fcst:
-2:1158373:d=2019050115:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:7 hour fcst:
-2:1183447:d=2019050115:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:12 hour fcst:
-2:1215692:d=2019050115:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:5 hour fcst:
-2:1173815:d=2019050115:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:8 hour fcst:
-2:1174128:d=2019050115:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:14 hour fcst:
-2:1255243:d=2019050115:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:16 hour fcst:
-2:1276404:d=2019050115:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:18 hour fcst:
-2:1286553:d=2019050115:VGRD:10 m above ground:18 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:15 hour fcst:
-2:1267567:d=2019050115:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:9 hour fcst:
-2:1167433:d=2019050115:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:3 hour fcst:
-2:1140852:d=2019050115:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:17 hour fcst:
-2:1282576:d=2019050115:VGRD:10 m above ground:17 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:08.149702 on 30 processors
+1:0:d=2019050315:UGRD:10 m above ground:18 hour fcst:
+2:1276309:d=2019050315:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:16 hour fcst:
+2:1269590:d=2019050315:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:anl:
+2:1063805:d=2019050315:VGRD:10 m above ground:anl:
+1:0:d=2019050315:UGRD:10 m above ground:9 hour fcst:
+2:1171456:d=2019050315:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:2 hour fcst:
+2:1119791:d=2019050315:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:11 hour fcst:
+2:1162734:d=2019050315:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:13 hour fcst:
+2:1235001:d=2019050315:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:14 hour fcst:
+2:1249957:d=2019050315:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:12 hour fcst:
+2:1219844:d=2019050315:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:5 hour fcst:
+2:1178915:d=2019050315:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:3 hour fcst:
+2:1140753:d=2019050315:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:7 hour fcst:
+2:1193708:d=2019050315:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:4 hour fcst:
+2:1161251:d=2019050315:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:15 hour fcst:
+2:1262486:d=2019050315:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:17 hour fcst:
+2:1272640:d=2019050315:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:10 hour fcst:
+2:1160184:d=2019050315:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:8 hour fcst:
+2:1185109:d=2019050315:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:1 hour fcst:
+2:1093171:d=2019050315:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:6 hour fcst:
+2:1190125:d=2019050315:VGRD:10 m above ground:6 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:08.848890 on 30 processors
 got U and V wind vectors
-1:0:d=2019050115:UGRD:10 m above ground:anl:
-2:1065326:d=2019050115:VGRD:10 m above ground:anl:
-1:0:d=2019050115:UGRD:10 m above ground:1 hour fcst:
-2:1103577:d=2019050115:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:2 hour fcst:
-2:1126508:d=2019050115:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:3 hour fcst:
-2:1140852:d=2019050115:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:4 hour fcst:
-2:1158373:d=2019050115:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:5 hour fcst:
-2:1173815:d=2019050115:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:6 hour fcst:
-2:1183300:d=2019050115:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:7 hour fcst:
-2:1183447:d=2019050115:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:8 hour fcst:
-2:1174128:d=2019050115:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:9 hour fcst:
-2:1167433:d=2019050115:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:10 hour fcst:
-2:1160652:d=2019050115:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:11 hour fcst:
-2:1170774:d=2019050115:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:12 hour fcst:
-2:1215692:d=2019050115:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:13 hour fcst:
-2:1225173:d=2019050115:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:14 hour fcst:
-2:1255243:d=2019050115:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:15 hour fcst:
-2:1267567:d=2019050115:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:16 hour fcst:
-2:1276404:d=2019050115:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:17 hour fcst:
-2:1282576:d=2019050115:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2019050115:UGRD:10 m above ground:18 hour fcst:
-2:1286553:d=2019050115:VGRD:10 m above ground:18 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:02.049026 on 30 processors
+1:0:d=2019050315:UGRD:10 m above ground:anl:
+2:1063805:d=2019050315:VGRD:10 m above ground:anl:
+1:0:d=2019050315:UGRD:10 m above ground:1 hour fcst:
+2:1093171:d=2019050315:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:2 hour fcst:
+2:1119791:d=2019050315:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:3 hour fcst:
+2:1140753:d=2019050315:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:4 hour fcst:
+2:1161251:d=2019050315:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:5 hour fcst:
+2:1178915:d=2019050315:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:6 hour fcst:
+2:1190125:d=2019050315:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:7 hour fcst:
+2:1193708:d=2019050315:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:8 hour fcst:
+2:1185109:d=2019050315:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:9 hour fcst:
+2:1171456:d=2019050315:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:10 hour fcst:
+2:1160184:d=2019050315:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:11 hour fcst:
+2:1162734:d=2019050315:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:12 hour fcst:
+2:1219844:d=2019050315:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:13 hour fcst:
+2:1235001:d=2019050315:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:14 hour fcst:
+2:1249957:d=2019050315:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:15 hour fcst:
+2:1262486:d=2019050315:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:16 hour fcst:
+2:1269590:d=2019050315:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:17 hour fcst:
+2:1272640:d=2019050315:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2019050315:UGRD:10 m above ground:18 hour fcst:
+2:1276309:d=2019050315:VGRD:10 m above ground:18 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:02.163546 on 30 processors
 got prec
 making permenant figure elements...
-finding fire perimeter patches for BLACK BRIDGE fire... Done!
-finding fire perimeter patches for BLACK BRIDGE fire... Done!
+finding fire perimeter patches for BRAY MILL fire... Done!
+finding fire perimeter patches for BRAY MILL fire... Done!
+finding fire perimeter patches for PATTON fire... Done!
+finding fire perimeter patches for PATTON fire... Done!
 finding fire perimeter patches for FOREST fire... Done!
 finding fire perimeter patches for FOREST fire... Done!
 
---> Working on: BLACK BRIDGE 0
+--> Working on: BRAY MILL 0
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f00.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f00.png
+===========================================================
+
+
+--> Working on: PATTON 0
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f00.png
 ===========================================================
 
 
 --> Working on: FOREST 0
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f00.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f00.png
 ===========================================================
 
 Finished: 0
 
---> Working on: BLACK BRIDGE 1
+--> Working on: BRAY MILL 1
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f01.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f01.png
+===========================================================
+
+
+--> Working on: PATTON 1
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f01.png
 ===========================================================
 
 
 --> Working on: FOREST 1
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f01.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f01.png
 ===========================================================
 
 Finished: 1
 
---> Working on: BLACK BRIDGE 2
+--> Working on: BRAY MILL 2
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f02.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f02.png
+===========================================================
+
+
+--> Working on: PATTON 2
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f02.png
 ===========================================================
 
 
 --> Working on: FOREST 2
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f02.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f02.png
 ===========================================================
 
 Finished: 2
 
---> Working on: BLACK BRIDGE 3
+--> Working on: BRAY MILL 3
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f03.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f03.png
+===========================================================
+
+
+--> Working on: PATTON 3
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f03.png
 ===========================================================
 
 
 --> Working on: FOREST 3
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f03.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f03.png
 ===========================================================
 
 Finished: 3
 
---> Working on: BLACK BRIDGE 4
+--> Working on: BRAY MILL 4
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f04.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f04.png
+===========================================================
+
+
+--> Working on: PATTON 4
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f04.png
 ===========================================================
 
 
 --> Working on: FOREST 4
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f04.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f04.png
 ===========================================================
 
 Finished: 4
 
---> Working on: BLACK BRIDGE 5
+--> Working on: BRAY MILL 5
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f05.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f05.png
+===========================================================
+
+
+--> Working on: PATTON 5
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f05.png
 ===========================================================
 
 
 --> Working on: FOREST 5
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f05.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f05.png
 ===========================================================
 
 Finished: 5
 
---> Working on: BLACK BRIDGE 6
+--> Working on: BRAY MILL 6
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f06.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f06.png
+===========================================================
+
+
+--> Working on: PATTON 6
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f06.png
 ===========================================================
 
 
 --> Working on: FOREST 6
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f06.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f06.png
 ===========================================================
 
 Finished: 6
 
---> Working on: BLACK BRIDGE 7
+--> Working on: BRAY MILL 7
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f07.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f07.png
+===========================================================
+
+
+--> Working on: PATTON 7
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f07.png
 ===========================================================
 
 
 --> Working on: FOREST 7
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f07.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f07.png
 ===========================================================
 
 Finished: 7
 
---> Working on: BLACK BRIDGE 8
+--> Working on: BRAY MILL 8
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f08.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f08.png
+===========================================================
+
+
+--> Working on: PATTON 8
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f08.png
 ===========================================================
 
 
 --> Working on: FOREST 8
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f08.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f08.png
 ===========================================================
 
 Finished: 8
 
---> Working on: BLACK BRIDGE 9
+--> Working on: BRAY MILL 9
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f09.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f09.png
+===========================================================
+
+
+--> Working on: PATTON 9
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f09.png
 ===========================================================
 
 
 --> Working on: FOREST 9
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f09.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f09.png
 ===========================================================
 
 Finished: 9
 
---> Working on: BLACK BRIDGE 10
+--> Working on: BRAY MILL 10
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f10.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f10.png
+===========================================================
+
+
+--> Working on: PATTON 10
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f10.png
 ===========================================================
 
 
 --> Working on: FOREST 10
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f10.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f10.png
 ===========================================================
 
 Finished: 10
 
---> Working on: BLACK BRIDGE 11
+--> Working on: BRAY MILL 11
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f11.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f11.png
+===========================================================
+
+
+--> Working on: PATTON 11
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f11.png
 ===========================================================
 
 
 --> Working on: FOREST 11
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f11.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f11.png
 ===========================================================
 
 Finished: 11
 
---> Working on: BLACK BRIDGE 12
+--> Working on: BRAY MILL 12
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f12.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f12.png
+===========================================================
+
+
+--> Working on: PATTON 12
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f12.png
 ===========================================================
 
 
 --> Working on: FOREST 12
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f12.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f12.png
 ===========================================================
 
 Finished: 12
 
---> Working on: BLACK BRIDGE 13
+--> Working on: BRAY MILL 13
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f13.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f13.png
+===========================================================
+
+
+--> Working on: PATTON 13
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f13.png
 ===========================================================
 
 
 --> Working on: FOREST 13
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f13.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f13.png
 ===========================================================
 
 Finished: 13
 
---> Working on: BLACK BRIDGE 14
+--> Working on: BRAY MILL 14
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f14.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f14.png
+===========================================================
+
+
+--> Working on: PATTON 14
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f14.png
 ===========================================================
 
 
 --> Working on: FOREST 14
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f14.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f14.png
 ===========================================================
 
 Finished: 14
 
---> Working on: BLACK BRIDGE 15
+--> Working on: BRAY MILL 15
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f15.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f15.png
+===========================================================
+
+
+--> Working on: PATTON 15
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f15.png
 ===========================================================
 
 
 --> Working on: FOREST 15
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f15.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f15.png
 ===========================================================
 
 Finished: 15
 
---> Working on: BLACK BRIDGE 16
+--> Working on: BRAY MILL 16
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f16.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f16.png
+===========================================================
+
+
+--> Working on: PATTON 16
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f16.png
 ===========================================================
 
 
 --> Working on: FOREST 16
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f16.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f16.png
 ===========================================================
 
 Finished: 16
 
---> Working on: BLACK BRIDGE 17
+--> Working on: BRAY MILL 17
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f17.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f17.png
+===========================================================
+
+
+--> Working on: PATTON 17
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f17.png
 ===========================================================
 
 
 --> Working on: FOREST 17
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f17.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f17.png
 ===========================================================
 
 Finished: 17
 
---> Working on: BLACK BRIDGE 18
+--> Working on: BRAY MILL 18
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/f18.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/f18.png
+===========================================================
+
+
+--> Working on: PATTON 18
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/f18.png
 ===========================================================
 
 
 --> Working on: FOREST 18
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/f18.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/f18.png
 ===========================================================
 
 Finished: 18
 error INAME
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-01.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-03.txt
 Retrieved fires from Active Fire Mapping Program
-There are 2 large fires.
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211551229_e20191211554002_c20191211554116.nc
+There are 3 large fires.
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231536242_e20191231539015_c20191231539127.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:52:41.638909
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211551229_e20191211554002_c20191211554116.nc
-2019-05-01 10:46:06.550626
-0:00:00.444198 ABI Blend
-0:00:00.449129 GLM
-0:00:05.234161 map elements
-0:00:05.234499 labels
-0:00:38.701116 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G51
-2019-05-01 10:46:45.325934
-0:00:00.431872 ABI Blend
-0:00:00.435367 GLM
-0:00:05.502125 map elements
-0:00:05.502427 labels
-0:00:38.922782 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G51
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211536229_e20191211539002_c20191211539123.nc
+File date: 2019-05-03 15:37:42.933798
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231536242_e20191231539015_c20191231539127.nc
+2019-05-03 10:48:12.024698
+0:00:00.457754 ABI Blend
+0:00:00.462546 GLM
+0:00:05.973673 map elements
+0:00:05.974022 labels
+0:00:42.139573 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G36
+2019-05-03 10:48:54.243425
+0:00:00.442257 ABI Blend
+0:00:00.446314 GLM
+0:00:06.033799 map elements
+0:00:06.034126 labels
+0:00:42.899938 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G36
+2019-05-03 10:49:37.220066
+0:00:00.484757 ABI Blend
+0:00:00.488814 GLM
+0:00:07.520072 map elements
+0:00:07.520398 labels
+0:00:51.728703 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G36
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231556242_e20191231559016_c20191231559125.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:37:41.627801
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211536229_e20191211539002_c20191211539123.nc
-2019-05-01 10:46:06.879034
-0:00:00.457619 ABI Blend
-0:00:00.461720 GLM
-0:00:05.290166 map elements
-0:00:05.290513 labels
-0:00:38.875048 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G36
-2019-05-01 10:46:45.829966
-0:00:00.440674 ABI Blend
-0:00:00.443943 GLM
-0:00:05.531378 map elements
-0:00:05.531700 labels
-0:00:38.964233 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G36
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211531229_e20191211534002_c20191211534119.nc
+File date: 2019-05-03 15:57:42.950173
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231556242_e20191231559016_c20191231559125.nc
+2019-05-03 10:48:12.026880
+0:00:00.470396 ABI Blend
+0:00:00.475185 GLM
+0:00:06.032606 map elements
+0:00:06.032944 labels
+0:00:49.800509 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G56
+2019-05-03 10:49:01.907318
+0:00:00.448735 ABI Blend
+0:00:00.452667 GLM
+0:00:08.750379 map elements
+0:00:08.750678 labels
+0:00:45.697509 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G56
+2019-05-03 10:49:47.696886
+0:00:00.481305 ABI Blend
+0:00:00.484949 GLM
+0:00:06.732730 map elements
+0:00:06.733033 labels
+0:00:43.262613 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G56
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231516242_e20191231519015_c20191231519127.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:32:41.629835
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211531229_e20191211534002_c20191211534119.nc
-2019-05-01 10:46:08.251754
-0:00:00.471028 ABI Blend
-0:00:00.474655 GLM
-0:00:05.212841 map elements
-0:00:05.213172 labels
-0:00:38.761732 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G31
-2019-05-01 10:46:47.094553
-0:00:00.447238 ABI Blend
-0:00:00.450708 GLM
-0:00:05.542688 map elements
-0:00:05.543011 labels
-0:00:38.965823 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G31
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211516229_e20191211519002_c20191211519118.nc
+File date: 2019-05-03 15:17:42.919108
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231516242_e20191231519015_c20191231519127.nc
+2019-05-03 10:48:11.304810
+0:00:00.488213 ABI Blend
+0:00:00.492945 GLM
+0:00:05.926741 map elements
+0:00:05.927084 labels
+0:00:45.543373 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G16
+2019-05-03 10:48:56.956589
+0:00:00.534215 ABI Blend
+0:00:00.538477 GLM
+0:00:06.489718 map elements
+0:00:06.490236 labels
+0:00:46.384659 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G16
+2019-05-03 10:49:43.432531
+0:00:00.517618 ABI Blend
+0:00:00.521822 GLM
+0:00:08.726680 map elements
+0:00:08.727120 labels
+0:00:48.470740 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G16
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231526242_e20191231529015_c20191231529128.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:17:41.621650
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211516229_e20191211519002_c20191211519118.nc
-2019-05-01 10:46:08.780711
-0:00:00.468052 ABI Blend
-0:00:00.472284 GLM
-0:00:05.160630 map elements
-0:00:05.160960 labels
-0:00:38.726969 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G16
-2019-05-01 10:46:47.588161
-0:00:00.465241 ABI Blend
-0:00:00.469352 GLM
-0:00:05.487349 map elements
-0:00:05.487653 labels
-0:00:38.981879 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G16
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211506229_e20191211509002_c20191211509115.nc
+File date: 2019-05-03 15:27:42.926867
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231526242_e20191231529015_c20191231529128.nc
+2019-05-03 10:48:11.282438
+0:00:00.755858 ABI Blend
+0:00:00.764234 GLM
+0:00:08.134501 map elements
+0:00:08.134832 labels
+0:00:52.796217 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G26
+2019-05-03 10:49:04.223578
+0:00:00.727751 ABI Blend
+0:00:00.736023 GLM
+0:00:10.485925 map elements
+0:00:10.486368 labels
+0:00:51.394394 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G26
+2019-05-03 10:49:55.752025
+0:00:00.617374 ABI Blend
+0:00:00.625298 GLM
+0:00:07.860523 map elements
+0:00:07.860979 labels
+0:00:45.881149 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G26
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231511242_e20191231514015_c20191231514127.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:07:41.620028
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211506229_e20191211509002_c20191211509115.nc
-2019-05-01 10:46:08.842588
-0:00:00.504281 ABI Blend
-0:00:00.508004 GLM
-0:00:05.362468 map elements
-0:00:05.362807 labels
-0:00:38.919757 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G06
-2019-05-01 10:46:47.852162
-0:00:00.488477 ABI Blend
-0:00:00.492232 GLM
-0:00:05.670559 map elements
-0:00:05.670874 labels
-0:00:39.120400 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G06
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211526229_e20191211529002_c20191211529119.nc
+File date: 2019-05-03 15:12:42.921075
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231511242_e20191231514015_c20191231514127.nc
+2019-05-03 10:48:13.451780
+0:00:00.487977 ABI Blend
+0:00:00.492794 GLM
+0:00:06.436979 map elements
+0:00:06.437411 labels
+0:00:54.244581 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G11
+2019-05-03 10:49:07.778317
+0:00:00.503945 ABI Blend
+0:00:00.508454 GLM
+0:00:07.739040 map elements
+0:00:07.739351 labels
+0:00:49.787256 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G11
+2019-05-03 10:49:57.708068
+0:00:00.726183 ABI Blend
+0:00:00.733413 GLM
+0:00:08.588487 map elements
+0:00:08.588799 labels
+0:00:45.024734 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G11
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231521242_e20191231524015_c20191231524128.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:27:41.627780
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211526229_e20191211529002_c20191211529119.nc
-2019-05-01 10:46:07.187289
-0:00:00.460323 ABI Blend
-0:00:00.464162 GLM
-0:00:05.528760 map elements
-0:00:05.529079 labels
-0:00:39.731710 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G26
-2019-05-01 10:46:46.995142
-0:00:00.463325 ABI Blend
-0:00:00.466748 GLM
-0:00:05.730172 map elements
-0:00:05.730501 labels
-0:00:39.913914 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G26
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211521229_e20191211524002_c20191211524114.nc
+File date: 2019-05-03 15:22:42.924861
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231521242_e20191231524015_c20191231524128.nc
+2019-05-03 10:48:13.089918
+0:00:00.645977 ABI Blend
+0:00:00.654369 GLM
+0:00:09.677829 map elements
+0:00:09.678364 labels
+0:01:04.968143 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G21
+2019-05-03 10:49:18.129286
+0:00:00.434879 ABI Blend
+0:00:00.438757 GLM
+0:00:06.184761 map elements
+0:00:06.185082 labels
+0:00:42.491706 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G21
+2019-05-03 10:50:00.692362
+0:00:00.438223 ABI Blend
+0:00:00.442125 GLM
+0:00:07.040915 map elements
+0:00:07.041246 labels
+0:00:42.917217 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G21
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231546242_e20191231549015_c20191231549122.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:22:41.625146
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211521229_e20191211524002_c20191211524114.nc
-2019-05-01 10:46:07.207463
-0:00:00.457716 ABI Blend
-0:00:00.461460 GLM
-0:00:05.394274 map elements
-0:00:05.394599 labels
-0:00:39.908119 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G21
-2019-05-01 10:46:47.194864
-0:00:00.465500 ABI Blend
-0:00:00.468851 GLM
-0:00:05.664371 map elements
-0:00:05.664674 labels
-0:00:39.714733 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G21
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211556229_e20191211559002_c20191211559113.nc
+File date: 2019-05-03 15:47:42.943536
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231546242_e20191231549015_c20191231549122.nc
+2019-05-03 10:48:11.058816
+0:00:00.498000 ABI Blend
+0:00:00.502357 GLM
+0:00:07.783670 map elements
+0:00:07.784160 labels
+0:00:59.372111 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G46
+2019-05-03 10:49:10.564740
+0:00:00.622306 ABI Blend
+0:00:00.629211 GLM
+0:00:07.819998 map elements
+0:00:07.820302 labels
+0:00:48.028063 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G46
+2019-05-03 10:49:58.683821
+0:00:00.451334 ABI Blend
+0:00:00.455434 GLM
+0:00:08.247773 map elements
+0:00:08.248092 labels
+0:00:46.619739 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G46
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231506242_e20191231509015_c20191231509126.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:57:41.636541
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211556229_e20191211559002_c20191211559113.nc
-2019-05-01 10:46:08.260128
-0:00:00.500749 ABI Blend
-0:00:00.504505 GLM
-0:00:05.328186 map elements
-0:00:05.328526 labels
-0:00:39.406271 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G56
-2019-05-01 10:46:47.744525
-0:00:00.462220 ABI Blend
-0:00:00.465294 GLM
-0:00:05.615691 map elements
-0:00:05.616001 labels
-0:00:39.571812 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G56
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211511229_e20191211514002_c20191211514123.nc
+File date: 2019-05-03 15:07:42.912358
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231506242_e20191231509015_c20191231509126.nc
+2019-05-03 10:48:14.146842
+0:00:00.632912 ABI Blend
+0:00:00.640847 GLM
+0:00:07.307415 map elements
+0:00:07.307907 labels
+0:00:58.892885 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G06
+2019-05-03 10:49:13.171498
+0:00:00.602129 ABI Blend
+0:00:00.609429 GLM
+0:00:07.383781 map elements
+0:00:07.384082 labels
+0:00:50.181104 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G06
+2019-05-03 10:50:03.431613
+0:00:00.548005 ABI Blend
+0:00:00.552155 GLM
+0:00:06.947908 map elements
+0:00:06.948212 labels
+0:00:43.094185 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G06
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231541242_e20191231544015_c20191231544125.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:12:41.624651
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211511229_e20191211514002_c20191211514123.nc
-2019-05-01 10:46:08.531822
-0:00:00.480911 ABI Blend
-0:00:00.484778 GLM
-0:00:05.297638 map elements
-0:00:05.297961 labels
-0:00:39.347955 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G11
-2019-05-01 10:46:47.962735
-0:00:00.477406 ABI Blend
-0:00:00.481010 GLM
-0:00:05.601646 map elements
-0:00:05.601968 labels
-0:00:39.732847 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G11
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211546229_e20191211549002_c20191211549116.nc
+File date: 2019-05-03 15:42:42.942376
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231541242_e20191231544015_c20191231544125.nc
+2019-05-03 10:48:12.110034
+0:00:00.470563 ABI Blend
+0:00:00.475256 GLM
+0:00:07.810373 map elements
+0:00:07.810862 labels
+0:00:54.034604 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G41
+2019-05-03 10:49:06.223677
+0:00:00.475358 ABI Blend
+0:00:00.482219 GLM
+0:00:09.867007 map elements
+0:00:09.867418 labels
+0:00:55.835699 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G41
+2019-05-03 10:50:02.191308
+0:00:00.619439 ABI Blend
+0:00:00.626977 GLM
+0:00:07.487064 map elements
+0:00:07.487375 labels
+0:00:46.952037 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G41
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231551242_e20191231554015_c20191231554129.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:47:41.635810
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211546229_e20191211549002_c20191211549116.nc
-2019-05-01 10:46:08.927357
-0:00:00.481814 ABI Blend
-0:00:00.485835 GLM
-0:00:05.373724 map elements
-0:00:05.374034 labels
-0:00:40.105193 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G46
-2019-05-01 10:46:49.114501
-0:00:00.471868 ABI Blend
-0:00:00.475655 GLM
-0:00:05.676349 map elements
-0:00:05.676650 labels
-0:00:40.367225 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G46
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211541229_e20191211544002_c20191211544118.nc
+File date: 2019-05-03 15:52:42.949413
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231551242_e20191231554015_c20191231554129.nc
+2019-05-03 10:48:12.264148
+0:00:00.642771 ABI Blend
+0:00:00.652367 GLM
+0:00:09.365772 map elements
+0:00:09.366309 labels
+0:00:59.402171 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G51
+2019-05-03 10:49:11.758657
+0:00:00.519185 ABI Blend
+0:00:00.528619 GLM
+0:00:09.081728 map elements
+0:00:09.082194 labels
+0:00:51.255299 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G51
+2019-05-03 10:50:03.094378
+0:00:00.461898 ABI Blend
+0:00:00.467207 GLM
+0:00:07.584706 map elements
+0:00:07.585010 labels
+0:00:47.200042 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G51
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231501242_e20191231504015_c20191231504130.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-01 15:42:41.634820
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211541229_e20191211544002_c20191211544118.nc
-2019-05-01 10:46:08.533217
-0:00:00.678443 ABI Blend
-0:00:00.686704 GLM
-0:00:07.510762 map elements
-0:00:07.511501 labels
-0:00:53.636091 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G41
-2019-05-01 10:47:02.276633
-0:00:00.605637 ABI Blend
-0:00:00.611993 GLM
-0:00:07.635708 map elements
-0:00:07.636013 labels
-0:00:43.156727 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G41
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211501229_e20191211504002_c20191211504112.nc
-
-   Gamma correction: 0.4
-
-   contrast correction: 125
-File date: 2019-05-01 15:02:41.620096
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190501/OR_ABI-L2-MCMIPC-M6_G16_s20191211501229_e20191211504002_c20191211504112.nc
-2019-05-01 10:46:08.756559
-0:00:00.501466 ABI Blend
-0:00:00.505341 GLM
-0:00:05.344217 map elements
-0:00:05.344551 labels
-0:00:38.784021 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/BLACK_BRIDGE/G01
-2019-05-01 10:46:47.620966
-0:00:00.482612 ABI Blend
-0:00:00.485861 GLM
-0:00:05.658520 map elements
-0:00:05.658833 labels
-0:00:39.200224 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-01/1500/FOREST/G01
+File date: 2019-05-03 15:02:42.911099
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190503/OR_ABI-L2-MCMIPC-M6_G16_s20191231501242_e20191231504015_c20191231504130.nc
+2019-05-03 10:48:13.372759
+0:00:00.647054 ABI Blend
+0:00:00.655096 GLM
+0:00:09.907171 map elements
+0:00:09.907708 labels
+0:01:03.058411 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/BRAY_MILL/G01
+2019-05-03 10:49:16.508950
+0:00:00.516480 ABI Blend
+0:00:00.520661 GLM
+0:00:08.037630 map elements
+0:00:08.038081 labels
+0:00:48.212097 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/PATTON/G01
+2019-05-03 10:50:04.849980
+0:00:00.581049 ABI Blend
+0:00:00.588832 GLM
+0:00:07.697831 map elements
+0:00:07.698216 labels
+0:00:45.841306 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-03/1500/FOREST/G01

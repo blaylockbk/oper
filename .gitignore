@@ -1,11 +1,8 @@
 .DS_Store
 Thumbs.db
 
-hrrr.status
-goes16.status
-hrrrGOES.status
 cronout.txt
-
+*.status
 *.png
 *.pyc
 *.out
