@@ -305,7 +305,7 @@ for fxx in range(0, 19):
         #
         ## Overlay Simulated Radar Reflectivity on map
         ctable = 'NWSReflectivity'
-        norm, cmap = ctables.registry.get_with_steps(ctable, -0, 5)
+        norm, cmap = ctables.registry.get_with_steps(ctable, 5, 5)
         radar = loc['fig'][1].pcolormesh(trim_refc['lon'], trim_refc['lat'], trim_refc['value'],
                                          norm=norm, cmap=cmap, alpha=.5)
         if fxx == 0:
