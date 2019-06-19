@@ -26,25 +26,25 @@ BFLAT
 FREUT
 
 Working on 2 m Dew Point
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.614002 on 30 processors
-LocDic Time Series F01: Finished multiprocessing in 0:00:06.350174 on 30 processors
-LocDic Time Series F02: Finished multiprocessing in 0:00:06.918805 on 30 processors
-LocDic Time Series F03: Finished multiprocessing in 0:00:06.635311 on 30 processors
-LocDic Time Series F04: Finished multiprocessing in 0:00:06.632990 on 30 processors
-LocDic Time Series F05: Finished multiprocessing in 0:00:06.342653 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.123591 on 30 processors
-LocDic Time Series F07: Finished multiprocessing in 0:00:05.927742 on 30 processors
-LocDic Time Series F08: Finished multiprocessing in 0:00:06.614110 on 30 processors
-LocDic Time Series F09: Finished multiprocessing in 0:00:06.686349 on 30 processors
-LocDic Time Series F10: Finished multiprocessing in 0:00:06.666294 on 30 processors
-LocDic Time Series F11: Finished multiprocessing in 0:00:06.364155 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:06.238115 on 30 processors
-LocDic Time Series F13: Finished multiprocessing in 0:00:05.941818 on 30 processors
-LocDic Time Series F14: Finished multiprocessing in 0:00:06.211618 on 30 processors
-LocDic Time Series F15: Finished multiprocessing in 0:00:06.536540 on 30 processors
-LocDic Time Series F16: Finished multiprocessing in 0:00:06.661824 on 30 processors
-LocDic Time Series F17: Finished multiprocessing in 0:00:06.553736 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.167165 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.238311 on 30 processors
+LocDic Time Series F01: Finished multiprocessing in 0:00:07.730434 on 30 processors
+LocDic Time Series F02: Finished multiprocessing in 0:00:07.608203 on 30 processors
+LocDic Time Series F03: Finished multiprocessing in 0:00:07.989762 on 30 processors
+LocDic Time Series F04: Finished multiprocessing in 0:00:07.962367 on 30 processors
+LocDic Time Series F05: Finished multiprocessing in 0:00:07.650103 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:08.396164 on 30 processors
+LocDic Time Series F07: Finished multiprocessing in 0:00:07.838767 on 30 processors
+LocDic Time Series F08: Finished multiprocessing in 0:00:08.196060 on 30 processors
+LocDic Time Series F09: Finished multiprocessing in 0:00:08.794449 on 30 processors
+LocDic Time Series F10: Finished multiprocessing in 0:00:08.084164 on 30 processors
+LocDic Time Series F11: Finished multiprocessing in 0:00:07.832146 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:07.705708 on 30 processors
+LocDic Time Series F13: Finished multiprocessing in 0:00:08.083516 on 30 processors
+LocDic Time Series F14: Finished multiprocessing in 0:00:07.911688 on 30 processors
+LocDic Time Series F15: Finished multiprocessing in 0:00:07.618106 on 30 processors
+LocDic Time Series F16: Finished multiprocessing in 0:00:08.033532 on 30 processors
+LocDic Time Series F17: Finished multiprocessing in 0:00:07.894398 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:07.911986 on 30 processors
 
 Working on UTPKL 2 m Dew Point
 
@@ -59,10 +59,6 @@ Working on KSLC 2 m Dew Point
 Working on UFD09 2 m Dew Point
 
 Working on UCC23 2 m Dew Point
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=dew_point_temperature&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on EYSC 2 m Dew Point
 
@@ -85,138 +81,138 @@ Working on BFLAT 2 m Dew Point
 Working on FREUT 2 m Dew Point
 
 Working on Simulated Reflectivity
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.125597 on 30 processors
-LocDic Time Series F01: Finished multiprocessing in 0:00:06.217858 on 30 processors
-LocDic Time Series F02: Finished multiprocessing in 0:00:06.045101 on 30 processors
-LocDic Time Series F03: Finished multiprocessing in 0:00:06.149793 on 30 processors
-LocDic Time Series F04: Finished multiprocessing in 0:00:05.931898 on 30 processors
-LocDic Time Series F05: Finished multiprocessing in 0:00:06.237115 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.463469 on 30 processors
-LocDic Time Series F07: Finished multiprocessing in 0:00:06.001729 on 30 processors
-LocDic Time Series F08: Finished multiprocessing in 0:00:06.136790 on 30 processors
-LocDic Time Series F09: Finished multiprocessing in 0:00:06.293332 on 30 processors
-LocDic Time Series F10: Finished multiprocessing in 0:00:05.976803 on 30 processors
-LocDic Time Series F11: Finished multiprocessing in 0:00:06.383008 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:06.368619 on 30 processors
-LocDic Time Series F13: Finished multiprocessing in 0:00:05.877958 on 30 processors
-LocDic Time Series F14: Finished multiprocessing in 0:00:05.768823 on 30 processors
-LocDic Time Series F15: Finished multiprocessing in 0:00:06.133836 on 30 processors
-LocDic Time Series F16: Finished multiprocessing in 0:00:06.093031 on 30 processors
-LocDic Time Series F17: Finished multiprocessing in 0:00:06.056658 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.032314 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:07.748703 on 30 processors
+LocDic Time Series F01: Finished multiprocessing in 0:00:08.049443 on 30 processors
+LocDic Time Series F02: Finished multiprocessing in 0:00:08.702426 on 30 processors
+LocDic Time Series F03: Finished multiprocessing in 0:00:07.835868 on 30 processors
+LocDic Time Series F04: Finished multiprocessing in 0:00:07.688717 on 30 processors
+LocDic Time Series F05: Finished multiprocessing in 0:00:07.486648 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:08.080070 on 30 processors
+LocDic Time Series F07: Finished multiprocessing in 0:00:07.780256 on 30 processors
+LocDic Time Series F08: Finished multiprocessing in 0:00:08.099984 on 30 processors
+LocDic Time Series F09: Finished multiprocessing in 0:00:08.133483 on 30 processors
+LocDic Time Series F10: Finished multiprocessing in 0:00:07.971407 on 30 processors
+LocDic Time Series F11: Finished multiprocessing in 0:00:07.633071 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:07.772797 on 30 processors
+LocDic Time Series F13: Finished multiprocessing in 0:00:07.475729 on 30 processors
+LocDic Time Series F14: Finished multiprocessing in 0:00:08.279492 on 30 processors
+LocDic Time Series F15: Finished multiprocessing in 0:00:07.821065 on 30 processors
+LocDic Time Series F16: Finished multiprocessing in 0:00:07.943834 on 30 processors
+LocDic Time Series F17: Finished multiprocessing in 0:00:07.779259 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:07.715610 on 30 processors
 
 Working on UTPKL Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UTPKL&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on SND Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=SND&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on NAA Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=NAA&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on C8635 Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=C8635&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
 
 Working on KSLC Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=KSLC&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
 
 Working on UFD09 Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UFD09&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on UCC23 Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on EYSC Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EYSC&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
 
 Working on FPS Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FPS&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on HATUT Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on UKBKB Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UKBKB&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
 
 Working on WBB Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=WBB&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on EPMU1 Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EPMU1&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=EPMU1&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
 
 Working on GNI Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=GNI&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on ALT Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=ALT&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on BFLAT Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=BFLAT&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on FREUT Simulated Reflectivity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201905190000&end=201905210000&vars=reflectivity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201906170000&end=201906190000&vars=reflectivity&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=FREUT&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on 10 m MAX Wind Speed
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.223034 on 30 processors
-LocDic Time Series F01: Finished multiprocessing in 0:00:06.331701 on 30 processors
-LocDic Time Series F02: Finished multiprocessing in 0:00:06.347142 on 30 processors
-LocDic Time Series F03: Finished multiprocessing in 0:00:06.371607 on 30 processors
-LocDic Time Series F04: Finished multiprocessing in 0:00:06.114013 on 30 processors
-LocDic Time Series F05: Finished multiprocessing in 0:00:06.054165 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.326698 on 30 processors
-LocDic Time Series F07: Finished multiprocessing in 0:00:06.050132 on 30 processors
-LocDic Time Series F08: Finished multiprocessing in 0:00:06.162616 on 30 processors
-LocDic Time Series F09: Finished multiprocessing in 0:00:06.122048 on 30 processors
-LocDic Time Series F10: Finished multiprocessing in 0:00:06.604711 on 30 processors
-LocDic Time Series F11: Finished multiprocessing in 0:00:05.752603 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:05.911430 on 30 processors
-LocDic Time Series F13: Finished multiprocessing in 0:00:06.127481 on 30 processors
-LocDic Time Series F14: Finished multiprocessing in 0:00:06.149930 on 30 processors
-LocDic Time Series F15: Finished multiprocessing in 0:00:06.271872 on 30 processors
-LocDic Time Series F16: Finished multiprocessing in 0:00:05.938748 on 30 processors
-LocDic Time Series F17: Finished multiprocessing in 0:00:05.939658 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.165800 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.691833 on 30 processors
+LocDic Time Series F01: Finished multiprocessing in 0:00:07.921834 on 30 processors
+LocDic Time Series F02: Finished multiprocessing in 0:00:07.721431 on 30 processors
+LocDic Time Series F03: Finished multiprocessing in 0:00:07.552516 on 30 processors
+LocDic Time Series F04: Finished multiprocessing in 0:00:08.475735 on 30 processors
+LocDic Time Series F05: Finished multiprocessing in 0:00:08.857194 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:07.819766 on 30 processors
+LocDic Time Series F07: Finished multiprocessing in 0:00:08.119073 on 30 processors
+LocDic Time Series F08: Finished multiprocessing in 0:00:08.207190 on 30 processors
+LocDic Time Series F09: Finished multiprocessing in 0:00:07.690301 on 30 processors
+LocDic Time Series F10: Finished multiprocessing in 0:00:07.776638 on 30 processors
+LocDic Time Series F11: Finished multiprocessing in 0:00:07.892127 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:07.498073 on 30 processors
+LocDic Time Series F13: Finished multiprocessing in 0:00:07.578638 on 30 processors
+LocDic Time Series F14: Finished multiprocessing in 0:00:07.998169 on 30 processors
+LocDic Time Series F15: Finished multiprocessing in 0:00:07.603088 on 30 processors
+LocDic Time Series F16: Finished multiprocessing in 0:00:07.668691 on 30 processors
+LocDic Time Series F17: Finished multiprocessing in 0:00:07.657075 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:07.778147 on 30 processors
 
 Working on UTPKL 10 m MAX Wind Speed
 
@@ -231,20 +227,16 @@ Working on KSLC 10 m MAX Wind Speed
 Working on UFD09 10 m MAX Wind Speed
 
 Working on UCC23 10 m MAX Wind Speed
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=wind_speed&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on EYSC 10 m MAX Wind Speed
 
 Working on FPS 10 m MAX Wind Speed
 
 Working on HATUT 10 m MAX Wind Speed
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201905190000&end=201905210000&vars=wind_speed&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201906170000&end=201906190000&vars=wind_speed&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201906170000&end=201906190000&vars=precip_accum_one_hour&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201906170000&end=201906190000&vars=precip_accum&obtimezone=utc&output=json
+Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=HATUT&start=201906170000&end=201906190000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on UKBKB 10 m MAX Wind Speed
 
@@ -261,25 +253,25 @@ Working on BFLAT 10 m MAX Wind Speed
 Working on FREUT 10 m MAX Wind Speed
 
 Working on 2 m Relative Humidity
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.585618 on 30 processors
-LocDic Time Series F01: Finished multiprocessing in 0:00:06.837162 on 30 processors
-LocDic Time Series F02: Finished multiprocessing in 0:00:06.213444 on 30 processors
-LocDic Time Series F03: Finished multiprocessing in 0:00:06.445980 on 30 processors
-LocDic Time Series F04: Finished multiprocessing in 0:00:06.055476 on 30 processors
-LocDic Time Series F05: Finished multiprocessing in 0:00:06.009357 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.092910 on 30 processors
-LocDic Time Series F07: Finished multiprocessing in 0:00:05.995095 on 30 processors
-LocDic Time Series F08: Finished multiprocessing in 0:00:06.340283 on 30 processors
-LocDic Time Series F09: Finished multiprocessing in 0:00:05.919188 on 30 processors
-LocDic Time Series F10: Finished multiprocessing in 0:00:05.950655 on 30 processors
-LocDic Time Series F11: Finished multiprocessing in 0:00:06.709317 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:06.290233 on 30 processors
-LocDic Time Series F13: Finished multiprocessing in 0:00:06.548328 on 30 processors
-LocDic Time Series F14: Finished multiprocessing in 0:00:06.146328 on 30 processors
-LocDic Time Series F15: Finished multiprocessing in 0:00:05.757006 on 30 processors
-LocDic Time Series F16: Finished multiprocessing in 0:00:06.046266 on 30 processors
-LocDic Time Series F17: Finished multiprocessing in 0:00:05.944868 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:05.827615 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.338006 on 30 processors
+LocDic Time Series F01: Finished multiprocessing in 0:00:07.590769 on 30 processors
+LocDic Time Series F02: Finished multiprocessing in 0:00:08.210434 on 30 processors
+LocDic Time Series F03: Finished multiprocessing in 0:00:07.977802 on 30 processors
+LocDic Time Series F04: Finished multiprocessing in 0:00:07.713515 on 30 processors
+LocDic Time Series F05: Finished multiprocessing in 0:00:08.174707 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:07.593100 on 30 processors
+LocDic Time Series F07: Finished multiprocessing in 0:00:08.049587 on 30 processors
+LocDic Time Series F08: Finished multiprocessing in 0:00:08.602634 on 30 processors
+LocDic Time Series F09: Finished multiprocessing in 0:00:07.506749 on 30 processors
+LocDic Time Series F10: Finished multiprocessing in 0:00:07.864967 on 30 processors
+LocDic Time Series F11: Finished multiprocessing in 0:00:07.859207 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:08.475879 on 30 processors
+LocDic Time Series F13: Finished multiprocessing in 0:00:07.875641 on 30 processors
+LocDic Time Series F14: Finished multiprocessing in 0:00:07.566689 on 30 processors
+LocDic Time Series F15: Finished multiprocessing in 0:00:09.447930 on 30 processors
+LocDic Time Series F16: Finished multiprocessing in 0:00:10.658002 on 30 processors
+LocDic Time Series F17: Finished multiprocessing in 0:00:09.177145 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:08.520419 on 30 processors
 
 Working on UTPKL 2 m Relative Humidity
 
@@ -294,10 +286,6 @@ Working on KSLC 2 m Relative Humidity
 Working on UFD09 2 m Relative Humidity
 
 Working on UCC23 2 m Relative Humidity
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=relative_humidity&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on EYSC 2 m Relative Humidity
 
@@ -320,25 +308,25 @@ Working on BFLAT 2 m Relative Humidity
 Working on FREUT 2 m Relative Humidity
 
 Working on 2 m Temperature
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.399935 on 30 processors
-LocDic Time Series F01: Finished multiprocessing in 0:00:06.726972 on 30 processors
-LocDic Time Series F02: Finished multiprocessing in 0:00:06.141128 on 30 processors
-LocDic Time Series F03: Finished multiprocessing in 0:00:06.083271 on 30 processors
-LocDic Time Series F04: Finished multiprocessing in 0:00:05.855153 on 30 processors
-LocDic Time Series F05: Finished multiprocessing in 0:00:06.255922 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.138227 on 30 processors
-LocDic Time Series F07: Finished multiprocessing in 0:00:06.051482 on 30 processors
-LocDic Time Series F08: Finished multiprocessing in 0:00:06.868820 on 30 processors
-LocDic Time Series F09: Finished multiprocessing in 0:00:07.414871 on 30 processors
-LocDic Time Series F10: Finished multiprocessing in 0:00:06.811555 on 30 processors
-LocDic Time Series F11: Finished multiprocessing in 0:00:06.778326 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:06.632687 on 30 processors
-LocDic Time Series F13: Finished multiprocessing in 0:00:06.465616 on 30 processors
-LocDic Time Series F14: Finished multiprocessing in 0:00:06.527706 on 30 processors
-LocDic Time Series F15: Finished multiprocessing in 0:00:06.369635 on 30 processors
-LocDic Time Series F16: Finished multiprocessing in 0:00:07.258213 on 30 processors
-LocDic Time Series F17: Finished multiprocessing in 0:00:06.513128 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.352677 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.537470 on 30 processors
+LocDic Time Series F01: Finished multiprocessing in 0:00:08.967976 on 30 processors
+LocDic Time Series F02: Finished multiprocessing in 0:00:09.286179 on 30 processors
+LocDic Time Series F03: Finished multiprocessing in 0:00:08.800575 on 30 processors
+LocDic Time Series F04: Finished multiprocessing in 0:00:08.913386 on 30 processors
+LocDic Time Series F05: Finished multiprocessing in 0:00:08.752629 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:08.833471 on 30 processors
+LocDic Time Series F07: Finished multiprocessing in 0:00:08.715047 on 30 processors
+LocDic Time Series F08: Finished multiprocessing in 0:00:08.985366 on 30 processors
+LocDic Time Series F09: Finished multiprocessing in 0:00:09.447783 on 30 processors
+LocDic Time Series F10: Finished multiprocessing in 0:00:09.497395 on 30 processors
+LocDic Time Series F11: Finished multiprocessing in 0:00:09.218033 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:08.716701 on 30 processors
+LocDic Time Series F13: Finished multiprocessing in 0:00:08.655203 on 30 processors
+LocDic Time Series F14: Finished multiprocessing in 0:00:08.826160 on 30 processors
+LocDic Time Series F15: Finished multiprocessing in 0:00:08.496240 on 30 processors
+LocDic Time Series F16: Finished multiprocessing in 0:00:09.201116 on 30 processors
+LocDic Time Series F17: Finished multiprocessing in 0:00:09.177264 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:09.081137 on 30 processors
 
 Working on UTPKL 2 m Temperature
 
@@ -353,10 +341,6 @@ Working on KSLC 2 m Temperature
 Working on UFD09 2 m Temperature
 
 Working on UCC23 2 m Temperature
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=air_temp&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_one_hour&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum&obtimezone=utc&output=json
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905210000&vars=precip_accum_24_hour&obtimezone=utc&output=json
 
 Working on EYSC 2 m Temperature
 
@@ -404,19 +388,18 @@ GNI
 ALT
 BFLAT
 FREUT
-UTC DATE: 2019-05-19 00:00:00
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.704806 on 30 processors
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.818163 on 30 processors
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.567721 on 30 processors
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.628885 on 30 processors
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.183657 on 30 processors
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.192487 on 30 processors
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.569200 on 30 processors
-LocDic Time Series F00: Finished multiprocessing in 0:00:06.186359 on 30 processors
-LocDic Time Series F00: Finished multiprocessing in 0:00:07.493021 on 30 processors
-LocDic Time Series F00: Finished multiprocessing in 0:00:07.893223 on 30 processors
+UTC DATE: 2019-06-17 00:00:00
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.643798 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:09.516074 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:09.095322 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.779162 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.785064 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.766589 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.298411 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:08.335922 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:10.171689 on 30 processors
+LocDic Time Series F00: Finished multiprocessing in 0:00:10.084897 on 30 processors
 making permenant figure elements...
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905190000&end=201905202300&vars=air_temp,dew_point_temperature,wind_direction,wind_speed&obtimezone=utc&output=json
 
 --------------------------------------------------------
   Working on the HRRR time series plots (HRRR_anlys.py)
@@ -444,19 +427,18 @@ GNI
 ALT
 BFLAT
 FREUT
-UTC DATE: 2019-05-18 18:00:00
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.363133 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.082717 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.046274 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:05.817489 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:05.778211 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.106066 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.053799 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:05.980010 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:07.137195 on 30 processors
-LocDic Time Series F06: Finished multiprocessing in 0:00:06.750002 on 30 processors
+UTC DATE: 2019-06-16 18:00:00
+LocDic Time Series F06: Finished multiprocessing in 0:00:08.813805 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:08.580093 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:09.198256 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:09.579530 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:09.582173 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:01:34.019082 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:53.123300 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:59.977442 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:09.186702 on 30 processors
+LocDic Time Series F06: Finished multiprocessing in 0:00:08.196610 on 30 processors
 making permenant figure elements...
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905181800&end=201905201700&vars=air_temp,dew_point_temperature,wind_direction,wind_speed&obtimezone=utc&output=json
 
 --------------------------------------------------------
   Working on the HRRR time series plots (HRRR_anlys.py)
@@ -484,19 +466,18 @@ GNI
 ALT
 BFLAT
 FREUT
-UTC DATE: 2019-05-18 12:00:00
-LocDic Time Series F12: Finished multiprocessing in 0:00:06.069619 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:05.868727 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:05.878763 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:05.956470 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:05.782842 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:05.680212 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:05.766552 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:06.016988 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:06.295491 on 30 processors
-LocDic Time Series F12: Finished multiprocessing in 0:00:06.959681 on 30 processors
+UTC DATE: 2019-06-16 12:00:00
+LocDic Time Series F12: Finished multiprocessing in 0:00:08.178027 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:07.406592 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:07.868683 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:07.650603 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:07.783139 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:08.567618 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:07.836760 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:07.895856 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:09.148414 on 30 processors
+LocDic Time Series F12: Finished multiprocessing in 0:00:08.367318 on 30 processors
 making permenant figure elements...
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905181200&end=201905201100&vars=air_temp,dew_point_temperature,wind_direction,wind_speed&obtimezone=utc&output=json
 
 --------------------------------------------------------
   Working on the HRRR time series plots (HRRR_anlys.py)
@@ -524,16 +505,15 @@ GNI
 ALT
 BFLAT
 FREUT
-UTC DATE: 2019-05-18 06:00:00
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.023122 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:05.716800 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.024343 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:05.761243 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.481828 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.159979 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:05.914431 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:05.656794 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.955095 on 30 processors
-LocDic Time Series F18: Finished multiprocessing in 0:00:06.343427 on 30 processors
+UTC DATE: 2019-06-16 06:00:00
+LocDic Time Series F18: Finished multiprocessing in 0:00:08.165741 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:08.169825 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:08.596513 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:08.457833 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:08.427982 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:07.867329 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:08.215739 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:08.610090 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:09.396973 on 30 processors
+LocDic Time Series F18: Finished multiprocessing in 0:00:09.038382 on 30 processors
 making permenant figure elements...
-Errors loading: http://api.mesowest.net/v2/stations/timeseries?&token=2562b729557f45f5958516081f06c9eb&stid=UCC23&start=201905180600&end=201905200500&vars=air_temp,dew_point_temperature,wind_direction,wind_speed&obtimezone=utc&output=json

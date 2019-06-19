@@ -495,6 +495,6 @@ for fxx in range(0, 19):
 #  - Plots a map of the fires
 sys.path.append('/uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires/')
 from manager import *
-#remove_old_fires()
-#write_HRRR_fires_HTML()
-#draw_fires_on_map()
+remove_old_fires()
+write_HRRR_fires_HTML()
+draw_fires_on_map()

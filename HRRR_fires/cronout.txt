@@ -1,663 +1,2431 @@
 /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_fires
 error INAME
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-21.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-06-18.txt
 Retrieved fires from Active Fire Mapping Program
 error INAME
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-21.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-06-18.txt
 Retrieved fires from Active Fire Mapping Program
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412126341_e20191412129114_c20191412129228.nc
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701526532_e20191701529305_c20191701529418.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 21:27:52.754445
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412126341_e20191412129114_c20191412129228.nc
-31.706 -118.246 48.534 -102.727
+File date: 2019-06-19 15:28:11.891953
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701526532_e20191701529305_c20191701529418.nc
+29.992 -122.255 43.979 -103.239
 
 
  Plot scatter points
 Downloaded the most recent active fire perimeters.
-Local DATE: 2019-05-21 15:40:52.907165
-  UTC DATE: 2019-05-21 20:00:00
+Local DATE: 2019-06-19 09:40:56.313030
+  UTC DATE: 2019-06-19 14:00:00
 error INAME
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-21.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-06-18.txt
 Retrieved fires from Active Fire Mapping Program
-There are 2 large fires.
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/Landuse.png
-created landuse maps for PROSPECT
-need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/Landuse.png
-created landuse maps for PONCHO
-LocDic Pollywog: Finished multiprocessing in 0:00:02.727171 on 30 processors
+There are 10 large fires.
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/Landuse.png
+created landuse maps for BYLAS
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/Landuse.png
+created landuse maps for MOUNTAIN
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/Landuse.png
+created landuse maps for ELK
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/Landuse.png
+created landuse maps for HELLS GATE
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/Landuse.png
+created landuse maps for WOODBURY
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/Landuse.png
+created landuse maps for JORDAN
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/Landuse.png
+created landuse maps for DAIRY
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/Landuse.png
+created landuse maps for ROARING
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/Landuse.png
+created landuse maps for LONE MOUNTAIN
+need to make /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/Landuse.png
+created landuse maps for COLDWATER
+LocDic Pollywog: Finished multiprocessing in 0:00:04.170353 on 30 processors
 got temps
-LocDic Pollywog: Finished multiprocessing in 0:00:02.422359 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:03.961198 on 30 processors
 got dwpt
-LocDic Pollywog: Finished multiprocessing in 0:00:02.533799 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:03.841622 on 30 processors
 got wind
-LocDic Pollywog: Finished multiprocessing in 0:00:02.594015 on 30 processors
+LocDic Pollywog: Finished multiprocessing in 0:00:04.192316 on 30 processors
 got gust
-1:0:d=2019052120:UGRD:10 m above ground:15 hour fcst:
-2:1292885:d=2019052120:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:17 hour fcst:
-2:1239264:d=2019052120:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:13 hour fcst:
-2:1295658:d=2019052120:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:14 hour fcst:
-2:1298151:d=2019052120:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:5 hour fcst:
-2:1197204:d=2019052120:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:7 hour fcst:
-2:1245698:d=2019052120:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:9 hour fcst:
-2:1276101:d=2019052120:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:11 hour fcst:
-2:1290461:d=2019052120:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:8 hour fcst:
-2:1266134:d=2019052120:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:anl:
-2:1135738:d=2019052120:VGRD:10 m above ground:anl:
-1:0:d=2019052120:UGRD:10 m above ground:6 hour fcst:
-2:1218817:d=2019052120:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:12 hour fcst:
-2:1293368:d=2019052120:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:10 hour fcst:
-2:1284379:d=2019052120:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:4 hour fcst:
-2:1178026:d=2019052120:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:2 hour fcst:
-2:1200390:d=2019052120:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:16 hour fcst:
-2:1271186:d=2019052120:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:1 hour fcst:
-2:1198325:d=2019052120:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:18 hour fcst:
-2:1199041:d=2019052120:VGRD:10 m above ground:18 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:3 hour fcst:
-2:1201701:d=2019052120:VGRD:10 m above ground:3 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:08.884558 on 30 processors
+1:0:d=2019061914:UGRD:10 m above ground:12 hour fcst:
+2:1185303:d=2019061914:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:anl:
+2:1085348:d=2019061914:VGRD:10 m above ground:anl:
+1:0:d=2019061914:UGRD:10 m above ground:1 hour fcst:
+2:1107075:d=2019061914:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:5 hour fcst:
+2:1213399:d=2019061914:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:10 hour fcst:
+2:1223659:d=2019061914:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:6 hour fcst:
+2:1234281:d=2019061914:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:17 hour fcst:
+2:1296583:d=2019061914:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:15 hour fcst:
+2:1275323:d=2019061914:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:13 hour fcst:
+2:1225053:d=2019061914:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:2 hour fcst:
+2:1132451:d=2019061914:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:11 hour fcst:
+2:1191177:d=2019061914:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:7 hour fcst:
+2:1243814:d=2019061914:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:18 hour fcst:
+2:1304329:d=2019061914:VGRD:10 m above ground:18 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:3 hour fcst:
+2:1158745:d=2019061914:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:8 hour fcst:
+2:1240483:d=2019061914:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:4 hour fcst:
+2:1186763:d=2019061914:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:14 hour fcst:
+2:1255302:d=2019061914:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:16 hour fcst:
+2:1287312:d=2019061914:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:9 hour fcst:
+2:1228163:d=2019061914:VGRD:10 m above ground:9 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:09.775508 on 30 processors
 got U and V wind vectors
-1:0:d=2019052120:UGRD:10 m above ground:anl:
-2:1135738:d=2019052120:VGRD:10 m above ground:anl:
-1:0:d=2019052120:UGRD:10 m above ground:1 hour fcst:
-2:1198325:d=2019052120:VGRD:10 m above ground:1 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:2 hour fcst:
-2:1200390:d=2019052120:VGRD:10 m above ground:2 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:3 hour fcst:
-2:1201701:d=2019052120:VGRD:10 m above ground:3 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:4 hour fcst:
-2:1178026:d=2019052120:VGRD:10 m above ground:4 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:5 hour fcst:
-2:1197204:d=2019052120:VGRD:10 m above ground:5 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:6 hour fcst:
-2:1218817:d=2019052120:VGRD:10 m above ground:6 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:7 hour fcst:
-2:1245698:d=2019052120:VGRD:10 m above ground:7 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:8 hour fcst:
-2:1266134:d=2019052120:VGRD:10 m above ground:8 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:9 hour fcst:
-2:1276101:d=2019052120:VGRD:10 m above ground:9 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:10 hour fcst:
-2:1284379:d=2019052120:VGRD:10 m above ground:10 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:11 hour fcst:
-2:1290461:d=2019052120:VGRD:10 m above ground:11 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:12 hour fcst:
-2:1293368:d=2019052120:VGRD:10 m above ground:12 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:13 hour fcst:
-2:1295658:d=2019052120:VGRD:10 m above ground:13 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:14 hour fcst:
-2:1298151:d=2019052120:VGRD:10 m above ground:14 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:15 hour fcst:
-2:1292885:d=2019052120:VGRD:10 m above ground:15 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:16 hour fcst:
-2:1271186:d=2019052120:VGRD:10 m above ground:16 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:17 hour fcst:
-2:1239264:d=2019052120:VGRD:10 m above ground:17 hour fcst:
-1:0:d=2019052120:UGRD:10 m above ground:18 hour fcst:
-2:1199041:d=2019052120:VGRD:10 m above ground:18 hour fcst:
-LocDic Pollywog: Finished multiprocessing in 0:00:02.360911 on 30 processors
+1:0:d=2019061914:UGRD:10 m above ground:anl:
+2:1085348:d=2019061914:VGRD:10 m above ground:anl:
+1:0:d=2019061914:UGRD:10 m above ground:1 hour fcst:
+2:1107075:d=2019061914:VGRD:10 m above ground:1 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:2 hour fcst:
+2:1132451:d=2019061914:VGRD:10 m above ground:2 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:3 hour fcst:
+2:1158745:d=2019061914:VGRD:10 m above ground:3 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:4 hour fcst:
+2:1186763:d=2019061914:VGRD:10 m above ground:4 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:5 hour fcst:
+2:1213399:d=2019061914:VGRD:10 m above ground:5 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:6 hour fcst:
+2:1234281:d=2019061914:VGRD:10 m above ground:6 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:7 hour fcst:
+2:1243814:d=2019061914:VGRD:10 m above ground:7 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:8 hour fcst:
+2:1240483:d=2019061914:VGRD:10 m above ground:8 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:9 hour fcst:
+2:1228163:d=2019061914:VGRD:10 m above ground:9 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:10 hour fcst:
+2:1223659:d=2019061914:VGRD:10 m above ground:10 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:11 hour fcst:
+2:1191177:d=2019061914:VGRD:10 m above ground:11 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:12 hour fcst:
+2:1185303:d=2019061914:VGRD:10 m above ground:12 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:13 hour fcst:
+2:1225053:d=2019061914:VGRD:10 m above ground:13 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:14 hour fcst:
+2:1255302:d=2019061914:VGRD:10 m above ground:14 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:15 hour fcst:
+2:1275323:d=2019061914:VGRD:10 m above ground:15 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:16 hour fcst:
+2:1287312:d=2019061914:VGRD:10 m above ground:16 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:17 hour fcst:
+2:1296583:d=2019061914:VGRD:10 m above ground:17 hour fcst:
+1:0:d=2019061914:UGRD:10 m above ground:18 hour fcst:
+2:1304329:d=2019061914:VGRD:10 m above ground:18 hour fcst:
+LocDic Pollywog: Finished multiprocessing in 0:00:03.579356 on 30 processors
 got prec
 making permenant figure elements...
-finding fire perimeter patches for PROSPECT fire... Done!
-finding fire perimeter patches for PROSPECT fire... Done!
-finding fire perimeter patches for PONCHO fire... Done!
-finding fire perimeter patches for PONCHO fire... Done!
+finding fire perimeter patches for BYLAS fire... Done!
+finding fire perimeter patches for BYLAS fire... Done!
+finding fire perimeter patches for MOUNTAIN fire... Done!
+finding fire perimeter patches for MOUNTAIN fire... Done!
+finding fire perimeter patches for ELK fire... Done!
+finding fire perimeter patches for ELK fire... Done!
+finding fire perimeter patches for HELLS GATE fire... Done!
+finding fire perimeter patches for HELLS GATE fire... Done!
+finding fire perimeter patches for WOODBURY fire... Done!
+finding fire perimeter patches for WOODBURY fire... Done!
+finding fire perimeter patches for JORDAN fire... Done!
+finding fire perimeter patches for JORDAN fire... Done!
+finding fire perimeter patches for DAIRY fire... Done!
+finding fire perimeter patches for DAIRY fire... Done!
+finding fire perimeter patches for ROARING fire... Done!
+finding fire perimeter patches for ROARING fire... Done!
+finding fire perimeter patches for LONE MOUNTAIN fire... Done!
+finding fire perimeter patches for LONE MOUNTAIN fire... Done!
+finding fire perimeter patches for COLDWATER fire... Done!
+finding fire perimeter patches for COLDWATER fire... Done!
 
---> Working on: PROSPECT 0
+--> Working on: BYLAS 0
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f00.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f00.png
 ===========================================================
 
 
---> Working on: PONCHO 0
+--> Working on: MOUNTAIN 0
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f00.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f00.png
+===========================================================
+
+
+--> Working on: ELK 0
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f00.png
+===========================================================
+
+
+--> Working on: HELLS GATE 0
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f00.png
+===========================================================
+
+
+--> Working on: WOODBURY 0
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f00.png
+===========================================================
+
+
+--> Working on: JORDAN 0
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f00.png
+===========================================================
+
+
+--> Working on: DAIRY 0
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f00.png
+===========================================================
+
+
+--> Working on: ROARING 0
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f00.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 0
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f00.png
+===========================================================
+
+
+--> Working on: COLDWATER 0
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f00.png
 ===========================================================
 
 Finished: 0
 
---> Working on: PROSPECT 1
+--> Working on: BYLAS 1
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f01.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f01.png
 ===========================================================
 
 
---> Working on: PONCHO 1
+--> Working on: MOUNTAIN 1
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f01.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f01.png
+===========================================================
+
+
+--> Working on: ELK 1
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f01.png
+===========================================================
+
+
+--> Working on: HELLS GATE 1
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f01.png
+===========================================================
+
+
+--> Working on: WOODBURY 1
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f01.png
+===========================================================
+
+
+--> Working on: JORDAN 1
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f01.png
+===========================================================
+
+
+--> Working on: DAIRY 1
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f01.png
+===========================================================
+
+
+--> Working on: ROARING 1
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f01.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 1
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f01.png
+===========================================================
+
+
+--> Working on: COLDWATER 1
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f01.png
 ===========================================================
 
 Finished: 1
 
---> Working on: PROSPECT 2
+--> Working on: BYLAS 2
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f02.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f02.png
 ===========================================================
 
 
---> Working on: PONCHO 2
+--> Working on: MOUNTAIN 2
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f02.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f02.png
+===========================================================
+
+
+--> Working on: ELK 2
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f02.png
+===========================================================
+
+
+--> Working on: HELLS GATE 2
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f02.png
+===========================================================
+
+
+--> Working on: WOODBURY 2
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f02.png
+===========================================================
+
+
+--> Working on: JORDAN 2
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f02.png
+===========================================================
+
+
+--> Working on: DAIRY 2
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f02.png
+===========================================================
+
+
+--> Working on: ROARING 2
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f02.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 2
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f02.png
+===========================================================
+
+
+--> Working on: COLDWATER 2
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f02.png
 ===========================================================
 
 Finished: 2
 
---> Working on: PROSPECT 3
+--> Working on: BYLAS 3
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f03.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f03.png
 ===========================================================
 
 
---> Working on: PONCHO 3
+--> Working on: MOUNTAIN 3
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f03.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f03.png
+===========================================================
+
+
+--> Working on: ELK 3
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f03.png
+===========================================================
+
+
+--> Working on: HELLS GATE 3
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f03.png
+===========================================================
+
+
+--> Working on: WOODBURY 3
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f03.png
+===========================================================
+
+
+--> Working on: JORDAN 3
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f03.png
+===========================================================
+
+
+--> Working on: DAIRY 3
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f03.png
+===========================================================
+
+
+--> Working on: ROARING 3
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f03.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 3
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f03.png
+===========================================================
+
+
+--> Working on: COLDWATER 3
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f03.png
 ===========================================================
 
 Finished: 3
 
---> Working on: PROSPECT 4
+--> Working on: BYLAS 4
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f04.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f04.png
 ===========================================================
 
 
---> Working on: PONCHO 4
+--> Working on: MOUNTAIN 4
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f04.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f04.png
+===========================================================
+
+
+--> Working on: ELK 4
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f04.png
+===========================================================
+
+
+--> Working on: HELLS GATE 4
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f04.png
+===========================================================
+
+
+--> Working on: WOODBURY 4
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f04.png
+===========================================================
+
+
+--> Working on: JORDAN 4
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f04.png
+===========================================================
+
+
+--> Working on: DAIRY 4
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f04.png
+===========================================================
+
+
+--> Working on: ROARING 4
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f04.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 4
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f04.png
+===========================================================
+
+
+--> Working on: COLDWATER 4
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f04.png
 ===========================================================
 
 Finished: 4
 
---> Working on: PROSPECT 5
+--> Working on: BYLAS 5
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f05.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f05.png
 ===========================================================
 
 
---> Working on: PONCHO 5
+--> Working on: MOUNTAIN 5
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f05.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f05.png
+===========================================================
+
+
+--> Working on: ELK 5
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f05.png
+===========================================================
+
+
+--> Working on: HELLS GATE 5
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f05.png
+===========================================================
+
+
+--> Working on: WOODBURY 5
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f05.png
+===========================================================
+
+
+--> Working on: JORDAN 5
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f05.png
+===========================================================
+
+
+--> Working on: DAIRY 5
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f05.png
+===========================================================
+
+
+--> Working on: ROARING 5
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f05.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 5
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f05.png
+===========================================================
+
+
+--> Working on: COLDWATER 5
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f05.png
 ===========================================================
 
 Finished: 5
 
---> Working on: PROSPECT 6
+--> Working on: BYLAS 6
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f06.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f06.png
 ===========================================================
 
 
---> Working on: PONCHO 6
+--> Working on: MOUNTAIN 6
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f06.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f06.png
+===========================================================
+
+
+--> Working on: ELK 6
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f06.png
+===========================================================
+
+
+--> Working on: HELLS GATE 6
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f06.png
+===========================================================
+
+
+--> Working on: WOODBURY 6
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f06.png
+===========================================================
+
+
+--> Working on: JORDAN 6
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f06.png
+===========================================================
+
+
+--> Working on: DAIRY 6
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f06.png
+===========================================================
+
+
+--> Working on: ROARING 6
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f06.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 6
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f06.png
+===========================================================
+
+
+--> Working on: COLDWATER 6
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f06.png
 ===========================================================
 
 Finished: 6
 
---> Working on: PROSPECT 7
+--> Working on: BYLAS 7
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f07.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f07.png
 ===========================================================
 
 
---> Working on: PONCHO 7
+--> Working on: MOUNTAIN 7
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f07.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f07.png
+===========================================================
+
+
+--> Working on: ELK 7
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f07.png
+===========================================================
+
+
+--> Working on: HELLS GATE 7
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f07.png
+===========================================================
+
+
+--> Working on: WOODBURY 7
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f07.png
+===========================================================
+
+
+--> Working on: JORDAN 7
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f07.png
+===========================================================
+
+
+--> Working on: DAIRY 7
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f07.png
+===========================================================
+
+
+--> Working on: ROARING 7
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f07.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 7
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f07.png
+===========================================================
+
+
+--> Working on: COLDWATER 7
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f07.png
 ===========================================================
 
 Finished: 7
 
---> Working on: PROSPECT 8
+--> Working on: BYLAS 8
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f08.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f08.png
 ===========================================================
 
 
---> Working on: PONCHO 8
+--> Working on: MOUNTAIN 8
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f08.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f08.png
+===========================================================
+
+
+--> Working on: ELK 8
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f08.png
+===========================================================
+
+
+--> Working on: HELLS GATE 8
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f08.png
+===========================================================
+
+
+--> Working on: WOODBURY 8
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f08.png
+===========================================================
+
+
+--> Working on: JORDAN 8
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f08.png
+===========================================================
+
+
+--> Working on: DAIRY 8
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f08.png
+===========================================================
+
+
+--> Working on: ROARING 8
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f08.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 8
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f08.png
+===========================================================
+
+
+--> Working on: COLDWATER 8
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f08.png
 ===========================================================
 
 Finished: 8
 
---> Working on: PROSPECT 9
+--> Working on: BYLAS 9
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f09.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f09.png
 ===========================================================
 
 
---> Working on: PONCHO 9
+--> Working on: MOUNTAIN 9
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f09.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f09.png
+===========================================================
+
+
+--> Working on: ELK 9
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f09.png
+===========================================================
+
+
+--> Working on: HELLS GATE 9
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f09.png
+===========================================================
+
+
+--> Working on: WOODBURY 9
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f09.png
+===========================================================
+
+
+--> Working on: JORDAN 9
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f09.png
+===========================================================
+
+
+--> Working on: DAIRY 9
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f09.png
+===========================================================
+
+
+--> Working on: ROARING 9
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f09.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 9
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f09.png
+===========================================================
+
+
+--> Working on: COLDWATER 9
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f09.png
 ===========================================================
 
 Finished: 9
 
---> Working on: PROSPECT 10
+--> Working on: BYLAS 10
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f10.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f10.png
 ===========================================================
 
 
---> Working on: PONCHO 10
+--> Working on: MOUNTAIN 10
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f10.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f10.png
+===========================================================
+
+
+--> Working on: ELK 10
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f10.png
+===========================================================
+
+
+--> Working on: HELLS GATE 10
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f10.png
+===========================================================
+
+
+--> Working on: WOODBURY 10
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f10.png
+===========================================================
+
+
+--> Working on: JORDAN 10
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f10.png
+===========================================================
+
+
+--> Working on: DAIRY 10
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f10.png
+===========================================================
+
+
+--> Working on: ROARING 10
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f10.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 10
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f10.png
+===========================================================
+
+
+--> Working on: COLDWATER 10
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f10.png
 ===========================================================
 
 Finished: 10
 
---> Working on: PROSPECT 11
+--> Working on: BYLAS 11
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f11.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f11.png
 ===========================================================
 
 
---> Working on: PONCHO 11
+--> Working on: MOUNTAIN 11
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f11.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f11.png
+===========================================================
+
+
+--> Working on: ELK 11
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f11.png
+===========================================================
+
+
+--> Working on: HELLS GATE 11
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f11.png
+===========================================================
+
+
+--> Working on: WOODBURY 11
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f11.png
+===========================================================
+
+
+--> Working on: JORDAN 11
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f11.png
+===========================================================
+
+
+--> Working on: DAIRY 11
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f11.png
+===========================================================
+
+
+--> Working on: ROARING 11
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f11.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 11
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f11.png
+===========================================================
+
+
+--> Working on: COLDWATER 11
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f11.png
 ===========================================================
 
 Finished: 11
 
---> Working on: PROSPECT 12
+--> Working on: BYLAS 12
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f12.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f12.png
 ===========================================================
 
 
---> Working on: PONCHO 12
+--> Working on: MOUNTAIN 12
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f12.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f12.png
+===========================================================
+
+
+--> Working on: ELK 12
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f12.png
+===========================================================
+
+
+--> Working on: HELLS GATE 12
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f12.png
+===========================================================
+
+
+--> Working on: WOODBURY 12
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f12.png
+===========================================================
+
+
+--> Working on: JORDAN 12
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f12.png
+===========================================================
+
+
+--> Working on: DAIRY 12
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f12.png
+===========================================================
+
+
+--> Working on: ROARING 12
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f12.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 12
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f12.png
+===========================================================
+
+
+--> Working on: COLDWATER 12
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f12.png
 ===========================================================
 
 Finished: 12
 
---> Working on: PROSPECT 13
+--> Working on: BYLAS 13
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f13.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f13.png
 ===========================================================
 
 
---> Working on: PONCHO 13
+--> Working on: MOUNTAIN 13
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f13.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f13.png
+===========================================================
+
+
+--> Working on: ELK 13
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f13.png
+===========================================================
+
+
+--> Working on: HELLS GATE 13
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f13.png
+===========================================================
+
+
+--> Working on: WOODBURY 13
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f13.png
+===========================================================
+
+
+--> Working on: JORDAN 13
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f13.png
+===========================================================
+
+
+--> Working on: DAIRY 13
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f13.png
+===========================================================
+
+
+--> Working on: ROARING 13
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f13.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 13
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f13.png
+===========================================================
+
+
+--> Working on: COLDWATER 13
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f13.png
 ===========================================================
 
 Finished: 13
 
---> Working on: PROSPECT 14
+--> Working on: BYLAS 14
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f14.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f14.png
 ===========================================================
 
 
---> Working on: PONCHO 14
+--> Working on: MOUNTAIN 14
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f14.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f14.png
+===========================================================
+
+
+--> Working on: ELK 14
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f14.png
+===========================================================
+
+
+--> Working on: HELLS GATE 14
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f14.png
+===========================================================
+
+
+--> Working on: WOODBURY 14
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f14.png
+===========================================================
+
+
+--> Working on: JORDAN 14
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f14.png
+===========================================================
+
+
+--> Working on: DAIRY 14
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f14.png
+===========================================================
+
+
+--> Working on: ROARING 14
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f14.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 14
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f14.png
+===========================================================
+
+
+--> Working on: COLDWATER 14
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f14.png
 ===========================================================
 
 Finished: 14
 
---> Working on: PROSPECT 15
+--> Working on: BYLAS 15
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f15.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f15.png
 ===========================================================
 
 
---> Working on: PONCHO 15
+--> Working on: MOUNTAIN 15
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f15.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f15.png
+===========================================================
+
+
+--> Working on: ELK 15
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f15.png
+===========================================================
+
+
+--> Working on: HELLS GATE 15
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f15.png
+===========================================================
+
+
+--> Working on: WOODBURY 15
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f15.png
+===========================================================
+
+
+--> Working on: JORDAN 15
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f15.png
+===========================================================
+
+
+--> Working on: DAIRY 15
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f15.png
+===========================================================
+
+
+--> Working on: ROARING 15
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f15.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 15
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f15.png
+===========================================================
+
+
+--> Working on: COLDWATER 15
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f15.png
 ===========================================================
 
 Finished: 15
 
---> Working on: PROSPECT 16
+--> Working on: BYLAS 16
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f16.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f16.png
 ===========================================================
 
 
---> Working on: PONCHO 16
+--> Working on: MOUNTAIN 16
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f16.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f16.png
+===========================================================
+
+
+--> Working on: ELK 16
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f16.png
+===========================================================
+
+
+--> Working on: HELLS GATE 16
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f16.png
+===========================================================
+
+
+--> Working on: WOODBURY 16
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f16.png
+===========================================================
+
+
+--> Working on: JORDAN 16
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f16.png
+===========================================================
+
+
+--> Working on: DAIRY 16
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f16.png
+===========================================================
+
+
+--> Working on: ROARING 16
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f16.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 16
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f16.png
+===========================================================
+
+
+--> Working on: COLDWATER 16
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f16.png
 ===========================================================
 
 Finished: 16
 
---> Working on: PROSPECT 17
+--> Working on: BYLAS 17
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f17.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f17.png
 ===========================================================
 
 
---> Working on: PONCHO 17
+--> Working on: MOUNTAIN 17
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f17.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f17.png
+===========================================================
+
+
+--> Working on: ELK 17
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f17.png
+===========================================================
+
+
+--> Working on: HELLS GATE 17
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f17.png
+===========================================================
+
+
+--> Working on: WOODBURY 17
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f17.png
+===========================================================
+
+
+--> Working on: JORDAN 17
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f17.png
+===========================================================
+
+
+--> Working on: DAIRY 17
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f17.png
+===========================================================
+
+
+--> Working on: ROARING 17
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f17.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 17
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f17.png
+===========================================================
+
+
+--> Working on: COLDWATER 17
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f17.png
 ===========================================================
 
 Finished: 17
 
---> Working on: PROSPECT 18
+--> Working on: BYLAS 18
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/f18.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/f18.png
 ===========================================================
 
 
---> Working on: PONCHO 18
+--> Working on: MOUNTAIN 18
 
 ===========================================================
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/f18.png
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/f18.png
+===========================================================
+
+
+--> Working on: ELK 18
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/f18.png
+===========================================================
+
+
+--> Working on: HELLS GATE 18
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/f18.png
+===========================================================
+
+
+--> Working on: WOODBURY 18
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/f18.png
+===========================================================
+
+
+--> Working on: JORDAN 18
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/f18.png
+===========================================================
+
+
+--> Working on: DAIRY 18
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/f18.png
+===========================================================
+
+
+--> Working on: ROARING 18
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/f18.png
+===========================================================
+
+
+--> Working on: LONE MOUNTAIN 18
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/f18.png
+===========================================================
+
+
+--> Working on: COLDWATER 18
+
+===========================================================
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/f18.png
 ===========================================================
 
 Finished: 18
 error INAME
-Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-05-21.txt
+Got fire data from Active Fire Mapping Program: https://fsapps.nwcg.gov/afm/data/lg_fire/lg_fire_info_2019-06-18.txt
 Retrieved fires from Active Fire Mapping Program
-There are 2 large fires.
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412041340_e20191412044113_c20191412044229.nc
+There are 10 large fires.
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701401532_e20191701404305_c20191701404425.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:42:52.742682
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412041340_e20191412044113_c20191412044229.nc
-2019-05-21 15:46:25.134717
-0:00:00.475597 ABI Blend
-0:00:00.489403 GLM
-0:00:05.779936 map elements
-0:00:05.780398 labels
-0:00:42.875635 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G41
-2019-05-21 15:47:08.088191
-0:00:00.482706 ABI Blend
-0:00:00.495293 GLM
-0:00:05.847379 map elements
-0:00:05.847695 labels
-0:00:42.285831 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G41
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412021340_e20191412024113_c20191412024224.nc
+File date: 2019-06-19 14:03:11.861718
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701401532_e20191701404305_c20191701404425.nc
+2019-06-19 09:54:52.688405
+0:00:00.439529 ABI Blend
+0:00:00.443274 GLM
+0:00:05.241604 map elements
+0:00:05.241935 labels
+0:00:39.424528 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G01
+2019-06-19 09:55:32.184984
+0:00:00.433124 ABI Blend
+0:00:00.436723 GLM
+0:00:05.595470 map elements
+0:00:05.595767 labels
+0:00:39.379827 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G01
+2019-06-19 09:56:11.637314
+0:00:00.435488 ABI Blend
+0:00:00.438828 GLM
+0:00:05.952558 map elements
+0:00:05.952867 labels
+0:00:39.666186 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G01
+2019-06-19 09:56:51.376234
+0:00:00.437861 ABI Blend
+0:00:00.441226 GLM
+0:00:06.566918 map elements
+0:00:06.567220 labels
+0:00:40.593818 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G01
+2019-06-19 09:57:32.043550
+0:00:00.436849 ABI Blend
+0:00:00.440403 GLM
+0:00:06.537854 map elements
+0:00:06.538170 labels
+0:00:40.317356 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G01
+2019-06-19 09:58:12.434116
+0:00:00.430920 ABI Blend
+0:00:00.434281 GLM
+0:00:07.351323 map elements
+0:00:07.351628 labels
+0:00:41.499606 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G01
+2019-06-19 09:58:54.008469
+0:00:00.435679 ABI Blend
+0:00:00.439052 GLM
+0:00:07.746113 map elements
+0:00:07.746465 labels
+0:00:41.177795 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G01
+2019-06-19 09:59:35.260560
+0:00:00.436337 ABI Blend
+0:00:00.439698 GLM
+0:00:07.978137 map elements
+0:00:07.978444 labels
+0:00:42.965638 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G01
+2019-06-19 10:00:18.299865
+0:00:00.443415 ABI Blend
+0:00:00.447175 GLM
+0:00:08.410592 map elements
+0:00:08.410927 labels
+0:00:42.316125 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G01
+2019-06-19 10:01:00.690303
+0:00:00.441404 ABI Blend
+0:00:00.444810 GLM
+0:00:08.829248 map elements
+0:00:08.829565 labels
+0:00:42.658470 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G01
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701431532_e20191701434305_c20191701434420.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:22:52.733046
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412021340_e20191412024113_c20191412024224.nc
-2019-05-21 15:46:22.733999
-0:00:00.455287 ABI Blend
-0:00:00.463524 GLM
-0:00:05.731057 map elements
-0:00:05.731390 labels
-0:00:43.144403 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G21
-2019-05-21 15:47:05.953482
-0:00:00.437318 ABI Blend
-0:00:00.445203 GLM
-0:00:06.067854 map elements
-0:00:06.068175 labels
-0:00:45.069970 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G21
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412026340_e20191412029113_c20191412029229.nc
+File date: 2019-06-19 14:33:11.872978
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701431532_e20191701434305_c20191701434420.nc
+2019-06-19 09:54:52.797947
+0:00:00.466151 ABI Blend
+0:00:00.469727 GLM
+0:00:05.236384 map elements
+0:00:05.236702 labels
+0:00:39.438941 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G31
+2019-06-19 09:55:32.313416
+0:00:00.430597 ABI Blend
+0:00:00.433665 GLM
+0:00:05.606281 map elements
+0:00:05.606590 labels
+0:00:39.443649 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G31
+2019-06-19 09:56:11.834466
+0:00:00.436382 ABI Blend
+0:00:00.439434 GLM
+0:00:05.970145 map elements
+0:00:05.970443 labels
+0:00:39.674346 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G31
+2019-06-19 09:56:51.586508
+0:00:00.439960 ABI Blend
+0:00:00.443319 GLM
+0:00:06.590442 map elements
+0:00:06.590744 labels
+0:00:40.626325 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G31
+2019-06-19 09:57:32.289959
+0:00:00.436449 ABI Blend
+0:00:00.439530 GLM
+0:00:06.577804 map elements
+0:00:06.578120 labels
+0:00:40.459437 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G31
+2019-06-19 09:58:12.828012
+0:00:00.440356 ABI Blend
+0:00:00.443752 GLM
+0:00:07.389166 map elements
+0:00:07.389492 labels
+0:00:41.662072 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G31
+2019-06-19 09:58:54.566416
+0:00:00.444518 ABI Blend
+0:00:00.447677 GLM
+0:00:07.749933 map elements
+0:00:07.750280 labels
+0:00:41.112396 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G31
+2019-06-19 09:59:35.755313
+0:00:00.446542 ABI Blend
+0:00:00.450020 GLM
+0:00:08.035317 map elements
+0:00:08.035684 labels
+0:00:42.482670 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G31
+2019-06-19 10:00:18.312350
+0:00:00.441599 ABI Blend
+0:00:00.444681 GLM
+0:00:08.468727 map elements
+0:00:08.469048 labels
+0:00:42.480848 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G31
+2019-06-19 10:01:00.873616
+0:00:00.448995 ABI Blend
+0:00:00.452434 GLM
+0:00:08.833617 map elements
+0:00:08.833987 labels
+0:00:42.700711 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G31
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701421532_e20191701424305_c20191701424423.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:27:52.735255
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412026340_e20191412029113_c20191412029229.nc
-2019-05-21 15:46:22.709935
-0:00:00.453238 ABI Blend
-0:00:00.461707 GLM
-0:00:05.598025 map elements
-0:00:05.598358 labels
-0:00:43.375292 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G26
-2019-05-21 15:47:06.164876
-0:00:00.438596 ABI Blend
-0:00:00.447003 GLM
-0:00:06.139823 map elements
-0:00:06.140131 labels
-0:00:44.522052 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G26
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412006340_e20191412009113_c20191412009228.nc
+File date: 2019-06-19 14:23:11.868724
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701421532_e20191701424305_c20191701424423.nc
+2019-06-19 09:54:53.444275
+0:00:00.447062 ABI Blend
+0:00:00.450335 GLM
+0:00:05.217318 map elements
+0:00:05.217630 labels
+0:00:39.334460 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G21
+2019-06-19 09:55:32.854888
+0:00:00.434856 ABI Blend
+0:00:00.437919 GLM
+0:00:05.650989 map elements
+0:00:05.651286 labels
+0:00:39.755001 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G21
+2019-06-19 09:56:12.683238
+0:00:00.443688 ABI Blend
+0:00:00.446752 GLM
+0:00:06.007019 map elements
+0:00:06.007322 labels
+0:00:39.915759 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G21
+2019-06-19 09:56:52.674829
+0:00:00.446172 ABI Blend
+0:00:00.449213 GLM
+0:00:06.622989 map elements
+0:00:06.623304 labels
+0:00:40.933734 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G21
+2019-06-19 09:57:33.688599
+0:00:00.467601 ABI Blend
+0:00:00.470816 GLM
+0:00:06.627737 map elements
+0:00:06.628052 labels
+0:00:40.880937 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G21
+2019-06-19 09:58:14.652203
+0:00:00.476970 ABI Blend
+0:00:00.480380 GLM
+0:00:07.517043 map elements
+0:00:07.517326 labels
+0:00:42.074378 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G21
+2019-06-19 09:58:56.812006
+0:00:00.483520 ABI Blend
+0:00:00.487347 GLM
+0:00:07.864287 map elements
+0:00:07.864602 labels
+0:00:41.257824 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G21
+2019-06-19 09:59:38.149493
+0:00:00.485595 ABI Blend
+0:00:00.489000 GLM
+0:00:08.192669 map elements
+0:00:08.192960 labels
+0:00:42.722022 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G21
+2019-06-19 10:00:20.956376
+0:00:00.467135 ABI Blend
+0:00:00.470696 GLM
+0:00:08.600424 map elements
+0:00:08.600726 labels
+0:00:42.590306 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G21
+2019-06-19 10:01:03.630723
+0:00:00.464734 ABI Blend
+0:00:00.468301 GLM
+0:00:09.014556 map elements
+0:00:09.014866 labels
+0:00:42.675998 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G21
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701436532_e20191701439305_c20191701439419.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:07:52.728034
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412006340_e20191412009113_c20191412009228.nc
-2019-05-21 15:46:24.673553
-0:00:00.476953 ABI Blend
-0:00:00.485550 GLM
-0:00:05.728843 map elements
-0:00:05.729184 labels
-0:00:43.544924 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G06
-2019-05-21 15:47:08.302041
-0:00:00.501168 ABI Blend
-0:00:00.510020 GLM
-0:00:06.109092 map elements
-0:00:06.109403 labels
-0:00:43.834521 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G06
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412001340_e20191412004113_c20191412004222.nc
+File date: 2019-06-19 14:38:11.873856
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701436532_e20191701439305_c20191701439419.nc
+2019-06-19 09:54:54.194625
+0:00:00.691277 ABI Blend
+0:00:00.695071 GLM
+0:00:05.453324 map elements
+0:00:05.453655 labels
+0:00:39.507489 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G36
+2019-06-19 09:55:33.778973
+0:00:00.466873 ABI Blend
+0:00:00.470484 GLM
+0:00:05.626487 map elements
+0:00:05.626789 labels
+0:00:39.515349 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G36
+2019-06-19 09:56:13.370660
+0:00:00.456657 ABI Blend
+0:00:00.460428 GLM
+0:00:06.002998 map elements
+0:00:06.003297 labels
+0:00:39.673672 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G36
+2019-06-19 09:56:53.124460
+0:00:00.456062 ABI Blend
+0:00:00.460088 GLM
+0:00:06.611552 map elements
+0:00:06.611858 labels
+0:00:40.450008 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G36
+2019-06-19 09:57:33.650810
+0:00:00.464762 ABI Blend
+0:00:00.468555 GLM
+0:00:06.613789 map elements
+0:00:06.614094 labels
+0:00:40.778655 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G36
+2019-06-19 09:58:14.511311
+0:00:00.462190 ABI Blend
+0:00:00.466028 GLM
+0:00:07.444527 map elements
+0:00:07.444840 labels
+0:00:41.654114 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G36
+2019-06-19 09:58:56.247701
+0:00:00.461153 ABI Blend
+0:00:00.465107 GLM
+0:00:07.857521 map elements
+0:00:07.857839 labels
+0:00:41.329739 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G36
+2019-06-19 09:59:37.652468
+0:00:00.452036 ABI Blend
+0:00:00.455542 GLM
+0:00:08.189635 map elements
+0:00:08.189943 labels
+0:00:42.655741 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G36
+2019-06-19 10:00:20.393729
+0:00:00.454415 ABI Blend
+0:00:00.458261 GLM
+0:00:08.585463 map elements
+0:00:08.585801 labels
+0:00:42.734238 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G36
+2019-06-19 10:01:03.205925
+0:00:00.448967 ABI Blend
+0:00:00.452413 GLM
+0:00:09.079783 map elements
+0:00:09.080090 labels
+0:00:43.179568 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G36
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701426532_e20191701429305_c20191701429419.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:02:52.727028
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412001340_e20191412004113_c20191412004222.nc
-2019-05-21 15:46:22.859156
-0:00:00.469789 ABI Blend
-0:00:00.478262 GLM
-0:00:05.944812 map elements
-0:00:05.945267 labels
-0:00:44.428042 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G01
-2019-05-21 15:47:07.366941
-0:00:00.528216 ABI Blend
-0:00:00.536575 GLM
-0:00:06.585123 map elements
-0:00:06.585430 labels
-0:00:44.362556 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G01
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412056340_e20191412059113_c20191412059224.nc
+File date: 2019-06-19 14:28:11.868588
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701426532_e20191701429305_c20191701429419.nc
+2019-06-19 09:54:54.303633
+0:00:00.525251 ABI Blend
+0:00:00.528628 GLM
+0:00:05.289272 map elements
+0:00:05.289578 labels
+0:00:39.319904 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G26
+2019-06-19 09:55:33.700142
+0:00:00.468785 ABI Blend
+0:00:00.472171 GLM
+0:00:05.611288 map elements
+0:00:05.611583 labels
+0:00:39.561370 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G26
+2019-06-19 09:56:13.338680
+0:00:00.453256 ABI Blend
+0:00:00.456361 GLM
+0:00:06.014307 map elements
+0:00:06.014610 labels
+0:00:39.803255 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G26
+2019-06-19 09:56:53.220651
+0:00:00.463769 ABI Blend
+0:00:00.466939 GLM
+0:00:06.618573 map elements
+0:00:06.618880 labels
+0:00:40.563083 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G26
+2019-06-19 09:57:33.871303
+0:00:00.458456 ABI Blend
+0:00:00.461615 GLM
+0:00:06.590428 map elements
+0:00:06.590730 labels
+0:00:40.697191 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G26
+2019-06-19 09:58:14.650469
+0:00:00.478702 ABI Blend
+0:00:00.482114 GLM
+0:00:07.511403 map elements
+0:00:07.511698 labels
+0:00:42.083724 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G26
+2019-06-19 09:58:56.818327
+0:00:00.484608 ABI Blend
+0:00:00.488076 GLM
+0:00:07.888200 map elements
+0:00:07.888502 labels
+0:00:41.181428 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G26
+2019-06-19 09:59:38.081671
+0:00:00.481117 ABI Blend
+0:00:00.484718 GLM
+0:00:08.246388 map elements
+0:00:08.246695 labels
+0:00:42.879260 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G26
+2019-06-19 10:00:21.045018
+0:00:00.478095 ABI Blend
+0:00:00.482058 GLM
+0:00:08.644066 map elements
+0:00:08.644389 labels
+0:00:42.625336 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G26
+2019-06-19 10:01:03.755135
+0:00:00.476088 ABI Blend
+0:00:00.479566 GLM
+0:00:09.120295 map elements
+0:00:09.120592 labels
+0:00:42.915691 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G26
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701416532_e20191701419305_c20191701419419.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:57:52.745527
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412056340_e20191412059113_c20191412059224.nc
-2019-05-21 15:46:23.064844
-0:00:00.491105 ABI Blend
-0:00:00.501713 GLM
-0:00:05.897713 map elements
-0:00:05.898051 labels
-0:00:44.014339 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G56
-2019-05-21 15:47:07.160538
-0:00:00.475183 ABI Blend
-0:00:00.481296 GLM
-0:00:05.967260 map elements
-0:00:05.967681 labels
-0:00:45.483673 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G56
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412036340_e20191412039113_c20191412039229.nc
+File date: 2019-06-19 14:18:11.864584
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701416532_e20191701419305_c20191701419419.nc
+2019-06-19 09:54:53.788132
+0:00:00.647691 ABI Blend
+0:00:00.654108 GLM
+0:00:05.832398 map elements
+0:00:05.832718 labels
+0:00:39.889512 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G16
+2019-06-19 09:55:33.751156
+0:00:00.505125 ABI Blend
+0:00:00.508161 GLM
+0:00:05.869065 map elements
+0:00:05.869360 labels
+0:00:39.910233 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G16
+2019-06-19 09:56:13.735409
+0:00:00.514397 ABI Blend
+0:00:00.517763 GLM
+0:00:06.197128 map elements
+0:00:06.197432 labels
+0:00:40.323514 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G16
+2019-06-19 09:56:54.133567
+0:00:00.504898 ABI Blend
+0:00:00.507972 GLM
+0:00:06.825848 map elements
+0:00:06.826161 labels
+0:00:40.851257 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G16
+2019-06-19 09:57:35.060020
+0:00:00.511578 ABI Blend
+0:00:00.514658 GLM
+0:00:06.800636 map elements
+0:00:06.800935 labels
+0:00:41.033615 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G16
+2019-06-19 09:58:16.168491
+0:00:00.510365 ABI Blend
+0:00:00.513422 GLM
+0:00:07.688074 map elements
+0:00:07.688383 labels
+0:00:41.554641 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G16
+2019-06-19 09:58:57.798415
+0:00:00.521667 ABI Blend
+0:00:00.524748 GLM
+0:00:07.942326 map elements
+0:00:07.942630 labels
+0:00:41.251513 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G16
+2019-06-19 09:59:39.126537
+0:00:00.523172 ABI Blend
+0:00:00.526288 GLM
+0:00:08.557102 map elements
+0:00:08.557416 labels
+0:00:42.295785 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G16
+2019-06-19 10:00:21.498366
+0:00:00.513432 ABI Blend
+0:00:00.516507 GLM
+0:00:08.805053 map elements
+0:00:08.805384 labels
+0:00:42.715722 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G16
+2019-06-19 10:01:04.289653
+0:00:00.517713 ABI Blend
+0:00:00.520801 GLM
+0:00:09.200981 map elements
+0:00:09.201292 labels
+0:00:42.896401 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G16
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701456532_e20191701459305_c20191701459424.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:37:52.739422
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412036340_e20191412039113_c20191412039229.nc
-2019-05-21 15:46:23.783934
-0:00:00.445361 ABI Blend
-0:00:00.453270 GLM
-0:00:05.644689 map elements
-0:00:05.645025 labels
-0:00:43.104759 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G36
-2019-05-21 15:47:06.968935
-0:00:00.496362 ABI Blend
-0:00:00.504639 GLM
-0:00:06.775822 map elements
-0:00:06.776148 labels
-0:00:47.052176 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G36
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412031340_e20191412034113_c20191412034227.nc
+File date: 2019-06-19 14:58:11.880478
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701456532_e20191701459305_c20191701459424.nc
+2019-06-19 09:54:54.694396
+0:00:00.473129 ABI Blend
+0:00:00.476043 GLM
+0:00:05.229220 map elements
+0:00:05.229539 labels
+0:00:39.185353 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G56
+2019-06-19 09:55:33.965467
+0:00:00.468714 ABI Blend
+0:00:00.471785 GLM
+0:00:05.644115 map elements
+0:00:05.644419 labels
+0:00:39.758331 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G56
+2019-06-19 09:56:13.805976
+0:00:00.463702 ABI Blend
+0:00:00.466639 GLM
+0:00:06.006775 map elements
+0:00:06.007075 labels
+0:00:39.737938 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G56
+2019-06-19 09:56:53.632157
+0:00:00.463917 ABI Blend
+0:00:00.467269 GLM
+0:00:06.633861 map elements
+0:00:06.634160 labels
+0:00:40.482621 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G56
+2019-06-19 09:57:34.198276
+0:00:00.456965 ABI Blend
+0:00:00.460163 GLM
+0:00:06.602010 map elements
+0:00:06.602321 labels
+0:00:40.627042 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G56
+2019-06-19 09:58:14.920389
+0:00:00.485644 ABI Blend
+0:00:00.488885 GLM
+0:00:07.450423 map elements
+0:00:07.450737 labels
+0:00:42.033356 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G56
+2019-06-19 09:58:57.044671
+0:00:00.478676 ABI Blend
+0:00:00.481855 GLM
+0:00:07.823476 map elements
+0:00:07.823823 labels
+0:00:41.343557 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G56
+2019-06-19 09:59:38.481931
+0:00:00.487497 ABI Blend
+0:00:00.490987 GLM
+0:00:08.186521 map elements
+0:00:08.186829 labels
+0:00:42.799593 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G56
+2019-06-19 10:00:21.378844
+0:00:00.495386 ABI Blend
+0:00:00.498895 GLM
+0:00:08.689369 map elements
+0:00:08.689677 labels
+0:00:42.735005 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G56
+2019-06-19 10:01:04.202939
+0:00:00.497008 ABI Blend
+0:00:00.500611 GLM
+0:00:09.090740 map elements
+0:00:09.091044 labels
+0:00:43.024755 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G56
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701406532_e20191701409305_c20191701409420.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:32:52.737719
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412031340_e20191412034113_c20191412034227.nc
-2019-05-21 15:46:23.896887
-0:00:00.467704 ABI Blend
-0:00:00.475750 GLM
-0:00:05.926663 map elements
-0:00:05.927117 labels
-0:00:45.233661 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G31
-2019-05-21 15:47:09.209952
-0:00:00.519905 ABI Blend
-0:00:00.528168 GLM
-0:00:06.373523 map elements
-0:00:06.373951 labels
-0:00:45.019532 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G31
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412046340_e20191412049113_c20191412049224.nc
+File date: 2019-06-19 14:08:11.860179
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701406532_e20191701409305_c20191701409420.nc
+2019-06-19 09:54:55.177778
+0:00:00.573078 ABI Blend
+0:00:00.576662 GLM
+0:00:05.476016 map elements
+0:00:05.476325 labels
+0:00:39.417647 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G06
+2019-06-19 09:55:34.673073
+0:00:00.630683 ABI Blend
+0:00:00.635014 GLM
+0:00:05.876257 map elements
+0:00:05.876562 labels
+0:00:40.009694 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G06
+2019-06-19 09:56:14.772260
+0:00:00.614330 ABI Blend
+0:00:00.618231 GLM
+0:00:06.163796 map elements
+0:00:06.164092 labels
+0:00:39.888569 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G06
+2019-06-19 09:56:54.735154
+0:00:00.543282 ABI Blend
+0:00:00.547060 GLM
+0:00:06.815228 map elements
+0:00:06.815552 labels
+0:00:40.827738 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G06
+2019-06-19 09:57:35.638947
+0:00:00.616218 ABI Blend
+0:00:00.620213 GLM
+0:00:06.839207 map elements
+0:00:06.839501 labels
+0:00:41.071051 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G06
+2019-06-19 09:58:16.790945
+0:00:00.669712 ABI Blend
+0:00:00.673726 GLM
+0:00:07.816029 map elements
+0:00:07.816331 labels
+0:00:41.728005 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G06
+2019-06-19 09:58:58.596467
+0:00:00.683062 ABI Blend
+0:00:00.686985 GLM
+0:00:08.073844 map elements
+0:00:08.074151 labels
+0:00:41.412356 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G06
+2019-06-19 09:59:40.086665
+0:00:00.692553 ABI Blend
+0:00:00.696548 GLM
+0:00:08.627852 map elements
+0:00:08.628148 labels
+0:00:42.353489 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G06
+2019-06-19 10:00:22.522617
+0:00:00.546834 ABI Blend
+0:00:00.550425 GLM
+0:00:08.797039 map elements
+0:00:08.797341 labels
+0:00:42.660806 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G06
+2019-06-19 10:01:05.258953
+0:00:00.549926 ABI Blend
+0:00:00.553641 GLM
+0:00:09.230372 map elements
+0:00:09.230688 labels
+0:00:43.005338 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G06
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701446532_e20191701449305_c20191701449419.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:47:52.741019
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412046340_e20191412049113_c20191412049224.nc
-2019-05-21 15:46:25.217343
-0:00:00.536209 ABI Blend
-0:00:00.544943 GLM
-0:00:06.025951 map elements
-0:00:06.026283 labels
-0:00:44.674970 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G46
-2019-05-21 15:47:09.977315
-0:00:00.506636 ABI Blend
-0:00:00.520699 GLM
-0:00:05.924689 map elements
-0:00:05.924996 labels
-0:00:44.754232 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G46
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412051340_e20191412054113_c20191412054225.nc
+File date: 2019-06-19 14:48:11.876085
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701446532_e20191701449305_c20191701449419.nc
+2019-06-19 09:54:55.179733
+0:00:00.571120 ABI Blend
+0:00:00.574625 GLM
+0:00:05.489472 map elements
+0:00:05.489770 labels
+0:00:39.558386 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G46
+2019-06-19 09:55:34.822690
+0:00:00.649046 ABI Blend
+0:00:00.652892 GLM
+0:00:05.853710 map elements
+0:00:05.854020 labels
+0:00:39.734396 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G46
+2019-06-19 09:56:14.638260
+0:00:00.630743 ABI Blend
+0:00:00.634753 GLM
+0:00:06.429661 map elements
+0:00:06.429963 labels
+0:00:40.394181 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G46
+2019-06-19 09:56:55.119758
+0:00:00.598516 ABI Blend
+0:00:00.602655 GLM
+0:00:06.605268 map elements
+0:00:06.605573 labels
+0:00:40.609034 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G46
+2019-06-19 09:57:35.815040
+0:00:00.590804 ABI Blend
+0:00:00.594461 GLM
+0:00:06.827250 map elements
+0:00:06.827554 labels
+0:00:40.925974 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G46
+2019-06-19 09:58:16.823773
+0:00:00.662332 ABI Blend
+0:00:00.666274 GLM
+0:00:07.824534 map elements
+0:00:07.824839 labels
+0:00:41.722731 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G46
+2019-06-19 09:58:58.627887
+0:00:00.670235 ABI Blend
+0:00:00.673603 GLM
+0:00:08.054897 map elements
+0:00:08.055197 labels
+0:00:41.367050 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G46
+2019-06-19 09:59:40.073826
+0:00:00.680393 ABI Blend
+0:00:00.684684 GLM
+0:00:08.935527 map elements
+0:00:08.935832 labels
+0:00:42.565414 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G46
+2019-06-19 10:00:22.725233
+0:00:00.591974 ABI Blend
+0:00:00.596121 GLM
+0:00:08.840954 map elements
+0:00:08.841258 labels
+0:00:42.721820 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G46
+2019-06-19 10:01:05.531734
+0:00:00.552282 ABI Blend
+0:00:00.556134 GLM
+0:00:09.286058 map elements
+0:00:09.286354 labels
+0:00:42.932887 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G46
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701441532_e20191701444305_c20191701444419.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:52:52.743650
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412051340_e20191412054113_c20191412054225.nc
-2019-05-21 15:46:25.169479
-0:00:00.531888 ABI Blend
-0:00:00.546131 GLM
-0:00:06.030209 map elements
-0:00:06.030536 labels
-0:00:45.242053 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G51
-2019-05-21 15:47:10.538184
-0:00:00.527564 ABI Blend
-0:00:00.541098 GLM
-0:00:06.279428 map elements
-0:00:06.279731 labels
-0:00:45.081512 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G51
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412011340_e20191412014113_c20191412014222.nc
+File date: 2019-06-19 14:43:11.877823
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701441532_e20191701444305_c20191701444419.nc
+2019-06-19 09:54:54.566651
+0:00:00.656956 ABI Blend
+0:00:00.660887 GLM
+0:00:05.609068 map elements
+0:00:05.609381 labels
+0:00:40.180419 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G41
+2019-06-19 09:55:34.832536
+0:00:00.646902 ABI Blend
+0:00:00.650504 GLM
+0:00:05.863359 map elements
+0:00:05.863645 labels
+0:00:39.680842 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G41
+2019-06-19 09:56:14.597555
+0:00:00.617472 ABI Blend
+0:00:00.621933 GLM
+0:00:06.433616 map elements
+0:00:06.433925 labels
+0:00:40.599651 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G41
+2019-06-19 09:56:55.290172
+0:00:00.583767 ABI Blend
+0:00:00.587461 GLM
+0:00:06.576199 map elements
+0:00:06.576504 labels
+0:00:40.561269 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G41
+2019-06-19 09:57:35.937204
+0:00:00.603517 ABI Blend
+0:00:00.607173 GLM
+0:00:06.858114 map elements
+0:00:06.858425 labels
+0:00:40.904724 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G41
+2019-06-19 09:58:16.936086
+0:00:00.642173 ABI Blend
+0:00:00.646623 GLM
+0:00:07.766427 map elements
+0:00:07.766728 labels
+0:00:41.903663 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G41
+2019-06-19 09:58:58.928830
+0:00:00.628420 ABI Blend
+0:00:00.632777 GLM
+0:00:07.932208 map elements
+0:00:07.932510 labels
+0:00:41.234180 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G41
+2019-06-19 09:59:40.264379
+0:00:00.646927 ABI Blend
+0:00:00.650973 GLM
+0:00:08.901333 map elements
+0:00:08.901623 labels
+0:00:42.692163 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G41
+2019-06-19 10:00:23.046838
+0:00:00.605079 ABI Blend
+0:00:00.609166 GLM
+0:00:08.862557 map elements
+0:00:08.862869 labels
+0:00:42.843839 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G41
+2019-06-19 10:01:05.982327
+0:00:00.569836 ABI Blend
+0:00:00.573960 GLM
+0:00:09.270088 map elements
+0:00:09.270401 labels
+0:00:43.142318 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G41
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701451532_e20191701454305_c20191701454422.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:12:52.731248
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412011340_e20191412014113_c20191412014222.nc
-2019-05-21 15:46:25.632998
-0:00:00.524962 ABI Blend
-0:00:00.534048 GLM
-0:00:05.470800 map elements
-0:00:05.471126 labels
-0:00:44.624706 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G11
-2019-05-21 15:47:10.343789
-0:00:00.545732 ABI Blend
-0:00:00.554904 GLM
-0:00:06.352509 map elements
-0:00:06.352815 labels
-0:00:45.407561 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G11
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412016340_e20191412019113_c20191412019229.nc
+File date: 2019-06-19 14:53:11.878798
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701451532_e20191701454305_c20191701454422.nc
+2019-06-19 09:54:54.574566
+0:00:00.703031 ABI Blend
+0:00:00.706939 GLM
+0:00:05.696792 map elements
+0:00:05.697109 labels
+0:00:39.664137 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G51
+2019-06-19 09:55:34.315060
+0:00:00.513081 ABI Blend
+0:00:00.516730 GLM
+0:00:05.812526 map elements
+0:00:05.812821 labels
+0:00:39.731820 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G51
+2019-06-19 09:56:14.126928
+0:00:00.515108 ABI Blend
+0:00:00.518211 GLM
+0:00:06.435725 map elements
+0:00:06.436025 labels
+0:00:40.621602 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G51
+2019-06-19 09:56:54.829621
+0:00:00.566520 ABI Blend
+0:00:00.570560 GLM
+0:00:06.640108 map elements
+0:00:06.640417 labels
+0:00:40.697196 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G51
+2019-06-19 09:57:35.606826
+0:00:00.594686 ABI Blend
+0:00:00.598447 GLM
+0:00:06.914102 map elements
+0:00:06.914401 labels
+0:00:41.075908 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G51
+2019-06-19 09:58:16.761944
+0:00:00.645673 ABI Blend
+0:00:00.649994 GLM
+0:00:07.852696 map elements
+0:00:07.852985 labels
+0:00:41.730474 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G51
+2019-06-19 09:58:58.568897
+0:00:00.671740 ABI Blend
+0:00:00.675620 GLM
+0:00:08.127083 map elements
+0:00:08.127380 labels
+0:00:41.473006 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G51
+2019-06-19 09:59:40.119678
+0:00:00.687838 ABI Blend
+0:00:00.691393 GLM
+0:00:09.028884 map elements
+0:00:09.029181 labels
+0:00:42.878099 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G51
+2019-06-19 10:00:23.085746
+0:00:00.607862 ABI Blend
+0:00:00.611648 GLM
+0:00:08.923880 map elements
+0:00:08.924176 labels
+0:00:43.139222 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G51
+2019-06-19 10:01:06.312696
+0:00:00.579752 ABI Blend
+0:00:00.583897 GLM
+0:00:09.311444 map elements
+0:00:09.311757 labels
+0:00:43.035357 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G51
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701411532_e20191701414305_c20191701414424.nc
 
    Gamma correction: 0.4
 
    contrast correction: 125
-File date: 2019-05-21 20:17:52.729526
-Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190521/OR_ABI-L2-MCMIPC-M6_G16_s20191412016340_e20191412019113_c20191412019229.nc
-2019-05-21 15:46:24.035175
-0:00:00.497851 ABI Blend
-0:00:00.506885 GLM
-0:00:06.138567 map elements
-0:00:06.138893 labels
-0:00:45.302978 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PROSPECT/G16
-2019-05-21 15:47:09.422619
-0:00:00.510572 ABI Blend
-0:00:00.519385 GLM
-0:00:06.417287 map elements
-0:00:06.417587 labels
-0:00:45.403181 saved
-Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-05-21/2000/PONCHO/G16
+File date: 2019-06-19 14:13:11.865857
+Fetching: /uufs/chpc.utah.edu/common/home/horel-group7/Pando/GOES16/ABI-L2-MCMIPC/20190619/OR_ABI-L2-MCMIPC-M6_G16_s20191701411532_e20191701414305_c20191701414424.nc
+2019-06-19 09:54:54.609071
+0:00:00.694645 ABI Blend
+0:00:00.698502 GLM
+0:00:05.645941 map elements
+0:00:05.646258 labels
+0:00:40.074492 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/BYLAS/G11
+2019-06-19 09:55:34.765977
+0:00:00.652472 ABI Blend
+0:00:00.656168 GLM
+0:00:05.916148 map elements
+0:00:05.916434 labels
+0:00:40.161032 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/MOUNTAIN/G11
+2019-06-19 09:56:15.017071
+0:00:00.604440 ABI Blend
+0:00:00.608009 GLM
+0:00:06.176086 map elements
+0:00:06.176395 labels
+0:00:40.442615 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ELK/G11
+2019-06-19 09:56:55.548018
+0:00:00.581706 ABI Blend
+0:00:00.585210 GLM
+0:00:06.820133 map elements
+0:00:06.820432 labels
+0:00:41.274686 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/HELLS_GATE/G11
+2019-06-19 09:57:36.910878
+0:00:00.555863 ABI Blend
+0:00:00.559599 GLM
+0:00:06.722221 map elements
+0:00:06.722531 labels
+0:00:41.574069 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/WOODBURY/G11
+2019-06-19 09:58:18.579825
+0:00:00.552497 ABI Blend
+0:00:00.555929 GLM
+0:00:07.554376 map elements
+0:00:07.554682 labels
+0:00:41.972736 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/JORDAN/G11
+2019-06-19 09:59:00.638081
+0:00:00.582546 ABI Blend
+0:00:00.586432 GLM
+0:00:07.768714 map elements
+0:00:07.769009 labels
+0:00:41.356100 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/DAIRY/G11
+2019-06-19 09:59:42.083725
+0:00:00.582658 ABI Blend
+0:00:00.586867 GLM
+0:00:08.318754 map elements
+0:00:08.319052 labels
+0:00:42.531020 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/ROARING/G11
+2019-06-19 10:00:24.708997
+0:00:00.562363 ABI Blend
+0:00:00.565714 GLM
+0:00:08.646612 map elements
+0:00:08.646916 labels
+0:00:42.764251 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/LONE_MOUNTAIN/G11
+2019-06-19 10:01:07.569294
+0:00:00.560531 ABI Blend
+0:00:00.564012 GLM
+0:00:09.089999 map elements
+0:00:09.090304 labels
+0:00:42.845217 saved
+Saved: /uufs/chpc.utah.edu/common/home/u0553130/public_html/oper/HRRR_fires/2019-06-19/1400/COLDWATER/G11

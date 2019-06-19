@@ -28,7 +28,7 @@ from BB_basemap.draw_maps import draw_CONUS_cyl_map
 from BB_GOES16.get_ABI import get_GOES16_truecolor, get_GOES16_firetemperature, file_nearest
 from BB_GOES16.get_GLM import get_GLM_files_for_ABI, accumulate_GLM
 
-def remove_old_fires(keep_days=10):
+def remove_old_fires(keep_days=3):
     """
     Remove the directories and images for three days ago.
     """
@@ -244,6 +244,7 @@ def draw_fires_on_map():
     return location
 
 if __name__ == '__main__':
+    remove_old_fires()
     write_HRRR_fires_HTML()
     l = draw_fires_on_map()
     
