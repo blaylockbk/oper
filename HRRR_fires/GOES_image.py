@@ -32,7 +32,7 @@ mpl.rcParams['legend.fontsize'] = 8
 mpl.rcParams['legend.framealpha'] = .75
 mpl.rcParams['legend.loc'] = 'best'
 mpl.rcParams['savefig.bbox'] = 'tight'
-mpl.rcParams['savefig.dpi'] = 100
+mpl.rcParams['savefig.dpi'] = 50
 mpl.rcParams['savefig.transparent'] = False
 mpl.rcParams['figure.max_open_warning'] = 30
 

@@ -78,7 +78,7 @@ print('Make %s Maps (this takes a while if location_dic has a lot of locations)'
 for name, loc in location.items():
     FILE = './saved_map_objects/%s.npy' % name
     if os.path.exists(FILE):
-        m = np.load(FILE).item()
+        m = np.load(FILE, allow_pickle=True).item()
         print('loaded %s map from file' % name)
     else:
         center = (loc['latitude'], loc['longitude'])

@@ -30,6 +30,10 @@ limit coredumpsize 0
 cd /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf/
 
 module load bbanaconda3
+# Below is to use conda correctly
+source "/uufs/chpc.utah.edu/common/home/u0553130/anaconda3/etc/profile.d/conda.csh"
+conda activate pyBKB_v3
+
 python /uufs/chpc.utah.edu/common/home/u0553130/oper/HRRR_golf/HRRR_golf.py
 
 echo Begin: $dateStart
