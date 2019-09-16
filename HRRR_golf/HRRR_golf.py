@@ -150,6 +150,7 @@ for name in location:
 
 
 ## 5) Check for extreme values and send email alert
+''' # Turned off because Brian is leaving the U
 try:
     for warn in ['UKBKB', 'KSLC']:
         wind_warning(location, P_wind, warn)
@@ -157,7 +158,7 @@ try:
 except:
     print('(warnings did not work for some reason)')
     pass
-
+'''
 
 ## 6) Create a figure for each location and add permenant elements
 # NOTE: Keys in the 'fig' dictionary for each location:
